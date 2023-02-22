@@ -35,6 +35,9 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 
 #include <cmath>
 
+# include <textfrog.h>
+extern	textfrog tfg;
+
 using namespace std;
 
 namespace {
@@ -302,7 +305,6 @@ bool Dialog::Click(int x, int y, int clicks)
 }
 
 
-
 // Common code from all three constructors:
 void Dialog::Init(const string &message, Truncate truncate, bool canCancel, bool isMission)
 {
@@ -316,7 +318,7 @@ void Dialog::Init(const string &message, Truncate truncate, bool canCancel, bool
 	text.SetWrapWidth(WIDTH - 20);
 	text.SetFont(FontSet::Get(14));
 	text.SetTruncate(truncate);
-
+//	tfg_call ( tfg , "mylog" , 1,  message.c_str() ) ;// tfg_flushLog ( ) ;
 	text.Wrap(message);
 
 	// The dialog with no extenders is 80 pixels tall. 10 pixels at the top and

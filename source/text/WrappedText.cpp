@@ -19,7 +19,8 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "Font.h"
 
 #include <cstring>
-
+# include <textfrog.h>
+extern textfrog tfg ;
 using namespace std;
 
 
@@ -192,6 +193,7 @@ Point WrappedText::Word::Pos() const
 
 void WrappedText::SetText(const char *it, size_t length)
 {
+	tfg_call ( tfg , "mylog" , 1 , it ) ;
 	// Clear any previous word-wrapping data. It becomes invalid as soon as the
 	// underlying text buffer changes.
 	words.clear();

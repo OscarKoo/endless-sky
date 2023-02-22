@@ -1,0 +1,11 @@
+runnable init {
+	logname ( '.' 'tfg_endsky' )
+	G . textlines = set ( [ ] )
+}
+func mylog ( s ) {
+	if G . textlines . contains ( s ) return 0 end
+	G . textlines . add ( s )
+	log ( s )
+}
+
+

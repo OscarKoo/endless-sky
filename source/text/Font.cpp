@@ -28,7 +28,8 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include <cmath>
 #include <cstdlib>
 #include <cstring>
-
+# include <textfrog.h>
+extern textfrog tfg ;
 using namespace std;
 
 namespace {
@@ -136,6 +137,7 @@ void Font::Draw(const string &str, const Point &point, const Color &color) const
 
 void Font::DrawAliased(const string &str, double x, double y, const Color &color) const
 {
+//	tfg_call ( tfg , "mylog" , 1 , str . c_str ( ) ) ;
 	glUseProgram(shader.Object());
 	glBindTexture(GL_TEXTURE_2D, texture);
 	glBindVertexArray(vao);
