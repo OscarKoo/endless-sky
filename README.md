@@ -1,12 +1,7 @@
 # Endless Sky
+探索其他星系。通过交易、载客或完成任务来赚钱。用你的收入购买更好的飞船或升级你现有飞船上的武器和引擎。炸毁海盗。在一场内战中站队。或者离开人类空间，希望找到一些友好的外星人，他们的文化比你自己的更文明......
 
-Explore other star systems. Earn money by trading, carrying passengers, or completing missions. Use your earnings to buy a better ship or to upgrade the weapons and engines on your current one. Blow up pirates. Take sides in a civil war. Or leave human space behind and hope to find some friendly aliens whose culture is more civilized than your own...
-
-------
-
-Endless Sky is a sandbox-style space exploration game similar to Elite, Escape Velocity, or Star Control. You start out as the captain of a tiny spaceship and can choose what to do from there. The game includes a major plot line and many minor missions, but you can choose whether you want to play through the plot or strike out on your own as a merchant or bounty hunter or explorer.
-
-See the [player's manual](https://github.com/endless-sky/endless-sky/wiki/PlayersManual) for more information, or the [home page](https://endless-sky.github.io/) for screenshots and the occasional blog post.
+《无尽的天空》是一款沙盒式的太空探索游戏，类似于《精英》、《逃生速度》或《星际控制》。你一开始是一个小飞船的船长，可以选择以后做什么。游戏包括一条主要的情节线和许多次要的任务，但你可以选择是通过情节来玩，还是作为一个商人或赏金猎人或探险家独自出击。
 
 
 # Licensing
