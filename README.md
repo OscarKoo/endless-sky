@@ -1,33 +1,18 @@
 # Endless Sky
+探索其他星系。通过交易、载客或完成任务来赚钱。用你的收入购买更好的飞船或升级你现有飞船上的武器和引擎。炸毁海盗。在一场内战中站队。或者离开人类空间，希望找到一些友好的外星人，他们的文化比你自己的更文明......
 
-Explore other star systems. Earn money by trading, carrying passengers, or completing missions. Use your earnings to buy a better ship or to upgrade the weapons and engines on your current one. Blow up pirates. Take sides in a civil war. Or leave human space behind and hope to find some friendly aliens whose culture is more civilized than your own...
+《无尽的天空》是一款沙盒式的太空探索游戏，类似于《精英》、《逃生速度》或《星际控制》。你一开始是一个小飞船的船长，可以选择以后做什么。游戏包括一条主要的情节线和许多次要的任务，但你可以选择是通过情节来玩，还是作为一个商人或赏金猎人或探险家独自出击。
 
-------
-
-Endless Sky is a sandbox-style space exploration game similar to Elite, Escape Velocity, or Star Control. You start out as the captain of a tiny spaceship and can choose what to do from there. The game includes a major plot line and many minor missions, but you can choose whether you want to play through the plot or strike out on your own as a merchant or bounty hunter or explorer.
-
-See the [player's manual](https://github.com/endless-sky/endless-sky/wiki/PlayersManual) for more information, or the [home page](https://endless-sky.github.io/) for screenshots and the occasional blog post.
-
-# Installing the game
-Official releases of Endless Sky are available as direct downloads from [GitHub](https://github.com/endless-sky/endless-sky/releases) and on [Steam](https://store.steampowered.com/app/404410/Endless_Sky/). A PPA is available for [Ubuntu](https://launchpad.net/~mzahniser/+archive/ubuntu/endless-sky). Other package managers may also include the game, though the specific version provided may not be up-to-date.
-
-## System Requirements
-Endless Sky has very minimal system requirements, meaning most systems should be able to run the game. The most restrictive requirement is likely that your device must support at least OpenGL 3.
-
-|| Minimum | Recommended |
-|---|----:|----:|
-|RAM | 500 MB | 1 GB |
-|Graphics | OpenGL 3.0 | OpenGL 3.3 |
-|Storage Free | 250 MB | 1 GB |
-
-## Building from source
-Most development is done on Linux and Windows, using CMake ([build instructions](readme-cmake.md)) to compile the project. For those wishing to use an IDE, project files are provided for [Code::Blocks](https://www.codeblocks.org/) to simplify the project setup, and other IDEs are supported through their respective CMake integration. [SCons](https://scons.org/) was the primary build tool up until 0.9.16, and some files and information continue to be available for it.
-For full installation instructions, consult the [Build Instructions](https://github.com/endless-sky/endless-sky/blob/master/readme-developer.md) readme.
-
-# Contributing
-As a free and open source game, Endless Sky is the product of many peoples' work. Contributions of artwork, storylines, and other writing are most in-demand, though there is a loosely defined [roadmap](https://github.com/endless-sky/endless-sky/wiki/DevelopmentRoadmap). Those who wish to [contribute](CONTRIBUTING.md) are encouraged to review the [wiki](https://github.com/endless-sky/endless-sky/wiki), and to post in the [community-run discord](https://discord.gg/ZeuASSx) beforehand. Those who prefer to use Steam can use its [discussion rooms](https://steamcommunity.com/app/404410/discussions/) as well. For those who do not wish to use either discord or steam, we do have access to [github discussions](https://github.com/endless-sky/endless-sky/discussions), although these are quite new and don't have a lot of traffic yet.
-
-Endless Sky's main discussion and development area was once [Google Groups](https://groups.google.com/g/endless-sky), but due to factors outside our control, it is now inaccessible to new users.
 
 # Licensing
 Endless Sky is a free, open source game. The [source code](https://github.com/endless-sky/endless-sky/) is available under the GPL v3 license, and all the artwork is either public domain or released under a variety of Creative Commons (and similarly permissive) licenses. (To determine the copyright status of any of the artwork, consult the [copyright file](https://github.com/endless-sky/endless-sky/blob/master/copyright).)
+
+# neoe changes
+
+显然，ES不是一个无脑射击的游戏。因为我才玩就发现台词是有文采的，读起来也很有意思。前提是你的英语
+必须要达到8级以上。我已经放弃了精通外语的野心。
+
+所以第一个修改点是把台词输出到log文件里，然后手工用我刚发现的翻译质量不错的 https://www.deepl.com/translator 来翻译一下。
+
+下一个也许是汉化，有前人做了少量的工作。首先我要玩一下是否好玩。只有对自己来说好玩的游戏才会去汉化的。
+
