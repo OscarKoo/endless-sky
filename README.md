@@ -9,6 +9,7 @@ Endless Sky is a free, open source game. The [source code](https://github.com/en
 
 # neoe changes
 
+## 1 log invade
 显然，ES不是一个无脑射击的游戏。因为我才玩就发现台词是有文采的，读起来也很有意思。前提是你的英语
 必须要达到8级以上。我已经放弃了精通外语的野心。
 
@@ -16,3 +17,8 @@ Endless Sky is a free, open source game. The [source code](https://github.com/en
 
 下一个也许是汉化，有前人做了少量的工作。首先我要玩一下是否好玩。只有对自己来说好玩的游戏才会去汉化的。
 
+## 2 引擎汉化
+汉化的文本量还是比较大的。我没有全做。只演示了一下。个别地方还需要微调。
+
+![ss1](screenshot/lehmeisb_s.webp)
+![ss2](screenshot/lehmemyn_s.webp)
