@@ -1,7 +1,7 @@
-Welcome to Endless Sky!
+欢迎来到无尽天空!
 version 0.10.1-alpha
 
-The player's manual and other
+玩家手册 and other
 resources are available at:
 https://endless-sky.github.io
 
@@ -16,7 +16,7 @@ artwork, or programming, visit:
 Creator and Lead Programmer
   Michael Zahniser
 
-Developers
+开发者
   Amazinite
   Anarchist2
   Benjamin Hauch

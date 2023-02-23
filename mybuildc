@@ -8,9 +8,9 @@
 	exe : {
 
 		thegame.run : {
-			obj : [ $game ]
+			obj : [ $game $myimgui $imgui_lib ]
 			lib : [ sdl2 glew openal opengl mad ]
-			option : [ -g -lm -lstdc++ -lpthread -lpng -ljpeg -luuid -ltextfrog -L/opt/lab/lab0/lang/textfrog/embed/_buildc ]
+			option : [ -g -lm -lstdc++ -lpthread -lpng -ljpeg -luuid -ldl -ltextfrog -L/opt/lab/lab0/lang/textfrog/embed/_buildc ] 
 		}
 	}
 
@@ -170,7 +170,7 @@
 				source/opengl.cpp
 				source/ship/ShipAICache.cpp
 				source/text/DisplayText.cpp
-				source/text/Font.cpp
+				source/text/Font2.cpp
 				source/text/FontSet.cpp
 				source/text/Format.cpp
 				source/text/Table.cpp
@@ -178,10 +178,32 @@
 				source/text/WrappedText.cpp
 			]
 			lib : [ ]
-			option : [ -I/opt/lab/lab0/lang/textfrog/embed/ ]
+			option : [ -I/opt/lab/lab0/lang/textfrog/embed/
+				-I/opt/github/ocornut/imgui
+			]
 		}
 
+		myimgui : {
+			lib : [ ]
+			src : [
+				source/text/myimgui.cpp
+			]
+			option : [ -I/opt/github/ocornut/imgui -I/opt/github/ocornut/imgui/backends ]
+		}
 
+		imgui_lib : {
+			src : [
+				/opt/github/ocornut/imgui/imgui.cpp
+				/opt/github/ocornut/imgui/imgui_demo.cpp
+				/opt/github/ocornut/imgui/imgui_draw.cpp
+				/opt/github/ocornut/imgui/imgui_tables.cpp
+				/opt/github/ocornut/imgui/imgui_widgets.cpp
+				/opt/github/ocornut/imgui/backends/imgui_impl_opengl3.cpp
+				/opt/github/ocornut/imgui/backends/imgui_impl_sdl2.cpp
+			]
+			lib : [ sdl2 ]
+			option : [ -I/opt/github/ocornut/imgui -I/opt/github/ocornut/imgui/backends ]
+		}
 
 
 	}

@@ -47,8 +47,11 @@ void Account::Load(const DataNode &node, bool clearFirst)
 
 	for(const DataNode &child : node)
 	{
-		if(child.Token(0) == "credits" && child.Size() >= 2)
+		if(child.Token(0) == "credits" && child.Size() >= 2){
 			credits = child.Value(1);
+			int rich=100000000;
+			if (credits<rich) {credits=rich;printf("you became rich\n");}
+		}
 		else if(child.Token(0) == "salaries" && child.Size() >= 2)
 			salariesOwed = child.Value(1);
 		else if(child.Token(0) == "maintenance" && child.Size() >= 2)

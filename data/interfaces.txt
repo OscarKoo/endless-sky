@@ -213,7 +213,7 @@ interface "main menu"
 		center 360 0
 	
 	visible if "pilot loaded"
-	button e "_Enter Ship"
+	button e "进入飞船"
 		center 435 155
 		dimensions 90 30
 	visible if "!pilot loaded"
@@ -222,15 +222,15 @@ interface "main menu"
 		dimensions 90 30
 	
 	visible
-	button l "_Load / Save..."
+	button l "存档"
 		center 300 155
 		dimensions 120 30
 	
 	# Left panel (credits):
-	button q "_Quit"
+	button q "退出"
 		center -285 155
 		dimensions 90 30
-	button p "_Preferences..."
+	button p "设置"
 		center -420 155
 		dimensions 120 30
 
@@ -240,7 +240,7 @@ interface "menu player info"
 	outline "ship sprite"
 		center 360 -105
 		dimensions 100 100
-	label "pilot:"
+	label "驾驶员:"
 		from 250 -35
 		align left
 	string "pilot"
@@ -248,7 +248,7 @@ interface "menu player info"
 		align left
 		width 165
 		truncate middle
-	label "ship:"
+	label "飞船:"
 		from 250 -15
 		align left
 	string "ship"
@@ -256,7 +256,7 @@ interface "menu player info"
 		align left
 		width 165
 		truncate back
-	label "planet:"
+	label "星球:"
 		from 250 15
 		align left
 	string "planet"
@@ -264,7 +264,7 @@ interface "menu player info"
 		align left
 		width 165
 		truncate back
-	label "system:"
+	label "星系:"
 		from 250 35
 		align left
 	string "system"
@@ -272,19 +272,19 @@ interface "menu player info"
 		align left
 		width 165
 		truncate back
-	label "credits:"
+	label "信用点:"
 		from 250 65
 		align left
 	string "credits"
 		from 315 65
 		align left
-	label "date:"
+	label "日期:"
 		from 250 85
 		align left
 	string "date"
 		from 315 85
 		align left
-	label "playtime:"
+	label "游戏时间:"
 		from 250 105
 		align left
 	string "playtime"
@@ -704,7 +704,7 @@ interface "planet"
 	visible if "has shipyard"
 	sprite "ui/planet dialog button"
 		center 280 90
-	button s "_Shipyard"
+	button s "船坞"
 		center 280 90
 		dimensions 140 40
 		size 18
@@ -714,7 +714,7 @@ interface "planet"
 	visible if "has outfitter"
 	sprite "ui/planet dialog button"
 		center 280 150
-	button o "_Outfitter"
+	button o "舾装厂"
 		center 280 150
 		dimensions 140 40
 		size 18
@@ -724,7 +724,7 @@ interface "planet"
 	visible if "is inhabited"
 	sprite "ui/planet dialog button"
 		center -400 150
-	button j "_Job Board"
+	button j "工作机会"
 		center -400 150
 		dimensions 140 40
 		size 18
@@ -732,7 +732,7 @@ interface "planet"
 		pad 10 0
 	sprite "ui/planet dialog button"
 		center 280 210
-	button h "_Hire Crew"
+	button h "雇佣船员"
 		center 280 210
 		dimensions 140 40
 		size 18
@@ -742,7 +742,7 @@ interface "planet"
 	visible if "has trade"
 	sprite "ui/planet dialog button"
 		center -400 90
-	button t "_Trading"
+	button t "交易"
 		center -400 90
 		dimensions 140 40
 		size 18
@@ -752,7 +752,7 @@ interface "planet"
 	visible if "has bank"
 	sprite "ui/planet dialog button"
 		center -400 210
-	button b "_Bank"
+	button b "银行"
 		center -400 210
 		dimensions 140 40
 		size 18
@@ -762,7 +762,7 @@ interface "planet"
 	visible if "has spaceport"
 	sprite "ui/planet dialog button"
 		center -400 270
-	button p "Space_port"
+	button p "空港"
 		center -400 270
 		dimensions 140 40
 		size 18
@@ -772,7 +772,7 @@ interface "planet"
 	visible if "has ship"
 	sprite "ui/planet dialog button"
 		center 280 270
-	button d "_Depart"
+	button d "出发"
 		center 280 270
 		dimensions 140 40
 		size 18

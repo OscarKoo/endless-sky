@@ -4763,10 +4763,10 @@ planet Zenith
 planet Zug
 	attributes factory farming rim
 	landscape land/city4
-	description `Zug is a pleasant world of rolling hills, fertile fields, and a few small oceans. Hundreds of millions of people live here, with more immigrants arriving every day, almost faster than the construction industry can keep up with them. In addition to the larger cities, many people live in smaller farming villages, making this one of the few worlds in the region that is truly self-sufficient both in industry and in agriculture.`
-	description `	The largest industry on Zug is Southbound Shipyards, which focuses on designing well-defended merchant ships to survive the pirates that are so common here.`
-	spaceport `The spaceport of Zug has been growing by amalgamation for centuries. At its core is the "Old Port," a set of quaint and rudimentary shops and warehouses. The landing pads for the Old Port were torn up to make room for what the locals call "The Port," a set of buildings that were constructed a century ago, with bolder architecture and more modern design.`
-	spaceport `	Some distance away is the "New Port," a towering structure with robotic cargo lifts and large hangars for more expensive ships. Meanwhile, plans are apparently underway for an expansion of the New Port. You can't help but wonder what the new expansion will be named.`
+	description `楚格是一个宜人的世界，有起伏的山丘，肥沃的田野，还有一些小海洋。数以亿计的人生活在这里，每天都有更多的移民到来，几乎比建筑业的发展速度还要快。除了较大的城市外，许多人居住在较小的农业村落，使这里成为该地区少数几个在工业和农业方面真正自给自足的世界之一。`
+	description `	楚格岛最大的产业是南行造船厂，它主要是设计防御性强的商船，以在这里常见的海盗中生存。`
+	spaceport `几个世纪以来，楚格的太空港一直在合并中成长。它的核心是 "老港"，是一套古朴而简陋的商店和仓库。旧港的登陆台被拆毁，以便为当地人所称的 "港口 "腾出空间，这是一套建于一个世纪前的建筑，其建筑风格更大胆，设计更现代。`
+	spaceport `	远处是 "新港"，这是一个高耸的建筑，有机器人货物升降机和大型机库，供更昂贵的船只使用。同时，显然正在计划对新港进行扩建。你不禁要问，这个新的扩建工程将被命名为什么。`
 	shipyard "Basic Ships"
 	shipyard "Southbound Basics"
 	shipyard "Southbound Advanced"
