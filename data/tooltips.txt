@@ -132,7 +132,7 @@ tip "corrosion resistance heat:"
 	`Heat generated per second when resisting corrosion damage.`
 
 tip "cost:"
-	`Cost, in credits. If you have sold any used (depreciated) items today, you can buy them back for the same price you sold them for.`
+	`成本，以信用为单位。如果你今天卖掉了任何用过的（折旧的）物品，你可以用卖掉的同样价格买回来。`
 
 tip "discharge protection:"
 	`Protection against weapons that have a discharge effect. If you add more than one outfit with this attribute, each additional one is less effective: a total value of 1 results in a 1 percent reduction in discharge damage, while a total value of 11 only results in a 10 percent reduction.`
@@ -240,7 +240,7 @@ tip "hull (repair):"
 	`Total hull strength and repair rate (per second). The smallest of ships are disabled when their hull strength drops below about 45%, while very large ships are disabled at close to 10%.`
 
 tip "hull:"
-	`Total hull strength. Ships with a higher hull strength are able to take more damage as a proportion of their total strength before being disabled; the smallest of ships are disabled when their hull strength drops below about 45%, while very large ships are disabled at close to 10%.`
+	`船体总强度。拥有较高船体强度的船只在丧失能力之前能够承受更多的伤害，作为其总强度的比例；最小的船只在其船体强度下降到45%左右时丧失能力，而非常大的船只在接近10%时丧失能力。`
 
 tip "hull energy:"
 	`Energy consumed per second when repairing the hull.`
@@ -498,10 +498,10 @@ tip "shield generation multiplier:"
 	`Modifies the amount of shield points recharged per second by the given factor.`
 
 tip "shields (charge):"
-	`Total shield strength and regeneration rate (per second).`
+	`总的护盾强度和再生率（每秒）。`
 
 tip "shields:"
-	`Total shield strength. Most weapons cannot damage your hull until your shields are depleted. Some weapon effects, such as heat damage, become more severe once shields are down.`
+	`总的护盾强度。在你的护盾耗尽之前，大多数武器无法损害你的船体。一些武器的效果，如热伤害，一旦护盾下降就会变得更加严重`
 
 tip "shield delay:"
 	`How many seconds it takes for shield generation to begin after taking shield damage.`

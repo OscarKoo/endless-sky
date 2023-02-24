@@ -85,14 +85,14 @@ int Font :: DrawWrap ( const string & str , double x , double y , const Color & 
 	}
 	x = x + screenWidth / 2 ;
 	y = y - height + 3 + screenHeight / 2 ;
-	//	ImVec2 pos = ImVec2 ( x , y ) ;
-	// {
-	//		ostringstream out ;
-	//		out << "draw [" << str << "] @ " << x << " * " << y << " "
-	//		<< c [ 0 ] << " " << c [ 1 ] << " " << c [ 2 ] << " " << c [ 3 ]
-	//		<< endl ;
-	//		tfg_call ( tfg , "mylog" , 1 , out . str ( ) . c_str ( ) ) ;
-	//	}
+//		ImVec2 pos = ImVec2 ( x , y ) ;
+//	 {
+//			ostringstream out ;
+//			out << "draw [" << str << "] @ " << x << " * " << y << " "
+//			<< c [ 0 ] << " " << c [ 1 ] << " " << c [ 2 ] << " " << c [ 3 ]
+//			<< endl ;
+//			tfg_call ( tfg , "mylog" , 1 , out . str ( ) . c_str ( ) ) ;
+//		}
 	ImVec2 text_size = ImGui::CalcTextSize(text , text + str . length ( ), false, wrap_width);
 	ImGui :: GetForegroundDrawList ( ) -> AddText ( NULL , 0.0f ,
 		ImVec2 ( x , y ) , ImColor ( c [ 0 ]   , c [ 1 ]   , c [ 2 ]   , 1.0f ) ,

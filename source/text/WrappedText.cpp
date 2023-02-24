@@ -20,6 +20,7 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 
 # include <cstring>
 # include <textfrog.h>
+# include <imgui.h>
 extern textfrog tfg ;
 using namespace std ;
 
@@ -105,7 +106,7 @@ int WrappedText :: Height ( ) const {
 
 // Draw the text.
 void WrappedText :: Draw ( const Point & topLeft , const Color & color )  {
-	height = font -> DrawWrap ( text , topLeft . X ( ) , topLeft . Y ( ) , color , wrapWidth ) ;
+	font -> DrawWrap ( text , topLeft . X ( ) , topLeft . Y ( ) , color , wrapWidth ) ;
 }
 
 size_t WrappedText :: Word :: Index ( ) const {
@@ -121,9 +122,11 @@ void WrappedText :: SetText ( const char * it , size_t length ) {
 	// Clear any previous word-wrapping data. It becomes invalid as soon as the
 	// underlying text buffer changes.
 	words . clear ( ) ;
-
 	// Reallocate that buffer.
 	text . assign ( it , length ) ;
+
+	ImVec2 text_size = ImGui::CalcTextSize(it , it + length, false, wrapWidth);
+	height=text_size.y;
 }
 
 void WrappedText :: Wrap ( ) //empty wrapWidth
