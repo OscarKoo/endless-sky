@@ -179,7 +179,7 @@
 			]
 			lib : [ ]
 			option : [ -I/opt/lab/lab0/lang/textfrog/embed/
-				-I/opt/github/ocornut/imgui
+				-Isource/imgui
 			]
 		}
 
@@ -188,21 +188,21 @@
 			src : [
 				source/text/myimgui.cpp
 			]
-			option : [ -I/opt/github/ocornut/imgui -I/opt/github/ocornut/imgui/backends ]
+			option : [ -Isource/imgui -Isource/imgui/backends ]
 		}
 
 		imgui_lib : {
 			src : [
-				/opt/github/ocornut/imgui/imgui.cpp
-				/opt/github/ocornut/imgui/imgui_demo.cpp
-				/opt/github/ocornut/imgui/imgui_draw.cpp
-				/opt/github/ocornut/imgui/imgui_tables.cpp
-				/opt/github/ocornut/imgui/imgui_widgets.cpp
-				/opt/github/ocornut/imgui/backends/imgui_impl_opengl3.cpp
-				/opt/github/ocornut/imgui/backends/imgui_impl_sdl2.cpp
+				source/imgui/imgui.cpp
+				source/imgui/imgui_demo.cpp
+				source/imgui/imgui_draw.cpp
+				source/imgui/imgui_tables.cpp
+				source/imgui/imgui_widgets.cpp
+				source/imgui/backends/imgui_impl_opengl3.cpp
+				source/imgui/backends/imgui_impl_sdl2.cpp
 			]
 			lib : [ sdl2 ]
-			option : [ -I/opt/github/ocornut/imgui -I/opt/github/ocornut/imgui/backends ]
+			option : [ -Isource/imgui -Iimgui/backends ]
 		}
 
 

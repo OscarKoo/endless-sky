@@ -72,7 +72,7 @@ public:
 	int Height() const;
 
 	// Draw the text.
-	void Draw(const Point &topLeft, const Color &color) const;
+	void Draw(const Point &topLeft, const Color &color) ;
 
 
 private:

@@ -104,8 +104,8 @@ int WrappedText :: Height ( ) const {
 }
 
 // Draw the text.
-void WrappedText :: Draw ( const Point & topLeft , const Color & color ) const {
-	font -> DrawWarp ( text , topLeft . X ( ) , topLeft . Y ( ) , color , wrapWidth ) ;
+void WrappedText :: Draw ( const Point & topLeft , const Color & color )  {
+	height = font -> DrawWarp ( text , topLeft . X ( ) , topLeft . Y ( ) , color , wrapWidth ) ;
 }
 
 size_t WrappedText :: Word :: Index ( ) const {

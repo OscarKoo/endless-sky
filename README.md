@@ -22,3 +22,5 @@ Endless Sky is a free, open source game. The [source code](https://github.com/en
 
 ![ss1](screenshot/lehmeisb_s.webp)
 ![ss2](screenshot/lehmemyn_s.webp)
+![ss3](screenshot/lei3f8ck.webp)
+

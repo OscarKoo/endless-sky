@@ -3326,7 +3326,7 @@ ship "Shuttle"
 	explode "tiny explosion" 10
 	explode "small explosion" 5
 	description "虽然贝特宙斯造船厂也生产其他的船舶模型，但他们的大部分利润来自于航天飞机的销售。这艘多功能的飞船同样可以作为客运或货运信使。它也恰好是你能买到的最便宜的能够进行超空间旅行的飞船。"
-	description `	Shuttles are not designed to withstand combat of any sort, but they are fast and maneuverable enough to get out of harm's way if attacked by a larger, slower ship. Although they are typically unarmed, they have enough space for one weapon, which is the origin of the popular phrase, "as useless as a blaster cannon on a shuttlecraft."`
+	description `	穿梭机的设计不是为了承受任何形式的战斗，但它们的速度和机动性足以让它们在受到更大、更慢的飞船攻击时脱离险境。虽然它们通常没有武器，但它们有足够的空间放置一种武器，这就是流行语 "像穿梭机上的爆破炮一样无用 "的起源。`
 
 
 

@@ -93,7 +93,7 @@ private:
 		Point Center() const;
 		// Draw this paragraph at the given point, and return the point that the
 		// next paragraph below this one should be drawn at.
-		Point Draw(Point point, const Color &color) const;
+		Point Draw(Point point, const Color &color) ;
 
 	private:
 		const Sprite *scene = nullptr;

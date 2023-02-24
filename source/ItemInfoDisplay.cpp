@@ -80,7 +80,7 @@ int ItemInfoDisplay::AttributesHeight() const
 
 
 // Draw each of the panels.
-void ItemInfoDisplay::DrawDescription(const Point &topLeft) const
+void ItemInfoDisplay::DrawDescription(const Point &topLeft)  
 {
 	Rectangle hoverTarget = Rectangle::FromCorner(topLeft, Point(PanelWidth(), DescriptionHeight()));
 	Color color = hoverTarget.Contains(hoverPoint) ? *GameData::Colors().Get("bright") : *GameData::Colors().Get("medium");

@@ -42,7 +42,7 @@ public:
 	int AttributesHeight() const;
 
 	// Draw each of the panels.
-	void DrawDescription(const Point &topLeft) const;
+	void DrawDescription(const Point &topLeft)  ;
 	virtual void DrawAttributes(const Point &topLeft) const;
 	void DrawTooltips() const;
 

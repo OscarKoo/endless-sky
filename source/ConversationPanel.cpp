@@ -136,7 +136,7 @@ void ConversationPanel::Draw()
 		Screen::Left() + MARGIN,
 		Screen::Top() + MARGIN + scroll);
 	// Draw all the conversation text up to this point.
-	for(const Paragraph &it : text)
+	for(  Paragraph &it : text)
 		point = it.Draw(point, gray);
 
 	// Draw whatever choices are being presented.
@@ -199,11 +199,11 @@ void ConversationPanel::Draw()
 	{
 		string label = "0:";
 		int index = 0;
-		for(const auto &it : choices)
+		for(  auto &it : choices)
 		{
 			++label[0];
 
-			const auto &paragraph = it.first;
+			  auto &paragraph = it.first;
 
 			Point center = point + paragraph.Center();
 			Point size(WIDTH, paragraph.Height());
@@ -524,7 +524,7 @@ Point ConversationPanel::Paragraph::Center() const
 
 // Draw this paragraph, and return the point that the next paragraph below it
 // should be drawn at.
-Point ConversationPanel::Paragraph::Draw(Point point, const Color &color) const
+Point ConversationPanel::Paragraph::Draw(Point point, const Color &color)  
 {
 	if(scene)
 	{

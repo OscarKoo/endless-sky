@@ -46,7 +46,7 @@ public:
 	// Draw the given text string, e.g. post-formatting (or without regard to formatting).
 	void Draw(const std::string &str, const Point &point, const Color &color) const;
 	void DrawAliased(const std::string &str, double x, double y, const Color &color) const;
-	void DrawWarp ( const std::string & str , double x , double y , const Color & color, float warpWidth )const;
+	int DrawWarp ( const std::string & str , double x , double y , const Color & color, float warpWidth )const;
 
 	// Determine the string's width, without considering formatting.
 	int Width(const std::string &str, char after = ' ') const;

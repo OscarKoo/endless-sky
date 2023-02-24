@@ -74,7 +74,7 @@ void Font :: Draw ( const string & str , const Point & point , const Color & col
 void Font :: DrawAliased ( const string & str , double x , double y , const Color & color ) const {
 	DrawWarp ( str , x , y , color , 0 ) ;
 }
-void Font :: DrawWarp ( const string & str , double x , double y , const Color & color , float warpWidth ) const {
+int Font :: DrawWarp ( const string & str , double x , double y , const Color & color , float warpWidth ) const {
 	const char * text = str . c_str ( ) ;
 	const float * c = color . Get ( ) ;
 	//	ImVec4 col = ImVec4 ( c [ 0 ] , c [ 1 ] , c [ 2 ] , c [ 3 ] ) ;
@@ -92,7 +92,7 @@ void Font :: DrawWarp ( const string & str , double x , double y , const Color &
 	//		<< endl ;
 	//		tfg_call ( tfg , "mylog" , 1 , out . str ( ) . c_str ( ) ) ;
 	//	}
-	ImGui :: GetForegroundDrawList ( ) -> AddText ( NULL , 0.0f ,
+	return ImGui :: GetForegroundDrawList ( ) -> AddText ( NULL , 0.0f ,
 		ImVec2 ( x , y ) , ImColor ( c [ 0 ] * 255 , c [ 1 ] * 255 , c [ 2 ] * 255 , 255.0f ) ,
 		text , text + str . length ( ) , warpWidth , NULL ) ;
 }
