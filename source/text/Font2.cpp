@@ -33,6 +33,7 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 # include <textfrog.h>
 # include <imgui.h>
 # include <imgui_internal.h>
+# include "myimgui.h"
 # include <ostream>
 extern textfrog tfg ;
 using namespace std ;
@@ -92,9 +93,15 @@ int Font :: DrawWarp ( const string & str , double x , double y , const Color & 
 	//		<< endl ;
 	//		tfg_call ( tfg , "mylog" , 1 , out . str ( ) . c_str ( ) ) ;
 	//	}
-	return ImGui :: GetForegroundDrawList ( ) -> AddText ( NULL , 0.0f ,
+	int h= ImGui :: GetForegroundDrawList ( ) -> AddText ( NULL , 0.0f ,
 		ImVec2 ( x , y ) , ImColor ( c [ 0 ] * 255 , c [ 1 ] * 255 , c [ 2 ] * 255 , 255.0f ) ,
 		text , text + str . length ( ) , warpWidth , NULL ) ;
+	ImGui :: Render ( ) ;
+	myimgui_render();
+	ImGui :: NewFrame ( ) ;
+//	myimgui_framestart();
+//	ImGui :: GetForegroundDrawList ( )->_ResetForNewFrame();
+	return h;
 }
 
 int Font :: Width ( const string & str , char after ) const {
