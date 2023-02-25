@@ -20,10 +20,10 @@ help "bank advanced"
 	`输入一个高于你或银行可用的数字，将默认为最大可用值。例如，输入 "1m "来偿还100,000信贷贷款，如果你有可用的信贷，将完全偿还贷款，而不给予额外的。`
 
 help "basics 1"
-	`Press <View star map> to bring up your map. Select a destination, then close the map and press <Initiate hyperspace jump> to jump. Press <Land on planet / station> to land.`
+	`按<View star map>调出你的地图。选择一个目的地，然后关闭地图，按<Initiate hyperspace jump>进行跳跃。按<Land on planet / station>来降落。`
 
 help "basics 2"
-	`For the main menu, press <Show main menu>. The control key bindings can be viewed and changed in the preferences.`
+	`对于主菜单，按<Show main menu>。控制键的绑定可以在偏好设置中查看和更改。`
 
 help "dead"
 	`呃--哦! 你刚刚死了。对于新船长来说，宇宙可能是一个危险的地方!`
@@ -39,92 +39,92 @@ help "hiring"
 	`乘务员占用了本可用于乘客的空间。`
 
 help "jobs"
-	`Taking on jobs is a safe way to earn money. Special missions are offered in the Spaceport; more mundane jobs are posted on the Job Board. Most special missions are only offered once: if you turn one down, it will not be offered to you again.`
-	`The payment for a job depends on how far you must travel and how much you are carrying. Jobs that have a time limit pay extra, but you are paid nothing if you miss the deadline.`
-	`As you gain a combat reputation, new jobs will become available, including escorting convoys and bounty hunting.`
+	`接手工作是一种安全的赚钱方式。特殊任务在太空港提供；更多的平凡工作则在工作委员会上公布。大多数特殊任务只提供一次：如果你拒绝了一个任务，就不会再提供给你。`
+	`工作的报酬取决于你必须走多远，以及你携带多少东西。有时间限制的任务会有额外的报酬，但如果你错过了最后期限，你将得不到任何报酬。`
+	`当你获得战斗声誉时，新的工作就会出现，包括护送车队和猎取赏金。`
 
 help "lost 1"
-	`There's nothing out here. The only way to get to another star system is by jumping through hyperspace. Unless you are out of fuel, you can jump by pressing <Initiate hyperspace jump>. To select which system you want to jump to, bring up the map by pressing <View star map>.`
-	`At any time, you can return to the main menu by pressing <Show main menu>. All the key controls can be viewed, and changed, in the Preferences.`
+	`这里什么都没有。到另一个星系的唯一方法是通过超空间跳跃。除非你没有燃料了，否则你可以按<Initiate hyperspace jump>进行跳跃。要选择你想跳到哪个星系，按<View star map>调出地图。`
+	`在任何时候，你都可以通过按<Show main menu>回到主菜单。所有的按键控制都可以在首选项中查看，并进行更改。`
 
 help "lost 2"
-	`You seem to be lost. The universe is a big and complicated place, and no one is going to hold your hand out here. You might want to review the key controls (press <Show main menu> to bring up the main menu, then click on "Preferences") to figure out what is going on. There is also a player's manual with much more information. To read it, go to endless-sky.github.io and click on "Manual."`
+	`你似乎迷路了。宇宙是一个大而复杂的地方，没有人会在这里牵着你的手。你可能想查看一下按键控制（按<Show main menu>调出主菜单，然后点击 "偏好"）来弄清楚发生了什么。还有一本玩家手册，里面有更多的信息。要阅读它，请到endless-sky.github.io并点击 "手册"。`
 
 help "lost 3"
-	`The void between the stars is cold and empty. Your ship, a tiny oasis of warmth, drifts alone out here illuminated only by the distant light of cold, uncaring suns. The distances between the stars are vast, beyond what the human mind can grasp; you could spend your whole life drifting out here and never reach another star.`
-	`Or, you could press <Initiate hyperspace jump> to use your hyperdrive. It will get you there a whole lot faster.`
+	`星空之间的虚空是冰冷和空旷的。你的飞船，一个小小的温暖的绿洲，独自漂浮在这里，只被寒冷的、无情的太阳的遥远的光芒照亮。恒星之间的距离是巨大的，超出了人类头脑所能掌握的范围；你可以花一辈子的时间在这里漂流，却永远无法到达另一颗星星。`
+	`或者，你可以按<Initiate hyperspace jump>来使用你的超级驱动器。它能让你更快地到达那里。`
 
 help "lost 4"
-	`Out here in the endless sky, you have the freedom to do whatever you want in your tiny new spaceship. Become the captain of a merchant fleet. Or a bounty hunter. Discover strange alien societies and powerful new technology.`
-	`Or if you want, you can just keep drifting here in empty space. Unless you've been ignoring all these messages, you already know that you can jump to another star system by selecting it in the map (which you bring up by pressing <View star map>), then closing the map and pressing <Initiate hyperspace jump>.`
+	`在这里，在无尽的天空中，你有自由在你小小的新飞船中做你想做的事情。成为一个商船队的船长。或者一个赏金猎人。发现陌生的外星社会和强大的新技术。`
+	`或者如果你愿意，你可以继续在空旷的空间里漂流。除非你忽略了所有这些信息，否则你已经知道你可以跳到另一个星系，方法是在地图上选择它（你按<View star map>就能看到），然后关闭地图，按<Initiate hyperspace jump>。`
 
 help "lost 5"
-	`The hum of your ship's engine is the only sound you hear. As you have traveled farther and farther away from the center of this star system, even the occasional plink of micrometeorites against your hull has stopped. Deep space is utterly quiet and strangely beautiful. A different captain might grow bored out here, but you find yourself content and at peace.`
-	`Or maybe you're just really, really bad at figuring out how to play this game.`
+	`你的飞船引擎的嗡嗡声是你听到的唯一声音。随着你离这个恒星系统的中心越来越远，甚至偶尔微陨石撞击你的船体的叮当声也停止了。深空是完全安静和奇怪的美丽。一个不同的船长可能会在这里感到无聊，但你发现自己很满足，很平静。`
+	`或者，也许你只是真的，真的不善于弄清楚如何玩这个游戏。`
 
 help "lost 6"
-	`You slip deeper and deeper into the zenlike calm of outer space. The Tao which can be spoken is not the true Tao. The game that must be played is not the true game. You let go of all desire: your desire to press <Show main menu> and check the game's preferences to find out how to control your ship. The desire to view the other places you can travel to by pressing <View star map>. You release even the desire to press <Initiate hyperspace jump> and initiate a random hyperjump in whatever direction you are facing in. Enlightenment hovers on the edge of your consciousness, so close you can almost grasp it.`
+	`你在外太空的禅宗般的平静中越陷越深。可以说出来的道不是真正的道。必须玩的游戏不是真正的游戏。你放下了所有的欲望：你想按下<Show main menu>，检查游戏的偏好，找出如何控制你的飞船。你想通过按<View star map>来查看你可以去的其他地方的欲望。你甚至释放了按下<Initiate hyperspace jump>的欲望，在你面对的任何方向启动随机超跳跃。启蒙在你意识的边缘徘徊，如此接近，你几乎可以抓住它。`
 
 # Note to future proofreaders: "vasty nothingness" is a reference to Firefly, see http://signal.serenityfirefly.com/mmx/segment/view.php/2253
 help "lost 7"
-	`The void whispers its secret to your soul: outer space, it says, is not about lasers or explosions. It is not about fighting space pirates or saving the galaxy. No, the true message of the void is the utter loneliness you have found while drifting here: one tiny speck of warmth, insignificant compared to the vasty nothingness between the stars and the trillions upon trillions of souls of proud humans and inscrutable aliens whom you will never meet.`
-	`The inner voice urging you to do something, anything rather than just continuing to drift here, falls silent...`
+	`虚空向你的灵魂低声诉说它的秘密：它说，外太空不是关于激光或爆炸。它不是关于打击太空海盗或拯救银河系。不，虚空的真正信息是你在这里漂流时发现的彻底的孤独：一个微小的温暖斑点，与星星之间令人厌恶的虚无以及数万亿的骄傲的人类和不可捉摸的外星人的灵魂相比，微不足道，你永远不会遇到。`
+	`内心的声音敦促你做一些事情，任何事情，而不是继续在这里漂泊，但却沉默了......`
 
 help "map"
 	`这张地图显示了你所知道的所有星系以及它们之间的超空间联系。你可以通过点击你想去的星系，在地图上绘制一条超空间路线。要启动跳转到该系统，请关闭地图并按<Initiate hyperspace jump>。`
 
 help "map advanced"
-	`As you explore more of the galaxy, the star map will quickly become a very powerful tool. Clicking on a distant system will automatically plot the quickest route to it. You can Shift+click on systems to plot a route between them, or Control+click to select a system without setting a route to it.`
-	`There are many other useful modes the map can be set to. Click on one of the buttons in the lower right corner to learn more.`
+	`随着你对银河系的探索，星图将很快成为一个非常强大的工具。点击一个遥远的系统会自动绘制出前往该系统的最快路线。你可以用Shift+点击系统来绘制它们之间的路线，或者用Control+点击来选择一个系统而不设置前往该系统的路线。`
+	`地图还有许多其他有用的模式可以设置。点击右下角的一个按钮来了解更多。`
 
 help "map advanced ports"
-	`The ports panel shows you where systems with spaceports are, as well as a plethora of other information. Clicking on the name of the system, the government of the system, the lines under the name of each planet, or any trade commodity will color the map differently, the key to which can be seen on the right side of the screen.`
-	`Clicking the name of a planet, or clicking on a planet in the orbit map on the right side of the screen, will show that planet's description if you have visited it already. Clicking a planet on the orbit map will also tell your autopilot to land on that planet after you have arrived at that system at the end of your jump path.`
+	`港口面板显示了有太空港的系统的位置，以及大量的其他信息。点击系统的名称，系统的政府，每个星球名称下的线条，或任何贸易商品，都会给地图涂上不同的颜色，其关键可以在屏幕的右侧看到。`
+	`点击一个星球的名字，或在屏幕右侧的轨道地图上点击一个星球，将显示该星球的描述，如果你已经访问过它。在轨道地图上点击一个星球，也会告诉你的自动驾驶仪在你跳跃路径的终点到达该系统后降落在该星球上。`
 
 help "map advanced shops"
-	`The shipyard and outfitter map panels respectively display the ships and outfits sold on any planets that you have seen. Ships and outfits are displayed in categories which can be collapsed by clicking on the category name. Using Shift+click on a category name will collapse or uncollapse all the categories at once.`
-	`Each ship or outfit can be clicked on, displaying that item's stats while also highlighting any planets where it is sold. Using Shift+click on a ship or outfit after you already have one selected will display that item's stats side by side with the previously selected item.`
+	`船厂和装备者地图面板分别显示你所见过的任何星球上出售的船只和装备。船只和装备按类别显示，可以通过点击类别名称进行折叠。使用Shift+点击类别名称可以一次折叠或取消所有的类别。`
+	`每艘船或装备都可以被点击，显示该物品的统计资料，同时也突出显示任何出售该物品的星球。在你已经选择了一艘飞船或装备后，使用Shift+点击将显示该物品的统计信息与之前选择的物品并排在一起。`
 
 help "multiple ships"
-	`Now that you have more than one ship, while landed on a planet you can reorder the ships in your fleet by clicking and dragging them in the shipyard, outfitter, or player info panel. Ships can also be sorted by clicking on the column headers in the player info panel. You will use the first ship in the list as your flagship. In the player info panel (accessed with <View player info>) you can also "park" a ship on a planet if you want to travel somewhere without it coming with you.`
+	`现在你有了不止一艘船，当你降落在一个星球上时，你可以通过点击和拖动船厂、装备商或玩家信息面板中的船只来重新排列你的舰队。也可以通过点击玩家信息面板中的列标题对飞船进行排序。你将使用列表中的第一艘船作为你的旗舰。在玩家信息面板中（通过<View player info>进入），如果你想去某个地方旅行而不带上飞船，你也可以把飞船 "停 "在一个星球上。`
 
 help "ship info"
-	`The ship info tab lets you view detailed information about ships in your fleet at any time. This includes any information you could see at a shipyard or outfitter, as well as the cargo and passengers distributed among each ship.`
-	`Ships can be renamed in this panel by clicking on the ship's name. While landed on a planet, you are able to change how guns and turrets are arranged by dragging the name of a weapon to another gun or turret location. While in flight, you are able to jettison individual pieces of cargo by clicking on the name of the cargo.`
+	`船只信息标签让你在任何时候都可以查看你的舰队中的船只的详细信息。这包括任何你可以在船厂或舾装厂看到的信息，以及每艘船之间的货物和乘客分布。`
+	`在这个面板上，可以通过点击船只的名字来重新命名船只。当降落在一个星球上时，你能够改变枪支和炮塔的排列方式，把武器的名称拖到另一个枪支或炮塔的位置。在飞行过程中，你可以通过点击货物的名称来丢弃个别货物。`
 
 help "multiple ship controls"
-	`Once you're in space with multiple ships that you own, you can give orders to those escorts. Orders will be given to all selected escorts, or if no escorts are selected then all your escorts will receive the order. Escorts can be selected by either clicking on them in space, clicking the ship icon at the bottom left of the screen, or by clicking and dragging to select a group of escorts in space. The list of escort order keys can be found in the preferences panel.`
-	`Escorts can also be ordered with the mouse. Right-clicking on an empty point in space will order escorts to fly to and hold position at that point, while right-clicking on a hostile ship will order your escorts to focus fire on it, and right-clicking on a friendly target will cause them to follow it.`
-	`Escorts can be saved into control groups by pressing Control+number key. All selected escorts will then be bound to that number key, selecting the group when pressed.`
+	`一旦你和你拥有的多艘飞船进入太空，你就可以向这些护卫队发出命令。命令将发给所有被选中的护卫舰，或者如果没有选中护卫舰，那么你所有的护卫舰都将收到命令。可以通过点击空间中的护卫舰，点击屏幕左下方的舰船图标，或者通过点击和拖动来选择空间中的一组护卫舰。护卫队的命令键列表可以在偏好面板中找到。`
+	`护卫队也可以用鼠标来命令。右键点击空间中的一个空点将命令护卫队飞到该点并保持位置，而右键点击敌方飞船将命令你的护卫队集中火力攻击它，而右键点击友好目标将使他们跟随它。`
+	`护卫队可以通过按Control+number键保存到控制组中。所有被选中的护卫队将被绑定到该数字键上，在按下时选择该组。`
 
 help "navigation"
-	`Welcome to the sky! To travel to another star system, press <View star map> to view your map, and click on the system you want to travel to. Your hyperdrive can only travel along the "links" shown on your map. After selecting a destination, close your map and press <Initiate hyperspace jump> to jump to that system.`
-	`Your ship does not jump until you release the jump key. Once you have escorts, you can hold the key to get them ready to jump, then release it to have them all jump simultaneously.`
-	`When you reach a new system, you can press <Land on planet / station> to land on any inhabited planets that are there.`
-	`Also, don't worry about crashing into asteroids or other ships; your ship will fly safely below or above them.`
+	`欢迎来到天空!要前往另一个星系，按<View star map>查看你的地图，然后点击你要前往的星系。你的超级驱动器只能沿着你地图上显示的 "链接 "行驶。选择好目的地后，关闭你的地图，按<Initiate hyperspace jump>跳到该系统。`
+	`在你释放跳跃键之前，你的飞船不会跳跃。一旦你有护卫队，你可以按住键让他们准备好跳跃，然后释放键让他们同时跳跃。`
+	`当你到达一个新的系统时，你可以按<Land on planet / station>来降落在那里的任何有人居住的星球上。`
+	`另外，不用担心会撞上小行星或其他飞船；你的飞船会在它们下面或上面安全飞行。`
 
 help "outfitter"
-	`Here, you can buy new equipment for your ship. Your ship has a limited amount of "outfit space," and most outfits use up some of that space.`
-	`Some types of outfits have other requirements as well. For example, only some of your outfit space can be used for engines or weapons; this is your ship's "engine capacity" and "weapon capacity." Guns and missile launchers also require a free "gun port," and turrets require a free "turret mount." Also, missiles can only be bought if you have the right launcher installed.`
-	`Use your scroll wheel, or click and drag, to scroll the view.`
-	`As in the trading panel, you can hold down Shift, Control, or Alt to buy 5, 20, or 500 of an outfit at once, or multiple keys for larger amounts.`
+	`在这里，你可以为你的飞船购买新设备。你的飞船有有限的 "装备空间"，大多数装备会占用其中的一些空间。`
+	`一些类型的装备也有其他要求。例如，只有部分装备空间可以用于引擎或武器；这就是你的飞船的 "引擎容量 "和 "武器容量"。火炮和导弹发射器也需要一个免费的 "炮口"，而炮塔需要一个免费的 "炮塔支架"。此外，只有当你安装了合适的发射器时，才能购买导弹。`
+	`使用你的滚轮，或点击并拖动，来滚动视图。`
+	`与交易面板一样，你可以按住Shift、Control或Alt键，一次购买5件、20件或500件装备，或按多个键购买更大的数量。`
 
 help "cargo management"
-	`Sometimes you may want to buy some outfits directly into your cargo hold instead of having them installed. Perhaps a mission has asked you to retrieve some outfits or you want to carry extra ammunition to refill your ships somewhere that does not stock those weapons. To accomplish this, you need to switch out of installation mode into 'purchase to cargo' mode. This can be achieved by Control+clicking on your selected ship to deselect it.`
-	`When you are in 'purchase to cargo' mode, your ship information on the right-hand side will be replaced by information on how much cargo space you currently have available.`
-	`Outfits that are in your cargo hold can be (re)installed at any outfitter without cost.`
+	`有时你可能想把一些装备直接买到你的货舱里，而不是把它们安装起来。也许有一个任务要求你取回一些装备，或者你想携带额外的弹药，在没有这些武器库存的地方补充你的飞船。要做到这一点，你需要从安装模式切换到 "购买到货物 "模式。这可以通过控制+点击你选择的船只来实现，以取消对它的选择。`
+	`当你处于 "购买货物 "模式时，你在右侧的船只信息将被你当前可用的货物空间信息所取代。`
+	`在你的货舱里的装备可以在任何装备商那里（重新）安装，不需要任何费用。`
 
 help "uninstalling and storage"
-	`You can also uninstall outfits directly into planetary storage by selecting the outfit and pressing U. This can be useful for if you want to shuffle outfits between ships, store outfits for future use, or simply try on different outfits. Outfits in storage can also be transferred to cargo when you go to 'purchase to cargo' mode. Outfits that are in planetary storage or cargo can be (re)installed at any outfitter without cost.`
-	`If you sell an outfit at an outfitter, then you can immediately buy it back for the same price that you sold it, so long as you do not leave the planet. This means that you do not necessarily need to worry about uninstalling outfits into planetary storage when you are changing outfits around.`
+	`你也可以通过选择装备并按下U键，直接将装备卸载到行星仓库中。这对于你想在不同的飞船之间洗刷装备，储存装备以备将来使用，或者只是尝试不同的装备，都是很有用的。当你进入 "购买货物 "模式时，储存的服装也可以被转移到货物中。存放在行星仓库或货物中的装备可以在任何装备商处（重新）安装，不需要任何费用。`
+	`如果你在装备店卖掉一件装备，那么只要你不离开这个星球，你就可以立即以卖掉它的同样价格买回来。这意味着，当你更换装备时，你不一定需要担心将装备卸载到行星仓库。`
 
 help "stranded"
-	`Oops! You just ran out of fuel in an uninhabited star system. Fortunately, other ships are willing to help you.`
-	`Press <Select next ship> to cycle through all the ships in this system. When you have a friendly one selected, press <Talk to selected ship> to hail it. You can then ask for help, and if it has fuel to spare it will fly over and transfer fuel to your ship. This is easiest for the other ship to do if your ship is nearly stationary.`
+	`哎呀!你刚刚在一个无人居住的星系中耗尽了燃料。幸运的是，其他飞船都愿意帮助你。`
+	`按<Select next ship>来循环浏览这个系统中的所有飞船。当你选择了一个友好的船只，按<Talk to selected ship>来呼唤它。然后你就可以请求帮助，如果它有多余的燃料，它就会飞过来，把燃料转移到你的船上。如果你的飞船几乎是静止的，这对另一艘飞船来说是最容易做到的。`
 
 help "trading"
-	`This is the trading panel. Earn money by buying commodities at a low price in one system, and selling at a higher price elsewhere. To view your map of commodity prices in other systems, press <View star map>. To buy or sell, click on [buy] or [sell], or select a line with the up and down arrows and press "+" or "-" (or Enter and Delete).`
-	`You can buy 5 tons at once by holding down Shift, 20 by holding down Control, 500 by holding down Alt, or larger amounts at a time by holding down two keys at once, or even all three.`
+	`这就是交易面板。通过在一个系统中以低价购买商品，并在其他地方以高价出售来赚钱。要查看你在其他系统的商品价格地图，按<View star map>。要买入或卖出，点击[买入]或[卖出]，或用上下箭头选择一行，然后按 "+"或"-"（或输入和删除）。`
+	`按住Shift键可以一次买5吨，按住Control键可以买20吨，按住Alt键可以买500吨，或者一次按两个键，甚至三个键都可以买更大的数量。`
 
 help "friendly disabled"
-	`This ship is disabled and needs your help to patch them up! Pressing <Board selected ship> will fly you to their ship and get them up and running again. Just be sure to do it when no one is trying to kill you, or they could get caught in the crossfire!`
+	`这艘船已经失效，需要你的帮助来修补它们!按<Board selected ship>会让你飞到他们的飞船上，让他们重新运行起来。只是要确保在没有人想杀你的时候做，否则他们可能会被卷入交火中!`

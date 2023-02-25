@@ -27,8 +27,8 @@ event "hai-human treaty prepared"
 
 mission "Hai Reveal [D01A] Summoned to Mountaintop"
 	landing
-	name "Treaty at <planet>"
-	description "Go to <destination> to witness the signing of the Hai-human treaty."
+	name "在<planet>签订条约"
+	description "去<destination>见证海-人条约的签署。"
 	source
 		government "Republic" "Syndicate" "Free Worlds"
 		not attributes "uninhabited"
@@ -48,15 +48,15 @@ mission "Hai Reveal [D01A] Summoned to Mountaintop"
 		event "cardax site chosen"
 		conversation
 			# A message summons you for the treaty resolution.
-			`When you land at the spaceport, you find a message waiting for you from Teneep in the system buffer.`
-			`	The message has traveled a very long way and filtered through a great many relays to reach you, but it is nice that you can safely send messages across the wormhole now.`
-			`	The content of the message is very simple. The Hai-human treaty, which both peoples' governments resolved to work on, has reached its final stages of drafting and acceptance. Apparently there's something they want you to assist with to get it over the line. They'll be waiting for you on <destination> when you're ready.`
+			`当你降落在太空港时，你发现系统缓冲区里有一条来自Teneep的信息在等你。`
+			`	这条信息走了很远的路，经过了很多中继站的过滤才到达你这里，但很高兴你现在可以安全地在虫洞中发送信息。`
+			`	信息的内容非常简单。两个民族的政府都决心致力于的海-人条约，已经到了起草和接受的最后阶段。显然，他们有一些事情需要你的协助，以使它过关。当你准备好时，他们会在<destination>上等你。`
 				accept
 	
 mission "Hai Reveal [D01B] Summoned to Mountaintop"
 	landing
-	name "Treaty at <planet>"
-	description "Go to <destination> to witness the signing of the Hai-human treaty."
+	name "在<planet>签订条约"
+	description "去<destination>见证海-人条约的签署。"
 	source
 		government "Hai"
 		not attributes "uninhabited"
@@ -76,8 +76,8 @@ mission "Hai Reveal [D01B] Summoned to Mountaintop"
 		event "cardax site chosen"
 		conversation
 			# A message summons you for the treaty resolution.
-			`When you land at the spaceport, you find a message waiting for you from Teneep in the system buffer.`
-			`	The content of the message is very simple. The Hai-human treaty, which both peoples' governments resolved to work on, has reached its final stages of drafting and acceptance. Apparently there's something they want you to assist with to get it over the line. They'll be waiting for you on <destination> when you're ready.`
+			`当你降落在太空港时，你发现系统缓冲区里有一条来自Teneep的信息在等你。`
+			`	信息的内容非常简单。两个民族的政府都决心致力于的海-人条约，已经到了起草和接受的最后阶段。显然，他们有一些事情需要你的协助，以使它过关。当你准备好时，他们会在<destination>上等你。`
 				accept
 	
 # Redefine Cardax to have a named location for the station.
@@ -94,20 +94,20 @@ event "cardax site chosen"
 	planet Mooncreek
 		government "Unknown"
 		# Placeholder description; you can't actually land.
-		description `This tiny asteroid has a space hazard warning transmitter, of a type typically used to mark construction sites. Perhaps someone intends to build a space station here?`
+		description `这颗小行星有一个空间危险警告发射器，是通常用于标记建筑工地的类型。也许有人打算在这里建造一个空间站？`
 		"required reputation" 1000
 
 
 
 mission "Hai Reveal [D02] Escort to Cardax"
 	landing
-	name "<planet> Construction"
-	description "Escort a Geocoris to <destination> to begin the construction of a security station."
+	name "<planet>建设"
+	description "护送一个Geocoris到<destination>开始建造一个安全站。"
 	source "Mountaintop"
 	destination "Mooncreek"
 	clearance
 	on visit
-		dialog `You have arrived without the ship you are escorting. You must take off and wait for it to continue.`
+		dialog `你已经到达，但你所护送的飞船没有到达。你必须起飞并等待它继续。`
 	to offer
 		or
 			has "Hai Reveal [D01A] Summoned to Mountaintop: done"
@@ -115,39 +115,39 @@ mission "Hai Reveal [D02] Escort to Cardax"
 	on offer
 		event "cardax pirates waiting"
 		conversation
-			`Upon arriving at <planet>, you are greeted by Mr. Xilin Yang and the Hai ambassador, Hiyamaharu.`
-			`	"Captain <last>!" enthuses Xilin. "It has been too long. Welcome to <planet> again."`
-			`	Around you, the station appears to be prospering. A strong undercurrent of excited anticipation that seems to buoy everyone along as they go about their business.`
-			`	"Hiyamaharu here has been telling me stories about these so-called 'Wanderers' you've been off gallivanting with." He gives you a wink and a nudge, then continues, "I don't think he was meant to tell me, but it slipped out when I said we'd asked you back for this. I hear you two have been briefly acquainted before?"`
+			`抵达<planet>后，杨锡麟先生和海族大使希亚马赫鲁迎接了你。`
+			`	"船长<last>！"西林欣喜地说道。"已经过了很长时间了。欢迎再次来到<planet>。"`
+			`	在你周围，该站似乎正在繁荣发展。一股强烈的兴奋期待的暗流，似乎在鼓舞着每个人去做他们的事情。`
+			`	"这里的希亚马哈鲁一直在告诉我关于这些所谓的'流浪者'的故事，你一直在和他们闲逛。"他给你使了个眼色，然后继续说："我想他不是有意要告诉我的，但当我说我们请你回来做这个的时候，他就说漏嘴了。我听说你们俩以前曾有过短暂的认识？"`
 			choice
-				`	"Yes, we met briefly over some business with Alphas."`
+				`	"是的，我们因为阿尔法斯的一些业务而短暂相识。"`
 					goto alphas
-				`	"I'm sorry, but I'm afraid I don't recall the occasion."`
-			`	Hiyamaharu looks hurt for a moment, but quickly saves face. "Not to worry, I'm sure the famous Captain has a great many adventures to recall. A short chat with an old Hai is no offense to have forgotten."`
+				`	"很抱歉，但我恐怕不记得当时的情况了。"`
+			`	晓春看起来很受伤，但很快就挽回了面子。"不用担心，我相信这位著名的船长有很多冒险经历可以回忆。与一个老海的短暂聊天并不是忘记了的冒犯。"`
 				goto main
 			label alphas
-			`	Hiyamaharu looks faintly pleased that you remember him. "Yes, that is quite right, I'm only sorry I wasn't able to offer more assistance at the time."`
-			`	Xilin looks shocked. "The Alphas? Seriously? Will there never be an end to their tale?"`
-			`	He waves his hand dismissively and continues.`
+			`	希亚马哈鲁看起来对你记得他感到淡淡的高兴。"是的，这很对，我只遗憾当时没能提供更多的帮助。"`
+			`	西林看起来很震惊。"阿尔法师们？真的吗？他们的故事永远不会有尽头吗？"`
+			`	他不屑地挥了挥手，继续说道。`
 			label main
-			`	"In any event," Xilin continues, "Hiyamaharu and I would like you to do something. You completed a similar task when this station was first built.`
-			`	"The pirate threat to ships traveling to and from Hai space is just as bad as it ever was, possibly worse for the increased number of ships. So, on top of a mountain of legalese, an endless stipulation of trade obligations, and a nightmare of judicial jurisprudence jurisdiction boundaries, there is a very physical and tangible action that needs to be taken.`
-			`	"The Navy base on Farpoint helps to limit the mobility of pirates coming from the Far North, but there is no restraint other than distance to put a check on the pirates that come out of Stormhold. Something needs to be done to secure the space lanes, and so the solution that has been agreed upon is to build a station in Cardax. The volume of pirate activity there is intense enough that the Hai's rapid ship conversion approach to building a station is the only really viable approach."`
+			`	"无论如何，"西林继续说，"希亚马赫鲁和我想让你做一件事。在这个车站刚建成的时候，你也完成了类似的任务。`
+			`	"海盗对来往海空间的船只的威胁和以前一样严重，可能因为船只数量的增加而更严重。因此，在堆积如山的法律条文、无休止的贸易义务规定以及司法判例管辖范围的噩梦之上，有一个非常实际的、切实的行动需要采取。`
+			`	"远点 "上的海军基地有助于限制来自极北地区的海盗的流动性，但除了距离之外，没有任何约束可以对从Stormhold出来的海盗进行制约。需要做一些事情来确保空间通道的安全，因此，已经达成共识的解决方案是在卡达斯建立一个站。那里的海盗活动量足够激烈，海氏的快速飞船改装方法是唯一真正可行的方法。"`
 			choice
-				`	"So what am I going to do?"`
-			`	"Well," says Hiyamaharu, "the number of ships involved in this represents a considerable investment, and we'd hate for them to be destroyed during a vulnerable construction phase. The prior concerns about human agents observing the inner core of the station also continue to apply.`
-			`	"So, we would like you to escort a security force and the core Geocoris to the site in Cardax, clear out any threats in the system, and get the ship through the first construction phase so it can safely raise its shield again. Once that has been completed, the rest of the Geocoris will travel with their escort to join you. You and the security force will have to protect the station while the rest of the convoy arrives to finish the construction."`
+				`	"那我要怎么做？"`
+			`	"嗯，"希亚马哈鲁说，"这其中涉及的船只数量代表了相当大的投资，我们不希望它们在脆弱的建设阶段被摧毁。之前关于人类特工观察站内核心的担忧也继续适用。`
+			`	"所以，我们希望你能护送一支安全部队和核心的Geocoris到Cardax的现场，清除系统中的任何威胁，并让飞船通过第一个施工阶段，以便它能安全地再次提升它的防护罩。一旦完成，其余的Geocoris将与他们的护卫队一起旅行，与你会合。你和安全部队要在其余的护卫队抵达完成建设时保护该站。"`
 			choice
-				`"Why not just send all of them with their entire escort at once? Surely that would be safer?"`
-			`	Xilin shrugs. "We've heard a rumor that the pirates might have caught wind of what we're doing. The reality is that the marauders up here can field a truly formidable force, if they get their act together. They've overrun the Navy outpost on Farpoint a number of times before, and it would be devastating if an entire naval flotilla, the Hai construction fleet, and a whole security force were all caught out in the open by such a fleet, possibly attacked from both sides.`
-			`	"By separating them, we're less likely to tip them off as to when exactly we choose to act, and once the station is up, the fleet can use the station's projector and facilities to support their presence. Plus, if they are tipped off already and we can't deal with them, then we only lose the one Geocoris. We expect that you and the Hai security ships are capable enough to escape from trouble if it's more than you can handle."`
+				`"为什么不直接把他们所有的人和他们的整个护卫队一起一次性派出去？当然这样会更安全？"`
+			`	西林耸耸肩。"我们听到一个传言，说海盗可能已经知道了我们在做什么。现实情况是，这里的掠夺者可以派出一支真正强大的力量，如果他们的行动一致的话。他们以前曾多次攻占过海军在远地点的前哨站，如果整个海军船队、海建舰队和整个安全部队都被这样一支舰队抓在外面，可能会受到两面夹击，这将是毁灭性的。`
+			`	"把他们分开，我们就不容易向他们通风报信，不知道我们到底什么时候选择行动，而且一旦站起来，舰队就可以利用站内的投影仪和设施来支持他们的存在。另外，如果他们已经被通风报信，而我们无法对付他们，那么我们只损失了一个Geocoris。我们希望你和海安舰有足够的能力，如果麻烦超过你的能力范围，你可以从麻烦中逃脱。"`
 			choice
-				`	"Makes sense."`
-				`	"I suppose..."`
-			`	"The Geocoris and security force are ready whenever you are. Be safe out there <last>, and remember: we can't have any pirates observing the construction."`
+				`	"有道理。"`
+				`	"我想......"`
+			`	"无论何时，Geocoris和保安部队都准备好了。在外面要注意安全<last>，记住：我们不能让任何海盗观察施工情况。"`
 				accept
 	on visit
-		dialog "You have arrived, but either the Geocoris has not arrived, or the pirates are still threatening the construction site."
+		dialog "你已经到了，但要么Geocoris还没到，要么海盗还在威胁施工现场。"
 	npc accompany save
 		personality escort timid
 		government "Hai (Wormhole Access)"
@@ -175,19 +175,19 @@ event "cardax pirates waiting"
 	
 mission "Hai Reveal [D03] Defend Mooncreek Construction Site"
 	landing
-	name "<planet> Construction"
-	description "Defend until construction can be completed."
+	name "<planet>建设"
+	description "防守，直到施工完成。"
 	source "Mooncreek"
 	destination "Mooncreek"
 	on visit
-		dialog `You have arrived without the convoy you are escorting. You must take off and wait for it to continue.`
+		dialog `你已经到达，但你所护送的车队没有到达。你必须起飞并等待它继续。`
 	to offer
 		has "Hai Reveal [D02] Escort to Cardax: done"
 	on offer
 		event "mooncreek founded"
 		conversation
-			`While the system is clear of threats for a moment, you supervise closely as the Geocoris unfolds and deploys a massive, metal structural ring, before shifting hull plates and having its innards rearranged into a shielded station core. When the shield is back up, a confirmation message comes from Mountaintop. The rest of the construction fleet is en route.`
-			`	Now, you just need to keep the pirates away from the nascent station core until they can get here. The message from Mountaintop also warned that there may be a hasty response from the pirates.`
+			`当系统暂时没有威胁时，你密切监督Geocoris展开并部署一个巨大的金属结构环，然后转移船体板，让它的内脏重新排列成一个屏蔽站的核心。当防护罩恢复后，山顶上传来了确认信息。其余的建筑队正在路上。`
+			`	现在，你只需要让海盗们远离新生的车站核心，直到他们能到达这里。山顶的信息还警告说，海盗们可能会有仓促的反应。`
 				accept
 	npc
 		government "Hai (Wormhole Access)"
@@ -245,14 +245,14 @@ event "mooncreek founded"
 		government "Hai"
 		attributes uninhabited
 		landscape land/station0
-		description `There's a partially-dismantled Hai Geocoris with its innards rearranged into a shielded station core here.`
+		description `这里有一个部分拆毁的Hai Geocoris，它的内脏被重新安排成一个屏蔽的站芯。`
 		security 0.2
 	
 	
 mission "Hai Reveal [D04] Escort Republic Outfitters"
 	landing
-	name "<origin> Construction"
-	description "Escort outfitters to build up <origin> station."
+	name "<origin>建设"
+	description "护送装备人员去建设<origin>站。"
 	source "Mooncreek"
 	destination "Maelstrom"
 	to offer
@@ -261,28 +261,28 @@ mission "Hai Reveal [D04] Escort Republic Outfitters"
 		event "mooncreek operational"
 		payment 10000000
 		conversation
-			`With a strong force ensuring that no one can interrupt the final construction stage, space-based cranes set about removing the three outer sections of the Geocoris and moving them to the steel ring deployed around the original station core. Within a few hours, all seven of the new Geocoris have been dismantled and integrated to the station structure, using lessons learnt from the construction of Mountaintop to rapidly finish a station that is fully battle-ready, if lacking in some of the amenities of life. In an unexpected reversal of the Mountaintop priorities, the construction workers unpack and assemble a massive holoprojector while wearing environmental suits before they begin unpacking the contents of the Geocoris storage pods and engaging principle life support systems.`
-			`	As soon as the life support systems around the docking section are engaged, the security ships begin landing those damaged by the hastily assembled pirate response for critical repairs.`
-			`	As you're attending to your own ships after their extended guard duty, you get pinged by a hail from Mountaintop. When you answer it, you are greeted by Xilin and Hiyamaharu, who look very pleased. "We hear that the operation to establish Mooncreek has been successful, Captain <last>! How'd things go with you?"`
+			`在强大的力量保证下，没有人能打断最后的施工阶段，天基起重机开始拆除Geocoris号的三个外部部分，并将它们移到部署在原站核心周围的钢环上。在几个小时内，所有七个新的Geocoris已经被拆除并整合到空间站结构中，利用从山顶的建设中吸取的教训，迅速完成了一个完全可以战斗的空间站，尽管缺乏一些生活设施。在一个出乎意料的对山顶站优先级的颠覆中，建筑工人在开始拆开Geocoris储存舱的内容和启动主要的生命支持系统之前，穿着环境防护服拆开并组装了一个巨大的整体投影仪。`
+			`	对接区周围的生命支持系统一启动，安全舰艇就开始让那些被匆忙组装的海盗反应所损坏的船只降落，进行关键的维修。`
+			`	当你在处理你自己的战舰延长的守卫任务后，你被来自山顶的呼唤所吸引。当你接听时，迎接你的是西林和希亚马赫鲁，他们看起来非常高兴。"我们听说建立月溪的行动已经成功了，船长<last>!你的事情进展如何？"`
 			choice
-				`	"Yeah, it was fairly chill."`
+				`	"是的，相当寒心。"`
 					goto fantastic
-				`	"It was very close out there. There were some losses."`
-			`	Hiyamaharu is inscrutable, but Xilin adopts a somber expression. "Unfortunately, there was always a risk of that in such an endeavor."`
-			`	"Still," says Hiyamaharu, turning to Xilin.`
+				`	"外面的情况非常接近。有一些损失。"`
+			`	希亚马赫鲁高深莫测，但西林却采用了阴沉的表情。"不幸的是，在这种努力中总是有这种风险。"`
+			`	"不过，"希亚玛哈鲁说，转向西林。`
 			label fantastic
-			`	"A great success all round," replies Xilin. "The Republic and Hai governments have approved a reward of <payment> by the way, as thanks for your considerable assistance here.`
-			`	"If you have a moment though, we'd appreciate your continued help with a bit of PR now. To finalize the new station, the plan is to facilitate the set up of some of the major outfitters, both from Hai space and from ours. Predominantly, this would be so that we can ensure a ready supply of munitions on the station at all times. As well, a long-term garrison to act as security needs to be established. We'd like you to escort each of them on the last leg of their journeys, mostly for the photo ops.`
-			`	"Of course," Xilin adds, "we'll understand if you're too busy now."`
+			`	"全面的成功，"西林回答说。"共和国和海国政府已经批准了<payment>的奖励，以感谢你在这里的大量援助。`
+			`	"如果你有时间，我们希望你能继续帮助我们做一些公关工作。为了最终确定新站，我们的计划是促进一些主要的装备商的建立，包括来自Hai空间和我们的。这主要是为了让我们能够确保在站内随时有军火供应。此外，还需要建立一个长期的驻军，作为安全保障。我们希望你在他们旅行的最后一段路上护送他们，主要是为了拍照。`
+			`	"当然，"西林补充说，"如果你现在太忙，我们会理解。"`
 			choice
-				`	"Sure, why not?"`
+				`	"当然，为什么不呢？"`
 					goto escort
-				`	"I think I've had enough of the limelight for now."`
-			`	Xilin performs a combination shrug and half-nod. "Fair enough <last>, be safe out there. We'll send you an invite for the final treaty ceremony. We'd all like you to be there."`
-			`	The call ends, leaving you to your own devices.`
+				`	"我想我现在已经受够了风头了。"`
+			`	西林做了一个耸肩和半点头的组合。"够公平<last>，在外面要注意安全。我们会向你发出邀请，参加最后的条约仪式。我们都希望你能到场。"`
+			`	电话结束了，让你自己去处理。`
 				decline
 			label escort
-			`	"Lovely. In that case, the first convoy will be waiting for you on <destination>. I'll meet you there on <origin> when you return."`
+			`	"很好。在这种情况下，第一个车队将在<destination>上等你。你回来时，我会在<origin>上和你见面。"`
 				accept
 	
 	
@@ -303,23 +303,23 @@ event "mooncreek operational"
 		add fleet "Anti-Pirate Hai (Wormhole Travel)" 2000
 	planet Mooncreek
 		remove attributes uninhabited
-		description `This station is made of eight Geocoris ships dismantled and reassembled into a spherical structure with external storage and landing platforms. In this dangerous place, critical tactical systems have been installed first, with only minimal life support and amenities. Other than the docking and repair facilities, its main focus is a vast integrated holographic projection system, which projects false security ships into space to confuse attackers and draw fire away from the actual defenders of the station.`
+		description `这个站是由八艘Geocoris飞船拆解后重新组装成的球形结构，有外部存储和登陆平台。在这个危险的地方，关键的战术系统已被首先安装，只有最低限度的生命支持和设施。除了对接和维修设施外，它的主要重点是一个巨大的综合全息投影系统，它将虚假的安全船投射到太空中，以迷惑攻击者，并将火力从车站的实际保卫者身上引开。`
 		security 0.4
 
 
 mission "Hai Reveal [D05] Escort Republic Outfitters"
 	landing
-	name "<planet> Construction"
-	description "Escort outfitters to build up <planet> station."
+	name "<planet>建设"
+	description "护送装备者建立<planet>站。"
 	source "Maelstrom"
 	destination "Mooncreek"
 	on visit
-		dialog `You have arrived without the convoy you are escorting. You must take off and wait for it to continue.`
+		dialog `你已经到达，但你所护送的车队没有到达。你必须起飞并等待它继续。`
 	to offer
 		has "Hai Reveal [D04] Escort Republic Outfitters: done"
 	on offer
 		conversation
-			`When you arrive on <origin>, you are greeted by a representative of Lovelace Labs. They and their Navy escort are ready to depart on their PR flight immediately.`
+			`当你到达<origin>时，Lovelace实验室的代表会来迎接你。他们和他们的海军护卫队已经准备好立即出发进行公关飞行。`
 				accept
 	npc accompany save
 		personality escort heroic
@@ -345,8 +345,8 @@ mission "Hai Reveal [D05] Escort Republic Outfitters"
 
 mission "Hai Reveal [D06] Escort Syndicate Outfitters"
 	landing
-	name "<origin> Construction"
-	description "Escort outfitters to build up <origin> station."
+	name "<origin>建设"
+	description "护送装备人员去建设<origin>站。"
 	source "Mooncreek"
 	destination "Sunracer"
 	to offer
@@ -354,13 +354,13 @@ mission "Hai Reveal [D06] Escort Syndicate Outfitters"
 	on offer
 		event "mooncreek republic garrison"
 		conversation
-			`The Republic garrison and Lovelace transports arrive to suitable fanfare and media pomp. Xilin and Hiyamaharu appear to have hitched a ride to Mooncreek in your absence, and they greet you in what passes for a spaceport that is not yet even serving drinks.`
-			`	"Good job out there, <last>," says Xilin.`
-			`	"I know it's trivial, but don't underestimate the impact of a stately arrival. After the crisis last time, it's really very important to penetrate the public consciousness and get people to appreciate the magnitude of these steps."`
+			`共和国驻军和洛维莱斯公司的运输机在适当的大张旗鼓和媒体的盛况下抵达。西林和希亚马哈鲁似乎在你不在的时候搭上了前往月溪的顺风车，他们在一个甚至还没有提供饮料的太空港迎接你。`
+			`	"在外面干得不错，<last>，"西林说。`
+			`	"我知道这很微不足道，但不要低估一个庄严的到来所带来的影响。经过上次的危机，渗透到公众的意识中去，让人们体会到这些步骤的重要性，真的非常重要。"`
 			choice
-				`	"I understand."`
-				`	"As long as I get paid for it."`
-			`	Xilin nods. "The Syndicate cohort will be waiting on Sunracer for the next one." He casts a look around. "With any luck, you'll actually be able to get a drink around here by the time you return."`
+				`	"我明白。"`
+				`	"只要我得到报酬就行。"`
+			`	西林点点头。"辛迪加的同伙将在太阳神上等待下一次。"他向四周投去了目光。"运气好的话，当你回来时，你实际上能够在这里得到一杯饮料。"`
 				accept
 
 
@@ -372,18 +372,18 @@ event "mooncreek republic garrison"
 
 mission "Hai Reveal [D07] Escort Syndicate Outfitters"
 	landing
-	name "<planet> Construction"
-	description "Escort outfitters to build up <planet> station."
+	name "<planet>建设"
+	description "护送装备者建立<planet>站。"
 	source "Sunracer"
 	destination "Mooncreek"
 	on visit
-		dialog `You have arrived without the convoy you are escorting. You must take off and wait for it to continue.`
+		dialog `你已经到达，但你所护送的车队没有到达。你必须起飞并等待它继续。`
 	to offer
 		has "Hai Reveal [D06] Escort Syndicate Outfitters: done"
 	on offer
 		event "mooncreek spaceport"
 		conversation
-			`When you arrive on Sunracer, you are greeted by a Syndicate representative. They appear agitated by the delay and are ready to depart on their PR flight immediately.`
+			`当你到达Sunracer时，迎接你的是一位辛迪加代表。他们似乎因为延迟而感到激动，并准备立即乘坐他们的公关航班离开。`
 				accept
 	npc accompany save
 		personality escort timid
@@ -409,14 +409,14 @@ mission "Hai Reveal [D07] Escort Syndicate Outfitters"
 event "mooncreek spaceport"
 	planet Mooncreek
 		attributes hai military north frontier
-		spaceport `The spaceport is essentially a military facility. Uniformed crew members of various stripes hurry back and forth without giving you a second glance. The food options are diverse, but all have that certain trend of solidity and mass over taste that is typical of military fare. There are few shops or other services catering to civilians.`
+		spaceport `这个太空港基本上是一个军事设施。穿着制服的各色船员来回走动，没有看你一眼。食物的选择是多种多样的，但所有的食物都有一定的稳固性和质量高于味道的趋势，这是典型的军事食品。很少有商店或其他服务是为平民服务的。`
 		security 0.6
 
 
 mission "Hai Reveal [D08] Escort Hai Outfitters"
 	landing
-	name "Mooncreek Construction"
-	description "Escort outfitters to build up Mooncreek station."
+	name "月溪建设"
+	description "护送装备者去建设月溪站。"
 	source "Mooncreek"
 	destination "Mountaintop"
 	passengers 1
@@ -425,13 +425,13 @@ mission "Hai Reveal [D08] Escort Hai Outfitters"
 	on offer
 		event "mooncreek syndicate garrison"
 		conversation
-			`The Syndicate convoy arrives to a more muted reception, but one that is thoroughly covered nonetheless. The rudimentary spaceport, still only days old, has now opened up a bar, and the Lovelace outfitters have begun work on their facilities here. Hiyamaharu is waiting for you in the spaceport and appears to be sampling a collection of cheap whiskies.`
-			`	"Welcome back, Captain," he says, "If you don't mind, I'll be coming with you for the Hai escort."`
+			`辛迪加的车队抵达时，受到了比较冷清的接待，但还是被彻底覆盖。这个简陋的太空港还只有几天的历史，现在已经开起了酒吧，洛夫莱斯的舾装厂已经开始在这里进行设施建设。希亚马哈鲁在太空港等着你，似乎正在品尝一系列廉价的威士忌。`
+			`	"欢迎回来，船长，"他说，"如果你不介意，我将和你一起去参加海护卫队。"`
 			choice
-				`	"This seems mildly ridiculous."`
-				`	"Of course."`
-			`	"I hear the intent of this affair is to prevent the news cycle in human space from turning over before the big event," he explains.`
-			`	"Well," you say, "at least I don't have to go very far."`
+				`	"这似乎有点可笑。"`
+				`	"当然可以。"`
+			`	"我听说这件事的意图是为了防止人类空间的新闻周期在大事件之前翻转，"他解释说。`
+			`	"好吧，"你说，"至少我不用走很远。"`
 				accept
 
 
@@ -443,18 +443,18 @@ event "mooncreek syndicate garrison"
 
 mission "Hai Reveal [D09] Escort Hai Outfitters"
 	landing
-	name "<planet> Construction"
-	description "Escort outfitters to build up <planet> station."
+	name "<planet>建设"
+	description "护送装备者建立<planet>站。"
 	source "Mountaintop"
 	destination "Mooncreek"
 	passengers 1
 	on visit
-		dialog `You have arrived without the convoy you are escorting. You must take off and wait for it to continue.`
+		dialog `你已经到达，但你所护送的车队没有到达。你必须起飞并等待它继续。`
 	to offer
 		has "Hai Reveal [D08] Escort Hai Outfitters: done"
 	on offer
 		conversation
-			`The Hai on Mountaintop are fully prepared. Everyone is eager to get this part over and done with.`
+			`山顶上的海族人已经做好了充分准备。每个人都急切地想把这部分工作做完。`
 				accept
 	npc accompany save
 		personality escort timid
@@ -467,8 +467,8 @@ mission "Hai Reveal [D09] Escort Hai Outfitters"
 # This will need branches in the event of future alternative campaigns.
 mission "Hai Reveal [D10] Escort Free World Outfitters"
 	landing
-	name "<origin> Construction"
-	description "Escort outfitters to build up <origin> station."
+	name "<origin>建设"
+	description "护送装备人员去建设<origin>站。"
 	source "Mooncreek"
 	destination "Solace"
 	passengers 1
@@ -477,49 +477,49 @@ mission "Hai Reveal [D10] Escort Free World Outfitters"
 	on offer
 		event "mooncreek main outfitters" 15
 		conversation
-			`On your arrival to <origin> with the Hai convoy, you are surprised to see a slightly put-out looking Alondo waiting for you at the docks.`
-			`	"<first>! How's it going?"`
+			`当你和海族车队到达<origin>时，你惊讶地看到一个看起来有点放不开的阿隆多在码头上等你。`
+			`	"<first>!怎么样了？"`
 			choice
-				`	"Fine, I guess?"`
-				`	"It's going well."`
-			`	"Good, good," he says. "Now, I know that the last thing you probably want to do right now is traipse from one end of space to the other, but I need to ask you a favor."`
-			`	He finds somewhere to sit down with you and begins. "You may recall that I was helping the Free Worlds set up their diplomatic corps. Obviously, I wanted no part of the ambassadorial business to the Republic, but when all this Hai business started up well, let's just say they struggled to find anyone qualified. As it turns out, someone in the senate doesn't particularly like me, and they've been using my extended time away up here to try and influence the diplomatic corps. Meanwhile, the Hai want the Free Worlds to have some involvement with this station we're on so that everyone is tied in, but obviously the Free Worlds don't particularly care when they could hardly be further from it.`
-			`	"I have devised a compromise: the Free Worlds will not supply ships to the garrison, but they will instead sponsor both Kraz and Delta V, primarily based in the south, to set up outfitters here, with full upfront costs paid by the Free Worlds government. A defining success will allow me to return to the corps with the influence I need to counter this senator's influence. Otherwise, I fear I shall be stuck here, on the other side of space, for the rest of my career."`
-			`	You look at your friend, and you can tell he's waiting for you to accept his premise first, holding something back...`
+				`	"很好，我想？"`
+				`	"很顺利。"`
+			`	"好，好，"他说。"现在，我知道你现在可能最不想做的事就是从空间的一端穿越到另一端，但我需要请你帮个忙。"`
+			`	他找了个地方和你一起坐下来，开始说。"你可能记得，我正在帮助自由世界建立他们的外交团。很明显，我不想参与共和国的大使事务，但当所有这些海的事务开始时，我们只能说他们努力寻找合格的人。事实证明，元老院里有人不喜欢我，他们一直在利用我在这里的长时间逗留，试图影响外交使团。同时，海希望自由世界对我们所在的这个站有一些参与，以便每个人都被捆绑在一起，但显然自由世界并不特别关心，因为他们几乎不可能离得太远。`
+			`	"我已经设计了一个折衷方案：自由世界不会向驻军提供船只，但他们会同时赞助克拉兹和三角五号，主要是在南部，在这里设立装备店，前期费用全部由自由世界政府支付。一个决定性的成功将使我能够带着我需要的影响力回到军团，以对抗这位参议员的影响力。否则，我担心我的余生将被困在这里，在空间的另一端，在我的职业生涯中。"`
+			`	你看着你的朋友，你可以看出他在等待你先接受他的前提，隐忍着什么......`
 			choice
-				`	"What's the catch?"`
-			`	He chuckles. "You're getting to know me too well.`
-			`	"The catch is that the Free Worlds will only sponsor the outfitters if you agree to escort their convoys directly from Solace and Rust the entire way here. They want to make a big show of it - or rather, a certain senator has goaded them into making a show of it."`
-			`	He sighs. "On the plus side though, if you're interested, you do get paid diplomatic escort rates."`
+				`	"有什么好处？"`
+			`	他笑着说。"你太了解我了。`
+			`	"条件是，只有当你同意直接从索拉斯和拉斯特这里护送他们的车队，自由世界才会赞助这些装备者。他们想大展拳脚--或者说，某位参议员诱使他们大展拳脚。"`
+			`	他叹了口气。"不过好的一面是，如果你有兴趣，你确实可以得到外交护送费。"`
 			choice
-				`	"I'll do it, friend."`
+				`	"我愿意做，朋友。"`
 					accept
-				`	"Of course I'll do it, but how much is that exactly?"`
-			`	He winks. "A hundred thousand credits per day, for a fifty-two day route with eight stops."`
-			`	"Of course, if you really don't want to do it, I'll understand. I don't imagine you're keen to deal with the politics."`
-			`	You take a moment to consider helping a good friend... for six million credits.`
+				`	"我当然会做，但那究竟是多少钱？"`
+			`	他眨了眨眼睛。"每天十万信用点，五十二天的路线，有八个站点。"`
+			`	"当然，如果你真的不想做，我会理解。我想你并不热衷于处理政治问题。"`
+			`	你花了一点时间考虑帮助一个好朋友......为了六百万信用点。`
 			choice
-				`	"Don't be silly! Of course I'll do it, friend."`
+				`	"别傻了!我当然会这么做，朋友。"`
 					accept
-				`	"I'm sorry Alondo. Maybe I can find some other way of helping you later."`
+				`	"我很抱歉，阿隆多。也许我以后可以找到一些其他的方式来帮助你。"`
 					decline
 			
 		
 
 mission "Hai Reveal [D11] Escort Free World Outfitters"
 	landing
-	name "Mooncreek Construction"
-	description "Meet up with more outfitters for Mooncreek on <destination>."
+	name "月溪建设"
+	description "在<destination>上与更多月溪的装备商会面。"
 	source "Solace"
 	destination "Rust"
 	passengers 1
 	on visit
-		dialog `You have arrived without the convoy you are escorting. You must take off and wait for it to continue.`
+		dialog `你已经到达，但你所护送的车队没有到达。你必须起飞并等待它继续。`
 	to offer
 		has "Hai Reveal [D10] Escort Free World Outfitters: done"
 	on offer
 		conversation
-			`When you arrive on Solace, the Delta V convoy is ready and waiting along with one of their head engineers. They also seem to have sent their most blustery and arrogant sales representative, much to the chagrin of their engineer. Fortunately for everyone, they will each be traveling on separate ships, and not on yours.`
+			`当你到达Solace时，Delta V的车队已经准备好了，和他们的一个首席工程师一起在等待。他们似乎还派出了他们最虚张声势、最傲慢的销售代表，这让他们的工程师感到很懊恼。对大家来说，幸运的是，他们将各自乘坐不同的船只，而不是在你的船上。`
 				accept
 	npc accompany save
 		personality escort timid
@@ -532,23 +532,23 @@ mission "Hai Reveal [D11] Escort Free World Outfitters"
 mission "Hai Reveal [D12] Escort Free World Outfitters"
 	autosave
 	landing
-	name "<planet> Construction"
-	description "Escort outfitters to build up <planet> station."
+	name "<planet>建设"
+	description "护送装备者建立<planet>站。"
 	source "Rust"
 	destination "Mooncreek"
 	passengers 1
 	on visit
-		dialog `You have arrived without the convoy you are escorting. You must take off and wait for it to continue.`
+		dialog `你已经到达，但你所护送的车队没有到达。你必须起飞并等待它继续。`
 	to offer
 		has "Hai Reveal [D11] Escort Free World Outfitters: done"
 	on offer
 		conversation
-			`On <origin>, it is tempting to take the time to go and catch up with Barmy Edward, but the Kraz convoy were already prepared a day early and near enough to meeting you in orbit.`
-			`	While you are briefly touched down though, you are greeted by a message from Alondo. "<first>! Navy intelligence has, in their infinite wisdom, deigned to let us know about a potential pirate threat. The marauders were outmaneuvered when <planet> went up so quickly, so it seems they might attempt to intercept the convoy. Please be safe out there!"`
-			`	It seems you'll have to keep your eyes peeled on your way back.`
+			`在<origin>上，很想抽空去追赶巴米-爱德华，但克拉兹的车队已经提前一天准备好了，就差在轨道上和你见面了。`
+			`	不过在你短暂着陆的时候，迎接你的是Alondo的信息。"<first>!海军情报部门以其无限的智慧，同意让我们知道一个潜在的海盗威胁。当<planet>快速上升时，掠夺者被击败了，所以看起来他们可能会试图拦截护航船队。请大家在外面注意安全！"`
+			`	看来你在回去的路上要擦亮眼睛了。`
 				accept
 	on fail
-		dialog "You have failed to safely escort the convoy of Free World outfitters."
+		dialog "你没能安全护送自由世界装备者的车队。"
 	npc accompany save
 		personality escort timid
 		government "Free Worlds"
@@ -609,35 +609,35 @@ mission "Hai Reveal [D0XA] Skipped Mooncreek Escorts"
 	
 mission "Hai Reveal [D0XB] Skipped Mooncreek Escorts"
 	landing
-	name "Hai-Human Treaty Signing"
-	description "Travel to Mountaintop for the final treaty signing."
+	name "海-人条约签署"
+	description "前往山顶参加最后的条约签署。"
 	destination "Mountaintop"
 	to offer
 		has "mooncreek main outfitters"
 		not "Hai Reveal [D04] Escort Republic Outfitters: done"
 	on offer
 		conversation
-			`In your absence the Mooncreek station has been fully completed. You are summoned to Mountaintop for the final treaty signing.`
+			`在你不在的时候，月溪站已经完全完工。你被传唤到山顶参加最后的条约签署。`
 				accept
 
 mission "Hai Reveal [D0XC] Skipped Mooncreek Escorts"
 	landing
-	name "Hai-Human Treaty Signing"
-	description "Travel to Mountaintop for the final treaty signing."
+	name "海-人条约签署"
+	description "前往山顶参加最后的条约签署。"
 	destination "Mountaintop"
 	to offer
 		has "mooncreek main outfitters"
 		has "Hai Reveal [D10] Escort Free World Outfitters: declined"
 	on offer
 		conversation
-			`In your absence the Mooncreek station has been fully completed. You are summoned to Mountaintop for the final treaty signing.`
+			`在你不在的时候，月溪站已经完全完工。你被传唤到山顶参加最后的条约签署。`
 				accept
 	
 
 mission "Hai Reveal [D13] Travel to Mountaintop"
 	landing
-	name "Hai Treaty"
-	description "Travel to <destination> for the official signing of the Human-Hai Treaty."
+	name "海族条约"
+	description "前往<destination>参加人类-海族条约的正式签署仪式。"
 	source "Mooncreek"
 	destination "Mountaintop"
 	passengers 1
@@ -647,14 +647,14 @@ mission "Hai Reveal [D13] Travel to Mountaintop"
 		event "mooncreek fw outfitters" 12
 		payment 6000000
 		conversation
-			`With the Free World outfitters safely at Mooncreek, there's nothing left except to go to Mountaintop for the treaty signing. Alondo hitches a ride and transfers you the <payment> promised by the Free Worlds.`
+			`随着自由世界的装备者安全抵达月溪，除了去山顶参加条约签署外，就没有其他事情了。阿隆多搭了个顺风车，把自由世界承诺的<payment>转给你。`
 				accept
 
 
 mission "Hai Reveal [D14] Hai-Human Treaty"
 	landing
-	name "Hai Treaty"
-	description "Participate in the official signing of the Human-Hai Treaty."
+	name "海族条约"
+	description "参加人海条约的正式签署。"
 	source "Mountaintop"
 	to offer
 		or
@@ -666,10 +666,10 @@ mission "Hai Reveal [D14] Hai-Human Treaty"
 		event "mooncreek realized" 15
 		payment 12000000
 		conversation
-			`Arriving on <origin> once again brings with it full diplomatic regalia. The gallery "Where Mountains Touch The Sky" is filled to the brim with a great many representatives from the Core and Paradise worlds, and some of the more notable representatives from the Syndicate and Free Worlds. The entire Hai Elder Council is in attendance, and the Chancellor of the Free Worlds and President of the Republic are again schmoozing about in their most respectable suits. Alondo, Xilin, and Hiyamaharu have their symbols of office, and it looks like the Free Worlds have now finalized their design for Alondo's.`
-			`	The speeches in the grand Borealis Chamber turn out to be rather long and dry. Teeneep makes an appearance along with one of the other Elder Hai, whom you think you recognize as the one who asked you strange questions once before. Only the Republic President makes a head of state address, but the highest officer of the Navy also makes an address on the value of the Mooncreek station to the security of both nations and and the benefits of long-term cooperation with mutual friends.`
-			`	You are asked to stand for a great many photos, make occasional comments, and shake an absolutely endless series of hands. Xilin is kind enough to make sure you get some of the better hors d'oeuvres in between exchanging pleasantries.`
-			`	When it's over, Xilin and Hiyamaharu quietly inform you that you have a reward of <payment> for your earlier efforts setting up Mooncreek. You're free to go back about your business now.`
+			`抵达<origin>后，再次带来了完整的外交礼节。在 "山峰触及天空的地方 "的长廊里，挤满了来自核心世界和天堂世界的许多代表，以及来自辛迪加和自由世界的一些更著名的代表。整个海族长老会都出席了会议，自由世界的大法官和共和国总统又穿着他们最体面的西装在招摇过市。阿隆多、西林和希亚马哈鲁都有他们的职务象征，看来自由世界现在已经敲定了阿隆多的设计。`
+			`	在宏伟的博瑞厅里的演讲变得相当冗长和枯燥。蒂尼普和其他海族长老之一出现了，你认为你能认出他就是之前问你奇怪问题的人。只有共和国总统发表了国家元首讲话，但海军的最高官员也发表了讲话，介绍了月溪站对两国安全的价值，以及与共同朋友长期合作的好处。`
+			`	你被要求站着拍大量的照片，偶尔发表评论，并与一连串绝对无止境的人握手。锡林好心地确保你在寒暄之间得到一些更好的开胃菜。`
+			`	结束后，西林和希亚马哈鲁悄悄地告诉你，你有一笔<payment>的奖励，以奖励你先前为建立月溪所做的努力。你现在可以自由地回去做你的事了。`
 				decline
 
 
@@ -723,7 +723,7 @@ event "mooncreek realized"
 	system Cardax
 		add fleet "Cardax Miners" 1800
 	planet Mooncreek
-		spaceport `The spaceport is essentially a military facility. Uniformed crew members of various stripes hurry back and forth without giving you a second glance. The food options are diverse, but all have that certain trend of solidity and mass over taste that is typical of military fare. Outside of outfitters, there are few shops or other services catering to civilians, and a very busy section devoted to the fighter groups that mine the asteroids here to keep the outfitters supplied with basic resources for manufacture.`
+		spaceport `这个太空港基本上是一个军事设施。穿着制服的各色船员来回走动，对你视而不见。食物的选择多种多样，但所有的食物都有一定的趋势，那就是军用食品的典型特点--坚固性和质量高于味道。除了装备制造厂之外，很少有商店或其他服务机构为平民提供服务，还有一个非常繁忙的部分，专门为在这里开采小行星的战斗机群提供服务，以保持装备制造厂的基本资源供应。`
 		add shipyard "Cardax Miners"
 		security 0.9
 	system Moktar

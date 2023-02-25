@@ -91,8 +91,8 @@ ship "Rano'erek"
 	explode "large explosion" 50
 	explode "huge explosion" 15
 	"final explode" "final explosion large"
-	description "After the Korath were exiled from their homelands, efficient resource collection became a priority. World-ships were too precious to risk on dangerous forays, and raiders lacked the cargo capacity. The Rano'erek-class Asteroid Dredging Ship, named for a respected civilian politician and economist, was born as an answer to this problem."
-	description "	Featuring an abundance of cargo and passenger space in addition to their formidable defensive armament, these bulky ships can also offer potent support for frontline Palavrets."
+	description "在科拉斯人被放逐出他们的家园后，有效的资源收集成为一个优先事项。世界飞船太过珍贵，不能冒险进行危险的航行，而突击队员又缺乏货运能力。以一位受人尊敬的平民政治家和经济学家的名字命名的拉诺克级小行星疏浚船的诞生就是为了解决这个问题。"
+	description "	除了强大的防御武器外，这些笨重的船只还具有丰富的货物和乘客空间，可以为前线的Palavrets提供有力的支持。"
 
 
 ship "Palavret"
@@ -165,8 +165,8 @@ ship "Palavret"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Successive raider designs have been the Korath warship of choice for plundering neighboring species for generations. Named for a celebrated captain who gave her life to ensure her crippled vessel made it back to port with its desperately needed cargo of stolen fish, the Palavret-Class Raiding Ship continues that grim tradition."
-	description "	Like all Exile ships, the Palavret has been adapted to house as many Korath as possible, as comfortably as possible, inflating its size beyond similarly armed warships. The spaceborne construction techniques employed allow for the ship's easy replacement, facilitating continued raids of nearby systems."
+	description "连续的突袭者设计已经成为Korath几代人掠夺邻国物种的首选战舰。以一位著名的船长命名，她用自己的生命来确保她那艘残破的船能够带着急需的偷来的鱼回到港口，Palavret级突击舰延续了这一严峻的传统。"
+	description "	像所有的流放者飞船一样，帕拉维特号被改造成可以容纳尽可能多的科拉特人，尽可能的舒适，使其尺寸超过了类似的武装战舰。所采用的太空建造技术使该船易于更换，便于继续对附近的系统进行袭击。"
 
 
 ship "Tubfalet"
@@ -279,8 +279,8 @@ ship "Tubfalet"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The venerable Palavret has been a mainstay of the Korath raiding fleet, elements of its design dating back from before the era of shortages and desperation caused by a life in exile. Over forty generations of raiders have terrorised neighboring systems over the centuries."
-	description "	Constant warfare against surrounding aliens has been building pressure on Korath shipyards to recover some of their ancient prowess. Now, with a fresh industrial network to draw upon, the Korath have created a new raider to deal with modern targets, and the Tubfalet-Class Raiding Ship is named for an admiral who dealt with such enemies. Despite extensive injuries, he remained on his flag bridge during a Remnant attack, leading his squadron to victory."
+	description "古老的帕拉维特号一直是科拉斯突击队的支柱，其设计元素可以追溯到流亡生活造成的短缺和绝望的时代之前。几个世纪以来，超过40代的突击队员已经恐吓了邻近的系统。"
+	description "	对周围外星人的不断战争一直在给Korath造船厂带来压力，以恢复他们古代的一些能力。现在，有了新的工业网络可以利用，Korath人创造了一种新的突击舰来对付现代目标，图布法雷级突击舰是以一位对付这种敌人的上将命名的。尽管受了很大的伤，他在一次残余者的攻击中仍然留在他的旗桥上，带领他的中队取得了胜利。"
 
 
 ship "'nra'ret"
@@ -352,8 +352,8 @@ ship "'nra'ret"
 	explode "large explosion" 50
 	explode "huge explosion" 15
 	"final explode" "final explosion large"
-	description "While perhaps, at first, seeming like a super-sized 'olofez-Class Carried Chaser, the 'nra'ret-Class Chaser is not only the first truly unique warship design the Exiles have fielded since the Exodus, but also the first built solely for combat instead of needing to double as a habitat or supply ship. Its size and non-modular nature also means it must be constructed wholesale at the largest Korath facilities, something that, until recently, was generally reserved for the likes of the massive Ik'atilajej and the Korsmanath A'awoj."
-	description "	The 'nra'ret-Class Chaser, named in honor of a brilliant weapons engineer who took their own life to avoid having their secrets captured by a hostile alien force, provides the Exiles with a fast and powerful patrol striker both in support of large raiding fleets and as independent units. To this end, it is armed with numerous missile ports designed to rain fire on enemies from afar. It also carries a pair of langrage heavers for sustained operations, and two Fire-Lances for emergency use in close quarters."
+	description `虽然起初看起来像一个超级大的 "lofez "级携带式追击舰，但 "nra'ret "级追击舰不仅是流亡者自出埃及记以来第一艘真正独特的战舰设计，也是第一艘完全为战斗而建造的，而不是需要兼作栖息地或补给舰。它的尺寸和非模块化的性质也意味着它必须在最大的Korath设施中全盘建造，直到最近，这一点通常只保留给大规模的Ik'atilajej和Korsmanath A'awoj这样的船。`
+	description "	nra'ret-Class Chaser是为了纪念一位杰出的武器工程师而命名的，他为了避免自己的秘密被敌对的外星势力捕获而自杀，它为流亡者提供了快速而强大的巡逻前锋，既可以支持大型突击舰队，也可以作为独立单位。为此，它配备了许多导弹发射口，可以从远处向敌人开火。它还携带了一对用于持续作战的兰格重炮，以及两支用于近距离紧急使用的火力长矛。"
 
 
 ship "'olofez"
@@ -392,8 +392,8 @@ ship "'olofez"
 	engine 7 23
 	gun 0 -28 "Fire-Lance"
 	explode "tiny explosion" 20
-	description "The 'olofez-Class Carried Chaser, named for a renowned artist who painted their visions of ancient hunts, is a fighter carried by most Exile capital ships."
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "olofez级携带式追猎者，以一位著名艺术家的名字命名，他为他们描绘了古代狩猎的愿景，是大多数流亡者首府战舰携带的战斗机。"
+	description "	战斗机不配备超光速引擎。除非你的舰队中有一艘带有战斗机舱的飞船，否则你无法携带战斗机。"
 
 
 ship "Kas'ik Tek 7"
@@ -433,8 +433,8 @@ ship "Kas'ik Tek 7"
 	engine 8.5 25
 	explode "tiny explosion" 9
 	explode "small explosion" 6
-	description `These small probes are primarily deployed by larger Korath Exile ships to scan for intruders, evaluate foreign vessels, and analyze system bodies. Their secondary function is to retrieve small debris and deactivated microbots spread across Korath space which have fallen off their ships, been fired from Shunt-Strikes, or were even deliberately deployed. Although the data observed and logged by an individual microbot is extremely limited, processing them in bulk yields a valuable gestalt of information. More importantly, the microbots can be recycled for use afterwards.`
-	description `	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay.`
+	description `这些小型探测器主要由较大的科拉斯流亡者飞船部署，用于扫描入侵者，评估外国船只，并分析系统体。它们的次要功能是回收散布在Korath空间的小型碎片和停用的微型机器人，这些小型碎片和微型机器人是从它们的飞船上掉下来的，被Shunt-Strikes发射的，甚至是被故意部署的。尽管单个微型机器人所观察和记录的数据极其有限，但对它们进行批量处理可以获得宝贵的信息格式。更重要的是，这些微型机器人可以在事后被回收使用。`
+	description `	无人机并不配备超光速引擎。除非你的舰队里有一艘带有无人机舱的飞船，否则你无法携带无人机。`
 
 
 ship "Rai'alorej"
@@ -514,8 +514,8 @@ ship "Rai'alorej"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "Although fierce in battle and highly adaptable, Korath do not easily recover from injury. Without the aid of a surgeon or more equipment than fits into a standard escape pod, a stranded, injured Korath faces poor odds of survival. Therefore, Korath who leave their home territory have placed great importance on the construction of hospital ships that can quickly locate, recover, and treat the survivors of wrecked ships."
-	description "	The Rai'alorej-Class Refuge, named for a pioneer in the field of microbot-assisted surgery, is thoroughly appointed with lifeform scanners, locator beacon receivers, ambulances, and search-and-rescue teams. Once onboard, crash victims are greeted with the finest hospital facilities, microbot treatments, and stores of medicine the Exiles have at hand. Even incubators and nurseries are available to treat the young who grow up aboard ship."
+	description "虽然在战斗中非常凶猛，而且适应性很强，但科拉斯不容易从伤害中恢复。如果没有外科医生的帮助，或者没有比标准逃生舱更多的设备，一个受困的、受伤的Korath面临着很差的生存机会。因此，离开家乡的Korath人非常重视建造医院船，能够快速找到、恢复和治疗失事船只的幸存者。"
+	description "	Rai'alorej级避难所是以微型机器人辅助手术领域的先驱者命名的，它完全配备了生命体扫描器、定位信标接收器、救护车和搜救队。一旦上了船，坠机者就会得到最好的医院设施、微型机器人治疗和流亡者手头的药品储备。甚至孵化器和托儿所也可以用来治疗在船上长大的孩子。"
 
 
 ship "Ikatila'ej"
@@ -590,8 +590,8 @@ ship "Ikatila'ej"
 	explode "large explosion" 60
 	explode "huge explosion" 25
 	"final explode" "final explosion large"
-	description "For most of their manufacturing needs, the Korath rely, as even some terrestrial species do, upon their space station and asteroid infrastructure. Due to their spacebound existence, however, the acceptability for failure and downtime is slim to nonexistent. Should equipment aboard a station or a world-ship fail, the Ikatila'ej, named for an inventor famously proficient in a variety of fields, is called in to provide critical support. Its microbot-run factory produces basic living supplies, machine parts, and systems cores, and may assist in continuing stalled production."
-	description "	When not assisting with damaged ships and stations, or replenishing its own stores, the Ikatila'ej serves as an all-in-one recycling, mining, refining, and factory ship, using its microbot-powered grinder to rapidly turn asteroids and garbage into whatever products the civilian economic planning committees have determined to be in the most dire need."
+	description "就其大部分的制造需求而言，科拉斯人甚至像一些陆地物种一样，依赖于他们的空间站和小行星基础设施。然而，由于他们在太空中的存在，对故障和停工的接受度很低，甚至不存在。如果空间站或世界飞船上的设备出现故障，以一位精通各种领域的著名发明家命名的Ikatila'ej将被召来提供关键支持。它的微型机器人工厂生产基本的生活用品、机器零件和系统核心，并可协助继续进行停滞的生产。"
+	description "	当不协助受损的船只和站台，或补充自己的仓库时，Ikatila'ej作为一个全能的回收、采矿、提炼和工厂的船只，使用它的微型机器人驱动的研磨机，迅速将小行星和垃圾变成民用经济计划委员会确定的最迫切需要的任何产品。"
 
 
 ship "Lor'kas Ik 577"
@@ -666,7 +666,7 @@ ship "Lor'kas Ik 577"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "The largest of Korath production vessels are derived from a common and ancient chassis. This simple ship has been adapted for hauling materials between refinery and factory stations."
+	description "科拉斯最大的生产船是由一个普通而古老的底盘衍生出来的。这种简单的船已经被改造为在精炼厂和工厂站之间拖动材料。"
 
 
 ship "Ra'gru Ik 618"
@@ -750,7 +750,7 @@ ship "Ra'gru Ik 618"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "The largest of Korath production vessels are derived from a common and ancient chassis. This deceptively spindly ship bristles with weapon emplacements for heavy raiding or defending other vessels."
+	description "最大的Korath生产船是由一个普通而古老的底盘衍生而来。这艘笨重的船只上布满了武器装置，可以用来进行猛烈的攻击或防御其他船只。"
 
 
 ship "Kas'lor Ik 582"
@@ -822,7 +822,7 @@ ship "Kas'lor Ik 582"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "The largest of Korath production vessels are derived from a common and ancient chassis. This relatively streamlined ship has been adapted to collect, refine, and transport hyperspace fuel."
+	description "最大的Korath生产型船只是由一个普通的古老底盘衍生出来的。这种相对流线型的船被改造成可以收集、提炼和运输超空间燃料。"
 
 
 ship "Lor'nag Ik 590"
@@ -897,7 +897,7 @@ ship "Lor'nag Ik 590"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "The largest of Korath production vessels are derived from a common and ancient chassis. This bulbous ship has been adapted to carry passengers between stations, or boarding parties into enemy strongholds."
+	description "最大的Korath生产型船只来自于一个普通的古老底盘。这艘球状的船被改装成可以在各站之间运送乘客，或将登船队带入敌人的据点。"
 
 
 ship "Ra'at Ik 621"
@@ -984,7 +984,7 @@ ship "Ra'at Ik 621"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "The largest of Korath production vessels are derived from a common and ancient chassis. This many-lobed ship has been adapted to carry fighters into large-scale raids, or mining craft into asteroid belts. Its radial arrangements of hangars allows fighters a maximum variety of safe approach patterns in combat."
+	description "最大的Korath生产型船只是由一个普通的古老底盘衍生出来的。这种多裂缝的船被改装成可以携带战斗机进行大规模突袭，或将采矿船运入小行星带。它的机库呈放射状排列，允许战斗机在战斗中拥有最大的安全接近模式。"
 
 
 ship "Kasichara A'awoj"
@@ -1051,8 +1051,8 @@ ship "Kasichara A'awoj"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "Originally designed as a luxury habitat for those wealthy enough to escape living on the polluted surface of Korath worlds, when the Korath were exiled, it was into these gargantuan 'world-ships' they first crammed themselves into and fled to the core on. Nostalgically, the class was then renamed after the devastated and now forbidden Korath homeworld."
-	description "	Since the introduction of purpose-built city ships, these ancient vessels have mostly been decommissioned, turned into stations, or reconfigured into smaller, specialized vessels. Yet a few still ply the starlanes, crewed by those too restless to live on stations yet not bold enough to go on raids."
+	description `最初是为那些富裕的人设计的豪华栖息地，以逃避生活在Korath世界的污染表面，当Korath人被流放时，他们首先挤进了这些巨大的 "世界飞船"，并逃到了核心地带。怀旧的是，这个等级的飞船后来被重新命名为被破坏的、现在被禁止的科拉斯母星。`
+	description "	自从专门建造的城市舰艇问世以来，这些古老的舰艇大多已经退役，变成了站台，或者被重新配置成更小的专用舰艇。然而，仍有少数船只在星际间穿梭，船员是那些不愿意住在站台上但又没有勇气去袭击的人。"
 
 
 ship "Korsmanath A'awoj"
@@ -1287,8 +1287,8 @@ ship "Korsmanath A'awoj"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "Korsmanath A'awojs, named in memory of the Korath home system, are massive nomadic habitats that hold much of their remaining population. True flying cities, they could be self-contained miniature worlds were it not for their heavy defensive armament and reliance on unsustainable materials, methods, and sources of power."
-	description "	Commission of new Korsmanath A'awojs is a resource-demanding, labor-intensive, painstaking process fraught with political intrigue. Navarchs fight with the civilian government for resources and yard time they would rather devote to building raiding and defensive fleets, civilians vie with each other for a place on the next ship, and planning committees argue with engineers over what methods and technologies to use. This leads to construction delays, corner-cutting, and over-militarization of the design at best, and violent feuds at worst."
+	description "Korsmanath A'awojs，为纪念Korath母星系统而命名，是巨大的游牧栖息地，容纳了他们的大部分剩余人口。真正的飞行城市，如果不是因为他们的重型防御武器和对不可持续的材料、方法和动力来源的依赖，他们可以成为独立的微型世界。"
+	description "	新的Korsmanath A'awojs的委托是一个需要资源的、劳动密集的、充满政治阴谋的艰苦过程。水手长们与文官政府争夺资源和院子里的时间，他们宁可把这些时间用于建造突击和防御舰队，平民们互相争夺下一艘船的位置，而规划委员会则与工程师争论使用什么方法和技术。这导致了建造的延误、挖墙角和过度军事化的设计，最好的情况是暴力争斗。"
 
 
 
@@ -1351,7 +1351,7 @@ ship "Echo-Galleon"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description `The largest of Korath production vessels are derived from a common and ancient chassis, including this large Efreti vessel. Facing very different challenges, and taking some inspiration from their Quarg protectors, the Efreti descendant of the "World-Ships" of old is lighter, faster, and more efficient, but less powerful than its Exile counterparts.`
+	description `科拉斯最大的生产型船只是由一个共同的、古老的底盘衍生出来的，包括这艘大型的Efreti船。面对非常不同的挑战，并从他们的夸格保护者那里得到一些灵感，古老的 "世界之船 "的Efreti后裔更轻、更快、更有效，但比其流放者的同类产品要少。`
 
 
 ship "Arch-Carrack"
@@ -1414,7 +1414,7 @@ ship "Arch-Carrack"
 	explode "large explosion" 50
 	explode "huge explosion" 15
 	"final explode" "final explosion large"
-	description "Although they do not effectively provide for their own defense, the Efreti remain responsible for the day-to-day needs of civilian and cargo transportation. While not as bulky or powerful as other Korath designs, this freighter is much faster at making runs back and forth between the Efreti's handful of remaining planets, while still holding enough defensive loadout to ward off the odd Mereti drone that slips past the Quarg."
+	description "虽然他们不能有效地提供自己的防御，但Efreti仍然负责日常的民用和货物运输的需要。虽然不像其他Korath设计的那样笨重或强大，但这艘货船在Efreti仅有的几颗行星之间来回运行时速度更快，同时仍有足够的防御装备来抵御溜过Quarg的奇怪的Merieti无人机。"
 
 
 ship "Charm-Shallop"
@@ -1472,7 +1472,7 @@ ship "Charm-Shallop"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "A recent design, this Efreti multi-role vessel is found taking up many jobs previously relegated to a now scrapped fleet of early-model raiders. While some are used primarily for passenger transport, others are used in local mining to satiate the Efreti's perpetual demand for ores. Incorporating Quarg-inspired structural elements, its light frame allows it to complete tasks more nimbly than any other independent Korath ship."
+	description "作为一种最新的设计，这种Efreti多功能船被发现承担了许多以前属于早期型号的突击队的工作，现在已经报废了。有的主要用于客运，有的则用于当地的采矿，以满足埃弗里蒂人对矿石的长期需求。融合了夸父的结构元素，其轻盈的框架使其能够比其他独立的科拉斯船更灵活地完成任务。"
 
 
 
@@ -1540,7 +1540,7 @@ ship "Kar Ik Vot 349"
 	explode "large explosion" 50
 	explode "huge explosion" 15
 	"final explode" "final explosion large"
-	description "The largest and deadliest of the Kor Sestor robotic warships, a single one of these battlecruisers can hold its own against an entire fleet of lesser ships."
+	description "它是Kor Sestor机器人战舰中最大和最致命的战舰，一艘这样的战列巡洋舰就能抵挡住一整支较小的船队。"
 
 
 ship "Tek Far 71 - Lek"
@@ -1620,7 +1620,7 @@ ship "Tek Far 71 - Lek"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Kor Sestor war fleets rely heavily on small, powerful fighters and drones. This ship can carry up to ten of their drones, clamped to the exterior of its hull."
+	description "科尔-塞斯特尔战争舰队严重依赖小型、强大的战斗机和无人机。这艘船可以携带多达10架他们的无人机，夹在船体的外部。"
 
 
 ship "Tek Far 78 - Osk"
@@ -1700,7 +1700,7 @@ ship "Tek Far 78 - Osk"
 	explode "large explosion" 45
 	explode "huge explosion" 12
 	"final explode" "final explosion large"
-	description "This carrier is equipped with docking clamps for up to nine fighters. When loaded with a full complement of the powerful Kor Sestor robotic fighters, it is a formidable opponent."
+	description "这艘航母配备了对接夹具，最多可容纳九架战斗机。当装载满了强大的Kor Sestor机器人战斗机时，它是一个可怕的对手。"
 
 
 ship "Tek Far 109"
@@ -1788,7 +1788,7 @@ ship "Tek Far 109"
 	explode "large explosion" 30
 	explode "huge explosion" 8
 	"final explode" "final explosion medium"
-	description "The TF109 is designed almost solely for the purpose of carrying a fleet of Kor Sestor fighters and drones. Without them to serve as a protective screen, the ship itself is relatively helpless."
+	description "TF109的设计几乎完全是为了搭载Kor Sestor战斗机和无人机舰队。如果没有它们作为保护屏，这艘船本身是相对无能为力的。"
 
 
 ship "Met Par Tek 53"
@@ -1848,7 +1848,7 @@ ship "Met Par Tek 53"
 	explode "large explosion" 20
 	explode "huge explosion" 6
 	"final explode" "final explosion medium"
-	description "Although this is the smallest Kor Sestor ship other than their fighters, it is larger than most human capital ships and considerably more powerful."
+	description "虽然这是除战斗机之外最小的Kor Sestor舰，但它比大多数人类的资本舰要大，而且相当强大。"
 
 
 ship "Far Lek 14"
@@ -1887,8 +1887,8 @@ ship "Far Lek 14"
 	gun 0 -30
 	explode "tiny explosion" 20
 	explode "small explosion" 10
-	description "At the peak of their recent civil war, the Kor Sestor faction developed these automated attack drones, easy to manufacture and encased in an ultra-dense hull that can absorb a significant amount of damage."
-	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+	description "在他们最近的内战高峰期，Kor Sestor派系开发了这些自动攻击无人机，易于制造，被包裹在一个超密集的船体中，可以吸收大量的伤害。"
+	description "	无人机并不配备超光速引擎。除非你的舰队里有一艘带有无人机舱的飞船，否则你无法携带无人机。"
 
 
 ship "Far Osk 27"
@@ -1928,8 +1928,8 @@ ship "Far Osk 27"
 	gun 13 -8
 	explode "tiny explosion" 25
 	explode "small explosion" 15
-	description "Because it is piloted by a computer and has no need for a cockpit or life support systems, the FS27 fighter is able to carry far more weaponry than any comparable human ship."
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "由于它是由计算机驾驶的，不需要驾驶舱或生命支持系统，FS27战斗机能够携带比任何同类人类飞船多得多的武器装备。"
+	description "	战斗机不配备超光速引擎。除非你的舰队中有一艘带有战斗机舱的飞船，否则你无法携带战斗机。"
 
 
 
@@ -1977,7 +1977,7 @@ ship "Model 8"
 	explode "tiny explosion" 30
 	explode "small explosion" 10
 	"final explode" "final explosion small"
-	description "The primary role of the smallest Kor Mereti drones is asteroid mining, but their lasers can also be employed as offensive weapons when necessary."
+	description "最小的Kor Mereti无人机的主要作用是开采小行星，但必要时它们的激光器也可以作为进攻性武器使用。"
 
 
 ship "Model 16"
@@ -2031,7 +2031,7 @@ ship "Model 16"
 	explode "medium explosion" 30
 	explode "large explosion" 10
 	"final explode" "final explosion small"
-	description "The Kor Mereti war drones are constructed in a modular fashion, which allows them to grow over time as more materials become available. This one is recently built, and relatively small."
+	description "Kor Mereti战争无人机是以模块化的方式建造的，这使得它们可以随着时间的推移，随着更多材料的出现而增长。这架是最近建造的，而且相对较小。"
 
 
 ship "Model 32"
@@ -2086,7 +2086,7 @@ ship "Model 32"
 	explode "medium explosion" 40
 	explode "large explosion" 15
 	"final explode" "final explosion medium"
-	description "The Kor Mereti built their drones to mimic life: capable of growth and development throughout their life cycles. Their automated factories can convert the drones from one configuration to another by adding or removing modules."
+	description "Kor Mereti建造他们的无人机是为了模仿生命：能够在整个生命周期内成长和发展。他们的自动化工厂可以通过添加或删除模块将无人机从一种配置转换为另一种配置。"
 
 
 ship "Model 64"
@@ -2143,7 +2143,7 @@ ship "Model 64"
 	explode "medium explosion" 50
 	explode "large explosion" 20
 	"final explode" "final explosion medium"
-	description "This medium-sized drone serves the Kor Mereti fleets in much the same way as a human Frigate, but in terms of total firepower it is far beyond anything humans have constructed."
+	description "这种中型无人机为Kor Mereti舰队服务的方式与人类的护卫舰基本相同，但就总的火力而言，它远远超过了人类所建造的任何东西。"
 
 
 ship "Model 128"
@@ -2201,7 +2201,7 @@ ship "Model 128"
 	explode "medium explosion" 60
 	explode "large explosion" 25
 	"final explode" "final explosion large"
-	description "As Kor Mereti drones continue to grow and develop into their final form, they split down the middle. At the same time, their shielding and weaponry continue to become stronger."
+	description "随着Kor Mereti无人机不断成长并发展成最终形态，它们从中间裂开。与此同时，它们的防护罩和武器装备也继续变得更加强大。"
 
 
 ship "Model 256"
@@ -2261,7 +2261,7 @@ ship "Model 256"
 	explode "medium explosion" 70
 	explode "large explosion" 30
 	"final explode" "final explosion large"
-	description "There is a saying among the Quarg that every species which insists on studying war will eventually construct a weapon that outlives its creators. For the Korath, their war drones have very nearly done so."
+	description "在夸父族中有这样一句话：每个坚持研究战争的物种最终都会建造出一种比其创造者寿命更长的武器。对于科拉斯人来说，他们的战争无人机几乎已经做到了这一点。"
 
 
 ship "Model 512"
@@ -2323,4 +2323,4 @@ ship "Model 512"
 	explode "medium explosion" 80
 	explode "large explosion" 35
 	"final explode" "final explosion large"
-	description "This is the final state in the evolution of a Kor Mereti war drone: a perfect ring, with incredibly powerful shields and turrets firing in every direction."
+	description "这是Kor Mereti战争无人机进化的最终状态：一个完美的环形，具有令人难以置信的强大盾牌和向各个方向发射的炮塔。"

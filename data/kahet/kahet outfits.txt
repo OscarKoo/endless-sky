@@ -47,7 +47,7 @@ outfit "Ka'het Nullifier"
 		"scrambling damage" 150
 		"hit force" 50
 		"blast radius" 20
-	description "The Nullifier was one of the largest weapons the Builders ever developed, created specifically to be carried in battle by the Vareti. Although it does almost no damage to shields and hull, one shot is capable of disabling most kinds of reactors in a matter of seconds."
+	description "毁灭者是建设者们开发的最大的武器之一，是专门为瓦雷蒂人在战斗中携带的。虽然它对护盾和船体几乎没有伤害，但一发就能在几秒钟内使大多数类型的反应堆失效。"
 
 effect "ionball spark"
 	sprite "effect/ion impact"
@@ -129,7 +129,7 @@ outfit "Ka'het Ravager Beam"
 		"firing heat" 1.5
 		"shield damage" 1.8
 		"hull damage" 4.3
-	description "This laser beam was created by the Builders for use in asteroid mining. Unfortunately, they understood its effectiveness in combat only after it turned against them."
+	description "这种激光束是由建设者们创造的，用于小行星的开采。不幸的是，他们在它反过来对付他们之后才明白它在战斗中的有效性。"
 
 outfit "Ka'het Ravager Turret"
 	category "Turrets"
@@ -155,7 +155,7 @@ outfit "Ka'het Ravager Turret"
 		"firing heat" 1.5
 		"shield damage" 1.8
 		"hull damage" 4.3
-	description "This turret-mounted version of the Ravager Beam is one of the strongest weapons the Ka'het possess."
+	description "这种安装在炮塔上的掠夺者光束是卡赫特人拥有的最强武器之一。"
 
 effect "ravager impact"
 	sprite "effect/ravager impact"
@@ -185,7 +185,7 @@ outfit "Ka'het Annihilator"
 		"firing heat" 8
 		"shield damage" 43
 		"hull damage" 12
-	description "The Builders initially created the Annihilator long ago, as a countermeasure to their newly discovered shield matrix. They kept developing it for centuries, with this being its final version."
+	description "建设者们在很久以前就创造了毁灭者，作为对他们新发现的盾牌矩阵的一种反制措施。几个世纪以来，他们一直在开发它，而这是它的最终版本。"
 
 outfit "Ka'het Annihilator Turret"
 	category "Turrets"
@@ -210,7 +210,7 @@ outfit "Ka'het Annihilator Turret"
 		"firing energy" 62
 		"firing heat" 16
 		"submunition" "Annihilator Projectile" 2
-	description "The Builders mounted two Annihilators on this turret, making it highly efficient against enemy shields."
+	description "建设者们在这个炮塔上安装了两个歼灭者，使其在对付敌人的护盾时非常有效。"
 
 outfit "Annihilator Projectile"
 	weapon
@@ -266,7 +266,7 @@ outfit "Ka'het EMP Deployer"
 		"scrambling damage" 48
 		"hit force" 90
 		"missile strength" 80
-	description "Eons ago, the Builders were attacked by alien ships which used weapons that ignored their hull and damaged their reactors. Although they never did recover any of these weapons, after years of research they managed to replicate their effects."
+	description "几个世纪前，建设者们遭到了外星飞船的攻击，这些飞船使用的武器无视他们的船体，并损坏了他们的反应堆。尽管他们从未收回过这些武器，但经过多年的研究，他们成功地复制了这些武器的效果。"
 
 outfit "Ka'het Emergency Deployer"
 	category "Secondary Weapons"
@@ -300,7 +300,7 @@ outfit "Ka'het Emergency Deployer"
 		"heat damage" 4920
 		"hit force" 1600
 		"missile strength" 280
-	description "Most drones the Builders possessed were completely unarmed, making them very vulnerable to enemy attacks. Since installing weapons would have greatly reduced its cargo capacity, they instead decided to dissuade possible hijackers by developing these Emergency Deployers: they work by activating a series of reactions inside the ship's MHD generator and then ejecting it towards the enemy, resulting in a large scale detonation as soon as it hits something."
+	description "建设者们拥有的大多数无人机都是完全没有武器的，这使得它们非常容易受到敌人的攻击。由于安装武器会大大减少其货物容量，他们反而决定通过开发这些紧急部署器来劝阻可能的劫持者：它们的工作原理是在飞船的MHD发电机内激活一系列反应，然后向敌人喷射，一旦碰到东西就会产生大规模的爆炸。"
 
 effect "mhd spark"
 	sprite "effect/mhd spark"
@@ -334,7 +334,7 @@ outfit "Ka'het Support Cooling"
 	"outfit space" -8
 	"active cooling" 32
 	"cooling energy" 3.1
-	description "While the cooling on a typical ship only needs to worry about keeping the crew comfortable in certain areas, the entirety of a Ka'het ship needs to maintain a suitable temperature for the Het inside to survive."
+	description "一般飞船上的冷却器只需要担心让船员在某些区域保持舒适，而整个卡赫特飞船则需要保持一个合适的温度，以便里面的赫特人能够生存。"
 
 
 outfit "Ka'het Primary Cooling"
@@ -345,7 +345,7 @@ outfit "Ka'het Primary Cooling"
 	"outfit space" -14
 	"active cooling" 65
 	"cooling energy" 5.9
-	description "This is the main cooler used by the Ka'het. Although energy intensive, it is very effective, capable of single-handedly cooling some Het."
+	description "这就是卡赫特人使用的主要冷却器。虽然能源密集，但它非常有效，能够单枪匹马地冷却一些赫特人。"
 
 # Shield:
 
@@ -357,7 +357,7 @@ outfit "Ka'het Shield Restorer"
 	"outfit space" -17
 	"shield generation" 1.02
 	"energy consumption" 1.53
-	description "The Builders never relied much on shield matrices, preferring instead to strengthen their hull. The reality of war, however, required that the Builders develop strong shield technology, leading to some Het vessels making extensive use of this module."
+	description "建设者们从来没有过多地依赖盾牌矩阵，而是倾向于加强他们的船体。然而，战争的现实要求建设者们发展强大的盾牌技术，导致一些赫特人的船只广泛使用这一模块。"
 
 outfit "Ka'het Grand Restorer"
 	category "Systems"
@@ -368,8 +368,8 @@ outfit "Ka'het Grand Restorer"
 	"shield generation" 7.08
 	"energy consumption" 10.62
 	"depleted shield delay" 350
-	description "This shield generator is the apex of Ka'het shielding technology, a field that developed rapidly and out of necessity rather than gradually and perfected over long periods. Nevertheless, the Grand Restorer grants good protection for the largest Het ships, replacing the basic restorers used elsewhere."
-	description "	Unlike most generators, this restorer needs a few seconds to start working again once the ship's shields have been depleted."
+	description "这个护盾发生器是卡赫特护盾技术的顶点，这个领域发展迅速，而且是出于需要，而不是经过长期逐步完善的。尽管如此，大修复器为最大的赫特飞船提供了良好的保护，取代了其他地方使用的基本修复器。"
+	description "	与大多数发电机不同的是，一旦飞船的护盾被耗尽，这种恢复器需要几秒钟才能再次开始工作。"
 
 # Power:
 
@@ -381,7 +381,7 @@ outfit "Ka'het MHD Generator"
 	"outfit space" -22
 	"energy generation" 3.8
 	"heat generation" 5.8
-	description "The Builders originally created this magnetohydrodynamic generator as the Ka'mar main power source. Similarly to what happened with many Mar devices, it was later reused in the Het ships as a secondary energy generator, supplementing their integrated power systems when they proved to be unsatisfactory."
+	description "建设者们最初创造了这种磁流体动力发电机，作为卡玛的主要动力来源。与许多玛尔设备的情况类似，它后来被重新用于赫特战舰，作为次要的能源发电机，当它们被证明不能令人满意时，补充它们的综合动力系统。"
 
 outfit "Ka'het Reserve Accumulator"
 	category "Power"
@@ -390,7 +390,7 @@ outfit "Ka'het Reserve Accumulator"
 	"mass" 2
 	"outfit space" -3
 	"energy capacity" 2400
-	description "This tiny battery was developed for use by the Ka'mar drones as an emergency energy storage, in case their generators can't quite suffice for the high power demand of most Builder systems."
+	description "这种微小的电池是为卡氏无人机开发的，作为一种紧急能量储存，以防他们的发电机不能完全满足大多数建造者系统的高功率需求。"
 
 # Engines:
 
@@ -414,7 +414,7 @@ outfit "Maeri Engine Nacelles"
 	"steering flare sprite" "effect/ka'het flare/large"
 		"frame rate" 30
 	"steering flare sound" "plasma medium"
-	description "The Ka'het engines are peculiar in that they continuously draw large amounts of energy, but require no additional energy to activate: while this means that less power remains available for other subsystems, it is also somewhat more efficient than most types of propulsions, and generates only a tiny amount of heat."
+	description "卡赫特引擎的特殊之处在于，它们不断汲取大量的能量，但不需要额外的能量来启动：虽然这意味着其他子系统可用的能量较少，但它也比大多数类型的推进器更有效率，而且只产生极少量的热量。"
 
 outfit "Ka'het Sustainer Nacelles"
 	plural "Ka'het Sustainer Nacelles"
@@ -436,7 +436,7 @@ outfit "Ka'het Sustainer Nacelles"
 	"steering flare sprite" "effect/ka'het flare/medium"
 		"frame rate" 30
 	"steering flare sound" "plasma small"
-	description "While Ka'het vessels are already equipped with proper engines, most of them use a sustainer engine in addition to give the ship enough maneuverability to be useful in combat. Following the same design as its bigger cousins, the sustainer requires no power to function at the cost of constant energy consumption."
+	description "虽然卡赫特飞船已经配备了适当的发动机，但它们中的大多数都使用了一个维持引擎，以使飞船具有足够的机动性，在战斗中发挥作用。遵循与其较大的表亲相同的设计，维持引擎不需要动力就能运作，但代价是持续的能量消耗。"
 
 outfit "Telis Engine Nacelles"
 	plural "Telis Engine Nacelles"
@@ -458,7 +458,7 @@ outfit "Telis Engine Nacelles"
 	"steering flare sprite" "effect/ka'het flare/large"
 		"frame rate" 30
 	"steering flare sound" "plasma medium"
-	description "These nacelles used to comprise the entire engine block of a Telis'het. While their size is not impressive compared to other engines, if used in conjunction with a sustainer or two, they can be a powerful form of propulsion, combining both turning and thrusting engines in one."
+	description "这些短舱曾经构成了泰利斯河的整个发动机组。虽然它们的尺寸与其他引擎相比并不惊人，但如果与一个或两个维持器结合使用，它们可以成为一种强大的推进形式，将转向和推力引擎合二为一。"
 
 outfit "Vareti Engine Block"
 	category "Engines"
@@ -479,7 +479,7 @@ outfit "Vareti Engine Block"
 	"steering flare sprite" "effect/ka'het flare/large"
 		"frame rate" 30
 	"steering flare sound" "plasma large"
-	description "This is the largest single engine the Builders ever built, made for the most massive ships they were in control of. Due to its sheer size, it isn't as modular as its smaller equivalents, but it is more efficient and powerful as a result."
+	description "这是建造者们有史以来最大的单体引擎，是为他们所掌控的最庞大的船只而制造的。由于其巨大的尺寸，它不像其较小的同类产品那样具有模块化，但它也因此更加高效和强大。"
 
 outfit "Ka'het Compact Engine"
 	category "Engines"
@@ -502,4 +502,4 @@ outfit "Ka'het Compact Engine"
 	"steering flare sprite" "effect/ka'het flare/medium"
 		"frame rate" 30
 	"steering flare sound" "plasma small"
-	description "This tiny engine was developed as the main propulsion of the Ka'mar drones, long before the Ka'het were created and their nacelle design standardized. Improvements over time allowed it to maintain a comparable efficiency to the larger models, although unlike those, it requires some energy to activate the engines in addition to the constant energy drain that all Builder-designed engines have."
+	description "这个微小的引擎被开发为卡玛无人机的主要推进器，早在卡赫特被创造出来，其机舱设计被标准化之前。随着时间的推移，它的改进使其保持了与大型型号相当的效率，尽管与那些不同的是，除了所有建造者设计的发动机所具有的持续能量消耗外，它还需要一些能量来激活发动机。"

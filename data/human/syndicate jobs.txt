@@ -16,7 +16,7 @@ mission "Transport executive to <planet>"
 	job
 	repeat
 	deadline
-	description "A Syndicate executive needs immediate yet comfortable transportation to attend an urgent meeting on <destination> by <date>. Payment is <payment>."
+	description "一位辛迪加高管需要立即但舒适的交通，以参加<destination>的<date>上的紧急会议。付款方式是<payment>。"
 	passengers 1
 	to offer
 		random < 20
@@ -32,14 +32,14 @@ mission "Transport executive to <planet>"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 5000 250
-		dialog "The Syndicate executive rushes off your ship without even a goodbye, fancy briefcase in hand. You collect your payment of <payment>."
+		dialog "该集团高管匆匆离开你的船，甚至没有一句再见，手里拿着漂亮的公文包。你收集你的付款<payment>。"
 
 
 mission "Corporate retreat from <origin>"
 	job
 	repeat
 	deadline
-	description "A team of <bunks> engineers needs transport to a corporate retreat on <stopovers>, after which they must return back to <origin> by <date>. They want a comfortable journey, so your ship must be outfitted suitably. Payment is <payment>."
+	description "一个由<bunks>工程师组成的团队需要运送到<stopovers>上的公司务虚会，之后他们必须在<origin>之前返回<date>。他们希望有一个舒适的旅程，所以你的船必须有合适的装备。付款方式为<payment>。"
 	passengers 7 18
 	to offer
 		random < 20
@@ -53,14 +53,14 @@ mission "Corporate retreat from <origin>"
 		distance 3 12
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Quarg"
 	on stopover
-		dialog "For days your ship has played host to endless discussions about load calculations, tensile strengths, and thermodynamic limits. You're grateful for some peace and quiet as the team of engineers tromps out of the hatch and heads for their exotic corporate retreat. You prepare for the return journey to <origin>."
+		dialog "几天来，你的船一直在无休止地讨论负载计算、抗拉强度和热力学极限。当工程师团队走出舱门，前往他们异国情调的公司隐居地时，你很感激一些和平与安静。你为返回<origin>的旅程做准备。"
 	on complete
 		payment 3000 160
-		dialog "The team's boss thanks you for a smooth trip and authorizes a payment of <payment>."
+		dialog "团队的老板感谢你的顺利旅行，并授权支付<payment>。"
 
 
 mission "Corporate espionage"
-	description "The <npc> is about to enter this system. Intercept it and make detailed scans of its cargo for Syndicate researchers on <destination>; proceed there before <date> for <payment> after retrieving the data."
+	description "<npc>即将进入这个系统。拦截它并为<destination>上的辛迪加研究人员对其货物进行详细扫描；在<date>之前前往那里，在获取数据后支付<payment>。"
 	job
 	deadline 1 3
 	repeat
@@ -81,16 +81,16 @@ mission "Corporate espionage"
 				"Scout"
 			variant
 				"Bounder"
-		dialog "You manage to make the requested scans of the <npc>'s cargo. Time to head to <planet>."
+		dialog "你成功地对<npc>的货物进行了所要求的扫描。是时候去<planet>了。"
 	on complete
-		dialog `You transmit your scans and receive a hearty congratulations, as well as <payment>. "This will save us months!" you hear someone say in the background as you close the audio link.`
+		dialog `你传送了你的扫描结果，并收到了热烈的祝贺，以及<payment>。"这将为我们节省几个月的时间！"当你关闭音频链接时，你听到有人在后台说。`
 		payment 50000
 
 
 mission "Document delivery to <planet>"
 	job
 	repeat
-	description "Deliver <tons> of ordinary documents to <destination>. Payment is <payment>."
+	description "将<tons>普通文件运送到<destination>。付款方式为<payment>。"
 	cargo "Confidential documents" 6 12
 	to offer
 		random < 10
@@ -104,13 +104,13 @@ mission "Document delivery to <planet>"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 5000 170
-		dialog "Almost as soon as you open the cargo hatch, several silent and surprisingly well-dressed men feed the crates of documents onto a conveyor belt right next to your landing site that you hadn't noticed, where to your surprise they soon disappear into the flames of an industrial incinerator. You collect your payment of <payment>."
+		dialog "几乎在你打开货物舱门的同时，几个沉默寡言、衣冠楚楚的人将一箱箱的文件送上了你着陆点旁边的传送带，你没有注意到，令你惊讶的是，他们很快就消失在一个工业焚化炉的火焰中。你领取了你的<payment>。"
 
 
 mission "Waste recycling on <planet>"
 	job
 	repeat
-	description "Syndicated Systems is looking for intrepid captains willing to make a difference as part of our new Green Initiative! Deliver <tons> of recyclable <commodity> to our special facility on <destination>. Payment is <payment>."
+	description "辛迪加系统公司正在寻找无畏的船长，作为我们新的绿色倡议的一部分，他们愿意有所作为!将<tons>可回收的<commodity>运送到我们在<destination>的特殊设施。付款方式为<payment>。"
 	cargo "Garbage" 6 40
 	to offer
 		random < 20
@@ -124,15 +124,15 @@ mission "Waste recycling on <planet>"
 	on complete
 		payment
 		payment 2000
-		dialog "You land on <planet> and drop off the exceptionally smelly shipment of <commodity> at a nondescript building, as instructed. Just as you take off, your rear camera catches sight of a burly Syndicate employee running out of the building shaking his fist. You notice that your payment of <payment> came from your contact on <origin>, not from anywhere on <planet>."
+		dialog "你降落在<planet>上，按照指示将这批特别臭的<commodity>运送到一个不知名的建筑。就在你起飞的时候，你的后方摄像头捕捉到了一个粗壮的辛迪加雇员摇晃着拳头从大楼里跑出来。你注意到，你的付款<payment>来自你在<origin>的联系人，而不是来自<planet>的任何地方。"
 
 
 mission "Rush fuel Delivery"
-	name "Rush fuel delivery to <planet>"
+	name "匆忙向<planet>运送燃料"
 	job
 	repeat
 	deadline
-	description "A civilian reactor on <destination> is running low on fuel and needs an emergency shipment of <cargo> by <date>. Payment is <payment>."
+	description "<destination>上的一个民用反应堆的燃料不足，需要在<cargo>前紧急运送<date>。付款方式为<payment>。"
 	cargo "Heavy Metals" 10 2 .1
 	to offer
 		random < 20
@@ -147,15 +147,15 @@ mission "Rush fuel Delivery"
 	on complete
 		payment
 		payment 20000
-		dialog "You drop off your cargo of <commodity> at the loading bay of a towering nuclear complex and collect your payment of <payment>."
+		dialog "你把你的<commodity>货物放在一个高耸的核设施的装货区，并收取你的<payment>。"
 
 
 mission "Rush equipment Delivery"
-	name "Rush equipment delivery to <planet>"
+	name "紧急运送设备到<planet>。"
 	job
 	repeat
 	deadline
-	description "Syndicate techs on <destination> need a rush shipment of <tons> of specialized <commodity> by <date>. Payment is <payment>."
+	description "<destination>上的辛迪加技术员需要在<tons>之前紧急运送<commodity>专业<date>。付款方式为<payment>。"
 	cargo "Equipment" 5 20
 	to offer
 		random < 20
@@ -169,14 +169,14 @@ mission "Rush equipment Delivery"
 	on complete
 		payment
 		payment 9000
-		dialog "You drop off your cargo of <commodity> at the loading bay of a towering nuclear complex and collect your payment of <payment>."
+		dialog "你把你的<commodity>货物放在一个高耸的核设施的装货区，并收取你的<payment>。"
 
 
 mission "Syndicate target practice [0]"
-	name "Syndicate target practice"
+	name "辛迪加的目标练习"
 	job
 	repeat
-	description "Disable the robotic target dummy ship in <system>, collect test data for Syndicate engineers by scanning its cargo, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>."
+	description "禁用<system>中的机器人目标假船，通过扫描其货物为辛迪加工程师收集测试数据，并在<planet>上降落。警告：目标飞船被编程为从事自卫行为，以确保真实的模拟。付款方式为<payment>。"
 	source
 		government Syndicate
 	destination
@@ -193,26 +193,26 @@ mission "Syndicate target practice [0]"
 			confusion 120
 		system destination
 		ship "Berserker Test Dummy" "Syndicate Test Vessel"
-		dialog "You scan the disabled craft and take careful measurements of the battle damage. Time to deliver the results on <planet>."
+		dialog "你扫描残缺的飞船，并仔细测量战损情况。是时候在<planet>上交付结果了。"
 	on visit
-		dialog "You forgot to either disable or scan the target dummy ship in <system>! You'll need to head back there and do that before you can return here for payment."
+		dialog "你忘记了禁用或扫描<system>中的目标假船!你需要回到那里去做，然后才能回到这里付款。"
 	on abort
 		# No penalty
 	on fail
-		dialog "The robotic target ship has been destroyed. You are hailed by an angry Syndicate official who fines you <payment> and warns you that further mistakes of this nature may remove you from eligibility for these jobs."
+		dialog "机器人目标飞船已被摧毁。你被一位愤怒的辛迪加官员叫住，他对你进行了<payment>的罚款，并警告你，这种性质的进一步错误可能会使你失去这些工作的资格。"
 		"destroyed Syndicate target ship" ++
 		"reputation: Syndicate" --
 		fine 160000
 	on complete
 		payment 80000
-		dialog "You transmit the scan results to a team of eager engineers and collect your payment of <payment>."
+		dialog "你把扫描结果传送给一队热心的工程师，并收取你的报酬<payment>。"
 
 
 mission "Syndicate target practice [1]"
-	name "Syndicate target practice"
+	name "辛迪加的目标练习"
 	job
 	repeat
-	description "Disable the robotic target dummy ship in <system>, collect test data for Syndicate engineers by scanning its cargo, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>."
+	description "禁用<system>中的机器人目标假船，通过扫描其货物为辛迪加工程师收集测试数据，并在<planet>上降落。警告：目标飞船被编程为从事自卫行为，以确保真实的模拟。付款方式为<payment>。"
 	source
 		government Syndicate
 	destination
@@ -229,26 +229,26 @@ mission "Syndicate target practice [1]"
 			confusion 120
 		system destination
 		ship "Quicksilver Test Dummy" "Syndicate Test Vessel"
-		dialog "You scan the disabled craft and take careful measurements of the battle damage. Time to deliver the results on <planet>."
+		dialog "你扫描残缺的飞船，并仔细测量战损情况。是时候在<planet>上交付结果了。"
 	on visit
-		dialog "You forgot to either disable or scan the target dummy ship in <system>! You'll need to head back there and do that before you can return here for payment."
+		dialog "你忘记了禁用或扫描<system>中的目标假船!你需要回到那里去做，然后才能回到这里付款。"
 	on abort
 		# No penalty
 	on fail
-		dialog "The robotic target ship has been destroyed. You are hailed by an angry Syndicate official who fines you <payment> and warns you that further mistakes of this nature may remove you from eligibility for these jobs."
+		dialog "机器人目标飞船已被摧毁。你被一位愤怒的辛迪加官员叫住，他对你进行了<payment>的罚款，并警告你，这种性质的进一步错误可能会使你失去这些工作的资格。"
 		"destroyed Syndicate target ship" ++
 		"reputation: Syndicate" --
 		fine 300000
 	on complete
 		payment 150000
-		dialog "You transmit the scan results to a team of eager engineers and collect your payment of <payment>."
+		dialog "你把扫描结果传送给一队热心的工程师，并收取你的报酬<payment>。"
 
 
 mission "Syndicate target practice [2]"
-	name "Syndicate target practice"
+	name "辛迪加的目标练习"
 	job
 	repeat
-	description "Disable the robotic target dummy ship in <system>, collect test data for Syndicate engineers by scanning its cargo, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>."
+	description "禁用<system>中的机器人目标假船，通过扫描其货物为辛迪加工程师收集测试数据，并在<planet>上降落。警告：目标飞船被编程为从事自卫行为，以确保真实的模拟。付款方式为<payment>。"
 	source
 		government Syndicate
 	destination
@@ -265,26 +265,26 @@ mission "Syndicate target practice [2]"
 			confusion 120
 		system destination
 		ship "Splinter Test Dummy" "Syndicate Test Vessel"
-		dialog "You scan the disabled craft and take careful measurements of the battle damage. Time to deliver the results on <planet>."
+		dialog "你扫描残缺的飞船，并仔细测量战损情况。是时候在<planet>上交付结果了。"
 	on visit
-		dialog "You forgot to either disable or scan the target dummy ship in <system>! You'll need to head back there and do that before you can return here for payment."
+		dialog "你忘记了禁用或扫描<system>中的目标假船!你需要回到那里去做，然后才能回到这里付款。"
 	on abort
 		# No penalty
 	on fail
-		dialog "The robotic target ship has been destroyed. You are hailed by an angry Syndicate official who fines you <payment> and warns you that further mistakes of this nature may remove you from eligibility for these jobs."
+		dialog "机器人目标飞船已被摧毁。你被一位愤怒的辛迪加官员叫住，他对你进行了<payment>的罚款，并警告你，这种性质的进一步错误可能会使你失去这些工作的资格。"
 		"destroyed Syndicate target ship" ++
 		"reputation: Syndicate" --
 		fine 520000
 	on complete
 		payment 260000
-		dialog "You transmit the scan results to a team of eager engineers and collect your payment of <payment>."
+		dialog "你把扫描结果传送给一队热心的工程师，并收取你的报酬<payment>。"
 
 
 mission "Syndicate target practice [3]"
-	name "Syndicate target practice"
+	name "辛迪加的目标练习"
 	job
 	repeat
-	description "Disable the robotic target dummy ship in <system>, collect test data for Syndicate engineers by scanning its cargo, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>."
+	description "禁用<system>中的机器人目标假船，通过扫描其货物为辛迪加工程师收集测试数据，并在<planet>上降落。警告：目标飞船被编程为从事自卫行为，以确保真实的模拟。付款方式为<payment>。"
 	source
 		government Syndicate
 	destination
@@ -300,19 +300,19 @@ mission "Syndicate target practice [3]"
 			confusion 120
 		system destination
 		ship "Vanguard Test Dummy" "Syndicate Test Vessel"
-		dialog "You scan the disabled craft and take careful measurements of the battle damage. Time to deliver the results on <planet>."
+		dialog "你扫描残缺的飞船，并仔细测量战损情况。是时候在<planet>上交付结果了。"
 	on visit
-		dialog "You forgot to either disable or scan the target dummy ship in <system>! You'll need to head back there and do that before you can return here for payment."
+		dialog "你忘记了禁用或扫描<system>中的目标假船!你需要回到那里去做，然后才能回到这里付款。"
 	on abort
 		# No penalty
 	on fail
-		dialog "The robotic target ship has been destroyed. You are hailed by an angry Syndicate official who fines you <payment> and warns you that further mistakes of this nature may remove you from eligibility for these jobs."
+		dialog "机器人目标飞船已被摧毁。你被一位愤怒的辛迪加官员叫住，他对你进行了<payment>的罚款，并警告你，这种性质的进一步错误可能会使你失去这些工作的资格。"
 		"destroyed Syndicate target ship" ++
 		"reputation: Syndicate" --
 		fine 800000
 	on complete
 		payment 400000
-		dialog "You transmit the scan results to a team of eager engineers and collect your payment of <payment>."
+		dialog "你把扫描结果传送给一队热心的工程师，并收取你的报酬<payment>。"
 
 ship "Berserker" "Berserker Test Dummy"
 	add attributes
@@ -336,10 +336,10 @@ ship "Vanguard" "Vanguard Test Dummy"
 
 
 mission "Syndicate Prisoner Transport [0]"
-	name "Transport executive to house arrest"
+	name "运送高管至软禁处"
 	job
 	repeat
-	description `Transport an indicted white-collar criminal with his assistants, lawyers, and collection of <cargo> to <planet>, where he will await trial under "house arrest." He requires a suitably comfortable ship for the journey. Payment is <payment>.`
+	description `将一名被起诉的白领罪犯和他的助手、律师以及收集的<cargo>运送到<planet>，在那里他将在 "软禁 "中等待审判。他需要一艘合适的舒适的船来完成这次旅行。付款方式为<payment>。`
 	cargo "Luxury Goods" 1 10
 	passengers 5 12
 	source
@@ -358,14 +358,14 @@ mission "Syndicate Prisoner Transport [0]"
 		dialog phrase "generic cargo and passenger on visit"
 	on complete
 		payment 10000 200
-		dialog "The executive strolls off your ship with a sunny smile on his face. One of the lawyers hands you your payment of <payment> with muttered threats about libel lawsuits if you say anything about what you may or may not have overheard on your ship."
+		dialog "这位主管带着阳光般的笑容走下你的船。其中一位律师把你的<payment>递给你，并喃喃自语地威胁说，如果你对你在船上可能或不可能听到的事情说三道四，就会被提起诽谤诉讼。"
 
 
 mission "Syndicate Prisoner Transport [1]"
-	name "Transport convicted saboteur"
+	name "运送被定罪的破坏者"
 	job
 	repeat
-	description `Transport a convicted industrial saboteur to <planet> for their sentence. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>.`
+	description `将一个被定罪的工业破坏者运送到<planet>上服刑。他们必须被关押在为转移罪犯而设立的适当设施中。付款方式为<payment>。`
 	passengers 1
 	source
 		government "Syndicate"
@@ -382,14 +382,14 @@ mission "Syndicate Prisoner Transport [1]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 10000 200
-		dialog "A group of guards carry the prisoner off your ship more roughly than is strictly necessary. You receive your payment of <payment>."
+		dialog "一群守卫将犯人抬下你的船，比严格意义上的必要更粗暴。你收到了你的付款<payment>。"
 
 
 mission "Syndicate Prisoner Transport [2]"
-	name "Transport convicted corporate spies"
+	name "运送被定罪的公司间谍"
 	job
 	repeat
-	description `Transport a group of convicted corporate spies to <planet> for their sentences. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>.`
+	description `将一组被定罪的公司间谍运送到<planet>上服刑。他们必须被关押在适合转移罪犯的设施中。付款方式为<payment>。`
 	passengers 3 5
 	source
 		government "Syndicate"
@@ -406,14 +406,14 @@ mission "Syndicate Prisoner Transport [2]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 15000 175
-		dialog "A group of guards lead the prisoners off your ship, chained together at the ankles. You receive your payment of <payment>."
+		dialog "一群守卫将这些囚犯带离你的飞船，他们的脚踝被锁在一起。你收到了你的付款<payment>。"
 
 
 mission "Syndicate Prisoner Transport [3]"
-	name "Transport detained protesters"
+	name "运送被拘留的抗议者"
 	job
 	repeat
-	description `Transport a group of detained protesters to <planet> where they will await trial for inciting a riot. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>.`
+	description `将一群被拘留的抗议者运送到<planet>，他们将在那里等待煽动暴乱的审判。他们必须被关押在适合转移罪犯的设施中。付款方式为<payment>。`
 	passengers 10 40 .9
 	source
 		government "Syndicate"
@@ -431,14 +431,14 @@ mission "Syndicate Prisoner Transport [3]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 10000 150
-		dialog "The prisoners are still wearing their civilian clothes, and you can see bruises from when they were arrested as the guards lead them inside. You receive your payment of <payment>."
+		dialog "囚犯们仍然穿着便服，当警卫把他们带进去时，你可以看到他们被捕时留下的伤痕。你收到了你的付款<payment>。"
 
 
 mission "Syndicate Prisoner Transport [4]"
-	name "Transport detained labor organizers"
+	name "运送被拘留的劳工组织者"
 	job
 	repeat
-	description `Transport a group of detained labor organizers to <planet> for "processing" as suspected terrorists. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>.`
+	description `将一群被拘留的劳工组织者运送到<planet>，作为恐怖主义嫌疑人进行 "处理"。他们必须被关押在为转移罪犯而设立的适当设施中。付款方式为<payment>。`
 	passengers 3 15
 	source
 		government "Syndicate"
@@ -456,14 +456,14 @@ mission "Syndicate Prisoner Transport [4]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 15000 200
-		dialog `The union organizers are defiant as the guards drag them inside, and one of the organizers yells about "class traitors." You receive your payment of <payment>.`
+		dialog `工会组织者在警卫把他们拖进去的时候很不服气，其中一个组织者大喊 "阶级叛徒"。你收到了你的付款<payment>。`
 
 
 mission "Return Syndicate Prisoners [0]"
-	name "Return executive back from house arrest"
+	name "将行政人员从软禁中送回"
 	job
 	repeat
-	description `Transport an acquitted white-collar criminal with his assistants, lawyers, and collection of <cargo> home to <planet>. He requires a suitably comfortable ship for the journey. Payment is <payment>.`
+	description `将一名无罪释放的白领罪犯和他的助手、律师以及收集的<cargo>运回<planet>。他需要一艘合适的舒适的船来进行旅行。付款方式为<payment>。`
 	cargo "Luxury Goods" 1 10
 	passengers 5 12
 	source
@@ -482,14 +482,14 @@ mission "Return Syndicate Prisoners [0]"
 		dialog phrase "generic cargo and passenger on visit"
 	on complete
 		payment 20000 200
-		dialog "The executive strides toward the express customs entrance with a smug grin. A paperwork-laden lawyer gives you your payment of <payment>."
+		dialog "这位主管带着得意的笑容大步走向海关快件入口。一个充满文书工作的律师给你的付款为<payment>。"
 
 
 mission "Return Syndicate Prisoners [1]"
-	name "Return detained protesters home"
+	name "将被拘留的抗议者送回家"
 	job
 	repeat
-	description `Transport a group of protesters home to <planet> from their detention on <origin>. Payment is <payment>.`
+	description `将一群被拘留在<planet>的抗议者送回<origin>。付款为<payment>。`
 	passengers 10 40 .9
 	source
 		government "Syndicate"
@@ -505,14 +505,14 @@ mission "Return Syndicate Prisoners [1]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 5000 100
-		dialog "The protesters look around the spaceport nervously before disembarking. You receive your payment of <payment>."
+		dialog "抗议者在下船前紧张地环顾了一下太空港。你收到了<payment>的付款。"
 
 
 mission "Return Syndicate Prisoners [2]"
-	name "Return detained labor organizers home"
+	name "将被拘留的劳工组织者送回家"
 	job
 	repeat
-	description `Transport a group of labor organizers home to <planet> from their imprisonment on <origin>. Payment is <payment>.`
+	description `将一群劳工组织者从<planet>上的监禁中送回<origin>。付款为<payment>。`
 	passengers 3 15 .9
 	source
 		government "Syndicate"
@@ -528,4 +528,4 @@ mission "Return Syndicate Prisoners [2]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 5000 100
-		dialog "The labor organizers are almost skeletally thin from their imprisonment. One of them raises his face to the sky as though showering in sunlight. You receive your payment of <payment>."
+		dialog "这些劳工组织者因被监禁而变得几乎骨瘦如柴。其中一个人把脸抬向天空，仿佛在沐浴阳光。你收到了你的报酬<payment>。"

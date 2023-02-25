@@ -55,7 +55,7 @@ ship "Arach Courier"
 	explode "tiny explosion" 10
 	explode "small explosion" 10
 	"final explode" "final explosion small"
-	description `These hardy little cargo ships are the perfect size for young Arachi just setting out into the sky with dreams of one day building their own merchant fleets. Of course, an Arach lucky enough to be born into one of the great Houses can probably find a patron to buy them a much larger ship instead.`
+	description `这些坚韧的小货船是年轻的阿拉奇的完美尺寸，他们刚刚踏上天空，梦想着有一天建立自己的商船队。当然，如果Arach幸运地出生在一个伟大的家族中，他可能会找到一个赞助人给他们买一艘更大的船。`
 
 ship "Arach Courier" "Arach Courier (Miner)"
 	outfits
@@ -120,7 +120,7 @@ ship "Arach Freighter"
 	explode "small explosion" 15
 	explode "medium explosion" 15
 	"final explode" "final explosion medium"
-	description `Arach cargo ship hulls are legendary for their durability. It is not uncommon for a large Arach family to convert a freighter that is no longer space-worthy into a planet-side dwelling, and even in the harshest of conditions these converted houses can last for hundreds of years with little or no exterior maintenance.`
+	description `Arach货船的船体以其耐用性而闻名。一个大的阿拉奇家族将一艘不再适合上太空的货船改装成行星边的住宅并不罕见，即使在最恶劣的条件下，这些改装的房子也可以持续数百年，几乎不需要外部维护。`
 
 ship "Arach Freighter" "Arach Freighter (Miner)"
 	outfits
@@ -194,7 +194,7 @@ ship "Arach Hulk"
 	explode "large explosion" 30
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `The Arachi believe that efficient functionality is the highest form of beauty, and none of their ships demonstrate that principle more clearly than the ugly yet utilitarian Hulk, designed with detachable side pods that can be swapped out on a planet in a matter of minutes if the captain is in a hurry to reach the next destination.`
+	description `阿拉奇人相信高效的功能是美的最高形式，他们的飞船中没有哪艘飞船比丑陋但功利的绿巨人更清楚地证明了这一原则，其设计有可拆卸的侧舱，如果船长急于到达下一个目的地，可以在几分钟内换掉。`
 
 ship "Arach Hulk" "Arach Hulk (Miner)"
 	outfits
@@ -268,7 +268,7 @@ ship "Arach Spindle"
 	explode "medium explosion" 20
 	explode "large explosion" 20
 	"final explode" "final explosion large"
-	description `The Arach Hulk is an ungainly, lumbering behemoth of a ship, but with its side pods removed it becomes the much more maneuverable Spindle. Because of its much lower cargo space, usually the only reason a fleet would include a Spindle is if they are planning on picking up new cargo pods at their destination.`
+	description `Arach Hulk是一个笨重的庞然大物，但在拆掉它的侧舱后，它就变成了机动性更强的Spindle。由于它的载货空间小得多，通常一个舰队包括Spindle的唯一原因是他们打算在他们的目的地领取新的货物舱。`
 
 ship "Arach Spindle" "Arach Spindle (Miner)"
 	outfits
@@ -339,7 +339,7 @@ ship "Arach Transport"
 	explode "medium explosion" 30
 	explode "large explosion" 5
 	"final explode" "final explosion medium"
-	description `The Arach Transport is the oldest of their ship designs, dating back to the time when they first joined the Coalition in overthrowing the Quarg and capturing their ringworlds. Back then, Transports were occasionally used as warships, but now, thousands of years later, they are considered outdated compared to the latest Heliarch military ships.`
+	description `Arach运输机是他们最古老的飞船设计，可以追溯到他们第一次加入联盟推翻夸格人并夺取其环形世界的时候。那时，运输船偶尔被用作战舰，但在几千年后的今天，与最新的Heliarch军舰相比，它们被认为已经过时。`
 
 ship "Arach Transport" "Arach Transport (Miner)"
 	outfits
@@ -415,7 +415,7 @@ ship "Heliarch Breacher"
 	explode "medium explosion" 40
 	explode "large explosion" 20
 	"final explode" "final explosion medium" 1
-	description `The Breacher isn't the most durable Heliarch vessel, but its impressive forward speed and high firepower for its size make this ship ideal for strafing runs.`
+	description `破坏者并不是最耐用的Heliarch船只，但它令人印象深刻的前进速度和对其尺寸的高火力使这艘船成为扫射的理想选择。`
 
 ship "Heliarch Breacher" "Heliarch Breacher (Ions)"
 	outfits
@@ -538,7 +538,7 @@ ship "Heliarch Hunter"
 	explode "large explosion" 25
 	explode "huge explosion" 5
 	"final explode" "final explosion large" 1
-	description `Although they mostly serve as patrol vessels nowadays in peacetime, Hunters were originally designed to quickly track down dissidents and bring them to justice.`
+	description `虽然它们现在在和平时期大多作为巡逻舰，但猎杀者最初是为了快速追踪持不同政见者并将其绳之以法。`
 
 ship "Heliarch Hunter" "Heliarch Hunter (Burst Fire)"
 	outfits
@@ -723,7 +723,7 @@ ship "Heliarch Interdictor"
 	explode "large explosion" 30
 	explode "huge explosion" 10
 	"final explode" "final explosion large" 1
-	description `Anyone who incurs the wrath of the Heliarchs cannot count on making a fast getaway thanks to the Interdictors, which were primarily designed to carry a pair of attractor and repulsor beams that can hold a ship a safe distance away while pushing it around enough to prevent it from getting a hyperspace lock to jump out of the system.`
+	description `由于拦截者的存在，任何引起赫利奇家族愤怒的人都不能指望快速逃离，因为拦截者的主要设计是携带一对吸引器和反作用力光束，可以将一艘船保持在安全距离之外，同时将其推来推去，以防止其获得超空间锁跳出该系统。`
 
 ship "Heliarch Interdictor" "Heliarch Interdictor (Bombardment)"
 	outfits
@@ -907,8 +907,8 @@ ship "Heliarch Judicator"
 	explode "large explosion" 20
 	explode "huge explosion" 10
 	"final explode" "final explosion large" 1
-	description `During their time battling the Quarg, the Coalition focused on producing the strongest, toughest warships they could, so fightercraft were out of the question. Now, however, the Heliarch's shield matrix and hull integrity technology is much more advanced, and they have recently experimented with such ships. The Judicator was made for transportation of these new fighters.`
-	description `	Alongside their six fighter bays, Judicators come with a large bunk count and higher cargo space than other Heliarch warships, thus doubling as a logistics vessel for transporting troops and equipment.`
+	description `在与夸格人作战期间，联盟专注于生产最强大、最坚韧的战舰，所以战斗飞船是不可能的。然而，现在，赫拉克的护盾矩阵和船体完整性技术要先进得多，他们最近也在试验这种飞船。审判者号就是为运输这些新的战斗机而制造的。`
+	description `	除了6个战斗机舱之外，审判者号还配备了大量的铺位，并且比其他Heliarch战舰有更大的货物空间，因此可以作为运输部队和装备的后勤舰。`
 
 ship "Heliarch Judicator" "Heliarch Judicator (Attractor)"
 	outfits
@@ -1075,7 +1075,7 @@ ship "Heliarch Neutralizer"
 	explode "medium explosion" 40
 	explode "large explosion" 20
 	"final explode" "final explosion medium" 1
-	description `The most common Heliarch patrol ship, Neutralizers are designed to be just strong enough to keep an enemy vessel occupied until reinforcements can arrive.`
+	description `作为最常见的太阳神巡逻舰，"中立者 "被设计成足够强大，可以在援军到来之前保持敌方船只的位置。`
 
 ship "Heliarch Neutralizer" "Heliarch Neutralizer (Missile)"
 	outfits
@@ -1206,7 +1206,7 @@ ship "Heliarch Punisher"
 	explode "large explosion" 40
 	explode "huge explosion" 20
 	"final explode" "final explosion large" 1
-	description `Although not quite as strong or powerful as the Quarg ships that they are designed to oppose, Heliarch Punishers are versatile and durable ships. Rumors say that the Heliarchs have a small stash of stolen Quarg Skylances that they can outfit the Punishers with in times of war.`
+	description `虽然没有像它们所要对抗的夸父舰那样强壮或强大，但Heliarch惩罚者是多用途和耐用的船只。有传言说，Heliarchs有一小部分偷来的Quarg Skylances，他们可以在战争时期给惩罚者配备这些东西。`
 
 ship "Heliarch Punisher" "Heliarch Punisher (Burst Fire)"
 	outfits
@@ -1404,9 +1404,9 @@ ship "Heliarch Pursuer"
 	gun 0 -35.5
 	explode "tiny explosion" 20
 	explode "small explosion" 10
-	description `Occasionally, when a Heliarch cadet shows promising results in dogfighting simulations, they are allowed to fly a ship of their own: the Pursuer.`
-	description `	Though certainly not as durable as the other fighters in Coalition space, this Kimek design is cheaper to produce and capable of outrunning any other Coalition ship.`
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description `偶尔，当一个直升飞机学员在模拟斗犬比赛中表现出良好的成绩时，他们会被允许驾驶一艘属于自己的飞船：追击者。`
+	description `	虽然肯定不如联盟空间中的其他战斗机耐用，但这种基梅克设计的战机生产成本较低，能够超越任何其他联盟战舰。`
+	description "	战斗机不配备超光速引擎。除非你的舰队中有一艘带有战斗机舱的飞船，否则你无法携带战斗机。"
 
 ship "Heliarch Pursuer" "Heliarch Pursuer (Scrappy)"
 	outfits
@@ -1463,8 +1463,8 @@ ship "Heliarch Rover"
 	gun -5 -30
 	explode "tiny explosion" 25
 	explode "small explosion" 15
-	description `The very first fighter they designed, Rovers are well-rounded ships that the Heliarchs employ regularly due to their reliability in any situation.`
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description `漫游者是他们设计的第一种战斗机，由于其在任何情况下都很可靠，所以直升飞机公司经常使用。`
+	description "	战斗机不配备超光速引擎。除非你的舰队中有一艘带有战斗机舱的飞船，否则你无法携带战斗机。"
 
 ship "Heliarch Rover" "Heliarch Rover (Ions)"
 	outfits
@@ -1519,8 +1519,8 @@ ship "Heliarch Stalker"
 	turret 0 -1.5
 	explode "tiny explosion" 25
 	explode "small explosion" 15
-	description `Boasting incredible durability for a ship this size, the Stalker is a compact fortress that can take serious punishment and recover faster than some warships. Its speed and maneuverability, however, leave much to be desired.`
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description `对于这种尺寸的战舰来说，潜行者拥有难以置信的耐用性，它是一个紧凑的堡垒，可以承受严重的惩罚，并比一些战舰更快地恢复。然而，它的速度和可操作性还有待提高。`
+	description "	战斗机不配备超光速引擎。除非你的舰队中有一艘带有战斗机舱的飞船，否则你无法携带战斗机。"
 
 ship "Heliarch Stalker" "Heliarch Stalker (Scrappy)"
 	outfits
@@ -1581,7 +1581,7 @@ ship "Kimek Briar"
 	explode "small explosion" 20
 	explode "medium explosion" 5
 	"final explode" "final explosion medium"
-	description `With more than twice the population of the Saryds and Arachi combined, the Kimek are constantly in need of transport ships to carry individuals from one world to another.`
+	description `基梅克人的人口是萨里德人和阿拉奇人总和的两倍多，他们不断需要运输船来把人从一个世界运到另一个世界。`
 
 ship "Kimek Briar" "Kimek Briar (Miner)"
 	outfits
@@ -1650,7 +1650,7 @@ ship "Kimek Spire"
 	explode "large explosion" 20
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
-	description `The Spire is the largest passenger transport in Coalition space, able to carry nearly three hundred individuals... as long as they're comfortable staying in the tiny bunk rooms that are primarily designed to meet the needs of a Kimek. Most of the ceilings are too short for a Saryd to stand up straight, and the beds are too small for an Arach to stretch their legs out comfortably.`
+	description `尖塔号是联盟空间中最大的客运飞船，能够运载近三百人......只要他们愿意住在主要为满足基梅克人需要而设计的小床铺房间里。大多数天花板太短，萨里德人无法站直，而床太小，阿拉奇人无法舒适地伸展双腿。`
 
 ship "Kimek Spire" "Kimek Spire (Miner)"
 	outfits
@@ -1718,7 +1718,7 @@ ship "Kimek Thistle"
 	explode "medium explosion" 30
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description `The Kimek love traveling so much that some of them will happily spend months at a time in a transport this size, and the passengers often grow into a tight-knit community by the end of their journeys together.`
+	description `基梅克人非常喜欢旅行，以至于他们中的一些人很乐意在这种规模的交通工具中一呆就是几个月，而乘客们在旅行结束时往往会发展成一个紧密的社区。`
 
 ship "Kimek Thistle" "Kimek Thistle (Miner)"
 	outfits
@@ -1781,7 +1781,7 @@ ship "Kimek Thorn"
 	explode "tiny explosion" 10
 	explode "small explosion" 5
 	"final explode" "final explosion small"
-	description `The Thorn is the Kimek equivalent of a shuttle, and thanks to their speed and maneuverability they are used throughout Coalition space for transferring passengers from one ship to another or from a planet into orbit.`
+	description `荆棘号相当于基梅克的航天飞机，由于其速度和机动性，它们被用于整个联盟空间，将乘客从一艘船转移到另一艘船，或从一个星球转移到轨道。`
 
 ship "Kimek Thorn" "Kimek Thorn (Miner)"
 	outfits
@@ -1839,7 +1839,7 @@ ship "Saryd Runabout"
 	explode "tiny explosion" 10
 	explode "small explosion" 10
 	"final explode" "final explosion small"
-	description `Saryds place high value both on solitude, but also on community and collaboration. So, it is not surprising that their smallest spacefaring vessel requires a team of at least two individuals to operate it. It is quite common for a lone Saryd to take on a Kimek or Arach copilot as a way of building cross-species friendships.`
+	description `萨利德人既高度重视孤独，也重视社区和协作。因此，他们最小的太空船需要一个至少由两个人组成的团队来操作，这并不令人惊讶。一个孤独的萨里德人带着一个基梅克人或阿拉奇人做副驾驶是很常见的，这是建立跨物种友谊的一种方式。`
 
 ship "Saryd Runabout" "Saryd Runabout (Miner)"
 	outfits
@@ -1909,7 +1909,7 @@ ship "Saryd Sojourner"
 	explode "large explosion" 10
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `When the first wars were fought against the Quarg, the Saryds had been spacefaring for more than ten thousand Earth years, and their starship technology was considerably more advanced than the Kimek or the Arachi. At that time, ships similar to the modern Sojourner were the most powerful capital ships in the Coalition fleet.`
+	description `当第一次与夸格人的战争打响时，萨里德人已经在地球上航行了一万多年，他们的星舰技术比基梅克人或阿拉奇人要先进得多。当时，类似于现代 "旅行者 "号的飞船是联盟舰队中最强大的资本舰。`
 
 ship "Saryd Sojourner" "Saryd Sojourner (Miner)"
 	outfits
@@ -1987,7 +1987,7 @@ ship "Saryd Traveler"
 	explode "medium explosion" 20
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description `Travelers were originally designed as science vessels, thousands of years ago before the Saryds had catalogued all the life forms and physical phenomena of every world in Coalition space. Today, many Saryd communities still choose to live in a Traveler and journey together from system to system rather than putting down roots on a planet.`
+	description `旅行者号最初是作为科学船设计的，几千年前，萨里德人还没有对联盟空间中每个世界的所有生命形式和物理现象进行编目。今天，许多萨里德社区仍然选择居住在旅行者中，一起从一个系统到另一个系统旅行，而不是在一个星球上扎根。`
 
 ship "Saryd Traveler" "Saryd Traveler (Miner)"
 	outfits
@@ -2054,7 +2054,7 @@ ship "Saryd Visitor"
 	explode "small explosion" 30
 	explode "medium explosion" 5
 	"final explode" "final explosion medium"
-	description `Rather than specializing in carrying passengers or carrying cargo, Saryds seek to make their ships as well-balanced and versatile as possible. As a result, the crew of a typical Visitor can count on performing a different sort of job every week.`
+	description `萨里德人并不擅长载客或载货，而是寻求使他们的船只尽可能的平衡和多变。因此，一个典型的访客号的船员可以指望每周执行一种不同的工作。`
 
 ship "Saryd Visitor" "Saryd Visitor (Miner)"
 	outfits

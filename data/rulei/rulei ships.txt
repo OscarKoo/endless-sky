@@ -84,5 +84,4 @@ ship "vyu-Ira"
 	explode "small explosion" 60
 	explode "tiny explosion" 120
 	"final explode" "final explosion large"
-	description `The vyu-Ira is an ancient ship of the Vyu, one of several chambers of the Rulei. It is not known whether or not this was their final ship-class, or one of many, but the technology found on it may represent the height of the Rulei's advancements, as well as the cause of their downfall.`
-
+	description `vyu-Ira是Vyu的一艘古船，是Rulei的几个分支之一。我们不知道这是否是他们最后的船型，或者是众多船型中的一个，但在上面发现的技术可能代表了鲁瑞人进步的高峰，也是他们衰落的原因。`

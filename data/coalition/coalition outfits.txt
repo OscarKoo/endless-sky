@@ -21,7 +21,7 @@ outfit "Small Collector Module"
 	"outfit space" -6
 	"solar collection" .8
 	"solar heat" .4
-	description "Solar power is the mainstay of the Coalition's merchant marine. The design of these panels has been refined over the millennia, growing ever more efficient."
+	description "太阳能是联盟商船的主要动力。这些电池板的设计经过几千年的改进，效率越来越高。"
 
 outfit "Large Collector Module"
 	category "Power"
@@ -33,7 +33,7 @@ outfit "Large Collector Module"
 	"outfit space" -21
 	"solar collection" 3.3
 	"solar heat" 1.5
-	description "One of these solar panels is enough to meet the energy needs of a medium-sized Coalition civilian ship, especially given the energy efficiency of their engines and the fact that under their laws only Heliarch ships are allowed to have weapons."
+	description "一个这样的太阳能电池板足以满足一艘中型联盟民用船的能源需求，特别是考虑到他们的引擎的能源效率，以及根据他们的法律，只有Heliarch船被允许拥有武器的事实。"
 
 outfit "Small Reactor Module"
 	category "Power"
@@ -45,8 +45,8 @@ outfit "Small Reactor Module"
 	"outfit space" -42
 	"energy generation" 9.8
 	"heat generation" 19
-	description "Solar power is sufficient for commerce, but excessive thriftiness is seldom a winning strategy in warfare. For ships that must have a reliable energy source to power weapons, the Heliarchs use compact nuclear reactors."
-	description "	A beam of antiprotons triggers fusion in tiny injected fuel pellets, allowing for a complete burnup far more efficient than would otherwise be possible."
+	description "太阳能对于商业来说是足够的，但是过度的节俭在战争中很少是一个胜利的策略。对于那些必须有可靠的能源来驱动武器的船只，太阳神使用紧凑的核反应堆。"
+	description "	一束反质子引发了注入的微小燃料颗粒的核聚变，使得完全燃烧的效率远远高于其他方式。"
 
 outfit "Large Reactor Module"
 	category "Power"
@@ -58,8 +58,8 @@ outfit "Large Reactor Module"
 	"outfit space" -98
 	"energy generation" 24.2
 	"heat generation" 45
-	description "Though still unable to replicate Quarg power generation technology, Heliarch science teams are constantly looking to realize their most recent guess on how they work. For this larger module, a steady stream of injected antiprotons catalyzes reactions in carefully confined fusion plasma, extracting as much power as physically possible."
-	description "	This advanced fusion reactor was designed for the most powerful Heliarch warships. Its structure has not changed significantly in the millennia since the first battle with the Quarg, but each generation of reactors is made slightly more efficient than the previous ones."
+	description "尽管仍然无法复制夸父的发电技术，但Heliarch科学团队正在不断寻找实现他们对其工作原理的最新猜测。对于这个较大的模块，注入的反质子的稳定流在精心限制的聚变等离子体中催化反应，提取尽可能多的物理可能的功率。"
+	description "	这种先进的聚变反应器是为最强大的Heliarch战舰设计的。自第一次与夸格人的战斗以来的几千年里，它的结构没有明显的变化，但每一代反应堆都比以前的反应堆略微有效。"
 
 outfit "Small Cogeneration Module"
 	category "Power"
@@ -71,8 +71,8 @@ outfit "Small Cogeneration Module"
 	"outfit space" -11
 	"energy generation" 1.15
 	"heat generation" .85
-	description "The Kimek originally created much larger versions of this module, intended to provide energy for their hunger towers."
-	description "	This compact design recovers much of what would otherwise be waste heat, making it a very efficient fuel cell."
+	description "基梅克人最初创造了这个模块的更大版本，旨在为他们的饥饿塔提供能量。"
+	description "	这种紧凑的设计回收了许多本来属于废热的东西，使它成为一个非常有效的燃料电池。"
 
 outfit "Large Cogeneration Module"
 	category "Power"
@@ -84,7 +84,7 @@ outfit "Large Cogeneration Module"
 	"outfit space" -46
 	"energy generation" 5.3
 	"heat generation" 3.45
-	description "Without much exciting work available in peacetime, many Coalition engineers take to tinkering with existing equipment to improve its efficiency."
+	description "在和平时期，由于没有太多令人兴奋的工作，许多联盟的工程师都会对现有的设备进行修补，以提高其效率。"
 
 outfit "Small Battery Module"
 	category "Power"
@@ -95,7 +95,7 @@ outfit "Small Battery Module"
 	"mass" 4
 	"outfit space" -4
 	"energy capacity" 3600
-	description "Because Coalition ships rely on solar power, they must also be able to store a substantial amount of energy. This small battery pack is much more efficient than comparable human technology."
+	description "由于联盟的船只依靠太阳能，它们还必须能够储存大量的能量。这种小型电池组比人类的同类技术要高效得多。"
 
 outfit "Large Battery Module"
 	category "Power"
@@ -106,7 +106,7 @@ outfit "Large Battery Module"
 	"mass" 18
 	"outfit space" -18
 	"energy capacity" 18000
-	description "This battery pack stores enough power to allow a Coalition ship to continue maneuvering even when its solar panels are only producing a fraction of their peak output."
+	description "这个电池组储存了足够的能量，即使在太阳能电池板只产生其峰值输出的一小部分时，也能让联盟飞船继续机动。"
 
 
 outfit "Small Shield Module"
@@ -120,7 +120,7 @@ outfit "Small Shield Module"
 	"shield generation" .28
 	"shield energy" .28
 	"shield heat" .1
-	description "Although combat is almost unheard of in Coalition space, almost all of their ships are able to recharge their shields when necessary."
+	description "虽然在联盟的空间里几乎没有战斗，但几乎所有的飞船都能在必要时给他们的护盾充电。"
 
 outfit "Large Shield Module"
 	category "Systems"
@@ -133,7 +133,7 @@ outfit "Large Shield Module"
 	"shield generation" 1.3
 	"shield energy" 1.3
 	"shield heat" .5
-	description "The Coalition manufactures heavy shield generators for their ships in case they ever face aggression from the Quarg or another species."
+	description "联盟为他们的飞船制造了重型护盾发生器，以备他们面临来自夸格人或其他物种的侵略。"
 
 outfit "Overcharged Shield Module"
 	category "Systems"
@@ -147,7 +147,7 @@ outfit "Overcharged Shield Module"
 	"shield energy" 4.6
 	"shield heat" 1.4
 	"energy consumption" .5
-	description "These modular shield generators are the most powerful emitters produced in Coalition space, and as such they are strictly controlled and exclusively used by the Heliarchs. The additions made to the Large Shield Module more than tripled its shield generation, but at the cost of it requiring a constant supply of energy to stabilize it."
+	description "这些模块化的护盾发生器是联盟空间中生产的最强大的发射器，因此它们被严格控制，并且只由赫利奇家族使用。对大型护盾模块所做的补充使其护盾生成量增加了三倍多，但代价是它需要持续的能量供应来稳定它。"
 
 outfit "Small Repair Module"
 	category "Systems"
@@ -160,7 +160,7 @@ outfit "Small Repair Module"
 	"hull repair rate" .12
 	"hull energy" .12
 	"hull heat" .1
-	description "Arach ships, which rely more on strong hull than on energy shields, often carry one of these repair modules to allow damaged hull plating to be patched back together on the fly."
+	description "Arach战舰更依赖于坚固的船体，而不是能量护盾，因此经常携带这种维修模块，以使受损的船体镀层能够在飞行中被修补起来。"
 
 outfit "Large Repair Module"
 	category "Systems"
@@ -173,7 +173,7 @@ outfit "Large Repair Module"
 	"hull repair rate" .57
 	"hull energy" .57
 	"hull heat" .5
-	description "This hub houses a small fleet of repair robots that can climb around on a ship's hull and repair damage to it, even in the middle of combat."
+	description "这个中心有一个小型的修理机器人舰队，它们可以在船体上爬来爬去，修理损坏的船体，甚至在战斗中。"
 
 outfit "Overclocked Repair Module"
 	category "Systems"
@@ -187,7 +187,7 @@ outfit "Overclocked Repair Module"
 	"hull energy" 1.4
 	"hull heat" 1.2
 	"heat generation" .6
-	description "These advanced repair modules are issued to Heliarch ships, providing hull repair unparalleled in all of Coalition space. The legions of small repair drones come with the extensive pathways they use to quickly get around a ship, and as such the outfit can interfere with a ship's cooling and heat dissipation systems."
+	description "这些先进的维修模块被发放到Heliarch战舰上，提供所有联盟空间中无与伦比的船体维修。小型维修无人机军团伴随着它们用来快速绕过飞船的广泛路径，因此，这种装备会干扰飞船的冷却和散热系统。"
 
 outfit "Cooling Module"
 	category "Systems"
@@ -199,7 +199,7 @@ outfit "Cooling Module"
 	"outfit space" -5
 	"active cooling" 21
 	"cooling energy" 1.4
-	description "This Cooling Module consumes energy. To conserve power, it does not ramp up to full strength unless a ship is very close to overheating."
+	description "这个冷却模块会消耗能量。为了节约能源，除非飞船非常接近过热，否则它不会提升到全功率。"
 
 outfit "Fuel Module"
 	category "Systems"
@@ -211,8 +211,8 @@ outfit "Fuel Module"
 	"outfit space" -19
 	"fuel capacity" 400
 	"fuel protection" .25
-	description "In their early days of space exploration, the Saryds developed the Fuel Module to travel far from Saros without worrying about becoming stranded without fuel, or sudden fuel leaks."
-	description "	Nowadays, nearly every system in the Coalition has refueling facilities, but some captains still find use in the extra jumps these modules offer."
+	description "在早期的太空探索中，萨利德人开发了燃料模块，以便在远离萨罗斯的地方旅行，而不必担心没有燃料而搁浅，也不必担心燃料突然泄漏。"
+	description "	如今，联盟中几乎每个系统都有加油设施，但一些船长仍然觉得这些模块提供的额外跳跃很有用。"
 
 outfit "Scanning Module"
 	category "Systems"
@@ -227,7 +227,7 @@ outfit "Scanning Module"
 	"cargo scan power" 25
 	"cargo scan efficiency" 18
 	"tactical scan power" 25
-	description "This system allows the Heliarchs to scan nearby ships, enabling them to detect weapons or illegal goods."
+	description "这个系统允许直升飞机扫描附近的船只，使他们能够探测到武器或非法货物。"
 
 outfit "Outskirts Gauger"
 	category "Systems"
@@ -237,8 +237,8 @@ outfit "Outskirts Gauger"
 	"outfit space" -8
 	"tactical scan power" 169
 	"energy consumption" .2
-	description "Completed with the data from one of their long-lost satellites, the newest scanner of House Idriss excels at reading various energy signatures across vast distances."
-	description "	Constantly running its calculations about every little thing it detects within its impressive range, the gauger needs a steady supply of energy to function."
+	description "用他们失散多年的一颗卫星的数据完成，伊德里斯家族最新的扫描器擅长在遥远的距离上读取各种能量特征。"
+	description "	在其令人印象深刻的范围内，不断地对其探测到的每件小事进行计算，测量仪需要稳定的能量供应来运作。"
 
 outfit "Small Thrust Module"
 	category "Engines"
@@ -255,7 +255,7 @@ outfit "Small Thrust Module"
 	"flare sprite" "effect/coalition flare/small"
 		"frame rate" 10
 	"flare sound" "atomic tiny"
-	description "This tiny thruster produces a considerable amount of thrust... but also a considerable amount of heat."
+	description "这个小小的推进器产生了相当大的推力......但也产生了相当多的热量。"
 
 outfit "Large Thrust Module"
 	category "Engines"
@@ -272,7 +272,7 @@ outfit "Large Thrust Module"
 	"flare sprite" "effect/coalition flare/large"
 		"frame rate" 7
 	"flare sound" "atomic small"
-	description "Coalition engineers prefer to focus on perfecting a few versatile designs rather than producing a wide range of them. This thruster is quite efficient, but large ships will need several of them stacked together to produce sufficient thrust."
+	description "联盟的工程师们更愿意专注于完善一些多功能的设计，而不是大范围地生产。这种推进器的效率相当高，但大型舰艇需要几个推进器堆在一起才能产生足够的推力。"
 
 outfit "Small Reverse Module"
 	category "Engines"
@@ -289,8 +289,8 @@ outfit "Small Reverse Module"
 	"reverse flare sprite" "effect/coalition flare/small"
 		"frame rate" 10
 	"reverse flare sound" "atomic tiny"
-	description "Placing this tiny thruster in the front of a freighter or transport allows Coalition merchants to considerably improve their energy efficiency, which is of great benefit when relying on solar power."
-	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
+	description "将这种微小的推进器放在货船或运输船的前面，可以让联盟商人大大地提高他们的能源效率，这在依靠太阳能的时候有很大的好处。"
+	description "	因为反向推进器必须朝前，所以它必须安装在飞船的武器部分而不是引擎部分。"
 
 outfit "Large Reverse Module"
 	category "Engines"
@@ -307,8 +307,8 @@ outfit "Large Reverse Module"
 	"reverse flare sprite" "effect/coalition flare/large"
 		"frame rate" 7
 	"reverse flare sound" "atomic small"
-	description "With their significant weapons capacity left unused in peacetime, captains of larger Coalition freighters and transports can use Large Reverse Modules to rapidly slow their ships, allowing them to save both time and energy."
-	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
+	description "在和平时期，大型联盟货船和运输船的船长可以使用大型反转模块来迅速减缓他们的船只，让他们既节省时间又节省能源。"
+	description "	因为反向推进器必须朝前，所以它必须安装在飞船的武器部分而不是引擎部分。"
 
 outfit "Small Steering Module"
 	category "Engines"
@@ -325,7 +325,7 @@ outfit "Small Steering Module"
 	"steering flare sprite" "effect/coalition flare/small"
 		"frame rate" 10
 	"steering flare sound" "atomic tiny"
-	description "Despite its high efficiency, this module is not sufficient for any but the tiniest of ships. Instead, the modules are designed with the expectation that ships may use two or three of them in tandem."
+	description "尽管这种模块的效率很高，但除了最细小的船只外，这种模块是不够的。相反，这些模块的设计是希望船只可以串联使用其中的两个或三个模块。"
 
 outfit "Large Steering Module"
 	category "Engines"
@@ -342,7 +342,7 @@ outfit "Large Steering Module"
 	"steering flare sprite" "effect/coalition flare/large"
 		"frame rate" 7
 	"steering flare sound" "atomic small"
-	description "By focusing on small, modular engines rather than the massive capital ship drives that most other species develop, the Coalition loses some of the potential efficiency for very large ships, but gains a considerable amount of flexibility."
+	description "通过专注于小型模块化引擎，而不是大多数其他物种开发的大规模资本船驱动，联盟失去了一些非常大的船只的潜在效率，但获得了相当大的灵活性。"
 
 outfit "Enforcer Confrontation Gear"
 	category "Hand to Hand"
@@ -353,7 +353,7 @@ outfit "Enforcer Confrontation Gear"
 	"capture attack" 3.1
 	"capture defense" 4.9
 	"unplunderable" 1
-	description "The peak of Heliarch combat engineering, this weapon uses condensed blasts of energy to dispatch any who dare threaten the Coalition safety."
+	description "作为太阳神战斗工程的巅峰之作，这种武器使用凝结的能量爆炸来驱散任何敢于威胁联盟安全的人。"
 
 outfit "Enforcer Riot Staff"
 	category "Hand to Hand"
@@ -364,9 +364,9 @@ outfit "Enforcer Riot Staff"
 	"capture attack" 2.0
 	"capture defense" 3.5
 	"unplunderable" 1
-	description "Made to deal with the occasional dissidents that pop up around Coalition space in a non-lethal manner, these weapons see minimal use in shipbound combat, but are carried anyway in the event a dissident gets aboard."
+	description "这些武器是为了以非致命的方式处理偶尔出现在联盟空间的持不同政见者，这些武器在舰载战斗中的使用很少，但在持不同政见者上船的情况下还是会被携带。"
 
 outfit "Coalition License"
 	category "Licenses"
 	thumbnail "outfit/coalition license"
-	description "Completed a lot of Coalition jobs and received permission to purchase civilian technology and ships."
+	description "完成了很多联盟的工作，获得了购买民用技术和船只的许可。"

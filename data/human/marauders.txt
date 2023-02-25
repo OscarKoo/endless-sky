@@ -58,7 +58,7 @@ ship "Marauder Arrow"
 	explode "small explosion" 18
 	explode "medium explosion" 6
 	"final explode" "final explosion small"
-	description "This Arrow has had numerous modifications to its hull and internal systems to make more room for outfits - mostly with combat in mind. More shields, weapons, engines, outfit space, and a turret mount nearly push this ship into classification as a light warship, and definitely make it one of the heaviest interceptors you're likely to find."
+	description "这艘箭号对其船体和内部系统进行了多次修改，以便为装备腾出更多空间--主要是考虑到战斗。更多的护盾、武器、引擎、装备空间和一个炮塔支架几乎把这艘船推到了轻型战舰的分类中，并且肯定使它成为你可能找到的最重的拦截者之一。"
 
 
 ship "Marauder Arrow" "Marauder Arrow (Engines)"
@@ -79,7 +79,7 @@ ship "Marauder Arrow" "Marauder Arrow (Engines)"
 		"A375 Atomic Steering"
 		"Hyperdrive"
 		
-	description "With expanded engine mounts, this Arrow seems more like an oversized missile than a ship. The beefed-up engines, a little extra outfit capacity, extra shield emitters, and thicker hull plating make this vessel a very competent interceptor."
+	description "有了扩大的发动机支架，这支箭看起来更像一个超大的导弹而不是一艘船。强化的引擎，一点额外的装备能力，额外的护盾发射器，以及更厚的船体镀层使这艘船成为一个非常有能力的拦截舰。"
 
 
 ship "Marauder Arrow" "Marauder Arrow (Weapons)"
@@ -106,7 +106,7 @@ ship "Marauder Arrow" "Marauder Arrow (Weapons)"
 	gun 7.5 -36 "Energy Blaster"
 	gun 7.5 -36 "Energy Blaster"
 	turret 0 17.5 "Heavy Laser Turret"
-	description "The weapons systems on this Arrow have been enhanced to the point of competing with Lionheart's Headhunter, although it can still outrun all but the fastest ships, if things get a little too hairy."
+	description "这艘箭号上的武器系统已经增强到可以与狮心王的猎头者相抗衡的地步，尽管它仍然可以超越所有的船只，除了最快的船只，如果事情变得有点太棘手。"
 
 
 
@@ -160,7 +160,7 @@ ship "Marauder Bounder"
 	explode "small explosion" 20
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
-	description "This Megaparsec Bounder has been modified from a courier-scout into a heavy escort interceptor - currently the largest in the class. A little extra outfit space, reinforced turret mounts, a new gun port in front of the pilot, and additional shield emitters grant this former transport both fearsome speed and armament."
+	description "这艘Megaparsec Bounder已经从一个信使侦察机改装成了一个重型护航拦截机--目前是该级别中最大的。额外的装备空间，强化的炮塔支架，飞行员前面的新炮口，以及额外的护盾发射器，都让这艘曾经的运输船拥有了可怕的速度和武器装备。"
 
 
 ship "Marauder Bounder" "Marauder Bounder (Engines)"
@@ -186,7 +186,7 @@ ship "Marauder Bounder" "Marauder Bounder (Engines)"
 	engine -12 58 .7
 	engine 0 51
 	engine 12 58 .7
-	description "The previous owner of this Bounder has modified an already fast courier-scout into an even faster heavy escort interceptor with some truly enormous engines, giving it incredible maneuverability for its size."
+	description "这架Bounder的前主人将一架已经很快速的信使侦察机改装成了更快速的重型护航拦截机，并配备了一些真正巨大的引擎，使它的尺寸具有惊人的机动性。"
 
 
 ship "Marauder Bounder" "Marauder Bounder (Weapons)"
@@ -216,7 +216,7 @@ ship "Marauder Bounder" "Marauder Bounder (Weapons)"
 	gun 7 -77 "Modified Blaster"
 	turret -37 4 "Heavy Laser Turret"
 	turret 37 4 "Heavy Laser Turret"
-	description "Simultaneously the deadliest and most graceful interceptor in the galaxy, this former Bounder courier-scout has been equipped with incredibly powerful weapons for a ship of its size."
+	description `同时也是银河系中最致命和最优雅的拦截舰，这艘前 "布德 "信使侦察舰已经装备了对其尺寸来说难以置信的强大武器。`
 
 
 
@@ -275,7 +275,7 @@ ship "Marauder Falcon"
 	explode "medium explosion" 60
 	explode "large explosion" 40
 	"final explode" "final explosion large"
-	description "This Tarazed Falcon has been heavily modified by some very dedicated craftsmen. The hull is riddled with extra shield emitters and expanded equipment bays, adding bulk and definitely voiding the warranty."
+	description "这艘塔拉兹德猎鹰已经被一些非常敬业的工匠进行了大量的改装。船体上布满了额外的护盾发射器和扩大的设备舱，增加了体积，肯定会导致保修失效。"
 
 
 ship "Marauder Falcon" "Marauder Falcon (Engines)"
@@ -311,7 +311,7 @@ ship "Marauder Falcon" "Marauder Falcon (Engines)"
 	turret 16 -29 "Modified Blaster Turret"
 	turret -50 39.5 "Blaster Turret"
 	turret 50 39.5 "Blaster Turret"
-	description "Whoever modified this Falcon clearly valued speed above all else. Major sections of the hull have been reconfigured to accommodate the largest possible engines. If hot-rodding across the galaxy in a 1000-ton warship that handles like a Flivver is your dream, look no further."
+	description "不管是谁改装了这架猎鹰，显然都把速度看得高于一切。船体的主要部分已经被重新配置，以适应最大的发动机。如果开着一艘1000吨的战舰穿越银河系，并且像Flivver一样操控，是你的梦想，那就不要再找了。"
 
 
 ship "Marauder Falcon" "Marauder Falcon (Weapons)"
@@ -347,7 +347,7 @@ ship "Marauder Falcon" "Marauder Falcon (Weapons)"
 	turret 16 -29 "Quad Blaster Turret"
 	turret -50 39.5 "Quad Blaster Turret"
 	turret 50 39.5 "Quad Blaster Turret"
-	description "Whoever modified this Falcon clearly believed that firepower was everything. Two additional gun ports have been integrated into the hull, and the ship's interior space has been reconfigured to accommodate nearly any set of weapons you can imagine."
+	description "修改这艘猎鹰的人显然相信火力就是一切。两个额外的炮口已被整合到船体中，并且该船的内部空间已被重新配置，以容纳你能想象到的几乎任何一套武器。"
 
 
 
@@ -404,7 +404,7 @@ ship "Marauder Firebird"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "By the looks of the modification that have taken place, you suspect that this ship contains no original parts. With extra shield emitters, hull plating, and outfit space, this half-millennium-old design is finding new life with its heavy modification."
+	description "从已经发生的改装来看，你怀疑这艘船不包含任何原始部件。有了额外的护盾发射器、船体镀层和装备空间，这个有半千年历史的设计正在通过大量的改装找到新的生命。"
 
 
 ship "Marauder Firebird" "Marauder Firebird (Engines)"
@@ -433,7 +433,7 @@ ship "Marauder Firebird" "Marauder Firebird (Engines)"
 	engine -31.5 75.5
 	engine 31.5 75.5
 	engine 0 78
-	description "One of the biggest complaints about Betelgeuse's venerable classic from younger pilots is that it's heavy and slow. A previous owner of this ship also believed so, and has fitted another engine port, in addition to setting aside more space for outfits and giving the old ship some new hull plating and shield emitters."
+	description "年轻的飞行员们对贝特宙斯这艘古老的经典之作最大的抱怨之一就是它很重很慢。这艘船的前主人也这样认为，除了预留出更多的空间给装备外，还为这艘老船安装了一些新的船体镀层和护盾发射器，并安装了另一个引擎口。"
 
 
 ship "Marauder Firebird" "Marauder Firebird (Weapons)"
@@ -463,7 +463,7 @@ ship "Marauder Firebird" "Marauder Firebird (Weapons)"
 	gun 38.5 -18.5 "Particle Cannon"
 	turret 0 -44 "Quad Blaster Turret"
 	turret 0 -2.5 "Quad Blaster Turret"
-	description "The Firebird is known to have one of the heaviest armaments possible for a warship of its size, and this modified version makes it even heavier. With more outfit space, giant gun ports, extra hull plating, and more shield emitters, this blast from the past will make its targets history."
+	description "众所周知，火鸟号的武器装备是同尺寸战舰中最重的之一，而这个改装版本使其更加沉重。有了更多的装备空间，巨大的炮口，额外的船体镀层和更多的护盾发射器，这艘来自过去的爆炸性武器将使其目标成为历史。"
 
 
 
@@ -524,7 +524,7 @@ ship "Marauder Leviathan"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion large"
-	description "The Betelgeuse Shipyards Leviathan has been in service for a long time, and captains have had some very interesting ideas about how to modify them for optimum performance. This one has had the hull surface completely stripped and replaced, with the new layout containing more shield projectors per square meter."
+	description `贝特宙斯造船厂的 "利维坦 "号已经服役了很长时间，舰长们对如何改装它们以获得最佳性能有一些非常有趣的想法。这艘船的船体表面已经被完全剥落和替换，新的布局在每平方米内包含了更多的盾牌投射器。`
 
 
 ship "Marauder Leviathan" "Marauder Leviathan (Engines)"
@@ -553,7 +553,7 @@ ship "Marauder Leviathan" "Marauder Leviathan (Engines)"
 	engine 41 118.5 0.6
 	engine -21 126.5 0.8
 	engine 21 126.5 0.8
-	description "As if the Leviathan wasn't a terrifying enough ship already, this one has been heavily modified with special attention paid to the engine capacity, enabling it to bring its guns to bear even faster."
+	description `如果 "利维坦 "还不够可怕的话，这艘 "利维坦 "已经进行了大量的改装，特别注意了发动机的容量，使其能够更快地使用枪支。`
 
 
 ship "Marauder Leviathan" "Marauder Leviathan (Weapons)"
@@ -586,7 +586,7 @@ ship "Marauder Leviathan" "Marauder Leviathan (Weapons)"
 	turret 14.5 -11.5 "Heavy Laser Turret"
 	turret -26 11.5 "Heavy Laser Turret"
 	turret 26 11.5 "Heavy Laser Turret"
-	description "This Leviathan once belonged to an infamous pirate captain whose name has been lost to the ages. It's had so much custom work done to it that can hardly even be considered the same ship; the weapons capacity, in particular, has been massively increased."
+	description "这艘利维坦曾经属于一位臭名昭著的海盗船长，他的名字已经湮没在岁月中。它被做了大量的定制工作，甚至很难被认为是同一艘船；尤其是武器容量，已经被大量增加。"
 
 
 
@@ -644,7 +644,7 @@ ship "Marauder Manta"
 	explode "small explosion" 20
 	explode "medium explosion" 15
 	"final explode" "final explosion medium"
-	description `After the Syndicate released their Vanguard Heavy Warship, the Manta fell somewhat out of favor due to its lack of ability to mount any anti-missile turrets. The owner of this Manta rectified that, added some extra armor plating and shield emitters, and rearranged some of the internals to yield a little more outfit space. Dry tonnage alone keeps it from being classified as a heavy warship.`
+	description `在辛迪加发布了他们的先锋号重型战舰之后，曼塔号由于缺乏安装任何反导弹炮塔的能力而在某种程度上失去了青睐。这艘曼塔号的主人纠正了这一点，增加了一些额外的装甲板和护盾发射器，并重新安排了一些内部设备以获得更多的装备空间。仅仅是干燥的吨位就使它不被列为重型战舰。`
 
 
 ship "Marauder Manta" "Marauder Manta (Engines)"
@@ -678,7 +678,7 @@ ship "Marauder Manta" "Marauder Manta (Engines)"
 	gun "Plasma Cannon"
 	gun "Plasma Cannon"
 	turret "Quad Blaster Turret"
-	description `A previous owner of this Manta has gone to great lengths to make sure they could bring all six gun ports to bear in a hurry, and chase down smaller warships. Style was not lost on that captain, and a forked tail yielded a little more space for shield projectors in an area that would have been destabilized by engine exhaust. If its dry tonnage were any higher, it would be classified as a heavy warship.`
+	description `这艘曼塔号的前主人花了很大的力气来确保他们能在短时间内使用所有的六个炮口，并追击小型战舰。这艘船的风格在这位舰长身上并没有消失，分叉的尾部为盾牌投射器提供了更多的空间，而这个区域本来是会被发动机的废气破坏的。如果它的干吨位再高一点，它就会被归类为重型战舰。`
 
 
 ship "Marauder Manta" "Marauder Manta (Weapons)"
@@ -714,7 +714,7 @@ ship "Marauder Manta" "Marauder Manta (Weapons)"
 	gun -20 -33 "Particle Cannon"
 	gun 20 -33 "Particle Cannon"
 	turret 0 -28.5 "Heavy Anti-Missile Turret"
-	description `This Manta has undergone extensive modification, featuring extra gun ports, hull plating, and shield emitters. Whoever modified it seems to have forgotten to include dedicated space for the power systems, as they're crammed in and around everything else like an afterthought. If its dry tonnage were any higher, it would be classified as a heavy warship.`
+	description `这艘曼塔号经历了广泛的改装，具有额外的炮口、船体镀层和护盾发射器。不管是谁改装的，似乎都忘了给动力系统留出专门的空间，因为它们就像事后才想到的那样被挤在其他东西的周围。如果它的干吨位再高一点，它就会被归类为重型战舰。`
 
 
 
@@ -765,7 +765,7 @@ ship "Marauder Quicksilver"
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	"final explode" "final explosion small"
-	description "This Megaparsec Quicksilver is a bit of a hotrod, being a little faster, with extra shield projectors, hull plating, and an extra bunk. This aftermarket model also features a turret mount, perhaps in an answer to Lionheart's Headhunter. The shop that built this ship is sure to see more customers."
+	description "这艘Megaparsec Quicksilver有点像一个热机，速度稍快，有额外的护盾投射器，船体镀层，还有一个额外的铺位。这个售后模型也有一个炮塔支架，也许是对狮心王猎头者的回应。建造这艘船的商店肯定会有更多的客户。"
 
 
 ship "Marauder Quicksilver" "Marauder Quicksilver (Safe)"
@@ -796,7 +796,7 @@ ship "Marauder Quicksilver" "Marauder Quicksilver (Engines)"
 	engine -15.5 54
 	engine 0 57
 	engine 15.5 54
-	description "This Quicksilver has even more space available for engine use - and even another thruster port! It's also got a few extra shield projectors, more hull plating, and another bunk. This aftermarket model also features a turret mount, perhaps in response to Lionheart's Headhunter. Whoever modified this ship wanted to chase their prey down with vicious speed."
+	description "这艘Quicksilver有更多的空间可供发动机使用--甚至还有另一个推进器端口！它还有一些额外的空间。它还有一些额外的护盾投射器，更多的船体镀层，以及另一个铺位。这个售后模型还具有一个炮塔支架，也许是为了回应狮心王的猎头者。不管是谁改装了这艘船，都想以凶狠的速度追赶他们的猎物。"
 
 
 ship "Marauder Quicksilver" "Marauder Quicksilver (Engines) (Safe)"
@@ -823,7 +823,7 @@ ship "Marauder Quicksilver" "Marauder Quicksilver (Engines) (Safe)"
 	engine -16 52
 	engine 0 52
 	engine 16 52
-	description "This Quicksilver has even more space available for engine use - and even another thruster port! It's also got a few extra shield projectors, more hull plating, and another bunk. This aftermarket model also features a turret mount, perhaps in response to Lionheart's Headhunter. Whoever modified this ship wanted to chase their prey down with vicious speed."
+	description "这艘Quicksilver有更多的空间可供发动机使用--甚至还有另一个推进器端口！它还有一些额外的空间。它还有一些额外的护盾投射器，更多的船体镀层，以及另一个铺位。这个售后模型还具有一个炮塔支架，也许是为了回应狮心王的猎头者。不管是谁改装了这艘船，都想以凶狠的速度追赶他们的猎物。"
 
 
 ship "Marauder Quicksilver" "Marauder Quicksilver (Weapons)"
@@ -849,7 +849,7 @@ ship "Marauder Quicksilver" "Marauder Quicksilver (Weapons)"
 	gun -6 -52.5 "Heavy Laser"
 	gun 6 -52.5 "Heavy Laser"
 	turret 0 26 "Heavy Laser Turret"
-	description "This Quicksilver has even bigger gun ports. It's also got a few extra shield emitters, more hull plating, and an extra bunk. Outfitted right, this aftermarket model could be even faster than a stock model, bringing a couple of extra cannons and a turret to a fight in more menacing mimicry of Lionheart's Headhunter."
+	description "这个Quicksilver有更大的炮口。它还有一些额外的护盾发射器，更多的船体镀层，以及一个额外的铺位。如果装备得当，这个售后模型甚至可以比库存模型更快，在战斗中带来几门额外的大炮和一个炮塔，更有威胁地模仿狮心王的猎头者。"
 
 
 ship "Marauder Quicksilver" "Marauder Quicksilver (Weapons) (Safe)"
@@ -875,7 +875,7 @@ ship "Marauder Quicksilver" "Marauder Quicksilver (Weapons) (Safe)"
 	
 	engine -17 54
 	engine 17 54
-	description "This Quicksilver has even bigger gun ports. It's also got a few extra shield emitters, more hull plating, and an extra bunk. Outfitted right, this aftermarket model could be even faster than a stock model, bringing a couple of extra cannons and a turret to a fight in more menacing mimicry of Lionheart's Headhunter."
+	description "这个Quicksilver有更大的炮口。它还有一些额外的护盾发射器，更多的船体镀层，以及一个额外的铺位。如果装备得当，这个售后模型甚至可以比库存模型更快，在战斗中带来几门额外的大炮和一个炮塔，更有威胁地模仿狮心王的猎头者。"
 
 
 
@@ -930,7 +930,7 @@ ship "Marauder Raven"
 	explode "tiny explosion" 28
 	explode "small explosion" 40
 	"final explode" "final explosion small"
-	description "Whoever modified this Raven has given more heft to an agile and elegant vessel. They've added a turret and some apparently-flimsy bulkheads over extra shield emitters and outfit space. If it weren't for the wings, the central hull would barely be recognizable as Lionheart's original under the patchwork that you expect has made an already deadly warship even more so."
+	description "不管是谁改装了这艘乌鸦号，都给这艘敏捷而优雅的船增加了重量。他们在额外的护盾发射器和装备空间上增加了一个炮塔和一些明显脆弱的隔板。如果不是因为机翼，中央的船体几乎无法辨认出是狮心的原件，而你所期待的拼凑使这艘已经致命的战舰变得更加致命。"
 
 
 ship "Marauder Raven" "Marauder Raven (Engines)"
@@ -956,7 +956,7 @@ ship "Marauder Raven" "Marauder Raven (Engines)"
 	engine 10.5 63.5
 	engine -4.5 62.5 .5
 	engine 4.5 62.5 .5
-	description "Lionheart's elegant Raven has gained popularity with pirates because of its agility. This one appears to have been modified for even more of the latter at the expense of the former, and the central hull can only be recognized as a Raven because of the wings. Two more engine bays, more outfit space, additional shield emitters, and a turret make this already deadly warship appear even more frightening."
+	description "狮心的优雅乌鸦号因为其敏捷性而获得了海盗们的青睐。这艘似乎是以牺牲前者为代价，对后者进行了更多的修改，中央的船体只能因为翅膀而被认作是乌鸦。多了两个发动机舱，更多的装备空间，额外的护盾发射器，以及一个炮塔，使这艘已经致命的战舰显得更加可怕。"
 
 
 ship "Marauder Raven" "Marauder Raven (Weapons)"
@@ -984,7 +984,7 @@ ship "Marauder Raven" "Marauder Raven (Weapons)"
 	gun -21 -28 "Pulse Cannon"
 	gun 21 -28 "Pulse Cannon"
 	turret 0 7.5 "Heavy Laser Turret"
-	description "A former owner of this ship apparently didn't like the lithe Raven, and has added so much more to it - more weapons, more shields, and more outfit capacity - that the central hull can only be recognized because of the wings. Besides adding a turret, this ship has enormous gun ports, making you wonder how much more deadly you could possibly make a warship this small."
+	description "这艘船的前主人显然不喜欢体态轻盈的乌鸦号，于是给它增加了很多东西--更多的武器、更多的护盾和更多的装备容量--以至于中间的船体只能因为机翼而被认出。除了增加一个炮塔，这艘船还有巨大的炮口，让你不禁要问，这么小的军舰还能有多大的杀伤力。"
 
 
 
@@ -1039,7 +1039,7 @@ ship "Marauder Splinter"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "The Splinter is the largest warship produced by Megaparsec. Apparently someone wanted a bit more out of it, and has covered large sections of the hull with extra shield emitters and hull plating. Much of the stock cargo space has been converted to outfit, weapons, and engines space; coupled with a streamlining of existing internal systems, it makes this warship an agile and flexible war machine."
+	description "碎片号是Megaparsec公司生产的最大的军舰。很明显，有人想让它更多一些，并在船体的大部分地方覆盖了额外的护盾发射器和船体镀层。大部分的货物空间已经被转换为装备、武器和引擎空间；再加上现有内部系统的精简，这使得这艘战舰成为一个灵活的战争机器。"
 
 
 ship "Marauder Splinter" "Marauder Splinter (Engines)"
@@ -1070,7 +1070,7 @@ ship "Marauder Splinter" "Marauder Splinter (Engines)"
 	turret "Quad Blaster Turret"
 	turret "Heavy Anti-Missile Turret"
 	turret "Quad Blaster Turret"
-	description "You're not likely to find a sub-kiloton warship faster or more deadly than this one. Large sections of the hull have been covered with extra hull plating and shield emitters. Much of the cargo space has been converted to outfit space, a great deal of which is at the rear of the ship, which features a new engine port."
+	description "你不可能找到比它更快或更致命的亚千吨级战舰。船体的大部分区域都被额外的船体镀层和护盾发射器所覆盖。大部分的货物空间已经被转换为装备空间，其中大量的空间在船尾，它有一个新的引擎口。"
 
 
 ship "Marauder Splinter" "Marauder Splinter (Weapons)"
@@ -1101,4 +1101,4 @@ ship "Marauder Splinter" "Marauder Splinter (Weapons)"
 	turret -13.5 42.5 "Quad Blaster Turret"
 	turret 0 9 "Heavy Anti-Missile Turret"
 	turret 13.5 42.5 "Quad Blaster Turret"
-	description "This Splinter has had extensive modification to its weapons space, with two new forward hard points on either side of the bridge. Large sections of the hull are covered with extra shield emitters and hull plating. Much of the stock cargo space has been converted to space for outfits, weapons, and engines; coupled with a streamlining of existing internal systems, it makes the prospect of meeting this flexible war machine in an uninhabited system seem pretty unappealing."
+	description `这艘 "分裂 "号对其武器空间进行了广泛的修改，在舰桥两侧有两个新的前部硬点。船体的大部分区域都覆盖了额外的护盾发射器和船体镀层。大部分的库存货物空间已经被转换为装备、武器和发动机的空间；再加上现有内部系统的精简，使得在无人居住的系统中遇到这种灵活的战争机器的前景显得相当不令人满意。`

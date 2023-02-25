@@ -1,0 +1,43 @@
+# Copyright (c) 2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+start "default"
+	name "Endless Sky"
+	description `你在新波士顿长大，这是一个位于泥土带的无趣的世界。自从你15岁时第一次去太空港，你就梦想着拥有一艘星船。在纺织厂工作了许多年后，你终于攒够了学分，可以向共和国申请飞行员执照了。`
+	description `	在获得许可证后，随着从这个星球上获得的自由唾手可得，你前往银行为你的第一艘船贷款...`
+	thumbnail "scene/lobby"
+	date 16 11 3013
+	system "Rutilicus"
+	planet "New Boston"
+	conversation "default intro"
+	account
+		credits 480000
+		score 400
+		mortgage Mortgage
+			principal 480000
+			interest 0.004
+			term 365
+	set "license: Pilot's"
+
+
+
+conversation "default intro"
+	scene "scene/lobby"
+	`	银行的建筑就是你在梦想未来会比现在不那么肮脏时所说的 "未来主义"：层层叠叠的曲线、尖顶和阳台，全都是闪闪发光的金属。每个沉重的玻璃门旁都站着一个门卫。你穿着你最好的衣服，但你在他们旁边感到很寒酸。`
+	`贷款经纪人的办公室同样令人生畏。大型电脑显示器挂满了墙壁，股票报价和其他信息几乎快到无法阅读。你偶尔会瞥见那些你只在电影中见过的地名：阿尔德巴兰。塔拉兹德。地球"。`
+	`笔像铅一样重，但当你在一页又一页的不祥的法律文件的底部打印你的首字母，并签署几十份声明、通知和协议时，几乎没有摩擦。银行家，一个秃顶的中年男子，穿着你怀疑比你将要购买的飞船还贵的西装，快速地翻过你的书页，淡淡地说："在这里签字。现在在这里，"当他指着每一页时。他的动作很迅速，很机械。`
+	`唯一一次他变得真正生动的时刻是在向你解释 "真实贷款声明 "时。"你借了48万信贷，"他说，"要在一年内还清。你的日利率是0.4%，这意味着你每天的付款是2503个信用点，到年底你将支付...... 434,000信用点的利息。在这里签字。" 他笑着说。`
+	`你最后一次签下你的名字：`
+	name
+	`电梯调得很好，你甚至没有意识到它在移动，直到它把你送回大厅。但当你离开银行时，你在微笑。这场疯狂的冒险对你来说突然感觉很真实。你要去做了。你终于要离开这个星球了。`
+	`与银行相比，你在船厂感觉更自在，走在生锈的船体和在阳光下闪闪发光的新船之间。你闻到了油脂、污垢和火箭燃料的味道；很好闻。在你的价格范围内有三种船舶模型。你选择哪一个将决定你的未来...`

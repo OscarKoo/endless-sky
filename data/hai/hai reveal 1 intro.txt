@@ -56,13 +56,13 @@ mission "Event: Pug Media Coverage"
 		has "event: pug media coverage"
 	on offer
 		event "hai secret leaks" 10 15
-		log "Minor People" "Maduena Kabiru" `A senator from Bounty in the Delta Velorum system. He is somewhat paranoid, and insists upon the Navy taking greater steps to better explore the galaxy beyond human space to search for possible threats.`
+		log "Minor People" "Maduena Kabiru" `三角洲Velorum系统中来自邦蒂的一位参议员。他有些偏执，坚持要求海军采取更大的措施，更好地探索人类空间以外的银河系，以寻找可能的威胁。`
 		conversation
-			`As you walk through the spaceport, you can't help but notice that coverage on the events of the Pug invasion still continues to dominate headlines, even though it's been weeks now.`
-			`	Looking around, you see that experts and officials have given way to talking heads and theorists. Some of them are saying what you also suspect: that the Pug invasion was a ploy to cause humanity to band together, learn to resolve differences without conflict, and ensure the sorts of extremism that led to the events precipitating the war would not be tolerated.`
-			`	But others...`
-			`	One particular paranoid fringe-world politician dominates the air on the channel you're watching here. Councilor Maduena Kabiru from Bounty demands that the edges of human space be better understood, that threats and even potential threats must clearly exist beyond what is already known, and that it is the responsibility of the government to find out and inform the people. While one could definitely argue in favor of his point, it doesn't carry much weight coming from a councilor whose system is a mere two jumps from a brand new Navy base.`
-			`	In this very public space you spot a couple of people who seem to hesitantly recognize you, presumably from other coverage, and so you keep your thoughts to yourself.`
+			`当你走过太空港时，你不禁注意到，关于帕格人入侵事件的报道仍在继续占据头条，尽管现在已经过去了几个星期。`
+			`	环顾四周，你看到专家和官员已经让位给了谈话者和理论家。他们中的一些人在说你也怀疑的事情：帕格人的入侵是一种策略，使人类团结起来，学会在没有冲突的情况下解决分歧，并确保导致战争事件的各种极端主义不会被容忍。`
+			`	但是其他人...`
+			`	一位特别偏执的边缘世界的政治家在你所收看的频道中占据了主导地位。来自邦蒂的马杜埃纳-卡比鲁议员要求更好地了解人类空间的边缘，威胁甚至潜在的威胁必须清楚地存在于已经知道的情况之外，政府有责任找出并告知人民。虽然人们肯定会支持他的观点，但从一个议员嘴里说出来并没有多少分量，因为他的系统离一个全新的海军基地只有两级跳。`
+			`	在这个非常公共的空间里，你发现了几个人，他们似乎犹豫地认出了你，估计是来自其他的报道，所以你把你的想法留给了自己。`
 				decline
 
 event "hai secret leaks"
@@ -70,81 +70,81 @@ event "hai secret leaks"
 
 
 conversation "hai reveal free worlds news"
-	`You are relaxing within the spaceport while your ship refuels after conducting a spot of business. On the view-screen is some talk show that you haven't previously encountered, but apparently seems to be quite a popular one out of Tarazed.`
-	`	A young and fresh-faced man who looks incredibly ill at ease has just been brought out as a surprise guest by the host Jonathon Camembert.`
-	`	"So now in our surprise segment, let me introduce you to Ronald Campbell. He once crewed on one of these big trade ships, but after seeing what he saw, he just had to come forward!"`
-	`	The host stresses the word 'had' so much his voice squeaks, but the audience's attention has certainly been gained.`
-	`	"But first, let's take a look at a clip."`
+	`你在太空港内休息，而你的飞船在处理完一些事务后正在加油。视屏上是一些你以前没有遇到过的谈话节目，但显然在塔拉泽德似乎很受欢迎。`
+	`	主持人乔纳森-卡门贝刚刚请出一位年轻的、面容清秀的男子，作为惊喜嘉宾，他看起来非常不自在。`
+	`	"那么现在在我们的惊喜环节中，让我向你们介绍罗纳德-坎贝尔。他曾经是这些大型贸易船的船员，但在看到他所看到的东西后，他不得不站出来！"`
+	`	主持人强调了'不得不'这个词，以至于他的声音发出吱吱声，但观众的注意力肯定已经得到了。`
+	`	"但首先，让我们看看一个片段。"`
 	branch "hai knowledge"
 		has "First Contact: Hai: offered"
-	`	They show a short video featuring alien ships, not Pug, or Quarg, but something else. They are engaged in combat with each other, and fire weapons quite unlike anything produced in human space.`
-	`	You raise your eyebrows. Actual footage of an unknown alien conflict doesn't seem likely.`
-	`	When the clip ends, Campbell is encouraged by Camembert to talk about where he got the footage. Campbell is well presented, although his suit is definitely rented - you couldn't imagine how a crewman would be able to afford a suit like that on their salary - and he's clearly anxious. You can make out the beads of sweat on his brow as he considers his answer, and his neat suit is slightly crumpled in the way that happens when people wipe sweat off their palms a lot. When Campbell speaks, it is with a paranoid manner that is plain to see even through a screen. He talks at length about an ongoing conflict that threatens to spill over and drag all of humanity back to war; a war waged by an alien species known as the 'Hai'.`
-	`	The idea that there's a directly accessible alien race, at war, that has also somehow been kept a secret, may just be a ridiculous rumor. Nevertheless, it is intriguing... You listen in to collect the relevant details for future reference.`
-	`	It's difficult to be sure where you should start looking, but it seems that these 'Hai' are meant to be northward, and the biggest hub at that end of the known galaxy is Sunracer.`
+	`	他们播放了一段简短的视频，内容是外星飞船，不是帕格，也不是夸格，而是其他东西。它们彼此交战，发射的武器与人类太空中生产的任何东西都很不一样。`
+	`	你扬起眉毛。一个未知的外星人冲突的实际镜头似乎不太可能。`
+	`	当片段结束时，坎贝尔在卡门贝的鼓励下，谈论了他从哪里得到这些镜头。坎贝尔表现得很好，尽管他的衣服肯定是租来的--你无法想象一个船员的工资怎么能买得起这样的衣服--而且他显然很焦虑。当他考虑自己的答案时，你可以看出他额头上的汗珠，他整洁的西装略微皱巴巴的，就像人们经常擦拭手掌上的汗水时发生的那样。当坎贝尔说话时，他的态度是偏执的，即使隔着屏幕也能看出来。他详细讲述了一场正在进行的冲突，这场冲突有可能蔓延开来，将整个人类拖入战争；一场由被称为 "海 "的外星物种发动的战争。`
+	`	有一个直接可以接触到的外星种族，在战争中，也以某种方式被保密的想法，可能只是一个可笑的谣言。不过，这也很耐人寻味......你听着，收集相关的细节，以便将来参考。`
+	`	很难确定你应该从哪里开始寻找，但似乎这些'海'是指向北的，而已知星系那一端最大的枢纽是Sunracer。`
 		accept
 	label "hai knowledge"
-	`	They show a short video of alien ships, Hai ships, engaged in combat with each other.`
-	`	When the clip ends, Campbell is encouraged by Camembert to talk about where he got the footage. Campbell is well presented, although his suit is definitely rented - you couldn't imagine how a crewman would be able to afford a suit like that on their salary - and he's clearly anxious about what he's exposed. You can make out the beads of sweat on his brow as he considers his answer, and his neat suit crumples slightly. When Campbell speaks, it is with a paranoid manner that is plain to see even through a screen. He talks at length about an ongoing conflict that threatens to spill over and drag all of humanity back to war; a war waged by an alien species known as the 'Hai'.`
-	`	It might be time to go visit your Hai friends again.`
+	`	他们播放了一段外星飞船的短视频，Hai的飞船，相互之间进行了战斗。`
+	`	当片段结束时，坎贝尔在卡门贝的鼓励下，谈论了他从哪里得到这些录像。坎贝尔表现得很好，尽管他的衣服肯定是租来的--你无法想象一个船员的工资怎么能买得起这样的衣服--而且他显然对他所暴露的东西感到焦虑。当他考虑自己的答案时，你可以看到他额头上的汗珠，他整洁的西装微微皱起。当坎贝尔说话时，他的态度是偏执的，即使隔着屏幕也能看出来。他详细讲述了一场正在进行的冲突，这场冲突有可能蔓延开来，将整个人类拖回战争；一场由被称为 "海 "的外星物种发动的战争。`
+	`	现在可能是时候再次去拜访你的海族朋友了。`
 		accept
 
 
 conversation "hai reveal republic or syndicate news"
-	`You are relaxing at the spaceport while your ship refuels, when a breaking news broadcast comes on; it's not urgent enough to actually interrupt scheduled content, but urgent enough to fill the first ad break.`
-	`	The severe-looking anchorwoman bores down the camera with an expression that demands attention.`
-	`	"An ex-crewman employed by an itinerant trader has come forward to media in the Free Worlds about hostile aliens just beyond our borders. He claims to have brought video proof of an ongoing conflict that threatens to spill over and drag all of humanity back to war. Stay tuned for our full segment at six."`
-	`	You raise your eyebrows. Actual footage of an unknown alien conflict doesn't seem likely.`
-	`	That such news should come out so soon after the Pug smacks of a hoax. A quick glance at the clock shows you only have ten minutes to wait, so you stick around for the full segment out of curiosity.`
-	`	The news returns with the severe anchorwoman. It turns out that the crewman in question had been picked up by a minor media outlet on Tarazed. He had apparently traveled many weeks before deciding to seek the media in order to avoid being shut down by Republic Intelligence if he contacted them elsewhere. The man is fairly young, and appears very well presented, though he has a bit of the paranoid about him that is plain to see even through a screen.`
+	`当你的飞船加油时，你正在太空港放松，这时一个突发的新闻广播出现了；它并不紧急，不足以真正打断预定的内容，但紧急到足以填补第一个广告时段。`
+	`	长相严肃的女主播用一种要求注意的表情盯着镜头。`
+	`	"一位受雇于流动商贩的前船员向自由世界的媒体透露了我们边界外的敌对外星人。他声称带来了正在进行的冲突的视频证据，该冲突有可能蔓延开来，将整个人类拖回战争。请继续关注我们六点的完整报道。"`
+	`	你扬起眉毛。一个未知的外星人冲突的实际镜头似乎不太可能。`
+	`	这样的消息在 "帕格 "事件后这么快就出来了，这有点像一个骗局。看了一眼时钟，你只有10分钟的等待时间，所以你出于好奇，坚持看完了这一段。`
+	`	新闻回来了，女主播很严厉。事实证明，这名船员被塔拉泽德的一家小媒体发现了。他显然在决定寻找媒体之前已经旅行了很多个星期，以避免在其他地方与他们联系时被共和国情报局关闭。这个人相当年轻，看起来很有气质，虽然他身上有一点偏执狂的气息，即使隔着屏幕也能看到。`
 	branch "hai knowledge"
 		has "First Contact: Hai: offered"
-	`	They show a short video featuring alien ships, not Pug, or Quarg, but something else. They are engaged in combat with each other, and fire weapons quite unlike anything produced in human space.`
-	`	It is only after this that the anchorwoman reveals that, while this was initially treated as a hoax, one of their own reporters posed a timely question to a well-respected trader, resulting in quite the stir when he slipped up and confirmed the existence of the aliens known as 'Hai'.`
-	`	The idea that there's a directly accessible alien race, at war, that has also somehow been kept a secret, may just be a ridiculous rumor. Nevertheless, it is intriguing... You listen in to collect the relevant details for future reference.`
-	`	It's difficult to be sure where you should start looking, but it seems that these 'Hai' are meant to be northward, and the biggest hub at that end of the known galaxy is Sunracer.`
+	`	他们播放了一段简短的视频，内容是外星飞船，不是帕格，也不是夸格，而是其他东西。它们彼此交战，发射的武器与人类太空中生产的任何东西都很不一样。`
+	`	在这之后，女主播才透露，虽然这最初被视为一个骗局，但他们自己的一名记者向一名受人尊敬的商人提出了一个及时的问题，结果他说漏了嘴，证实了被称为 "海 "的外星人的存在，引起了很大的轰动。`
+	`	有一个直接可以接触到的外星种族，在战争中，也以某种方式被保密的想法，可能只是一个可笑的谣言。不过，这也很耐人寻味......你听着，收集相关的细节，以便将来参考。`
+	`	很难确定你应该从哪里开始寻找，但似乎这些'海'是指向北的，而已知星系那一端最大的枢纽是Sunracer。`
 		accept
 	label "hai knowledge"
-	`	A clip of alien spaceships in combat with weapons quite unlike anything produced in human space is shown, and you recognize that the ships are Shield Beetles hammering away at each other with their Ion Cannons.`
-	`	It is only after this that the anchorwoman reveals that, while this was initially treated as a hoax, one of their own reporters posed a timely question to a well-respected trader and caused quite the stir when he slipped up and confirmed the existence of the aliens known as 'Hai'.`
-	`	You suspect it might be time to go visit your Hai friends again.`
+	`	一段外星飞船与人类太空中生产的武器完全不同的战斗片段被播放出来，你认识到这些飞船是盾甲虫，正在用它们的离子炮互相敲击。`
+	`	在这之后，女主播才透露，虽然这最初被视为一个骗局，但他们自己的一名记者向一名受人尊敬的商人提出了一个及时的问题，当他说出来并证实了被称为 "海 "的外星人的存在时，引起了很大的轰动。`
+	`	你怀疑现在可能是时候再次去拜访你的海族朋友了。`
 		accept
 
 
 conversation "What is going on in Hai space? (Have not met Unfettered.)"
-	`Landing in Hai space draws a much different type of attention than expected. Only recently you've begun to acclimate yourself to getting positive attention. As a war hero you're something of a minor celebrity now back in human space, but here suddenly mothers are keeping tight grips on their children, and passers-by look upon you with a hint of wariness.`
-	`	You realize that the few humans who have settled here among the Hai are all wearing pink at the moment. When you catch the eye of one lady who looks friendly, you greet her to ask a few questions.`
+	`降落在海族的空间，吸引了比预期更多不同类型的关注。直到最近，你才开始适应得到积极的关注。作为一个战争英雄，你现在在人类空间是一个小名人，但在这里，母亲们突然紧紧抓住她们的孩子，路人看向你时都有一丝警惕。`
+	`	你意识到，在海族中定居的少数人类此刻都穿着粉红色的衣服。当你注意到一位看起来很友好的女士时，你向她打招呼，问了几个问题。`
 	choice
-		`	"Why does everyone seem so afraid?"`
-	`	She shakes her head and wrinkles her nose with a look of distaste. "Within about three days of hearing that the Hai were being splashed all over major news networks back home, a whole heap of curious pirates have chanced the wormhole en masse. The local security forces on patrol at the time got blown out of the sky by a surprise attack, and everyone has been a bit shaken up since."`
-	`	"Oh, that's awful!" you say.`
-	`	She nods. "Unfortunately, these pirates are increasing in number by the day, and it's taking a while for the government to redistribute an appropriately resourced security force thanks to the Unfettered."`
+		`	"为什么每个人看起来都那么害怕？"`
+	`	她摇摇头，皱起鼻子，一脸的不高兴。"在听说海的消息被国内各大新闻网报道后的三天内，一大堆好奇的海盗们集体冒险进入了虫洞。当时正在巡逻的当地安全部队被突如其来的袭击炸飞了，此后大家都有点动摇了。"`
+	`	"哦，那太可怕了！"你说。`
+	`	她点点头。"不幸的是，这些海盗的数量与日俱增，由于不受约束者的存在，政府需要一段时间来重新分配一支有适当资源的保安部队。"`
 	choice
 		# Rewrote question so it makes sense whether you met them or not
-		`	"Who are the Unfettered?"`
-	`	She seems surprised that you asked and responds, "Oh, they're a sort of rebel Hai group. If you don't know you should go visit Cloudfire in the Wah Ki system up north, or maybe even Darkcloak if you dare. A short visit would explain it far better than I ever could."`
+		`	"谁是不受约束者？"`
+	`	她似乎对你的问话感到惊讶，回答说："哦，他们是一种反叛的海派团体。如果你不知道，你应该去拜访北方华基系统的云火，或者如果你有胆量的话，甚至可以去拜访黑暗克拉克。短暂的访问会比我解释得更好。"`
 
 
 conversation "What is going on in Hai space? (Met the Unfettered.)"
-	`Landing in Hai space draws a much different type of attention than expected. Only recently you've begun to acclimate yourself to getting positive attention. As a war hero you're something of a minor celebrity now back in human space, but here suddenly mothers are keeping tight grips on their children, and passers-by look upon you with a hint of wariness.`
-	`	You realize that the few humans who have settled here among the Hai are all wearing pink at the moment. When you catch the eye of one lady who looks friendly, you greet her to ask a few questions.`
+	`降落在海族的空间，吸引了比预期更多不同类型的关注。直到最近，你才开始适应得到积极的关注。作为一个战争英雄，你现在在人类空间是一个小名人，但在这里，母亲们突然紧紧抓住她们的孩子，路人看向你时都有一丝警惕。`
+	`	你意识到，在海族中定居的少数人类此刻都穿着粉红色的衣服。当你注意到一位看起来很友好的女士时，你向她打招呼，问了几个问题。`
 	choice
-		`	"Why does everyone seem so afraid?"`
-		`	"Why are you all wearing pink?"`
+		`	"为什么每个人看起来都那么害怕？"`
+		`	"为什么你们都穿着粉红色的衣服？"`
 			goto pink
-	`	She shakes her head and wrinkles her nose with a look of distaste. "Some marauder came here just yesterday, posing as a trader to investigate the rumors. We thought the Hai had means of keeping them out, but this one snuck in and landed at the spaceport without any opposition. Then his crew kidnapped nearly four dozen Hai and hijacked a Geocoris before making off with their spoils. We're just... in shock, I suppose. It's completely unprecedented for something like that to happen in broad daylight."`
-	`	She sighs deeply and says, "Naturally they've ramped up security, but everyone is just a bit shaken and distrustful at the moment."`
-	`	"Oh, that's awful!" you say.`
-	`	She nods and forces a little bit of false cheer into her voice, "This is why we're all wearing pink, just a little show of local solidarity.`
+	`	她摇了摇头，皱起鼻子，一脸的不高兴。"一些掠夺者昨天才来到这里，冒充商人来调查谣言。我们以为海族有办法把他们拒之门外，但这个人偷偷溜进来，在没有任何反对的情况下降落在太空港。然后，他的船员绑架了近四打海族，并劫持了一个Geocoris，然后带着他们的战利品离开。我们只是......处于震惊之中，我想。这样的事情在光天化日之下发生，是完全没有先例的。"`
+	`	她深深地叹了口气，说："自然，他们已经加强了安保，但目前每个人都有点动摇和不信任。"`
+	`	"哦，那太可怕了！"你说。`
+	`	她点点头，在声音中强行加入一点虚假的欢呼，"这就是为什么我们都穿着粉红色的衣服，只是为了显示一下当地的团结。`
 		goto main
 	label pink
-	`	A sad smile crosses her face and her expression goes somber as she explains, "A pirate marauder snuck down onto the planet recently, stole a Geocoris, and kidnapped a number of Hai, probably into slavery. The Hai are in shock, it's just completely unprecedented for something like that to happen in broad daylight. Naturally, they've ramped up security, but everyone is a bit shaken up so us locals are wearing pink in solidarity... and so we're not mistaken for a security risk.`
+	`	她的脸上掠过一丝悲伤的微笑，表情变得阴沉，她解释说："最近有一个海盗掠夺者潜入了这个星球，偷了一个Geocoris，并绑架了一些海族人，可能是为了做奴隶。海族人都很震惊，这样的事情在光天化日之下发生，是完全没有先例的。自然，他们已经加强了安保，但每个人都有点震惊，所以我们当地人都穿着粉红色的衣服以示声援......这样我们就不会被误认为有安全风险。`
 	label main
-	`	"Unfortunately, it's taking a while for them to redistribute an appropriately resourced security force thanks to the Unfettered. So far they've only been able to recall those on leave and up their vigilance."`
-	`	Your conversation is interrupted suddenly by a small group of somewhat official-looking Hai.`
-	`	"Are you Captain <last>?" one of them asks you. "Don't worry, you're not in trouble."`
-	`	You nod your affirmation.`
-	`	"Your reputation precedes you, Captain. If you have any stake in the current information crisis, please head directly to Hai-home. Someone would very much like to talk to you. As a person of note, you are presently being treated as an Envoy." They leave without waiting for your agreement. Then again, you did come here to see what was going on.`
+	`	"不幸的是，由于不受约束，他们需要一段时间来重新分配一支有适当资源的保安部队。到目前为止，他们只能召回那些休假的人，提高他们的警觉性。"`
+	`	你的谈话突然被一小群看起来有点像官员的海族打断了。`
+	`	"你是<last>队长吗？"其中一个人问你。"别担心，你没有麻烦。"`
+	`	你点头表示肯定。`
+	`	"你的名声在你之前，上尉。如果你与当前的信息危机有任何利害关系，请直接前往海之家。有人很想和你谈谈。作为一个有名望的人，你目前被当作特使来对待。"他们不等你同意就离开了。话又说回来，你确实是来这里看看发生了什么事。`
 		decline
 
 
@@ -156,8 +156,8 @@ conversation "What is going on in Hai space? (Met the Unfettered.)"
 
 mission "ZZ Event Hai Secret Leaks: RSHU"
 	landing
-	name "Visit the Hai"
-	description "It seems like recent events may be taking away the Hai's valued secrecy. Go and see if things are okay. Visit <stopovers> and maybe see if you can render assistance on <destination>."
+	name "访问海"
+	description "似乎最近的事件可能会夺走海族宝贵的保密性。去看看事情是否顺利。访问<stopovers>，也许看看你是否可以在<destination>上提供帮助。"
 	source
 		government "Republic" "Syndicate"
 		attributes "spaceport"
@@ -175,15 +175,15 @@ mission "ZZ Event Hai Secret Leaks: RSHU"
 		event "news: hai video clip published"
 		conversation "hai reveal republic or syndicate news"
 	on visit
-		dialog "You should first visit Allhome, where the most humans are, to see how things are going before you get more heavily involved."
+		dialog "你应该首先访问Allhome，那里有最多的人类，在你更多地参与之前，看看事情的进展。"
 	on stopover
 		conversation "What is going on in Hai space? (Met the Unfettered.)"
 
 
 mission "ZZ Event Hai Secret Leaks: FWHU"
 	landing
-	name "Visit the Hai"
-	description "It seems like recent events may be taking away the Hai's valued secrecy. Go and see if things are okay. Visit <stopovers> and maybe see if you can render assistance on <destination>."
+	name "访问海"
+	description "似乎最近的事件可能会夺走海族宝贵的保密性。去看看事情是否顺利。访问<stopovers>，也许看看你是否可以在<destination>上提供帮助。"
 	source
 		government "Free Worlds"
 		attributes "spaceport"
@@ -201,15 +201,15 @@ mission "ZZ Event Hai Secret Leaks: FWHU"
 		event "news: hai video clip published"
 		conversation "hai reveal free worlds news"
 	on visit
-		dialog "You should first visit Allhome, where the most humans are, to see how things are going before you get more heavily involved."
+		dialog "你应该首先访问Allhome，那里有最多的人类，在你更多地参与之前，看看事情的进展。"
 	on stopover
 		conversation "What is going on in Hai space? (Met the Unfettered.)"
 
 
 mission "ZZ Event Hai Secret Leaks: RSH"
 	landing
-	name "Visit the Hai on Allhome"
-	description "It seems like recent events may be taking away the Hai's valued secrecy. You should see if things are ok."
+	name "访问Allhome的海"
+	description "看起来最近的事件可能会使海族人失去他们所珍视的保密性。你应该看看事情是否正常。"
 	source
 		government "Republic" "Syndicate"
 		attributes "spaceport"
@@ -230,8 +230,8 @@ mission "ZZ Event Hai Secret Leaks: RSH"
 
 mission "ZZ Event Hai Secret Leaks: FWH"
 	landing
-	name "Visit the Hai on Allhome"
-	description "It seems like recent events may be taking away the Hai's valued secrecy. You should see if things are ok."
+	name "访问Allhome的海"
+	description "看起来最近的事件可能会使海族人失去他们所珍视的保密性。你应该看看事情是否正常。"
 	source
 		government "Free Worlds"
 		attributes "spaceport"
@@ -252,8 +252,8 @@ mission "ZZ Event Hai Secret Leaks: FWH"
 
 mission "ZZ Event Hai Secret Leaks: RS"
 	landing
-	name "Investigate the Hai"
-	description "There have been reports of a secret, violent alien race that traders have known about for ages. You should go and find out what's really going on."
+	name "调查海族"
+	description "有报告说，有一个秘密的、暴力的外星种族，商人已经知道了很久。你应该去看看到底发生了什么。"
 	source
 		government "Republic" "Syndicate"
 		attributes "spaceport"
@@ -271,8 +271,8 @@ mission "ZZ Event Hai Secret Leaks: RS"
 
 mission "ZZ Event Hai Secret Leaks: FW"
 	landing
-	name "Investigate the Hai"
-	description "There have been reports of a secret, violent alien race waging war just outside of human space. You should go and find out what's really going on."
+	name "调查海族"
+	description "有报告称，一个秘密的、暴力的外星种族就在人类空间之外发动战争。你应该去看看到底发生了什么。"
 	source
 		government "Free Worlds"
 		attributes "spaceport"
@@ -299,8 +299,8 @@ event "pirates investigate leaks"
 
 mission "Trader Directions to Hai Space"
 	landing
-	name "Investigate the Hai"
-	description "Follow the coordinates given to you by Captain Casey and meet the Hai."
+	name "调查海族"
+	description "按照凯西船长给你的坐标，去见海。"
 	source "Sunracer"
 	waypoint "Ultima Thule"
 	to offer
@@ -311,52 +311,52 @@ mission "Trader Directions to Hai Space"
 		never
 	on offer
 		conversation
-			`Arriving at the only place you can think of where you feel sure you can find out more information, you find that <origin>, like most places, is abuzz with the recent news. Avoiding the many large, cheap, and boisterous establishments that service the many crews and workers of the Megaparsec corporate machinery here, you make your way to one of the marginally more up-market places, cunningly marketed as a merchant-only dive.`
-			`	Since the story first broke, there has been an endless cycle of contradictory reporting on the matter plastered across most screens in major thoroughfares. Here, however, it is remarkably absent, with only one of the screens on display covering the "violent alien race" at all - running stats on how many different versions of the story are now being told.`
-			`	Casting your eyes around the room, you pick out a merchant who looks like she's been around the block a few times and also like she could pick up and break most people over her knee. Especially conspicuous is the threatening glare that you watch her give a younger captain, when they leave a table talking about the Hai to approach her... briefly. After the captain is briskly brushed aside, you make your way over. Her glare falters in a flash of recognition before subsiding to a reserved scowl.`
-			`	She waits until you're directly next to her table before acknowledging you further. "The famous Captain <last>. Which ancient Sumerian deity did I offend to be granted the gift of your attention?"`
-			`	The emphasis she places on the word "gift" is dripping in sarcasm, but her overall tone is wary rather than hostile, and she gestures without comment to the seat opposite for you to sit.`
+			`到达你能想到的唯一一个你觉得肯定能找到更多信息的地方，你发现<origin>，像大多数地方一样，被最近的新闻所吸引。你避开了许多为Megaparsec企业机器的许多工作人员和工人服务的大型、廉价和喧闹的场所，来到了一个稍微高档的地方，这里被狡猾地推销为一个只有商人的潜水点。`
+			`	自从这个故事首次曝光以来，在主要街道的大多数屏幕上都贴满了关于此事的相互矛盾的报道，循环不息。然而，在这里，它却明显缺席，只有一个屏幕涉及 "暴力的外星种族"--对现在有多少不同版本的故事进行统计。`
+			`	在房间里转了一圈，你发现了一个商人，她看起来像是在街区里转了几圈，也像是可以把大多数人抱起来摔在膝盖上。特别明显的是，你看到她对一个年轻的船长发出威胁性的目光，当他们离开谈论海的桌子，接近她时......短暂的。在队长被轻而易举地赶到一边后，你走了过去。她的目光在认识到这一点后闪闪发亮，然后又恢复了矜持的皱眉头。`
+			`	她一直等到你直接走到她的桌子旁边，才进一步承认你。"著名的船长<last>。我是得罪了哪位古老的苏美尔神灵，才得到你的关注？"`
+			`	她对 "礼物 "这个词的强调充满了讽刺，但她的整体语气是警惕而非敌意，她不置可否地示意你坐在对面的位置上。`
 			choice
-				`	"I'm just here to find out more about the Hai."`
+				`	"我只是来了解一下海的情况。"`
 					goto innocent
-				`	"You looked to be the most experienced person in the room."`
+				`	"你看起来是这个房间里最有经验的人。"`
 					goto practical
-				`	"Why ask a rookie when there's a professional available?"`
-			`	She scoffs, but despite her rolling eyes, a slight smirk undermines her otherwise wary expression. "Flattery from a hero. You've been hanging out with too many politicians, <last>."`
-			`	The deliberate omission of your title does not go unnoticed, but she continues. "Still, can't fault your logic, and I suppose I probably owe you one on account of me having got myself stuck on one of those Pug occupied worlds while it was all going on. You're going to ask me about the Hai, aren't you?"`
+				`	"既然有专业人员，为什么要问一个菜鸟？"`
+			`	她嘲笑道，但尽管她翻着白眼，一丝笑意破坏了她原本警惕的表情。"一个英雄的奉承。你和太多的政治家混在一起了，<last>。"`
+			`	故意省略你的头衔并没有被忽视，但她继续说道。"不过，你的逻辑无可厚非，我想我可能欠你一个人情，因为在这一切发生的时候，我把自己困在那些帕格人占领的世界中。你要问我关于海的事，是吗？"`
 			choice
-				`	"Yes."`
+				`	"是的。"`
 					goto continue
 			label innocent
-			`	"Hah!" she booms, one deep short bark of a laugh. "You and everyone else, <last>, and don't go trying to sell me the innocent question line. You didn't single me out cause I was pretty."`
-			`	She squints at you and leans back in her seat slightly. "That said, if you're asking me and not any of your new 'friends' in the government... maybe you're alright in my books after all."`
+			`	"哈！"她轰然一笑，一个深深的短促的叫声。"你和其他人一样，<last>，不要去试图向我推销无辜的问题这句话。你不是因为我漂亮而把我挑出来的。"`
+			`	她眯着眼睛看着你，微微向后靠在座位上。"话虽如此，如果你问的是我，而不是你在政府中的任何一个新'朋友'......也许你在我的书中还是不错的。"`
 				goto continue
 			label practical
-			`	Her eyes narrow, but she dips her head in a very small motion of assent. "Well, you're not stupid, I'll give you that. You're trying to find out what most other people are, aren't you? You want to know about the Hai."`
+			`	她的眼睛眯了起来，但她低下头做了一个非常小的表示同意的动作。"好吧，你并不傻，我给你说。你想找出其他大多数人的情况，不是吗？你想知道海的情况。"`
 			choice
-				`	"Yes."`
+				`	"是的。"`
 			label continue
-			`	She heaves a sigh and lowers her voice until you're forced to lean in. "You can call me Captain Casey, and I will tell you what you want, but then you can leave, alright? I like my solitude.`
-			`	"First, I shouldn't be telling you this. Generally speaking they don't like to draw attention to themselves. Second though, forget the fearmongering. I make trips up to their space every so often, and there aren't a nicer bunch of people anywhere, even if they are a bit furry. The Hai are peaceful and welcoming of outsiders. They've got themselves a bit of an anarchist faction, that's the footage you've seen, but they ain't no danger to humanity. You should see them for yourself."`
-			`	She pulls out her data pad and flicks some coordinates over to you. "Follow those and you'll get there. Keep an eye out for the wormhole."`
+			`	她叹了一口气，压低了声音，直到你被迫靠过来。"你可以叫我凯西船长，我会告诉你你想要的东西，但之后你可以离开，好吗？我喜欢我的孤独。`
+			`	"首先，我不应该告诉你这些。一般来说，他们不喜欢引起别人的注意。第二，尽管如此，忘记恐惧的说法。我经常去他们的空间，没有比这更好的一群人了，即使他们有点毛茸茸的。海族人很平和，对外来者很欢迎。他们有自己的无政府主义派别，这是你所看到的录像，但他们对人类没有任何危险。你应该亲自看看他们。"`
+			`	她掏出她的数据板，把一些坐标弹给你。"按照这些，你会到达那里。留意虫洞的情况。"`
 			choice
-				`	"Thank you."`
+				`	"谢谢你。"`
 					goto wrap
-				`	"The wormhole?"`
-			`	She shakes her head while chuckling. "See for yourself."`
+				`	"虫洞？"`
+			`	她一边笑着一边摇头。"你自己看吧。"`
 			label wrap
-			`	Taking a sip from her mug she gives a slight nod in your direction. "Intentionally or not, you did me and a lot of other merchants a solid in that war, Captain. I respect that, but I'll thank you to leave me in peace if you see me again."`
-			`	Only now, as you move to depart, do you spot the wrist-triggered needlegun strapped to the arm of her drinking hand that would've been trained on you the entire conversation.`
+			`	她拿起杯子喝了一口，向你的方向微微点头。"不管有意还是无意，你在那场战争中为我和许多其他商人做了件好事，船长。我尊重这一点，但如果你再见到我，我会感谢你让我平静地离开。"`
+			`	直到现在，当你准备离开时，你才发现了绑在她喝酒的手臂上的腕部触发式针枪，在整个谈话过程中，它一直在训练你。`
 				accept
 	on waypoint
-		dialog `This system appears to contain some sort of astronomical anomaly. Perhaps this is the wormhole you were directed to.`
+		dialog `这个系统似乎包含某种天文异常现象。也许这就是你被引导到的虫洞。`
 		
 
 # This branch is if you have met the Hai but not the Unfettered
 	# Goto Stop 3 Wah Yoot (Darkcloak) and pick up at Tour 4 mission.
 mission "Hai Witness Unfettered [1]"
-	name "Witness the Unfettered"
-	description "It turns out this conflict has some truth to it. Go see where it's happening."
+	name "见证不受约束的人"
+	description "事实证明，这种冲突是有一定道理的。去看看它发生的地方。"
 	landing
 	source "Allhome"
 	destination "Darkcloak"
@@ -373,8 +373,8 @@ mission "Hai Witness Unfettered [1]"
 	# This follows immediately after the First Contact text - no other convo is required.
 mission "ZZ Hai Tour [1] Stonebreak"
 	landing
-	name "Visit <planet>"
-	description "Go to <destination> and learn more about the Hai's worlds."
+	name "访问<planet>"
+	description "去<destination>，了解更多关于海族人的世界。"
 	source "Allhome"
 	destination "Stonebreak"
 	to offer
@@ -384,54 +384,54 @@ mission "ZZ Hai Tour [1] Stonebreak"
 	on offer
 		fail "Trader Directions to Hai Space"
 		conversation
-			`As you are leaving the merchant and the Hai, the Hai calls out as an afterthought, "By the way, Captain, if you really want to see what the Hai are like, you should go visit Stonebreak."`
+			`当你要离开商人和海族时，海族事后叫道："对了，船长，如果你真的想看看海族是什么样的，你应该去访问石破天惊。"`
 			choice
-				`	"Thanks, I'll do that!"`
+				`	"谢谢，我会去的！"`
 					accept
 
 	# Goto Stop 2 Alta Hai (Alta Hai Ringworld)
 mission "Hai Tour [2] Alta Hai"
 	landing
-	name "Visit the ringworld on <planet>"
-	description "Go to <destination> and learn more about the Hai's worlds."
+	name "访问<planet>上的环形世界"
+	description "去<destination>，了解更多关于海族人的世界。"
 	source "Stonebreak"
 	destination "Alta Hai"
 	to offer
 		has "ZZ Hai Tour [1] Stonebreak: done"
 	on offer
 		conversation
-			`This star system has an unusual number of metallic asteroids, which you noticed the Hai harvesting for the raw materials before you landed. Stonebreak itself is home to incredibly large cities: massive, clearly planned communities built in concentric rings, where housing space and community buildings alternate with zones of factories and shipyards.`
-			`	From above, this city has almost perfect radial symmetry, a sure sign that it was planned and built as a single unit rather than expanding at random over time. Every single building in the city is a dull and slightly irregular gray color, all made from the same material which seems to be some metallic alloy, and the corners of each building are slightly beveled instead of meeting at right angles.`
-			`	Even the spaceport is symmetrical: a ring of hangars face outwards at evenly spaced intervals, while warehouses and living quarters dot the inside of the ring.`
-			`	While the layout is utilitarian, it looks to be an incredibly comfortable place to live; the Hai have clearly given their individual community spaces quite a lot of character and life.`
-			`	As you are wandering around and getting a feel for the place, you overhear someone talking about an apparently complete ringworld in a system called Hevru Hai. It definitely sounds like something you should check out, and asking around quickly gets you some clear directions.`
+			`这个星系有不寻常数量的金属小行星，在你登陆之前，你注意到海族人在收获原材料。石破天惊本身就是令人难以置信的大型城市：巨大的、计划明确的社区建在同心环中，其中住房空间和社区建筑与工厂和船厂区域交替出现。`
+			`	从上面看，这个城市有几乎完美的径向对称性，这无疑表明它是作为一个整体来规划和建造的，而不是随着时间的推移随意扩张。城市中的每一栋建筑都是暗淡的、略微不规则的灰色，都由相同的材料制成，似乎是某种金属合金，每栋建筑的四角都略带斜面，而不是直角相交。`
+			`	甚至太空港也是对称的：一圈机库以均匀的间隔朝外，而仓库和生活区则点缀在圈内。`
+			`	虽然布局是功利性的，但它看起来是一个令人难以置信的舒适的生活场所；海族人显然赋予了他们各自的社区空间相当多的特征和生命。`
+			`	当你在周围徘徊并感受这个地方时，你听到有人在谈论一个明显完整的环形世界，它位于一个叫Hevru Hai的系统。听起来，这绝对是你应该去看看的地方，四处打听很快就能得到一些明确的方向。`
 				accept
 
 	# Goto Stop 3 Wah Yoot (Darkcloak) - must happen after Quarg first contact
 mission "ZZ Hai Tour [3] Meet Unfettered"
 	landing
-	name "Meet the Rebels on <planet>"
-	description "Go to <destination> and learn more about the Hai's conflict."
+	name "在<planet>上与叛军会面"
+	description "前往<destination>，了解更多关于Hai的冲突。"
 	source "Alta Hai"
 	destination "Darkcloak"
 	to offer
 		has "Hai Tour [2] Alta Hai: done"
 	on offer
 		conversation
-			`This is a complete Quarg ringworld, the product of millennia of construction effort which has consumed every other stellar object in this system in order to provide the raw materials. The inner edge of the ring is filled with solar panels, hydroponic gardens, living quarters, and sunlit common spaces. The outer edge contains hangars and docks for ships while housing storage facilities for cargo.`
-			`	Pondering your questions, you find a Quarg and ask, "Is this a dead end? This isn't Hai space."`
-			`	The Quarg explains, "Much like in Enif in human space, this is where we live as friends to the Hai."`
-			`	This explanation seems typically Quarg, but it's the best one you're able to get. Before you go, you ask, "Do you know about the rebels I've been hearing about?"`
-			`	The Quarg responds, "The Hai and their rebels are the same. You should travel to Darkcloak in Wah Yoot to understand. Be warned, they tend to shoot at newcomers."`
-			`	It seems like there's nothing else for it but to see for yourself.`
+			`这是一个完整的Quarg环形世界，是几千年的建设努力的产物，为了提供原材料，它消耗了这个系统中的所有其他恒星物体。环形世界的内部边缘充满了太阳能电池板、水培花园、生活区和阳光下的公共空间。外侧的边缘包含了船舶的机库和码头，同时还有货物的储存设施。`
+			`	在思考你的问题时，你找到一个夸父，问道："这是一个死胡同吗？这不是海的空间。"`
+			`	夸格人解释说："就像人类空间的埃尼夫一样，这是我们作为海族朋友生活的地方。"`
+			`	这个解释似乎是典型的夸父，但这是你能得到的最好的解释。在你走之前，你问："你知道我一直听说的叛军吗？"`
+			`	夸格人回答说："海族和他们的叛军都是一样的。你应该到华宇特的Darkcloak去了解。请注意，他们往往会向新来者开枪。"`
+			`	看来除了自己去看，也没有别的办法了。`
 				accept
 	
 	# Goto Stop 4 Wah Ki (Cloudfire)
 	# Must happen before unfettered first contact
 mission "00 Hai Tour [4] Cloudfire"
 	landing
-	name "Find out about the Rebels on Cloudfire"
-	description "Go to Cloudfire and compare the Hai's side of the conflict."
+	name "在云火上了解叛军的情况"
+	description "去云火镇，对比一下海族人的冲突情况。"
 	source "Darkcloak"
 	destination "Cloudfire"
 	to offer
@@ -440,21 +440,21 @@ mission "00 Hai Tour [4] Cloudfire"
 			has "ZZ Hai Tour [3] Meet Unfettered: done"
 	on offer
 		conversation
-			`You had to bribe your way through just to land without being blown up. These "Unfettered" Hai do not seem friendly, but it's time to find out what they're about.`
+			`你不得不贿赂你的方式，只是为了登陆而不被炸毁。这些 "不受约束 "的海族似乎并不友好，但现在是时候了解他们的情况了。`
 				accept
 	on complete
 		conversation
-			`You dodge the conflict in space and come in to land. Cloudfire's atmosphere is unusually hazy, with almost constant cloud cover, making agriculture unproductive even though it is a warm and damp environment. There are several major cities here that were abandoned centuries ago, likely due to the conflict with the Unfettered, and the one major city that remains is the closest thing the Hai have to a military base, with new supplies of weapons and ammunition constantly pouring in from the rest of Hai space.`
-			`	The spaceport has massive hangars and advanced repair facilities designed to accommodate the largest Hai warships. Where a fleet has just returned from a recent battle, the hangars are lit with flashes from robotic welders as damaged hull plates are swapped out for fresh ones and weakened joints are reinforced.`
-			`	It does not take long to realize that this conflict really is constant, even if the friendlier Hai on this side seem to be maintaining their defense without apparently taxing their civilization to any great extent.`
+			`你躲开了太空中的冲突，来到了陆地上。云火星的大气层异常朦胧，几乎一直有云层覆盖，虽然是温暖潮湿的环境，但农业却无法生产。这里有几个主要城市，几个世纪前就被遗弃了，可能是由于与不羁者的冲突，而剩下的一个主要城市是海族最接近军事基地的地方，新的武器和弹药供应不断从海族其他地方涌入。`
+			`	航天港有巨大的机库和先进的维修设施，可以容纳最大的海族战舰。当一支舰队刚刚从最近的战斗中返回时，机库里就会出现机器人焊接机的闪光，因为损坏的船体板被换成了新的船体板，薄弱的关节被加固。`
+			`	不用多久，我们就会意识到，这场冲突真的是持续不断的，即使这一边比较友好的海族似乎在维持他们的防御，但显然没有对他们的文明造成任何巨大的负担。`
 
 
 
 # Both tours merge here
 mission "Hai Tour [5] Tour Ends"
 	landing
-	name "Head directly to Hai-home"
-	description "Go to Hai-home and meet whoever wants to speak with you."
+	name "直接前往Hai-home"
+	description "去Hai-home，见见想和你说话的人。"
 	source "Cloudfire"
 	destination "Hai-home"
 	clearance
@@ -464,37 +464,37 @@ mission "Hai Tour [5] Tour Ends"
 		conversation
 			branch "skipped tours"
 				has "Hai Witness Unfettered [1]"
-			`After looking around Cloudfire for some time, you stop in the spaceport for a moment to absorb everything you've seen. A screen is playing through news on the wall nearby, and your ears suddenly perk up at the word "marauder".`
-			`	"Yesterday, a marauder terrorized the inhabitants of Allhome. They arrived by posing as a trader to investigate rumors currently circulating in human space about our existence. Hai security failed to identify the danger, and the individual snuck his ship in and landed at the spaceport without any opposition. Then his crew kidnapped nearly four dozen Hai and hijacked a Geocoris before making off with their spoils."`
+			`在云火市周围看了一段时间后，你在太空港停了一会儿，吸收你所看到的一切。附近的墙上有一个屏幕正在通过新闻播放，你的耳朵在听到 "掠夺者 "这个词时突然竖了起来。`
+			`	"昨天，一个掠夺者恐吓了Allhome的居民。他们冒充商人来到这里，调查目前在人类空间流传的关于我们存在的谣言。海上保安未能识别危险，这个人偷偷地把他的飞船运进来，在没有任何反对的情况下降落在太空港。然后，他的船员绑架了近四打海族，并劫持了一艘Geocoris，然后带着他们的战利品离开。"`
 				goto "that's awful"
 			label "skipped tours"
-			`Soon after you land on <origin>, you notice a news broadcast on a nearby wall. "Yesterday, a marauder terrorized the inhabitants of Allhome. They arrived by posing as a trader to investigate rumors currently circulating in human space about our existence. Hai security failed to identify the danger, and the individual snuck his ship in and landed at the spaceport without any opposition. Then his crew kidnapped nearly four dozen Hai and hijacked a Geocoris before making off with their spoils. This unprecedented raid in broad daylight has the security forces scrambling to redistribute appropriate resources to handle the threat, and all security personnel on leave have been reactivated until better support can be provided."`
+			`在你登陆<origin>后不久，你注意到附近墙壁上的新闻广播。"昨天，一个掠夺者恐吓了Allhome的居民。他们冒充商人来到这里，调查目前在人类空间流传的关于我们存在的谣言。海上保安没能识别出这个危险，这个人偷偷地把他的飞船运进来，在没有任何反对的情况下降落在太空港。然后，他的船员绑架了近四打海族人，劫持了一艘Geocoris，然后带着他们的战利品离开。这场前所未有的光天化日之下的突袭，使安全部队争先恐后地重新分配适当的资源来处理这一威胁，所有休假的安全人员都被重新启用，直到可以提供更好的支持。"`
 			label "that's awful"
 			choice
-				`	(Observe the reaction of the Hai in the room.)`
-				`	(Keep walking.)`
+				`	(观察房间里的海的反应。)`
+				`	(继续走。）`
 					goto interrupted
-			`	At a table nearby, a Hai says, "Oh, that's awful!" and the human next to her responds, "Feels like being back on Solace."`
-			`	The rumors must be spreading further by the day. There's no doubt even more problems than this marauder will follow.`
-			`	No sooner has this thought crossed your mind than your solitude is interrupted by a small group of somewhat official-looking Hai.`
+			`	在附近的一张桌子上，一个海族人说："哦，太可怕了！"而她旁边的人类回应说："感觉就像回到了索拉斯。"`
+			`	谣言一定在一天天地进一步传播。毫无疑问，比这个掠夺者更多的问题将随之而来。`
+			`	你的脑海中刚闪过这个念头，你的独处就被一小群看起来有点像官员的海族打断了。`
 				goto official
 			label interrupted
-			`	As you depart the room, a small group of somewhat official-looking Hai interrupt you.`
+			`	当你离开房间的时候，一小群看起来有点像官员的海族打断了你。`
 			label official
-			`	"Are you Captain <last>?" one of them asks you. "Don't worry, you're not in trouble."`
-			`	You nod your affirmation.`
-			`	"Your reputation precedes you, Captain. As a person of note among humanity who we hear has now been traveling around Hai space, you are presently being treated as an Envoy."`
-			`	For a second you wonder if it's a joke, but they look as serious as Hai can look.`
+			`	"你是<last>队长吗？"其中一个人问你。"别担心，你没有麻烦。"`
+			`	你点头表示肯定。`
+			`	"你的名声在你之前，船长。作为一个在人类中引人注目的人，我们听说他现在已经在海族的空间里旅行，你现在被当作一个特使来对待。"`
+			`	有那么一瞬间，你想知道这是不是一个玩笑，但他们看起来和海的表情一样严肃。`
 			choice
-				`	"I really don't think that's necessary."`
+				`	"我真的不认为有这个必要。"`
 					goto nevertheless
-				`	"Oh, I'm honored. Thank you."`
-			`	"If you have any stake in the current information crisis, please head directly to Hai-home. Our government would very much like to talk to you."`
+				`	"哦，我很荣幸。谢谢你。"`
+			`	"如果你与当前的信息危机有任何利害关系，请直接前往海-家。我们的政府非常想和你谈谈。"`
 				goto main
 			label nevertheless
-			`	"You may not think it's necessary, but sometimes that is the price of fame." The official-looking Hai shrugs. "In any event, please head directly to Hai-home. Our government would very much like to talk to you."`
+			`	"你可能认为没有必要，但有时这就是名声的代价。"官员模样的海哥耸耸肩。"无论如何，请直接前往Hai-home。我们的政府很想和你谈谈。"`
 			label main
-			`	They leave without waiting for your agreement, but then, you did come here to see what was going on.`
+			`	他们不等你同意就离开了，但那时，你确实是来这里看看发生了什么。`
 				accept
 
 
@@ -503,8 +503,8 @@ mission "Hai Tour [5] Tour Ends"
 	
 mission "Hai Leaks Response 1"
 	landing
-	name "Hai message to <planet>"
-	description "Take the diplomatic ID from the box from Sayari to <planet>."
+	name "给<planet>的Hai信息"
+	description "从萨亚里的盒子里取出外交ID给<planet>。"
 	source "Hai-home"
 	destination "Earth"
 	to offer
@@ -513,109 +513,109 @@ mission "Hai Leaks Response 1"
 			has "ZZ Event Hai Secret Leaks: RSHU: done"
 			has "ZZ Event Hai Secret Leaks: FWHU: done"
 	on offer
-		log "People" "Sayari" `Ambassador Sayari, a Hai, served as their envoy to the human government a century ago (although no public records of this exist in human space). Her experience has placed her in charge of coordinating the Hai response to the crisis of their continued secrecy.`
+		log "People" "Sayari" `萨亚里大使，一个海族人，一个世纪前曾担任他们的特使到人类政府（虽然在人类空间没有公开记录）。她的经验使她负责协调海族对他们持续保密的危机的反应。`
 		
 		conversation
-			`As you arrive on Hai-home, you find that a reasonable security detachment is waiting at your designated landing berth.`
+			`当你到达Hai-home时，你发现一个合理的安全分队正在你指定的登陆泊位上等待。`
 			branch rudeawakening
 				has "didn't know about hai"
 			action
 				log `Human worlds seem poised to become aware of the Hai's existence. The Hai would like to avoid this. Agreed to assist by representing their interests where travel to human space is required. Their desire was for a human, yet somewhat neutral, party.`
-			`	The Hai aren't usually ones to be concerned about such things, but you suspect that, as an apparent "war hero", they may be more for your own safety than the Hai's.`
-			`	Word of your status in human space also seems to have spread ahead of you, especially considering your apparent reputation on many Hai worlds as one of the few significant human visitors. A small crowd of Hai gather to peek at you on the short walk from the spaceport to the government building you are led to.`
+			`	海族通常不关心这种事情，但你怀疑，作为一个明显的 "战争英雄"，他们可能更多的是为了你自己的安全而不是海族的安全。`
+			`	你在人类空间的地位似乎已经在你之前传开了，特别是考虑到你在许多海族世界作为少数重要人类访客之一的明显声誉。一小群海族人聚集在一起，在从太空港到政府大楼的短暂步行中偷看你。`
 				goto resume
 			label rudeawakening
 			action
 				log `The Hai are very real, and human worlds seem poised to become aware of their existence. The Hai would like to avoid this. Agreed to assist by representing their interests where travel to human space is required. Their desire was for a human, yet somewhat neutral, party.`
-			`	You haven't really seen very much of the Hai so far, and you can't help but think the size of the detachment is rather militant of them. It's impossible to judge if it's for your safety or whether, given your status as a "war hero", it's for theirs.`
-			`	Word of your status in human space also seems to have spread ahead of you, perhaps because you are a significant human visitor in the current climate. A moderate crowd of Hai gather to peek at you on the short walk from the spaceport to the government building you are led to.`
+			`	到目前为止，你还没有真正见过很多海族人，你不禁认为这个支队的规模相当好战。无法判断这是否是为了你的安全，或者鉴于你作为 "战争英雄 "的身份，这是否是为了他们的安全。`
+			`	你在人类空间的地位的消息似乎也在你之前就已经传开了，也许是因为你在目前的环境中是一个重要的人类访客。在从太空港到政府大楼的短途步行中，一群中等规模的海族聚集在一起偷看你。`
 			label resume
-			`	Several of the Hai guarding you usher you off to the left to avoid a gathering crowd.`
+			`	几个看守你的海族人把你引向左边，以避免聚集的人群。`
 			choice
-				`	(Follow their directions silently.)`
+				`	(默默地听从他们的指示）。`
 					goto observe
-				`	"Why do I have such a large security detachment?"`
-			`	The Hai closest to you, who happens to have a very decorated uniform, turns to respond. "It's for crowd control. You've become the center of attention of politicians in a media circus."`
-			`	He looks back to the crowd for a moment. "Life in Hai space is complicated of late, and we want to make sure you are not stopped by crowds with endless questions before reaching your meeting. It would be... inefficient."`
+				`	"为什么我有这么大的安全分队？"`
+			`	离你最近的海族人，恰好有一套非常漂亮的制服，转身回答。"这是为了控制人群。你已经成为媒体马戏团中政治家们关注的中心。"`
+			`	他回头看了一会儿人群。"海空间的生活最近很复杂，我们想确保你在到达你的会议之前不会被有无尽问题的人群拦住。这将是......低效的。"`
 			choice
-				`	(Keep silent and observe.)`
-				`	"Thank you for your service."`
+				`	(保持沉默，观察。)`
+				`	"谢谢你的服务。"`
 					goto thank
 			label observe
 			branch karma
 				karma > 1
-			`	As you are making the walk you hear questions posed and rumors stated. Occasionally you hear words like "survivor" and "dangerous" thrown in amongst the babble.`
+			`	在你们行走的过程中，你们听到有人提出问题，也有人说了一些谣言。偶尔你会听到 "幸存者 "和 "危险 "这样的词被扔在胡言乱语中。`
 				goto main
 			label karma
-			`	As you are making the walk you hear questions posed and rumors stated. Occasionally you hear words like "honorable" and "reasonable" thrown in amongst the babble.`
+			`	在你行走的过程中，你会听到有人提出问题，也有传言说。偶尔你会听到 "可敬的 "和 "合理的 "这样的词被扔在胡言乱语中。`
 				goto main
 			label thank
-			`	He nods to you, and returns to his duties: holding back one oncoming Hai journalist after another.`
+			`	他向你点点头，然后回到他的岗位上：挡住一个又一个迎面而来的海派记者。`
 			label main
-			`	You arrive at a very comfortable office and are received by a mature-looking Hai with the appropriate regalia of a diplomat. She holds out a paw to greet you and says, "My name is Sayari. I was the envoy to the human government a century ago."`
-			`	The present media storm is all the evidence needed to make it clear that the Republic has never mentioned the Hai, nor publicly acknowledged receiving an envoy from them. If they're in on the secret, then they're probably still trying to work out a suppression strategy and have been too busy to send an envoy quicker than your own trip took.`
-			`	Sayari continues, "Our reports tell us that you are a well-known and respected individual in human space. We also know 'Hai' is quickly becoming a buzzword in your space. A few traders brought the news ahead of you."`
-			`	She pauses and looks at you seriously. "We think it would be prudent for you to represent your people as our point of contact. Would you accept such a role?"`
-			`	You give it a moment of thought.`
+			`	你来到一个非常舒适的办公室，接待你的是一个成熟的海族人，她穿着适当的外交官的服装。她伸出一只爪子迎接你，并说："我的名字是萨亚里。我是一个世纪前前往人类政府的特使。"`
+			`	目前的媒体风暴是所有需要的证据，清楚地表明共和国从来没有提到海族，也没有公开承认收到他们的特使。如果他们知道这个秘密，那么他们可能还在努力制定镇压策略，而且已经忙得不可开交了，派特使的速度比你自己的旅行还快。`
+			`	萨亚里继续说："我们的报告告诉我们，你在人类空间是一个知名的、受人尊敬的人。我们也知道'海'在你们的空间迅速成为一个流行词。有几个商人在你前面带来了这个消息。"`
+			`	她停顿了一下，认真地看着你。"我们认为由你来代表你的人民作为我们的联络点是很谨慎的。你愿意接受这样一个角色吗？"`
+			`	你考虑了一会儿。`
 			choice
-				`	"That seems practical."`
-				`	"I don't really have an option to refuse, do I?"`
-			`	"Fantastic, you understand the situation," she says, though her tone is much more businesslike than the wording would imply. "In that case, if you could please take this to Earth and communicate with your various governments, then we can begin a liaison on how best to deal with this current scenario."`
-			`	She hands you an officially branded box containing a metallic badge. There is a symbol minutely engraved into the front that you remember seeing on your way into the complex, and must be the Hai government's emblem. Surrounding it in a circle is some sort of pattern, which reminds you of the codes found on identification cards and licenses in human space. On the other side, there is extensive writing in a script that looks to be Hai. From this, you presume that the badge is some sort of diplomatic ID.`
+				`	"这似乎很实际。"`
+				`	"我真的没有选择拒绝，是吗？"`
+			`	"太棒了，你了解情况，"她说，尽管她的语气比措辞所暗示的要商务得多。"在这种情况下，如果你能把这个带到地球，并与你们的各个政府沟通，那么我们就可以开始就如何最好地处理当前的情况进行联络。"`
+			`	她递给你一个官方品牌的盒子，里面有一个金属徽章。前面刻有一个符号，你记得在你进入建筑群的时候看到过，一定是海国政府的徽章。围绕着它的一圈是某种图案，这让你想起了人类空间中的身份证和执照上的代码。在另一边，有大量的文字，看起来是海族的文字。从这一点来看，你推测这枚徽章是某种外交人员的身份证。`
 			choice
-				`	"Various? We only have two governments."`
-			`	"Oh," she says, "we've treated the Syndicate as a de facto government for many decades now; with the amount of influence they have it was the only prudent thing to do."`
-			`	You take the boxed item with you, and an escort awaits to return you to your ship. As the door behind you closes, you hear Sayari mutter to someone, "It really was much easier when they just had one government though. What a mess."`
+				`	"各种？我们只有两个政府。"`
+			`	"哦，"她说，"几十年来，我们一直把辛迪加当作一个事实上的政府；以他们的影响力，这是唯一谨慎的做法。"`
+			`	你带着盒子里的东西，一个护卫队等着把你送回你的飞船。当你身后的门关上时，你听到萨亚里对某人嘀咕道："当他们只有一个政府时，真的要容易得多。真是一团糟。"`
 				accept
 
 
 
 mission "Hai Leaks Response 2"
 	landing
-	name "Collect Representatives"
-	description "Collect human government representatives from <stopovers> and take them to <destination>."
+	name "收集代表"
+	description "从<stopovers>收集人类政府代表，并把他们带到<destination>。"
 	source "Earth"
 	stopover "Deep"
 	stopover "Foundry"
 	destination "Hai-home"
-	blocked "You have a mission here for the Hai, but you need four bunks free."
+	blocked "你在这里有一个海的任务，但你需要四张空床。"
 	clearance
 	to offer
 		has "Hai Leaks Response 1: done"
 	passengers 4
 	on offer
 		event "pirates respond to leaks"
-		log "People" "Xilin Yang" `Deputy Minister Yang works in the Foreign Affairs department of the Republic government. He is a pleasant and astute man. Handling the Hai secrecy crisis has become his job while the majority of the foreign ministry remains engaged with the fallout from the Free Worlds and recent peace.`
+		log "People" "Xilin Yang" `杨副部长在共和国政府的外交部门工作。他是一个愉快而精明的人。处理海族的保密危机已成为他的工作，而外交部的大部分人仍在处理自由世界和最近的和平所带来的影响。`
 		conversation
-			`On approach to the spaceport on Earth, you request to speak to an official of significant standing on diplomatic business. Thanks to your renown from the Pug war, you are able to shortcut objections stemming from you yourself not being a diplomat. The diplomatic ID from the box Sayari gave you, when presented, also seems to trigger some sort of classified override, fast-tracking the process from the quoted "two to three business days" to "two hours after landing."`
-			`	The Republic's Deputy Minister for Foreign Affairs meets you in a private room at the spaceport.`
-			`	"Captain <last>," he steps around the table to grasp your hand in a firm handshake. "Xilin Yang. It's an honor to meet a hero of the Pug crisis such as yourself."`
+			`在接近地球上的太空港时，你要求与一位有重要地位的官员就外交事务交谈。由于你在帕格战争中的声望，你能够缩短因你自己不是外交官而产生的反对意见。萨亚里给你的盒子里的外交证件，在出示时，似乎也触发了某种机密的覆盖，使程序从引用的 "两到三个工作日 "快到 "登陆后两小时"。`
+			`	共和国外交部副部长在太空港的一个私人房间里与你见面。`
+			`	"船长<last>，"他绕过桌子，握住你的手，坚定地握住。"杨西林。很荣幸能见到像你这样的帕格危机的英雄。"`
 			choice
-				`	"It was hard-fought, but it was necessary."`
-				`	"Thanks, but it wasn't as dramatic as they made it out to be. I'm just happy to have helped where I could."`
+				`	"这是个艰苦的战斗，但这是必要的。"`
+				`	"谢谢，但它并不像他们说的那么戏剧性。我只是很高兴能在我能做到的地方提供帮助。"`
 					goto humble
-			`	You play the part and try to act noble. Mr. Yang seems more than happy to embody respect for the hero of his preferred narrative.`
-			`	"You're every inch what I expected," he assures you before moving to take his seat.`
+			`	你扮演的角色，试图表现得很高尚。杨先生似乎更乐于体现对他喜欢的叙述中的英雄的尊重。`
+			`	"你是我所期望的每一英寸，"他在移动到他的座位前向你保证。`
 				goto sit
 			label humble
-			`	You shrug, palms up, and explain, "You should listen to the xenoanthropologists. The Pug were just here to test us, to make us really consider what mattered and come together."`
-			`	For a moment his expression falters, and then he seems almost relieved. "You may be a better person than I expected to meet."`
-			`	He offers you a genuine smile as he takes his seat.`
+			`	你耸耸肩，举起手掌，解释说："你应该听异种人类学家的话。帕格人只是来测试我们，让我们真正考虑什么是重要的，并走到一起。"`
+			`	有那么一刻，他的表情动摇了，然后他似乎几乎松了一口气。"你可能是一个比我预期的要好的人。"`
+			`	他在入座时向你报以真诚的微笑。`
 			label sit
-			`	You sit down opposite him and explain how the Hai have proposed that you be their official contact point for humanity on account of your fame from the war.`
-			`	He asks a few questions for clarity, and when you're done he requests you wait while he makes a call. He leaves the room for a long while, and at one point an aide comes in and offers you refreshments while deliberations continue elsewhere. Much to your surprise the fruity beverage is actually quite light and not too sweet, reminding you briefly that most of humanity's food styles originated here.`
-			`	Eventually Mr. Yang returns. "So sorry for that. I hope you were looked after suitably while you waited."`
-			`	Once you nod your assent, he continues, "Well, obviously the Republic knows about the Hai, but for the moment our official "line" is that the government does not trade in rumors. However, an appropriate response is clearly needed. Republic Intelligence briefed the Cabinet of the Free Worlds Senate just yesterday. They have demanded that they have a diplomatic representative along for any decisions. This is already standard practice for the Syndicate. If you are willing, I will come with you to meet two individuals known as Katya Reynolds and Samuel Remington on Deep and Foundry respectively. I believe you already know them?"`
+			`	你在他对面坐下，解释海族人如何提议你成为他们的人类官方联络点，因为你在战争中的名声。`
+			`	他问了几个问题来澄清，当你完成后，他要求你在他打电话的时候等待。他离开房间很久了，有一次，一个助手进来给你提供茶点，同时继续在其他地方进行讨论。令你惊讶的是，果味饮料实际上相当清淡，不太甜，让你短暂地想起人类的大部分食物风格都起源于此。`
+			`	最终，杨先生回来了。"非常抱歉。我希望你在等待期间得到了适当的照顾。"`
+			`	一旦你点头同意，他继续说："好吧，显然共和国知道海的事情，但目前我们的官方 "路线 "是，政府不在谣言中交易。然而，显然需要一个适当的反应。共和国情报局昨天刚刚向自由世界参议院的内阁作了简报。他们要求在做任何决定时都要有一个外交代表陪同。这已经是辛迪加的标准做法。如果你愿意，我将和你一起去见两个人，他们被称为卡蒂亚-雷诺兹和塞缪尔-雷明顿，分别在深海和铸造厂。我相信你已经认识他们了？"`
 			choice
-				`	"Yes."`
-				`	"Samuel Remington?"`
+				`	"是的。"`
+				`	"塞缪尔-雷明顿？"`
 					goto sam
-			`	"Excellent," he says as he begins to gather stacks of papers, shoving them into a briefcase.`
+			`	"很好，"他边说边开始收集成堆的文件，把它们塞进一个公文包。`
 				goto end
 			label sam
-			`	"Remington is the Syndicate's head of public relations, and exactly the man we need in an event like this," he explains while gathering two datapads and a selection of folders, shoving them into a briefcase.`
+			`	"雷明顿是辛迪加的公共关系主管，正是我们在这样的事件中所需要的人。"他一边解释，一边收集两个数据板和一些文件夹，把它们塞进一个公文包。`
 			label end
-			`	"Now, the situation is progressing quickly and plans are still being made, so I am not entirely sure if it is they themselves who will be coming with us. Someone of Remington's caliber is likely too busy to come personally, but we'll find out when we get there. In any case I think we should go to Deep first for speed, but you are the captain. Shall we be off?"`
+			`	"现在，情况进展很快，计划还在制定中，所以我不完全确定是否是他们自己要和我们一起去。像雷明顿这种级别的人很可能忙得无法亲自前来，但我们到了那里就会知道。无论如何，我认为我们应该先去深海，以提高速度，但你是队长。我们可以出发了吗？"`
 				accept
 	on visit
 		dialog phrase "generic stopover on visit"
@@ -647,16 +647,16 @@ mission "Hai Leaks Response 2A"
 	to offer
 		has "Hai Leaks Response 2: active"
 	on offer
-		log "People" "Alondo Gruyere" `Alondo is working to develop the diplomatic corps for the Free Worlds. Due to a lack of serious appointed positions (with the few already existing occupied as ambassadors to the Republic), he is looking after the Free Worlds' interests as a diplomat to the Hai.`
+		log "People" "Alondo Gruyere" `阿隆多正在努力发展自由世界的外交团。由于缺乏严肃的任命职位（现有的几个已经作为驻共和国大使被占用），他正在以驻海外交官的身份照顾自由世界的利益。`
 		conversation
-			`When you land on Deep, Katya is there waiting for you along with Alondo. "<first>! It's so good to see you again! When the Republic briefed the new Chancellor and his Cabinet on the Hai, he brought us in for advice. We thought to try and reach you, but of course you would somehow manage to be in the thick of it before we even knew what was going on."`
-			`	You hug them both in turn and return the greeting. "I thought it seemed odd when they said I was meeting you for this, Katya, but it makes much more sense if you were just easier to get a hold of than Alondo here."`
-			`	"Oh, it was always going to be Alondo," she says, "but there's never a bad excuse for traveling with an old friend, especially when you're meeting other friends too."`
-			`	"Do we have time for a drink before we leave?" asks Alondo.`
-			`	You look around at the busy spaceport and see the workers haven't even noticed your ship waiting for refueling yet.`
-			`	"I think we can spare a short while, and you really should meet Mr. Yang."`
-			`	Mr. Yang had been studiously pretending he wasn't eavesdropping from a distance of a few meters but, before you could call him over, Alondo's slightly suggestive comment of, "Oh, I should definitely meet Mr. Yang," had evidently been overheard.`
-			`	Fortunately, after an hour and a couple of drinks, the embarrassment is long-forgotten when you return to your ship.`
+			`当你降落在深海时，卡蒂亚和阿隆多一起在那里等你。"<first>!再次见到你真是太高兴了!当共和国向新任宰相和他的内阁介绍海族的情况时，他把我们找来征求意见。我们想试着联系你，但当然你会以某种方式在我们还不知道发生了什么的时候就已经置身其中了。"`
+			`	你依次拥抱了他们俩，并回敬了问候。"当他们说我是为了这个和你见面时，我觉得很奇怪，卡佳，但如果你只是比阿隆多在这里更容易掌握，那就更合理了。"`
+			`	"哦，一直都是阿隆多，"她说，"但和老朋友一起旅行的借口总是不错的，特别是当你也要见其他朋友的时候。"`
+			`	"在我们离开之前，我们有时间喝一杯吗？"阿隆多问道。`
+			`	你环顾繁忙的太空港，看到工人们甚至还没有注意到你的飞船在等待加油。`
+			`	"我想我们可以抽出一小段时间，你真的应该见见杨先生。"`
+			`	杨先生一直在刻意假装自己没有在几米远的地方偷听，但是，在你叫他过来之前，阿隆多略带暗示性的评论："哦，我肯定应该见见杨先生。"显然，他已经听到了。`
+			`	幸运的是，在一个小时和几杯酒之后，当你回到你的船上时，这种尴尬早已被忘却了。`
 				decline
 	
 mission "Hai Leaks Response 2B"
@@ -668,7 +668,7 @@ mission "Hai Leaks Response 2B"
 		has "Hai Leaks Response 2: active"
 	on offer
 		conversation
-			`While refueling on <origin>, you see that the media circus is continuing unabated. Apparently, pirates are renewing attacks on trade lanes in the north, utilizing some of the strange weapons observed in the recorded clip of Hai ships fighting each other. Goodness knows how they got their hands on them, but it can't be good news.`
+			`在<origin>上加油时，你看到媒体的喧闹声有增无减。显然，海盗们正在重新攻击北方的贸易通道，利用一些在海船互斗的记录片段中观察到的奇怪武器。天知道他们是如何得到这些武器的，但这不可能是好消息。`
 				decline
 
 mission "Hai Leaks Response 2C"
@@ -678,24 +678,24 @@ mission "Hai Leaks Response 2C"
 	to offer
 		has "Hai Leaks Response 2: active"
 	on offer
-		log "People" "Terry Adrianopoulos" `Terry Adrianopoulos is the secretary of Samuel Remington, or at least that's how he puts it. Remington mentioned an internal political situation within the Syndicate while glancing at Terry, so there may be something larger at play with her presence. Hopefully it doesn't conflict with resolving the situation with the Hai.`
+		log "People" "Terry Adrianopoulos" `特里-阿德里安诺普洛斯是塞缪尔-雷明顿的秘书，或者至少他是这么说的。雷明顿在瞥见特里时提到了辛迪加内部的政治局势，所以她的存在可能有更大的作用。希望这不会与解决海的情况相冲突。`
 		conversation
-			`Approaching Foundry, you are hailed and directed to a private hangar where you are greeted personally by Samuel Remington. His appearance is rather casual compared to what you would expect, wearing khakis and a collared tee as opposed to the typical suit and tie business attire that you see on Syndicate businessmen. It is certainly in contrast to a young woman standing behind him, who is wearing the usual business attire in this region.`
+			`走近Foundry，你被叫住，并被引导到一个私人机库，Samuel Remington亲自迎接你。他的外表与你所期望的相比相当随意，穿着卡其裤和有领的T恤，而不是你在辛迪加商人身上看到的典型的西装和领带的商务装。这当然与站在他身后的一位年轻女性形成了鲜明的对比，后者穿着这个地区通常的商务服装。`
 			branch met
 				has "met remington"
 			action
 				log "People" "Samuel Remington" `Samuel Remington is the Syndicate's head of public relations. He is acting as the Syndicate's representative in helping to deal with the situation regarding the Hai.`
-			`	"Captain <last>, is it? I don't believe we've met before," he says while shaking your hand, perhaps a little too firmly. "I'm Samuel Remington, head of the Syndicate's PR department. You may have not heard of me before, but I'm sure you've heard of my work. I..." He stops himself. "You know what, nevermind. We're not here to make small talk. We have bigger things to worry about. I'm looking forward to working alongside you to handle this emerging crisis.`
-			`	"Now, allow me to introduce you to Terry," Remington says while gesturing to the woman behind him.`
+			`	"队长<last>，是吗？我不相信我们以前见过面，"他一边说一边和你握手，也许有点太坚定了。"我是塞缪尔-雷明顿，辛迪加公关部的负责人。你可能以前没有听说过我，但我肯定你已经听说过我的工作。I..."他阻止了自己。"你知道吗，别管了。我们在这里不是为了闲聊。我们有更大的事情要担心。我期待着与你并肩工作，处理这一新出现的危机。`
+			`	"现在，请允许我向你介绍特里，"雷明顿说，同时向他身后的女人打手势。`
 				goto next
 			label met
 			action
 				log "People" "Samuel Remington" `Remington is being sent as the representative of the Syndicate to help deal with the situation regarding the Hai.`
-			`	"Captain <last>, is it? It's been a good while since we last met," he says while shaking your hand, perhaps a little too firmly. He gestures to the woman behind him and says, "Let me introduce you to Terry."`
+			`	"队长<last>，是吗？我们上次见面已经有好一阵子了。"他一边说一边和你握手，也许有点太坚定了。他向身后的女人做了个手势，说："让我向你介绍特里。"`
 			label next
-			`	"Terry Adrianopoulos. Pleasure to meet you," she says with a broad smile and a slight bow. The young woman goes from calculating to gregarious in the blink of an eye as your attention shifts to her. She seems at once pleasant and approachable while at the same time being slightly off-putting and uncanny. It's an eerie feeling.`
-			`	"Terry will be accompanying me as... well, let's call her my secretary," Remington says with a sly smile. Terry seems none too pleased to hear that, but she doesn't correct him. "I have men who can hold the fort here while I'm gone, and I really do need to get some fresh air, so the two of us will be joining you. There is an internal political situation going on within the Syndicate that has been causing me quite the headache recently." His eyes momentarily flick to Terry as he says that, but Remington presses on immediately. "It's nothing I can discuss in detail, with all the NDAs involved, you know, but something I'll certainly enjoy taking a break from.`
-			`	"Now, let's be on our way," he says. "The Hai won't save themselves with us standing here."`
+			`	"特瑞-阿德里安诺普洛斯。很高兴见到你，"她笑着说，并微微鞠躬。当你的注意力转移到她身上时，这个年轻的女人在眨眼间就从斤斤计较变成了热情洋溢。她看起来既愉快又平易近人，同时又有点令人讨厌和不可思议。这是一种阴森的感觉。`
+			`	"特里将作为......嗯，让我们称她为我的秘书来陪伴我，"雷明顿狡黠地笑着说。特里听到这话似乎不太高兴，但她没有纠正他。"我不在的时候，我有手下可以在这里守着，而且我确实需要呼吸一下新鲜空气，所以我们两个人将和你一起。辛迪加内部有一个政治局势，最近让我相当头疼。"说这话时，他的目光瞬间闪到了特里身上，但雷明顿立即按捺住了。"这没有什么我可以详细讨论的，因为涉及到所有的NDA，你知道，但我肯定会喜欢休息一下。`
+			`	"现在，让我们上路吧，"他说。"我们站在这里，海族是不会自救的。"`
 				decline
 
 
@@ -703,8 +703,8 @@ mission "Hai Leaks Response 2C"
 # This gets picked up silently on Hai-home when landing for response 2 - leads to go kill pirates mission with chat on Allhome.
 # No longer gets picked up silently due to write-read order style preferences - but may need to be moved back to Response 2 or have multiple versions of this mission when other campaigns exist.
 mission "Hai Leaks Response 3"
-	name "Meet with Security Forces on Allhome"
-	description "Meet with the Security Forces on <destination> to fight pirates."
+	name "与安全部队在Allhome会面"
+	description "与<destination>上的安全部队会面，打击海盗。"
 	landing
 	source "Hai-home"
 	destination "Allhome"
@@ -712,34 +712,34 @@ mission "Hai Leaks Response 3"
 		has "Hai Leaks Response 2: done"
 	on offer
 		conversation
-			`You are directed to an official landing pad on your return to Hai-home, and it is not long before you are introducing your entourage to Sayari. Alondo in particular seems excited to be here and seems to have a knack for charming Sayari with polite and insightful, if rather simple, questions throughout the diplomatic niceties.`
-			`	A functionary leads you to what appears to be a situation room, filled with monitors, holoprojectors, and other equipment. Everyone takes their seats at an semicircle-shaped table, and the functionary motions you to the middle seat. A massive holoprojector in front of the table turns on.`
+			`你在返回海-家时被引导到一个正式的登陆台，不久你就向萨亚里介绍你的随行人员。尤其是阿隆多，他似乎对来到这里感到很兴奋，而且在整个外交礼节中，他似乎有诀窍用有礼貌和有见地的问题来吸引萨亚里，尽管这些问题相当简单。`
+			`	一个官员把你带到一个似乎是情况室的地方，里面充满了显示器、整体投影仪和其他设备。每个人都在一张半圆形的桌子前就座，工作人员示意你坐到中间的位置。桌子前面的一个巨大的整体投影仪打开了。`
 			choice
-				`	"I don't recall there being nearly so many pirates before."`
-			`	Sayari frowns and exhales a long breath through her nose, "Yes. Well, it seems that the rumors making their way through your media have attracted every opportunist this side of the Deep."`
-			`	"Of course," she says, "some of the pirates were aware of us, and we were aware of them being aware of us. We had a quiet arrangement with a select few where we rewarded them for keeping the secret well contained within their own circles."`
-			`	Alondo looks surprised, and seems sufficiently taken aback to spare a questioning glance at Remington despite the deliberate lack of interaction between them so far. Remington's expression is unreadable though, and Mr. Yang and Ms. Adrianopolous both merely nod.`
-			`	Sayari does not appear to notice the exchange. "Extra security forces are being called in, but we've been busier than usual in Wah Ki with our northern brethren."`
+				`	"我不记得以前有差不多这么多的海盗。"`
+			`	萨亚里皱起眉头，用鼻子长长地呼出一口气。"是的，看来通过你们媒体传播的谣言已经吸引了深海这边的每一个机会主义者。"`
+			`	"当然，"她说，"一些海盗知道我们，我们也知道他们知道我们。我们与少数人达成了一项悄悄的安排，我们奖励他们在自己的圈子里很好地保守秘密。"`
+			`	阿隆多看起来很惊讶，而且似乎很吃惊，尽管到目前为止他们之间故意没有互动，但还是向雷明顿投去了询问的目光。不过，雷明顿的表情看不出来，杨先生和阿德里安波利斯女士都只是点点头。`
+			`	萨亚里似乎并没有注意到这一交流。"正在召集额外的安全部队，但我们在华基与我们的北方兄弟们比平时更忙。"`
 			choice
-				`	"Are the other Hai likely to be a problem here?"`
-				`	"How much longer can the Republic keep up the ruse?"`
+				`	"其他海族在这里可能成为问题吗？"`
+				`	"共和国的诡计还能维持多久？"`
 					goto badnews
-			`	Sayari shakes her head. "No problem remotely so severe as the one at hand. Now, I expect you have something for us, Mr. Yang?"`
-			`	"Well, I'm afraid I may have some bad news from our side." He taps on his screen as he says, 'bad news,' and the holoprojector begins showing a series of charts.`
+			`	萨亚里摇摇头。"没有比眼前这个问题更严重的问题了。现在，我希望你有东西给我们，杨先生？"`
+			`	"嗯，恐怕我有一些来自我们这边的坏消息。"他一边说着 "坏消息"，一边敲击着屏幕，整体投影仪开始显示一系列的图表。`
 				goto charts
 			label badnews
-			`	Mr. Yang responds, "On that, I'm afraid I may have some bad news." He taps on his screen as he says, 'bad news,' and the holoprojector begins showing a series of charts.`
+			`	杨先生回应说："关于这一点，恐怕我可能有一些坏消息。"他一边说 "坏消息"，一边敲击屏幕，全息投影仪开始显示一系列的图表。`
 			label charts
-			`	"One of the things I brought with me was Republic Intelligence's estimate of the effectiveness of various information containment measures."`
-			`	You're not an expert at data analysis, but the highlighted percentages ranging from 4% to 39% do not look promising. The final graphic is a map of stages of what is labeled as 'artifact penetration'. "Artifact penetration is the point at which a government cannot reasonably attempt to pretend something is anything but the truth, at least not while still holding to the claim of being a representative government," explains Mr. Yang.`
-			`	He checks the date. "Our most optimistic estimates suggest the Republic will be forced to acknowledge the existence of the Hai within three months, or we would lose so much credibility as to compromise electoral stability. The actual time limit is probably sooner."`
+			`	"我带来的东西之一是共和国情报局对各种信息遏制措施的有效性的估计。"`
+			`	你不是数据分析的专家，但突出的百分比从4%到39%不等，看起来并不乐观。最后一张图是一张被称为 "工件渗透 "的阶段图。"杨先生解释说："文物渗透是指一个政府不能合理地试图假装某些东西是事实以外的东西，至少在坚持作为一个代议制政府的说法时不能。`
+			`	他检查了日期。"我们最乐观的估计是，共和国将被迫在三个月内承认海的存在，否则我们将失去如此多的可信度，从而影响选举的稳定性。实际的时限可能会更早。"`
 			choice
-				`	"Would that be so bad?"`
-			`	"It is always bad to be forced into acknowledging a secret. If we act sooner, we may control the manner of that secret's release," says Xilin. "Plus, while the Hai have let the trickle of humans that find the wormhole settle here peacefully, a massive influx is a problem nobody really wants to have to deal with."`
-			`	Sayari looks at you. "We will have to come up with a plan, and quickly, but for the moment may I ask a favor of the war hero in the room? Please meet up with the security forces converging on Allhome and help them rout the pirates back to the other side of the wormhole. It will buy us some breathing room and options."`
-			`	It is so hard to say "no" to a Hai and their cute squirrelly features.`
+				`	"那会有那么糟糕吗？"`
+			`	"被迫承认一个秘密总是不好的。如果我们早一点行动，我们可能会控制该秘密的发布方式。"西林说。"另外，虽然海族已经让发现虫洞的人类涓涓细流在这里和平定居，但大量涌入是一个没有人真正想要处理的问题。"`
+			`	萨亚里望着你。"我们必须想出一个计划，而且要快，但现在我可以请在场的战争英雄帮个忙吗？请与汇聚在Allhome的安全部队会合，并帮助他们将海盗击溃，回到虫洞的另一边。这将为我们赢得一些喘息空间和选择。"`
+			`	对小海和他们可爱的松鼠特征说 "不 "真是太难了。`
 			choice
-				`	"I'll do what I can."`
+				`	"我会做我能做的。"`
 					accept
 # If a republic/syndicate campaign gets added this text will need variants.
 
@@ -749,8 +749,8 @@ mission "Hai Leaks Response 3"
 mission "Hai Leaks Response 4"
 	autosave
 	landing
-	name "Defeat the Black Lich"
-	description "Defeat Black Lich's Marauder Leviathan at <waypoints>, then return to <origin>."
+	name "打败黑巫师"
+	description "在<waypoints>击败Black Lich的掠夺者利维坦，然后返回<origin>。"
 	source "Allhome"
 	waypoint "Waypoint"
 	destination "Allhome"
@@ -758,25 +758,25 @@ mission "Hai Leaks Response 4"
 		has "Hai Leaks Response 3: done"
 	on offer
 		conversation
-			`When you land on Allhome, you are greeted by the quartermaster of the local Hai security forces. You're not an expert at judging Hai ages, but he appears to be a little younger than expected.`
-			`	"Captain <last>! I heard you were coming to assist."`
+			`当你降落在Allhome时，迎接你的是当地Hai安全部队的军需官。你不是判断海族年龄的专家，但他似乎比预期的要年轻一点。`
+			`	"队长<last>!我听说你要来协助。"`
 			choice
-				`	"Time to rout some pirates, baby!"`
-				`	"I'm here to reinforce you. What can I do?"`
-			`	"Uh well, yes. I presume you saw the pirates on your way in? They've been appearing en masse and overwhelming security forces to raid technology and goods from the Hai traders and their security. Some of them have even been sneaking down onto the planet, capturing Hai, and taking them away."`
+				`	"是时候击溃一些海盗了，宝贝！"`
+				`	"我是来增援你的。我能做什么？"`
+			`	"呃，好吧，是的。我想你在来的路上看到了那些海盗吧？他们已经大规模出现，并压倒了安全部队，从海族商人和他们的保安那里掠夺技术和货物。他们中的一些人甚至已经潜入星球，抓捕海族，并将他们带走。"`
 			choice
-				`	"I have heard about the kidnapping."`
-			`	He nods. "Unfortunately, it's taking a while for them to redistribute an appropriately resourced defense force, thanks to the Unfettered. It's bad enough that we've had to bring the old Ladybug models out of mothballs to bolster our forces here."`
-			`	"Even more unfortunately," he continues, "it seems that the overabundance of these pirates is the result of one particular individual's success. His ship, called the Black Lich, is in Waypoint with a stolen Geocoris that has been converted into some kind of semi-stable weapons platform and is now being used as a temporary base."`
-			`	"This does give us an opportunity, however. If the kidnapped Hai are still on board, we might be able to rescue them, and if we can defeat the Black Lich, we may stem the tide of opportunists that are swarming through the wormhole.`
-			`	"We have ships we can send in support, but they dare not go it alone. What do you say?"`
-			`	The poor quartermaster seems desperate.`
+				`	"我已经听说了绑架的事。"`
+			`	他点点头。"不幸的是，他们需要一段时间来重新分配一支有适当资源的防御力量，这要感谢不受约束的人。我们不得不把旧的瓢虫模型从樟脑丸中拿出来加强我们在这里的力量，这已经很糟糕了。"`
+			`	"更不幸的是，"他继续说，"似乎这些海盗过多是一个特定人成功的结果。他的船被称为 "黑巫师"，在Waypoint有一艘被盗的Geocoris，被改装成某种半稳定的武器平台，现在被用作临时基地。"`
+			`	"不过，这确实给了我们一个机会。如果被绑架的 "海 "号还在船上，我们也许能救出他们，如果我们能打败黑巫师，我们也许能阻止机会主义者涌入虫洞的浪潮。`
+			`	"我们有船可以派去支援，但他们不敢单独行动。你怎么说？"`
+			`	这位可怜的军需官似乎很绝望。`
 			choice
-				`	"I'll make sure the Lich is properly dealt with."`
+				`	"我会确保妥善处理巫师的问题。"`
 					accept
-				`	"We'll give those pirates a lesson they won't soon forget."`
+				`	"我们会给那些海盗一个他们不会很快忘记的教训。"`
 					accept
-				`	"I'll beat the Lich, and do my best to capture the Geocoris and bring them safely home."`
+				`	"我将击败Lich，并尽我所能抓住Geocoris，把他们安全地带回家。"`
 					accept
 	# Escorts manually defined to have weapons comparatively suitable for disabling, as would be appropriate in a mission where the *hopeful* outcome is a rescue.
 	npc
@@ -802,7 +802,7 @@ mission "Hai Leaks Response 4"
 		system "Waypoint"
 		ship "Marauder Leviathan (Weapons)" "Black Lich"
 	on visit
-		dialog `You have returned, but the fate of the pirates and the captured Hai is still in doubt. Ensure that the Black Lich is defeated and that the fate of the captured Hai, whether deceased or safely with you, is certainly known.`
+		dialog `你已经回来了，但海盗和被俘的海族的命运仍然是个疑问。确保黑巫师被打败，并确保被俘的海族的命运，无论是死亡还是安全地与你在一起，都肯定是知道的。`
 	to complete
 		not "Hai Leaks Response 4A: active"
 	on complete
@@ -814,26 +814,26 @@ mission "Hai Leaks Response 4"
 		conversation
 			branch "saved geocoris"
 				has "ship model (all): Geodesic Geocoris"
-			`Shortly after you return, the Hai quartermaster thanks you profusely. "The Allhome government has authorized a reward of <payment> for helping to route the pirate problem," he explains while handing you the credits.`
-			`	He sighs deeply. "It is a shame though that the kidnapped Hai could not be saved, but the other Hai captains tell me it was a mess out there."`
-			`	In an oddly human gesture that feels very deliberate, he places one of his furry hands comfortingly on your shoulder, "I'm sure you did all you could."`
+			`在你回来后不久，海族的军需官对你深表感谢。"Allhome政府已经授权奖励<payment>，以帮助解决海盗问题。"他一边解释，一边递给你学分。`
+			`	他深深地叹了口气。"虽然被绑架的海族没能获救是件很遗憾的事，但其他海族的船长告诉我，那里是一片混乱。"`
+			`	在一个奇怪的、感觉非常刻意的人类姿态中，他把他的一只毛茸茸的手安慰地放在你的肩膀上，"我相信你已经尽力了。"`
 				goto end
 			label "saved geocoris"
-			`You have defeated the Black Lich and also successfully reclaimed the Geocoris and, in doing so, rescued the kidnapped Hai! On your way back to <planet> the crew you sent across to fly it home reported that something is different about it... It appears that it has been modified with systems of some kind, which are not of Hai design. It also appears that perhaps not everything about those systems is working wholly as intended.`
-			`	As you disembark you spot the Hai quartermaster checking on the Hai disembarking from the Geocoris, and after a short while he approaches you. "Captain <last>, I cannot thank you enough for your rescue of our kidnapped people. You're a hero to them. The Allhome government has also authorized a reward of <payment> for helping to relieve the pirate problem," he explains while handing you the credits.`
-			`	"Lucky for you, the merchant who owned the Geocoris has already filed the insurance claim, so you get to keep the ship as a trophy.`
-			`	"I do need to do a full security scan of it to complete all the incident paperwork before I let it go, though, so if you have any business on-world here, please take your time."`
+			`你已经打败了黑巫师，也成功地夺回了Geocoris，并在此过程中救出了被绑架的海在你返回<planet>的路上，你派过去驾驶它回家的船员报告说，它有些不同......。它似乎被改装了某种系统，这不是海的设计。而且，这些系统似乎也不是完全按照预期工作的。`
+			`	当你下船时，你发现海族军需官在检查从Geocoris号上下来的海族人，过了一会儿，他走到你面前。"船长<last>，我对你解救我们被绑架的人感激不尽。你是他们的英雄。Allhome政府也批准了一笔<payment>的奖励，以帮助缓解海盗问题。"他一边解释，一边把信用证递给你。`
+			`	"你很幸运，拥有Geocoris号的商人已经提交了保险索赔，所以你可以保留这艘船作为战利品。`
+			`	"不过，在我把它放走之前，我确实需要对它进行一次全面的安全扫描，以完成所有的事故文书工作，所以如果你在这里的世界上有任何业务，请慢慢来。"`
 			label end
-			`	"In any event, let's hope a more permanent solution can be devised soon. In the meantime, the local dealers have decided to start selling the Ladybugs again. I hear it's something about a spike in interest among the humans here, so feel free to have a look at them. I shouldn't get too distracted though, I'm sure they'll be waiting for you back on Hai-home."`
+			`	"在任何情况下，让我们希望能尽快设计出一个更持久的解决方案。与此同时，当地的经销商已经决定再次开始销售瓢虫。我听说是关于这里的人类兴趣激增的事情，所以请随时看看它们。不过我不应该太分心，我相信他们会在海之家等你回来。"`
 			branch "saved geocoris2"
 				has "ship model (all): Geodesic Geocoris"
-			`	With a final nod of thanks he departs to attend to his business, leaving you free to go about your own.`
+			`	最后点头致谢，他离开去处理他的事情，让你自由地去做你自己的事情。`
 				decline
 			label "saved geocoris2"
-			`	With a final nod of thanks he departs to attend to his business, leaving you free to wander the spaceport for a couple of hours until they release your new ship.`
+			`	他最后点头致谢，离开去处理他的事情，留下你自由地在太空港徘徊几个小时，直到他们释放你的新船。`
 				decline
 	on fail
-		dialog `You have declined an essential narrative mission. If you would like to continue, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你已经拒绝了一项重要的叙事任务。如果你想继续，请恢复到自动保存或另一个较早的游戏快照。`
 	
 event "waypoint pirates vanquished"
 	# Update pirate and anti-pirate spawns in Waypoint and Heia Due
@@ -858,8 +858,8 @@ event "hai ladybug available"
 # Once the ship is captured, the mission is completed.
 # The NPC is a special ship model used to determine if you managed to get it back safely.
 mission "Hai Leaks Response 4A"
-	name "Recover the Geocoris"
-	description "If possible, recover the stolen Geocoris supporting the pirates in Waypoint and return it to Allhome."
+	name "找回Geocoris"
+	description "如果可能的话，找回在Waypoint支持海盗的被盗Geocoris，并将其送回Allhome。"
 	landing
 	source "Allhome"
 	waypoint "Waypoint"
@@ -871,7 +871,7 @@ mission "Hai Leaks Response 4A"
 		personality staying marked mute
 		system "Waypoint"
 		ship "Geodesic Geocoris (Phylactery)" "Phylactery"
-		dialog `After successfully boarding the Geocoris and defeating its pirate crews, you are greeted by the relieved captive Hai. You send crew aboard to fly the ship and promise to return them safely to Allhome.`
+		dialog `在成功登上Geocoris号并击败其海盗船员后，你会受到被俘的Hai的欢迎。你派船员上船驾驶这艘船，并承诺将他们安全送回Allhome。`
 #	on fail
 #		dialog `You have failed to recover the Geocoris. This is not critical, but does have long-term consequences. If you want the most complete ending, revert to the autosave or another earlier snapshot of the game.`
 # Too hand-holdy for present implementation and content.
@@ -935,7 +935,7 @@ ship "Geodesic Geocoris"
 		"Pulse Rifle" 30
 
 		"A525 Atomic Steering"
-		`"Biroo" Atomic Thruster`
+		`"Biroo "原子推进器`
 		"AR120 Reverse Thruster" 2
 		Hyperdrive
 
@@ -957,7 +957,7 @@ ship "Geodesic Geocoris"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "This modified Geocoris has identical cargo capacity, but is modeled off one that was the result of an alien technology being merged with a hybrid Human-Hai operating system. It has additional shield emitters in a geodesic pattern over its main cargo wings, and a crucial element of the ship's system core is not manufactured, but grown from initial samples taken from the first occurrence. This means that some systems are built-in and unable to be removed, and also that it is substantially more expensive than its regular version. It is, however, significantly more survivable."
+	description "这艘改装的Geocoris具有相同的载货能力，但它的模型是由外星技术与人类-海族混合操作系统融合而成的。它的主要货翼上有额外的盾牌发射器，而且这艘船的系统核心的一个关键元素不是制造的，而是从第一次发生的初始样本中培育出来的。这意味着一些系统是内置的，无法被移除，同时也意味着它比其普通版本要昂贵得多。然而，它的生存能力明显提高。"
 	
 ship "Geodesic Geocoris" "Geodesic Geocoris (Phylactery)"
 	outfits
@@ -970,8 +970,8 @@ ship "Geodesic Geocoris" "Geodesic Geocoris (Phylactery)"
 		"Large Heat Shunt"
 		"Quantum Keystone"
 		"Pulse Rifle" 14
-		`"Benga" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
+		`"Benga "原子推进器`
+		`"布法尔 "原子转向器`
 		"Jump Drive"
 		Hyperdrive
 		"Failed Control System"
@@ -980,7 +980,7 @@ ship "Geodesic Geocoris" "Geodesic Geocoris (Phylactery)"
 	turret "Chameleon Anti-Missile"
 	turret "Chameleon Anti-Missile"
 	turret "Electron Turret"
-	description "This modified Geocoris has identical cargo capacity, but is the result of an alien technology being merged with a hybrid Human-Hai operating system. It has additional shield emitters in a geodesic pattern over its main cargo wings, and some kind of integrated system core which seems to have something of a life of its own. As such, some systems are built-in and unable to be removed. Nevertheless it is significantly more survivable than a traditional Geocoris and at least as useful."
+	description "这种改进的Geocoris具有相同的载货能力，但它是一种外星技术与人海混血操作系统融合的结果。它的主要货翼上有额外的盾牌发射器，并有某种集成系统核心，似乎有自己的生命。因此，一些系统是内置的，无法被移除。尽管如此，它的生存能力比传统的Geocoris要强得多，而且至少是同样有用。"
 
 
 # The spike in interest leads to ladybugs appearing in the Hai Merchant (Human) fleets.
@@ -1040,8 +1040,8 @@ event "humans adopt ladybugs"
 
 mission "Hai Leaks Response 5"
 	landing
-	name "Talk to Hai authorities on <planet>"
-	description "Meet Hai authorities on <destination>."
+	name "与<planet>上的海族当局交谈"
+	description "在<destination>上与Hai当局会面。"
 	source "Allhome"
 	clearance
 	destination "Hai-home"
@@ -1050,8 +1050,8 @@ mission "Hai Leaks Response 5"
 	on complete
 		event "allhome reinforced" 1
 		conversation
-			`When you return to Hai-home, you are greeted with a call from Sayari, who looks relieved to see you. "Captain <last>, thank you for your assistance to our security forces. They appreciated it greatly, and we should have them properly reinforced in a day or two. A few things have happened while you were away, but you haven't missed anything important yet."`
-			`	She smiles and says, "Your diplomatic colleagues are still working on their solutions, so I don't think there's anything for you to do right at this moment. Take a day or two, and then whenever you're ready, come to the spaceport and we'll redirect you through to the secure port. By that point we should have a plan and be able to get you up to speed with our next steps. I have no doubt that there'll be things for you to do by then, so you should be ready when you return."`
+			`当你回到Hai-home时，迎接你的是Sayari的电话，他看到你时看起来松了一口气。"队长<last>，感谢你对我们的安全部队的协助。他们非常感激，我们应该在一两天内让他们得到适当的加强。你不在的时候发生了一些事情，但你还没有错过任何重要的事情。"`
+			`	她微笑着说："你的外交同事们还在研究他们的解决方案，所以我想此刻你没有什么可做的。花一两天时间，然后只要你准备好了，就到太空港来，我们会把你转到安全港。到那时，我们应该有一个计划，并能够让你加快我们的下一步行动。我毫不怀疑，到那时会有一些事情需要你去做，所以你回来时应该已经准备好了。"`
 
 event "allhome reinforced"
 	system "Heia Due"
@@ -1060,8 +1060,8 @@ event "allhome reinforced"
 
 mission "Hai Leaks Response 5B"
 	landing
-	name "Go the spaceport on <planet> when ready"
-	description "Get an update from Sayari at the secure spaceport on <planet> when you are ready to proceed."
+	name "准备好后去<planet>上的太空港"
+	description "当你准备好继续行动时，在<planet>上的安全太空港得到Sayari的更新。"
 	source "Hai-home"
 	clearance
 	to offer
@@ -1074,8 +1074,8 @@ mission "Hai Leaks Response 5B"
 
 # This non-landing mission allows you to take the game-play pause and go do other stuff if you need before getting too deeply involved in the story.
 mission "Hai Leaks Response 6"
-	name "Investigate rumors of kidnapped Hai"
-	description "Sayari's friend thinks someone with legal protection is kidnapping Hai. Check spaceports in nearby parts of human space for evidence of a Hai trafficking operation."
+	name "调查关于被绑架的海的传言"
+	description "萨亚里的朋友认为有法律保护的人正在绑架海。检查人类空间附近地区的太空港，看看是否有贩卖海的证据。"
 	autosave
 	source "Hai-home"
 	destination "Hai-home"
@@ -1091,71 +1091,71 @@ mission "Hai Leaks Response 6"
 		fail "Hai Leaks Response 5B"
 		log `The working solution to the secrecy crisis for now is to have the Hai post a number of ships on the other side of the wormhole to play-act for the cover story that they're making a big budget movie to target fans of the popular franchise 'Our Fuzzy Paradise'. The presence of Hai who won't take off their costumes has been attributed to a 'fan community' that have been hired on as a focus group to be there as part of the production. Despite all this, it is only a short-term solution. Asked by Sayari to look into a rumor about more kidnapped Hai. She does not consider it to be a particularly likely scenario, but her contacts insist.`
 		conversation
-			`Arriving at the secure landing area on Hai-home, you are met by a group of relieved diplomats. Of all of them, Alondo seems to be the least tired and takes the time to let you know what's been going on. "Captain <last>! You've missed quite the palaver. Still, I doubt you lost much. We've spent four hours trying to explain to Sayari what a 'furry' is."`
+			`抵达Hai-home的安全着陆区时，一群松了一口气的外交官迎接你。在所有这些人中，阿隆多似乎是最不累的，他花时间让你知道发生了什么。"船长<last>!你已经错过了相当多的争论。不过，我怀疑你失去了很多。我们已经花了四个小时试图向萨亚里解释什么是'毛线'。"`
 			choice
-				`	"What? That could've been entertaining."`
-				`	"Hmm. No, I probably didn't miss much."`
-				`	"Oh, I could have told her all about it..."`
-			`	He chuckles. "Anyway, I have a hunch that we'll need you again before too long, but for now they're putting some Hai patrols out on the other side of the wormhole with a couple of Navy observers on board to 'play the part', as it were. We've got a plan now but there's some work to pull it off. There's some older counter-propaganda that we're leveraging to pass things off as a big budget movie production."`
+				`	"什么？这本来是很有趣的。"`
+				`	"嗯，不，我可能没有错过什么。"`
+				`	"哦，我可以告诉她这一切......"`
+			`	他笑着说。"无论如何，我有一种预感，我们在不久之后会再次需要你，但现在他们在虫洞的另一边安排了一些海巡队，船上有几个海军观察员来'扮演角色'，就像这样。我们现在已经有了一个计划，但要完成它还需要一些工作。有一些旧的反宣传，我们正在利用这些反宣传，把事情当作一部大预算的电影制作。"`
 			choice
-				`	"Sounds good. What's next?"`
+				`	"听起来不错。接下来是什么？"`
 					goto next
-				`	"Oh, what's it about?"`
+				`	"哦，是关于什么的？"`
 					goto about
-				`	"Am I allowed to know more?"`
-			`	Alondo gives you a quizzical look. "Of course you are, <last>."`
+				`	"我可以知道更多吗？"`
+			`	阿隆多给了你一个疑惑的眼神。"你当然可以，<last>。"`
 			label about
-			`	He pulls out a hand tablet and shows you a title screen which doesn't automatically look familiar. As he talks he flicks through a series of reference images. "There's an older TV show franchise with a cult following called 'Our Fuzzy Paradise', which has had a few different reboots and iterations over the decades. In case you haven't guessed, it features a whole cast of anthropomorphic squirrels. Most recently we had a seven season series run subtitled 'Fellowship is Glamorous' which was one of the more successful ones."`
+			`	他掏出一个手写板，给你看一个标题屏幕，这个屏幕看起来并不自动熟悉。他一边说，一边翻阅一系列的参考图片。"有一个老的电视节目专营权，有一群崇拜者，叫做'我们的模糊天堂'，几十年来，它有几个不同的重启和迭代。如果你没有猜到，它的特点是有一大群拟人化的松鼠。最近，我们有一个七季的系列剧，副标题是'友谊是迷人的'，这是比较成功的一个。"`
 			choice
-				`	"That sounds... interesting. Tell me more."`
-				`	"Never mind. It sounds like you have that under control. What's next?"`
+				`	"这听起来......很有趣。告诉我更多。"`
+				`	"不要紧。听起来你已经控制住了这个问题。下一步是什么？"`
 					goto next
-			`	"The production of the very first series was entirely funded through a government grants program though, as a cover for any accidental leaks about the Hai. Xilin tells me that since then it's pretty much run itself. The idea here is that since the last one was so successful, someone has decided that it's worth the risk to make a big budget movie production out of it and to potentially use that to kick off a sort of tourist trap type theme park destination. We've found a Seerwood producer who's willing to be all wounded on TV about the spoiling of his 'big surprise' release, and we're passing off the footage as leaked promotional material. For the sake of the cover, we've also decided that this project has a 'fan community' that have been hired on as a focus group to support the production for consistency and accuracy."`
-			`	He chuckles tiredly. "That's where the uh, furry, explanation came into things. It also probably can't hold up as a cover indefinitely. Still, things have been going very well while you've been away!`
+			`	"虽然第一个系列的生产完全是通过政府拨款项目资助的，作为对任何关于海的意外泄漏的掩护。锡林告诉我，从那时起，它几乎是自己运行。这里的想法是，由于上一个系列是如此成功，有人决定值得冒险把它拍成一部大预算的电影，并可能利用它来启动一种旅游陷阱式的主题公园目的地。我们已经找到了一个愿意在电视上对破坏他的 "大惊喜 "发行的Seerwood制片人，我们将这些镜头作为泄露的宣传材料。为了封面，我们还决定这个项目有一个'粉丝社区'，他们被聘为焦点小组，支持制作的一致性和准确性。"`
+			`	他疲惫地笑了笑。"这就是那个呃，毛茸茸的解释出现的地方。它可能也不能无限期地作为一种掩护。不过，你不在的时候，事情进展得非常顺利！"。`
 			label next
-			`	"I hear you were instrumental in driving off some opportunistic pirates and helping stem the information leak. Come on, I'll buy you a drink on the others' behalf."`
-			`	Some hours later, you leave the fancy cocktail bar Alondo took you to and begin making your way back to your ship to sleep. Your cabin by far seems to be the best place to not be bothered.`
-			`	Partway there, a hooded figure suddenly falls in step beside you.`
+			`	"我听说你在赶走一些投机的海盗和帮助阻止信息泄漏方面发挥了作用。来吧，我代表其他人请你喝一杯。"`
+			`	几个小时后，你们离开阿隆多带你们去的高级鸡尾酒酒吧，开始回船上睡觉。到目前为止，你的船舱似乎是不被打扰的最好地方。`
+			`	走到一半时，一个蒙面的身影突然落在你身边。`
 			choice
-				`	(Keep walking.)`
-				`	(Ask them who they are.)`
-			`	"Sssshhhh!" says the voice at your elbow. "Do not react, and do not be alarmed, it is merely I."`
-			`	You look at the figure out of the corner of your eye and connect the whispered voice to the squirrelly muzzle poking out. To your surprise, it is Sayari.`
-			`	"I should not be coming to you with this, so you must promise to say nothing of it to anyone just yet," she says.`
+				`	(继续走。）`
+				`	(问他们是谁）。`
+			`	"嘘！"在你肘部的声音说。"不要反应，也不要惊慌，这只是我。"`
+			`	你用眼角的余光看了看那个身影，把这个低语的声音和探出头来的松鼠嘴联系起来。令你吃惊的是，它是萨亚里。`
+			`	"我不应该带着这个来找你，所以你必须保证暂时不对任何人说，"她说。`
 			choice
-				`	"Of course."`
-			`	"A very sweet friend of mine, who is much too enthusiastic and perhaps led by the vagaries of youth but nonetheless quite astute, keeps harping on to me about this theory of hers that some kind of smuggling ring is kidnapping Hai and transporting them into human space with the quiet support of one of your legal entities.`
-			`	"Of course, a thorough investigation has occurred on our side, and no admissible evidence of such things has turned up, but...`
-			`	"Well, you see we cannot investigate your space openly or easily. I have paid it little mind, written it off as one of her eccentricities, but things are very tense right now. The Council of Elders wants to maintain our secrecy and the human diplomats are willing to accommodate us, but we sense their governments grow tired of maintaining the fiction. We are well aware that human intelligence services are highly competent, and motivated by many different factors. It worries me that one of your factions may not be wholly honest, and may have knowledge they intend to use as ammunition if things don't work out well for them."`
-			`	You have not had much exposure to this elected "Council of Elders", but it seems they must hold some kind of final authority over decisions.`
+				`	"当然可以。"`
+			`	"我的一个非常可爱的朋友，她太热情了，也许是被无常的青春牵着鼻子走，但还是很精明，一直对我唠叨她的这个理论，即某种走私团伙正在绑架海，并在你们某个法律实体的悄悄支持下将他们运入人类空间。`
+			`	"当然，我们这边已经进行了彻底的调查，并没有发现这种事情的可接受的证据，但是......`
+			`	"嗯，你看我们不能公开或轻易地调查你们的空间。我已经不太在意了，把它写成她的一个怪癖，但现在事情非常紧张。长老会希望保持我们的秘密，人类外交官也愿意迁就我们，但我们感觉到他们的政府对保持虚构的东西感到厌倦。我们很清楚，人类的情报部门能力很强，而且受到许多不同因素的驱使。我担心的是，你们中的一个派别可能并不完全诚实，而且可能有他们打算在事情不顺利时用作弹药的知识。"`
+			`	你对这个选出来的 "长老会 "接触不多，但似乎他们必须对决策拥有某种最终的权威。`
 			choice
-				`	"But what should I do about it?"`
+				`	"但我应该怎么做呢？"`
 					goto dothings
-				`	"Are Hai kidnappings common?"`
-			`	"They're not. Well, it can be hard to tell sometimes, but no, I wouldn't say they're common. There have been instances in the past though where occasional pirate groups have been caught either trying or succeeding. My understanding is that those were dealt with effectively." She gives an odd shrug that is distorted by the cloak.`
-			`	"Still, my friend is very bright, and she is insistent that there is something beneath the noise that cannot be accounted for by normal circumstances. There has been a spike in disappearances since the leak, and not necessarily on worlds where they could be expected to have got themselves into trouble. With recent events her words have begun to trouble me, especially after that raid on Allhome. Nothing like that has ever happened before," she says.`
+				`	"海氏绑架案很常见吗？"`
+			`	"他们不是。嗯，有时很难说，但不，我不会说它们很常见。不过，过去也有过这样的例子，偶尔有海盗团伙被抓到，要么尝试，要么成功。我的理解是，这些都被有效地处理了。"她做了一个奇怪的耸肩，被斗篷扭曲了。`
+			`	"不过，我的朋友非常聪明，她坚持认为在这些噪音下面有一些正常情况下无法解释的东西。自从泄漏事件发生后，失踪人数激增，而且不一定是在那些可以预期他们会陷入麻烦的世界。随着最近发生的事件，她的话开始让我感到不安，特别是在对Allhome的袭击之后。她说："以前从来没有发生过这样的事情。`
 			label dothings
-			`	"You are well-known, and must be canny to have got where you are. A Hai in trouble might recognize you, or you might perceive them when others would not. It would be in the interests of both our people to be sure that there is no such issue. Would you look for me? For both our sakes?"`
+			`	"你很出名，而且一定很聪明，能走到今天。遇到麻烦的海可能会认出你，或者你可能会在别人不知道的时候察觉到他们。为了我们两个人的利益，应该确保没有这样的问题。你会找我吗？为了我们两个人的利益？"`
 			branch aboutthat
-				"hai slave prereq" >= 1
+				"Hai slave prereq" >= 1
 			choice
-				`	"Sure, I can have a look around."`
-			`	She gives you a little smile and nods. "If you come across someone and have difficulty getting them to trust you, try telling them 'Luf e ow, vai, luf e eh'."`
+				`	"当然，我可以四处看看。"`
+			`	她对你微微一笑，点点头。"如果你遇到一个人，很难让他们信任你，试着告诉他们'Luf e ow, vai, luf eh'。"`
 				goto mean
 			label aboutthat
-			`	"Well, about that," you say, "I think I might have already come across some potential evidence of this before."`
-			`	Sayari's hood nearly slips off as she looks up at you with a horrified expression. "Surely not?!"`
-			`	You rush to reassure her. "Nothing concrete, of course. I can go and look to be sure."`
-			`	She gives you a very serious look and nods. "If you come across any others and have difficulty getting them to trust you, try telling them 'Luf e ow, vai, luf e eh'."`
+			`	"嗯，关于这一点，"你说，"我想我以前可能已经遇到了一些潜在的证据。"`
+			`	萨亚里的头巾几乎滑落下来，她抬头看着你，露出惊恐的表情。"当然不是！"`
+			`	你急忙安抚她。"当然，没有具体的东西。我可以去看看以确定。"`
+			`	她给了你一个非常严肃的眼神，然后点点头。"如果你遇到任何其他人，并且难以让他们信任你，试着告诉他们'Luf e ow, vai, luf eh'。"`
 			label mean
 			choice
-				`	"Thank you, I will."`
+				`	"谢谢你，我会的。"`
 					accept
-				`	"What does it mean?"`
-			`	She winks at you. "It would be much less effective if I told you."`
+				`	"它是什么意思？"`
+			`	她向你眨了眨眼睛。"如果我告诉你，效果会差很多。"`
 				accept
 	on visit
-		dialog "You have returned to Hai-home but haven't found anything actionable you can tell Sayari. There's still time to look for evidence."
+		dialog "你已经回到了Hai-home，但还没有发现任何可以告诉Sayari的可操作性。还有时间去寻找证据。"
 	to complete
 		"hai slave prereq" >= 3
 		has "Hai Rescue: Gipeep: offered"
@@ -1205,7 +1205,7 @@ event "secret mountaintop"
 		government "Unknown"
 		attributes "requires: neverallowed"
 		# Placeholder description; you can't actually land.
-		description `This tiny asteroid has a space hazard warning transmitter, of a type typically used to mark construction sites. Perhaps someone intends to build a space station here? [If you can see this text, report it as a bug.]`
+		description `这颗小行星有一个空间危险警告发射器，是通常用来标记建筑工地的类型。也许有人打算在这里建造一个空间站？[如果你能看到这段文字，请将其作为一个错误报告。］`
 		"required reputation" 1000
 		bribe 0
 
@@ -1223,7 +1223,7 @@ mission "Hai Leaks Response 7"
 		has "Hai Rescue: Gipeep: offered"
 	on offer
 		conversation
-			`You think you have enough evidence of kidnapped Hai to be sure of the bad news you bring. There may be other Hai you could still save, but you should go tell Sayari soon to see how to proceed.`
+			`你认为你有足够的证据来确定你带来的坏消息是被绑架的海。也许还有其他的海族你还可以救，但你应该尽快去告诉萨亚里，看看如何进行。`
 				decline
 
 event "slightly lost"

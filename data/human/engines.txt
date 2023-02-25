@@ -22,7 +22,7 @@ outfit "Volcano Afterburner"
 	"afterburner fuel" .125
 	"afterburner heat" 10.0
 	"afterburner effect" "afterburner"
-	description "An afterburner works by dumping hyperspace fuel into your engines and igniting it, producing a large amount of thrust. This can be very useful for dodging missiles or briefly escaping from faster opponents, but you must be careful to avoid using up so much fuel that you do not have enough left for hyperspace travel."
+	description "后燃机的工作原理是将超空间燃料倒入你的引擎并点燃，产生大量的推力。这对于躲避导弹或短暂逃离速度更快的对手非常有用，但你必须注意避免耗费大量燃料，以至于你没有足够的时间进行超空间旅行。"
 
 effect "afterburner"
 	sprite "effect/afterburner"
@@ -46,7 +46,7 @@ outfit "Caldera Afterburner"
 	"afterburner fuel" .5
 	"afterburner heat" 42.0
 	"afterburner effect" "caldera afterburner" 5
-	description "The Caldera Afterburner is designed for heavy warships, allowing otherwise slow ships to gain a burst of speed to catch up to a faster target or flee from the heat of battle."
+	description "卡尔德拉后燃器是为重型战舰设计的，允许本来速度较慢的战舰获得一阵速度，以追上更快的目标或从激烈的战斗中逃离。"
 
 effect "caldera afterburner"
 	sprite "effect/afterburner"
@@ -72,7 +72,7 @@ outfit "Ionic Afterburner"
 	"afterburner energy" 5.1
 	"afterburner heat" 4.0
 	"afterburner effect" "ionic afterburner"
-	description "The Ionic Afterburner was designed by the Syndicate to compensate for the primary weakness of an ordinary afterburner: namely, that it consumes hyperspace fuel at a prodigious rate. Ionic afterburners instead use a small amount of fuel combined with a large burst of energy from your ship's batteries to achieve the same effect."
+	description "离子式后燃器是由辛迪加设计的，以弥补普通后燃器的主要弱点：即它以惊人的速度消耗超空间燃料。离子式后燃器则使用少量的燃料，结合飞船电池的大量能量爆发来达到同样的效果。"
 
 effect "ionic afterburner"
 	sprite "effect/ionic afterburner"
@@ -107,7 +107,7 @@ outfit "X1050 Ion Engines"
 	"steering flare sprite" "effect/ion flare/tiny"
 		"frame rate" 1.2
 	"steering flare sound" "ion tiny"
-	description `When designing the Barb, the Syndicate took the opportunity to integrate their smallest thruster models to create a more compact steering and thrusting engine. The result is not very useful on anything but a fighter, and is only "adequate" in that role. Still, if engine space is at a premium, this is the smallest set of engines that will still get you there (eventually).`
+	description `在设计 "倒钩 "时，辛迪加利用这个机会整合了他们最小的推进器模型，以创造一个更紧凑的转向和推力引擎。其结果是在任何东西上都不是很有用，除了战斗机，在那个角色上也只是 "足够"。尽管如此，如果发动机的空间很重要，这是一套最小的发动机，仍然可以让你达到目的（最终）。`
 
 
 
@@ -124,8 +124,8 @@ outfit "X1700 Ion Thruster"
 	"flare sprite" "effect/ion flare/tiny"
 		"frame rate" 1.2
 	"flare sound" "ion tiny"
-	description "This is the smallest thruster that you can buy, so weak that anything larger than a drone will accelerate quite slowly when using this engine. On the other hand, it is also very energy-efficient."
-	description "	Ion engines consume less energy than plasma engines and produce less heat, but they also take up more space for the same amount of thrust."
+	description "这是你能买到的最小的推进器，如此之弱，以至于任何比无人机大的东西在使用这个引擎时都会加速得相当慢。另一方面，它也是非常节能的。"
+	description "	离子引擎比等离子引擎消耗的能量更少，产生的热量也更少，但同样的推力，它们也会占用更多空间。"
 
 outfit "X2700 Ion Thruster"
 	category "Engines"
@@ -140,8 +140,8 @@ outfit "X2700 Ion Thruster"
 	"flare sprite" "effect/ion flare/small"
 		"frame rate" 1.1
 	"flare sound" "ion small"
-	description "The X2700 Ion Thruster is intended mostly for use in small, single-person or two-person ships, as well as in fighters. It is also used in larger ships, such as freighters, that have very little space for propulsion systems or energy to drive them. But these larger ships move unbearably slowly as a result."
-	description "	Ion engines consume less energy than plasma engines and produce less heat, but they also take up more space for the same amount of thrust."
+	description "X2700离子推进器主要用于小型、单人或双人飞船，以及战斗机。它也被用于大型舰艇，如货船，这些舰艇的推进系统和驱动能源的空间非常小。但这些大型舰艇的移动速度却因此而令人难以忍受。"
+	description "	离子引擎比等离子引擎消耗的能量更少，产生的热量也更少，但同样的推力，它们也会占用更多空间。"
 
 outfit "X3700 Ion Thruster"
 	category "Engines"
@@ -156,8 +156,8 @@ outfit "X3700 Ion Thruster"
 	"flare sprite" "effect/ion flare/medium"
 		"frame rate" 1.0
 	"flare sound" "ion medium"
-	description "The X3700 Ion Thruster is designed for heavy freighters and small capital ships. In theory, it could be installed in smaller ships too, if they have enough engine space, to attain almost ridiculous speeds."
-	description "	Ion engines consume less energy than plasma engines and produce less heat, but they also take up more space for the same amount of thrust."
+	description "X3700离子推进器是为重型货船和小型资本船设计的。从理论上讲，如果小型船只有足够的引擎空间，也可以将其安装在小型船只上，以达到几乎荒谬的速度。"
+	description "	离子引擎比等离子引擎消耗的能量更少，产生的热量也更少，但同样的推力，它们也会占用更多空间。"
 
 outfit "X4700 Ion Thruster"
 	category "Engines"
@@ -172,8 +172,8 @@ outfit "X4700 Ion Thruster"
 	"flare sprite" "effect/ion flare/large"
 		"frame rate" 0.9
 	"flare sound" "ion large"
-	description "The X4700 Ion Thruster was developed when the Republic Navy began building warships so large that the X3700 was not sufficient for them. It allows even a capital ship to move at a respectable speed."
-	description "	Ion engines consume less energy than plasma engines and produce less heat, but they also take up more space for the same amount of thrust."
+	description "X4700离子推进器是在共和国海军开始建造大型战舰，以至于X3700无法满足它们的时候开发的。它甚至可以让一艘资本船以一个可敬的速度移动。"
+	description "	离子引擎比等离子引擎消耗的能量更少，产生的热量也更少，但同样的推力，它们也会占用更多空间。"
 
 outfit "X5700 Ion Thruster"
 	category "Engines"
@@ -188,8 +188,8 @@ outfit "X5700 Ion Thruster"
 	"flare sprite" "effect/ion flare/huge"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
-	description "The X5700 thruster is intended for only the largest of capital ships. When the Syndicate first began producing them, these engines were considered little more than a publicity stunt, because no ship at the time was large enough to hold one."
-	description "	Ion engines consume less energy than plasma engines and produce less heat, but they also take up more space for the same amount of thrust."
+	description "X5700推进器只用于最大的资本舰。当辛迪加第一次开始生产它们时，这些引擎被认为只是一个宣传噱头，因为当时没有一艘船大到可以容纳一个。"
+	description "	离子引擎比等离子引擎消耗的能量更少，产生的热量也更少，但同样的推力，它们也会占用更多空间。"
 
 
 outfit "X1200 Ion Steering"
@@ -205,8 +205,8 @@ outfit "X1200 Ion Steering"
 	"steering flare sprite" "effect/ion flare/tiny"
 		"frame rate" 1.2
 	"steering flare sound" "ion tiny"
-	description "This is the smallest set of steering thrusters that you can buy, generally considered suitable only for tiny, pilotless drones. Occasionally pilots looking for some extra outfit space will try swapping out their larger steering systems for one of these, but the results are invariably disappointing."
-	description "	Ion engines consume less energy than plasma engines and produce less heat, but they also take up more space for the same amount of thrust."
+	description "这是你能买到的最小的一套转向推进器，一般被认为只适合于微小的、无驾驶员的无人机。偶尔有飞行员为了寻找一些额外的装备空间，会尝试把他们较大的转向系统换成这一套，但结果总是令人失望的。"
+	description "	离子引擎比等离子引擎消耗的能量更少，产生的热量也更少，但同样的推力，它们也会占用更多空间。"
 
 outfit "X2200 Ion Steering"
 	category "Engines"
@@ -221,8 +221,8 @@ outfit "X2200 Ion Steering"
 	"steering flare sprite" "effect/ion flare/small"
 		"frame rate" 1.1
 	"steering flare sound" "ion small"
-	description "The X2200 steering system is designed for fighters and other small spacecraft, as well as for use in larger ships when maneuverability is not needed."
-	description "	Ion engines consume less energy than plasma engines and produce less heat, but they also take up more space for the same amount of thrust."
+	description "X2200转向系统是为战斗机和其他小型航天器设计的，也可用于不需要机动性的大型飞船。"
+	description "	离子引擎比等离子引擎消耗的能量更少，产生的热量也更少，但同样的推力，它们也会占用更多空间。"
 
 outfit "X3200 Ion Steering"
 	category "Engines"
@@ -237,8 +237,8 @@ outfit "X3200 Ion Steering"
 	"steering flare sprite" "effect/ion flare/medium"
 		"frame rate" 1.0
 	"steering flare sound" "ion medium"
-	description "The X3200 steering system is intended for small warships and freighters. It produces enough turning force to lend agility to all but the largest of human ships, and it is considerably more energy-efficient than the plasma-drive alternatives."
-	description "	Ion engines consume less energy than plasma engines and produce less heat, but they also take up more space for the same amount of thrust."
+	description "X3200转向系统是为小型战舰和货船设计的。它能产生足够的转向力，除了最大的人类飞船外，还能提供敏捷性，而且它比等离子驱动的替代方案要节能得多。"
+	description "	离子引擎比等离子引擎消耗的能量更少，产生的热量也更少，但同样的推力，它们也会占用更多空间。"
 
 outfit "X4200 Ion Steering"
 	category "Engines"
@@ -253,8 +253,8 @@ outfit "X4200 Ion Steering"
 	"steering flare sprite" "effect/ion flare/large"
 		"frame rate" 0.9
 	"steering flare sound" "ion large"
-	description "The X4200 is a powerful steering system, designed mostly for warships because quick steering is seldom a requirement in freighter design."
-	description "	Ion engines consume less energy than plasma engines and produce less heat, but they also take up more space for the same amount of thrust."
+	description "X4200是一个强大的转向系统，主要是为战舰设计的，因为快速转向在货船设计中很少是一个要求。"
+	description "	离子引擎比等离子引擎消耗的能量更少，产生的热量也更少，但同样的推力，它们也会占用更多空间。"
 
 outfit "X5200 Ion Steering"
 	category "Engines"
@@ -269,8 +269,8 @@ outfit "X5200 Ion Steering"
 	"steering flare sprite" "effect/ion flare/huge"
 		"frame rate" 0.8
 	"steering flare sound" "ion huge"
-	description "The X5200 is a steering system so large and powerful that only a handful of ships can install it. Due to its limited market, it is produced in small numbers."
-	description "	Ion engines consume less energy than plasma engines and produce less heat, but they also take up more space for the same amount of thrust."
+	description "X5200是一个巨大而强大的转向系统，只有少数船只可以安装它。由于其市场有限，它的产量很小。"
+	description "	离子引擎比等离子引擎消耗的能量更少，产生的热量也更少，但同样的推力，它们也会占用更多空间。"
 
 
 outfit "X1100 Ion Reverse Thruster"
@@ -286,8 +286,8 @@ outfit "X1100 Ion Reverse Thruster"
 	"reverse flare sprite" "effect/ion flare/tiny"
 		"frame rate" 1.2
 	"reverse flare sound" "ion tiny"
-	description "Traditionally, ships turn around so that they can use their main thrusters for deceleration. Some ships, however, are too ungainly for such maneuvers to be convenient, or carry sensitive cargo that must not be being swung around quickly. For such ships, a reverse thruster allows them to apply thrust smoothly backwards."
-	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
+	description "传统上，船舶转弯时，可以使用主推进器进行减速。然而，有些船由于太过笨重，这样的操纵并不方便，或者携带着敏感的货物，不能被快速旋转。对于这样的船只，反向推进器可以让它们顺利地向后施加推力。"
+	description "	因为反向推进器必须朝前，所以它必须安装在飞船的武器部分而不是引擎部分。"
 
 
 
@@ -304,8 +304,8 @@ outfit "Chipmunk Plasma Thruster"
 	"flare sprite" "effect/plasma flare/tiny"
 		"frame rate" 5
 	"flare sound" "plasma tiny"
-	description "This is the smallest of the plasma propulsion systems produced by Delta V Corporation, suitable for very light fighters and interceptors."
-	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
+	description "这是Delta V公司生产的最小的等离子推进系统，适用于非常轻的战斗机和拦截机。"
+	description "	等离子体引擎比同样大小的离子体引擎要强大一些，但它们的能源效率较低，产生的热量也较多。"
 
 outfit "Greyhound Plasma Thruster"
 	category "Engines"
@@ -320,8 +320,8 @@ outfit "Greyhound Plasma Thruster"
 	"flare sprite" "effect/plasma flare/small"
 		"frame rate" 6
 	"flare sound" "plasma small"
-	description "This thruster is intended for small ships and for freighters. It comes in a crate decorated with a stylized cartoon of a running greyhound."
-	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
+	description "这种推进器是为小型船只和货船准备的。它装在一个板条箱里，上面装饰着一个奔跑的灰狗的风格化卡通图案。"
+	description "	等离子体引擎比同样大小的离子体引擎要强大一些，但它们的能源效率较低，产生的热量也较多。"
 
 outfit "Impala Plasma Thruster"
 	category "Engines"
@@ -336,8 +336,8 @@ outfit "Impala Plasma Thruster"
 	"flare sprite" "effect/plasma flare/medium"
 		"frame rate" 7
 	"flare sound" "plasma medium"
-	description "Impala class thrusters produce a significant amount of force, and are suitable for smaller capital ships. But, your ship may need extra cooling systems in order to handle them."
-	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
+	description "小恶魔级推进器产生大量的力量，适用于较小的资本船。但是，你的飞船可能需要额外的冷却系统来处理它们。"
+	description "	等离子体引擎比同样大小的离子体引擎要强大一些，但它们的能源效率较低，产生的热量也较多。"
 
 outfit "Orca Plasma Thruster"
 	category "Engines"
@@ -352,8 +352,8 @@ outfit "Orca Plasma Thruster"
 	"flare sprite" "effect/plasma flare/large"
 		"frame rate" 8
 	"flare sound" "plasma large"
-	description "This engine draws enough power that a ship with anything short of a full-fledged nuclear reactor is unlikely to be able to use it, but the thrust it generates is impressive."
-	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
+	description "这种引擎消耗的功率足够大，以至于一艘没有成熟的核反应堆的飞船不太可能使用它，但它产生的推力却令人印象深刻。"
+	description "	等离子体引擎比同样大小的离子体引擎要强大一些，但它们的能源效率较低，产生的热量也较多。"
 
 outfit "Tyrant Plasma Thruster"
 	category "Engines"
@@ -368,8 +368,8 @@ outfit "Tyrant Plasma Thruster"
 	"flare sprite" "effect/plasma flare/huge"
 		"frame rate" 9
 	"flare sound" "plasma huge"
-	description "The enormous crate that this thruster is sold in comes decorated with a picture of a grinning Tyrannosaurus Rex with an improbable number of teeth. Only a handful of ships are large enough to require an engine of this size... or to have the capacity for one."
-	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
+	description "这个推进器出售的巨大箱子上装饰着一张咧嘴大笑的霸王龙的图片，其牙齿数量之多令人难以置信。只有少数几艘船大到需要这么大的引擎......或者有能力安装一个。"
+	description "	等离子体引擎比同样大小的离子体引擎要强大一些，但它们的能源效率较低，产生的热量也较多。"
 
 
 outfit "Chipmunk Plasma Steering"
@@ -385,8 +385,8 @@ outfit "Chipmunk Plasma Steering"
 	"steering flare sprite" "effect/plasma flare/tiny"
 		"frame rate" 5
 	"steering flare sound" "plasma tiny"
-	description "This is the smallest plasma steering system that Delta V produces. The packaging features a cartoon of what appears to be a very highly caffeinated rodent."
-	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
+	description "这是Delta V生产的最小的等离子体转向系统。包装上有一幅漫画，似乎是一只咖啡因含量很高的啮齿动物。"
+	description "	等离子体引擎比同样大小的离子体引擎要强大一些，但它们的能源效率较低，产生的热量也较多。"
 
 outfit "Greyhound Plasma Steering"
 	category "Engines"
@@ -401,8 +401,8 @@ outfit "Greyhound Plasma Steering"
 	"steering flare sprite" "effect/plasma flare/small"
 		"frame rate" 6
 	"steering flare sound" "plasma small"
-	description "The Greyhound class plasma propulsion systems are Delta V's most popular product, suitable for a wide range of small starships."
-	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
+	description "灰狗级等离子推进系统是德尔塔五号最受欢迎的产品，适用于各种小型星舰。"
+	description "	等离子体引擎比同样大小的离子体引擎要强大一些，但它们的能源效率较低，产生的热量也较多。"
 
 outfit "Impala Plasma Steering"
 	category "Engines"
@@ -417,8 +417,8 @@ outfit "Impala Plasma Steering"
 	"steering flare sprite" "effect/plasma flare/medium"
 		"frame rate" 7
 	"steering flare sound" "plasma medium"
-	description "Impala class plasma steering systems are suitable for most freighters and all but the largest warships, and are also considerably more compact than the ion propulsion systems produced by the Syndicate."
-	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
+	description "小恶魔级等离子体转向系统适用于大多数货船和除最大的战舰外的所有船只，而且也比辛迪加生产的离子推进系统要紧凑得多。"
+	description "	等离子体引擎比同样大小的离子体引擎要强大一些，但它们的能源效率较低，产生的热量也较多。"
 
 outfit "Orca Plasma Steering"
 	category "Engines"
@@ -433,8 +433,8 @@ outfit "Orca Plasma Steering"
 	"steering flare sprite" "effect/plasma flare/large"
 		"frame rate" 8
 	"steering flare sound" "plasma large"
-	description "An Orca class steering system will allow any mid-sized ship to turn as quickly as a fighter, and is powerful enough to serve even the largest of warships."
-	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
+	description "逆戟鲸级转向系统可以让任何中型舰艇像战斗机一样快速转弯，并且强大到足以为最大的战舰服务。"
+	description "	等离子体引擎比同样大小的离子体引擎要强大一些，但它们的能源效率较低，产生的热量也较多。"
 
 outfit "Tyrant Plasma Steering"
 	category "Engines"
@@ -449,8 +449,8 @@ outfit "Tyrant Plasma Steering"
 	"steering flare sprite" "effect/plasma flare/huge"
 		"frame rate" 9
 	"steering flare sound" "plasma huge"
-	description "As with the corresponding thruster, the Tyrant class steering system is so large and powerful that very few ships can make use of it."
-	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
+	description `与相应的推进器一样，"暴君 "级转向系统也是如此庞大和强大，以至于很少有战舰能够利用它。`
+	description "	等离子体引擎比同样大小的离子体引擎要强大一些，但它们的能源效率较低，产生的热量也较多。"
 
 
 outfit "Capybara Reverse Thruster"
@@ -466,8 +466,8 @@ outfit "Capybara Reverse Thruster"
 	"reverse flare sprite" "effect/plasma flare/tiny"
 		"frame rate" 5
 	"reverse flare sound" "plasma tiny"
-	description "Large ships often lack the maneuverability to perform the 180 degree turns needed to come to a stop on short notice. For such massive vessels, a reverse thruster allows them to accelerate smoothly backwards, without needing to turn around."
-	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
+	description "大型舰艇往往缺乏机动性，无法在短时间内进行180度的转弯，以达到停顿的目的。对于这样庞大的船只来说，反向推进器可以让它们平稳地向后加速，而不需要转弯。"
+	description "	因为反向推进器必须朝前，所以它必须安装在飞船的武器部分而不是引擎部分。"
 
 
 
@@ -484,7 +484,7 @@ outfit "A120 Atomic Thruster"
 	"flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	"flare sound" "atomic tiny"
-	description "If you're looking for the most powerful engine that will fit into your ship, and have plenty of money to burn, Deep Sky's atomic thrusters are your answer. Of course, the extra energy and cooling they require can easily offset the benefit of their small size."
+	description "如果你正在寻找最强大的发动机，能够适合你的船，并且有足够的钱来燃烧，深空的原子推进器就是你的答案。当然，它们所需要的额外能量和冷却可以很容易地抵消其小尺寸的好处。"
 
 outfit "A250 Atomic Thruster"
 	category "Engines"
@@ -499,7 +499,7 @@ outfit "A250 Atomic Thruster"
 	"flare sprite" "effect/atomic flare/small"
 		"frame rate" 13
 	"flare sound" "atomic small"
-	description "Deep Sky's atomic thrusters have been in production for centuries, but remain a niche product due to their high prices and high energy requirements."
+	description "深空公司的原子推进器已经生产了几个世纪，但由于其高价格和高能量要求，仍然是一种小众产品。"
 
 outfit "A370 Atomic Thruster"
 	category "Engines"
@@ -514,7 +514,7 @@ outfit "A370 Atomic Thruster"
 	"flare sprite" "effect/atomic flare/medium"
 		"frame rate" 12
 	"flare sound" "atomic medium"
-	description "This thruster is small enough to fit in a light warship or freighter, but powerful enough to move any but the largest of ships. Naturally, such performance comes at an exorbitant price."
+	description "这种推进器足够小，可以安装在轻型战舰或货船上，但其威力足以移动任何但最大的船只。自然，这样的性能是要付出高昂的代价的。"
 
 outfit "A520 Atomic Thruster"
 	category "Engines"
@@ -529,7 +529,7 @@ outfit "A520 Atomic Thruster"
 	"flare sprite" "effect/atomic flare/large"
 		"frame rate" 11
 	"flare sound" "atomic large"
-	description "If your ship is sporting a set of Deep Sky's atomic engines, you will be the envy of every pilot in the galaxy. No other form of propulsion that humanity has discovered produces so much thrust from such a small engine."
+	description `如果你的飞船装备了一套 "深空 "的原子引擎，你将成为银河系所有飞行员羡慕的对象。人类所发现的任何其他推进形式都无法从如此小的引擎中产生如此大的推力。`
 
 outfit "A860 Atomic Thruster"
 	category "Engines"
@@ -544,7 +544,7 @@ outfit "A860 Atomic Thruster"
 	"flare sprite" "effect/atomic flare/huge"
 		"frame rate" 10
 	"flare sound" "atomic huge"
-	description "The A860 Atomic Thruster is the most powerful engine sold in human space, and is much more compact than any of the alternatives. But, you may need to upgrade your ship's power and cooling systems to handle it."
+	description "A860原子推进器是人类空间中出售的最强大的发动机，而且比任何替代品都要紧凑。但是，你可能需要升级你的飞船的动力和冷却系统来处理它。"
 
 
 outfit "A125 Atomic Steering"
@@ -560,7 +560,7 @@ outfit "A125 Atomic Steering"
 	"steering flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	"steering flare sound" "atomic tiny"
-	description "Deep Sky's atomic thrusters are a popular choice for high-end starships. It is not uncommon for a set of atomic engines to cost more than the ship they are installed in."
+	description "深空公司的原子推进器是高端星舰的一个流行选择。一套原子推进器的价格超过其安装的飞船是很常见的。"
 
 outfit "A255 Atomic Steering"
 	category "Engines"
@@ -575,7 +575,7 @@ outfit "A255 Atomic Steering"
 	"steering flare sprite" "effect/atomic flare/small"
 		"frame rate" 13
 	"steering flare sound" "atomic small"
-	description "If you have exhausted all your other options for making your ship more maneuverable, it may be time to invest in a set of atomic engines."
+	description "如果你已经用尽了所有其他的选择来使你的飞船更具机动性，可能是时候投资一套原子引擎了。"
 
 outfit "A375 Atomic Steering"
 	category "Engines"
@@ -590,7 +590,7 @@ outfit "A375 Atomic Steering"
 	"steering flare sprite" "effect/atomic flare/medium"
 		"frame rate" 12
 	"steering flare sound" "atomic medium"
-	description "Bounty hunters and other captains who need to gain a speed advantage over the ships they are pursuing often dream of being able to save up enough money for a set of atomic engines."
+	description "赏金猎人和其他需要获得速度优势的船长常常梦想着能够攒够钱买一套原子引擎。"
 
 outfit "A525 Atomic Steering"
 	category "Engines"
@@ -605,7 +605,7 @@ outfit "A525 Atomic Steering"
 	"steering flare sprite" "effect/atomic flare/large"
 		"frame rate" 11
 	"steering flare sound" "atomic large"
-	description "This set of maneuvering thrusters from Deep Sky will allow small warships to turn as fast as a fighter. For larger ships, swapping the existing engines with a set of atomics can free up a considerable amount of space for other outfits or weapons."
+	description "深空公司的这套机动推进器将使小型战舰能够像战斗机一样快速转向。对于大型战舰来说，将现有的发动机换成一套原子发动机可以为其他装备或武器释放出相当大的空间。"
 
 outfit "A865 Atomic Steering"
 	category "Engines"
@@ -620,7 +620,7 @@ outfit "A865 Atomic Steering"
 	"steering flare sprite" "effect/atomic flare/huge"
 		"frame rate" 10
 	"steering flare sound" "atomic huge"
-	description "Atomic engines are considered by many to be Deep Sky's crowning achievement. Although they are so expensive that relatively few of them are in use, there are few captains who do not dream of one day installing a set of them."
+	description "原子引擎被许多人认为是深空公司的最高成就。虽然它们非常昂贵，以至于使用的数量相对较少，但很少有机长不梦想有一天能安装一套这样的引擎。"
 
 
 outfit "AR120 Reverse Thruster"
@@ -636,5 +636,5 @@ outfit "AR120 Reverse Thruster"
 	"reverse flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	"reverse flare sound" "atomic tiny"
-	description "For pilots who want to pull fancy tricks that most are not capable of duplicating, a reverse thruster allows a ship to accelerate backwards, without needing to turn around."
-	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
+	description "对于那些想玩一些大多数人都无法复制的花哨技巧的飞行员来说，反向推进器可以让飞船向后加速，而不需要掉头。"
+	description "	因为反向推进器必须朝前，所以它必须安装在飞船的武器部分而不是引擎部分。"

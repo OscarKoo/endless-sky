@@ -21,49 +21,49 @@ mission "Coalition Folklore: Saryd"
 		attributes "folklore"
 	on offer
 		conversation
-			`Walking through the spaceport, you're approached by a Saryd in unusually traditional clothing, even by Saryd standards. Silk robes not too different from human kimonos cover most of his body, and thin ropes tightly wrap around the fabric near his hoofs.`
-			`	"Greetings, Captain. Interested in participating in a cultural celebration, would you be?" he asks.`
+			`走过太空港，一个穿着异常传统服装的萨里德人向你走来，即使以萨里德人的标准来看也是如此。与人类和服没有太大区别的丝绸长袍覆盖了他的大部分身体，细绳紧紧缠绕着他的蹄子附近的织物。`
+			`	"你好，队长。有兴趣参加一个文化庆典吗？"他问道。`
 			choice
-				`	"What sort of celebration?"`
-				`	"Sorry, I'm busy right now."`
+				`	"什么样的庆典？"`
+				`	"对不起，我现在很忙。"`
 					decline
-			`	"A celebration of Saryd folklore, it is," he explains. "Though for a long time among the stars we've lived, timeless classics from before our spacefaring age, we still celebrate. A set of theatrical plays about some of them, today we are hosting. Watch them for free, anyone can."`
+			`	"是萨里德民间传说的庆祝活动，"他解释说。"虽然在我们生活的星空中已经有很长一段时间了，在我们的航天时代之前，永恒的经典，我们仍然在庆祝。一套关于其中一些的戏剧，今天我们正在主持。免费观看它们，任何人都可以。"`
 			choice
-				`	"I've always got time for a story. Lead the way."`
-				`	"I'm not really up for a story now. I'll pass."`
+				`	"我总是有时间听故事。带路吧。"`
+				`	"我现在不是真的想听故事。我就不说了。"`
 					decline
-			`	You follow him outside the spaceport city and deep into a nearby forest. On the way there, several other Saryds in similar ancient garbs are guiding others who were also intrigued by the offer.`
-			`	You arrive at a clearing with three different paths to take, and you can make out a faint light from deep within each of them. After a few minutes, it seems as if all the Saryds involved in the celebration have arrived. They grab three caskets from behind a bush and lay them before you and the others they brought here.`
-			`	"Now friends, choose your path, you must," one of the Saryds says, and many from the crowd grab small objects from the caskets, seemingly already familiar with this. You move forward to look into the caskets and see that each one has different things inside: the left one is full of seeds, the middle one full of seashells, and the right one full of feathers.`
+			`	你跟着他走出太空港城市，深入到附近的森林。在路上，其他几个穿着类似古代服装的萨里德人正在引导其他也对这个提议感兴趣的人。`
+			`	你来到一片空地，有三条不同的路可走，你可以从每条路的深处看到微弱的光。几分钟后，似乎所有参与庆祝活动的萨利德人都到了。他们从灌木丛后面拿起三个棺材，把它们放在你和他们带来的其他人面前。`
+			`	"现在，朋友们，选择你们的道路，你们必须这样做。"其中一个萨里德人说，人群中的许多人从棺材里抓出一些小东西，似乎已经很熟悉这个。你往前走，看看这些箱子，看到每个箱子里面都有不同的东西：左边的箱子里装满了种子，中间的箱子里装满了贝壳，右边的箱子里装满了羽毛。`
 			choice
-				`	(Grab a seed.)`
+				`	(抓一颗种子。)`
 					goto seed
-				`	(Grab a seashell.)`
+				`	(抓一个贝壳。)`
 					goto pearl
-				`	(Grab a feather.)`
-			`	Once you have the feather in your hands, the organizers tell you to go through the path on the right.`
-			`	The light you had seen turns out to be a bonfire near a wooden stage, about a third of the size of human opera stages, and you find a spot to sit on one of the logs positioned near the fire. Several lights shine onto the stage, and as you look up, you can only barely see some spotlights hidden high up in the trees. After the audience is all gathered, the curtains of the stage open to reveal many small figures made out of what looks like paper in a style that loosely resembles origami. They are supported either by thin wooden poles from below or strings from above. There are figures close to where the curtains were and others further away on the stage, the various layers granting depth to the scenery. After a brief moment, the show begins:`
-			`	Entering a clearing, a Saryd huntress with gray hair stalks a large bird resting on a rock. She moves on the borders of the clearing, hiding behind bushes and small trees. She looks for the best spot from which to snipe at the bird, her bow and arrow ready in her hands. It's only when she is nearing a large entrance to the clearing, on the opposite side of where she entered, that she finds the spot, and takes aim.`
-			`	She is disrupted when she hears a loud roar and jumps to the ground, narrowly avoiding the beast that had come from behind her. You're unsure how accurate the paper's depiction of the creature is, but you can only describe it as a "hedge-lion": slightly larger than lions from Earth, with various quills where its mane should be. The quills continue in a line on its back, reaching the tip of the tail.`
-			`	Having dodged the pounce, the huntress runs past the bird, looking for cover, but the forest isn't dense enough to block the beast's advance. It attacks again, and wounds the top of one of her frontal legs. She kicks it with another leg and readies an arrow, but only manages to scratch its face. The animal gets on its hind legs to swipe down at her but is stunned; the bird has attacked its eyes, blinding it! The huntress is swift to take aim in the opening granted, and an arrow pierces the creature's torso. Once the hedge-lion has fallen, the bird flies away, and the curtains close.`
+				`	(抓住一根羽毛。)`
+			`	一旦你把羽毛拿在手里，组织者就告诉你从右边的小路走。`
+			`	你看到的灯光原来是一个木制舞台附近的篝火，大约是人类歌剧舞台的三分之一大小，你找到一个位置，坐在靠近火堆的一根木头上。几盏灯照在舞台上，当你抬头时，你只能勉强看到一些藏在树上高处的射灯。在观众全部聚集后，舞台的幕布打开，露出许多用看起来像纸的东西做成的小人物，其风格与折纸很相似。他们或由下面的细木杆支撑，或由上面的绳索支撑。有的小人靠近窗帘的位置，有的则在舞台的更远处，不同的层次赋予了景物以深度。短暂的片刻之后，表演开始了。`
+			`	进入一片空地，一个灰色头发的萨里德女猎人跟踪着一只停在岩石上的大鸟。她在空地的边缘移动，躲在灌木丛和小树后面。她寻找可以狙击这只鸟的最佳地点，手中的弓和箭已经准备好了。当她接近空地的一个大入口时，在她进入的地方的对面，她才找到这个地方，并瞄准了。`
+			`	当她听到一声巨大的吼叫时，她被打乱了，跳到了地上，险些避开了从她身后过来的野兽。你不确定报纸上对这个生物的描述有多准确，但你只能把它描述成一个 "对冲狮子"：比地球上的狮子稍大，在它的鬃毛应该出现的地方有各种毛刺。羽毛在它的背上继续排成一排，到达尾巴的尖端。`
+			`	躲过扑击后，女猎手跑过鸟儿，寻找掩护，但森林并不茂密，不足以阻挡野兽的前进。它再次发动攻击，并打伤了她的一条前腿的顶部。她用另一条腿踢它，并准备好一支箭，但只设法划伤了它的脸。这只动物用后腿向她扫射，但却被吓呆了；鸟儿攻击了它的眼睛，使它失明了！她迅速地拿起箭来。女猎人在开场时迅速瞄准，一箭射穿了动物的躯干。一旦刺狮倒下，鸟儿就会飞走，窗帘也会关闭。`
 				goto end
 			label seed
-			`	Once you have the seed in your hands, the organizers tell you to go through the path on the left.`
-			`	The light you had seen turns out to be a bonfire near a wooden stage, about a third of the size of human opera stages, and you find a spot to sit on one of the logs positioned near the fire. Several lights shine onto the stage, and as you look up, you can only barely see some spotlights hidden high up in the trees. After the audience is all gathered, the curtains of the stage open to reveal many small figures made out of what looks like paper in a style that loosely resembles origami. They are supported either by thin wooden poles from below or strings from above. There are figures close to where the curtains were and others further away on the stage, the various layers granting depth to the scenery. After a brief moment, the show begins:`
-			`	The central figure is a young Saryd boy, galloping through a dense forest. Sound effects of thunder begin and grow increasingly frequent, echoing around you as if in a real thunderstorm. A white piece of paper, shaped like a lightning bolt, comes down swiftly and strikes one of the trees in the boy's way. Flame-shaped folds rain down from the top of the stage and stick to the tree as it falls, blocking the boy's path. He turns to run elsewhere. Another lightning bolt, and another tree falls. After a few more repetitions, the boy is too tired to run anymore. Hurt by some of the flames, he is now limping through the forest.`
-			`	Whimpering as the thunder grows closer once more, he spots a tree unlike the others, a great oak with branches thicker than the other trees around him. He goes to it and lays down at its base, and soon he falls asleep as the curtain closes.`
-			`	It opens once again after a few moments, with the boy waking up in darkness. When he gets up, rumbling sounds are accompanied by rays of light reaching the ground, and he realizes the great oak had lowered its branches around him. As it lifts them up, the several smaller trees that had fallen on the mighty oak's branches during the storm are scattered away. The sun as his guide, the boy manages to leave the forest, and the curtains close again.`
+			`	一旦你把种子拿在手里，组织者就会告诉你穿过左边的小路。`
+			`	你看到的灯光原来是一个木制舞台附近的篝火，大约是人类歌剧舞台的三分之一大小，你找到一个位置，坐在靠近火堆的一根木头上。几盏灯照在舞台上，当你抬头时，你只能勉强看到一些藏在树上高处的射灯。在观众全部聚集后，舞台的幕布打开，露出许多用看起来像纸的东西做成的小人物，其风格与折纸很相似。他们或由下面的细木杆支撑，或由上面的绳索支撑。有的小人靠近窗帘的位置，有的则在舞台的更远处，不同的层次赋予了景物以深度。短暂的片刻之后，表演开始了。`
+			`	中心人物是一个年轻的萨里德男孩，在密林中驰骋。打雷的声音效果开始了，而且越来越频繁，在你周围回荡，就像在真正的雷雨中一样。一张白色的纸片，形状像一道闪电，迅速地落下来，击中了男孩途中的一棵树。火焰状的褶皱从舞台顶上落下，落下时粘在树上，挡住了男孩的路。他转身向其他地方跑去。又一道闪电，另一棵树倒下。再重复几次后，男孩已经累得不能再跑了。他被一些火焰所伤，现在正一瘸一拐地穿过森林。`
+			`	当雷声越来越近时，他呜咽着发现了一棵与其他树不同的树，一棵巨大的橡树，树枝比他周围的其他树更粗。他走到树下，在树根处躺下，很快他就睡着了，因为窗帘关闭了。`
+			`	过了一会儿，帘子再次打开，男孩在黑暗中醒来。当他起床时，轰隆隆的声音伴随着到达地面的光线，他意识到大橡树在他周围放下了它的树枝。当它把树枝举起来的时候，在暴风雨中倒在大橡树枝上的几棵小树就散开了。在太阳的指引下，男孩成功地离开了森林，窗帘也再次合上。`
 				goto end
 			label pearl
-			`	Once you have the seashell in your hands, the organizers tell you to go through the path in the middle.`
-			`	The light you had seen turns out to be a bonfire near a wooden stage, about a third of the size of human opera stages, and you find a spot to sit on one of the logs positioned near the fire. Several lights shine onto the stage, and as you look up, you can only barely see some spotlights hidden high up in the trees. After the audience is all gathered, the curtains of the stage open to reveal many small figures made out of what looks like paper in a style that loosely resembles origami. They are supported either by thin wooden poles from below or strings from above. There are figures close to where the curtains were and others further away on the stage, the various layers granting depth to the scenery. After a brief moment, the show begins:`
-			`	A Saryd is on top of some sort of long, wooden platform, with a deep blue background under it. Only when you see the fishing rod do you realize that he is on a boat, fishing at sea. He feels a bite, but when he reels it in, there is nothing on the hook. He feels another bite and again finds nothing. Time and again, he looks at the hook to find the bait still there, intact, yet he continues to feel bites, some so powerful even the boat moves a little. The day moves by quickly, with a piece of paper representing the sun moving swiftly from one side of the "sky" to the other.`
-			`	Once it is night, the waves grow increasingly stronger, and the Saryd stops fishing altogether. He puts the rod on the boat and tries to steer it back to shore, but he can't find his way. A huge wave that goes beyond the stage's top approaches, and engulfs the boat.`
-			`	The fisherman kicks and struggles for air, having lost his boat and still at the mercy of the great waves. The view on the stage starts going down, following the kicks, and something starts rising up to meet the Saryd's legs. As it raises the view back with it, a creature reminiscent of a whale, only with much larger, longer flippers that almost link to its tail, comes to the surface. It rises gently and with care, as if trying to serve as ground for the sailor. Another wave is approaching, large enough to engulf them both, but the whale keeps on going up until it is out of the water.`
-			`	As it flies through the night sky, the whale is careful to not drop the Saryd, always waiting for him to find stable footing before turning. For the rest of the night, the whale slowly dances in the sky, and when morning comes and the waves subside, it goes back to the sea and swims close to shore. Once the Saryd is at the beach, he turns back to see the whale's tail hitting the water as it dives deep once again, and the curtains close.`
+			`	一旦你把贝壳拿在手里，组织者就会告诉你穿过中间的道路。`
+			`	你看到的灯光原来是一个木制舞台附近的篝火，大约是人类歌剧舞台的三分之一大小，你找到一个位置，坐在靠近火堆的一根木头上。几盏灯照在舞台上，当你抬头时，你只能勉强看到一些藏在树上高处的射灯。在观众全部聚集后，舞台的幕布打开，露出许多用看起来像纸的东西做成的小人物，其风格与折纸很相似。他们或由下面的细木杆支撑，或由上面的绳索支撑。有的小人靠近窗帘的位置，有的则在舞台的更远处，不同的层次赋予了景物以深度。短暂的片刻之后，表演开始了。`
+			`	一个萨里德在某种长长的木头平台上面，平台下面是深蓝色的背景。只有当你看到鱼竿时，你才意识到他是在船上，在海上钓鱼。他感到有鱼上钩，但当他收线时，鱼钩上什么也没有。他又感觉到有鱼上钩，但又发现没有。一次又一次，他看着鱼钩，发现鱼饵仍然在那里，完好无损，但他继续感觉到咬钩，有些咬钩是如此有力，甚至连船都会移动一下。一天很快就过去了，一张代表太阳的纸从 "天空 "的一边迅速地移到另一边。`
+			`	一旦到了晚上，海浪越来越强，萨里德就完全停止了钓鱼。他把鱼竿放在船上，试图把船开回岸边，但他找不到方向。一个超过舞台顶部的巨浪逼近，吞没了船。`
+			`	渔夫踢打着，挣扎着呼吸，他已经失去了他的船，仍然处于大浪的摆布之下。舞台上的景物开始下降，随着他的踢打，有什么东西开始上升，迎接萨里德的腿。当它把观众的视线拉回来时，一个让人联想到鲸鱼的生物，只是有更大更长的鳍，几乎和它的尾巴连在一起，来到了水面上。它轻轻地、小心翼翼地升起，似乎想为水手充当地面。另一个浪头正在逼近，大到足以吞噬他们两个，但鲸鱼一直在往上走，直到它离开水面。`
+			`	当它在夜空中飞翔时，鲸鱼小心翼翼地不让萨里德掉下来，总是等他找到稳定的立足点后才转身。在余下的夜晚，鲸鱼慢慢地在天空中跳舞，当清晨来临，海浪消退时，它又回到海里，靠近岸边游去。一旦萨里德到了海滩，他回头看到鲸鱼的尾巴打在水面上，它再次潜入水中，幕布关闭。`
 			label end
-			`	People in the audience start getting up and performing a short bow toward the stage, with both hands clenched together close to their chests, as if silently applauding the performance. Once most of them are done, they prepare to leave, and you follow them. Once you're back at the clearing, you return the small object back to its casket after seeing others do the same, and the organizers guide everyone back to the spaceport.`
-			`	Once there, the Saryd who first approached you says, "That you enjoyed the spectacle, I hope," and bids you farewell.`
+			`	观众席上的人们开始起身，朝着舞台做短暂的鞠躬，双手紧紧握在一起，紧贴胸口，似乎在默默为表演鼓掌。一旦他们中的大多数人做完了，他们就准备离开，你也跟着他们。一旦你回到空地，在看到其他人也这样做后，你把小东西放回匣子里，组织者引导大家回到太空港。`
+			`	到了那里，第一个接近你的萨里德说："我希望你喜欢这个场面，"然后向你告别。`
 				decline
 
 
@@ -78,57 +78,57 @@ mission "Coalition Folklore: Arach"
 		attributes "folklore"
 	on offer
 		conversation
-			`Shortly after entering the spaceport, you observe an Arach in what you guess is a formal "dress," a delicate silk wrap covering most of her body with each leg covered by its own embroidered skirt. She exclaims something loudly into a personal communication device before putting it away with a shove. Like everyone else who has momentarily been witness to this, you go to look away, but the Arach has cast their gaze around, seen you, and immediately begun to approach. "Our honorable human visitor, I salute," she says loudly as she closes the gap. "Say, Captain, appreciate the fine arts, do you? To a cultural soiree, I'm headed, but busy with work, dearest Papa is, so vacant, his reserved seat is. Accompany me, would you?"`
+			`进入太空港后不久，你看到一个穿着正式 "礼服 "的Arach，一个精致的丝绸包裹覆盖了她的大部分身体，每条腿都被自己的刺绣裙子覆盖。她对着一个个人通讯设备大声地赞叹着什么，然后用手一推就把它收起来了。像其他瞬间目睹这一切的人一样，你去看别的地方，但Arach已经把他们的目光投向四周，看到你，并立即开始接近。"我们尊贵的人类访客，我向你致敬。"她在拉近距离时大声说。"说吧，船长，欣赏高雅的艺术，是吗？我正准备去参加一个文化晚会，但我最亲爱的爸爸正忙于工作，所以他的座位是空着的。陪我去吧，好吗？"`
 			choice
-				`	"Is that some sort of event?"`
-				`	"I'm busy right now, so I'll pass."`
+				`	"那是什么活动吗？"`
+				`	"我现在很忙，所以我就不去了。"`
 					decline
-			`	"No simple gathering, but a collection of plays by esteemed professionals, completed by a dedicated orchestra, the soiree is," she explains. "A celebration of Arach folklore, it is, which in our finest outfits, us local patrons attend. Streamed live for others, the show also is, but compare to the live performance, it cannot."`
+			`	"不是简单的聚会，而是由受人尊敬的专业人士创作的戏剧集，由专门的管弦乐队完成，这个晚会就是，"她解释说。"这是对阿拉奇民俗的庆祝，我们当地的顾客穿着最好的衣服参加。对其他人来说，这个节目也是流媒体直播，但与现场表演相比，它不能。"`
 			choice
-				`	"Alright, I'm interested. Where is this 'soiree' taking place?"`
-				`	"I'm not a fan of plays, sorry."`
+				`	"好吧，我很感兴趣。这个'晚会'是在哪里举行的？"`
+				`	"我不喜欢戏剧，对不起。"`
 					decline
-			`	You follow her around the central portion of the city to a building which from the outside looks like some form of auditorium; there, some Arachi in uniform are seeing to the entries of the "patrons" of the event. "A human? Quite an exotic guest you've brought, lady Matlub," one of them says to your guide as she shows him a touchpad displaying two tickets. He verifies them and allows the two of you to enter. The inside reminds you of an opera house, with a large stage in front of dozens of rows of seats, and six levels of balconies on both sides. Matlub leads you to two excellent seats in one of the first few rows, and she helps you "adjust" the chair so that you're more comfortably seated. Just before the stage is an area a few steps below the level of the seats, with a few Arach musicians fine-tuning a variety of instruments. Up on the ceiling, and on all of the balconies, you see small cameras pointed at the stage to broadcast the event for those who didn't have the chance to attend it live.`
-			`	As the rows and balconies fill up with more guests, you notice a few Kimek and Saryds amidst the masses of Arachi, most of them accompanying an Arach patron; a few are seemingly patrons themselves, coming in on their own. A great many of them seem to take notice of you as you look around, but your patron studiously ignores the attention.`
+			`	你跟着她绕过城市的中心部分，来到一座建筑，从外面看像是某种形式的礼堂；在那里，一些穿着制服的阿拉奇人正在照看活动的 "顾客 "的入场。"一个人类？你带来的客人可真够奇特的，马特鲁布女士。"其中一个人对你的向导说，她向他展示了一个显示两张票的触摸板。他验证了这两张票，并允许你们两个人进入。里面让你想起了一个歌剧院，有一个大舞台，前面有几十排座位，两边有六层阳台。马特鲁布把你领到前几排之一的两个极好的座位上，她帮你 "调整 "椅子，使你坐得更舒服。就在舞台之前，有一个低于座位水平的区域，有几个阿拉奇音乐家在微调各种乐器。在天花板上，以及所有的阳台上，你看到小型摄像机对准舞台，为那些没有机会参加现场活动的人转播活动。`
+			`	随着一排排和阳台上坐满了更多的客人，你注意到在众多的阿拉奇人中有几个基梅克和萨利德，他们中的大多数人都在陪同阿拉奇的赞助人；有几个似乎是赞助人自己，自己进来的。当你环顾四周时，他们中的许多人似乎都注意到了你，但你的主顾却刻意忽略了这些关注。`
 			choice
-				`	"I can see why you were speaking so highly about this, looks like a really organized event."`
-				`	"Not every day that they see a human in one of these, I take it?"`
-			`	She nods. "A prestigious event, this is. Bring friends from all around the Coalition to watch, the patrons do. The most unique guest we've had, you are."`
-			`	Once all seats are filled, the doors are closed, and an Arach comes to the stage. "Welcome you, esteemed guests, to this celebration of saga and song, our theater does," he says. "Make you wait any longer, I shall not, so for our first play, a timeless classic dear to all, I present: Moonstruck."`
-			`	He quickly leaves the stage as the curtains open to reveal a rocky wall with two tunnels leading to the sides. The orchestra begins to play a slow, soft theme on accordion-like instruments, and a young Arach comes into the scene from the tunnel on the left. He hangs onto the rocky wall, a small lantern hanging from his abdomen and a large sack strapped to his back. The Arach then picks rocks from the corners of the wall, throwing most to the ground but placing a few inside the sack he carries. Once the sack is full, he enters the tunnel on the right, and the rocky wall is rotated to show the other side; there, the young miner is shown under the night sky smelting the ore he collected. As he looks to the top of the stage with his back facing the audience, the accordions grow quieter, a slow harp starts to play, and a full moon comes into view at the top of the background sky.`
-			`	The curtains close as the scene changes, opening again with the accordions picking up the pace. The Arach is now on a larger wall with only one tunnel from above. He claws away at the rocky corners, the accordions following his rhythm. Once he's dug out most of the ore, the wall starts shaking, as if the mine were collapsing. The accordions become erratic as he rushes for the escape tunnel. With a hectic clamor, the rock wall appears to disassemble on stage with great boulders descending gracefully from the fly tower, caving in the mine. The accordions stop, but after a long pause they, along with the harp, slowly pick up again. The young Arach then climbs into view and pushes first one boulder away, and then another, and another. This goes on until the Arach stands atop a mountain of metal carved out of the rock, reaching for the moon. As he nearly touches it, the curtains close and the music stops.`
-			`	The Arachi in the audience rub two of their legs together, as if clapping at the end of the performance. Shortly after, some get up, heading to the exit as the doors open up once again. At the same time, more patrons are coming in to fill the vacant seats. "Interested in only some of the plays, some patrons are, so only for those they wish to see, they stay," Matlub explains. "Leave after any of the performances, you may, if someplace else, you must be, but remain for the rest of the show, I will."`
+				`	"我知道为什么你对这个评价这么高，看起来是一个真正有组织的活动。"`
+				`	"他们不是每天都能在其中看到一个人类，我想是吗？"`
+			`	她点点头。"这是一个著名的活动。从联盟各地带来的朋友来观看，顾客们都这样做。你是我们最独特的客人。"`
+			`	一旦所有的座位都坐满了，门就被关上了，一个阿拉克人来到了舞台上。"欢迎你们，尊敬的客人，参加这场传奇和歌曲的庆典，我们的剧院确实如此，"他说。"让你们再等下去，我就不等了，所以我们的第一出戏，一个大家都喜欢的永恒的经典，我为大家介绍。追月"。`
+			`	他迅速离开舞台，幕布打开，露出一堵岩石墙，有两条隧道通向两侧。管弦乐队开始用类似手风琴的乐器演奏一个缓慢、柔和的主题，一个年轻的阿拉赫从左边的隧道进入现场。他挂在岩壁上，腹部挂着一个小灯笼，背上绑着一个大麻袋。然后，Arach从墙角捡起石头，将大部分石头扔到地上，但也有一些放在他携带的麻袋里。一旦麻袋装满，他就进入右边的隧道，岩壁被旋转，显示出另一面；在那里，年轻的矿工在夜空下熔炼他收集的矿石。当他背对着观众看向舞台的顶部时，手风琴的声音越来越小，缓慢的竖琴开始演奏，背景天空的顶部出现了一轮圆月。`
+			`	幕布随着场景的变化而关闭，再次打开，手风琴加快了节奏。阿拉赫现在在一个更大的墙壁上，从上面看只有一条隧道。他用爪子抓着岩石的角落，手风琴跟着他的节奏。一旦他挖出了大部分的矿石，墙壁就开始摇晃，就像矿井正在坍塌一样。当他冲向逃生通道时，手风琴变得飘忽不定。随着一阵喧闹声，岩壁似乎在舞台上分解，巨大的石块从飞塔上优雅地落下，把矿井砸得粉碎。手风琴停了下来，但在漫长的停顿之后，它们和竖琴一起，又慢慢地拿了起来。然后，年轻的Arach爬进视野，先是推开一块巨石，然后又推开另一块，再推开另一块。这样持续下去，直到阿拉克站在一座由岩石雕刻而成的金属山顶上，伸手去够月亮。当他几乎接触到它时，窗帘关闭，音乐停止。`
+			`	观众席上的阿拉奇将他们的两条腿放在一起摩擦，就像在表演结束时鼓掌一样。不久之后，一些人站起来，在门再次打开的时候走向出口。与此同时，更多的观众进来填补空缺的座位。"马特鲁布解释说："有些观众只对某些剧目感兴趣，所以只对他们希望看到的那些剧目感兴趣，他们就留下来。"在任何一场演出后离开，你可以，如果有别的地方，你必须要去，但留下来看剩下的演出，我愿意。"`
 			choice
-				`	(Stay for the next play.)`
-				`	(Leave.)`
+				`	(留下来看下一场戏）。`
+				`	(离开。)`
 					goto leave
-			`	Once everyone is seated, the same Arach from before goes to the stage again. "A surprise for you, tonight we have. A brand new play, an anonymous group of patrons commissioned. As a critique of one of the issues that persist in our society, described it is. For our second play: Babbling Bebliss."`
-			`	As he leaves, the curtains open to a set of an Arach street, where a child is purchasing some form of candy. From behind a building in the set, an Arach wearing tall, blue and white "socks" emerges as trumpets and tubas start playing an obnoxious track. He runs for the child and knocks the candy to the ground as he makes some gargling sound. Matlub sighs, saying, "Gibberish, it is. Nonsense, and words best left untranslated." The Arach actor goes on to cling to the walls of the building and grab things from inside the candy shop, throwing them wildly. By now, many well-dressed patrons, most likely members of House Bebliss, are getting up and leaving the theater. Meanwhile, a group of Arachi on one of the balconies doesn't even try to muffle their laughter.`
-			`	The scene continues as a couple comes to the set, walking down the street. As they're about to lean in for what looks like a kiss, the Arach leaps from the building, landing on the bachelor with a thud. He steals the kiss, as the tubas and trumpets blast as loudly as they can. After a while, the authorities show up, only for the Arach to make a run for it down the street. The orchestra plays a tune that is as uncoordinated as his movements, and the curtains close. Not many in the audience manifest themselves, most sighing or getting ready to leave, save for the group that was laughing earlier who are now very vocal in announcing their appreciation for the play. "Know of subtlety, House Chamgar does not," Matlub says. "A shame it is, that tainted the soiree with this rivalry, they have."`
-			`	The doors open once again as new patrons cycle in to watch the third play.`
+			`	一旦大家都坐好了，之前的那个阿拉奇又走到了舞台上。"给你们一个惊喜，今晚我们有。一部全新的戏剧，一个匿名的赞助人团体委托的。作为对我们社会中持续存在的一个问题的批判，描述了它。为我们的第二部戏。Babbling Bebliss"。`
+			`	当他离开时，窗帘打开，出现了一个阿拉奇街道的场景，一个孩子正在购买某种形式的糖果。当小号和大号开始演奏令人厌恶的曲目时，一个穿着高大的蓝白 "袜子 "的Arach人从布景中的一栋建筑后面走出来。他跑向孩子，把糖果打到地上，同时发出一些漱口的声音。马特鲁布叹了口气，说："胡言乱语，它是。胡说八道，还有最好不要翻译的词。"阿拉奇演员继续依附在建筑物的墙壁上，从糖果店内抓起东西，疯狂地投掷。现在，许多衣着光鲜的顾客，很可能是贝布利斯家族的成员，正在起身离开剧院。与此同时，在其中一个阳台上的一群阿拉奇甚至没有试图压制他们的笑声。`
+			`	场景继续，一对夫妇来到布景前，走在街上。当他们准备靠过来接吻时，阿拉奇从楼上跳了下来，砰的一声落在了单身汉身上。他偷走了这个吻，这时大号和小号尽可能大声地吹响。过了一会儿，当局出现了，只是Arach在大街上跑了起来。管弦乐队演奏了一首和他的动作一样不协调的曲子，然后幕布关闭。观众中没有多少人表现出来，大多数人都在叹气或准备离开，只有刚才还在笑的那群人，现在很大声地宣布他们对这出戏的赞赏。马特鲁布说："知道微妙的东西，查姆加房子不知道，"。"真可惜，他们用这种竞争玷污了这场晚会。"`
+			`	大门再次打开，新的顾客循环进来观看第三场演出。`
 			choice
-				`	(Stay for the next play.)`
-				`	(Leave.)`
+				`	(留下来看下一场戏）。`
+				`	(离开。)`
 					goto leave
-			`	Everyone takes their seats, and the Arach announcer heads to the stage again. "A cathartic tragedy, our third play of this evening is. For our next performance: 'Til Death."`
-			`	The stage lights go dark as the curtains open to a single spotlight. It illuminates an old Arach getting dressed inside a small shack on the right side of the stage. He coughs, and something akin to an organ begins to play a melancholic melody. Once he leaves, the shack is left in the dark as the spotlight follows him to the middle of the stage, where he makes his way carefully down an empty street. He is allowed to pass beyond the spotlight, which goes dark as the perspective shifts and a second spotlight renews the focus. The left side of the stage is finally lit up, where the Arach starts tending to a garden by the entrance of a manor. The organ stops its weeping every once in a while, right when the Arach is coughing, only to resume once he's done. Leaving the manor, a richly dressed Arach points to one of the flowers in the garden, showing it to be shriveled and dead. He plucks it and throws it to the ground before leaving. The gardener picks up the flower, sticks it inside his clothes, and continues his work.`
-			`	Once his work is done, he heads back to his shack, the spotlights following him as he moves around the stage. Once inside, he looks inside a small box, taking a simple vase and placing the flower inside it. The stage goes dark as he goes to sleep and the piano stops, with only the occasional cough echoing throughout the theater. When the light comes to the shack again, the Arach slowly gets up and again leaves for his job, pausing for a moment on the street part of the stage during a heavy coughing fit. Once he's done with the work and begins going back home, he starts coughing again, not letting up for more than a second at a time. During this the spotlights transition to the next section of the stage, and the piano plays a brief note. Once inside his shack, he collapses, knocking down the flower vase in the process. The piano plays a few slow chords, and the last spotlight goes out during the final note.`
-			`	You hear the curtains closing, and the lights of the theater turn back on again as the audience is taken by a round of applause. Once they've settled, the announcer goes up to the stage again. "And with that, concluded, our soiree is. Thank you all for gracing us with your presence, I, in name of the theater, do." He lowers his head in a bow and leaves the stage again as nearly all of the patrons in the audience get up and head for the exit, this time with nobody else coming in to take their seats. At the same time, the orchestra starts packing up their instruments. There are, however, a few who remain in their seats, including Matlub.`
+			`	每个人都坐在自己的座位上，阿拉克的播音员再次走向舞台。"一个宣泄的悲剧，我们今晚的第三部戏是。对于我们的下一场演出："直到死亡"。`
+			`	舞台上的灯光暗了下来，因为幕布打开了，只剩下一盏聚光灯。它照亮了一个正在舞台右侧的小棚子里穿衣服的老阿拉赫。他咳嗽了一声，类似于风琴的东西开始奏出忧郁的旋律。他一离开，小屋就被留在黑暗中，聚光灯跟着他来到舞台中央，在那里他小心翼翼地走过一条空荡荡的街道。他被允许越过聚光灯，聚光灯随着视角的转移而变暗，第二盏聚光灯重新成为焦点。舞台的左侧终于被照亮了，在那里，Arach开始照看一个庄园入口处的花园。风琴每隔一段时间就会停止哭泣，就在Arach咳嗽的时候，一旦他做完就会恢复哭泣。离开庄园时，一个衣着华丽的阿拉奇指着花园里的一朵花，显示它已经干瘪，已经死亡。他摘下它，在离开前把它扔到地上。园丁捡起那朵花，把它插在衣服里，然后继续他的工作。`
+			`	一旦他的工作完成，他就回到他的小屋，当他在舞台上移动时，聚光灯跟着他。一进屋，他就往一个小盒子里看，拿了一个简单的花瓶，把花放在里面。当他进入梦乡时，舞台上一片漆黑，钢琴声也停止了，只有偶尔的咳嗽声在整个剧院里回荡。当灯光再次来到棚屋时，阿拉奇慢慢起身，再次离开去工作，在一次剧烈的咳嗽中，他在舞台的街道部分停顿了一会儿。一旦他完成了工作并开始回家，他又开始咳嗽，每次都不会超过一秒钟的时间。在这期间，聚光灯过渡到舞台的下一个部分，钢琴弹出一个简短的音符。一进他的小屋，他就倒下了，在这个过程中撞倒了花瓶。钢琴演奏了几个缓慢的和弦，最后一束聚光灯在最后一个音符中熄灭。`
+			`	你听到窗帘关闭的声音，剧院的灯光再次打开，观众被一阵掌声所吸引。一旦他们安定下来，播音员再次上台。"就这样，结束了，我们的晚会是。感谢大家的光临，我，以剧院的名义，感谢大家的光临。"他低头鞠了一躬，再次离开舞台，这时观众席上几乎所有的观众都起身走向出口，这一次没有人再进来占座了。与此同时，管弦乐队也开始收拾他们的乐器。然而，有几个人仍然留在他们的座位上，包括马特鲁布。`
 			choice
-				`	(Stay.)`
+				`	(留下。)`
 					goto end
-				`	(Leave.)`
+				`	(离开。)`
 			label leave
-			`	You thank Matlub for inviting you here, and while she doesn't seem to pay you much mind, you can feel the gazes of other Arach patrons on you, whispering among themselves as you leave.`
+			`	你感谢马特鲁布邀请你来这里，虽然她似乎并不太在意你，但你能感觉到其他阿拉奇观众的目光在你身上，在你离开的时候，他们之间窃窃私语。`
 				decline
 			label end
-			`	The theater workers leave one after the other, leaving you and the other guests with an empty stage. After a while, the lights are turned off. A couple minutes later, however, you hear the curtains open, as some violins start to play in unison. Their music doesn't come from where the orchestra was seated, but as if they were all over the theater, behind you and even up on the balconies. A strong light comes from the stage, most of it blocked by a tall, dark figure. It isn't an actor, however, instead seeming to be made out of wooden parts kept up by thin wires you can barely spot when looking at the top of the stage. The violins' song is disrupted by dull, successive drum hits, at which point the figure moves, with its "arms" opening to the sides; it becomes even taller as it stands up. It is a humanoid creature, and it begins to slowly move around the stage, as if dancing in a pendulum. Cellos join in with the violin screams, and are followed by a choir, though you cannot understand their words. You do recognize, however, that it isn't being sung in any language of the Coalition.`
-			`	The creature appears to get closer to the audience, growing in size, and as the choir and instruments become more intense, it swings one of its arms upward and removes the wires. Despite this, it stays upright and continues to move. It brings both arms close and strikes its own head to form two small holes which the background light shines through. Then, it falls to its knees, with one arm reaching for the audience, as the light behind it turns off and the choir and music subside.`
-			`	The lights turn back on, revealing curtains still open, but nothing on the stage. A few workers come in to tidy up the place, and the remaining guests now get up to leave. "Enjoyed the soiree, have you, Captain?" Matlub asks, as she herself gets up to leave. "Come now, actually over, the show now is."`
+			`	剧院的工作人员相继离开，留给你和其他客人的是一个空荡荡的舞台。过了一会儿，灯光被关掉了。然而，几分钟后，你听到窗帘打开了，因为一些小提琴开始齐声演奏。他们的音乐不是从管弦乐队坐着的地方传来的，而是仿佛在剧院的各个角落，在你身后，甚至在阳台上。一束强光从舞台上射来，大部分被一个高大的黑暗身影挡住了。然而，这不是一个演员，而似乎是由木制部件组成的，由细线保持，你在看舞台顶部时几乎无法发现。小提琴的歌声被沉闷的、连续的鼓声打断，这时，这个身影移动了，它的 "手臂 "向两侧张开；当它站起来时，变得更高了。这是一个人形生物，它开始在舞台上慢慢移动，就像在一个钟摆上跳舞。大提琴加入到小提琴的尖叫声中，随后是一个合唱团，尽管你听不懂他们的话。然而，你确实认识到，这不是用联盟的任何语言唱出来的。`
+			`	这个生物似乎离观众越来越近，体型也越来越大，随着合唱团和乐器的声音越来越激烈，它的一只手臂向上挥动，拔掉了电线。尽管这样，它仍然保持直立，继续移动。它将两只手臂靠近，并敲击自己的头部，形成两个小孔，背景光透过这些小孔照射进来。然后，它跪倒在地，一只手伸向观众，这时它身后的灯光关闭，唱诗班和音乐消退。`
+			`	灯光重新亮起，显示出窗帘仍然打开，但舞台上什么也没有。几个工人进来整理场地，剩下的客人现在起身离开。"喜欢这个晚会吗，船长？"马特鲁布问道，她自己也站起来准备离开。"现在来吧，实际上已经结束了，现在的节目是。"`
 			choice
-				`	"What the hell was that thing?"`
-				`	"If it only ended now, why did that announcer come up after the third play to dismiss the guests?"`
-			`	She doesn't answer, heading straight for the exit. You follow her outside, and she guides you back to your ship. "Thankful for you accompanying me, I am, Captain. Safe travels, may you have."`
+				`	"那到底是什么东西？"`
+				`	"如果现在才结束，为什么那个播音员在第三场比赛后就上来解散客人？"`
+			`	她没有回答，径直朝出口走去。你跟着她出去，她引导你回到你的船上。"感谢你陪伴我，我是，船长。一路顺风，愿你拥有。"`
 				decline
 
 
@@ -143,93 +143,91 @@ mission "Coalition Folklore: Kimek"
 		attributes "folklore"
 	on offer
 		conversation
-			`A Kimek flags you down when you enter the spaceport. "Busy are you, Captain?" he asks. "Taking place today, a cultural festival is, and participate in it, anyone can. A reenactment of the old 'Spring Siege' folk tale, it is. Play the part of one of the characters, anyone can."`
+			`当你进入太空港时，一个基梅克人向你打招呼。"你很忙吗，船长？"他问道。"今天举行的是一个文化节，任何人都可以参加。这是一个古老的 "春季围攻 "民间故事的重演。扮演其中的一个角色，任何人都可以。"`
 			choice
-				`	"That sounds like fun. Where is it being held?"`
-				`	"Sorry, I'm too busy right now for that."`
+				`	"这听起来很有趣。它在哪里举行？"`
+				`	"对不起，我现在太忙了，没时间。"`
 					decline
-			`	He asks you to follow him, and the two of you board a train leading to another section of the city, where you exit the train at the edge of a large park. There, you see that many sets of camps dot the savanna plains, and an equal number of wooden forts stare down from the top of a long hill. Each "set" of fort and camp is separated from the others by many patches of vegetation that go up the hill.`
-			`	You follow the Kimek for a while longer until he finds you a pairing of camp and fort that have a vacant spot in either side. "Well Captain, choose a side to play as, you must. The hang of it, you will get, once started, the event has, but as a quick summary, take the 'crops' inside the fort before time runs out, the attacking team must. Prevent them from doing that, the defenders must. At the end, rewarded, the victors are."`
+			`	他让你跟着他，你们两个人登上一辆通往城市另一个区的火车，在一个大公园的边缘下了火车。在那里，你看到许多套营地点缀在草原上，同样数量的木制堡垒从一个长长的山顶上望下去。每套堡垒和营地都被山上的许多植被分隔开来。`
+			`	你跟着基梅克又走了一会儿，直到他给你找到一对营地和堡垒，这两边有一个空位。"好吧，队长，选择一个阵营来玩，你必须这样做。你会明白的，一旦开始，活动就有了，但作为一个快速的总结，在时间耗尽之前拿下堡垒内的'作物'，进攻队必须这样做。防守方必须阻止他们这样做。最后，获得奖励，胜利者是。"`
 			choice
-				`	"I'll join the attackers."`
+				`	"我将加入进攻方。"`
 					goto att
-				`	"I'll join the defenders."`
+				`	"我将加入防守方。"`
 					goto def
-				`	"Hang on, if this is a folk tale, how come you're reenacting it as if any side could win?"`
-			`	He chitters, as if expecting the question. "Witnessed by a minstrel, the battle was. Traveling on fields like these, he was, before the fort and the raider camp, he spotted in the distance. Hid himself in foliage close to the scene, he had, and writing and painting it as it happened, he was. When reached its climax, the battle had, swept up by the wind, many flowers were, and block his vision they did. Once settled down the wind had, over, the battle was. Spring it was, so 'Spring Siege' became the story's title."`
-			`	Seeing you have more questions now, he continues. "Silly and nonsensical at times, the story is. Know that, we do, and that simply looking to entertain a crowd, the minstrel was, but with all forms of classic tales, is that not the case?" He chitters some more, and looks at the group up on the hill and the other in the camp, before continuing. "Foreign as it might seem, participate in it, will you not? Perhaps like it, you might."`
+				`	"等等，如果这是一个民间故事，你怎么会把它重演得好像任何一方都能赢？"`
+			`	他喋喋不休，仿佛在期待着这个问题。"在一个吟游诗人的见证下，这场战斗是这样的。他在像这样的田野上旅行，在要塞和突袭者营地之前，他在远处发现了。他把自己藏在离现场很近的树叶里，并在发生时写下和画下它，他就是这样。当达到高潮时，战斗被风卷起，许多花被挡住了他的视线。一旦风平浪静，战斗就结束了。春天到了，所以'春天的围攻'成了故事的标题。"`
+			`	看到你现在有更多问题，他继续说。"这个故事有时很傻很无厘头。我们知道，我们知道，仅仅是为了娱乐大众，吟游诗人就是这样，但对于所有形式的经典故事，情况不就是这样吗？"他又唠叨了几句，看了看山上的那群人和营地里的其他人，然后继续说道。"尽管它看起来很陌生，但参与其中，你不愿意吗？也许你会喜欢它。"`
 			choice
-				`	"Alright, I'll join the attackers."`
+				`	"好吧，我加入攻击者的行列。"`
 					goto att
-				`	"Alright, I'll join the defenders."`
+				`	"好吧，我加入守军。"`
 			label def
-			`	He brings you to the small fort up the hill. Its gates open as those inside (mostly Kimek as expected, but also a couple Arachi and a lone Saryd) are still getting ready. A small "farm" sits in the middle, with plastic replicas serving as the crops. The walls of the fort are made of various tall logs, densely covered by tufts of vicious, reddish thorns nearly as long as your arm. Inside, you can see that a higher level with battlements is accessible via staircases on either side of the courtyard; you also notice that the defenders are all wearing a green strip of cloth over their clothing. Another Kimek organizer, wearing a rugged leather vest that you assume is the Kimek equivalent of medieval armor, comes to meet you both at the gate. He greets his colleague, who introduces you and says that you have chosen to join the defenders, before heading back down the hill.`
-			`	"Glad to have you as part of the garrison, our fort is," the armored Kimek begins. "Told about the enemy's objective, I assume you have been. Protect our farm, we must, so allow the produce to be stolen, we cannot." He tells you to follow him to the "keep," a shack too small for any non-Kimek, and gives you a long piece of green cloth. He then informs you that it is meant to be worn, so that others can tell what team you are on. As you wrap it around you like a scarf, you notice that, behind the shack, there is a smaller gate that grants entry to the fort. Once you're done, he gives you a brief tour of the rest of the fort, taking you up the battlements and above the main gate, where you see buckets of what at first appears to be water. Your guide informs you that the liquid inside is actually quite slick, and during the re-enactment, it is poured downhill to slow the attackers.`
-			`	Once he's done, he tells you to wait in the courtyard, as the "battle" will begin soon. A few minutes pass before a loud whistle blows, and the Kimek in charge of the fort tells everyone that the other side has begun their attack. The front gate is closed, and some of the defenders begin placing heavy objects behind to barricade it; others are already up by the battlements, waiting for the right time to use the buckets of slippery liquid.`
+			`	他把你带到山上的小堡垒。它的大门打开了，因为里面的人（正如预期的那样，大部分是基梅克，但也有几个阿拉奇和一个孤独的萨里德）仍在准备。一个小 "农场 "坐落在中间，用塑料复制品作为农作物。堡垒的墙壁是由各种高大的原木制成的，上面密布着一束束恶毒的淡红色荆棘，几乎有你手臂那么长。在里面，你可以看到，通过院子两边的楼梯可以进入一个带有垛口的较高楼层；你还注意到，守卫者的衣服上都穿着一条绿色的布条。另一位基姆人的组织者，穿着一件粗犷的皮背心，你认为这相当于基姆人的中世纪盔甲，在门口来迎接你们俩。他向他的同事打招呼，他介绍了你，并说你选择了加入保卫者，然后就往山下走去。`
+			`	"很高兴你能成为守军的一部分，我们的堡垒是，"身穿铠甲的基梅克开始说道。"被告知敌人的目标，我想你已经被告知了。保护我们的农场，我们必须，所以允许农产品被盗，我们不能。"他让你跟着他去 "守卫"，一个对任何非基梅克来说都太小的棚屋，并给你一块长长的绿布。然后他告诉你，这块布是用来穿的，这样别人就能知道你是哪一队的。当你把它像围巾一样缠在身上时，你注意到，在棚屋后面，有一个较小的门，可以进入堡垒。一旦你完成了，他就带你简要地参观堡垒的其余部分，带你到城垛上和大门上方，在那里你看到一桶桶乍看起来是水的东西。你的导游告诉你，里面的液体实际上是很滑的，在重演期间，它被倒在山下以减缓攻击者的速度。`
+			`	完成后，他告诉你在院子里等待，因为 "战斗 "很快就会开始。几分钟后，一声响亮的哨声响起，负责堡垒的基梅克告诉大家，对方已经开始进攻。前门已经关闭，一些守军开始在后面放置重物，以阻挡大门；其他人已经在城垛边上，等待时机使用滑溜溜的液体桶。`
 			choice
-				`	(Help reinforce the main gate.)`
+				`	(帮助加固主门。)`
 					goto defr
-				`	(Go help slow down the attackers.)`
+				`	(去帮助拖住进攻者。）`
 					goto defw
 			label defr
-			`	You join the others in gathering and moving heavy objects, and quickly find some crates behind the small shack, which a couple of Arachi help bring to the gate. Some Kimek take logs they find stashed under a staircase and bring them as well, burying one end in the ground with the other end against the door. The liquid poured on the attackers does slow them down for some minutes, but once you're done, they're already banging at the gate. Most of those inside the fort, particularly the Saryd that has joined in, head to the main gate to try and keep it closed, but a few Kimek head around the back to check on the smaller gate.`
+			`	你和其他人一起收集和搬运重物，并很快在小棚屋后面找到一些板条箱，几个阿拉奇帮忙把它们带到大门口。一些基米克人把他们在楼梯下发现的原木也拿了过来，把一头埋在地下，另一头靠在门上。浇在攻击者身上的液体确实让他们慢了几分钟，但一旦你完成了，他们就已经在敲打大门了。堡垒里的大多数人，特别是加入进来的萨里德，都去了主门，试图把它关上，但有几个基米克人绕到后面去查看小门。`
 			choice
-				`	(Help keep the main gate closed.)`
+				`	(帮助保持主门关闭。)`
 					goto defrw
-				`	(Go with the others and check the back gate.)`
-			`	Once you get to the back gate, you and the Kimek there stay quiet and try to listen for anyone approaching this side of the fort. Sure enough, you hear scuttling Kimek legs swishing through the grass as the attackers come circling around. Fortunately, not many came to this gate, so, with your help, your Kimek teammates don't have much trouble keeping the gate closed. Thanks to the main gate having been reinforced, the group there holds well enough that some more come to the back to help, and after some minutes of struggling with the attackers on the gate, another whistle is sounded. It marks that time has run out and that the defenders have won.`
+				`	(和其他人一起去检查后门。)`
+			`	一旦你到了后门，你和那里的Kimek保持安静，并试着倾听是否有人接近堡垒的这一边。果然，当攻击者绕道而行时，你听到窜动的Kimek腿嗖嗖地穿过草地。幸运的是，来到这道门前的人不多，所以，在你的帮助下，你的基梅克队友在保持大门关闭方面没有什么困难。由于主门得到了加固，那里的队伍保持得很好，还有一些人到后面来帮忙，在与门上的攻击者斗争了几分钟后，又响起了一声哨子。这标志着时间已经耗尽，守军已经获胜。`
 				goto won
 			label defrw
-			`	With the fortifications from earlier helping keep it shut, holding the main gate proves easy enough. After a few minutes pass, however, you hear a commotion from behind the shack. As you and others go there to check, you arrive to see the small gate open, the attackers, wearing blue sashes in place of your team's green, having already made their way inside. The whistle sounds again, marking the end of the battle and the victory of the attackers.`
+			`	有了先前的防御工事的帮助，守住主门证明是很容易的。然而，几分钟过去后，你听到棚屋后面传来一阵骚动。当你和其他人去那里查看时，你看到小门打开了，攻击者穿着蓝色的腰带，代替了你们队伍的绿色腰带，已经走了进去。哨声再次响起，标志着战斗的结束和攻击者的胜利。`
 				goto lost
 			label defw
-			`	You go up the stairs and are given one of the buckets with the slippery substance. You notice that the others up here are all Kimek and Arachi, however, and they are only pouring the liquid down directly in front of the gate. When you see some of the blue sash wearing attackers advancing from the sides, where the liquid hasn't been poured, you chuck a bucket their way. This leaves a line of the liquid on that side, and those attacking from there lose their footing, tripping and falling again and again. Once your teammates realize what you've done, they begin to egg you on, encouraging you to throw more buckets to cover the sides while they continue to drench the middle. Despite your efforts, however, the attackers do eventually make it up the hill and start banging at the gate. Most of those inside the fort, including the Saryd, head to the main gate to try and keep it closed, but some Kimek instead head around the back to check on the smaller gate.`
+			`	你上了楼梯，得到了一个装着滑溜溜物质的桶。不过你注意到，其他上来的都是基梅克和阿拉奇，他们只把液体倒在大门的正前方。当你看到一些戴着蓝色腰带的攻击者从侧面推进，那里的液体还没有被倒出来，你就向他们扔了一个桶。这就在那一边留下了一条液体线，那些从那里进攻的人就会失足，一次又一次地被绊倒和跌倒。一旦你的队友意识到你所做的一切，他们开始给你加油，鼓励你扔更多的桶来覆盖两侧，而他们则继续浇灌中间的地方。然而，尽管你努力，攻击者最终还是上了山，开始敲打大门。堡垒内的大多数人，包括萨里德，都前往主门，试图将其关闭，但一些基米克却绕到后面去检查小门。`
 			choice
-				`	(Help keep the main gate closed.)`
+				`	(帮助保持主门关闭。)`
 					goto defww
-				`	(Go with the others and check the back gate.)`
-			`	Once you get to the back gate, you and the Kimek there stay quiet and try to listen for anyone approaching this side of the fort. Sure enough, you hear scuttling Kimek legs swishing through the grass as the attackers come circling around. Fortunately, not many came to this gate, so, with your help, your Kimek teammates don't have much trouble keeping the gate closed. The group at the front gate isn't so lucky, however, and after a brief minute, the whistle sounds again. Your group comes back to the courtyard to find that the gate has been busted open and that the attackers with their blue sashes have won.`
+				`	(和其他人一起去检查后门。)`
+			`	一旦你到了后门，你和那里的Kimek保持安静，并试着倾听是否有人接近堡垒的这一边。果然，当攻击者绕道而来时，你听到窜动的Kimek腿嗖嗖地穿过草地。幸运的是，来到这道门前的人不多，所以，在你的帮助下，你的基梅克队友在保持大门关闭方面没有什么困难。然而，前门的小组就没那么幸运了，短暂的一分钟后，哨声再次响起。你的小组回到院子里，发现大门已经被撞开了，带着蓝腰带的攻击者已经获胜。`
 				goto lost
 			label defww
-			`	At first, holding the gate isn't too troublesome, but after a few minutes pass, it starts being pounded by some form of battering ram, and before long the group there can't hold it closed. At the same time, you hear a commotion from behind the shack, and as you and others go there to check, you arrive to see the small gate open. The attackers having made their way inside via both gates, the whistle sounds again, marking the end of the battle and the victory of the other side.`
+			`	起初，守住大门并不太麻烦，但几分钟过去后，大门开始被某种形式的撞锤敲击，没过多久，那里的小组就无法守住大门了。与此同时，你听到棚屋后面传来一阵骚动，当你和其他人去那里查看时，你看到小门打开了。攻击者通过两扇门进入后，哨声再次响起，标志着战斗的结束和另一方的胜利。`
 				goto lost
 			label att
-			`	He brings you to the nearby camp, where many Kimek, Arachi, and even a few Saryds are gathered for the event. Most of them are waiting in anticipation inside one of the tents, or looking up at the fort; all of them have long, blue strips of cloth over their own clothing. Once she notices you two, another Kimek organizer, donning what looks like a thin gambeson, comes to say hello. She greets her colleague, who then introduces you and tells her you have chosen to join the attackers, before leaving the camp to welcome a family who has come to watch the event.`
-			`	"Honored to have you fight alongside us, our company is," the armored Kimek begins. "Told about our objective, I assume you have been. Break into the fort, we must, before up the time is. Ten minutes, we have, once started, the battle has." She tells you to follow her to the "war tent," one that's slightly larger than the others around it. There she gives you a long piece of blue cloth and informs you that it is meant to be worn so that others can tell what team you are on. Wrapping it around your neck like a scarf while you look around the main tent, you see that there is a stumpy log reinforced with metal bits stored here, which the Kimek tells you will be used as a battering ram to force open the gates. She then has you follow her to the edge of the camp to show you the limits of this "set," which is marked by patches of vegetation meant to indicate the boundaries of the game. "Also, discourage anyone from trying it, the thorns should, but against the rules, it is, to crawl up the walls of the fort, so-" She pauses, looking at you as if just realizing that such a thing is impossible for you. "Sorry, out of habit, I said it. Participate in this event, not many groundlocked people do; few Saryds here I've met. Even fewer humans, as imagine, you can."`
-			`	Once she's done, she says you're free to roam the camp as you wait for the "battle" to begin. A few minutes pass before a loud whistle blows, and the Kimek in charge of the camp tells everyone that the time has come. She leads the charge up the hill, with most of those from the camp following her. Others split into smaller groups and instead move up along the trees that separate the sets, trying to approach the fort from the sides.`
+			`	他把你带到附近的营地，那里聚集了许多基梅克人、阿拉奇人，甚至还有一些萨利德人，都是为了这场活动。他们中的大多数人都在某个帐篷内期待着，或者仰望着要塞；他们都在自己的衣服上套着长长的蓝色布条。一旦她注意到你们两个，另一个基姆人组织者，穿着看起来像薄薄的赌博衫，来打招呼。她问候了她的同事，然后她介绍了你，并告诉她你选择了加入攻击者的行列，然后离开营地去迎接一个前来观看的家庭。`
+			`	"很荣幸能让你与我们并肩作战，我们公司是，"身着铠甲的基梅克开始说道。"被告知我们的目标，我想你已经被告知了。闯入堡垒，我们必须，在时间到之前。10分钟，我们有，一旦开始，战斗就有。"她让你跟着她去 "战争帐篷"，一个比周围其他帐篷稍大的帐篷。在那里，她给了你一块长长的蓝布，并告诉你，这是要戴着的，这样别人就能知道你是哪一队的。你把它像围巾一样缠在脖子上，同时环顾主帐篷，你看到这里存放着一根用金属碎片加固的矮木头，基梅克告诉你，它将被用作强行打开大门的攻城锤。然后她让你跟着她走到营地的边缘，向你展示这个 "场景 "的界限，它由成片的植被标记，旨在表明游戏的边界。"另外，劝阻任何人不要尝试，荆棘应该，但违反规则，是，爬上堡垒的墙壁，所以--"她停顿了一下，看着你，似乎才意识到这样的事情对你来说是不可能的。"对不起，出于习惯，我说了。参加这个活动，没有多少地锁人做；这里的萨里德人我见过的很少。甚至更少的人类，正如想象的那样，你可以。"`
+			`	她一说完，就说你可以在营地里自由活动，等待 "战斗 "开始。几分钟后，一声响亮的哨声响起，负责营地的基梅克告诉大家，时间到了。她带头冲上山头，营地里的大多数人都跟着她。其他的人分成小队，而是沿着分隔各组的树木向上移动，试图从两侧接近要塞。`
 			choice
-				`	(Charge with the main group.)`
+				`	(与大部队一起冲锋。)`
 					goto attw
-				`	(Take the longer side route.)`
+				`	(走较长的侧边路线。)`
 					goto attr
 			label attw
-			`	You follow the lead of the Kimek and start to run straight up the hill, directly at the fort. Once you get closer, however, you see the defenders, garbed in strips of green cloth as opposed to your blue, pouring out buckets of what looks like water. As it flows down the hill to meet your steps, though, you immediately lose your balance and your feet slip out from under you, and you slide a short distance back down the hill. You get up, but, try it as you may, you cannot find stable footing in the wet grass, instead having to step on the few tufts that have grown too high for the liquid to cover them. Even with all their legs, the Kimek and Saryds fare no better, and find themselves in similar trouble, losing their balance again and again. Only the Arachi can press onward, digging down into the dirt beneath the grass with half their legs at each step. They slowly but surely help you and the others move up, and eventually you reach the gate, only to find that the groups that came from the sides are already working on busting it open. You can also see what the Kimek meant when she spoke of "thorns;" tufts of vicious, reddish barbs nearly as long as your arm cover the logs that make up the walls.`
+			`	你跟随基梅克的脚步，开始直接跑上山，直接冲向要塞。然而，一旦你走近，你就会看到守卫者，穿着绿色的布条，而不是你的蓝色布条，倒出一桶桶看起来像水的东西。不过，当它流下山来迎接你的脚步时，你立即失去了平衡，你的脚从你脚下滑了出去，你又滑下山去了一小段距离。你站了起来，但是，无论你怎么努力，你都无法在湿漉漉的草地上找到稳定的立足点，而是不得不踩在已经长得太高而液体无法覆盖的几根草上。即使有了所有的腿，基梅克和萨里德的情况也没有好转，他们发现自己也遇到了类似的麻烦，一次又一次地失去平衡。只有阿拉奇能继续前进，每一步都用半条腿挖着草下面的土。他们缓慢但肯定地帮助你和其他人往上走，最终你到达了大门，却发现从两边来的那群人已经在努力把它撞开。你也可以看到Kimek说的 "荆棘 "是什么意思；一束束恶毒的、带红色的倒刺几乎和你的手臂一样长，覆盖在构成墙壁的原木上。`
 			choice
-				`	(Try and find another way in.)`
+				`	(试着找另一条路进去。）`
 					goto attwr
-				`	(Help the others bust the gate open.)`
-			`	You start pushing along with the others, the Saryds joining you from below, and the Kimek and Arachi crawling up to push at the top of the gate. They take turns with each others when one gets tired so that someone is always pushing, even though their attempts aren't the most effective. After a while, you hear a cracking noise, and the gate finally begins budging slightly, as if something barricading it had broken off. As the latecomers of the main force come up, bringing with them the battering ram, everyone makes way for them to begin hammering it against the gate. The gate shudders with each hit and gradually begins to give even more, but even the battering ram team cannot break through fast enough as the whistle from the start of the event sounds again. Evidently this means that time has run out, and the defenders have won.`
+				`	(帮助其他人把门撞开。)`
+			`	你开始和其他人一起推，萨里德人从下面加入你，基梅克人和阿拉奇人爬上来，在门的顶部推。当一个人累了的时候，他们就轮流推，这样总有人在推，尽管他们的尝试并不是最有效的。过了一会儿，你听到一阵破裂的声音，大门终于开始微微动弹，好像有什么东西挡住了它。当主力部队的后来者上来时，他们带来了攻城锤，每个人都为他们让路，开始用攻城锤敲打大门。大门每敲一下都会颤抖一下，并逐渐开始变得更加脆弱，但即使是撞锤队也无法快速突破，因为活动开始的哨声再次响起。显而易见，这意味着时间已经用完，防守方已经获胜。`
 				goto lost
 			label attwr
-			`	You and a part of the group stick close to the walls and follow along them to the other side, careful not to scratch yourself on the thorns along the fort. You soon find another, smaller gate, and begin pushing. Unlike what you can see of the efforts you left at the main gate, you can feel this one budging immediately, and there is no slick ground to worry about. Once they realize the vulnerability of this gate, the Saryds in the group ask others to move out of the way. You are a bit startled as they suddenly charge it in unison, almost forcing it open with a single concerted effort. More defenders come to hold it, though, and the gate becomes increasingly difficult to move any further. One Arach heads back to the main group to call for more help, but when they arrive, so do more defenders. The struggle continues for many minutes, with the attackers alongside you unable to make a final breakthrough. The whistle sounds again, marking the end of the battle, announcing that the defenders have won.`
+			`	你和一部分人紧贴着城墙，沿着城墙走到另一边，小心不要被堡垒边的荆棘划伤。你很快就找到了另一个更小的门，并开始推动。与你在主门所看到的努力不同，你能感觉到这扇门马上就能动了，而且没有光滑的地面需要担心。一旦他们意识到这扇门的脆弱性，队伍中的萨里德人就会要求其他人让开。你有点吃惊，因为他们突然齐心协力地冲向它，几乎是齐心协力地迫使它打开。不过，更多的守卫者来守住它，大门变得越来越难以进一步移动。一个Arach人回到大部队中呼叫更多的帮助，但当他们到达时，更多的防御者也来了。斗争持续了许多分钟，与你并肩作战的攻击者无法取得最后的突破。哨声再次响起，标志着战斗的结束，宣布保卫者已经获胜。`
 				goto lost
 			label attr
-			`	You follow a group to the edges of this set, losing some time before beginning your run up the hill. Once you finally start making your way up, you turn to see the main group repeatedly tripping and falling back. It seems the defenders, who are wearing green identifiers instead of blue, are pouring some slippery liquid down from the battlements above the gate, slowing those that are coming along a direct path. You reach the top while the main force still struggles, and your group makes its way to the gate. On your way, you see what the Kimek meant when she spoke of "thorns," with closely-spaced tufts of vicious, reddish barbs nearly as long as your arm covering the logs that make up the walls. You reach the gate, but as you push and push, it refuses to budge even the slightest bit, clearly having been barricaded from the inside. The main group eventually catches up to you, but even with many more people pushing now, the gate still holds firm and unmoving.`
+			`	你跟着一组人来到这组人的边缘，在开始向山上跑之前，你失去了一些时间。当你终于开始往上走时，你转身看到大部队一再被绊倒，往后退。似乎那些穿着绿色而不是蓝色标识的守卫者正在从大门上方的垛口倾倒一些滑溜溜的液体，以减缓那些沿着直接路径而来的人。当主力部队还在挣扎时，你就到达了顶部，你的队伍向大门走去。在路上，你看到基梅克说的 "荆棘 "是什么意思，密密麻麻的恶性红色倒刺几乎和你的手臂一样长，覆盖在构成城墙的原木上。你走到门前，但当你推来推去时，它连一丝一毫都不肯动，显然是被人从里面拦住了。大队人马最终追上了你，但即使现在有更多人在推，大门仍然岿然不动。`
 			choice
-				`	(Try and find another way in.)`
+				`	(试着找另一条路进去。）`
 					goto attrr
-				`	(Continue trying to bust the gate open.)`
-			`	You start pushing along with the others, the Saryds joining you from below, and the Kimek and Arachi crawling up to push at the top of the gate. They take turns with each others when one gets tired so that someone is always pushing, even though their attempts aren't the most effective. After a while, you hear a cracking noise, and the gate finally begins budging slightly, as if something barricading it had broken off. As the latecomers of the main force come up, bringing with them the battering ram, everyone makes way for them to begin hammering it against the gate. The gate shudders with each hit and gradually begins to give even more, but even the battering ram team cannot break through fast enough as the whistle from the start of the event sounds again. Evidently this means that time has run out, and the defenders have won.`
+				`	(继续尝试把门撞开）。`
+			`	你开始和其他人一起推，萨里德人从下面加入你，基梅克人和阿拉奇人爬上来，在门的顶部推。当一个人累了的时候，他们就轮流推，这样总有人在推，尽管他们的尝试并不是最有效的。过了一会儿，你听到一阵破裂的声音，大门终于开始微微动弹，好像有什么东西挡住了它。当主力部队的后来者上来时，他们带来了攻城锤，每个人都为他们让路，开始用攻城锤敲打大门。大门每敲一下都会颤抖一下，并逐渐开始变得更加脆弱，但即使是撞锤队也无法快速突破，因为活动开始的哨声再次响起。显而易见，这意味着时间已经用完，防守方已经获胜。`
 				goto lost
 			label attrr
-			`	You and a part of the group stick close to the walls and follow along them to the other side, careful not to scratch yourself on the thorns along the fort. You soon find another, smaller gate, and begin pushing. Unlike what you can see of the efforts you left at the main gate, you can feel this one budging immediately, and there is no slick ground to worry about. Once they realize the vulnerability of this gate, the Saryds in the group ask others to move out of the way. You are a bit startled as they suddenly charge it in unison, almost forcing it open with a single concerted effort. More defenders come to hold it, though, and the gate becomes increasingly difficult to move any further. One Arach heads back to the main group to call for more help, but when they arrive, so do more defenders. The struggle continues for a while, before you hear loud bangs from the other side of the fort. The Kimek organizer comes around the back to tell everyone to return to the main entrance. As you come to the main gate, you see the battering ram has forced the main gate open, something that must've been made easier with so many leaving it unguarded to instead defend the back gate. With that, the whistle sounds again, marking the end of the battle, announcing that the attackers have won.`
+			`	你和一部分人紧贴着墙壁，沿着墙壁走到另一边，小心不要被堡垒边的荆棘划伤。你很快就找到了另一扇较小的门，并开始推动。与你在主门所看到的努力不同，你能感觉到这扇门马上就能动了，而且没有光滑的地面需要担心。一旦他们意识到这扇门的脆弱性，队伍中的萨里德人就会要求其他人让开。你有点吃惊，因为他们突然齐心协力地冲向它，几乎是齐心协力地迫使它打开。不过，更多的守卫者来守住它，大门变得越来越难以进一步移动。一个Arach人回到大部队中呼叫更多的帮助，但当他们到达时，更多的防御者也来了。斗争持续了一段时间，然后你听到堡垒的另一边传来巨大的撞击声。基梅克组织者从后面绕过来，告诉大家返回主门。当你来到主门前时，你看到撞锤已经迫使主门打开了，这么多的人离开主门不加防守，转而防守后门，这一定是件很容易的事。这时，哨声再次响起，标志着战斗的结束，宣布进攻者已经获胜。`
 			label won
-			`	The Kimek organizer in charge of your side starts a cheer, which quickly spreads to the others. After the leaders of both teams meet to greet each other, everyone is asked to return the colored cloth they were given and make their way down the hill. Your group is pointed to a nearby building to wash off any dirt, if needed. Once you're all cleaned up, you head back to the camp, where the Kimek who brought you here is waiting to guide your group to many short tables with plates on them; apparently, the reward for winning is a feast. As most of those who participate are Kimek, almost all of the food comes the way they prefer it: a soupy, half-digested mess. Thankfully there are a few meals prepared the way the other species like them, meaning you can pick one prepared for Saryds; their meals are the closest you can get to human cuisine here.`
-			`	The Saryd first course offered consists of many cooked vegetables, arranged in a little mound on the plate, with a thin trail of steam still coming from them. Talking with the organizers, you learn that the meals are meant to represent the produce of the fort's "farm," and that those who win earn the right to the banquet. Once you're done eating, you return to where the train dropped you off and get on the next one heading back to the spaceport.`
+			`	负责你方的基梅克组织者开始欢呼，并迅速传给其他人。在两队的领导人见面互相问候后，每个人都被要求归还他们得到的彩布，然后下山。如果需要的话，你的小组会被指到附近的建筑物里去洗掉任何污垢。一旦你们都洗干净了，你们就回到营地，带你们来的基梅克在那里等着引导你们的队伍到许多摆着盘子的矮桌前；显然，获胜的奖励是一场大餐。由于大多数参加宴会的人都是基梅克人，几乎所有的食物都是他们喜欢的方式：汤状的、半消化的烂东西。值得庆幸的是，有几道饭菜是按照其他物种喜欢的方式准备的，这意味着你可以挑选一道为萨里德准备的饭菜；他们的饭菜是你在这里能得到的最接近人类的美食。`
+			`	萨里德人提供的第一道菜由许多煮熟的蔬菜组成，在盘子里摆成一个小丘，上面还冒着薄薄的蒸汽。与组织者交谈时，你了解到这些饭菜是为了代表要塞 "农场 "的产品，而那些获胜的人则赢得了参加宴会的权利。吃完后，你回到火车停靠的地方，坐上下一辆火车返回太空港。`
 				decline
 			label lost
-			`	The Kimek organizer of the other side starts a cheer, which quickly spreads to the others. After the leaders of both teams meet to greet each other, everyone is asked to return the colored cloth they were given and make their way down the hill. Your group is pointed to a nearby building to wash off any dirt, if needed. Once you're all cleaned up, the Kimek who brought you here is waiting by the camp to guide your opponents to many short tables with plates on them; apparently, the reward for winning is a feast. "A shame it is, that lost the battle your team has," he says. "But hopefully, still fun with the event you had."`
-			`	Before he leaves with the victors, he explains a bit more about the event, telling you that the meals that will be served at the banquet are meant to represent the produce of the fort's "farm," and that those who win earn the right to it. Finally, he thanks you for participating, and goes with the winners to the tables. You return to where the train dropped you off and get on the next one heading back to the spaceport.`
+			`	对方的基梅克组织者开始欢呼，很快就传遍了其他人。在两队的领导人见面互相问候后，每个人都被要求归还他们得到的彩布，然后下山。如果需要的话，你的小组会被指到附近的建筑物里去洗掉任何污垢。一旦你们都洗干净了，把你们带到这里的基梅克就在营地边上等着，引导你们的对手到许多摆着盘子的矮桌前；显然，获胜的奖励是一场大餐。"很遗憾，那是失去了你的团队的战斗，"他说。"但希望，对你的活动仍有乐趣。"`
+			`	在他带着胜利者离开之前，他又解释了一下这次活动，告诉你宴会上的饭菜是为了代表要塞 "农场 "的产品，而那些获胜者赢得了享用的权利。最后，他感谢你的参与，并和获胜者一起去了餐桌。你回到火车送你的地方，坐上下一辆火车返回太空港。`
 				decline
-
-

@@ -47,8 +47,8 @@ ship "Subsidurial"
 	leak "blood" 30 50
 	explode "blood" 45
 	"final explode" "subsidurial death"
-	description "It is unclear what these creatures are, where they come from, or how they evolved. Scientists have dissected several, but so far the results have simply been that these creatures contain no materials or resources of value; are not even slightly edible, and are too big to be kept as pets."
-	description "	To date, none have demonstrated any sign of sapience, and the few captains who have seen them basically consider them to be the bison of space."
+	description "目前还不清楚这些生物是什么，它们来自哪里，或者它们是如何进化的。科学家们已经解剖了几个，但到目前为止，结果仅仅是这些生物不包含任何有价值的材料或资源；甚至没有一点可食用性，而且太大，不能作为宠物饲养。"
+	description "	到目前为止，没有一个人表现出有智慧的迹象，少数见过它们的船长基本上认为它们是太空中的野牛。"
 
 effect "subsidurial death"
 	sprite "effect/subsidurial death/subsidurial death"
@@ -96,7 +96,7 @@ ship "Void Sprite"
 	leak "blood" 40 40
 	explode "blood" 40
 	"final explode" "void sprite adult death"
-	description "The void sprites are an enigmatic species under the watchful gaze of the Archon originally discovered in the Nenia system. The species' connection is unknown, but the Archon seem particularly protective of them."
+	description "虚空精灵是一个神秘的物种，在大帝的注视下，最初是在尼尼亚系统发现的。该物种的关系不明，但大帝似乎对它们特别保护。"
 
 effect "blood"
 	sprite "effect/blood"
@@ -152,7 +152,7 @@ ship "Void Sprite" "Void Sprite (Infant)"
 	leak "blood" 60 50
 	explode "blood" 25
 	"final explode" "void sprite infant death"
-	description "This is the immature form of the void sprite. While they typically rely on their tendrils and natural buoyancy to fly within atmospheres, they have demonstrated the unusual ability to manipulate gravitational fields to propel themselves off-world."
+	description "这是虚空精灵的未成熟形态。虽然它们通常依靠卷须和天然的浮力在大气层内飞行，但它们已经展示了操纵引力场来推动自己离开世界的不寻常能力。"
 
 effect "void sprite infant death"
 	sprite "effect/void sprite infant death"
@@ -216,8 +216,8 @@ ship "Ember Waste Node"
 	leak "blood" 40 40
 	explode "blood" 40
 	"final explode" "void sprite adult death"
-	description "This unusual creature, first spotted in Postverta, seems to have an affinity for void sprites and is usually found close to them. This 'Ember Waste Node,' as it is being called, bears a superficial resemblance to void sprites but is clearly a different species. The Node demonstrates an ability to manipulate energy fields to create shield-like structures around itself. Most remarkably, it has been seen appearing and disappearing with an energy signature reminiscent of jump drives."
-	description "Although the Node's cloaking power is believed to be connected to its other energy manipulation abilities, the exact method is unknown."
+	description `这种不寻常的生物首次出现在Postverta，似乎对虚空精灵有一种亲和力，通常在它们附近被发现。这种被称为 "微光废墟节点 "的东西，表面上与虚空精灵很相似，但显然是一个不同的物种。该节点展示了一种操纵能量场的能力，在其周围创造出类似于盾牌的结构。最值得注意的是，它已经被看到出现和消失，其能量特征让人联想到跳跃驱动器。`
+	description "尽管节点的隐身能力被认为与它的其他能量操纵能力有关，但具体方法尚不清楚。"
 
 
 
@@ -257,7 +257,7 @@ ship "Embershade"
 	gun 6 -107
 	leak "blood" 40 40
 	explode "blood" 40
-	description "Long regarded as mere ghost stories, the ray-like Embershades have finally been proven to exist thanks to recent generations of ion storm resistant sensor suites. Shy by nature, these creatures generate a natural cloaking field and prefer to move unseen."
+	description "长期以来，像射线一样的微光罩被认为只是鬼故事，但由于最近几代的抗离子风暴传感器套件，最终被证明是存在的。这些生物天生就很害羞，它们会产生一个天然的隐身场，更喜欢在不被发现的情况下行动。"
 
 
 
@@ -298,7 +298,7 @@ ship "Embersylph"
 	turret 0 0 "Absorption Organ"
 	leak "blood" 2
 	explode "blood" 1
-	description "Ember Ray."
+	description "琥珀射线。"
 
 
 
@@ -488,19 +488,19 @@ fleet "Embersylphs"
 
 phrase "unknown entity"
 	word
-		"Unknown"
-		"Strange"
-		"Novel"
-		"Unrecognized"
-		"Exotic"
-		"Unidentified"
-		"Unresolved"
+		"未知"
+		"奇异"
+		"小说"
+		"不被承认的"
+		"异国情调"
+		"未识别的"
+		"未解决的"
 	word
 		" "
 	word
-		"Entity"
-		"Creature"
-		"Being"
-		"Lifeform"
-		"Organism"
-		"Thing"
+		"实体"
+		"生物"
+		"生物"
+		"生命体"
+		"有机体"
+		"物体"

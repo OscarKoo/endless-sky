@@ -57,7 +57,7 @@ ship "Pincer Beast"
 	leak "blood" -40 -20
 	explode "blood" 45
 	"final explode" "pincer beast shatter"
-	description `This creature appears to have an outer shell made of small asteroids held together by strands of carbon nanotubes. It pulls rocks through arms into its main cavity where it processes them to make more shell. The multi-colored hairs pointing back seem to be a drive system of sorts, manipulating the gravity field around the creature to accelerate it. There is no apparent hyperdrive mechanism, but somehow it is able to open a hyperspace window.`
+	description `这种生物似乎有一个由小行星组成的外壳，并由碳纳米管链固定在一起。它通过手臂将岩石拉到它的主腔中，在那里处理它们以制造更多的外壳。指向后面的多色毛发似乎是某种驱动系统，操纵生物周围的重力场来加速它。没有明显的超驱动机制，但不知为何，它能够打开一个超空间窗口。`
 
 effect "pincer beast shatter"
 	sprite "effect/pincer beast shatter"

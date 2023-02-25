@@ -1,501 +1,501 @@
 # Outfit and ship attributes:
 tip "active cooling:"
-	`Provides up to this amount of cooling per second. Active cooling requires energy, but if your heat level is low it runs at a lower cooling rate and lower energy draw. The amount of cooling is proportional to the temperature of your ship, reaching the full level only if you are about to overheat.`
+	`每秒钟提供多达这个数量的冷却。主动冷却需要能量，但如果你的热度很低，它就会以较低的冷却速率和较低的能量消耗运行。冷却量与你的飞船的温度成正比，只有在你即将过热时才会达到满级。`
 
 tip "afterburner energy:"
-	`Energy consumed per second when firing this afterburner.`
+	`发射该后燃器时，每秒消耗的能量。`
 
 tip "afterburner shields:"
-	`Shields displaced, consumed, or destroyed, per second when firing this afterburner.`
+	`发射此后燃器时，每秒的护盾位移、消耗或破坏。`
 
 tip "afterburner hull:"
-	`Hull that flakes off, breaks apart, or is otherwise compromised, per second when firing this afterburner.`
+	`发射此后燃器时，船体剥落、破裂或受到其他损害，每秒钟。`
 
 tip "afterburner fuel:"
-	`Fuel consumed per second when firing this afterburner.`
+	`发射此后燃器时，每秒消耗的燃料。`
 
 tip "afterburner discharge:"
-	`Accumulated shield discharging per second when firing this afterburner.`
+	`发射该加力燃烧器时，累积的防护罩放电每秒。`
 
 tip "afterburner corrosion:"
-	`Accumulated hull corrosion per second when firing this afterburner.`
+	`发射此加力燃烧器时，累积的船体腐蚀每秒。`
 
 tip "afterburner ion:"
-	`Accumulated ionization per second when firing this afterburner.`
+	`发射此加力燃烧器时，电离的累积每秒。`
 
 tip "afterburner scramble:"
-	`Accumulated scrambling per second when firing this afterburner.`
+	`发射此加力燃烧器时，每秒累积的扰动量。`
 
 tip "afterburner leakage:"
-	`Accumulated leaking fuel per second when firing this afterburner.`
+	`发射此加力燃烧器时，每秒钟累积泄漏的燃料。`
 
 tip "afterburner burn:"
-	`Accumulated exothermic interactions per second when firing this afterburner.`
+	`当发射该加力燃烧器时，每秒钟累积的放热相互作用。`
 
 tip "afterburner slowing:"
-	`Accumulated engine interference per second when firing this afterburner.`
+	`发射此加力燃烧器时，每秒累积的引擎干扰。`
 
 tip "afterburner disruption:"
-	`Accumulated shield interference per second when firing this afterburner.`
+	`发射此加力燃烧器时，每秒钟累积的防护罩干扰。`
 
 tip "afterburner heat:"
-	`Heat created per second when firing this afterburner.`
+	`发射该加力燃烧器时，每秒产生的热量。`
 
 tip "afterburner thrust:"
-	`Thrust produced by this afterburner.`
+	`该后燃器产生的推力。`
 
 tip "asteroid scan power:"
-	`The range of this asteroid scanner is proportional to the square root of this value.`
+	`该小行星扫描器的范围与该值的平方根成正比。`
 
 tip "atmosphere scan:"
-	`This type of scanning cannot be performed by your ship, but this outfit might be useful for certain missions.`
+	`这种类型的扫描不能由你的飞船执行，但这种装备对某些任务可能是有用的。`
 
 tip "bunks:"
-	`How many people (passengers or crew) your ship can hold.`
+	`你的飞船可以容纳多少人（乘客或船员）。`
 
 tip "burn protection:"
-	`Protection against weapons that have a burn effect. If you add more than one outfit with this attribute, each additional one is less effective: a total value of 1 results in a 1 percent reduction in burn damage, while a total value of 11 only results in a 10 percent reduction.`
+	`对具有燃烧效果的武器的保护。如果你添加了一个以上具有此属性的装备，每一个额外的装备的效果都会降低：总值为1会导致燃烧伤害降低1%，而总值为11只会导致降低10%。`
 
 tip "burn resistance:"
-	`How much burn damage this ship can resist per second.`
+	`这艘船每秒能抵御多少燃烧伤害。`
 
 tip "burn resistance energy:"
-	`Energy consumed per second when resisting burn damage.`
+	`抵御燃烧伤害时每秒消耗的能量。`
 
 tip "burn resistance fuel:"
-	`Fuel consumed per second when resisting burn damage.`
+	`在抵抗燃烧伤害时，每秒消耗的燃料。`
 
 tip "burn resistance heat:"
-	`Heat generated per second when resisting burn damage.`
+	`抵御燃烧伤害时每秒产生的热量。`
 
 tip "capture attack:"
-	`Increases the "strength" of one crew member when attacking another ship to capture it. Each crew member can only wield one weapon at a time, but they will use whichever weapons provide the highest power.`
+	`增加一名船员在攻击另一艘船以捕获它时的 "力量"。每个船员一次只能使用一种武器，但他们将使用提供最高能量的武器。`
 
 tip "capture defense:"
-	`Increases the "strength" of one crew member when defending against an attempt to capture this ship. Each crew member can only wield one weapon at a time, but they will use whichever weapons provide the highest power.`
+	`在抵御企图夺取该船的行为时，增加一名船员的 "力量"。每个船员一次只能使用一种武器，但他们将使用提供最高能量的武器。`
 
 tip "cargo scan:"
-	`Lets you scan your target ship's cargo from up to this distance away.`
+	`让你在这个距离内扫描你的目标船的货物。`
 
 tip "cargo scan power:"
-	`The range of this cargo scanner is proportional to the square root of this value.`
+	`这个货物扫描器的范围与这个数值的平方根成正比。`
 
 tip "cargo scan speed:"
-	`Determines how long it takes to perform a cargo scan. A higher value will correspond to a quicker scan.`
+	`决定了进行货物扫描的时间。较高的数值对应于较快的扫描。`
 
 tip "cargo scan efficiency:"
-	`The maximum speed of this cargo scanner is proportional to the square root of this value. The observed scan speed will be impacted by multiple factors. Targets which are farther away or have a larger cargo hold will take longer to scan.`
+	`该货物扫描仪的最大速度与该值的平方根成正比。观察到的扫描速度将受到多种因素的影响。距离较远或有较大货舱的目标将需要更长的时间来扫描。`
 
 tip "cargo:"
 	`这艘船现在装载的货物，超出了它的最大限度。`
 
 tip "cargo space:"
-	`How much cargo (commodities, mission cargo, and plundered outfits) this ship can carry.`
+	`这艘船可以携带多少货物（商品、任务货物和被掠夺的装备）。`
 
 tip "cargo space needed:"
-	`How much cargo space this outfit uses up.`
+	`这套装备会占用多少货物空间。`
 
 tip "cloak:"
-	`This outfit allows your ship to cloak. The value represents how long it takes to fully activate or deactivate cloaking. Ships cannot fire while cloaked.`
+	`这套装备可以让你的飞船隐身。该值代表了完全激活或关闭隐身所需的时间。隐身状态下的飞船不能开火。`
 
 tip "cloaking energy:"
-	`Energy per second required to maintain cloaking.`
+	`维持隐身状态所需的能量每秒。`
 
 tip "cloaking fuel:"
-	`Fuel per second required to maintain cloaking.`
+	`维持隐身状态所需的燃料/秒。`
 	
 tip "cloaking heat:"
-	`Heat generated per second while cloaked.`
+	`隐身时每秒产生的热量。`
 
 tip "cooling:"
-	`Reduces heat by this amount per second. This is for when your ship's built-in heat dissipation is not sufficient to keep it from overheating.`
+	`每秒减少此数量的热量。这是当你的飞船的内置散热系统不足以防止过热时使用的。`
 
 tip "cooling energy:"
-	`When active cooling is running at full strength (because your ship's temperature is approaching the overheating threshold) it will draw this much energy.`
+	`当主动冷却全力运行时（因为你的飞船温度接近过热阈值），它将消耗这么多能量。`
 
 tip "cooling inefficiency:"
-	`Interferes with your ship's ability to cool itself. Its cooling systems will only be about 75% effective at a cooling inefficiency of 5, and 30% at an inefficiency of 10.`
+	`干扰了你的飞船的自我冷却能力。在冷却效率为5的情况下，它的冷却系统将只有大约75%的效率，而在冷却效率为10的情况下，只有30%的效率。`
 
 tip "corrosion protection:"
-	`Protection against weapons that have a corrosion effect. If you add more than one outfit with this attribute, each additional one is less effective: a total value of 1 results in a 1 percent reduction in corrosion damage, while a total value of 11 only results in a 10 percent reduction.`
+	`对具有腐蚀效果的武器的保护。如果你增加了一个以上的具有这种属性的装备，每增加一个都会降低效果：总数值为1会导致腐蚀伤害降低1%，而总数值为11只会导致10%的降低。`
 
 tip "corrosion resistance:"
-	`How much corrosion damage this ship can resist per second.`
+	`这艘船每秒能抵御多少腐蚀伤害。`
 
 tip "corrosion resistance energy:"
-	`Energy consumed per second when resisting corrosion damage.`
+	`抵御腐蚀伤害时，每秒消耗的能量。`
 
 tip "corrosion resistance fuel:"
-	`Fuel consumed per second when resisting corrosion damage.`
+	`抵御腐蚀损害时，每秒消耗的燃料。`
 
 tip "corrosion resistance heat:"
-	`Heat generated per second when resisting corrosion damage.`
+	`抵御腐蚀伤害时，每秒产生的热量。`
 
 tip "cost:"
 	`成本，以信用为单位。如果你今天卖掉了任何用过的（折旧的）物品，你可以用卖掉的同样价格买回来。`
 
 tip "discharge protection:"
-	`Protection against weapons that have a discharge effect. If you add more than one outfit with this attribute, each additional one is less effective: a total value of 1 results in a 1 percent reduction in discharge damage, while a total value of 11 only results in a 10 percent reduction.`
+	`对有放电效果的武器的保护。如果你增加一个以上的具有此属性的装备，每增加一个都会降低效果：总值为1会导致放电伤害减少1%，而总值为11只会导致减少10%。`
 
 tip "discharge resistance:"
-	`How much shield discharge damage this ship can resist per second.`
+	`这艘船每秒能抵御多少护盾放电伤害。`
 
 tip "discharge resistance energy:"
-	`Energy consumed per second when resisting discharge damage.`
+	`抵御放电伤害时每秒消耗的能量。`
 
 tip "discharge resistance fuel:"
-	`Fuel consumed per second when resisting discharge damage.`
+	`抵御放电伤害时，每秒消耗的燃料。`
 
 tip "discharge resistance heat:"
-	`Heat generated per second when resisting discharge damage.`
+	`抵御放电伤害时，每秒产生的热量。`
 
 tip "disruption protection:"
-	`Protection against weapons that have a disruption effect. If you add more than one outfit with this attribute, each additional one is less effective: a total value of 1 results in a 1 percent reduction in disruption damage, while a total value of 11 only results in a 10 percent reduction.`
+	`对具有破坏效果的武器的保护。如果你增加一个以上的具有此属性的装备，每增加一个都会降低其效果：总值为1会导致干扰伤害减少1%，而总值为11只会导致减少10%。`
 
 tip "disruption resistance:"
-	`How much shield disruption damage this ship can resist per second.`
+	`这艘船每秒能抵御多少防护罩破坏伤害。`
 
 tip "disruption resistance energy:"
-	`Energy consumed per second when resisting disruption damage.`
+	`抵御干扰伤害时每秒消耗的能量。`
 
 tip "disruption resistance fuel:"
-	`Fuel consumed per second when resisting disruption damage.`
+	`抵抗干扰伤害时，每秒消耗的燃料。`
 
 tip "disruption resistance heat:"
-	`Heat generated per second when resisting disruption damage.`
+	`抵抗干扰伤害时，每秒产生的热量。`
 
 tip "drag:"
-	`Limits the maximum speed of a ship.`
+	`限制飞船的最大速度。`
 	
 tip "drag reduction:"
-	`Reduces drag. If you add more than one outfit with this attribute, each additional one is less effective: a total value of 1 results in a 1 percent reduction in drag, while a total value of 11 only results in a 10 percent reduction.`
+	`减少阻力。如果你增加了一个以上的具有此属性的装备，每增加一个都会降低效果：总值为1会使阻力减少1%，而总值为11只会使阻力减少10%。`
 
 tip "drone bays:"
-	`The number of ships from the "Drone" category that this ship can carry.`
+	`这艘船可以搭载的 "无人机 "类别的船只数量。`
 
 tip "energy capacity:"
-	`How much energy this ship can store. This allows you to temporarily use more power than your generators produce.`
+	`这艘船可以储存多少能量。这允许你暂时使用比你的发电机产生更多的能量。`
 
 tip "energy consumption:"
-	`Energy consumed per second while in flight.`
+	`在飞行时每秒消耗的能量。`
 	
 tip "energy generation:"
-	`Energy generated per second. If your ship has weapons other than beam weapons, you will probably also need batteries to store energy in.`
+	`每秒产生的能量。如果你的飞船有光束武器以外的武器，你可能还需要电池来储存能量。`
 
 tip "engine capacity needed:"
-	`Tons of engine space this outfit takes up.`
+	`这套装备所占用的发动机空间吨数。`
 
 tip "    engine capacity:"
-	`How many tons of engines this ship can hold. (To install an engine, you must also have enough total outfit space available.)`
+	`这艘船可以容纳多少吨的引擎。(要安装一个引擎，你必须有足够的总装备空间）。`
 
 tip "energy protection:"
-	`Protection against weapons that deal energy damage. If you add more than one outfit with this attribute, each additional one is less effective: a total value of 1 results in a 1 percent reduction in energy damage, while a total value of 11 only results in a 10 percent reduction.`
+	`对造成能量伤害的武器的保护。如果你添加了一个以上的具有此属性的装备，每一个额外的装备的效果都会降低：总值为1会导致1%的能量伤害降低，而总值为11只会导致10%的降低。`
 
 tip "fighter bays:"
-	`The number of ships from the "Fighter" category that this ship can carry.`
+	`这艘船可以搭载的 "战斗机 "类别的船只数量。`
 
 tip "force protection:"
-	`Protection against weapons that apply a hit force. If you add more than one outfit with this attribute, each additional one is less effective: a total value of 1 results in a 1 percent reduction in hit force, while a total value of 11 only results in a 10 percent reduction.`
+	`对施加打击力的武器的保护。如果你增加一个以上的具有此属性的装备，每增加一个都会降低效果：总值为1会导致命中率降低1%，而总值为11只会导致10%的降低。`
 
 tip "fuel:"
-	`This ship's current fuel amount. An ordinary hyperdrive jump consumes 100 fuel.`
+	`本舰目前的燃料量。一次普通的超光速跳跃会消耗100燃料。`
 
 tip "fuel capacity:"
-	`An ordinary hyperdrive jump consumes 100 fuel. Fuel is replenished for free when you land on an inhabited planet.`
+	`一次普通的超光速跳跃会消耗100燃料。当你降落在一个有人居住的星球上时，燃料会免费得到补充。`
 
 tip "fuel consumption:"
-	`Fuel consumed per second while in flight (can generate energy or heat).`
+	`飞行时每秒消耗的燃料（可产生能量或热量）。`
 	
 tip "fuel energy:"
-	`Energy produced per second while in flight, as a consequence of fuel consumption.`
+	`在飞行中每秒产生的能量，作为燃料消耗的结果。`
 	
 tip "fuel generation:"
-	`Fuel generated per second.`
+	`每秒产生的燃料。`
 	
 tip "fuel heat:"
-	`Heat produced per second while in flight, as a consequence of fuel consumption.`
+	`在飞行中每秒产生的热量，作为燃料消耗的结果。`
 
 tip "fuel protection:"
-	`Protection against weapons that deal fuel damage. If you add more than one outfit with this attribute, each additional one is less effective: a total value of 1 results in a 1 percent reduction in fuel damage, while a total value of 11 only results in a 10 percent reduction.`
+	`对造成燃料伤害的武器的保护。如果你增加了一个以上的具有此属性的装备，每增加一个都会降低效果：总值为1会使燃料伤害降低1%，而总值为11只会降低10%。`
 
 tip "gun ports needed:"
-	`This weapon uses up a gun port. Guns always fire straight forward; turrets fire in the direction of your currently selected target.`
+	`这种武器会占用一个炮口。火炮总是向前直射；炮塔则向你当前选定的目标方向射击。`
 
 tip "gun ports free:"
-	`How many guns this ship can hold. This includes most missiles and secondary weapons that fire straight forward.`
+	`这艘船可以容纳多少火炮。这包括大多数导弹和次要武器，它们都是直接向前开火的。`
 
 tip "heat dissipation:"
-	`How effectively this ship radiates excess heat.`
+	`这艘船辐射多余热量的效率如何。`
 
 tip "heat generation:"
-	`Heat generated by this outfit per second. Heat generation can be offset by "cooling" outfits. If your ship exceeds its maximum heat, it must temporarily shut down to cool itself off.`
+	`这艘装备每秒产生的热量。热量的产生可以被 "冷却 "装备所抵消。如果你的飞船超过了它的最大热量，它必须暂时关闭以冷却自己。`
 
 tip "heat protection:"
-	`Protection against weapons that do heat damage. If you add more than one outfit with this attribute, each additional one is less effective: a total value of 1 results in a 1 percent reduction in heat damage, while a total value of 11 only results in a 10 percent reduction.`
+	`对造成热伤害的武器的保护。如果你添加了一个以上具有此属性的装备，每一个额外的装备的效果都会降低：总数值为1会导致热伤害降低1%，而总数值为11只会导致降低10%。`
 
 tip "heat capacity:"
-	`Increases the maximum heat that this ship is able to withstand before becoming overheated. A value of one has the same influence on a ship's maximum heat as one ton of mass, without the effects that mass has on movement.`
+	`增加本舰在过热之前能够承受的最大热量。1的数值对船只最大热量的影响与一吨的质量相同，而没有质量对运动的影响。`
 
 tip "hull (repair):"
-	`Total hull strength and repair rate (per second). The smallest of ships are disabled when their hull strength drops below about 45%, while very large ships are disabled at close to 10%.`
+	`总的船体强度和修复率（每秒）。最小的船只在船体强度下降到45%左右时就会失效，而非常大的船只在接近10%时就会失效。`
 
 tip "hull:"
 	`船体总强度。拥有较高船体强度的船只在丧失能力之前能够承受更多的伤害，作为其总强度的比例；最小的船只在其船体强度下降到45%左右时丧失能力，而非常大的船只在接近10%时丧失能力。`
 
 tip "hull energy:"
-	`Energy consumed per second when repairing the hull.`
+	`修复船体时每秒钟消耗的能量。`
 
 tip "hull energy multiplier:"
-	`Modifies the energy consumed when repairing the hull by the given factor.`
+	`修理船体时消耗的能量按给定系数修改。`
 
 tip "hull fuel:"
-	`Fuel consumed per second when repairing the hull.`
+	`修复船体时每秒消耗的燃料。`
 
 tip "hull fuel multiplier:"
-	`Modifies the fuel consumed when repairing the hull by the given factor.`
+	`修改修复船体时消耗的燃料的给定系数。`
 
 tip "hull heat:"
-	`Heat produced per second when repairing the hull.`
+	`修复船体时每秒产生的热量。`
 
 tip "hull heat multiplier:"
-	`Modifies the heat produced when repairing the hull by the given factor.`
+	`修改修复船体时产生的热量，以给定的系数。`
 
 tip "hull repair rate:"
-	`Amount of hull strength that can be repaired per second. Repairs usually consume energy and may generate heat as well.`
+	`每秒可以修复的船体强度的数量。修复通常会消耗能量，也可能产生热量。`
 
 tip "repair delay:"
-	`How many seconds it takes for hull repairs to begin after taking hull damage.`
+	`在受到船体损伤后，船体修复需要多少秒开始。`
 
 tip "disabled repair delay:"
-	`How many seconds it takes for hull repairs to begin after being disabled.`
+	`在被禁用后，需要多少秒才能开始进行船体维修。`
 
 tip "absolute threshold:"
-	`The remaining hull strength at which the ship becomes disabled. This attribute takes priority over other attributes that change the disabled threshold.`
+	`船体的剩余强度，在这个强度下，船体就会失效。这个属性优先于其他改变残疾阈值的属性。`
 
 tip "hull threshold:"
-	`Alters the hull strength value at which the ship will become disabled.`
+	`改变船体强度值，在这个值上船体将被禁用。`
 
 tip "threshold percentage:"
-	`Alters the percentage of the remaining hull strength at which the ship will become disabled.`
+	`改变船体剩余强度的百分比，在这个百分比上船体将被禁用。`
 
 tip "hull protection:"
-	`Protection against weapons that do hull damage. If you add more than one outfit with this attribute, each additional one is less effective: a total value of 1 results in a 1 percent reduction in hull damage, while a total value of 11 only results in a 10 percent reduction.`
+	`防御对船体造成伤害的武器。如果你增加了一个以上的具有此属性的装备，每增加一个都会降低效果：总值为1会导致船体伤害减少1%，而总值为11只会导致减少10%。`
 
 tip "hull repair multiplier:"
-	`Modifies the amount of hull strength repaired per second by the given factor.`
+	`按给定系数修改每秒修复的船体强度。`
 
 tip "illegal:"
-	`Amount of credits you can be fined for carrying this outfit.`
+	`你因携带此装备而被罚款的信用点数量。`
 
 tip "income:"
-	`Amount of credits you receive per day that you own this outfit, even if it is not in active use.`
+	`在你拥有这套装备的情况下，你每天获得的信用点数量，即使它没有在使用中。`
 	
 tip "inertia reduction:"
-	`Reduces effective ship mass. If you add more than one outfit with this attribute, each additional one is less effective: a total value of 1 results in a 1 percent reduction in inertia, while a total value of 11 only results in a 10 percent reduction.`
+	`减少有效的飞船质量。如果你增加了一个以上具有此属性的装备，每增加一个都会降低效果：总值为1会导致1%的惯性减少，而总值为11只会导致10%的减少。`
 
 tip "ion protection:"
-	`Protection against weapons that do ion damage. If you add more than one outfit with this attribute, each additional one is less effective: a total value of 1 results in a 1 percent reduction in ion damage, while a total value of 11 only results in a 10 percent reduction.`
+	`对造成离子伤害的武器的保护。如果你增加一个以上具有此属性的装备，每增加一个都会降低效果：总值为1会导致1%的离子伤害减少，而总值为11只会导致10%的减少。`
 
 tip "scramble protection:"
-	`Protection against weapons that do scrambling damage. If you add more than one outfit with this attribute, each additional one is less effective: a total value of 1 results in a 1 percent reduction in ion damage, while a total value of 11 only results in a 10 percent reduction.`
+	`对造成扰乱伤害的武器的保护。如果你增加了一个以上的具有此属性的装备，每增加一个都会降低效果：总数值为1会导致1%的离子伤害减少，而总数值为11只会导致10%的减少。`
 
 tip "ion resistance:"
-	`How much ionization damage this ship can resist per second.`
+	`这艘船每秒能抵御多少电离伤害。`
 
 tip "ion resistance energy:"
-	`Energy consumed per second when resisting ion damage.`
+	`抵御离子伤害时每秒消耗的能量。`
 
 tip "ion resistance fuel:"
-	`Fuel consumed per second when resisting ion damage.`
+	`抵抗离子伤害时，每秒消耗的燃料。`
 
 tip "ion resistance heat:"
-	`Heat generated per second when resisting ion damage.`
+	`抵御离子伤害时，每秒产生的热量。`
 
 tip "landing speed:"
-	`How fast this ship is able to land on a planet, or travel through a wormhole.`
+	`这艘船能够在行星上降落的速度，或者通过虫洞旅行的速度。`
 
 tip "scramble resistance:"
-	`How much scrambling damage this ship can resist per second.`
+	`这艘船每秒能抵御多少扰乱伤害。`
 
 tip "scramble resistance energy:"
-	`Energy consumed per second when resisting scrambling damage.`
+	`抵御扰乱伤害时，每秒消耗的能量。`
 
 tip "scramble resistance fuel:"
-	`Fuel consumed per second when resisting scrambling damage.`
+	`抵御争夺伤害时，每秒消耗的燃料。`
 
 tip "scramble resistance heat:"
-	`Heat generated per second when resisting scrambling damage.`
+	`抵抗争夺伤害时，每秒产生的热量。`
 
 tip "jump speed:"
-	`How slow the ship must be moving to make a jump.`
+	`飞船必须移动多慢才能进行跳跃。`
 
 tip "jump fuel:"
-	`How much fuel is consumed when you jump between systems using this drive.`
+	`当你使用这个驱动器在系统间跳跃时，会消耗多少燃料。`
 
 tip "jump range:"
-	`How far you can jump between systems using this drive.`
+	`使用此驱动器在系统间跳跃的距离。`
 
 tip "jump mass cost:"
-	`How much fuel this drive consumes, per 100 tons of mass. Additive with jump fuel.`
+	`这个驱动器消耗多少燃料，每100吨的质量。与跳跃燃料相加。`
 
 tip "jump base mass:"
-	`A modifier to the impact your ship's mass has on the jump mass cost. Ships below this mass will have a cheaper jump cost than the base jump fuel cost, while ships above this mass will have more expensive jumps.`
+	`你的飞船的质量对跳跃质量成本的影响的修正器。低于此质量的飞船将拥有比基本跳跃燃料成本更便宜的跳跃成本，而高于此质量的飞船将拥有更昂贵的跳跃。`
 
 tip "leak protection:"
-	`Protection against weapons that cause fuel leakage. If you add more than one outfit with this attribute, each additional one is less effective: a total value of 1 results in a 1 percent reduction in leak damage, while a total value of 11 only results in a 10 percent reduction.`
+	`对导致燃料泄漏的武器的保护。如果你增加了一个以上的具有此属性的装备，每增加一个都会降低其效果：总值为1会导致泄漏伤害减少1%，而总值为11只会导致减少10%。`
 
 tip "leak resistance:"
-	`How much leak damage this ship can resist per second.`
+	`这艘船每秒能抵御多少泄漏伤害。`
 
 tip "leak resistance energy:"
-	`Energy consumed per second when resisting leak damage.`
+	`抵御泄漏伤害时每秒消耗的能量。`
 
 tip "leak resistance fuel:"
-	`Fuel consumed per second when resisting leak damage.`
+	`抵抗泄漏伤害时，每秒消耗的燃料。`
 
 tip "leak resistance heat:"
-	`Heat generated per second when resisting leak damage.`
+	`抵抗泄漏伤害时，每秒产生的热量。`
 
 tip "maintenance costs:"
-	`How many credits per day you need to spend to maintain this outfit. Even if a ship is parked or an outfit is in cargo, you still need to pay for its maintenance.`
+	`你每天需要花费多少信用点来维持这套装备。即使飞船被停放或装备在货物中，你仍然需要支付其维护费用。`
 
 tip "map:"
-	`How many star systems are included in this map.`
+	`这张地图中包括多少个星系。`
 
 tip "mass with no cargo:"
-	`Mass of this ship when not carrying any cargo or fighters. Cargo increases mass, which reduces acceleration and turn rate and increases maximum heat before overheating.`
+	`这艘船在不携带任何货物或战机时的质量。货物会增加质量，从而降低加速度和转弯率，并增加过热前的最大热量。`
 
 tip "mass:"
-	`Mass, in tons. A ship's mass determines how fast it turns and accelerates and its maximum heat before overheating.`
+	`质量，以吨为单位。一艘船的质量决定了它的转弯和加速的速度以及过热前的最大热量。`
 
 tip "operating costs:"
-	`How many credits per day you need to spend to maintain this outfit while it is in active use.`
+	`当这套装备正在使用时，你每天需要花费多少信用点来维持它。`
 
 tip "operating income:"
-	`Amount of credits you receive per day that this outfit is in active use.`
+	`当此装备处于有效使用状态时，你每天获得的信用点数量。`
 
 tip "outfit scan:"
-	`Lets you scan your target ship's outfits from up to this distance away.`
+	`让你在这个距离内扫描你的目标船的装备。`
 
 tip "outfit scan power:"
-	`The range of this outfit scanner is proportional to the square root of this value.`
+	`这个装备扫描器的范围与这个数值的平方根成正比。`
 
 tip "outfit scan speed:"
 	``Determines how long it takes to perform an outfit scan. A higher value will correspond to a quicker scan.`
 
 tip "outfit scan efficiency:"
-	`The maximum speed of this outfit scanner is proportional to the square root of this value. The observed scan speed will be impacted by multiple factors. Targets which are farther away or have a larger outfit capacity will take longer to scan.`
+	`该装备扫描仪的最大速度与该值的平方根成正比。观察到的扫描速度将受到多种因素的影响。较远的目标或有较大的装备容量的目标将需要更长的时间来扫描。`
 
 tip "outfit space added:"
-	`How much general-purpose space this outfit provides.`
+	`这个装备提供多少通用空间。`
 
 tip "outfit space needed:"
-	`How much general-purpose space this outfit uses up. Some outfits also use up weapon space or engine space.`
+	`这个装备消耗了多少通用空间。有些装备也会使用武器空间或引擎空间。`
 
 tip "outfit space free:"
-	`How much space this ship has for outfits (including weapons and engines).`
+	`这艘船有多少空间用于装备（包括武器和引擎）。`
 
 tip "overheat damage rate:"
-	`How much hull damage this ship will take per second that it is overheated. Overheat damage scales with how far past the overheat threshold the ship is.`
+	`这艘船在过热的情况下，每秒会受到多少船体伤害。过热伤害与飞船过热阈值的程度成正比。`
 
 tip "overheat damage threshold:"
-	`Increases the percentage past overheated at which point overheat damage begins.`
+	`增加过热的百分比，过热的伤害从这时开始。`
 
 tip "piercing protection:"
-	`Protection against weapons that pierce shields. If you add more than one outfit with this attribute, each additional one is less effective: a total value of 1 results in a 1 percent reduction in damage leak, while a total value of 11 only results in a 10 percent reduction.`
+	`对穿透护盾的武器的保护。如果你增加了一个以上的具有此属性的装备，每增加一个都会降低效果：总值为1会导致伤害泄漏减少1%，而总值为11只会导致10%的减少。`
 
 tip "optical jamming:"
-	`Reduces the ability of optical-guided missiles to track your ship, which is mostly useful for larger ships. The more optical jamming is installed, the greater the distance at which missiles can be jammed, and the greater the chance that a jammed missile will fly off in a random direction.`
+	`降低光学制导导弹追踪你的舰艇的能力，这对大型舰艇大多有用。安装的光学干扰越多，导弹被干扰的距离就越大，被干扰的导弹向随机方向飞去的机会也就越大。`
 
 tip "radar jamming:"
-	`Reduces the ability of radar-guided missiles to track your ship. The more radar jamming is installed, the greater the distance at which missiles can be jammed, and the greater the chance that a jammed missile will fly off in a random direction.`
+	`降低雷达制导导弹追踪你的飞船的能力。雷达干扰安装得越多，导弹被干扰的距离就越大，被干扰的导弹向随机方向飞去的机会就越大。`
 
 tip "ramscoop:"
-	`Replenishes fuel by harvesting the stellar wind. Ramscoops are more effective when closer to a star. If you add more than one ramscoop, each additional one is less effective: you need four ramscoops to achieve double the recharge rate that one ramscoop provides.`
+	`通过采集恒星风来补充燃料。当靠近恒星时，拉姆斯库普的效果更好。如果你增加了一个以上的冲压环，每增加一个冲压环的效果就会降低：你需要四个冲压环才能达到一个冲压环提供的两倍的补充率。`
 
 tip "required crew / bunks:"
-	`How many crew members are required to operate this ship, and how many total bunks are available. Extra bunks can be used for passengers or extra crew.`
+	`操作这艘船需要多少名船员，以及总共有多少个铺位可用。额外的铺位可以用来安置乘客或额外的船员。`
 
 tip "required crew:"
-	`Changes the number of crew members this ship requires by this amount.`
+	`改变这艘船所需的船员数量，以这个数量为准。`
 
 tip "reverse thrust:"
-	`Allows a ship to apply reverse thrust instead of needing to turn backward to slow down.`
+	`允许飞船应用反向推力，而不是需要向后转弯来减速。`
 
 tip "reverse thrusting energy:"
-	`Energy consumed per second when firing reverse thrusters.`
+	`发射反向推进器时，每秒消耗的能量。`
 
 tip "reverse thrusting heat:"
-	`Heat produced per second when firing reverse thrusters.`
+	`发射反向推进器时，每秒钟产生的热量。`
 
 tip "reverse thrusting shields:"
-	`Shields displaced, consumed, or destroyed, per second when firing reverse thrusters.`
+	`发射反向推进器时，每秒的护盾位移、消耗或破坏。`
 
 tip "reverse thrusting hull:"
-	`Hull that flakes off, breaks apart, or is otherwise compromised, per second when firing reverse thrusters.`
+	`在发射反向推进器时，每秒的船体剥落、破裂或受到其他损害。`
 
 tip "reverse thrusting fuel:"
-	`Fuel consumed per second when firing reverse thrusters.`
+	`发射反向推进器时，每秒钟消耗的燃料。`
 
 tip "reverse thrusting discharge:"
-	`Accumulated shield discharging per second when firing reverse thrusters.`
+	`发射反向推进器时，累积的防护罩放电每秒。`
 
 tip "reverse thrusting corrosion:"
-	`Accumulated hull corrosion per second when firing reverse thrusters.`
+	`发射反向推进器时，每秒累积的船体腐蚀量。`
 
 tip "reverse thrusting ion:"
-	`Accumulated ionization per second when firing reverse thrusters.`
+	`发射反向推进器时，每秒钟累积的电离量。`
 
 tip "reverse thrusting scramble:"
-	`Accumulated scrambling per second when firing reverse thrusters.`
+	`发射反向推进器时，每秒累积的扰动量。`
 
 tip "reverse thrusting leakage:"
-	`Accumulated leaking fuel per second when firing reverse thrusters.`
+	`当发射反向推进器时，每秒钟累积泄漏的燃料。`
 
 tip "reverse thrusting burn:"
-	`Accumulated exothermic interactions per second when firing reverse thrusters.`
+	`当发射反向推进器时，每秒钟累积的放热相互作用。`
 
 tip "reverse thrusting slowing:"
-	`Accumulated engine interference per second when firing reverse thrusters.`
+	`发射反向推进器时，每秒钟累积的发动机干扰。`
 
 tip "reverse thrusting disruption:"
-	`Accumulated shield interference per second when firing reverse thrusters.`
+	`发射反向推进器时，每秒钟累积的防护罩干扰。`
 
 tip "scan interference:"
-	`Ability to evade detection when a ship is carrying illegal outfits or cargo. Interference of 1 blocks 50% of scan attempts; 3 blocks 75%, and 9 blocks 90%.`
+	`当飞船携带非法装备或货物时，有能力躲避检测。1的干扰阻挡50%的扫描尝试；3阻挡75%，9阻挡90%。`
 
 tip "scram drive:"
-	`This hyperdrive allows you to jump without coming to a stop, as long as your velocity is within this range of being lined up with the direction you are jumping in.`
+	`只要你的速度在这个范围内与你跳跃的方向一致，这个超级驱动器就可以让你跳跃而不停止。`
 
 tip "self destruct:"
-	`How likely this ship is to self-destruct when you try to board or capture it.`
+	`当你试图登上或捕获它时，这艘船自毁的可能性有多大。`
 
 tip "sells for:"
-	`What this outfit will sell for, in credits. Outfits and ships will depreciate (lose resale value) over time, and plunder always starts out fully depreciated.`
+	`这个装备可以卖多少钱，以信用点计算。装备和船只会随着时间的推移而贬值（失去转售价值），而掠夺物总是从完全贬值开始的。`
 
 tip "shield energy:"
-	`Energy consumed per second when recharging shields.`
+	`补给护盾时每秒消耗的能量。`
 
 tip "shield energy multiplier:"
-	`Modifies the energy consumed when recharging shields by the given factor.`
+	`按给定的系数修改给护盾充电时消耗的能量。`
 
 tip "shield fuel:"
-	`Fuel consumed per second when recharging shields.`
+	`补给护盾时每秒消耗的燃料。`
 
 tip "shield fuel multiplier:"
-	`Modifies the fuel consumed when recharging shields by the given factor.`
+	`修改为护盾充电时消耗的燃料的给定系数。`
 
 tip "shield heat:"
-	`Heat produced per second when recharging shields.`
+	`为护盾充电时每秒产生的热量。`
 
 tip "shield heat multiplier:"
-	`Modifies the heat produced when recharging shields by the given factor.`
+	`修改为护盾充电时产生的热量，以给定系数计算。`
 
 tip "shield generation:"
-	`Shield points recharged per second. Recharging shields usually consumes energy, and may also produce heat.`
+	`每秒充电的护盾点数。为护盾充电通常会消耗能量，也可能产生热量。`
 
 tip "shield generation multiplier:"
-	`Modifies the amount of shield points recharged per second by the given factor.`
+	`按给定的系数修改每秒充电的护盾点数。`
 
 tip "shields (charge):"
 	`总的护盾强度和再生率（每秒）。`
@@ -504,553 +504,553 @@ tip "shields:"
 	`总的护盾强度。在你的护盾耗尽之前，大多数武器无法损害你的船体。一些武器的效果，如热伤害，一旦护盾下降就会变得更加严重`
 
 tip "shield delay:"
-	`How many seconds it takes for shield generation to begin after taking shield damage.`
+	`在受到护盾伤害后，需要多少秒才能开始生成护盾。`
 
 tip "depleted shield delay:"
-	`How many seconds it takes for shield generation to begin after your shields have been depleted.`
+	`在你的护盾被耗尽后，需要多少秒来开始生成护盾。`
 
 tip "shield protection:"
-	`Protection against weapons that do shield damage. If you add more than one outfit with this attribute, each additional one is less effective: a total value of 1 results in a 1 percent reduction in shield damage, while a total value of 11 only results in a 10 percent reduction.`
+	`对造成护盾伤害的武器的保护。如果你增加一个以上具有此属性的装备，每增加一个都会降低效果：总值为1会使护盾伤害降低1%，而总值为11只会降低10%。`
 
 tip "slowing protection:"
-	`Protection against weapons that have a slowing effect. If you add more than one outfit with this attribute, each additional one is less effective: a total value of 1 results in a 1 percent reduction in slowing damage, while a total value of 11 only results in a 10 percent reduction.`
+	`对具有减速效果的武器的保护。如果你增加了一个以上的具有此属性的装备，每增加一个都会降低效果：总值为1会导致减速伤害降低1%，而总值为11只会导致10%的降低。`
 
 tip "slowing resistance:"
-	`How much slowing damage this ship can resist per second.`
+	`这艘船每秒能抵御多少减速伤害。`
 
 tip "slowing resistance energy:"
-	`Energy consumed per second when resisting slowing damage.`
+	`抵御减速伤害时每秒消耗的能量。`
 
 tip "slowing resistance fuel:"
-	`Fuel consumed per second when resisting slowing damage.`
+	`抵抗减速伤害时，每秒消耗的燃料。`
 
 tip "slowing resistance heat:"
-	`Heat generated per second when resisting slowing damage.`
+	`抵御减速伤害时每秒产生的热量。`
 
 tip "solar collection:"
-	`Produces a variable amount of energy depending on how far this ship is from the star at the center of the system.`
+	`根据本船离系统中心的恒星有多远，产生不同数量的能量。`
 
 tip "solar heat:"
-	`Produces a variable amount of heat depending on how far this ship is from the star at the center of the system.`
+	`根据本船离系统中心的恒星有多远，产生不同数量的热量。`
 
 tip "tactical scan power:"
-	`Tactical scanners allow you to view your current target's crew complement, fuel, heat, and energy levels when it is within range. The range is proportional to the square root of this value.`
+	`当目标在范围内时，战术扫描器允许你查看你当前目标的船员编制、燃料、热量和能量水平。范围与该值的平方根成正比。`
 
 tip "max speed:"
-	`The fastest this ship can travel when using ordinary thrusters (that is, without afterburner).`
+	`本舰在使用普通推进器（即没有后燃器）时的最快行驶速度。`
 
 tip "acceleration:"
-	`How quickly this ship gains speed. The higher a ship's mass (including the mass of any cargo or fighters it is carrying), the slower it accelerates.`
+	`这艘船获得速度的速度。一艘船的质量越大（包括它所携带的任何货物或战斗机的质量），它的加速就越慢。`
 
 tip "movement:"
-	`How quickly this ship can accelerate and turn.`
+	`这艘船加速和转弯的速度有多快。`
 
 tip "movement (full - no cargo):"
-	`How quickly this ship can accelerate and turn when its cargo hold is full versus when it is empty.`
+	`这艘船在货舱满载时与空载时加速和转向的速度。`
 
 tip "thrust:"
-	`Thrust produced by engines. Higher thrust increases a ship's acceleration and top speed. The more mass a ship has, the more thrust is needed to achieve the same acceleration.`
+	`发动机产生的推力。更大的推力可以提高船舶的加速度和最高速度。一艘船的质量越大，需要更多的推力来达到相同的加速度。`
 
 tip "thrusting energy:"
-	`Energy consumed per second when firing thrusters.`
+	`发射推进器时每秒钟消耗的能量。`
 
 tip "thrusting heat:"
-	`Heat generated per second when firing thrusters.`
+	`发射推进器时每秒钟产生的热量。`
 
 tip "thrusting shields:"
-	`Shields displaced, consumed, or destroyed, per second when firing thrusters.`
+	`发射推进器时，每秒钟的护盾位移、消耗或破坏。`
 
 tip "thrusting hull:"
-	`Hull that flakes off, breaks apart, or is otherwise compromised, per second when firing thrusters.`
+	`发射推进器时，每秒钟的船体剥落、碎裂或受到其他损害。`
 
 tip "thrusting fuel:"
-	`Fuel consumed per second when firing thrusters.`
+	`发射推进器时，每秒消耗的燃料。`
 
 tip "thrusting discharge:"
-	`Accumulated shield discharging per second when firing thrusters.`
+	`发射推进器时，每秒钟累积的防护罩放电量。`
 
 tip "thrusting corrosion:"
-	`Accumulated hull corrosion per second when firing thrusters.`
+	`推进器发射时，每秒累积的船体腐蚀量。`
 
 tip "thrusting ion:"
-	`Accumulated ionization per second when firing thrusters.`
+	`推进器发射时电离的累积每秒。`
 
 tip "thrusting scramble:"
-	`Accumulated scrambling per second when firing thrusters.`
+	`推进器发射时，每秒钟累积的扰动量。`
 
 tip "thrusting leakage:"
-	`Accumulated leaking fuel per second when firing thrusters.`
+	`推进器发射时，每秒钟累计泄漏的燃料。`
 
 tip "thrusting burn:"
-	`Accumulated exothermic interactions per second when firing thrusters.`
+	`推进器发射时，每秒钟累积的放热相互作用。`
 
 tip "thrusting slowing:"
-	`Accumulated engine interference per second when firing thrusters.`
+	`发射推进器时，每秒累积的引擎干扰。`
 
 tip "thrusting disruption:"
-	`Accumulated shield interference per second when firing thrusters.`
+	`推进器发射时，每秒钟累积的防护罩干扰。`
 
 tip "turning:"
-	`Turn rate, in degrees per second. The higher a ship's mass (including the mass of any cargo or fighters it is carrying), the slower it turns.`
+	`转弯率，以每秒度数计。一艘船的质量越大（包括它携带的任何货物或战斗机的质量），它的转弯速度越慢。`
 
 tip "turn:"
-	`Turning force generated by this engine. The more mass a ship has, the more thrust is needed to achieve the same acceleration.`
+	`该引擎产生的转弯力。一艘船的质量越大，需要更多的推力来达到相同的加速度。`
 
 tip "turning energy:"
-	`Energy consumed per second when turning.`
+	`转弯时每秒钟消耗的能量。`
 
 tip "turning heat:"
-	`Heat generated per second when turning.`
+	`转动时每秒钟产生的热量。`
 
 tip "turning shields:"
-	`Shields displaced, consumed, or destroyed, per second when turning.`
+	`转弯时，每秒钟的护盾位移、消耗或破坏。`
 
 tip "turning hull:"
-	`Hull that flakes off, breaks apart, or is otherwise compromised, per second when turning.`
+	`转弯时，船体剥落、破裂或受到其他损害，每秒钟。`
 
 tip "turning fuel:"
-	`Fuel consumed per second when turning.`
+	`转弯时每秒钟消耗的燃料。`
 
 tip "turning discharge:"
-	`Accumulated shield discharging per second when turning.`
+	`转弯时累积的防护罩放电，每秒。`
 
 tip "turning corrosion:"
-	`Accumulated hull corrosion per second when turning.`
+	`转弯时，累积的船体腐蚀每秒。`
 
 tip "turning ion:"
-	`Accumulated ionization per second when turning.`
+	`转弯时累计电离每秒。`
 
 tip "turning scramble:"
-	`Accumulated scrambling per second when turning.`
+	`转弯时每秒钟的累积扰动量。`
 
 tip "turning leakage:"
-	`Accumulated leaking fuel per second when turning.`
+	`转弯时每秒钟累积的燃料泄漏。`
 
 tip "turning burn:"
-	`Accumulated exothermic interactions per second when turning.`
+	`转弯时每秒钟累积的放热相互作用。`
 
 tip "turning slowing:"
-	`Accumulated engine interference per second when turning.`
+	`转弯时每秒钟累积的发动机干扰。`
 
 tip "turning disruption:"
-	`Accumulated shield interference per second when turning.`
+	`转弯时每秒钟累积的防护罩干扰。`
 
 tip "turret mounts needed:"
-	`This weapon can fire in any direction, tracking your currently selected target. It uses up one of your ship's turret mounts.`
+	`这种武器可以向任何方向发射，追踪你当前选择的目标。它占用了你船上的一个炮塔支架。`
 
 tip "turret mounts free:"
-	`How many turrets can be mounted on this ship. Turrets fire in the direction of the currently selected target, instead of firing straight forward like guns.`
+	`在这艘船上可以安装多少个炮塔。炮塔向当前选定的目标方向开火，而不是像枪一样直接向前开火。`
 
 tip "weapon capacity needed:"
-	`Tons of weapon space this outfit takes up.`
+	`这个装备所占用的武器空间吨数。`
 
 tip "    weapon capacity:"
-	`How many tons of weapons this ship can hold. (To install a weapon, you must also have enough total outfit space available.)`
+	`这艘船可以容纳多少吨的武器。(要安装武器，你也必须有足够的总装备空间可用)。`
 
 tip "scan brightness:"
-	`Modifies the likelihood of this illegal outfit appearing on a cargo scan. The higher the brightness, the more likely a scan will pick it up. A scan brightness of 5 has as much a chance of being scanned as an outfit that is 5 tons.`
+	`修改这个非法装备出现在货物扫描中的可能性。亮度越高，扫描就越有可能发现它。扫描亮度为5时，其被扫描的可能性与5吨的装备一样大。`
 
 tip "scan concealment:"
-	`Hides an equivalent mass of illegal cargo from cargo scans, preventing you from being fined for having it. For example, if you had 10 scan concealment, then up to 10 tons of illegal cargo would not appear on cargo scans.`
+	`在货物扫描中隐藏同等质量的非法货物，防止你因拥有这些货物而被罚款。例如，如果你有10个扫描隐蔽性，那么多达10吨的非法货物将不会出现在货物扫描中。`
 
 
 
 # Sale labels:
 tip "empty hull:"
-	`Price the ship itself would sell for without any outfits installed.`
+	`在没有安装任何装备的情况下，该船本身的售价。`
 
 tip "  + outfits:"
-	`Price that all this ship's outfits will sell for.`
+	`这艘船的所有装备的售价。`
 
 
 
 # Ship heat and energy summary fields:
 tip "idle:"
-	`Energy and heat generated when this ship is idle, i.e. not firing weapons, turning, or thrusting.`
+	`这艘船闲置时产生的能量和热量，即不发射武器、不转弯、不推进。`
 
 tip "moving:"
-	`Energy consumed and heat generated when this ship is turning and thrusting. This is in addition to the "idle" amount.`
+	`这艘船在转弯和推力时消耗的能量和产生的热量。这是在 "空闲 "量之外的。`
 
 tip "firing:"
-	`Energy consumed and heat generated when this ship is firing all its weapons. This is in addition to the "idle" amount.`
+	`当本舰发射所有武器时，所消耗的能量和产生的热量。这是在 "空闲 "量之外的。`
 
 tip "shields / hull:"
-	`Energy consumed and heat generated when this ship is recharging shields and repairing its hull at the same time. This is in addition to the "idle" amount.`
+	`当这艘船同时为护盾充电和修复其船体时，所消耗的能量和产生的热量。这是在 "闲置 "量之外的。`
 
 tip "repairing hull:"
-	`Energy consumed and heat generated when this ship is repairing its hull. This is in addition to the "idle" amount.`
+	`当这艘船在修复其船体时，所消耗的能量和产生的热量。这是在 "闲置 "量之外的。`
 
 tip "charging shields:"
-	`Energy consumed and heat generated when this ship is recharging its shields. This is in addition to the "idle" amount.`
+	`当本舰为其护盾充电时，所消耗的能量和产生的热量。这是在 "闲置 "量之外的。`
 
 tip "max:"
-	`Energy storage capacity and maximum safe level for heat generation. Energy capacity allows a ship to temporarily draw more energy than it produces. The heat maximum is the highest your heat generation can be without eventually causing your ship to overheat.`
+	`能量储存能力和最大安全发热水平。能量容量允许飞船暂时吸取比它产生的更多的能量。发热最大值是指你的发热量可以达到的最高值，而不会最终导致你的飞船过热。`
 
 
 
 # Outfit categories:
 tip "Guns:"
-	`Weapons that are fixed in place (firing in the direction your ship is pointed) and that require no ammunition.`
+	`固定在原地的武器（向你的飞船指向的方向发射），不需要弹药。`
 
 tip "Turrets:"
-	`Weapons that can fire in any direction and will track your currently selected target.`
+	`可以向任何方向发射的武器，并且会追踪你当前选择的目标。`
 
 tip "Secondary Weapons:"
-	`Weapons that require ammunition (which must be purchased separately).`
+	`需要弹药的武器（必须单独购买）。`
 
 tip "Ammunition:"
-	`Outfits that serve as ammunition for other weapons. To fire this ammunition, you need a launcher of the appropriate type.`
+	`作为其他武器的弹药的装备。要发射这种弹药，你需要一个适当类型的发射器。`
 
 tip "Systems:"
-	`Outfits that occupy general space, not the space set aside for engines or weapons.`
+	`占用一般空间的装备，而不是为引擎或武器预留的空间。`
 
 tip "Power:"
-	`Outfits that either supply energy, or store the energy that is generated.`
+	`提供能量的装备，或者储存产生的能量的装备。`
 
 tip "Engines:"
-	`Thrusters and steering systems, which affect how quickly your ship moves.`
+	`推进器和转向系统，它们影响着你的船的移动速度。`
 
 tip "Hand to Hand:"
-	`Weapons that your crew uses when trying to capture a ship.`
+	`你的船员在试图捕获一艘船时使用的武器。`
 
 tip "Special:"
-	`Items you can purchase or sell but that are not outfits that can be installed in a ship.`
+	`你可以购买或出售的物品，但它们不是可以安装在船上的装备。`
 
 
 
 # Weapon attributes:
 tip "ammo:"
-	`When this weapon fires it consumes outfits of this type.`
+	`当这种武器发射时，它消耗的是这种类型的装备。`
 
 tip "ammo usage:"
-	`The number of units of ammo that this weapon consumes when fired.`
+	`此武器发射时消耗的弹药单位。`
 
 tip "range:"
-	`Total range of this weapon.`
+	`此武器的总射程。`
 
 tip "shield damage / second:"
-	`Shield damage, converted to damage per second to allow easy comparisons between different weapons.`
+	`护盾伤害，转换为每秒伤害，以方便不同武器之间的比较。`
 
 tip "hull damage / second:"
-	`Hull damage, converted to damage per second to allow easy comparisons between different weapons.`
+	`船体伤害，转换为每秒的伤害，以方便不同武器之间的比较。`
 
 tip "minable damage / second:"
-	`Minable damage, converted to damage per second to allow easy comparisons between different weapons.`
+	`可承受的伤害，转换为每秒的伤害，以便于不同武器之间的比较。`
 
 tip "fuel damage / second:"
-	`The amount of fuel lost by the target per second when hit by this weapon. If its shields are up, the loss will be cut in half. A negative amount means fuel is added.`
+	`当被该武器击中时，目标每秒损失的燃料数量。如果它的护盾被打开，损失将被减半。负数意味着增加燃料。`
 
 tip "heat damage / second:"
-	`When hitting a target this weapon increases the target's heat by this amount per second, or half this amount if the target's shields are up.`
+	`当击中一个目标时，该武器每秒增加目标的热量，如果目标的护盾处于上升状态，则增加一半的量。`
 
 tip "energy damage / second:"
-	`When hitting a target this weapon reduces the target's energy by this amount per second, or half this amount if the target's shields are up.`
+	`当击中目标时，该武器每秒减少目标的能量这个数量，或者如果目标的护盾被打开，这个数量的一半。`
 
 tip "ion damage / second:"
-	`Reduces the target's energy. Ionization slowly wears off over time.`
+	`减少目标的能量。电离作用会随着时间慢慢消失。`
 
 tip "scrambling damage / second:"
-	`Causes weapon failures. Scrambling slowly wears off over time.`
+	`导致武器失效。扰乱会随着时间的推移慢慢消失。`
 
 tip "slowing damage / second:"
-	`Reduces the target's turn rate, acceleration, and top speed. Slowing wears off over time.`
+	`降低目标的转弯率、加速度和最高速度。减速会随着时间的推移而消失。`
 
 tip "disruption damage / second:"
-	`Disrupts the target's shields, allowing weapon damage to "leak through" to the hull even if shields are up. Shield disruption wears off over time.`
+	`扰乱目标的护盾，使武器伤害 "泄露 "到船体上，即使护盾处于上升状态。护盾破坏随时间消退。`
 
 tip "discharge damage / second:"
-	`Amount of shield damage over time dealt by this weapon per second when firing.`
+	`发射时，该武器每秒造成的护盾伤害量随时间变化。`
 
 tip "corrosion damage / second:"
-	`Amount of hull damage over time dealt by this weapon per second when firing.`
+	`该武器在发射时每秒造成的船体伤害量。`
 
 tip "leak damage / second:"
-	`Amount of fuel damage over time dealt by this weapon per second when firing.`
+	`该武器在发射时，每秒钟造成的燃料伤害量。`
 
 tip "burn damage / second:"
-	`Amount of heat damage over time dealt by this weapon per second when firing.`
+	`发射时，该武器每秒造成的热伤害量。`
 
 tip "% shield damage / second:"
-	`Relative shield damage, converted to damage per second to allow easy comparisons between different weapons.`
+	`相对护盾伤害，转换为每秒伤害，以方便不同武器之间的比较。`
 
 tip "% hull damage / second:"
-	`Relative hull damage, converted to damage per second to allow easy comparisons between different weapons.`
+	`相对船体伤害，转换为每秒的伤害，以方便不同武器之间的比较。`
 
 tip "% minable damage / second:"
-	`Relative minable damage, converted to damage per second to allow easy comparisons between different weapons.`
+	`相对的地雷伤害，转换为每秒的伤害，以便于不同武器之间的比较。`
 
 tip "% fuel damage / second:"
-	`The amount of fuel lost as a percentage of a target's total fuel per second when hit by this weapon. If its shields are up, the loss will be cut in half.`
+	`被该武器击中时，每秒损失的燃料量占目标总燃料的百分比。如果它的护盾被打开，损失将减少一半。`
 
 tip "% heat damage / second:"
-	`When hitting a target this weapon increases the target's heat as a percentage of its maximum heat capacity by this amount per second, or half this amount if the target's shields are up.`
+	`当击中一个目标时，该武器会使目标的热量以其最大热容量的百分比每秒增加这个量，如果目标的护盾是上升的，则这个量的一半。`
 
 tip "% energy damage / second:"
-	`When hitting a target this weapon reduces the target's energy as a percentage of its energy capacity by this amount per second, or half this amount if the target's shields are up.`
+	`当击中目标时，该武器每秒减少目标的能量占其能量容量的百分比为此数，如果目标的护盾处于上升状态，则为此数的一半。`
 
 tip "firing energy / second:"
-	`Energy consumed by this weapon per second when firing.`
+	`发射时，该武器每秒消耗的能量。`
 
 tip "firing heat / second:"
-	`Heat generated by this weapon per second when firing.`
+	`此武器在发射时每秒产生的热量。`
 
 tip "firing fuel / second:"
-	`Fuel consumed by this weapon per second when firing.`
+	`此武器在发射时每秒消耗的燃料。`
 
 tip "firing hull / second:"
-	`Amount of hull damaged by this weapon per second when firing.`
+	`发射时，此武器每秒损坏的船身数量。`
 
 tip "firing shields / second:"
-	`Amount of shield damaged by this weapon per second when firing.`
+	`发射时，该武器每秒损坏的护盾数量。`
 
 tip "firing ion / second:"
-	`Reduces energy levels for some time after this weapon is fired.`
+	`该武器发射后会在一段时间内降低能量水平。`
 
 tip "firing scramble / second:"
-	`Jams the weapons for some time after this weapon is fired.`
+	`在此武器发射后的一段时间内卡住武器。`
 
 tip "firing slowing / second:"
-	`Reduces the turn rate, acceleration, and top speed of the ship when this weapon is fired. Slowing wears off over time.`
+	`当此武器发射时，降低飞船的转弯率、加速度和最高速度。减速效果会随着时间的推移而消失。`
 
 tip "firing disruption / second:"
-	`Disrupts the ships shields after firing this weapon, allowing damage from hostile weapons to "leak through" to the hull even if shields are up. Shield disruption wears off over time.`
+	`发射此武器后会破坏飞船的护盾，即使护盾处于开启状态，也会让敌方武器的伤害 "泄露 "到船体。护盾干扰会随着时间的推移而消失。`
 
 tip "firing discharge / second:"
-	`Reduces shields for some time after this weapon is fired.`
+	`发射该武器后，在一段时间内减少护盾。`
 
 tip "firing corrosion / second:"
-	`Reduces hull for some time after this weapon is fired.`
+	`该武器发射后，会在一段时间内减少船体。`
 
 tip "firing leak / second:"
-	`Reduces fuel for some time after this weapon is fired.`
+	`在此武器发射后的一段时间内减少燃料。`
 
 tip "firing burn / second:"
-	`Increases heat for some time after this weapon is fired.`
+	`在此武器发射后的一段时间内增加热量。`
 
 tip "% firing energy / second:"
-	`Relative firing energy costs, converted to energy per second to allow easy comparisons between different weapons.`
+	`相对的发射能量成本，转换为每秒的能量，以方便不同武器之间的比较。`
 
 tip "% firing heat / second:"
-	`When firing this weapon then the ship's heat increases as a percentage of its maximum heat capacity by this amount per second.`
+	`当发射这种武器时，那么飞船的热量就会按其最大热容量的百分比增加，每秒钟增加这个数量。`
 
 tip "% firing fuel / second:"
-	`The amount of fuel used or lost as a percentage of the ship's total fuel per second when this weapon is fired.`
+	`当此武器发射时，每秒使用或损失的燃料量占飞船总燃料的百分比。`
 
 tip "% firing hull / second:"
-	`Relative hull loss when this weapon is fired, converted to loss per second to allow easy comparisons between different weapons.`
+	`当此武器发射时，相对的船体损失，转换为每秒的损失，以便于不同武器之间的比较。`
 
 tip "% firing shields / second:"
-	`Relative shields loss when this weapon is fired, converted to loss per second to allow easy comparisons between different weapons.`
+	`此武器发射时的相对护盾损失，转换为每秒的损失，以便于不同武器之间的比较。`
 
 tip "shots / second:"
-	`How many projectiles per second this weapon fires. Weapons that fire continuously do not require batteries if the ship's energy generation per second is higher than the weapon's firing energy per second. Some continuous fire weapons only fire a fraction of the time, in which case the ship's energy production must be higher than the weapon's firing energy divided by the firing time to not require batteries.`
+	`该武器每秒发射多少弹丸。如果飞船每秒产生的能量高于武器每秒发射的能量，那么连续发射的武器就不需要电池。一些连续发射的武器只在部分时间内发射，在这种情况下，飞船的能量产生必须高于武器的发射能量除以发射时间才不需要电池。`
 
 tip "turret turn rate:"
-	`How fast this turret turns to track its targets, in degrees per second.`
+	`这个炮塔转向追踪目标的速度有多快，以每秒度数计算。`
 
 tip "homing:"
-	`How well this projectile tracks its target. Weapons with better homing can adjust to the target's speed to plot a more effective intercept course.`
+	`这个弹丸追踪目标的能力如何。具有较好归位能力的武器可以根据目标的速度进行调整，以制定一个更有效的拦截路线。`
 
 tip "tracking:"
-	`How well this weapon maintains its target lock.`
+	`这种武器保持其目标锁定的程度。`
 
 tip "optical tracking:"
-	`How well this weapon maintains an optical target lock, which depends on the size of the target; negatively affected by any potential optical jamming equipement.`
+	`这种武器维持光学目标锁定的程度，取决于目标的大小；受到任何潜在的光学干扰设备的负面影响。`
 
 tip "infrared tracking:"
-	`How well this weapon maintains an infrared target lock, which depends on the target ship's heat level and distance from the missile; IR-guided missiles become more accurate the closer they are to their targets.`
+	`这种武器保持红外目标锁定的程度，取决于目标船的热度和与导弹的距离；红外制导导弹离目标越近，就越精确。`
 
 tip "radar tracking:"
-	`How well this weapon maintains a radar target lock; negatively affected by the target ship's radar jamming equipment.`
+	`这种武器保持雷达目标锁定的程度；受目标船的雷达干扰设备的负面影响。`
 
 tip "piercing:"
-	`This percentage of this weapon's damage always leaks through to the hull.`
+	`这种武器的伤害有多大比例总是渗漏到船体。`
 
 tip "piercing resistance:"
-	`What percentage of a weapon's piercing damage is resisted, preventing damage from leaking through the shields to the hull.`
+	`该武器的穿透伤害有多大比例被抵制，防止伤害通过护盾泄露到船体。`
 
 tip "shield damage / shot:"
-	`Each shot fired by this weapon does this amount of shield damage.`
+	`这种武器的每一枪都会造成这个数量的护盾伤害。`
 
 tip "hull damage / shot:"
-	`Each shot fired by this weapon does this amount of hull damage to ships or minable objects.`
+	`该武器每发子弹对舰船或可布雷物体造成这一数量的船体伤害。`
 
 tip "minable damage / shot:"
-	`Each shot fired by this weapon does this amount of damage to minable objects, in lieu of hull damage being used.`
+	`这把武器的每一发子弹都会对可布雷的物体造成这个数量的伤害，而不是使用船体伤害。`
 
 tip "fuel damage / shot:"
-	`The amount of fuel lost by the target per shot when hit by this weapon. If its shields are up, the loss will be cut in half. A negative amount means fuel is added.`
+	`当被该武器击中时，目标每次射击所损失的燃料数量。如果它的护盾被打开，损失将被减半。负数意味着燃料会增加。`
 
 tip "heat damage / shot:"
-	`Each shot increases the target ship's heat by this amount, or half this amount if its shields are up.`
+	`每一发子弹都会增加目标船的热量，如果它的护盾在上升，则增加一半。`
 
 tip "energy damage / shot:"
-	`Each shot reduces the target ship's energy by this amount, or half this amount if its shields are up.`
+	`每次射击都会使目标舰的能量减少这个数量，如果它的护盾处于上升状态，则减少一半的能量。`
 
 tip "ion damage / shot:"
-	`Each shot increases the target's ionization by this amount. Ionization reduces the target's energy. Ionization slowly wears off over time.`
+	`每一次射击都会使目标的电离度增加这个量。电离会减少目标的能量。电离作用会随着时间慢慢消失。`
 
 tip "scrambling damage / shot:"
-	`Each shot increases the target's scrambling by this amount. scrambling causes weapon failures. It slowly wears off over time.`
+	`每次射击都会使目标的扰动增加这个量。扰动会导致武器失效。它随着时间的推移慢慢消退。`
 
 tip "slowing damage / shot:"
-	`Reduces the target's turn rate, acceleration, and top speed. Slowing wears off over time.`
+	`降低目标的转弯率、加速度和最高速度。减速会随着时间的推移而消失。`
 
 tip "disruption damage / shot:"
-	`Disrupts the target's shields, allowing weapon damage to "leak through" to the hull even if shields are up. Shield disruption wears off over time.`
+	`扰乱目标的护盾，使武器伤害 "泄露 "到船体上，即使护盾处于上升状态。护盾破坏随时间消退。`
 
 tip "discharge damage / shot:"
-	`Each shot increases the target's shield discharge by this amount. Shield discharge continuously reduces the target's shields and slowly wears off over time.`
+	`每次射击都会使目标的护盾放电增加这个量。护盾放电会持续减少目标的护盾，并随着时间的推移慢慢消退。`
 
 tip "corrosion damage / shot:"
-	`Each shot increases the target's hull corrosion by this amount. Hull discharge continuously reduces the target's hull and slowly wears off over time.`
+	`每次射击都会使目标的船体腐蚀增加这个数量。舰体放电持续减少目标的舰体，并随着时间的推移慢慢磨损。`
 
 tip "leak damage / shot:"
-	`Each shot causes the target to leak by this amount. Leak continuously decreases the target's fuel and slowly wears off over time.`
+	`每一次射击都会使目标泄漏这个量。泄漏持续减少目标的燃料，并随着时间的推移慢慢消减。`
 
 tip "burn damage / shot:"
-	`Each shot causes the target to burn by this amount. Burn continuously increases the target's heat and slowly wears off over time.`
+	`每次射击都会使目标燃烧这个量。燃烧持续增加目标的热量，并随着时间的推移慢慢消失。`
 
 tip "% shield damage / shot:"
-	`Each shot fired by this weapon does this amount of shield damage as a percentage of the target ship's total shields.`
+	`这把武器的每一发子弹都会造成这个数量的护盾伤害，占目标船总护盾的百分比。`
 
 tip "% hull damage / shot:"
-	`Each shot fired by this weapon does this amount of hull damage as a percentage of the target ship's total hull or the target minable object's total health.`
+	`这把武器的每一发子弹都会造成一定量的船体伤害，占目标船只总船体或目标可开采物体总生命值的百分比。`
 
 tip "% minable damage / shot:"
-	`Each shot fired by this weapon does this amount of damage as a percentage of the target minable object's total health, in lieu of relative hull damage being used.`
+	`这把武器的每一发子弹都会造成这个数量的伤害，作为目标可开采物体总健康的百分比，而不是使用相对的船体伤害。`
 
 tip "% fuel damage / shot:"
-	`The amount of fuel lost by the target per shot as a percentage of the ship's total fuel when hit by this weapon. If its shields are up, the loss will be cut in half.`
+	`当被该武器击中时，目标每次射击所损失的燃料量占该舰总燃料的百分比。如果它的护盾是向上的，损失将被削减一半。`
 
 tip "% heat damage / shot:"
-	`Each shot increases the target ship's heat as a percentage of the ship's maximum heat capacity by this amount, or half this amount if its shields are up.`
+	`每一发子弹都会增加目标船的热量，占该船最大热容量的百分比，如果它的护盾处于上升状态，则增加一半的量。`
 
 tip "% energy damage / shot:"
-	`Each shot reduces the target ship's energy as a percentage of the ship's energy capacity by this amount, or half this amount if its shields are up.`
+	`每一发子弹都会减少目标船的能量，占该船能量容量的百分比为这一数额，或者在其护盾开启的情况下减少一半。`
 
 tip "firing energy / shot:"
-	`Each shot requires this much energy. A weapon will not fire if the ship's batteries do not have at least this amount of energy stored.`
+	`每次射击需要这么多能量。如果飞船的电池没有储存至少这个数量的能量，武器就不会发射。`
 
 tip "firing heat / shot:"
-	`Heat generated per shot.`
+	`每次射击产生的热量。`
 
 tip "firing fuel / shot:"
-	`Fuel consumed per shot.`
+	`每次射击消耗的燃料。`
 
 tip "firing hull / shot:"
-	`Each shot fired by this weapon causes this amount of hull to be lost.`
+	`该武器每发一枪都会造成这个数量的船体损失。`
 
 tip "firing shields / shot:"
-	`Each shot fired by this weapon causes this amount of shield to be lost.`
+	`该武器每发射一发都会造成这个数量的护盾损失。`
 
 tip "firing ion / shot:"
-	`Each shot increases the ship's ionization by this amount. Ionization reduces the ship's energy and slowly wears off over time.`
+	`每一发子弹都会增加飞船的电离度，这个数量。电离会减少飞船的能量，并随着时间的推移慢慢消失。`
 
 tip "firing scramble / shot:"
-	`Each shot increases the ship's scrambling by this amount. This jams the weapons and slowly wears off over time.`
+	`每次射击都会增加飞船的扰动量。这使武器受到干扰，并随着时间的推移慢慢消失。`
 
 tip "firing slowing / shot:"
-	`Each shot reduces the ship's turn rate, acceleration, and top speed. Slowing wears off over time.`
+	`每次射击都会降低飞船的转弯率、加速度和最高速度。减速会随着时间的推移而消失。`
 
 tip "firing disruption / shot:"
-	`Each shot disrupts the ship's shields, allowing hostile weapon damage to "leak through" to the hull even if shields are up. Shield disruption wears off over time.`
+	`每一发子弹都会破坏飞船的护盾，即使护盾已经升起，敌方的武器伤害也会 "泄露 "到船体。护盾的破坏会随着时间的推移而消失。`
 
 tip "firing discharge / shot:"
-	`Each shot applies discharge to the ship, reducing its shields over time. Shield disruption wears off over time.`
+	`每一次射击都会对飞船进行放电，随着时间的推移减少其护盾。护盾干扰会随着时间的推移而消失。`
 
 tip "firing corrosion / shot:"
-	`Each shot applies corrosion to the ship, reducing the ship's hull over time. Corrosion wears off over time.`
+	`每一发子弹都会对飞船进行腐蚀，随着时间的推移减少飞船的外壳。腐蚀会随着时间的推移而消失。`
 
 tip "firing leak / shot:"
-	`Each shot causes the ship's fuel to leak. Fuel leakage wears off over time.`
+	`每次射击都会导致飞船的燃料泄漏。燃料泄漏会随着时间的推移而消失。`
 
 tip "firing burn / shot:"
-	`Each shot causes the ship to burn, increases the ship's heat over time. Burn wears off over time.`
+	`每次射击都会导致飞船燃烧，随着时间的推移增加飞船的热量。燃烧会随着时间的推移而消失。`
 
 tip "% firing energy / shot:"
-	`Each shot reduces the ship's energy as a percentage of the ship's total energy capacity by this amount.`
+	`每一次射击都会减少飞船的能量，占飞船总能量的百分比是这个数量。`
 
 tip "% firing heat / shot:"
-	`Each shot fired increases the ship's heat as a percentage of the ship's maximum heat capacity by this amount.`
+	`每一次射击都会增加飞船的热量，占飞船最大热容量的百分比为这个量。`
 
 tip "% firing fuel / shot:"
-	`The amount of fuel used or lost per shot fired as a percentage of the ship's total fuel.`
+	`每次射击所消耗或损失的燃料量占飞船总燃料的百分比。`
 
 tip "% firing hull / shot:"
-	`Each shot fired by this weapon causes this amount of hull damage as a percentage of the ship's total hull.`
+	`该武器每发子弹造成的船体损伤量占船体总量的百分比。`
 
 tip "% firing shields / shot:"
-	`Each shot fired by this weapon causes this amount of shield loss as a percentage of the ship's total shields.`
+	`该武器每次发射都会造成一定量的护盾损失，占飞船总护盾的百分比。`
 
 tip "inaccuracy:"
-	`Maximum inaccuracy of this weapon, in degrees.`
+	`此武器的最大误差，单位是度。`
 
 tip "blast radius:"
-	`When this weapon hits something, everything within this distance (including friendly ships) will be damaged.`
+	`当这种武器击中什么东西时，这个距离内的所有东西（包括友舰）都会被损坏。`
 
 tip "missile strength:"
-	`How resistant this missile is to anti-missile shots.`
+	`这个导弹对反导弹射击的抵抗力如何。`
 
 tip "anti-missile:"
-	`How powerful this anti-missile system's shots are. Some missiles are harder to destroy than others.`
+	`这个反导弹系统的射程有多大。有些导弹比其他导弹更难摧毁。`
 
 
 
 # Flight checks:
 tip "overheating!"
-	`This ship's outfits are producing so much heat that it will overheat the moment it takes off. You must either add more cooling or remove some of the outfits that are producing heat.`
+	`这艘船的装备产生了大量的热量，以至于它在起飞的瞬间就会过热。你必须添加更多的冷却装置，或者移除一些产生热量的装备。`
 
 tip "no energy!"
-	`This ship does not have any source of energy to power its systems. You should install some sort of generator.`
+	`这艘船没有任何能量来源为其系统提供动力。你应该安装某种类型的发电机。`
 
 tip "no fuel!"
-	`This ship does not have enough fuel to provide energy to power its systems. You should increase the fuel capacity.`
+	`这艘船没有足够的燃料来为其系统提供能量。你应该增加燃料容量。`
 
 tip "no thruster!"
-	`This ship does not have any sort of thruster installed. If it took off, it would be unable to move.`
+	`这艘船没有安装任何类型的推进器。如果它起飞了，它将无法移动。`
 
 tip "no steering!"
-	`This ship does not have any steering systems installed. If it took off, it would be unable to turn.`
+	`这艘船没有安装任何转向系统。如果它起飞，它将无法转向。`
 
 tip "insufficient bunks!"
-	`This ship does not have enough bunks for its crew. It cannot take off.`
+	`这艘船没有足够的铺位给它的船员。它不能起飞。`
 
 tip "afterburner only?"
-	`This ship's only thruster is an afterburner. It may be unable to move if the afterburner runs out of fuel.`
+	`这艘船唯一的推进器是一个后燃器。如果后燃器的燃料耗尽，它可能无法移动。`
 
 tip "reverse only?"
-	`This ship has a reverse thruster but no forward thruster, which could make it very difficult to maneuver.`
+	`这艘船有一个反向推进器，但没有前向推进器，这可能使它很难操纵。`
 
 tip "battery only?"
-	`This ship has no means of generating energy. If its batteries are depleted, you could end up stranded and unable to move.`
+	`这艘船没有产生能量的手段。如果它的电池被耗尽，你可能会被搁浅而无法移动。`
 
 tip "limited thrust?"
-	`This ship's energy supply is not sufficient to run the thrusters at full power. Its top speed and acceleration will be diminished.`
+	`这艘船的能量供应不足以让推进器全速运转。它的最高速度和加速度将被减弱。`
 
 tip "limited turn?"
-	`This ship's energy supply is not sufficient to run the steering at full power. Its turn rate will be diminished.`
+	`这艘船的能量供应不足以让转向系统全速运转。它的转弯速度将被降低。`
 
 tip "solar power?"
-	`This ship is powered entirely by solar energy. If you fly too far from the center of a star system, maneuvering may become difficult because your engines will only have a fraction of the power they require.`
+	`这艘船完全由太阳能提供动力。如果你飞离恒星系统的中心太远，操纵可能会变得困难，因为你的引擎将只有它们所需能量的一小部分。`
 
 tip "fuel?"
-	`This ship consumes fuel. However, it would immediately run out of fuel if it departs.`
+	`这艘船会消耗燃料。然而，如果它离开，它的燃料会立即耗尽。`
 
 tip "no hyperdrive?"
-	`This ship has no hyperdrive. If it took off, it would be unable to leave this star system.`
+	`这艘飞船没有超光速引擎。如果它起飞，它将无法离开这个星系。`
 
 tip "no fuel?"
-	`This ship has insufficient fuel capacity to make a hyperspace jump. If it took off, it would be unable to leave this star system.`
+	`这艘飞船的燃料容量不足以进行超空间跳跃。如果它起飞，它将无法离开这个星系。`
 
 tip "no bays?"
-	`There are insufficient bays available to carry this ship. If you take off, it would be unable to leave this star system.`
+	`没有足够的舱位来承载这艘飞船。如果起飞，它将无法离开这个恒星系统。`
 
 tip "insufficient energy to fire?"
-	`This ship has insufficient energy storage to fire an installed weapon.`
+	`这艘船没有足够的能量储存来发射已安装的武器。`
 
 
 
 # Boolean attributes:
 tip "This outfit is considered an atrocity."
-	`Governments that scan for illegal goods will attack you upon discovering this item in your possession in space, or arrest you if found when landed.`
+	`扫描非法物品的政府会在发现你在太空中拥有此物品时对你进行攻击，或者在登陆时发现你会逮捕你。`

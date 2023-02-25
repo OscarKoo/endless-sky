@@ -135,8 +135,8 @@ ship "Emerald Sword"
 	explode "nuke explosion" 2
 	"final explode" "nuke explosion" 2
 	"final explode" "nuke residue fast" 50
-	description "An ancient Sheragi warship that was crewed by mutineers that fled from their civil war and escaped into interstellar space. Found orbiting a disconnected star, this is an impressively large ship, fit for the equally large Sheragi. The ship's main weapon is a fusion-pumped gamma-ray laser called the 'Dragonflame Cannon.' Despite the relatively primitive outfits, it's still a very capable war machine due to its size."
-	description "For its original Sheragi masters, this warship was home to around 100 individuals. For others, however, that number more than doubles, bringing it on par with the largest city ships."
+	description "一艘古老的Sheragi战舰，它的船员是从他们的内战中逃出来的叛变者，并逃到了星际空间。在一颗不相连的恒星上被发现，这是一艘令人印象深刻的大船，适合于同样大的Sheragi。这艘船的主要武器是一种被称为'龙焰炮'的聚变泵浦伽马射线激光器。尽管装备相对原始，但由于它的尺寸，它仍然是一个非常有能力的战争机器。"
+	description "对于它最初的Sheragi主人来说，这艘战舰上大约有100个人。然而，对于其他人来说，这个数字增加了一倍多，使其与最大的城市船只相提并论。"
 
 ship "Emerald Sword" "Emerald Sword (Fixed)"
 	sprite ship/emeraldsword
@@ -225,6 +225,6 @@ ship "Black Diamond"
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	"final explode" "final explosion small"
-	description "The Sheragi, being too large to effectively pilot ships this small, invested heavily in the development of autonomous fighters. The hardware that controls this isn't much more complex than the combat drones in human space, but it is bigger, and the lack of life support systems and amenities for a pilot allows it to carry extra outfitting space."
-	description "	The fighter also comes equipped with a powerful hull repair system to aid in its survival. This system doesn't work while the fighter is under fire, though, requiring the fighter to have not taken damage for a short while before activating."
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "雪拉基人由于体型太大，无法有效地驾驶这么小的战舰，因此大量投资于自主战斗机的开发。控制它的硬件并不比人类空间中的战斗无人机复杂多少，但它更大，而且由于缺乏生命支持系统和飞行员的设施，它可以携带额外的装备空间。"
+	description "	该战斗机还配备了一个强大的船体修复系统，以帮助其生存。不过这个系统在战斗机处于火力之下时并不工作，需要战斗机在短时间内没有受到伤害后才能启动。"
+	description "	战斗机不配备超光速引擎。除非你的舰队中有一艘带有战斗机舱的飞船，否则你无法携带战斗机。"

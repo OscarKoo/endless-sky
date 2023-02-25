@@ -36,7 +36,7 @@ outfit "Sunbeam"
 		"shield damage" 7.2
 		"hull damage" 3.0
 		"heat damage" 12.1
-	description "The Wanderers do not devote much time to developing weapon technology, preferring to focus their attention on more constructive endeavors. However, the few weapons they have created are efficient and deadly."
+	description "漫游者并没有花很多时间来开发武器技术，他们更愿意把注意力放在更有建设性的工作上。然而，他们所创造的少数武器是高效和致命的。"
 
 effect "sunbeam impact"
 	sprite "effect/sunbeam impact"
@@ -77,7 +77,7 @@ outfit "Sunbeam Turret"
 		"shield damage" 7.2
 		"hull damage" 3.0
 		"heat damage" 12.1
-	description "As the Wanderers slowly cope with the transition from peacetime to the growing conflict with the Unfettered Hai, they have begun building ships that are capable of carrying turret-mounted weapons. Because of the sheer size of the Sunbeam, this turret only carries one of them."
+	description `随着漫游者慢慢应付从和平时期到与不羁海族日益增长的冲突的过渡，他们已经开始建造能够携带炮塔式武器的船只。由于 "阳光号 "的体积庞大，这个炮塔只携带了其中的一个。`
 
 outfit "Dual Sunbeam Turret"
 	category "Turrets"
@@ -108,7 +108,7 @@ outfit "Dual Sunbeam Turret"
 		"shield damage" 14.4
 		"hull damage" 6.0
 		"heat damage" 24.2
-	description "This turret carries a pair of Wanderer Sunbeams. For any ship that can support its energy requirements, it is an immensely powerful weapon."
+	description "这个炮塔携带了一对流浪者太阳神灯。对于任何能够支持其能量需求的飞船来说，这是一种威力巨大的武器。"
 
 outfit "Moonbeam"
 	category "Guns"
@@ -137,7 +137,7 @@ outfit "Moonbeam"
 		"firing heat" 1.8
 		"shield damage" 4.8
 		"hull damage" 8.4
-	description "Because their Sunbeams are not very effective against the heavy plating of the Korath drones, the Wanderers have developed a new beam weapon that is considerably more effective against hull armor."
+	description "由于他们的太阳光对Korath无人机的厚重装甲并不十分有效，流浪者已经开发了一种新的光束武器，对船体装甲的效果要好得多。"
 
 effect "moonbeam fleck"
 	sprite "effect/moonbeam fleck"
@@ -185,7 +185,7 @@ outfit "Moonbeam Turret"
 		"firing heat" 1.8
 		"shield damage" 4.8
 		"hull damage" 8.4
-	description "This turret only carries a single Moonbeam weapon, but with its duty cycle increased so it can do 50% more damage than the non-turreted version."
+	description "这种炮塔只携带一个月光武器，但由于其占空比增加，所以它的伤害比非炮塔版本多50%。"
 
 outfit "Wanderer Anti-Missile"
 	category "Turrets"
@@ -207,7 +207,7 @@ outfit "Wanderer Anti-Missile"
 		"reload" 20
 		"firing energy" 50
 		"firing heat" 12
-	description "As a defense against the tracker pods used by the Unfettered Hai, the Wanderers have developed a hard-hitting anti-missile system that can knock almost any missile out of the sky with a single shot."
+	description "作为对不羁海使用的追踪器吊舱的防御，漫游者已经开发出一种强硬的反导弹系统，可以一枪将几乎所有的导弹打出天空。"
 
 effect "wanderer anti-missile"
 	sprite "effect/wanderer anti-missile"
@@ -253,7 +253,7 @@ outfit "Thunderhead Launcher"
 		"infrared tracking" .9
 		"radar tracking" .6
 		"missile strength" 12
-	description "A prime example of Wanderer ingenuity, Thunderhead Missiles each carry five submunitions that are capable of independent tracking. Even if the target is able to shoot down or evade a few of them, the remaining missile fragments will still find their mark."
+	description "作为流浪者独创性的一个典型例子，雷头导弹每个都携带有五个子弹药，能够独立追踪。即使目标能够击落或躲避其中的几个，其余的导弹碎片仍会找到它们的目标。"
 
 outfit "Thunderhead Missile"
 	category "Ammunition"
@@ -261,7 +261,7 @@ outfit "Thunderhead Missile"
 	thumbnail "outfit/thunderhead"
 	mass .3
 	"thunderhead capacity" -1
-	description "Thunderhead cluster munitions are long-range Wanderer missiles that split into five fast and agile submunitions when they are close to their target. Each launcher can hold up to 40 of these."
+	description `雷头集束弹药是远程 "流浪者 "导弹，当它们接近目标时，会分裂成五个快速而敏捷的子弹药。每个发射器最多可以容纳40枚。`
 
 outfit "Thunderhead"
 	weapon
@@ -294,7 +294,7 @@ outfit "Thunderhead Storage Array"
 	"outfit space" -8
 	"thunderhead capacity" 20
 	ammo "Thunderhead Missile"
-	description "The Thunderhead Storage Array is used to store extra ammunition for Thunderhead Launchers."
+	description "雷头存储阵列用于存储雷头发射器的额外弹药。"
 
 outfit "Small Biochemical Cell"
 	category "Power"
@@ -307,7 +307,7 @@ outfit "Small Biochemical Cell"
 	"energy generation" 1.6
 	"heat generation" 1.4
 	"energy capacity" 7500
-	description "This tiny generator draws energy from the metabolic byproducts of a collection of microorganisms that have been engineered by the Wanderers specifically for this purpose."
+	description "这个微小的发电机从一系列微生物的代谢副产品中汲取能量，这些微生物是由漫游者专门为此目的而设计的。"
 
 outfit "Large Biochemical Cell"
 	category "Power"
@@ -320,7 +320,7 @@ outfit "Large Biochemical Cell"
 	"energy generation" 6.2
 	"heat generation" 4.9
 	"energy capacity" 30000
-	description "The Wanderers are masters of unusual and efficient technology. This bioreactor is fueled by a culture of microorganisms that produce a small electric charge."
+	description "漫游者是不寻常和高效技术的大师。这个生物反应器是由产生小电荷的微生物培养物提供燃料的。"
 
 outfit "Red Sun Reactor"
 	category "Power"
@@ -333,7 +333,7 @@ outfit "Red Sun Reactor"
 	"energy generation" 8.3
 	"heat generation" 13
 	"energy capacity" 2200
-	description "The Wanderers have recently begun producing this tiny reactor as a way to squeeze a bit more energy production into their warships."
+	description "漫游者最近开始生产这种微小的反应器，以此来为他们的战舰挤出更多的能量生产。"
 
 outfit "Yellow Sun Reactor"
 	category "Power"
@@ -346,7 +346,7 @@ outfit "Yellow Sun Reactor"
 	"energy generation" 15.2
 	"heat generation" 21
 	"energy capacity" 5200
-	description "This is a compact nuclear reactor designed by the Wanderers. In addition to generating power, it is able to store a small amount of energy."
+	description "这是一个由Wanderers设计的紧凑型核反应堆。除了发电之外，它还能储存少量的能量。"
 
 outfit "White Sun Reactor"
 	category "Power"
@@ -359,7 +359,7 @@ outfit "White Sun Reactor"
 	"energy generation" 24.85
 	"heat generation" 32
 	"energy capacity" 13400
-	description "The White Sun is a large nuclear reactor that the Wanderers use for powering their Strong Wind warships."
+	description "白太阳是一个大型核反应堆，流浪者用于为他们的强风战舰提供动力。"
 
 outfit "Blue Sun Reactor"
 	category "Power"
@@ -372,7 +372,7 @@ outfit "Blue Sun Reactor"
 	"energy generation" 31.3
 	"heat generation" 39
 	"energy capacity" 17800
-	description "As the Wanderers have begun producing heavy warships, a need has arisen for larger and larger reactor cores to power them."
+	description "随着漫游者开始生产重型战舰，出现了对越来越大的反应堆核心的需求，为它们提供动力。"
 
 
 outfit "Bright Cloud Shielding"
@@ -385,7 +385,7 @@ outfit "Bright Cloud Shielding"
 	"outfit space" -19
 	"shield generation" 1.5
 	"shield energy" 3.0
-	description "This small Wanderer shield generator is able to recharge a ship's shields at a considerable rate, but it also consumes more energy than some other shield generators do."
+	description "这种小型的漫游者护盾发生器能够以相当高的速度为战舰的护盾充电，但它也比其他一些护盾发生器消耗更多的能量。"
 
 outfit "Dark Storm Shielding"
 	category "Systems"
@@ -397,7 +397,7 @@ outfit "Dark Storm Shielding"
 	"outfit space" -41
 	"shield generation" 3.5
 	"shield energy" 7.0
-	description "This Wanderer shield generator can restore a ship's shield strength more quickly than any human shielding technology, but while recharging shields it also draws a much larger amount of power."
+	description "这种流浪者号护盾发生器能够比任何人类的护盾技术更快地恢复飞船的护盾强度，但在为护盾充电的同时，它也会消耗更多的能量。"
 
 outfit "Wanderer Ramscoop"
 	category "Systems"
@@ -408,7 +408,7 @@ outfit "Wanderer Ramscoop"
 	"mass" 7
 	"outfit space" -7
 	"ramscoop" 4
-	description "Wanderer ships are designed to be self-sufficient even when traveling through uninhabited space, and their compact and efficient ramscoops are a key part of that self-sufficiency."
+	description "漫游者飞船被设计成即使在无人居住的空间旅行时也能自给自足，而它们紧凑而高效的冲压舱是这种自给自足的一个关键部分。"
 
 
 outfit "Wanderer Heat Sink"
@@ -420,7 +420,7 @@ outfit "Wanderer Heat Sink"
 	"mass" 12
 	"outfit space" -12
 	"cooling" 19
-	description "Most Wanderer systems are so efficient that ancillary cooling is unnecessary. As a result, their recent attempts to add cooling to their heavy warships are somewhat rudimentary."
+	description "大多数流浪者系统是如此高效，以至于辅助冷却是不必要的。因此，他们最近试图为他们的重型战舰增加冷却系统的尝试有些简陋。"
 
 
 outfit "Type 1 Radiant Thruster"
@@ -439,7 +439,7 @@ outfit "Type 1 Radiant Thruster"
 	"flare sprite" "effect/wanderer flare/tiny"
 		"frame rate" 12
 	"flare sound" "plasma tiny"
-	description "This is the tiniest Wanderer engine. Like all their engines, it works in part by radiating excess heat, and as a result it doubles as a cooler for your ship."
+	description "这是最微小的漫游者引擎。像他们所有的引擎一样，它的工作原理部分是辐射多余的热量，因此，它可以作为你的飞船的冷却器使用。"
 
 outfit "Type 2 Radiant Thruster"
 	category "Engines"
@@ -457,7 +457,7 @@ outfit "Type 2 Radiant Thruster"
 	"flare sprite" "effect/wanderer flare/small"
 		"frame rate" 14
 	"flare sound" "plasma small"
-	description "Wanderer engines work by transferring excess heat from the ship into the exhaust plasma. When not providing thrust, the engines still serve as a cooling system."
+	description "漫游者引擎的工作原理是将飞船上的多余热量转移到排气等离子体中。当不提供推力时，发动机仍然作为一个冷却系统。"
 
 outfit "Type 3 Radiant Thruster"
 	category "Engines"
@@ -475,7 +475,7 @@ outfit "Type 3 Radiant Thruster"
 	"flare sprite" "effect/wanderer flare/medium"
 		"frame rate" 16
 	"flare sound" "plasma medium"
-	description "Most engines this size generate a considerable amount of heat, but the Wanderers have developed a way of using the engine itself to vent extra heat from a ship, generating extra propulsive force in the process."
+	description "大多数这么大的引擎都会产生相当多的热量，但流浪者已经开发出一种方法，利用引擎本身来排放飞船的额外热量，在这个过程中产生额外的推进力。"
 
 outfit "Type 4 Radiant Thruster"
 	category "Engines"
@@ -493,7 +493,7 @@ outfit "Type 4 Radiant Thruster"
 	"flare sprite" "effect/wanderer flare/large"
 		"frame rate" 18
 	"flare sound" "plasma large"
-	description "This is the largest engine that the Wanderers have developed. Its incredibly efficient design allows it to cool your ship even while it is firing."
+	description "这是漫游者开发的最大的发动机。它令人难以置信的高效设计使它即使在发射时也能冷却你的飞船。"
 
 outfit "Type 1 Radiant Steering"
 	category "Engines"
@@ -511,7 +511,7 @@ outfit "Type 1 Radiant Steering"
 	"steering flare sprite" "effect/wanderer flare/tiny"
 		"frame rate" 12
 	"steering flare sound" "plasma tiny"
-	description "This tiny steering system is used by the Wanderers to power their unpiloted mining and surveying drones."
+	description "这个微小的转向系统被漫游者用来驱动他们的非驾驶式采矿和测量无人机。"
 
 outfit "Type 2 Radiant Steering"
 	category "Engines"
@@ -529,7 +529,7 @@ outfit "Type 2 Radiant Steering"
 	"steering flare sprite" "effect/wanderer flare/small"
 		"frame rate" 14
 	"steering flare sound" "plasma small"
-	description "This small Wanderer steering system vents excess heat from your ship even when it is not in use, allowing it to double as a cooling system."
+	description "这个小型的漫游者转向系统即使在不使用时也能将多余的热量从你的飞船中排出，使它可以作为一个冷却系统。"
 
 outfit "Type 3 Radiant Steering"
 	category "Engines"
@@ -547,7 +547,7 @@ outfit "Type 3 Radiant Steering"
 	"steering flare sprite" "effect/wanderer flare/medium"
 		"frame rate" 16
 	"steering flare sound" "plasma medium"
-	description "This steering system is used by the Wanderers in their mid-sized ships. In addition to turning your ship, it is able to vent a considerable amount of heat."
+	description "这个转向系统被流浪者用于他们的中型飞船。除了转动你的船，它还能排出相当多的热量。"
 
 outfit "Type 4 Radiant Steering"
 	category "Engines"
@@ -565,19 +565,19 @@ outfit "Type 4 Radiant Steering"
 	"steering flare sprite" "effect/wanderer flare/large"
 		"frame rate" 18
 	"steering flare sound" "plasma large"
-	description "This is the largest steering system that the Wanderers sell."
+	description `这是 "流浪者 "出售的最大的转向系统。`
 
 outfit "Wanderer Outfits License"
 	category "Licenses"
 	thumbnail "outfit/wanderer outfits license"
-	description "Spoke with a Wanderer ambassador named Iktat Rek using the translation device and received permission to purchase some of their technology, but not their ships."
+	description "使用翻译设备与一位名叫Iktat Rek的流浪者大使交谈，得到了购买他们一些技术的许可，但没有购买他们的船只。"
 
 outfit "Wanderer License"
 	category "Licenses"
 	thumbnail "outfit/wanderer license"
-	description "Managed to broker a temporary ceasefire between the Unfettered Hai and the Wanderers. Was granted access to purchase the non-military Wanderer ships, as a reward."
+	description `设法在 "不受约束的海 "和 "流浪者 "之间促成了临时停火。被允许购买非军事的流浪者船只，作为奖励。`
 
 outfit "Wanderer Military License"
 	category "Licenses"
 	thumbnail "outfit/wanderer military license"
-	description "Received permission to purchase warships from the Wanderers, including a new one called the Tempest."
+	description "获得了从流浪者购买战舰的许可，包括一艘名为暴风雨的新战舰。"

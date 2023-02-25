@@ -18,7 +18,7 @@ mission "First Contact: Korati Efreti"
 		not "Wanderers: Rek To Kor Efret: offered"
 	on offer
 		conversation
-			`A few of the Korath who inhabit this station greet you when you land, holding up both hands with their palms toward you. One of them says something that sounds like, "Humani efreti, naskoor amasavarkta." It's clear that none of them speak your language, but they seem friendly and willing to trade with you.`
+			`当你降落时，一些居住在这个站台的Korath人向你打招呼，举起双手，手掌朝向你。其中一个人说了一些听起来像是 "Humani efreti, naskoor amasavarkta "的话。很明显，他们都不会说你的语言，但他们看起来很友好，愿意和你交易。`
 				decline
 
 mission "First Contact: Laki Nemparu"
@@ -28,7 +28,7 @@ mission "First Contact: Laki Nemparu"
 		not "Wanderers: Rek To Kor Efret: offered"
 	on offer
 		conversation
-			`A few of the Korath in this spaceport greet you when you land, holding up both hands with their palms toward you. One of them says something that sounds like, "Humani efreti, naskoor amasavarkta." It's clear that none of them speak your language, but they seem friendly and willing to trade with you.`
+			`当你着陆时，这个太空港的几个科拉特人向你打招呼，举起双手，掌心向你。其中一个人说了一些听起来像 "Humani efreti, naskoor amasavarkta "的话。很明显，他们都不会说你的语言，但他们看起来很友好，愿意和你交易。`
 				decline
 
 mission "First Contact: Karek Fornati"
@@ -38,7 +38,7 @@ mission "First Contact: Karek Fornati"
 		not "Wanderers: Rek To Kor Efret: offered"
 	on offer
 		conversation
-			`A few of the Korath in this spaceport greet you when you land, holding up both hands with their palms toward you. One of them says something that sounds like, "Humani efreti, naskoor amasavarkta." It's clear that none of them speak your language, but they seem friendly and willing to trade with you.`
+			`当你着陆时，这个太空港的几个科拉特人向你打招呼，举起双手，掌心向你。其中一个人说了一些听起来像 "Humani efreti, naskoor amasavarkta "的话。很明显，他们都不会说你的语言，但他们看起来很友好，愿意和你交易。`
 				decline
 
 mission "First Contact: Setar Fort"
@@ -48,7 +48,7 @@ mission "First Contact: Setar Fort"
 		not "Wanderers: Rek To Kor Efret: offered"
 	on offer
 		conversation
-			`A few of the Korath in this spaceport greet you when you land, holding up both hands with their palms toward you. One of them says something that sounds like, "Humani efreti, naskoor amasavarkta." It's clear that none of them speak your language, but they seem friendly and willing to trade with you.`
+			`当你着陆时，这个太空港的几个科拉特人向你打招呼，举起双手，掌心向你。其中一个人说了一些听起来像 "Humani efreti, naskoor amasavarkta "的话。很明显，他们都不会说你的语言，但他们看起来很友好，愿意和你交易。`
 				decline
 
 mission "Discovered Korath Space"
@@ -58,7 +58,7 @@ mission "Discovered Korath Space"
 		attributes "efret"
 	on offer
 		event "label korath space"
-		log "Factions" "Korath" `The Korath are reptilian, bipedal aliens whose territory is almost entirely in ruins: cities destroyed and entire planets scarred by what appears to have been a vicious civil war. Several factions of Korath survive. The "Kor Efreti" live in the shelter of a Quarg ringworld and are on peaceful terms with the Quarg. Other Korath, living as exiles near the galactic core, have been raiding human worlds to steal food and supplies. And deeper in Korath space, two massive armies of automated war drones, known as the Kor Mereti and the Kor Sestor, are locked in an unending struggle. They attack any visitors to their region of space, including the Quarg.`
+		log "Factions" "Korath" `Korath人是爬行动物，双足外星人，他们的领地几乎完全是一片废墟：城市被摧毁，整个星球被似乎是一场恶性内战所伤。有几个Korath的派别幸存下来。Kor Efreti "生活在Quarg环形世界的庇护下，与Quarg保持和平关系。其他Korath人，作为流亡者生活在银河系核心附近，一直在袭击人类世界，偷取食物和物资。在Korath空间的更深处，两支由自动化战争无人机组成的庞大军队，被称为Kor Mereti和Kor Sestor，正陷入无休止的斗争。他们攻击任何进入他们空间区域的访客，包括夸格人。`
 		fail
 
 event "label korath space"
@@ -66,8 +66,8 @@ event "label korath space"
 		sprite "label/korath"
 		
 mission "Setar Fort Heating"
-	name "Supplies to <planet>"
-	description "Take <cargo> from the Wanderers to the Kor Efreti on <destination>. Payment is <payment>."
+	name "向<planet>提供物资"
+	description "将<cargo>从流浪者号运到<destination>的Kor Efreti号。付款方式为<payment>。"
 	minor
 	cargo "heating supplies" 30
 	source
@@ -79,55 +79,55 @@ mission "Setar Fort Heating"
 		random < 60
 	on offer
 		conversation
-			`As you're exploring the spaceport, a Wanderer you've not met waves you down. It says, "You are Captain <last>, correct?"`
+			`当你在探索太空港时，一个你没见过的流浪者向你招手。它说："你是<last>船长，对吗？"`
 			choice
-				`	"Yes, that's me."`
-				`	"The one and only."`
-			`	"I am [relieved, happy] to see you, Captain. We have heard of your assistance in our migration here, and I [believe, assume] you have spent some time on Korath worlds. Would you be interested in taking <tons> of [supplies, aid] to <planet>? I can offer you <payment>."`
+				`	"是的，那就是我。"`
+				`	"唯一的一个。"`
+			`	"看到你，我[松了一口气，很高兴]，船长。我们听说你在我们迁移到这里的过程中提供了帮助，我[相信，假设]你在Korath世界呆过一段时间。你是否有兴趣把<tons>的[物资、援助]带到<planet>？我可以给你提供<payment>。"`
 			choice
-				`	"I can do that. Load it up, and I'll be ready to leave."`
+				`	"我可以这样做。把它装起来，我就可以出发了。"`
 					goto agree
-				`	"Only <payment>? That's an unusually low payment for the amount of cargo I'll be carrying."`
+				`	"只有<payment>？对于我将携带的货物数量来说，这是个异常低的报酬。"`
 					goto payment
-				`	"What exactly would I be transporting?"`
-				`	"Sorry, but I'm too busy at the moment to take on another job."`
+				`	"我到底要运什么？"`
+				`	"对不起，我现在太忙了，没时间接别的活。"`
 					goto decline
 			
-			`	"As I am sure you are aware, <planet> is cold - uncomfortably so for most species. Based on our [research, information], the planet is experiencing an accelerated [descent, transition] into an ice age. The Kor Efreti have no effective means of stopping this, and their [pride, honor] means they will not accept our terraforming assistance unless they have no other options. They will, however, pay us for equipment to offset this [descent, transition]. Your [supplies, aid] would include warmer clothing, greenhouse building material, [insulation, shelter], and other technology for the Korath to use. The payment, while [unfortunately, sadly] low, is all the Korath were able to offer.`
-			`	"I was originally going to make the journey myself, but my ship has encountered [errors, complications] due to a faulty component. I need someone to go in my place."`
+			`	"我相信你也知道，<planet>很冷--对大多数物种来说都很不舒服。根据我们的[研究，信息]，这个星球正在经历一个加速的[下降，过渡]，进入一个冰河时代。Kor Efreti没有有效的手段来阻止这种情况，而且他们的[骄傲，荣誉]意味着他们不会接受我们的地球改造援助，除非他们没有其他选择。然而，他们会向我们支付设备费用，以抵消这种[下降、过渡]。你们的[物资、援助]将包括更暖和的衣服、温室建筑材料、[保温层、住所]以及其他供Korath使用的技术。这笔款项虽然[不幸的，可悲的]很低，但这是Korath人能够提供的全部。`
+			`	"我原本打算自己去旅行，但我的飞船由于部件故障，遇到了[错误，复杂情况]。我需要有人代替我去。"`
 			choice
-				`	"I'd be happy to, especially since it's for a good cause. You're welcome to load it up onto my ship."`
+				`	"我很乐意，尤其是为了一个好的事业。欢迎你把它装到我的船上。"`
 					goto agree
-				`	"Sorry, but I'm too busy at the moment to take on another job."`
+				`	"对不起，我现在太忙了，没时间接别的活。"`
 					goto decline
 			
 			label payment
-			`	The Wanderer shudders slightly, almost like it had hoped you wouldn't ask that. "Well... Yes, it is low. The rest of the Kor Efreti's payment was used to [purchase, acquire] the supplies, and it seemed they could not afford to pay much more than they already had. Given their situation, we found it [reasonable, justifiable] to accept the lower payment, as the cargo is a [collection, menagerie] of equipment to help with the cooling climate on <planet>, and without it the Kor Efreti might... [perish? expire?]."`
+			`	漫游者号微微颤抖着，几乎是希望你不要这么问。"嗯......。是的，它很低。科尔-埃夫雷蒂的其余款项被用来[购买、获得]这些物资，看来他们不能再多付多少钱了。考虑到他们的情况，我们认为接受较低的付款是[合理的，正当的]，因为这批货物是帮助<planet>上的冷却气候的[集合，组合]设备，没有它，Kor Efreti可能...[灭亡？""过期？"。］`
 			choice
-				`	"I understand, and the money isn't a huge problem. I was just curious. Load it up onto my ship, and I'll be ready to go."`
+				`	"我明白，钱也不是什么大问题。我只是很好奇。把它装到我的船上，我就可以走了。"`
 					goto agree
-				`	"Oh. Well, I'll make an exception too. Load it up, and I'll head out."`
+				`	"哦，好吧，我也会破例的。把它装起来，我就出发。"`
 					goto agree
-				`	"Sorry, but I can't make that trip for only <payment>. You'll have to find someone else."`
+				`	"对不起，但我不能只为<payment>而跑这一趟。你得找别人。"`
 			
 			label decline
-			`	The Wanderer deflates a little when it hears your response. "Oh. I understand. Thank you for your time, Captain <last>," it says, then it wanders off to look for another pilot.`
+			`	漫游者听到你的回答后，有点泄气了。"哦，我明白了。谢谢你的时间，<last>船长。"它说，然后它就走去寻找另一个飞行员。`
 				decline
 			
 			label agree
-			`	The Wanderer is happy to hear your response. "Wonderful! I will ensure the supplies are loaded onto your ship [immediately, quickly]. Thank you, Captain." It hurries off to a group of Wanderers nearby and starts barking orders. The group breaks up, and within minutes they're at your ship loading the supplies.`
+			`	漫游者听到你的回答很高兴。"太好了!我将确保物资被装到你的船上[立即，快速]。谢谢你，船长。"它急匆匆地跑到附近的一群流浪者那里，开始叫嚣着发号施令。这群人散开了，几分钟内他们就在你的船上装上了物资。`
 				accept
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 5000
 		conversation
-			`When you arrive on <planet>, a group of Korath is waiting to unload the cargo. You try and imitate their gesture of greeting, holding your hands up with your palms toward the group. They look surprised but hiss approvingly.`
-			`	Soon, all the supplies are off of your ship. The Korath give you a gesture of appreciation, then they begin unpacking it right in the middle of the spaceport. Already, a crowd has begun to gather around the equipment. It looks like it will be put to good use here. When you return to your ship, you see the Wanderer who offered you the job has transferred you your payment of <payment>.`
+			`当你到达<planet>时，一群科拉斯人正在等待卸货。你试着模仿他们打招呼的手势，用你的手掌朝向那群人举起。他们看起来很惊讶，但却赞许地发出嘶嘶声。`
+			`	很快，所有的物资都从你的船上卸下来了。科拉斯人向你做了一个感谢的手势，然后他们开始在太空港的中央拆开包装。已经有一群人开始聚集在这些设备周围。看起来它将在这里得到很好的利用。当你回到你的船上时，你看到为你提供工作的流浪者已经把你的报酬<payment>转给了你。`
 			
 mission "Korath Family to Ringworld"
-	name "Korath to <planet>"
-	description "A Korath family of <bunks> has paid you <payment> to take them to the Quarg ringworld of <destination>."
+	name "Korath到<planet>"
+	description "一个<bunks>的Korath家庭向你支付了<payment>，让你带他们去<destination>的Quarg环形世界。"
 	minor
 	passengers 3
 	source "Laki Nemparu"
@@ -136,40 +136,40 @@ mission "Korath Family to Ringworld"
 		random < 60
 	on offer
 		conversation
-			`The smog is so thick on Laki Nemparu that even the brightest hours of the day feel like evening to you. Everything here is so dirty that most of the Korath look a few shades darker than those of other planets. Within minutes, a small layer of soot clings to your skin as well.`
-			`	As you observe your surroundings, a Kor Efret approaches you followed by two others, one likely a child based on its size and the other hunched over a cane it uses for support - probably elderly. The one in front speaks in the Korath language and quickly realizes you don't understand it at all. The Kor Efret pauses to take a deep breath, then erupts into a coughing fit as they inhale far too much smog. It's almost a full minute before they recover.`
-			`	The Korath points up to the sky and says, "<planet>, <planet>," while gesturing to the two Korath with them. They press 500 credits into your hands and continue to mutter in the Korath language. <planet> is the name of the Quarg ringworld in Korath space. They must want transportation to it. 500 credits is shockingly low for any transport job, but based on their appearance they can't afford to pay you any more. Do you want to take them to <planet>?`
+			`Laki Nemparu上的烟雾是如此之浓，甚至一天中最明亮的时间对你来说都像是晚上。这里的一切都如此肮脏，以至于大多数科拉斯看起来比其他星球的人要深几分。几分钟之内，你的皮肤上也粘上了一小层烟尘。`
+			`	当你观察周围的环境时，一个Kor Efret向你走来，后面还有两个人，根据体型，一个可能是个孩子，另一个蜷缩在一根用来支撑的手杖上，可能是老人。走在前面的那个人用科拉斯语说话，但他很快意识到你根本不懂。科尔-埃弗里特停顿下来深吸一口气，然后爆发出一阵咳嗽，因为他们吸入了太多的烟雾。几乎过了整整一分钟，他们才恢复过来。`
+			`	科拉斯指着天空说："<planet>，<planet>，"同时向和他们在一起的两个科拉斯打手势。他们把500个信用点压在你的手上，并继续用Korath的语言嘀咕着。<planet>是Korath空间中Quarg环形世界的名字。他们一定是想要去那里的交通。500信用点对任何运输工作来说都是令人震惊的低价，但根据他们的外表，他们不可能再付给你更多的钱。你想带他们去<planet>吗？`
 			choice
-				`	(Yes.)`
-				`	(Yes, and give their credits back to them.)`
+				`	(是的。)`
+				`	(是的，并把他们的学分还给他们）。`
 					goto free
-				`	(No.)`
+				`	(不。)`
 					goto heartless
-			`	You pocket the credits and gesture for them to follow to your ship. When the Korath realizes you've agreed, they sigh in relief and rapidly gesture in gratitude. You show them to their bunks... and the shower.`
+			`	你把学分装进口袋，并示意他们跟到你的船上。当Korath意识到你已经同意了，他们松了一口气，并迅速做出感谢的手势。你带他们去他们的床铺......和淋浴。`
 				accept
 			
 			label free
-			`	The Korath's shoulders slump when you hand back the credits, but their disappointment turns to surprise when you gesture to your ship. When they realize you're trying to refuse the money, they puff their chest out and push the credits into your hands again. They won't take no for an answer, so you pocket the credits and take them to your ship. You show them to their bunks... and the shower.`
+			`	当你把钱交还给他们时，Korath人的肩膀耷拉了下来，但当你向他们示意你的船时，他们的失望变成了惊讶。当他们意识到你想拒绝这笔钱时，他们挺起胸膛，再次把信用额度推到你手里。他们不接受拒绝的答案，所以你把信用额度装进口袋，把它们带到你的船上。你带他们去看他们的床铺......还有淋浴。`
 				accept
 			
 			label heartless
-			`	You give the credits back to the Korath, and their shoulders slump. You watch the trio wander off until they're no longer visible through the thick smog. You can't help but feel a little bad.`
+			`	你把学分还给了科拉斯，他们的肩膀都耷拉下来了。你看着这三个人走远，直到他们在厚厚的烟雾中再也看不见了。你不禁感到有点糟糕。`
 				decline
 	on accept
 		payment 500
 	on complete
 		conversation
-			`You enjoy the new company on your ship. The child has taught you a game where you take turns throwing a ball against the wall. You spend an hour or two playing with them in the cargo hold.`
-			`	When you arrive, you decide to accompany the family into the spaceport. Waiting near the docking bay are two more Korath, one an adult and the other elderly, and the three you've transported rush to meet them. After the happy reunion has died down, the Korath who had originally asked you for transportation turns to a nearby Quarg and says something. The Quarg responds and then turns to you.`
-			`	"This fellow pridefulest has claimed he regarded my indebted translation with reverence and asks my usage of it be preferred. I am inclined to acquiesce his request happyifully." This Quarg does not seem to have an especially strong grasp of your language, but you should be able to more or less gather what is being said. "The comrade says, 'I disproportionately thank you for reuniting my familial, in fateful service to our camaraderie.' He additionally supplants there was no method in which this gaggle would vicinitied in which absenced your presence. That is all."`
+			`你喜欢你船上的新伙伴。那个孩子教了你一个游戏，你们轮流向墙上扔球。你在货舱里和他们玩了一两个小时。`
+			`	当你到达时，你决定陪同这一家人进入太空港。在对接舱附近等待的是另外两个Korath，一个是成年人，另一个是老年人，你运送的三个人赶忙去迎接他们。在快乐的团聚气氛平息后，最初要求你运送的科拉特人转向附近的夸格人并说了些什么。夸格人回应了一下，然后转向你。`
+			`	"这个骄傲的家伙声称他对我欠下的译文充满敬意，要求我优先使用它。我倾向于默许他的请求，很高兴。"这个夸父似乎对你的语言掌握得不是特别好，但你应该能或多或少地听出他在说什么。"这位同志说，'我非常感谢你让我的家人团聚，为我们的友情提供了致命的帮助。他还补充说，如果没有你的存在，这群人是没有办法在附近找到的。这就是全部。"`
 			choice
-				`	"Tell him it's no problem at all."`
-				`	"Tell him he has a wonderful family, and I was glad to help."`
-			`	The Quarg nods and turns to translate. The Korath responds while holding his palms toward you and moving them in a wide circular motion. "This is indicating of thankfulness of wholesomest measure. He thanks you for your fortunate words and wishes you kind travels," the Quarg says. You acknowledge the response, thank the Quarg for its (rough) translation services, and return to your ship.`
+				`	"告诉他这根本不是问题。"`
+				`	"告诉他，他有一个美好的家庭，我很高兴能帮助他。"`
+			`	夸格人点点头，转身去翻译了。科拉斯回应说，同时将他的手掌朝向你，并以大圆圈的方式移动。"这是表示最全面的感激之情。他感谢你的幸运之言，并祝你旅途愉快。"夸父说。你承认了这个回应，感谢夸父的（粗略）翻译服务，然后回到你的船上。`
 		
 mission "Korath Livestock"
-	name "Livestock to <planet>"
-	description "Transport <bunks> Korath farmers and their <cargo> to <destination>. They've paid you part of your agreed 10,000 credits already."
+	name "前往<planet>的牲畜"
+	description "将<bunks>Korath农民和他们的<cargo>运送到<destination>。他们已经向你支付了约定的10,000信用点的一部分。"
 	minor
 	passengers 7
 	cargo "livestock and supplies" 40
@@ -179,26 +179,26 @@ mission "Korath Livestock"
 		random < 65
 	on offer
 		conversation
-			`A Kor Efret wearing several layers made of a wool-like fabric approaches you. It raises both its palms toward you, then it gestures for you to follow into an alley. You don't think it poses any threat, but it can't hurt to be cautious.`
+			`一个穿着几层类似羊毛的布料的Kor Efret接近你。它向你举起两只手掌，然后打手势让你跟着进入一条小巷。你认为它不构成任何威胁，但谨慎一点也无妨。`
 			choice
-				`	(Follow into the alleyway.)`
-				`	(Play it safe and leave.)`
+				`	(跟着进入巷子。)`
+				`	(安全起见，离开）。`
 					decline
-			`	The Korath weaves through the buildings, heading deeper into an abandoned section of the city. The Korath turns a corner, and as a cold wind rushes over you, an alarmingly loud bleating noise emanates from around the corner.`
+			`	Korath在建筑物中穿梭，向城市的一个废弃区深处走去。Korath转过一个拐角，随着一阵冷风吹过，拐角处传来了令人震惊的巨大咩咩声。`
 			choice
-				`	(Turn the corner.)`
-				`	(Turn around and try to run back to the spaceport.)`
-			`	You hear the shuffling of feet behind you and turn around. Three towering Korath wearing similar heavy clothing have stepped out of a nearby doorway and are making their way toward you. The bleating noise returns, and you turn again, only to see the original Kor Efret has returned from around the corner. Whatever chance you had of getting out of this is gone now.`
-			`	The one in front turns back to where it came from, and the Korath behind you hisses and gestures forward. It looks like you should follow. You brace yourself and turn the corner to see... animals?`
-			`	The rusting buildings have given way to a massive abandoned plaza, and the entire space is taken up by a mix of large livestock and supplies. They remind you of sheep, but they're around five times larger, have six legs, and come in a variety of brown-black colors. Each has a full coat of fur and an additional blanket made of their own wool-like fabric on them. It's the same material these Korath are wearing. Even with their extra blanket, the "sheep" are huddled in small groups and look uncomfortably cold. They occasionally bleat loudly whenever a cold wind rushes through the plaza. Fortunately for you, these Kor Efreti look to be farmers, not muggers. This must have been the only place near the spaceport where they could keep their entire herd together.`
-			`	The one who led you here, who also seems to be the leader, gestures for you to come over to it. It has opened a paper map - a rare sight in the era of interstellar travel. When you take a look, you realize it's not of the local area, but space; it seems to show the surroundings systems. The Korath points to one, pauses and gestures broadly at the mix of livestock and supplies, then draws its finger to another system and says something that sounds roughly like <planet>. "<planet>?" you confirm, and the Korath hisses in approval. It looks like they want transportation there. You wager the livestock and supplies will take up roughly <tons>, and there are <bunks> Korath farmers in the group.`
-			`	It pulls a stack of 200 credits from its pocket and sets it on the ground before drawing a circle around it with a piece of chalk. It then draws four more, makes a large circle around the five total smaller ones, then draws nine additional large circles. Your best guess is it's offering 10,000 credits for their transport.`
+				`	(转过街角。)`
+				`	(转过去，试着跑回太空港。)`
+			`	你听到身后传来的脚步声，转过身来。三个穿着类似厚重衣服的高大的Korath已经走出了附近的一个门洞，正朝你走来。流血的声音又来了，你再次转身，只见原来的科勒-艾弗瑞特已经从拐角处回来了。无论你有什么机会摆脱这一切，现在都没有了。`
+			`	前面的那只转身回到它来的地方，而你身后的科拉思发出嘶嘶声，并打着手势向前走。看起来你应该跟上。你打起精神，转过街角，看到......动物？`
+			`	生锈的建筑物已经让位给一个巨大的废弃广场，整个空间被大型牲畜和物资的组合所占据。它们让你想起绵羊，但它们大约大五倍，有六条腿，有各种棕黑颜色。每个人都有一身毛皮，身上还有一条由它们自己的羊毛状织物制成的额外毯子。这也是这些Korath所穿的材料。即使有了额外的毯子，这些 "羊 "还是挤在一起，看起来冷得让人不舒服。每当寒风吹过广场，它们就会偶尔大声咩叫。幸运的是，这些Kor Efreti看起来是农民，而不是歹徒。这一定是太空港附近唯一能让他们把整个牛群聚在一起的地方。`
+			`	把你领到这里的那个人，似乎也是头领，打手势让你走过去。它打开了一张纸质地图--在星际旅行的时代，这是一个罕见的景象。当你看了一眼，你发现它不是本地的，而是太空的；它似乎显示了周围的系统。科拉斯指着一个，停顿了一下，对着牲畜和物资的混合体做了个宽泛的手势，然后把手指伸向另一个系统，说了句听起来大致像<planet>的话。"<planet>？"你确认，Korath嘶嘶叫着表示赞同。看起来他们想去那里运输。你打赌，牲畜和补给品大约会占<tons>，而且这群人中有<bunks>Korath农民。`
+			`	它从口袋里掏出一叠200个信用点，放在地上，然后用粉笔在周围画了一个圈。然后它又画了四个，在总共五个小圈周围画了一个大圈，然后又画了九个大圈。你最好的猜测是，它要提供10,000信用点来运送他们。`
 			choice
-				`	(Agree to take them.)`
-				`	(Decline the job.)`
+				`	(同意接受他们。)`
+				`	(拒绝这项工作。)`
 					decline
-			`	You indicate your agreement by pointing to <planet> on the map and gesturing to yourself. Once it understands you've agreed, the Korath holds its palms toward you and moves them in a circular motion. You lead one to your ship while the rest stay behind to prepare the animals. When you arrive, it immediately goes to work spreading tarps over the floor and scattering a type of straw over them. After some time, you notice one of the "sheep" emerge from an alleyway led by a farmer that had stayed behind. Behind it is another animal, then another. The line of livestock, interspersed with the farmers keeping things moving, slowly makes it way into your hangar over the next hour.`
-			`	As they enter your climate-controlled ship, the farmers take the hefty, wool-like blankets off the "sheep" and remove most of their own layers. One takes the entire pile of fabric to a nearby vendor and exchanges it for credits while the others go back and grab the supplies still in the plaza. By nightfall, everything and everyone is finally loaded onto your ship. The Korath who had sold the clothes to the merchant gives you the entire stack of 4,100 credits. Hopefully you'll get the rest after you get to <planet>.`
+			`	你通过指着地图上的<planet>并对自己做手势来表示同意。一旦它明白你同意了，Korath将它的手掌朝向你，并以圆周运动的方式移动。你领着一只到你的船上，其余的留在后面准备动物。当你到达时，它立即开始工作，在地板上铺设防水布，并在上面撒上一种稻草。一段时间后，你注意到其中一只 "羊 "在一个留守的农民带领下从巷子里走出来。在它后面是另一只动物，然后是另一只。在接下来的一个小时里，牲畜的队伍在农民的带领下慢慢进入你的机库。`
+			`	当他们进入你的气候控制船时，农民们从 "羊 "身上取下厚重的、像羊毛一样的毯子，并脱下自己的大部分衣服。一个人把整堆布料拿到附近的小贩那里，换成了信用点，而其他人则回去拿仍在广场上的物资。到了晚上，所有东西和每个人都终于被装上了你的船。把衣服卖给商人的科拉斯给了你整整一叠4100信用点。希望你到了<planet>之后能得到其余的东西。`
 				accept
 	on accept
 		payment 4100
@@ -207,42 +207,42 @@ mission "Korath Livestock"
 	on complete
 		payment 5900
 		conversation
-			`The animals are surprisingly comfortable on the ship, but the Korath struggle. Based on how often they're in and out of the bathroom during the one-jump trip, none of them have been in hyperspace before. When they get over their space sickness, they busy themselves shaving the wool-like fur off the animals and gathering it.`
-			`	As you land and open the cargo doors to reveal the hot world of <planet>, the animals shift excitedly. They seem much more energetic than any time before now, so much so that the Korath have some trouble keeping them all together as they exit the ship. The slow desertification of this planet is surely a cause for concern, but it seems to provide a much healthier environment for these animals than Setar Fort's chilling temperatures do. Once everything is off your ship, a Korath takes the wool to another vendor and again sells it, then it returns and hands you 5,900 credits. With the 4,100 credits it gave you before leaving, you've received all 10,000 promised credits. It holds its hands up with its palms toward you then leaves to join the other farmers.`
+			`动物们在船上出奇地舒服，但Korath人却很挣扎。根据他们在一次跳伞旅行中进出厕所的频率，他们之前都没有去过超空间。当他们克服了太空病后，就忙着把动物身上像羊毛一样的毛发剃掉，然后把它收集起来。`
+			`	当你着陆并打开货舱门，露出炎热的<planet>世界时，动物们兴奋地转移。他们似乎比以前任何时候都更有活力，以至于当他们离开飞船时，Korath在保持他们所有人在一起时有些困难。这个星球缓慢的沙漠化肯定是一个令人担忧的原因，但它似乎为这些动物提供了一个比塞塔尔堡的寒冷温度更健康的环境。一旦所有东西都离开了你的飞船，一个Korath将羊毛带到另一个卖家那里，再次出售，然后它回来，交给你5900信用点。加上它离开前给你的4,100信用点，你已经收到了所有承诺的10,000信用点。它朝你举起手掌，然后离开，加入其他农民的行列。`
 
 phrase "kor efret small package offer"
 	word
-		`A Korath`
-		`A Kor Efret`
-		`A local`
+		`一个科拉斯`
+		`一个Kor Efret`
+		`一个当地人`
 	word
 		` `
 	word
-		`communicates using gestures that it wants you to`
-		`uses gestures to ask you to`
+		`用手势交流，表示它希望你这样做。`
+		`用手势来要求你`
 	word
 		` `
 	word
-		`bring a small crate`
-		`bring a package`
-		`take a shipment weighing less than one ton`
-		`carry a box`
+		`带来一个小板条箱`
+		`带来一个包裹`
+		`运送重量小于一吨的货物`
+		`搬运一个箱子`
 	word
 		` `
 	word
-		`to <destination> for <payment>.`
+		`到<destination>收取<payment>。`
 	word
 		` `
 	word
-		`It shouldn't take up any significant room on your ship.`
-		`It's small enough to fit below your seat.`
-		`The item is small enough for you to hold in your hands.`
-		`It's small enough that it won't take up any cargo space.`
+		`它不应该在你的船上占据任何重要的空间。`
+		`它小到可以放在你的座位下面。`
+		`该物品小到可以让你拿在手里。`
+		`它足够小，不会占用任何货物空间。`
 
 mission "Small Scale Delivery"
-	name "Package to <planet>"
+	name "到<planet>的包裹"
 	repeat
-	description "Take a small delivery to <destination> for <payment> for a Kor Efret."
+	description "为一个Kor Efret到<destination>进行小规模的运送，以获得<payment>。"
 	minor
 	to offer
 		has "wanderers sestor done"
@@ -256,4 +256,4 @@ mission "Small Scale Delivery"
 		dialog phrase "kor efret small package offer"
 	on complete
 		payment 1000
-		dialog `You find a Korath who seems to have been waiting for you in the spaceport. They greet you by showing their palms, then outstretch their hands as if waiting to receive the package. You hand off the small delivery and they hand you a small payment of <payment>.`
+		dialog `你找到一个Korath，他似乎一直在太空港等你。他们露出手掌向你打招呼，然后伸出双手，似乎在等待接收包裹。你交出小件货物，他们递给你一笔<payment>的小钱。`

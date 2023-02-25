@@ -37,7 +37,7 @@ outfit "Fate Sealer"
 		"cluster"
 		"safe"
 		"submunition" "Fate Sealer Activated"
-	description `An energy particle weapon that intensifies a blast to a single location after a brief duration. The after-effect of the explosion pulls the target closer to the origin of the blast.`
+	description `一种能量粒子武器，在短暂的持续时间后将爆炸强化到一个地方。爆炸的后遗症将目标拉近到爆炸的源头。`
 
 outfit "Fate Sealer Activated"
 	weapon
@@ -79,7 +79,7 @@ outfit "Fate Divider"
 		"cluster"
 		"safe"
 		"submunition" "Fate Divider Activated"
-	description `An energy particle weapon that intensifies a blast to a single location after a brief duration. The after-effect of the explosion pushes the target farther from the origin of the blast.`
+	description `一种能量粒子武器，在短暂的持续时间后将爆炸强化到单一地点。爆炸的后果是将目标推到离爆炸源头更远的地方。`
 
 outfit "Fate Divider Activated"
 	weapon
@@ -146,7 +146,7 @@ outfit "Abyssal Composer"
 		"energy damage" 100
 		"piercing" 0.3
 		"safe"
-	description `This is an extremely dangerous weapon that uses graviton technology to pull a target's mass and energy apart, and then feeds the materials to the firing ship's systems.`
+	description `这是一种极其危险的武器，它利用引力子技术将目标的质量和能量拉开，然后将这些材料输送到发射舰的系统中。`
 
 effect "composed"
 	sprite "effect/composed"

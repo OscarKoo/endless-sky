@@ -23,14 +23,14 @@ mission "Theater Chat"
 		random < 1
 	on offer
 		conversation
-			`As you are walking through the spaceport, you come across the uncommon pairing of a Hai and a human, their conversation standing out by virtue of speaking the common tongue of humanity.`
-			`	"Oh, oh, Gemanari, this looks interesting!" The human woman looks to be in her late sixties and, when you turn to look, seems to be clucking over a holographic advertisement for a theater show. "This looks adorable, doesn't it? Oh, and it says they're using ripple ray refractive holographic flight effects!"`
-			`	The advertisement does indeed look very impressive, and you pause to observe for a moment.`
-			`	The Hai, presumably Gemanari, also appears to be a more mature lady who squints at it and wrinkles her nose. "Ugh, that's the Germontian interpretation though."`
-			`	This receives a puzzled look to which Gemanari thinks for a second before clarifying. "You would say the Social Darwinist interpretation."`
-			`	The lady grimaces and makes like she's vomiting. "I can't believe you still have those schools of thought in a society this old."`
-			`	"Oh we don't really, at least not in scientific circles, but a compelling story will outlive such things. I can't stand it personally, but it is a classic." When the lady looks unimpressed, Gemanari titters and takes her gently by the arm to steer her away again. "Don't worry Alinta; I think the Misheep Wah'uden company is running my preferred interpretation on <destination> at the moment. We can see if they have any cheap tickets. Of course my aunt would insist that the hundred and eighty-third version is the only real one, but she always..."`
-			`	You lose the conversation as they trail away from you, leaving you to wonder just what was so special about the hundred and eighty-third version of a play about a prehistoric flying Hai found frozen in the ice.`
+			`当你走过太空港时，你遇到了一对不常见的海族和人类，他们的对话因说人类的共同语言而显得格外引人注目。`
+			`	"哦，哦，Gemanari，这看起来很有趣！"这位人类妇女看起来有60多岁了，当你转过头去看时，似乎正在对着一个剧院演出的全息广告咯咯笑。"这看起来很可爱，不是吗？哦，它说他们使用的是波纹射线折射全息飞行效果！"`
+			`	广告确实看起来非常令人印象深刻，你停顿下来观察了一会儿。`
+			`	海，估计是格玛纳里，也是一位比较成熟的女士，她眯着眼睛看了看，皱起了鼻子。"唉，这倒是日耳曼人的解释。"`
+			`	这句话得到了一个不解的眼神，格玛纳里想了一秒钟后才澄清。"你会说是社会达尔文主义的解释。"`
+			`	这位女士龇牙咧嘴，做出要呕吐的样子。"我不相信你们在这么古老的社会中还有这些思想流派。"`
+			`	"哦，我们真的没有，至少在科学界没有，但一个令人信服的故事会比这种东西更长久。我个人不能忍受它，但它是一个经典。"当这位女士看起来无动于衷时，盖玛纳里窃窃私语，并轻轻地挽着她的胳膊，再次引导她离开。"别担心，阿林塔；我想Misheep Wah'uden公司此刻正在经营我喜欢的<destination>的解释。我们可以看看他们是否有便宜的票。当然，我姑姑会坚持认为第一百八十三个版本才是真正的版本，但她总是......"`
+			`	当他们从你身边溜走时，你失去了谈话的机会，让你想知道第183个版本的戏剧有什么特别之处，它是关于在冰上发现的史前飞海。`
 				decline
 
 
@@ -44,29 +44,29 @@ mission "Musical Entertainment Expo"
 		random < 1
 	on offer
 		conversation
-			`While stopped in the spaceport waiting for refueling, you are surprised by how hard it is to find somewhere to sit and have a meal and a drink. It seems Hai have crammed themselves into every bar or similar venue with a public display screen, arrayed in sashes and mantles and all manner of other paraphernalia which, near as you can tell, look like... team sport merchandise?`
-			`	You're not really an expert on what such things look like in Hai society and so when you finally find somewhere to sit, at a bar for lack of any other options, you ask the tired-looking bartender what exactly is going on.`
-			`	"Oh this? They're all here for the Musical Entertainment Expo streams. Unfortunately, none of them start drinking until at least one of their teams has announced something of worth," he says with an exasperated eye-roll.`
+			`当你停在太空港等待加油时，你惊讶地发现很难找到地方坐下来吃东西和喝水。似乎海族人已经把自己挤进了每一个有公共显示屏的酒吧或类似的场所，他们身披腰带和斗篷，以及各种其他的用具，据你所知，这些用具看起来像是......团队运动的商品？`
+			`	你不是一个真正的专家，不知道这种东西在海社会是什么样子的，所以当你终于找到一个地方坐下，在一个酒吧里，因为缺乏其他选择，你问看起来很累的酒保到底发生了什么。`
+			`	"哦，这个？他们都是来参加音乐娱乐博览会的人。不幸的是，在他们的团队中至少有一个宣布了有价值的东西之前，他们都不开始喝酒。"他气呼呼地揉着眼睛说。`
 			choice
-				`	"Okay. Can I just get some food here?"`
+				`	"好吧。我可以在这里吃点东西吗？"`
 					goto wrapup
-				`	"What's the Musical Entertainment Expo?"`
-				`	"Why don't they start drinking yet?"`
-			`	"Well you see, the big music labels do a lot of talent scouting all year round. They all have departments solely dedicated to finding and assembling new music groups to be the next big thing. It's tradition to celebrate only after you've committed to the journey with a new band. Every three years the industry holds ME2, which is what you're seeing up there, to debut their next round of bands and to tease any mid-season releases they might have in the works."`
+				`	"什么是音乐娱乐博览会？"`
+				`	"为什么他们还不开始喝酒？"`
+			`	"嗯，你看，大的音乐公司全年都在做大量的人才考察。他们都有专门的部门来寻找和组建新的音乐团体，成为下一个大事件。这是传统，只有在你致力于新乐队的旅程之后才会庆祝。该行业每三年举行一次ME2，也就是你在上面看到的，以首次亮相他们的下一轮乐队，并预告他们可能有的任何季中发行。"`
 			choice
-				`	"Your music comes off a production line?"`
+				`	"你们的音乐是从生产线上下来的？"`
 					goto production
-				`	"Do you not have musicians trying to make it on their own?"`
-			`	"Oh for sure, but mostly just to get picked up by one of these companies."`
+				`	"你们没有音乐家想靠自己的力量来做吗？"`
+			`	"哦，当然，但主要是为了被这些公司之一接走。"`
 			label production
-			`	The bartender chuckles. "We've been doing pop music for longer than your people have had fire. It's about the experience of being a fan of a group as it rises to fame and stardom. A dedicated Hai can go back and find a song for almost any possible life experience in almost any possible genre. It's the journey, and the personalities, that are what it's all about."`
+			`	酒保笑着说。"我们做流行音乐的时间比你们的人有火的时间还长。这是关于作为一个团体的粉丝的经验，因为它的名气和星光上升。一个专心致志的海哥可以回去为几乎任何可能的生活经历在几乎任何可能的流派中找到一首歌。这就是旅程，以及个性，这就是它的意义所在。"`
 			choice
-				`	"How strange."`
-				`	"How interesting."`
-			`	"Anyway, I gather you were after some food?"`
+				`	"多么奇怪。"`
+				`	"多么有趣。"`
+			`	"总之，我想你是想吃点东西吧？"`
 			label wrapup
-			`	The bartender tips his head in your direction and takes your order. "No problem, it'll be right up."`
-			`	It's a noisy meal.`
+			`	酒保把头转向你的方向，接过你的订单。"没问题，马上就来。"`
+			`	这顿饭很吵。`
 				decline
 
 
@@ -80,29 +80,29 @@ mission "The Meme Wars 1"
 		random < 1
 	on offer
 		conversation
-			`Stepping into the spaceport you are beset by a riot of color. Every blank surface that's not usually paid advertising space seems to be festooned with dangling holographic projectors, banners, and ribbons. There's even actual paper fliers and posters, apparently taped to whatever surface will bear them. At first you wonder if there's some sort of festival going on, but as you watch a young Hai wearing a hood slaps up another holo projector, creating a cartoonish root vegetable with a sword, which begins hacking at the adjacent hologram, some kind of impressionist concept of a Hai elder made up of iridescent triangles. The young Hai then proceeds to tear down a banner and slap some goo on a massive poster which begins dissolving before a pair of security guards, wearing some very obviously non-standard additions to their uniforms, chase him back out of the spaceport.`
+			`踏入太空港，你被一片色彩的骚动所包围。每一个通常不是付费广告空间的空白表面，似乎都被悬挂的全息投影仪、横幅和彩带所装饰。甚至还有真正的纸质传单和海报，显然是贴在任何可以承载它们的表面。起初，你想知道是否有某种节日正在进行，但当你看到一个戴着头罩的年轻海族人拍打着另一个全息投影仪，创造出一个带剑的卡通根茎，开始砍伐相邻的全息图，某种印象派概念的海族长老由彩虹色的三角形组成。然后，这个年轻的海族人开始撕下一条横幅，并在一张巨大的海报上涂抹一些粘液，海报开始溶解，然后一对保安，穿着一些非常明显的非标准的制服，把他追出了太空港。`
 			branch translator
 				has "language: Hai"
-			`	As you watch, the triangular elder being holoprojected seems to flicker and then fizzles out as the battery unit fades, apparently under the assault of the root vegetable which appears to do a victory dance, before proceeding to act out something that makes precisely no sense to you.`
-			`	A little further on you encounter two different groups of protesters, assuming that's what they are, weaving in and out of the spaceport's entrances like some kind of conga line. The triangular elder and opposing root vegetable make several reappearances on their placards, some of them holographically animated.`
-			`	A different security guard, this one in regular attire, appears at your elbow. "You look a little lost. Don't worry, it's just a meme war. Carry on with your business and don't touch the meme items and no one should bother you over it."`
-			`	You thank the security guard for his advice and go about what you were doing as the baffling conflict continues around you.`
+			`	在你的注视下，被整体投射的三角形长者似乎在闪烁，然后随着电池单元的消失而消失，显然是在根茎植物的攻击下，它似乎在跳着胜利的舞蹈，然后继续表演一些对你来说毫无意义的东西。`
+			`	再往前走一点，你会遇到两组不同的抗议者，假设他们是这样的，像某种康加线一样在太空港的入口处穿梭。三角形的长者和对立的根茎植物在他们的标语牌上多次出现，其中一些是全息动画的。`
+			`	一个不同的保安，这个人穿着普通的服装，出现在你的肘部。"你看起来有点失落。别担心，这只是一场备忘录战争。继续做你的事，不要碰那些备忘录物品，没有人应该为此打扰你。"`
+			`	你感谢保安的建议，然后继续做你的事，因为你周围的莫名其妙的冲突仍在继续。`
 				decline
 			label translator
-			`	As you watch, the triangular elder being holoprojected seems to flicker and then fizzles out as the battery unit fades, apparently under the assault of the root vegetable which appears to do a victory dance. To your surprise, your translator pipes up: "[Victory, Success] for the true and square root that is more [significant, meaningful] than the tripartite [system, tradition] of the elders!"`
-			`	A little further on you encounter two different groups of protesters, assuming that's what they are, weaving in and out of the spaceport's entrances like some kind of conga line. The triangular elder and opposing root vegetable make several reappearances on their placards, some of them holographically animated.`
-			`	A different security guard, this one in regular attire, appears at your elbow. "You look a little lost. Don't worry, it's just a meme war. Carry on with your business and don't touch the meme items, and no one should bother you over it."`
+			`	在你的注视下，被整体投射的三角形长者似乎在闪烁，然后随着电池单元的消失而消失，显然是在根茎类蔬菜的攻击下，它似乎在跳着胜利的舞蹈。令你惊讶的是，你的翻译员开口了。"[胜利，成功]对于比长老们的三方[系统，传统]更[重要，有意义]的真实和平方根！"`
+			`	再往前走一点，你会遇到两组不同的抗议者，假设他们是这样的，像某种康加线一样在太空港的入口处穿梭。三角形的长者和对立的根茎植物在他们的标语牌上多次出现，其中一些是全息动画的。`
+			`	一个不同的保安，这个人穿着普通的服装，出现在你的肘部。"你看起来有点失落。别担心，这只是一场备忘录战争。继续做你的事，不要碰那些备忘录物品，没有人应该为此打扰你。"`
 			choice
-				`	"Sure, will do."`
+				`	"当然，会的。"`
 					goto done
-				`	"Your elders have a tripartite system?"`
-			`	The security guard chuckles and says, "Oh you can understand? They don't really, but it's a very old joke from a bygone political campaign that there are only three tenets the elders care about, and they're all the ones that affect us the least."`
-			`	When you ask what has triggered this, he says, "Oh, the latest education priorities came out with a four tenet focus, on the same day that an elder accidentally quoted the old campaign. It has been very entertaining."`
+				`	"你们长辈有三方制度？"`
+			`	保安笑着说："哦，你能理解？他们其实没有，但这是一个非常古老的笑话，来自于一个过去的政治运动，长老们只关心三个信条，而且都是对我们影响最小的。"`
+			`	当你问到是什么引发了这种情况时，他说："哦，最新的教育优先事项出来了，重点是四个宗旨，就在同一天，一位长者不小心引用了旧的运动。这已经很有娱乐性了。"`
 			choice
-				`	"How strange."`
-				`	"Sounds fun."`
+				`	"多么奇怪。"`
+				`	"听起来很有趣。"`
 			label done
-			`	You thank the security guard for his advice and go about what you were doing as the baffling conflict continues around you.`
+			`	你感谢保安的建议，然后继续做你的事，因为你周围的莫名其妙的冲突仍在继续。`
 				decline
 
 
@@ -116,16 +116,16 @@ mission "Wrestling Star"
 		random < 1
 	on offer
 		conversation
-			`As you pass through the spaceport you notice a crowd of trilling Hai clustered in one area.`
+			`当你经过太空港时，你注意到一群颤颤巍巍的海族人聚集在一个区域。`
 			choice
-				`	(Ignore them and pass by.)`
+				`	(不要理会他们，从旁边经过。)`
 					goto skip
-				`	(Take a look.)`
-			`	The crowd appears to be mostly made up of younger Hai, though a few more mature Hai are also there, visibly exhibiting more restraint on their enthusiasm. Reaching the edge of the crowd and peering over the shorter Hai folk, you can see a table set up with two standing banners flanking it and a stack of, at a glance, glossy printed photos.`
-			`	The banners depict a rather buff looking Hai, rendered in great detail, with a holographically enhanced animation that makes it appear to be continuously going through the motion of lifting and dropping a generically blurred opponent. The effect is, though, achieved solely through a trick of artificially shifting perspective. To your surprise you realize that this is a signing event for a wrestling star, of all things.`
-			`	After only a moment the individual in question emerges from a booth behind the setup and greets their fans, who prove very enthusiastic, before sitting down with some kind of pen for the assembled Hai to line up. It would seem that certain human customs have become popularized among the Hai.`
+				`	(看一看。)`
+			`	这群人似乎主要是由年轻的海族组成的，虽然也有一些更成熟的海族在那里，明显地表现出对他们的热情有更多的克制。走到人群的边缘，越过矮小的海族人，你可以看到一张桌子，两边有两个站立的横幅和一叠，一看就知道是光面印刷的照片。`
+			`	横幅上描绘的是一个看起来相当水灵的Hai，渲染得非常详细，并有一个全息增强的动画，使它看起来不断经历举起和放下一个一般模糊的对手的动作。不过，这种效果完全是通过人为地转移视角的技巧实现的。令你惊讶的是，你意识到这是一个摔跤明星的签约活动，所有的事情。`
+			`	仅仅过了一会儿，这个人就从布置好的展台中走出来，向他们的粉丝打招呼，事实证明他们非常热情，然后拿着某种笔坐下来，让聚集在一起的海族人排队。看来人类的某些习俗已经在海族中流行起来了。`
 			label skip
-			`	You can hear the Hai crowd trilling for some distance as you go about your business.`
+			`	你可以听到海族的人群在一段距离内颤抖，因为你去做你的事。`
 				decline
 
 
@@ -139,16 +139,16 @@ mission "Fencing Star"
 		random < 1
 	on offer
 		conversation
-			`As you pass through the spaceport you notice a crowd of trilling Hai clustered in one area.`
+			`当你经过太空港时，你注意到一群颤颤巍巍的海族人聚集在一个区域。`
 			choice
-				`	(Ignore them and pass by.)`
+				`	(不要理会他们，从旁边经过。)`
 					goto skip
-				`	(Take a look.)`
-			`	The crowd appears to be mostly made up of younger Hai, though a few more mature Hai are also there, visibly exhibiting more restraint on their enthusiasm. Reaching the edge of the crowd and peering over the shorter Hai folk, you can see a table set up with two standing banners flanking it and a stack of, at a glance, glossy printed photos.`
-			`	The banners depict a svelte Hai in the strikingly familiar costume of a fencer, with a holographically enhanced animation that makes it appear to be continuously performing an elegant parry and riposte against an out-of-frame opponent. The effect is, though, achieved solely through a trick of artificially shifting perspective. To your surprise you realize that this is a signing event for a fencing star, of all things.`
-			`	After only a moment the individual in question emerges from a booth behind the setup and greets their fans, who prove very enthusiastic, before sitting down with some kind of pen for the assembled Hai to line up. It would seem that certain human customs have become popularized among the Hai.`
+				`	(看一看。)`
+			`	这群人似乎主要是由年轻的海族组成的，虽然也有一些更成熟的海族在那里，明显地表现出对他们的热情有更多的克制。走到人群的边缘，越过矮小的海族人，你可以看到一张桌子，两边有两个站立的横幅和一叠，一看就知道是光面印刷的照片。`
+			`	横幅上画着一个身材苗条的海族人，他穿着引人注目的熟悉的剑客服装，全息增强的动画使他看起来正在不断地对画面外的对手进行优雅的招架和反击。不过，这种效果完全是通过人为地转移视角的技巧实现的。令你惊讶的是，你发现这是一个击剑明星的签约活动，所有的事情。`
+			`	仅仅过了一会儿，这个人就从布置好的展台中走出来，向他们的粉丝打招呼，事实证明他们非常热情，然后拿着某种笔坐下来，让聚集在一起的海族人排队。看来人类的某些习俗已经在海族中流行起来了。`
 			label skip
-			`	You can hear the Hai crowd trilling for some distance as you go about your business.`
+			`	你可以听到海族的人群在一段距离内颤抖，因为你去做你的事。`
 				decline
 
 
@@ -162,16 +162,16 @@ mission "Mystery Sport Star"
 		random < 1
 	on offer
 		conversation
-			`As you pass through the spaceport you notice a crowd of trilling Hai clustered in one area.`
+			`当你经过太空港时，你注意到一群颤颤巍巍的海族人聚集在一个区域。`
 			choice
-				`	(Ignore them and pass by.)`
+				`	(不要理会他们，从旁边经过。)`
 					goto skip
-				`	(Take a look.)`
-			`	The crowd appears to be mostly made up of younger Hai, though a few more mature Hai are also there, visibly exhibiting more restraint on their enthusiasm. Reaching the edge of the crowd and peering over the shorter Hai folk, you can see a table set up with two standing banners flanking it and a stack of, at a glance, glossy printed photos.`
-			`	The banners depict a pair of Hai, one with a net and one with what looks like a bladed frisbee. It's not at all clear what precisely it is that they do, and when the individuals in question emerge from a booth behind the setup and greet their fans it becomes clear that, if you could even make yourself heard over the trilling, no one is particularly keen to explain it to you.`
-			`	The pair remove their helmets and flash dazzling Hai smiles at their fans before sitting down with some kind of pen for the assembled Hai to line up. It would seem that celebrity signings are popular among the Hai.`
+				`	(看一看。)`
+			`	这群人似乎主要是由年轻的海族组成的，虽然也有一些更成熟的海族在那里，明显地表现出对他们的热情有更多的克制。走到人群的边缘，越过矮小的海族人，你可以看到一张桌子，两边有两个站立的横幅和一叠，一看就知道是光面印刷的照片。`
+			`	横幅上画着一对海，一个拿着网，一个拿着看起来像带刃的飞盘。我们根本不清楚他们到底是做什么的，当这些人从设置后面的摊位上走出来，向他们的粉丝打招呼时，很明显，如果你能在颤音中听到自己的声音，没有人特别热衷于向你解释它。`
+			`	这对夫妇摘下头盔，向他们的粉丝露出耀眼的微笑，然后拿着某种笔坐下来让聚集在一起的海族人排队。看来名人签名会在海族中很受欢迎。`
 			label skip
-			`	You can hear the Hai crowd trilling for some distance as you go about your business.`
+			`	你可以听到海族的人群在一段距离内颤抖，因为你去做你的事。`
 				decline
 
 
@@ -185,30 +185,30 @@ mission "Gambling Judgment"
 		random < 1
 	on offer
 		conversation
-			`You stop at a diner for a meal ground-side at the spaceport, but you have not been seated long before you notice there is a group of other human ship captains sequestered in a corner playing, near as you can tell, a game of poker. You note that the group seems to be getting a variety of dark looks from various Hai also dining at the establishment.`
-			`	After a short while the barkeep, a middling and slightly overweight Hai, comes over to take your order.`
+			`你在太空港的地面上停了下来吃饭，但你没坐多久就注意到有一群其他人类飞船的船长被关在一个角落里，就你所知，是在玩扑克游戏。你注意到，这群人似乎从同样在这里用餐的各种海族那里得到了各种阴暗的目光。`
+			`	过了一会儿，酒吧老板，一个中等身材、略显肥胖的海族，过来为你点菜。`
 			choice
 				`	(Place an order.)`
 					goto end
-				`	"Hey, I noticed there are some dark looks around here. Are human captains not welcome?"`
-			`	The barkeep looks confused for a second before looking over at the table and shaking his head in understanding. "Oh no, you're perfectly welcome. That group is just breaking the maturity tenets, and some Hai get uncomfortable with adults blatantly acting like children in public."`
+				`	"嘿，我注意到这里有一些黑暗的眼神。人类船长不受欢迎吗？"`
+			`	酒吧老板困惑地看了一秒钟，然后看向桌子，摇头表示理解。"哦，不，完全欢迎你。那群人只是打破了成熟的信条，有些海对成年人在公共场合公然表现得像孩子一样感到不舒服。"`
 			choice
 				`	(Place an order.)`
 					goto end
-				`	"The maturity tenets?"`
-			`	"Oh right, I suppose you wouldn't know. There are a number of tenets that Hai are taught growing up, lessons to be internalized to be a responsible and functioning member of society. The second is 'To be honest in dealings,' and the third is 'To gamble only on skill, not chance,' so their game breaks two of them."`
+				`	"成熟的信条？"`
+			`	"哦，对了，我想你不会知道。在海族的成长过程中，有一些信条被教导，要成为一个负责任的、能发挥作用的社会成员，就必须将这些信条内化。第二条是 "在交易中要诚实"，第三条是 "只赌技术，不赌机会"，所以他们的游戏打破了其中的两条。"`
 			choice
-				`	"Some would say poker is more about skill than chance."`
-				`	"Surely if it's just a game though, there's no harm in it?"`
-			`	"Oh no, I'm afraid the first tenet ensures that it's really not favorable either way. The first is 'To have clear separation of fantasy and reality,' so a game cannot have real consequences or it is reality, not fantasy. So to gamble money on the game is to bring real consequences to a fantasy exercise. This is taboo for an adult.`
-			`	"If you interpret the game as being played for the skill, without the wagering, then you clear the first and third tenet, but you have the issue that the principle skills are bluffing and manipulation, which violates the second tenet. Bluffing isn't a skill seen as having virtue, nor is manipulation."`
+				`	"有人会说扑克牌更多的是关于技巧而不是机会。"`
+				`	"当然，如果它只是一个游戏，不过没有什么危害？"`
+			`	"哦，不，恐怕第一条信条就能确保它确实对哪方面都不利。第一条是'要把幻想和现实明确分开'，所以一个游戏不能有真实的后果，否则就是现实，不是幻想。所以在游戏中赌钱就是把真实的后果带到幻想的练习中。这对一个成年人来说是禁忌。`
+			`	"如果你把游戏解释为为技能而玩，没有赌注，那么你就清除了第一和第三条原则，但你有一个问题，即原则技能是虚张声势和操纵，这违反了第二条原则。虚张声势并不是一种被视为具有美德的技能，操纵也不是。"`
 			choice
-				`	"Wait, do the Hai not lie or bluff?"`
-			`	The barkeep chortles with a strange trill and says, "Oh no, the Hai do lie and bluff. We're actually very good at bluffing, evolutionarily advantageous in the wild and all that. It's just seen as very immature and base. An adult should be able to conduct their lives without resorting to such primitive instincts. We learned that the hard way long ago, back before we holed up in our current borders."`
-			`	He looks at you intently before continuing, "You won't hear the tenets brought up very much, but if you look closely you'll see that the first three especially are ingrained in our society very deeply."`
-			`	With a shrug he flips open his order pad and pats his belly. "Of course, my gran always said that any of them after the tenth were more guidelines than actual rules, and I certainly have my share of disagreements with thirteen. Now, before I talk your ears off, what'll I get for you?"`
+				`	"等等，海族人不撒谎或虚张声势吗？"`
+			`	酒吧老板发出奇怪的颤音，说："哦，不，海族人确实会撒谎和虚张声势。我们实际上非常善于虚张声势，在野外的进化中具有优势，所有这些。它只是被看作是非常不成熟和低级的。一个成年人应该能够进行他们的生活，而不诉诸于这种原始的本能。我们很久以前就学会了这一点，早在我们躲在我们目前的边界之前。`
+			`	他仔细地看着你，然后继续说："你不会经常听到有人提起这些信条，但如果你仔细观察，你会发现前三条尤其在我们的社会中根深蒂固。"`
+			`	耸了耸肩，他翻开了他的订单本，拍了拍他的肚子。"当然，我奶奶总是说，第十条之后的任何一条都是准则，而不是实际的规则，我当然也有不同意十三条的时候。现在，在我把你的耳朵说掉之前，我给你拿什么？"`
 			label end
-			`	He takes your order diligently and with a smile.`
+			`	他勤快地接过你的订单，面带微笑。`
 				decline
 
 
@@ -224,43 +224,43 @@ mission "Academy Motto"
 		has "language: Hai"
 	on offer
 		conversation
-			`On this particular day, the spaceport is crowded beyond belief by some arcane confluence of chance and logistics. Despite having resolved the bulk of your business the port authorities have informed you that there is no safe departure slot open for at least seven hours (and even that's not a promise). This leaves you alone to fill in your unexpected bit of time in the early morning.`
+			`在这个特殊的日子里，由于某种神秘的机会和物流的汇合，太空港的拥挤程度超出想象。尽管已经解决了你的大部分业务，但港口当局已经通知你，至少在7个小时内没有安全的出发时间（甚至这也不是一个承诺）。这让你独自一人在清晨填补你意外的一点时间。`
 			choice
-				`	(Play games on my ship.)`
-				`	(Have a look around further afield.)`
+				`	(在我的船上玩游戏。)`
+				`	(在更远的地方看看。)`
 					goto fieldtrip
-			`	Not interested in getting lost in an expansive Hai city, you simply load up an entertainment console to keep you occupied for the next few hours.`
+			`	对迷失在广阔的海族城市中不感兴趣，你只需加载一个娱乐控制台，让你在接下来的几个小时里保持忙碌。`
 				decline
 			label fieldtrip
-			`	The tendency of the Hai to efficiently pack people into vibrant but densely populated spaces is on full display as you navigate through throngs of Hai who mostly make polite efforts to avoid bumping into you. Colorful banners, flags, murals, and even windows all provide brilliant highlights to the oft-utilitarian architectural styles underlying them. Holoprojected welcome signs even grace the entry-ways of several apartment buildings that you pass, with caveats for door-to-door salespeople.`
-			`	One apartment complex's exterior fencing bears a very large sign which your translator informs you says, "No Meme Content Here Please."`
-			`	After some time you find what appears to be a cafe, or equivalent, and sit down where you can get a good view of one of the more impressive building complexes around. After a moment a holoprojection built into the table asks you in human standard whether you'd like to order through the table or converse with a member of staff.`
+			`	当你穿过一大群海族人时，海族人将人们有效地包装在充满活力但人口稠密的空间中的趋势得到了充分的展示，他们大多礼貌地努力避免撞到你。五颜六色的横幅、旗帜、壁画，甚至是窗户，都为它们背后经常出现的实用主义建筑风格提供了亮丽的亮点。在你经过的几座公寓楼的入口处，全息投影的欢迎标语甚至还为你提供了上门推销人员的注意事项。`
+			`	一个公寓楼的外部围栏上有一个非常大的标志，你的翻译告诉你说："请勿在此使用备忘录内容"。`
+			`	一段时间后，你找到了一个似乎是咖啡馆的地方，或类似的地方，在那里坐下来，你可以很好地看到周围一个更令人印象深刻的建筑群。过了一会儿，桌子上的整体投影以人类的标准问你，你是想通过桌子点菜，还是想和工作人员交谈。`
 			choice
-				`	(Order through the table.)`
+				`	(通过桌子点餐。)`
 					goto pleasantlunch
-				`	(Order through a person.)`
-			`	A friendly Hai emerges to take your order and politely informs you that there's a 10% surcharge for eating on the terrace. Since that's hardly a meaningful sum to a ship's captain you just nod and try and work out what you're eating. Eventually you settle for a sandwich with acorn butter and vegetable slices that appear to be spiced, or pickled, you're not really sure. It was the staff's top recommended item and didn't come with any follow-up questions about Hai food preferences that you couldn't answer.`
+				`	(通过一个人点餐。)`
+			`	一个友好的海族人出现，接受你的订单，并礼貌地告诉你，在露台上吃饭要收取10%的附加费。由于这对船长来说不是一个有意义的数字，所以你只是点点头，并试图计算出你要吃什么。最终，你选择了一个带有橡树黄油和蔬菜片的三明治，似乎是香料，或者是腌制的，你并不确定。这是工作人员最推荐的项目，而且没有附带任何关于海的食物偏好的后续问题，你无法回答。`
 				goto finishingchat
 			label pleasantlunch
-			`	The interface is rather annoying to work with human-sized hands, but eventually you settle for a sandwich with acorn butter and vegetable slices that appear to be spiced, or pickled, you're not really sure. It was the top recommended item and didn't come with any follow-up questions about Hai food preferences that you couldn't answer.`
+			`	用人类大小的手操作界面相当烦人，但最终你解决了一个三明治，里面有橡树黄油和蔬菜片，似乎是香料，或腌制的，你并不确定。这是最推荐的项目，而且没有附带任何关于海的食物喜好的后续问题，你无法回答。`
 			label finishingchat
-			`	As you eat your strange, but actually surprisingly tasty lunch, you take note of the large text written above the gateway into the grounds for the building complex opposite you. After a moment your translator box takes note of where you're looking and reads it aloud for you.`
-			`	"To know is to lead, to study is to know, to serve is to study, to lead is to serve."`
-			`	Naturally, your translator cannot answer questions, so you eat your lunch and leave it be until a staff member emerges to take your plate.`
+			`	当你吃着奇怪的，但实际上令人惊讶的美味的午餐时，你注意到在你对面的建筑群的大门上方写着巨大的文字。过了一会儿，你的翻译箱注意到了你正在看的地方，并为你大声读了出来。`
+			`	"认识就是领导，学习就是认识，服务就是学习，领导就是服务。"`
+			`	自然，你的翻译不能回答问题，所以你吃完午餐后就不管了，直到有工作人员出现，拿走你的盘子。`
 			choice
-				`	(Ask them about it.)`
+				`	(向他们询问一下。)`
 					goto question
-				`	(Keep my thoughts to myself.)`
-			`	The staff member takes your plate and wishes you a lovely day.`
+				`	(把我的想法留给自己)。`
+			`	工作人员接过你的盘子，祝你今天过得愉快。`
 				decline
 			label question
-			`	As they clear your plate from the table you ask them about the text on the gateway.`
-			`	"Oh, that's the city Academy. It's a... uh..." she pauses for a moment and relays something in Hai which your translator immediately converts to, "non-technical university."`
-			`	Giving the box a surprised look she smiles and continues in Hai, "If you want to be a manager, a politician, a social worker, or even just a public speaker, you go to the Academy and do courses on leadership and communications. Strictly speaking, it's not necessary to go, but lots of places simply won't accept you into those sorts of roles without some sort of Academy qualification, and they really do provide some great skills. I'm actually going there next year to do a proper human language course.`
-			`	"Technically the Academies are all independent, but they all share the same motto. It's an obligatory thing too though, that's what the motto is about. I'm told most humans think it's backwards, but it's not. The Academies keep tabs on their graduates; if you lead with self-interest, serve without studying, study without learning or waste your knowledge without applying it, they've been known to revoke people's qualifications. Attendance is free, so there's an expectation that you don't waste what they spend time teaching you.`
-			`	"This one is quite prestigious, but the ones near the spaceports always are." She winks. "Experience through natural exposure is worth more than what money can buy, after all."`
-			`	A moment later your comm pad alerts you that you've been assigned a departure window from the spaceport in relatively short order.`
-			`	"Well, I must be attending to other customers. You have a great day!" she says, leaving you to go about your business.`
+			`	当他们把你的盘子从桌子上清走时，你问他们关于大门上的文字。`
+			`	"哦，那是城市学院。这是一个......呃...... "她停顿了一会儿，用海语转述了一些东西，你的翻译立即将其转换为："非技术大学。"`
+			`	她给了盒子一个惊讶的眼神，微笑着继续用海语说："如果你想成为一名经理、政治家、社会工作者，甚至只是一名公共演讲者，你就去学院，学习领导力和沟通方面的课程。严格来说，没有必要去，但很多地方不接受没有某种学院资格的人担任这些职务，而且他们确实提供了一些伟大的技能。实际上，我明年要去那里做一个适当的人类语言课程。`
+			`	"严格来说，这些学院都是独立的，但它们都有相同的格言。虽然这也是一个强制性的东西，这就是座右铭的意义所在。我被告知大多数人类认为这很落后，但事实并非如此。学院对他们的毕业生进行监控；如果你以自我利益为主导，不学习而服务，不学习而研究，或浪费你的知识而不应用它，他们已经知道要取消人们的资格。听课是免费的，所以人们期望你不要浪费他们花时间教你的东西。`
+			`	"这所学校相当有名，但靠近太空港的学校总是如此。"她眨了眨眼睛。"毕竟，通过自然接触获得的经验比金钱能买到的东西更有价值。"`
+			`	一会儿，你的通讯板提醒你，你已经被分配到一个相对较短的时间内离开太空港的窗口。`
+			`	"好吧，我必须去接待其他客户。祝你今天愉快！"她说，让你去忙你的事。`
 				decline
 
 
@@ -275,35 +275,33 @@ mission "Robotic Musical 1"
 		random < 1
 	on offer
 		conversation
-			`Passing down the main thoroughfare of this spaceport you almost ignore a stack of haphazardly piled crates in the median strip. It's not uncommon for recently unloaded crates to temporarily sit in front of different businesses in a port, placed conspicuously out of the way of the flow of foot traffic, but it is the disordered piling that seems out of place.`
-			`	No sooner do you slow your step to give it your attention though, than the pile of crates immediately springs to life.`
+			`经过这个太空港的主干道时，你几乎忽略了中间地带的一堆胡乱堆放的板条箱。最近卸下的板条箱暂时放在港口的不同企业前面，放在明显的位置，不影响人流，这并不罕见，但无序的堆放才显得不合适。`
+			`	然而，当你放慢脚步关注它的时候，这堆板条箱就立刻活了过来。`
 			branch translator
 				has "language: Hai"
-			`	Music plays and some half dozen robotic caricatures of Hai in exaggerated dress spring forth from various crates and begin to caper about in a series of interactions presumably intended to be comedic, at least judging by how they keep turning away from each other to "look" at the audience and wink. Holoprojected banners and glyphs, presumably advertisement information, flicker through a series of displays as it goes through a cycle before the entire cohort appear to finish up; each onlooker the recipient of some kind of entreaty from at least one robot, before they immediately clamber back into the crates.`
-			`	Throughout this a handful of Hai have stopped to watch, and a couple of them let out small chuckles at the conclusion before continuing on their way. Most of them simply roll their eyes and move on though. One child wanders too close as their parents steer around it and a little red holographic warning sign briefly flashes at them. No one seems keen to explain what you just saw, and for the moment the crates remain resolutely closed.`
+			`	音乐响起，半打穿着夸张衣服的机器人卡通海从不同的箱子里跳出来，开始在一系列的互动中游荡，估计是为了搞笑，至少从他们不断转过身来 "看着 "观众和眨眼的样子来看是这样。全息投影的横幅和字形，大概是广告信息，在一系列的显示中闪烁着，在整个队伍出现之前就已经结束了；每个围观的人都接受了至少一个机器人的某种恳求，然后他们立即爬回了箱子里。`
+			`	在整个过程中，有几个海族人停下来观看，其中几个人在结束时发出了轻微的笑声，然后继续上路。他们中的大多数人只是翻了翻白眼，然后继续前进。一个孩子在他们的父母身边徘徊得太近了，一个红色的全息警告标志短暂地闪现在他们面前。似乎没有人热衷于解释你刚才看到的东西，目前，这些箱子仍然坚定地关闭着。`
 			action
 				set roboticconfusion
 			# This controls branching if there's a future follow-up where you get to see the performance.
-			`	Now that you think about it, you're not sure they all climbed back into the same boxes they came out of.`
+			`	现在你想想，你不确定他们是否都爬回了他们出来时的那个箱子里。`
 				decline
 			label translator
-			`	Music plays and some half dozen robotic caricatures of Hai in exaggerated dress spring forth from various crates and begin to caper about in a series of interactions. Your translator struggles to keep up as they run through a rapid-fire string of presumably witty wordplay jokes that don't translate well. The humor appears to be improvisational at first, but the illusion is so good that the realization of the impossibility of robots improvising only catches up with you after the fact. The entire thing is set to a musical score, with beat rests at various points where the animatronic Hai keep turning away from each other to 'look' at the audience and wink. Holoprojected banners and glyphs flicker through a series of displays informing you that this is an advertisement for a fully robotic comedy musical called "The Grandmother's Rules." It claims to be complete with interactive heckling responses and provides a list of dates and venues, all in the far future, where it will be showing.`
-			`	At the end each one of the robots strikes a pose and invites a different demographic to come along and "have the time of a decade," with ticket prices starting from 73 credits, before the entire cohort finish up and immediately clamber back into the crates. You're not sure they all climbed back into the same boxes they came out of.`
-			`	Throughout this a handful of Hai have stopped to watch, and a couple of them let out small chuckles at the conclusion before continuing on their way. Most of them simply roll their eyes and move on though.`
-			`	One middle-aged Hai in the crowd with racoon-like gray around his eyes wears the type of attire typical of their merchant captains. He eyes you curiously and steps over to you. "Well, well, Captain, that's a remarkable box you have there. Didn't know they'd started making live translator devices! Did it keep up alright?"`
+			`	音乐响起，半打穿着夸张的海的机器人漫画从不同的箱子里跳出来，开始在一系列的互动中游荡。你的翻译挣扎着跟上他们的步伐，因为他们快速地完成了一连串可能是诙谐的文字游戏的笑话，但并没有很好地翻译出来。起初，这些幽默似乎是即兴发挥的，但这种错觉是如此之好，以至于你在事后才意识到机器人的即兴发挥是不可能的。整部作品以音乐为背景，在不同的点上有节拍的休息，动画海不断地转过身去，"看着 "观众并眨眼。全息投影的横幅和字形在一系列显示屏上闪烁，告诉你这是一个名为 "祖母的规则 "的全机器人喜剧的广告。它声称有完整的交互式嘲笑反应，并提供了一个日期和地点的清单，都是在遥远的未来，它将在那里演出。`
+			`	最后，每个机器人都摆出一个姿势，并邀请不同的人群来一起 "享受十年的时光"，票价从73分起，然后整个团队结束后立即爬回箱子里。你不确定他们是否都爬回了他们出来的那个箱子里。`
+			`	在整个过程中，有几个海族人停下来观看，其中有几个人在结束时发出了轻微的笑声，然后继续前进。不过，他们中的大多数人只是翻翻白眼，然后继续前进。`
+			`	人群中的一个中年海族人，眼睛周围有浣熊般的灰色，穿着商人船长的典型服装。他好奇地看着你，走到你身边。"好啊，好啊，船长，你的箱子真了不起。不知道他们已经开始制造现场翻译设备了！"。它跟得上吗？"`
 			choice
-				`	"Oh, it's the first of its kind."`
+				`	"哦，这是它的第一个同类产品。"`
 					goto first
-				`	"I think I got the gist of it, though it only reads things out if I look directly at them."`
-			`	"Ah yes, I suppose that's a logical feature," he says. "I can only imagine it would be quite unwieldy if it tried to read out every piece of text in its vicinity.`
+				`	"我想我得到了它的要旨，尽管它只在我直视它们时才读出东西来。"`
+			`	"啊，是的，我想这是一个合乎逻辑的功能，"他说。"我只能想象，如果它试图读出它附近的每一段文字，那将是相当不方便的。`
 				goto resolve
 			label first
-			`	"The first?" He studies you for a second. "Oh, you're Captain <last>! What a pleasure to meet you."`
-			`	He looks you up and down with a wry grin. "Somehow you're shorter than I expected.`
+			`	"第一个？"他研究了你一秒钟。"哦，你是<last>号船长!见到你真是太高兴了。"`
+			`	他带着狡黠的笑容上下打量着你。"不知为何，你比我想象的要矮。`
 			label resolve
-			`	"Well if you do get the chance, I do recommend the performance. I saw it a few months back and it really is quite good. Particularly popular on our worlds with many humans."`
-			`	He flicks you a friendly wave. "I must be off. Don't get too close to the displays, they don't like being touched!"`
-			`	The Hai sounds very pleased as he ambles off, quietly chortling to himself as he departs.`
+			`	"好吧，如果你真的有机会，我确实推荐你去看演出。我几个月前看过，它真的很不错。在我们的世界里，尤其受到许多人类的欢迎。"`
+			`	他向你挥了挥手，表示友好。"我必须走了。不要太靠近这些展品，它们不喜欢被触摸！"`
+			`	大海听起来非常高兴，他一边走一边悄悄地自言自语。`
 				decline
-
-

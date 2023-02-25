@@ -13,37 +13,37 @@
 
 mission "Liberate Kornephoros"
 	autosave
-	description "Travel with the Free Worlds militia to the <system> system and drive off the Navy fleet that is occupying the system."
+	description "与自由世界的民兵一起前往<system>系统，赶走占领该系统的海军舰队。"
 	source "Longjump"
 	destination "Deep"
 	clearance
 	to offer
 		has "Defend Sabik: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		event "prepare for battle of Kornephoros"
 		conversation
-			`The mood in the spaceport is solemn. No one has had time yet to count up the losses, on both sides of the battle, but it is likely that over a thousand lives were lost. And because the Navy is held in such high regard even here where Parliament and the Paradise Planets are viewed with disgust, many of the militia captains are almost as saddened by the loss of Navy lives as by the loss of some of their own.`
-			`	You find Tomek walking among the fleet, conversing with a large group of captains and crew members and assessing the damage they have suffered. When he sees you he says, "Captain <last>! How is <ship> holding together?"`
+			`太空港里的气氛很肃穆。还没有人来得及统计战斗双方的损失，但很可能有超过一千人丧生。由于海军受到如此高的重视，即使在议会和天堂行星被厌恶的地方，许多民兵队长对海军的损失几乎和他们自己的损失一样悲痛。`
+			`	你发现托梅克在舰队中行走，与一大群船长和船员交谈，评估他们所遭受的损失。当他看到你时，他说："<last>舰长!<ship>的情况如何？"`
 			choice
-				`	"She took a bit of a pounding, but I've patched her up."`
-				`	"Just fine. It'd take more than a few Cruisers to destroy the <ship>."`
+				`	"她受到了一点冲击，但我已经把她修补好了。"`
+				`	"刚刚好。摧毁<ship>需要的不仅仅是几艘巡洋舰。"`
 			
-			`	"Glad to hear it," he says before returning to the crowd. "Listen! We need to press our advantage before the Republic has time to call for reinforcements. If we strike quickly, we could be able to retake Kornephoros from them. It's important to break the blockade on that system for the sake of trade with the rest of the galaxy. And on top of that, if you were not aware, Councilor Katya Reynolds was on Clink when the Navy took the system and needs to be rescued." You hear some chatter coming from the crowd as a result of this news; it seems like Katya's investigation on Clink was not public knowledge.`
-			`	"We have a large fleet of reinforcements coming in from the Rim," Tomek continues, "and a few ships here that are able to fight another battle. I need you all to take off, wait for the reinforcements to arrive, and then retake Kornephoros. If the Navy ships retreat, let them retreat. If they surrender, let them surrender. If they stay and fight, disable them if you can. Destroy them only if you must. Am I understood?"`
-			`	"Yes sir!" the captains respond in unison.`
-			`	"Then move out!" Tomek yells, prompting the captains and crew to scramble for their ships.`
-			`	Tomek returns to you after rousing the militia to action. "Still in this fight with us?"`
+			`	"很高兴听到这个消息，"他说，然后回到人群中。"听着!我们需要在共和国有时间要求增援之前压制我们的优势。如果我们迅速出击，我们就能从他们手中夺回科尔内普罗斯。为了与银河系其他地方的贸易，打破对该系统的封锁很重要。除此之外，如果你不知道，当海军占领该系统时，卡蒂亚-雷诺兹议员正在克林克星上，需要被救出来。"你听到由于这个消息而从人群中传来的一些议论声；看来卡蒂亚在克林克的调查并不为公众所知。`
+			`	"我们有一支庞大的援军舰队从环太平洋地区赶来，"托梅克继续说，"这里还有几艘能够再战的飞船。我需要你们全部起飞，等待援军到来，然后重新夺回科尔内普罗斯。如果海军军舰撤退，就让他们撤退。如果他们投降，就让他们投降。如果他们留下来作战，如果你能使他们丧失能力。只有在必要时才能摧毁它们。我明白了吗？"`
+			`	"是的，长官！"舰长们齐声回答。`
+			`	"那就出发吧！"托梅克大喊，促使船长和船员们争先恐后地跑向他们的船只。`
+			`	托梅克在唤起民兵们的行动后回到你身边。"还在和我们一起战斗吗？"`
 			choice
-				`	"Yes, sir. I'll move out immediately."`
+				`	"是的，先生。我马上行动。"`
 					accept
-				`	"I wish it hadn't come to this."`
+				`	"我希望它没有走到这一步。"`
 			
-			`	"We all do," he says. "No one wanted this. Not us, certainly not the Navy. But if they attack us to take our freedom, we must defend ourselves in order to keep it. Understood?"`
+			`	"我们都希望，"他说。"没有人希望这样。不是我们，当然也不是海军。但如果他们为了夺取我们的自由而攻击我们，我们必须自卫，以保持自由。明白了吗？"`
 			choice
-				`	"Yes, sir. I'll prepare my ship for another battle."`
+				`	"是的，长官。我会为另一场战斗准备好我的船。"`
 					accept
 	
 	npc
@@ -123,33 +123,33 @@ mission "Liberate Kornephoros"
 				"Rainmaker" 2
 	
 	on visit
-		dialog `There are still Navy ships patrolling overhead. Staying on <planet> while your allies are dying in orbit would be a very bad idea.`
+		dialog `头顶上仍有海军舰艇在巡逻。当你的盟友在轨道上死亡时，留在<planet>上将是一个非常糟糕的主意。`
 	on complete
 		event "recapture of Kornephoros"
 		log "The Free Worlds have retaken the Kornephoros system, with heavy losses on both sides. And unfortunately, there is no sign of Katya; she may have been taken prisoner by the Navy."
 		conversation
-			`The last of the Navy vessels in orbit has been subdued. As you land, you find that several Free Worlds troop transports have already set down in the spaceport and corralled the remaining Navy officers into a small circle. You would estimate that there are several hundred Navy prisoners. Another transport lands, carrying more prisoners: the Navy troops who had been guarding the mines on Clink.`
-			`	For several hours, nothing changes: the Navy troops are huddled into a small circle, surrounded by guards. When lunchtime comes, some of the guards go to the market and fetch some of the vendors who sell meals out of carts there; they return with the carts and hand out food to the prisoners. Then, another transport lands and Tomek steps out.`
-			`	He pulls you aside and asks you, "How are things going here?"`
+			`轨道上的最后一艘海军舰艇已经被制服了。当你着陆时，你发现几艘自由世界的运兵船已经在太空港降落，并把剩余的海军军官召集到一个小圈子里。你估计有几百名海军囚犯。另一艘运输船降落，载着更多的囚犯：在克林克岛看守水雷的海军部队。`
+			`	在几个小时里，没有任何变化：海军部队挤成一个小圈子，被卫兵包围。当午餐时间到来时，一些卫兵去市场，找来一些在那里用小车卖饭的小贩；他们带着小车回来，把食物分给囚犯们。然后，另一架运输机降落，托梅克走了出来。`
+			`	他把你拉到一边，问你："这里的事情进展如何？"`
 			choice
-				`	"Very quiet. They haven't given us any trouble."`
-				`	"The battle was brutal. I hope we don't have to keep doing that."`
+				`	"非常安静。他们没有给我们带来任何麻烦。"`
+				`	"战斗是残酷的。我希望我们不必继续这样做。"`
 					goto brutal
 			
-			`	"Glad to hear it," he says.`
+			`	"很高兴听到这个消息，"他说。`
 				goto speech
 			
 			label brutal
-			`	"I hope so too," he says. "Maybe we can make a start in that direction right now."`
+			`	"我也希望如此，"他说。"也许我们现在就可以在这个方向上做一个开始。"`
 			
 			label speech
-			`	Tomek climbs up onto the hull of a nearby ship and addresses the prisoners. "Hello," he says. A few of the Navy officers respond, warily. "My name is Tomek Voigt. Our militia is very loosely organized, but I'm the one in charge of organizing it." That gets a few laughs from the Free Worlds guards. "As such, I am responsible for deciding your fate."`
-			`	At that, a hush falls over the crowd. "The Council has decided," he continues, "that any of you who gives us your parole, swearing to take no further part in fighting the Free Worlds, will be returned to Republic space. You will give us your word of honor that you will either seek reassignment in another part of the galaxy, or resign your commission."`
-			`	A few of the Free Worlds guards shout, "What?" But only a surprising few. The rest are nodding, seemingly pleased with the Council's choice. Tomek climbs down from the hull and approaches the prisoners, and you notice Alondo and Freya have joined him.`
-			`	One of the Navy officers stands up. "I'll take that oath," he says, "if you'll honor your part of it."`
-			`	Tomek takes the man's hands, looks him in the eyes, and asks, "Do you swear before God and these witnesses to take no further part in military actions against the Free Worlds?"`
-			`	"I do," says the officer. Several of the other prisoners stand up, and before long all but a handful have sworn the oath.`
-			`	After they finish, Tomek turns to you and a few other captains. "Emily, Marco, <first>, Sarah, please meet me in the spaceport cafe when you are ready." He walks off.`
+			`	托梅克爬上附近一艘船的船体，向囚犯们讲话。"你好，"他说。几个海军军官警惕地回应。"我的名字是托梅克-沃伊格特。我们的民兵组织非常松散，但我是负责组织它的人。"这句话引起了自由世界守卫们的一阵笑声。"因此，我负责决定你们的命运。"`
+			`	在这一点上，人群中出现了一片嘘声。"理事会已经决定，"他继续说，"你们中的任何一个人，只要向我们提供假释，发誓不再参与自由世界的战斗，就会被送回共和国空间。你要给我们你的荣誉保证，你将在银河系的另一个地方寻求重新分配，或者辞去你的职务。"`
+			`	有几个自由世界的守卫喊道："什么？"但只是令人惊讶的几个。其余的人都在点头，似乎对理事会的选择很满意。托梅克从船体上爬下来，走近囚犯，你注意到阿隆多和弗雷亚已经加入了他。`
+			`	其中一名海军军官站了起来。"他说："如果你愿意履行你的那部分誓言，我愿意接受这个誓言。`
+			`	托梅克握住那人的手，看着他的眼睛，问道："你是否在上帝和这些证人面前发誓不再参与反对自由世界的军事行动？"`
+			`	"我愿意。"军官说。其他几个囚犯站了起来，不久之后，除了少数人之外，所有的人都宣誓了。`
+			`	在他们结束后，托梅克转向你和其他几个队长。"艾米丽、马可、<first>、莎拉，当你们准备好时，请到太空港咖啡馆来见我。"他走了。`
 
 
 
@@ -160,34 +160,34 @@ event "prepare for battle of Kornephoros"
 
 
 mission "FW Prisoner Parole"
-	name "Prisoner Parole"
-	description "Escort a fleet of transports carrying prisoners of war to <planet>. The temporary ceasefire will end on <date>."
+	name "囚犯假释"
+	description "护送一支载有战俘的运输船队前往<planet>。临时停火将在<date>结束。"
 	source "Deep"
 	destination "New Tibet"
 	deadline 7
 	to offer
 		has "Liberate Kornephoros: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		"reputation: Republic" = 1
 		event "temporary ceasefire"
 		event "start of hostilities" 8
 		conversation
-			`When you have all gathered in the cafe, Tomek explains the situation to you. "Alondo has arranged for a one-week ceasefire to return the prisoners who have given us their parole," he says. "That gives you just enough time to transport them to New Tibet and return here. If you encounter Republic ships, do not engage them. Just drop off the prisoners and return. Any questions?"`
+			`当你们都聚集在咖啡馆时，托梅克向你们解释情况。"阿隆多已经安排了一个星期的停火，让那些给我们假释的囚犯返回，"他说。"这给了你足够的时间把他们运到新西藏，然后返回这里。如果你们遇到共和国的船只，不要和他们交战。只要把囚犯放下就可以返回。有问题吗？"`
 			choice
-				`	"No, I'm ready to go."`
+				`	"没有，我已经准备好了。"`
 					accept
-				`	"What should we do if they attack us?"`
-				`	"What will be done with the soldiers who didn't swear the oath?"`
+				`	"如果他们攻击我们，我们应该怎么做？"`
+				`	"对那些没有宣誓的士兵将如何处理？"`
 					goto oath
 			
-			`	"If you can, return here without engaging them. No point in losing more lives. Besides, the Navy are honorable and will respect the ceasefire, I have no doubt about that. Only if you linger will things become difficult for you. Now get going. Time is limited."`
+			`	"如果可以的话，不和他们交手就返回这里。没有必要损失更多的生命。此外，海军是光荣的，他们会尊重停火的，我对此毫不怀疑。只有当你徘徊不前时，事情才会变得棘手。现在走吧。时间有限。"`
 				accept
 			
 			label oath
-			`	"They will be transported to a penal facility on Bourne and cared for well, and if at any point they change their minds, they will be allowed to leave. Now get going. Time is limited."`
+			`	"他们将被运到伯恩的一个惩戒设施，并得到很好的照顾，如果在任何时候他们改变主意，他们将被允许离开。现在开始行动吧。时间有限。"`
 				accept
 	
 	npc accompany save
@@ -198,22 +198,22 @@ mission "FW Prisoner Parole"
 		ship "Blackbird (Prisoner Transport)" "Southern Luxury"
 	
 	on visit
-		dialog `You have reached <planet>, but you left part of your convoy behind! Better depart and wait for them to arrive in this star system.`
+		dialog `你已经到达<planet>，但你留下了你的部分车队!最好出发并等待他们到达这个星系。`
 	on complete
-		dialog `You drop off the Navy prisoners on <planet>. Now, it's time to get back to Deep with your fleet before the ceasefire ends.`
+		dialog `你在<planet>上放下了海军的囚犯。现在，是时候在停火结束前带着你的舰队回到深渊了。`
 
 
 
 mission "FW Prisoner Parole 2"
 	landing
-	name "Prisoner Parole"
-	description "Return to Deep before the cease-fire ends."
+	name "囚犯假释"
+	description "在停火结束前返回深渊。"
 	source "New Tibet"
 	destination "Deep"
 	to offer
 		has "FW Prisoner Parole: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	npc accompany save
 		government "Free Worlds"
@@ -223,25 +223,25 @@ mission "FW Prisoner Parole 2"
 		ship "Blackbird (Prisoner Transport)" "Southern Luxury"
 	
 	on visit
-		dialog `You have reached <planet>, but you left part of your convoy behind! Better depart and wait for them to arrive in this star system.`
+		dialog `你已经到达<planet>，但你留下了你的部分车队!最好出发并等待他们到达这个星系。`
 	
 	on complete
 		"reputation: Republic" <?= -1000
 		event "oathkeepers founded" 50
 		log "Returned some Navy prisoners of war, after they gave their parole and promised not to take part in any future battles against the Free Worlds."
 		conversation
-			`Tomek seems very relieved to see you all back in one piece. "Thank you for your service," he says. "Please report to your local militia commanders for your next orders. Captain <last>, remain here."`
-			`	After everyone else has left the room, he tells you, "I'm sorry, but I've got some bad news for you. We've searched the entire outpost on Clink. No sign of Katya. The miners don't know what happened to her, but I'd say it's a safe bet that she's either dead, or a prisoner."`
+			`看到你们都完好无损地回来，托梅克似乎非常欣慰。"感谢你们的服务，"他说。"请向你们当地的民兵指挥官报告你们的下一步命令。队长<last>，留在这里。"`
+			`	其他人都离开房间后，他告诉你："很抱歉，但我有一些坏消息要告诉你。我们已经搜查了整个克林克岛的前哨。没有卡蒂亚的迹象。矿工们不知道她发生了什么事，但我说，可以肯定的是，她要么死了，要么被囚禁了。"`
 			choice
-				`	"So, what do we do now?"`
+				`	"那么，我们现在该怎么做？"`
 					goto next
-				`	"I wish we'd known that a few days earlier. We could have arranged a prisoner exchange."`
+				`	"我希望我们早几天知道这个消息。我们本可以安排一次囚犯交换。"`
 			
-			`	"I know," he says. "That's what a lot of our people are saying now. But what we did, a pure good-faith gesture with nothing demanded in return - we may come to be glad of that. My hope was to set a precedent, to shape the character of whatever conflict comes out of this, and I still think that was the right thing to do."`
-			`	"So, what do we do now?" you ask.`
+			`	"我知道，"他说。"现在我们很多人都这么说。但我们所做的，是一个纯粹的善意的姿态，没有要求任何回报--我们可能会为此感到高兴。我的希望是树立一个先例，塑造由此产生的任何冲突的特征，我仍然认为这样做是正确的。"`
+			`	"那么，我们现在做什么？"你问。`
 			
 			label next
-			`	"The Navy has had two crushing defeats," he says. "They will be hesitant to attack again until their numbers are much stronger. That gives us some time for diplomacy, to strengthen our position, and to look for allies, or at least sympathizers. Which is where you come in. I'm going to ask you to transport Alondo for a set of diplomatic missions. Meet us in the spaceport when you are ready."`
+			`	"海军已经有两次惨败，"他说。"在他们的人数更加强大之前，他们会对再次进攻感到犹豫不决。这给了我们一些时间进行外交活动，以加强我们的地位，并寻找盟友，或至少是同情者。这就是你进来的地方。我将要求你运送阿隆多进行一系列的外交任务。准备好后在太空港见我们。"`
 
 
 
@@ -253,164 +253,164 @@ mission "oathkeepers founded"
 		has "event: oathkeepers founded"
 	on offer
 		log "Apparently the paroled Navy prisoners from the battle for Kornephoros plan to keep their promise to not fight against the Free Worlds. They've formed a new Navy regiment guarding the far north of human space."
-		log "Factions" "Oathkeepers" `The "Oathkeepers" are a regiment of Navy officers who were captured by the Free Worlds and paroled on the condition that they take no further part in fighting against the Free Worlds. They are led by William Danforth, a famous Navy admiral. Their stated mission is to protect the Paradise Worlds from the pirates who live on the anarchist worlds in the far north of human space.`
-		log "People" "William Danforth" `Danforth is a famous Navy Admiral who is a folk hero throughout human space due to his fair and honorable behavior and his willingness to use his fleet to assist people in need, even when he has to go against Parliament's orders to do so. He is currently in charge of the Navy regiment who call themselves the "Oathkeepers."`
+		log "Factions" "Oathkeepers" `"守誓人 "是一个由海军军官组成的军团，他们被自由世界俘虏并被假释，条件是他们不再参与反对自由世界的战斗。他们由著名的海军上将威廉-丹佛斯领导。他们宣称的任务是保护天堂世界不受居住在人类空间遥远的北方无政府主义世界的海盗的影响。`
+		log "People" "William Danforth" `丹佛斯是一位著名的海军上将，他是整个人类空间的民间英雄，因为他的行为公正而光荣，他愿意用他的舰队来帮助有需要的人，即使他不得不违背议会的命令来这样做。他目前掌管着自称 "守誓人 "的海军军团。`
 		conversation
-			`When you land on <origin>, it seems that everyone in the spaceport is talking about a recent news story: the Navy has just announced the formation of a new regiment, called the Oathkeepers. This regiment is staffed mostly by prisoners you paroled from Kornephoros, who want to honor their oath to take no further part in the conflict against the Free Worlds. They will be headquartered on Farpoint, in the far north, to defend that region of space against pirate incursions.`
-			`	Furthermore, the leader of the Oathkeepers will be Admiral Danforth, an elderly admiral who is something of a folk hero and is spoken of with admiration and respect even here in Free space. Although he was not one of the paroled prisoners, he has become an outspoken advocate for a diplomatic solution to the Free Worlds conflict.`
-			`	It's heartening news, but you also can't help noticing how many people in the spaceport are talking now about how the Navy really is full of "decent" and "honorable" people, and it's a shame that the Free Worlds had to fight them. By responding to your generous gesture with one of their own, the Navy has won a definite political victory, and given that they needed to defend the North anyway, it is a victory that cost them very little.`
+			`当你登陆<origin>时，似乎太空港的每个人都在谈论最近的一条新闻：海军刚刚宣布成立一个新的军团，叫做守誓人。这个团的人员主要是由你从科内普罗斯假释出来的囚犯组成的，他们想兑现他们的誓言，不再参与对自由世界的冲突。他们的总部将设在遥远的北方的Farpoint，以保卫该地区的空间，防止海盗入侵。`
+			`	此外，守誓人的领导人将是丹佛斯上将，一位年长的上将，他是一位民间英雄，即使在自由空间这里也被人说成是钦佩和尊敬。虽然他不是被假释的囚犯之一，但他已经成为自由世界冲突的外交解决方案的直言不讳的倡导者。`
+			`	这是令人振奋的消息，但你也不能不注意到，现在太空港有多少人在谈论海军真的充满了 "正派 "和 "光荣 "的人，自由世界不得不与他们作战，这是一种耻辱。通过用他们自己的慷慨姿态来回应你的慷慨姿态，海军已经赢得了一个明确的政治胜利，而且鉴于他们无论如何都需要保卫北方，这是一个让他们付出很少代价的胜利。`
 				decline
 
 
 
 mission "FW Syndicate Diplomacy 1"
 	autosave
-	name "Syndicate Diplomacy"
-	description "Transport Alondo Gruyere to the Syndicate headquarters on <planet>."
+	name "银团外交"
+	description "将阿隆多-格鲁耶尔送到<planet>上的辛迪加总部。"
 	source "Deep"
 	destination "Hephaestus"
-	clearance "Alondo has a brief chat with the spaceport controller and manages to get you permission to land."
+	clearance "阿隆多与太空港的控制员进行了简短的交谈，并设法让你得到了降落的许可。"
 		attributes "dirt belt"
 	passengers 1
-	blocked `Alondo contacts you and says, "Captain, you're going to need a bunk free for me. Do you have space?" You do not, so you should complete or abort another mission to make room for him, then return here.`
+	blocked `阿隆多联系你说："船长，你需要为我腾出一个铺位。你有空间吗？"你没有，所以你应该完成或中止另一个任务，为他腾出空间，然后回到这里。`
 	to offer
 		has "FW Prisoner Parole 2: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
-			`You meet Tomek and Alondo in the spaceport. "We've decided that now would be a good time for diplomatic missions," says Alondo. "We've proven that we are a force to reckon with, but also that we are open to working for peace. We'll start with the Syndicate, as a relationship with them would be a significant advantage for us."`
+			`你在太空港遇到托梅克和阿隆多。"我们已经决定，现在是进行外交任务的好时机，"阿隆多说。"我们已经证明了我们是一支不可忽视的力量，但也证明了我们愿意为和平而努力。我们将从辛迪加开始，因为与他们的关系将是我们的一个重要优势。"`
 			choice
-				`	"Do you think they will fight on our side?"`
-				`	"Wait, isn't the Syndicate an evil megacorporation?"`
+				`	"你认为他们会站在我们这边作战吗？"`
+				`	"等等，辛迪加不是一个邪恶的大公司吗？"`
 					goto evil
 			
-			`	"Certainly not," says Alondo. "Unlike us, the Syndicate has few grievances with the Republic. While the Navy does not patrol the Core, the Syndicate funds their own private security for the region. I don't see what they'd gain from joining the fight on our side. But they are very interested in maximizing their profits, so I pray we can arrange to purchase ship materials from them. And if nothing else, I pray they at least will promise not to hire out their security forces as mercenaries to the Republic."`
+			`	"当然不是，"阿隆多说。"与我们不同，辛迪加对共和国几乎没有怨言。虽然海军不在核心区巡逻，但辛迪加为该地区提供了他们自己的私人保安。我不明白他们加入我们这边的战斗会有什么好处。但他们对利润最大化非常感兴趣，所以我祈祷我们能安排从他们那里购买船舶材料。如果不出意外，我祈祷他们至少能保证不把他们的保安部队作为雇佣兵租给共和国。"`
 				goto time
 			
 			label evil
-			`	"Well, they do have a long record of environmental and human rights violations. But they are also the single largest employer in the galaxy, and a main reason for the stability the Republic has enjoyed for the last few centuries. The Syndicate is also not a monolith. There are at least some good people within the Syndicate. I... used to know one," Alondo says with some apprehension. "So, I wouldn't call the Syndicate 'evil.' It's more complicated than that."`
+			`	"好吧，他们确实有长期违反环境和人权的记录。但他们也是银河系最大的雇主，是共和国在过去几个世纪中享有稳定的主要原因。辛迪加也不是一个铁板一块。在辛迪加内部至少有一些好人。我......曾经认识一个，"阿隆多有些忧虑地说道。"所以，我不会称辛迪加为'邪恶'。它比那更复杂。"`
 			
 			label time
-			`	"Reaching Syndicate space could be difficult once the Navy has time to regroup," says Tomek. "This may be the last window of opportunity we get for a while to meet with them in person."`
-			`	"I have plenty of contacts in the Dirt Belt," says Alondo, "so if a planet won't let us land, we can just hail them and I should be able to negotiate with them. In fact, I'm hoping that a side effect of this trip will be to judge how much sympathy we have in the surrounding systems."`
+			`	"一旦海军有时间重组，到达辛迪加空间可能会很困难，"托梅克说。"这可能是我们在一段时间内得到的最后一个亲自与他们见面的机会窗口。"`
+			`	"我在泥土带有很多联系人，"阿隆多说，"所以如果一个星球不让我们降落，我们可以直接呼唤他们，我应该可以和他们谈判。事实上，我希望这次旅行的一个副作用是判断我们在周围的系统中有多少同情心。"`
 			choice
-				`	"Sounds good! Let's do it!"`
+				`	"听起来不错!我们开始吧！"`
 					accept
-				`	"Why meet in person? How do we know this isn't a trap?"`
-				`	"What should we do if we encounter Navy ships?"`
+				`	"为什么要亲自见面？我们怎么知道这不是一个陷阱？"`
+				`	"如果我们遇到海军舰艇，我们应该怎么做？"`
 					goto navy
 			
-			`	"While data moves through the hyperspace network faster than ships, having any substantial back and forth would take longer than if we simply showed up in person. The Syndicate is also often driven by greed, and we're worth more as customers of the Syndicate than as prisoners of the Republic. If nothing else, showing up in person is a sign of good faith. It puts our trust in the Syndicate, trust that they'd be unlikely to betray given the risk they'd see us taking simply to meet with them."`
+			`	"虽然数据在超空间网络中的移动速度比船只快，但有任何实质性的来回都会比我们简单地亲自出现要花更多时间。辛迪加也经常被贪婪所驱使，而我们作为辛迪加的客户比作为共和国的囚犯更有价值。如果没有其他原因，亲自出面是一种诚意的表现。它把我们的信任放在辛迪加身上，鉴于他们看到我们只是为了与他们见面而承担的风险，他们不太可能背叛这种信任。"`
 			choice
-				`	"I hope you're right! Let's get going."`
+				`	"我希望你是对的!我们走吧。"`
 					accept
 			
 			label navy
-			`	"I would suggest evading them," Alondo says. "From a diplomatic perspective, I'd rather let them live, but Tomek might think otherwise."`
-			`	"No," Tomek responds. "I agree. Just as you say there are good people within the Syndicate, there are good people within the Navy as well. It's one thing to fight during a battle, but we're not looking to invade Republic territory, only pass through it. Save your energy and only defend yourself if you must."`
+			`	"我建议避开他们，"阿隆多说。"从外交角度来看，我宁愿让他们活着，但托梅克可能不这么认为。"`
+			`	"不，"托梅克回应道。"我同意。就像你说辛迪加内部有好人，海军内部也有好人。在战斗中战斗是一回事，但我们不是要入侵共和国领土，只是要通过它。节省你的精力，只有在必须的情况下才会自卫。"`
 			choice
-				`	"Okay. Let's get going!"`
+				`	"好吧。我们走吧！"`
 					accept
 	
 	on visit
-		dialog `You land on <planet>, but realize that your escort carrying Alondo hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你在<planet>上降落，但意识到你的护卫队载着阿隆多还没有进入该系统。最好出发并等待它的到来。`
 
 
 
 mission "FW Syndicate Diplomacy 1B"
 	landing
-	name "Tarazed Diplomacy"
-	description "Transport Alondo Gruyere to <planet> to negotiate with Tarazed Corporation."
+	name "塔拉兹德外交"
+	description "将Alondo Gruyere运送到<planet>，与Tarazed公司进行谈判。"
 	source "Hephaestus"
 	destination "Wayfarer"
-	clearance "Alondo has a brief chat with the spaceport controller and manages to get you permission to land."
+	clearance "阿隆多与太空港的控制员进行了简短的交谈，并设法让你得到了降落的许可。"
 		attributes "dirt belt"
 	passengers 1
 	to offer
 		has "FW Syndicate Diplomacy 1: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		set "met remington"
 		log "Visited the Syndicate and worked out a deal where they promised to stay neutral. They are expecting to profit from selling weapons to both sides in this war. Also discovered that Katya is in the Republic's custody and is accused of terrorist activity."
-		log "People" "Katya Reynolds" `Katya was on Clink when the Navy invaded the Kornephoros system, and was taken captive by them and imprisoned as a war criminal.`
-		log "People" "Samuel Remington" `Samuel Remington is the Syndicate's head of public relations, and he seemed to help get the Free Worlds a better deal with the Syndicate than they might have otherwise received. He and Alondo seem to have a history together, although it is one that neither will discuss in detail.`
+		log "People" "Katya Reynolds" `海军入侵科内普洛斯系统时，卡蒂亚在克林克上，被他们俘虏，作为战犯被监禁。`
+		log "People" "Samuel Remington" `塞缪尔-雷明顿是辛迪加的公共关系主管，他似乎帮助自由世界与辛迪加达成了比他们可能得到的更好的交易。他和阿隆多似乎有一段历史，尽管两人都不愿意详细讨论这个问题。`
 		event "syndicate convoys to Tarazed"
 		conversation
-			`As you land, Alondo says to you, "Let me do the talking, please." You are met almost immediately by two men in suits, who escort you to a room in the Syndicate headquarters. Six men are sitting on one side of a large mahogany conference table; they gesture for the two of you to be seated on the other side.`
-			`	You introduce yourselves. "Thank you for meeting with us," says Alondo.`
-			`	A man who appears much younger than the others introduces himself as Samuel Remington and responds. "Hearing that representatives of the Free Worlds were on their way was certainly a surprise. I apologize that CEO Korban could not meet with us today. He sent me in his stead to ensure that this meeting was handled with the upmost delicacy. So, what might it be that brings you here?"`
-			`	"We would like to secure the purchase of construction materials for new ships," says Alondo. "As well as ask that the Syndicate refrains from joining the war as mercenaries. Our grievance is with the Republic, not the Syndicate."`
-			`	"We are always open to new business opportunities," says another man, Lopez, "although negotiating with known terrorists is... distasteful." He leafs through a folder of papers, pulls one out, and slides it over to you. It is a picture of Katya, and the caption under it reads, "Terrorist ringleader captured in raid on Kornephoros system." It is dated a few days after the Navy's initial assault, before you retook the system from them.`
+			`当你着陆时，阿隆多对你说："请让我来说话。"两个穿西装的人几乎立刻就见到了你，他们护送你到辛迪加总部的一个房间。六个人坐在一张大红木会议桌的一侧；他们打手势让你们两个在另一侧坐下。`
+			`	你们介绍一下自己。"阿隆多说："谢谢你与我们见面。`
+			`	一个看起来比其他人年轻得多的人自我介绍说是塞缪尔-雷明顿，并回答说。"听说自由世界的代表正在路上，这无疑是一个惊喜。我很抱歉，首席执行官科班今天不能与我们见面。他派我代替他，以确保这次会议得到最细致的处理。那么，是什么原因使你们来到这里？"`
+			`	"我们想确保购买新船的建筑材料，"阿隆多说。"同时要求辛迪加不要作为雇佣兵加入战争。我们的不满是对共和国的不满，而不是对辛迪加的不满。"`
+			`	"我们总是对新的商业机会持开放态度，"另一个人洛佩兹说，"尽管与已知的恐怖分子谈判是......令人讨厌的。"他翻开一个文件夹，抽出一张纸，并把它滑到你面前。这是一张卡蒂亚的照片，下面的标题写着："在对科内普洛斯系统的突袭中抓获了恐怖分子头目。"这张照片的日期是在海军最初的攻击之后几天，在你从他们手中夺回该系统之前。`
 			choice
-				`	(Let Alondo handle this.)`
-				`	(Try to explain what Katya was doing in that system.)`
+				`	(让阿隆多处理这个。)`
+				`	(试着解释一下卡蒂亚在那个系统里做了什么。)`
 					goto explain
 			
-			`	Alondo has turned very pale, but finally he says, "They have not announced this publicly."`
-			`	"No," says Lopez, "they have only shared it with certain... trusted friends of the Republic."`
-			`	Alondo says, "They haven't announced anything because they know she was innocent. She was hunting the terrorists, not helping them."`
+			`	阿隆多脸色变得非常苍白，但最后他说："他们没有公开宣布此事。"`
+			`	"没有，"洛佩兹说，"他们只与共和国某些......值得信赖的朋友分享。"`
+			`	阿隆多说，"他们没有宣布任何事情，因为他们知道她是无辜的。她在追捕恐怖分子，而不是帮助他们。"`
 				goto ijs
 			
 			label explain
-			`	"She was there trying to find the terrorists. She wasn't one of them," you say.`
-			`	Alondo side eyes you, looking very pale.`
+			`	"她在那里试图找到恐怖分子。她不是他们中的一员，"你说。`
+			`	阿隆多侧头看着你，脸色很难看。`
 			
 			label ijs
-			`	"That may be true," says a third man, Badenoch. "I am willing to believe you were hunting the terrorists, because I am aware through my own sources that the Free Worlds secured the services of a certain Ijs Springborn, whose skills would be well suited to such a hunt. And who might not be in as safe a position today if you had not given him a reason to leave this sector of space, where he is... universally despised. Regardless, we cannot sell supplies to enemies of the Republic."`
-			`	"Piracy is on the rise in the Dirt Belt," says Alondo. "And I know you have customers there. Such as the Tarazed Corporation. If we can count you among our friends, we could ensure that your convoys reach Tarazed unmolested."`
-			`	"And you would no doubt immediately purchase said supplies from Tarazed," says Badenoch.`
-			`	A much older man sitting next to him, Akihito, says, "Of course, such weapons would end up being bought at a significant price markup." He is grinning.`
-			`	"No," Remington says, surprising some of the other men at the table. "No markups necessary." None of the other men argue with Remington over this.`
-			`	You speak for a while longer, but Alondo manages to hash out a deal where the Free Worlds will defend any Syndicate ships they encounter within the Dirt Belt in return for a promise that the Syndicate will not serve as Republic mercenaries and will not prevent you from purchasing their equipment indirectly through Tarazed. In addition, Remington suggested that you might find some "extra goodies" among the Syndicate convoys heading to Tarazed specifically. You thank the Syndicate leaders, and begin the trip back to your ship.`
-			`	Alondo is silent. As you're about to leave the spaceport for the landing pads, you hear someone shout behind you. "No need to be a stranger, Gruyere. Can't stick around for a drink?" You turn to look at who it is, but Alondo keeps walking. You find Samuel Remington approaching, paying you no mind. "Are you still mad at me, Gruyere?" he asks.`
+			`	"那可能是真的。"第三个人巴德诺克说。"我愿意相信你在追捕恐怖分子，因为我通过自己的消息来源知道，自由世界获得了某个Ijs Springborn的服务，他的技能很适合这种追捕。如果你没有给他一个离开这个空间区域的理由，他今天可能不会处于如此安全的位置，在那里他......被普遍鄙视。不管怎么说，我们不能向共和国的敌人出售物资。"`
+			`	"在泥土地带，海盗行为正在上升，"阿隆多说。"而且我知道你在那里有客户。比如塔拉泽德公司。如果我们能把你算作我们的朋友，我们就能确保你的船队不受干扰地到达塔拉泽德。"`
+			`	"而你无疑会立即从塔拉泽德购买上述物资。"巴德诺克说。`
+			`	坐在他旁边的一个年长得多的人，Akihito，说："当然，这样的武器最终会以巨大的价格购买。"他在咧嘴笑。`
+			`	"不，"雷明顿说，让桌子上的其他一些人感到惊讶。"没有必要加价。"其他男人没有一个人为此与雷明顿争论。`
+			`	你们又谈了一会儿，但阿隆多设法达成了一项交易，自由世界将保卫他们在泥土带内遇到的任何辛迪加的船只，以换取辛迪加不充当共和国雇佣兵的承诺，并且不阻止你们通过塔拉泽德间接购买他们的设备。此外，雷明顿建议，你可能会在专门前往塔拉泽德的辛迪加车队中找到一些 "额外的好东西"。你感谢辛迪加的领导人，并开始了回船的旅程。`
+			`	阿隆多沉默不语。当你准备离开太空港前往着陆点时，你听到有人在你身后喊道。"没必要见外，格鲁耶尔。不能坚持喝上一杯吗？"你转过身去看是谁，但阿隆多一直在走。你发现塞缪尔-雷明顿正在走近，对你毫不在意。"你还在生我的气吗，格鲁耶尔？"他问道。`
 			choice
-				`	(Stand in Remington's way.)`
+				`	(挡住雷明顿的路。)`
 					goto stand
-				`	(Don't engage.)`
+				`	(不要参与。)`
 			
-			`	Remington stops a few paces past you as Alondo boards your ship. Remington shakes his head before looking back to you. "I guess a guy can't talk to an old friend."`
+			`	当阿隆多登上你的船时，雷明顿在你身边几步远的地方停下。雷明顿摇摇头，然后回头看向你。"我猜一个人不能和一个老朋友说话。"`
 				goto remington
 			
 			label stand
-			`	You take a step into Remington's path as Alondo boards your ship. Remington stops face-to-face with you. "What, a guy can't talk to an old friend?" he says while looking over your shoulder`
+			`	当阿隆多登上你的船时，你向雷明顿的方向迈出一步。雷明顿与你面对面地停下。"什么，一个人不能和一个老朋友说话？"他一边说一边看向你的肩膀`
 			label remington
 			choice
-				`	"He's clearly not interested."`
+				`	"他显然不感兴趣。"`
 					goto interested
-				`	"You know Alondo?"`
+				`	"你认识阿隆多？"`
 			
-			`	"More than most," Remington says with a chuckle. "He was never one to show gratitude for gifts. I hope you enjoy the new toys in those shipments I just secured more than he does."`
+			`	"比大多数人都多，"雷明顿笑着说。"他从来不是一个对礼物表示感激的人。我希望你比他更喜欢我刚拿到的那些货物中的新玩具。"`
 				goto alondo
 			
 			label interested
-			`	"As if that's ever stopped me before," Remington says with a chuckle. "He was never one to show gratitude for gifts. I hope you enjoy the new toys in those shipments I just secured more than he does."`
+			`	"好像这曾经阻止过我一样，"雷明顿笑着说。"他从来不是一个对礼物表示感激的人。我希望你比他更喜欢我刚拿到的那些货物中的新玩具。"`
 			
 			label alondo
-			`	"What new toys?" you ask.`
-			`	"You'll see," he says, turning back to the spaceport and leaving you.`
-			`	You join Alondo on your ship and find him solemnly staring out a window.`
+			`	"什么新玩具？"你问。`
+			`	"你会看到的。"他说，转身回到太空港，离开你。`
+			`	你在你的船上与阿隆多会合，发现他正严肃地盯着窗外。`
 			choice
-				`	"It seems like the negotiations went pretty well."`
+				`	"看来谈判进行得相当顺利。"`
 					goto well
-				`	"What was that all about?"`
+				`	"那到底是怎么回事？"`
 					goto that
-				`	"What do we do about Katya?"`
+				`	"我们该怎么处理卡蒂亚？"`
 					goto katya
 			
 			label that
-			`	"Samuel and I have... a history. One I'd rather not discuss," Alondo responds. "Anyway, we must continue with our mission. Time for us to make a visit to Tarazed. Let's get going."`
+			`	"塞缪尔和我有...一段历史。我不想讨论。"阿隆多回应道。"无论如何，我们必须继续我们的任务。是时候让我们去拜访塔拉泽德了。让我们出发吧。"`
 				accept
 			
 			label well
-			`	"They did. Although it feels like it was almost too easy. Support from Samuel isn't too unexpected, but I'd have expected the others to fight him over squeezing us a bit more." Alondo pauses for a moment. "Anyway, we must continue with our mission. Time for us to make a visit to Tarazed."`
+			`	"他们做到了。虽然感觉这几乎太容易了。来自塞缪尔的支持并不太出人意料，但我本以为其他人会为了多压榨我们一点而与他争吵。"阿隆多停顿了一会儿。"无论如何，我们必须继续执行我们的任务。是时候让我们去拜访塔拉泽德了。"`
 				accept
 			
 			label katya
-			`	"I'll have to talk that over with the Council when we get back. But if she is a prisoner of the Intelligence Bureau, there is no way we can rescue her. Her only hope is that they will recognize her innocence. For now, we must continue with our mission. Time for us to make a visit to Tarazed."`
+			`	"我们回去后，我得和理事会商量一下这个问题。但如果她是情报局的囚犯，我们就没有办法救她。她唯一的希望是他们会承认她的清白。现在，我们必须继续完成我们的任务。是时候让我们去拜访塔拉泽德了。"`
 				accept
 	
 	npc
@@ -420,44 +420,44 @@ mission "FW Syndicate Diplomacy 1B"
 		fleet "Small Republic" 3
 	
 	on visit
-		dialog `You land on <planet>, but realize that your escort carrying Alondo hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你在<planet>上降落，但意识到你的护卫队载着阿隆多还没有进入该系统。最好出发并等待它的到来。`
 
 
 
 mission "FW Syndicate Diplomacy 1C"
 	landing
-	name "Poisonwood Diplomacy"
-	description "Travel to <planet> with Alondo Gruyere, to make one final diplomatic visit."
+	name "毒木外交"
+	description "与Alondo Gruyere一起前往<planet>，进行最后一次外交访问。"
 	source "Wayfarer"
 	destination "Poisonwood"
-	clearance "Alondo has a brief chat with the spaceport controller and manages to get you permission to land."
+	clearance "阿隆多与太空港的控制员进行了简短的交谈，并设法让你得到了降落的许可。"
 		attributes "dirt belt" "south"
 	passengers 1
 	to offer
 		has "FW Syndicate Diplomacy 1B: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		event "Tarazed neutrality"
 		log "The extra Syndicate supplies have begun arriving at Tarazed, and they include weaponry and outfits not normally shipped to the South. Spoke with Emily Lane, the CEO of the Tarazed Corporation. She is suspicious of this supposed gesture of good will from the Syndicate, and suggests remaining vigilant of the Syndicate's actions."
 		conversation
-			`When you arrive at <origin>, you find that there are already some Syndicate ships here unloading cargo that must have been sent ahead of you. You catch a glimpse of some of the crates and see large amounts of ship materials, as well as crates of blasters, Proton Guns, and other Syndicate products.`
-			`	Upon contacting the Tarazed Corporation, you and Alondo are led into the Tarazed board room, which is different from the Syndicate one in two respects. First, it is much less fancy. And second, there are women present: unlike the notoriously misogynistic Syndicate, Tarazed is currently run by a female CEO, Emily Lane.`
-			`	"I'm pleased to welcome you here," says Emily. "It's nice to finally speak with you directly, Alondo. Many of us are sympathetic to your cause."`
-			`	"Thank you," says Alondo, "although for the time being the best way to support us may be for you to remain neutral in this conflict." He explains the negotiations with the Syndicate and the idea of Tarazed being a go-between for Syndicate supplies.`
-			`	"I don't like dealing with the Syndicate," says Emily, "but like yourselves, we could not build ships without the systems they manufacture. Of course, the materials we receive from Free space are equally valuable. But if we remain nominally a part of the Republic, they will have full access to this system, including searching incoming and outgoing freighters."`
+			`当你到达<origin>时，你发现这里已经有一些辛迪加的船只在卸货，这些货物一定是在你之前被送来的。你瞥见了一些板条箱，看到了大量的飞船材料，以及一箱箱的爆破器、质子枪和其他辛迪加产品。`
+			`	在与塔拉泽德公司联系后，你和阿隆多被带进了塔拉泽德的会议室，这与辛迪加的会议室在两个方面有所不同。首先，它没有那么多花哨的东西。其次，有女性在场：与臭名昭著的厌恶女性的辛迪加不同，Tarazed目前由一位女性首席执行官Emily Lane管理。`
+			`	"我很高兴欢迎你来到这里，"艾米丽说。"很高兴终于能和你直接对话了，阿隆多。我们中的许多人对你的事业表示同情。"`
+			`	"谢谢你，"阿隆多说，"尽管目前支持我们的最好方式可能是你在这场冲突中保持中立。"他解释了与辛迪加的谈判，以及塔拉泽德作为辛迪加物资的中间人的想法。`
+			`	"我不喜欢和辛迪加打交道，"艾米丽说，"但和你们一样，没有他们制造的系统，我们就无法建造船只。当然，我们从自由空间得到的材料也同样宝贵。但如果我们在名义上仍然是共和国的一部分，他们将完全可以进入这个系统，包括搜查进出的货船。"`
 			choice
-				`	"You receive weapons and ship materials all the time. As long as they don't know it's going to us, they shouldn't care."`
+				`	"你们一直都在接收武器和船舶材料。只要他们不知道这是给我们的，他们就不应该在乎。"`
 					goto skip
-				`	(Let Alondo do the talking.)`
-			`	"True," says Alondo, "but a Navy fleet here would be vulnerable to being cut off from Republic space, so unless they occupy the whole Dirt Belt, I do not think they would risk it."`
+				`	(让阿隆多说吧。)`
+			`	"没错，"阿隆多说，"但海军舰队在这里会很容易被切断与共和国空间的联系，所以除非他们占领了整个泥土带，否则我认为他们不会冒险。"`
 			label skip
-			`	"Perhaps so," Emily responds. "Although I must ask what sort of strings you pulled to manage what you have. Shortly before you arrived we began receiving Syndicate supplies that we never ordered. Quad Blaster Turrets. Proton guns. Anti-missile turrets. Even atomic thrusters from the Deep, which the Syndicate does not normally sell. Is this all for the Free Worlds?"`
-			`	Alondo pauses. "I have... an old friend within the Syndicate. He was a part of the negotiations, and mentioned that there would be 'extra goodies' within the coming convoys. We haven't been on speaking terms for years, and I suppose this is his attempt to get back on my good side."`
-			`	"I doubt that supplies in these amounts are just an attempt at old friends trying to get back together," says Emily. "The Syndicate does not play games like this without having something to gain from it. I would suggest not taking this good gesture too highly."`
-			`	They continue talking for a while, and you leave well convinced that Tarazed is willing to support you and that the best way they can do that for now is by remaining neutral. There were questions raised about the intentions of the Syndicate, though.`
-			`	"Now," says Alondo, "I'd like to make one more diplomatic visit. The planet <planet> has insisted on remaining loyal to the Republic, even though they are deep inside our space. I'd like to meet with their leaders and see if they will reconsider joining us."`
+			`	"也许是这样，"艾米丽回应道。"虽然我必须问你是通过什么样的关系来管理你所拥有的东西。在你到达前不久，我们开始收到我们从未订购的辛迪加用品。四个爆破炮塔。质子枪。反导弹炮塔。甚至还有来自深海的原子推进器，辛迪加通常不出售这些东西。这都是为了自由世界吗？"`
+			`	阿隆多停顿了一下。"我有......在辛迪加内部的一个老朋友。他是谈判的一部分，并提到在即将到来的车队中会有'额外的好东西'。我们已经有好几年没有说过话了，我想这是他试图重新回到我的身边。"`
+			`	"我怀疑这些数量的物资只是老朋友试图重归于好的一种尝试，"艾米丽说。"辛迪加不会玩这样的游戏，除非有什么好处。我建议不要把这种良好的姿态看得太高。"`
+			`	他们继续谈了一会儿，你离开时很确信塔拉兹德愿意支持你，而他们目前能做到这一点的最好方式是保持中立。不过也有人对辛迪加的意图提出了疑问。`
+			`	"现在，"阿隆多说，"我想再做一次外交访问。<planet>坚持要对共和国保持忠诚，尽管他们在我们的空间深处。我想与他们的领导人会面，看看他们是否会重新考虑加入我们。"`
 				accept
 	
 	npc
@@ -467,83 +467,83 @@ mission "FW Syndicate Diplomacy 1C"
 		fleet "Small Republic" 3
 	
 	on visit
-		dialog `You land on <planet>, but realize that your escort carrying Alondo hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你在<planet>上降落，但意识到你的护卫队载着阿隆多还没有进入该系统。最好出发并等待它的到来。`
 	
 	
 	
 mission "FW Syndicate Diplomacy 1D"
 	landing
-	name "Return to <planet>"
-	description "Return to <planet> with Alondo, to report on the outcome of your diplomatic mission."
+	name "返回<planet>。"
+	description "与阿隆多一起返回<planet>，报告你的外交任务的结果。"
 	source "Poisonwood"
 	destination "Longjump"
 	passengers 1
 	to offer
 		has "FW Syndicate Diplomacy 1C: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		log "Tried to convince Poisonwood, a world adjacent to Free Worlds territory, to switch sides. But, they are fiercely loyal to the Republic because the Navy freed them from being dominated by Alpha warlords decades ago."
 		conversation
-			`As you are landing on Poisonwood, Alondo explains, "Three decades ago, this was a slave colony. The Navy was responsible for liberating them, and they still feel a deep debt to the Republic as a result. But even if they do not join us, we can maybe establish more friendly relations with them."`
-			`	Soon after you land, the governor of Poisonwood sends an aide to escort you to her office. The governor is probably in her late fifties, and as you are speaking the sunlight occasionally catches her face or arms at exactly the right angle to show the faint, criss-crossing lines of very old scars. She must have been one of the slaves who were freed by the Navy.`
-			`	As soon as you are seated, she says, "Now, I don't want to give you false hope. We will not be joining the Free Worlds."`
-			`	"Understood," says Alondo. "We've come primarily to assure you that the Free Worlds will never attempt to take control of a planet that has not willingly chosen to join us. But without our support, your world is isolated and vulnerable."`
-			`	"Indeed," she says, grimacing. They talk for a while, but it is clear she does not think her people would ever support even a treaty of neutrality with the "rebellion." Finally, she changes the subject. "Captain <last>," she says, "what do you believe is the greatest threat that humanity faces today?"`
+			`当你在毒木镇登陆时，阿隆多解释说："三十年前，这里是一个奴隶殖民地。海军负责解放他们，他们因此仍然对共和国感到深深的亏欠。但即使他们不加入我们，我们也许可以与他们建立更友好的关系。"`
+			`	在你着陆后不久，毒林州州长派了一名助手护送你到她的办公室。州长可能已经50多岁了，在你说话的时候，阳光偶尔会以合适的角度照到她的脸或手臂，显示出非常古老的疤痕的微弱、交错的线条。她一定是被海军解放的奴隶之一。`
+			`	你一坐下来，她就说："现在，我不想给你虚假的希望。我们将不会加入自由世界。"`
+			`	"明白了。"阿隆多说。"我们来主要是为了向你保证，自由世界绝不会试图控制一个没有自愿选择加入我们的星球。但如果没有我们的支持，你们的世界是孤立和脆弱的。"`
+			`	"的确，"她说，面无表情。他们谈了一会儿，但很明显，她不认为她的人民会支持哪怕是与 "叛军 "签订的中立条约。最后，她改变了话题。"船长<last>，"她说，"你认为人类今天面临的最大威胁是什么？"`
 			choice
-				`	"Corrupt government."`
-				`	"Powerful corporations and unbridled capitalism."`
+				`	"腐败的政府。"`
+				`	"强大的公司和无节制的资本主义。"`
 					goto corporations
-				`	"The return of the Alphas, or something like them."`
+				`	"阿尔法师的回归，或类似的东西。"`
 					goto alphas
-				`	"Piracy and anarchy, like the pirates who dominated your world."`
+				`	"海盗和无政府状态，就像主宰你们世界的海盗。"`
 					goto anarchy
-				`	"Alien invasion."`
+				`	"外星人入侵。"`
 					goto aliens
 			
-			`	She laughs. "A typical Free Worlds answer. I will confess, I am none too fond of Parliament, ordering the Navy to spend its time up in the paradise sector assisting snobby rich pilots who've run out of fuel instead of down here defending against the very real threats that lurk on the pirate worlds."`
+			`	她笑了。"一个典型的自由世界的答案。我得承认，我不太喜欢议会，命令海军把时间花在天堂区，协助那些耗尽燃料的势利的富有的飞行员，而不是在这里抵御潜伏在海盗世界中的非常真实的威胁。"`
 				goto threat
 			
 			label corporations
-			`	"Since there is only one corporation in the galaxy that fits that description," she says, "I assume you are talking about the Syndicate. Any human organization can take on a life of its own, and act in ways that any of its individual members would consider immoral. That is a danger the Syndicate does face. but I find myself more concerned with certain threats that are closer to home."`
+			`	"既然银河系中只有一家公司符合这一描述，"她说，"我想你说的是辛迪加。任何人类组织都可以拥有自己的生命，并以任何个人成员都会认为不道德的方式行事。这是辛迪加确实面临的一个危险。但我发现自己更关心离家更近的某些威胁。"`
 				goto threat
 			
 			label alphas
-			`	She seems surprised. "Not many in your generation would say that," she says. "Even here on Poisonwood, where we ought to know better, many of those who were born after the days of slavery think the Alphas are no more than a myth, a story that Parliament uses to justify maintaining such a large Navy."`
-			`	Alondo looks concerned. "I've heard the stories from the liberation of Poisonwood," he says, "but there was never any evidence. No photos, none of them captured. I thought it was just hype."`
+			`	她似乎很惊讶。"在你们这一代，没有多少人会这么说，"她说。"即使是在我们应该更了解的毒木镇这里，许多在奴隶制时代之后出生的人都认为字母族不过是一个神话，一个议会用来证明维持如此庞大海军的故事。"`
+			`	阿隆多看起来很担心。"我听说过解放毒木的故事，"他说，"但从来没有任何证据。没有照片，没有一个人被俘。我以为这只是炒作。"`
 				goto story
 			
 			label anarchy
-			`	She laughs. "Thugs. Children with no hope for the future. Petty criminals. The pirates are poorly organized, and their glory days are long past. But you are right, in a way, because those lawless worlds provide a hiding place for the few individuals who actually are a danger to our species. And that is the threat that weighs most heavily on my mind."`
+			`	她笑了。"暴徒。对未来没有希望的孩子。小犯罪者。海盗的组织性很差，他们的光辉岁月早已过去。但你是对的，在某种程度上，因为那些无法无天的世界为少数真正对我们人类构成威胁的人提供了一个藏身之处。而这正是我心中最沉重的威胁。"`
 				goto threat
 			
 			label aliens
-			`	She laughs. "You must watch far too many videos. The most powerful species in this galaxy are also the most peace-loving. Trust me, I should know. Here on the edge of human space, we receive... visitors, on occasion. They do not interfere in human events, but they came seeking information on a threat that concerns us both."`
+			`	她笑着说。"你一定看了太多的视频。这个星系中最强大的物种也是最热爱和平的。相信我，我应该知道。在人类空间的边缘，我们偶尔会接待......访客。他们不干涉人类的活动，但他们来寻求与我们双方有关的威胁的信息。"`
 				goto threat
 			
 			label threat
-			`	"What sort of threat?" you ask.`
+			`	"什么样的威胁？"你问。`
 			
 			label story
-			`	"Our world was enslaved for nearly a decade," she says. "Most of my childhood. We had been little more than an anarchist colony ourselves before that, though, so the Republic did nothing to aid us. Until the Disappearance."`
+			`	"我们的世界被奴役了近十年，"她说。"我童年的大部分时间。在那之前，我们只是一个无政府主义的殖民地，所以共和国没有做任何事情来帮助我们。直到失踪事件发生。"`
 			choice
-				`	"What was the Disappearance?"`
+				`	"失踪是怎么回事？"`
 			
-			`	"I was a teenage slave working in the factories at the time," she says. "Exactly the wrong age, as it turned out. One day the overseers informed us that all the eighteen-year-old girls had to have mandatory 'health checkups' that day. I won't describe what the 'checkup' involved, but it was bewildering and unpleasant. And nearly all those girls disappeared, that day. They never returned from the 'checkups.' Only a few of us were left behind. Most of the leftovers were girls who had been unlucky enough to already be pregnant at that age. Or lucky, as it turned out. But I didn't understand why they didn't take me."`
-			`	Alondo seems very disturbed by the story. "They were selling girls into prostitution?" he says.`
-			`	"That's what we assumed," she says, "but there were dozens of girls like me who were not taken, even though we were not pregnant. It didn't make sense. Anyway, somehow news of that event got off-world and not long after, the Navy came in massive numbers, destroyed the slaver fleets and liberated our planet. In the process, they tried to invade an underground facility up in the mountains, which is where they thought the girls were being kept. But the facility was rigged to self-destruct, and they never found out what had been going on inside the facility. No one inside it survived."`
+			`	"当时我是一个在工厂工作的少年奴隶，"她说。"恰恰是错误的年龄，因为事实证明了这一点。有一天，监工通知我们，所有18岁的女孩在那天必须进行强制性的'健康检查'。我不会描述'检查'的内容，但它是令人困惑和不愉快的。那天，几乎所有这些女孩都失踪了。她们在 "检查 "后再也没有回来。只有我们几个人被留下来。大多数剩下的人是那些不幸在那个年龄段已经怀孕的女孩。或者说是幸运，因为事实证明了这一点。但我不明白为什么他们不接受我。"`
+			`	阿隆多似乎对这个故事感到非常不安。"他说："他们把女孩卖去卖淫？`
+			`	"她说："那是我们的假设，但有几十个像我一样的女孩没有被带走，尽管我们没有怀孕。这说不通。总之，那件事的消息不知怎么传到了地球以外的地方，不久之后，海军来了大批人，摧毁了奴隶主的舰队，解放了我们的星球。在这个过程中，他们试图入侵山区的一个地下设施，他们认为女孩们就被关在那里。但该设施被安装了自毁装置，他们从未发现该设施内发生了什么。里面的人都没有活下来。"`
 			choice
-				`	"Did you ever find out why they let you go?"`
+				`	"你有没有发现他们为什么让你走？"`
 			
-			`	"My parents said it was because I was so willful and stubborn, too hard to control," she says. "But years later, we began to discover that all of us who were passed over had one thing in common. We were all infertile. Had been already, the day of the Disappearance. Which means that either a bunch of pirates had suddenly decided they wanted to leave behind their lives of crime and settle down and raise families... or those girls were being used as incubators."`
-			`	Alondo says, "I hear that was common during the Alpha wars. Alpha genetics were so unstable, they needed hundreds of test subjects to produce a handful of viable Alpha babies. Those were evil days."`
-			`	"Days that may yet return," she says. "Somewhere, maybe even nearby on Bloodsea or Greenrock or Albatross, the remnants of the Alphas may still be hiding. Creatures bred to be strong and clever and able to kill without a hint of remorse. And now that this sector of space is yours, the duty of defending against them becomes yours, as well. That is why I agreed to talk with you: to warn you of that reality."`
-			`	You and Alondo return to your ship with one more thing for the fledgling Free Worlds to worry about. "I guess now we should return to <planet> and report to the Council," he says.`
+			`	"我的父母说是因为我太任性和固执，太难控制了，"她说。"但多年后，我们开始发现，我们所有被放弃的人都有一个共同点。我们都是不孕不育。已经有了，在失踪的那天。这意味着，要么是一群海盗突然决定要抛开他们的犯罪生活，安定下来，养家糊口......要么是那些女孩被用作孵化器。"`
+			`	阿隆多说，"我听说这在阿尔法战争期间很常见。阿尔法的遗传学是如此不稳定，他们需要数以百计的试验对象来生产少数几个可行的阿尔法婴儿。那是邪恶的日子。"`
+			`	"那些日子可能还会回来，"她说。"在某个地方，甚至在附近的血海、绿岩或信天翁上，阿尔法人的残余可能仍在躲藏。这些生物被培育成强壮而聪明的人，能够毫无悔意地杀人。现在这块空间是你的了，抵御它们的责任也是你的了。这就是为什么我同意与你交谈：提醒你注意这一现实。"`
+			`	你和阿隆多回到你的船上，又有一件事让新生的自由世界担心了。"我想现在我们应该返回<planet>并向理事会报告，"他说。`
 				accept
 	
 	on visit
-		dialog `You land on <planet>, but realize that your escort carrying Alondo hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你在<planet>上降落，但意识到你的护卫队载着阿隆多还没有进入该系统。最好出发并等待它的到来。`
 	on complete
 		payment 200000
 		event "fw dirt belt patrols"
@@ -551,51 +551,51 @@ mission "FW Syndicate Diplomacy 1D"
 		event "tarazed assistance" 60
 		event "unofficial ceasefire" 120
 		conversation
-			`You meet Tomek, Freya, and JJ at the spaceport, and the entire Council quickly convenes. Given that you were Alondo's transportation during his mission, you are included in the meeting. Alondo outlines the results of the diplomatic mission, which he believes has been a success. Upon hearing about the extra supplies heading to Tarazed, Tomek suggests increasing patrols in the Dirt Belt to the east to help defend Syndicate convoys while also moving supplies from Tarazed to various Free planets.`
-			`	"We're still healing from the last set of battles," says JJ. "An increased Free Worlds presence outside of our declared territory could be seen as a provocation."`
-			`	"No doubt it will, but we need to uphold our end of the bargain with the Syndicate if we want to keep them as a tentative ally," Tomek responds. "We also have our deal with Tarazed for them to begin selling some of their ships within our territory. Those ships won't do us much good if they're getting blasted to pieces by pirates before they even get here."`
+			`你在太空港见到了托梅克、弗雷亚和JJ，整个理事会迅速召开了会议。鉴于你是阿隆多任务期间的交通工具，你也被包括在会议中。阿隆多概述了外交任务的结果，他认为这是一个成功。在听到前往塔拉泽德的额外物资时，托梅克建议在东部的泥土带增加巡逻，以帮助保卫辛迪加的车队，同时也将物资从塔拉泽德转移到各个自由星球。`
+			`	"我们还在从上一组战斗中疗伤，"JJ说。"在我们宣布的领土之外增加自由世界的存在可能会被视为一种挑衅。"`
+			`	"毫无疑问会这样，但如果我们想让他们成为一个临时的盟友，我们需要坚持我们与辛迪加的交易，"托梅克回应说。"我们也有我们与塔拉兹德的交易，让他们开始在我们的领土内出售他们的一些船只。如果这些船还没到这里就被海盗炸成碎片，对我们没有什么好处。"`
 			choice
-				`	"A deal with Tarazed for new ships? When did you make that?"`
+				`	"与塔拉泽德达成新船的交易？你什么时候做的？"`
 					goto deals
-				`	"I'm willing to volunteer for escort duty."`
-			`	"No need," says JJ. "We have plenty of captains who are already assigned to escort duty. We may need you elsewhere."`
+				`	"我愿意自愿承担护送任务。"`
+			`	"没必要，"JJ说。"我们有很多舰长已经被分配到护航任务了。我们可能在其他地方需要你。"`
 				goto end
 			label deals
-			`	"Prior to when things went hot," says Tomek, "I saw to it that we could secure a supply line for new warships outside of our borders. Southbound may be a fine shipyard, but they alone can't supply us the warships we need, especially when the largest warship they build is the Bastion. Unfortunately, the Navy attacked before things could be finalized, and the outbreak of war has slowed things down, but Tarazed has assured us the deal is moving forward."`
-			`	"Don't forget that Tarazed is also our only supplier of fighters for Southbound's Type F Haulers," Freya adds. "Unless you count the Boxwing, but those don't help much in a fight."`
-			`	"There are a lot of moving parts at play in this conflict, Captain <last>," says JJ. "All we ask is that you stay focused on where we aim you, and you let us handle the finer details."`
+			`	"在事情变热之前，"托梅克说，"我看到，我们可以在我们的边界之外为新战舰确保一条供应线。南行公司可能是一个很好的造船厂，但仅靠他们不能为我们提供我们需要的战舰，尤其是当他们建造的最大战舰是堡垒号时。不幸的是，在事情还没有敲定之前，海军就发动了攻击，战争的爆发使事情进展缓慢，但塔拉泽德向我们保证，交易正在向前推进。"`
+			`	"别忘了，塔拉泽德也是我们为南行的F型运输机提供战斗机的唯一供应商，"弗雷亚补充道。"除非你算上箱翼，但那些在战斗中并没有什么帮助。"`
+			`	"在这场冲突中，有很多移动的部分在起作用，船长<last>，"JJ说。"我们所要求的是，你保持专注于我们瞄准你的地方，你让我们处理更多的细节。"`
 			label end
-			`	After further discussion on the matter, the Council approves the increased patrols, although JJ remains somewhat apprehensive.`
-			`	"There is one other thing," Alondo says. "The Syndicate informed us that the Republic has Katya in custody, accused of terrorism."`
-			`	The news is a shock to everyone. "I had begun to worry that was the case," says Freya.`
-			`	"My contacts within the Navy have heard rumors, but I suppose this confirms it," says JJ.`
-			`	"Why have they not announced it publicly?" asks Tomek.`
-			`	"I suspect it's because they know she is innocent," says Alondo. "They say it is impossible to tell a lie to the Questioners, and in this case that will work in her favor."`
-			`	After further discussion, the Council eventually dismisses you as they move on to other topics that don't directly concern you.`
-			`	A while later, after the Council meeting is adjourned, Tomek approaches you and says, "Meet me in the spaceport when you are ready for your next assignment. Also," he gives you <payment>, "the Council has approved a bonus for you. Excellent work, Captain."`
+			`	经过对此事的进一步讨论，理事会批准了增加巡逻，尽管JJ仍然有些忧虑。`
+			`	"还有一件事，"阿隆多说。"辛迪加通知我们，共和国关押了卡蒂亚，被指控为恐怖主义。"`
+			`	这个消息对每个人都是一个冲击。"我已经开始担心是这种情况了，"弗雷亚说。`
+			`	"我在海军内部的联系人听到了一些传言，但我想这证实了它，"JJ说。`
+			`	"为什么他们没有公开宣布？"托梅克问道。`
+			`	"我怀疑这是因为他们知道她是无辜的，"阿隆多说。"他们说不可能对提问者说假话，在这种情况下，这对她有利。"`
+			`	经过进一步的讨论，理事会最终解散了你，因为他们转向了与你没有直接关系的其他话题。`
+			`	过了一会儿，理事会会议结束后，托梅克走到你面前说："当你准备好下一个任务时，在太空港见我。另外，"他给你<payment>，"理事会已经批准给你一笔奖金。优秀的工作，船长。"`
 
 
 
 mission "FW Hope Recon 1"
 	autosave
-	name "Early Warning Systems"
-	description "Land on the abandoned planet <destination> and place sensors there to monitor Navy fleet activity in the system."
+	name "预警系统"
+	description "在废弃的星球<destination>上降落，并在那里放置传感器，监测海军舰队在该系统中的活动。"
 	source "Longjump"
 	destination "Hope"
 	cargo "sensors" 10
-	blocked `Freya contacts you and says, "<first>, you're going to need ten tons of cargo space for this next mission." You should return here after freeing up <capacity>.`
+	blocked `芙蕾雅联系你并说："<first>，你需要10吨的货物空间来完成接下来的任务。"你应该在腾出<capacity>后回到这里。`
 	to offer
 		has "FW Syndicate Diplomacy 1D: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
-			`You meet up with Tomek and Freya, who are looking over a map of the nearby systems. "This is a choke point," says Freya, pointing to the Wei system. "Any attack on us will come either through Wei or Lesath, and Wei is much more likely. And that also means that if we can monitor what is happening there, we will have advance warning of any attack."`
-			`	"And with us strengthening our patrols to the east, we'll need any advance warning we can get, even if only a single day." says Tomek. "Now, as you may know, the planet Hope is in the Wei system. It's a former colony that is now an ice planet. Our plan is to deploy a sensor network on Hope, tracking every ship in system. Freya designed the equipment, so she can explain how to deploy it."`
-			`	Freya explains where on the planet each sensor should be installed, and how to cover them in insulative shielding so their heat and energy signatures will be difficult to detect. "Once the network is deployed," she says, "you will begin receiving telemetry. A good way to test it is to make sure it is picking up your own ship. Any questions?"`
+			`你与Tomek和Freya会合，他们正在翻看附近系统的地图。"这是一个咽喉，"Freya说，指着Wei系统。"任何对我们的攻击都会通过魏国或莱萨特，而魏国的可能性更大。而这也意味着，如果我们能够监控那里发生的事情，我们将对任何攻击有提前的警告。"`
+			`	"而随着我们加强对东部的巡逻，我们将需要任何可以得到的预先警告，即使只有一天。"托梅克说。"现在，正如你可能知道的那样，希望号行星在魏氏系统中。它是一个前殖民地，现在是一个冰雪星球。我们的计划是在希望星上部署一个传感器网络，追踪系统中的每一艘飞船。芙蕾雅设计了这些设备，所以她可以解释如何部署这些设备。"`
+			`	芙蕾雅解释了每个传感器应该安装在星球的什么地方，以及如何用绝缘屏蔽物覆盖它们，以便它们的热量和能量特征将难以被发现。"一旦网络部署完毕，"她说，"你将开始接收遥测数据。测试它的一个好方法是确保它能接收到你自己的飞船。有问题吗？"`
 			choice
-				`	"No, sounds good."`
+				`	"没有，听起来不错。"`
 					accept
 	
 	on visit
@@ -605,14 +605,14 @@ mission "FW Hope Recon 1"
 
 mission "FW Hope Recon 1B"
 	landing
-	name "Early Warning Systems"
-	description "Report back to Freya on <planet>."
+	name "预警系统"
+	description "向<planet>上的芙蕾雅汇报。"
 	source "Hope"
 	destination "Longjump"
 	to offer
 		has "FW Hope Recon 1: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 
 
 
@@ -647,44 +647,44 @@ mission "FW Hope Recon 1C"
 		"reputation: Republic (Friendly)" >?= 0
 		log "Planted some sensors on the abandoned world of Hope, as an early warning system for Navy raids on Free Worlds space. The Navy appears to be doing something on this world as well."
 		conversation
-			`You land on Hope, place Freya's surveillance rigs in the locations she specified, and fire them up. Telemetry starts coming in, and you verify that your own ship is showing up in the scans. However, they are also picking up an unidentified heat signature on another part of Hope. Do you investigate?`
+			`你在希望号上降落，将弗莱亚的监视装置放在她指定的位置，并启动它们。遥测数据开始传来，你确认你自己的飞船在扫描中显示出来。然而，它们也在希望号的另一个地方捕捉到了一个不明的热信号。你会调查吗？`
 			choice
-				`	(Of course!)`
-				`	(No, sounds risky.)`
+				`	(当然！)`
+				`	(不，听起来很冒险。)`
 					decline
 			
 			action
 				set "fw caught navy planting sensors"
-			`	You approach the location, flying low to avoid detection, and come upon a Navy Gunboat, landed on the planet. Some distance away from the ship, several figures in thick snowsuits are setting up some sort of equipment with lots of antennae. It seems that the Navy had the same idea as Freya, of using this world as a listening post. Your sensors show that the Gunboat is powered down.`
-			`	The moment your ship comes over the horizon, they start running back toward the Gunboat. You destroy their equipment with a few well-placed shots, then train your guns on the crew members, who are still some distance from their ship. When they realize they cannot get back to it before being shot, they raise their hands in surrender.`
-			`	You count eight crew members in the group, which is the typical crew complement of a Gunboat. That may mean the Gunboat is uncrewed, and you could kill the crew and steal it. On the other hand, if there are more crew aboard the ship it would be better to destroy it first, then finish off the landing crew.`
+			`	你接近该地点，低空飞行以避免被发现，并遇到一艘海军炮艇，它在该星球上降落。离这艘船有一段距离，几个穿着厚厚雪衣的人正在安装某种带有大量天线的设备。看来，海军的想法和芙蕾雅一样，把这个世界作为一个监听站。你的传感器显示，炮艇的电源已经关闭。`
+			`	当你的船越过地平线的那一刻，他们开始向炮艇跑回来。你用几枪摧毁了他们的设备，然后把枪口对准离他们的船还有一段距离的船员。当他们意识到他们无法在被射杀前回到船上时，他们举手投降了。`
+			`	你计算了一下，这群人中有8名船员，这是一艘炮艇的典型船员编制。这可能意味着这艘炮艇没有船员，你可以杀死船员并偷走它。另一方面，如果船上有更多的船员，最好先摧毁它，然后再解决登陆的船员。`
 			choice
-				`	(Destroy the ship, then finish off the crew.)`
+				`	(摧毁这艘船，然后干掉船员。)`
 					goto destroy
-				`	(Kill the landing crew, then steal their ship.)`
+				`	(杀死登陆的船员，然后偷走他们的船。)`
 					goto steal
-				`	(Accept the crew's surrender.)`
+				`	(接受船员的投降。)`
 					goto accept
 			
 			label destroy
-			`	It turns out you made the right choice: someone is indeed onboard the Gunboat still, because the moment you open fire it raises shields and starts powering up its engines and weapons. But, your initial shots must have damaged some critical systems, because it only manages to fire a few shots at you and to lift off about thirty meters into the air before crashing back down onto the ice and exploding. You quickly pick off the landing crew as well; they have no place to hide on the broad, flat glacial expanse.`
-			`	Your own mission is complete, so it's time to return to <planet> and report to Freya.`
+			`	事实证明，你的选择是正确的：确实有人还在炮艇上，因为在你开火的那一刻，它升起了护盾，并开始启动引擎和武器。但是，你最初的射击肯定损坏了一些关键系统，因为它只设法向你开了几枪，并在坠落到冰面上并爆炸之前升空了大约30米。你很快就把着陆人员也干掉了；他们在宽阔平坦的冰川上没有地方可躲。`
+			`	你自己的任务已经完成，所以是时候返回<planet>并向弗雷亚报告。`
 				decline
 			
 			label steal
-			`	The landing crew has absolutely nowhere to hide in this glacial field; you pick them off easily. There is no response from the ship, so you land beside it and prepare to board it. But, the moment you open your hatch, the other ship roars to life, powering up its engines and beating a hasty retreat while firing a few parting shots at you from its turret. You fire up your own engines and pursue it...`
+			`	着陆人员在这片冰川地带绝对无处可藏；你很容易就把他们挑走了。飞船没有回应，所以你降落在它旁边，准备登上它。但是，在你打开舱门的那一刻，另一艘船咆哮着活了过来，启动了它的引擎并匆忙撤退，同时从它的炮塔上向你开了几枪。你启动自己的引擎，追击它......`
 				launch
 			
 			label accept
 			action
 				karma ++
 				set "fw accepted Susquehanna's word of honor"
-			`	Most ships are equipped with external speakers for exactly this sort of situation. You target the ship, and your scanners identify it as the <npc>.`
-			`	"Crew of the <npc>, this is Captain <last> of the Free Worlds ship <ship>," you announce. "I accept your surrender, but will you each give me your word of honor that you will take no further part in fighting the Free Worlds?"`
-			`	The soldiers appear to think for a brief moment before one of them holds their hand high in front of them, giving you a thumbs-up sign. The rest of the soldiers quickly follow suit without any hesitation.`
-			`	"Thank you," you reply. "You may return to your ship and fly back to Republic space."`
-			`	The Navy soldiers exchange looks, apparently surprised, but they recover quickly. One of them snaps to attention and salutes you. You return the salute, and then, realizing their captain can't see you, flash your ship's external lights in acknowledgment. The <npc>'s crew fall into formation, march back to their ship, fire up their engines, and take off. Their weapon systems remain unarmed and inactive, as far as your sensors can tell.`
-			`	Your mission on this planet done, you launch into space too, monitoring the Navy ship.`
+			`	大多数船只都配备了外部扬声器，正是为了应对这种情况。你瞄准了那艘船，你的扫描器识别出它是<npc>号。`
+			`	"<npc>号的船员，我是自由世界飞船<last>的<ship>船长，"你宣布。"我接受你们的投降，但你们能否向我保证不再参与自由世界的战斗？"`
+			`	士兵们似乎思考了一小会儿，然后其中一人将手高高举在面前，向你做了一个大拇指的手势。其余的士兵迅速效仿，没有任何犹豫。`
+			`	"谢谢你，"你回答。"你们可以回到你们的飞船上，飞回共和国的空间。"`
+			`	海军士兵们交换了眼神，显然很惊讶，但他们很快就恢复了。其中一个人猛然抬头，向你敬礼。你回了个礼，然后，意识到他们的舰长看不到你，就闪亮你的船的外部灯光以示感谢。<npc>的船员们列好队形，走回他们的船，启动引擎，然后起飞。就你的传感器所见，他们的武器系统仍然没有武装，也没有活动。`
+			`	你在这个星球上的任务完成了，你也进入了太空，监视那艘海军船。`
 				launch
 	
 	npc
@@ -696,8 +696,8 @@ mission "FW Hope Recon 1C"
 	
 mission "FW Hope Recon 1D"
 	landing
-	name "Destroy Sensors"
-	description "Travel back to <destination> and destroy any Republic sensors you find there."
+	name "摧毁传感器"
+	description "回到<destination>，摧毁你在那里发现的任何共和国传感器。"
 	source "Longjump"
 	destination "Hope"
 	to offer
@@ -707,30 +707,30 @@ mission "FW Hope Recon 1D"
 		conversation
 			branch caught
 				has "fw caught navy planting sensors"
-			`You report back to Freya and Tomek. "I saw a weird sensor blip," you say, "but I was afraid to follow up on it. It may have been the Navy, planting sensors of their own, or doing something else on the planet."`
+			`你向弗雷亚和托梅克报告。"我看到了一个奇怪的传感器闪光，"你说，"但我不敢跟进它。这可能是海军，在他们自己的传感器上，或者在这个星球上做其他事情。"`
 				goto sensors
 			label caught
-			`You report back to Freya and Tomek. "The sensors are deployed," you say, "but I caught the Navy doing the same thing. I destroyed one of their installations, but there might be others."`
+			`你向弗雷亚和托梅克报告。"传感器已经部署完毕，"你说，"但我发现海军也在做同样的事情。我摧毁了他们的一个装置，但可能还有其他装置。"`
 			label sensors
-			`	Tomek frowns. "What do you think, Freya?"`
-			`	"I'd say, live and let live. We have no plans to expand north, so it doesn't cost us anything for them to know what is happening in that system. And we don't have resources to spare on sweeping the planet for their sensors."`
+			`	托梅克皱起眉头。"你怎么看，弗雷亚？"`
+			`	"我想说的是，活该，活该。我们没有向北扩张的计划，所以他们知道那个系统中发生的事情对我们来说没有任何损失。而且我们也没有资源来为他们的传感器扫荡这个星球。"`
 			choice
-				`	"Makes sense to me."`
-				`	"Well, I'd rather not give them any advantage, no matter how slight."`
+				`	"我觉得有道理。"`
+				`	"好吧，我宁愿不给他们任何优势，无论多么轻微。"`
 					goto attack
 			
-			`	"Good," says Freya, "because I've got a much more interesting job for you to do next. The people at Kraz Cybernetics have a new toy they want to test out, and I volunteered you to help out. They're waiting for you on Rust, in the Kraz system."`
+			`	"很好，"芙蕾雅说，"因为我接下来有一个更有趣的工作要给你做。克拉兹网络技术公司的人有一个新的玩具，他们想测试一下，我自愿让你去帮忙。他们在克拉兹系统中的拉斯特号上等着你。"`
 				decline
 			
 			label attack
-			`	"It's up to you," says Tomek. "If you want to go back there, you can. But it'll just create more ill will, without gaining us any tactical advantage."`
-			`	"Also," says Freya, "I've got a much more interesting mission for you. The people at Kraz Cybernetics have a new toy they want to test out, and I volunteered you to help out. They're waiting for you on Rust, in the Kraz system."`
+			`	"这取决于你，"托梅克说。"如果你想回到那里，你可以。但这只会造成更多的恶意，而不会给我们带来任何战术优势。"`
+			`	"另外，"弗雷亚说，"我有一个更有趣的任务给你。克拉兹网络技术公司的人有一个新的玩具，他们想测试一下，我自愿让你去帮忙。他们在克拉兹系统的鲁斯特号上等你。"`
 			choice
-				`	"Sorry, but I hate leaving a job unfinished. I want to destroy those sensors."`
-				`	"Okay, you've convinced me."`
+				`	"对不起，但我讨厌留下一个未完成的工作。我想摧毁那些传感器。"`
+				`	"好吧，你已经说服了我。"`
 					decline
 			
-			`	"Fine," says Freya, "but report to Rust when you're done. And try not to get yourself killed." She's clearly disappointed in you.`
+			`	"好吧，"芙蕾雅说，"但你完成后要向拉斯特报告。尽量不要让自己被杀。"她显然对你感到失望。`
 				accept
 	
 	npc
@@ -742,86 +742,86 @@ mission "FW Hope Recon 1D"
 	on complete
 		log "Destroyed some Navy sensor installations on Hope, but it will likely be only a matter of days before they replace them."
 		conversation
-			`You spend a while sweeping the planet and hoping that the Navy won't come after you. In all, you discover three more sensor installations. There is no way to be sure if you found them all, but it's time now for you to report for duty on Rust.`
+			`你花了一段时间扫荡这个星球，希望海军不会来找你。总之，你又发现了三个传感器装置。没有办法确定你是否全部找到了它们，但现在是你在拉斯特星球上报到的时候了。`
 
 
 
 mission "FW Plasma Testing 1"
 	landing
-	name "Weapons Testing"
-	description "Report to <destination> to assist in some experimental weapons testing."
+	name "武器测试"
+	description "到<destination>报到，协助进行一些实验性武器测试。"
 	source "Longjump"
 	destination "Rust"
 	to offer
 		has "FW Hope Recon 1B: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 
 
 
 mission "FW Plasma Testing 1B"
 	autosave
 	landing
-	name "Weapons Testing"
-	description "As a test for the new Plasma Turret, assist the Walloping Window-Blind in destroying the Red Nile, a pirate ship that is probably in the <waypoints> system. Then return to <planet>."
+	name "武器测试"
+	description "作为对新的等离子炮塔的测试，协助Walloping Window-Blind摧毁红色尼罗河号，这艘海盗船可能在<waypoints>系统中。然后返回<planet>。"
 	source "Rust"
 	waypoint "Ildaria"
 	to offer
 		has "FW Plasma Testing 1: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
-		log "People" "Edward Tivrusky" `Barmy Edward is the Chief Offensive Engineer at Kraz Cybernetics, known for his inventive and sometimes impractical weapon designs. Supposedly, his engineers gave him the "Barmy" sobriquet after an incident where an experimental epoxy cannon he was working on exploded and glued him to the ceiling.`
+		log "People" "Edward Tivrusky" `Barmy Edward是Kraz Cybernetics公司的首席攻击性工程师，以其别出心裁、有时不切实际的武器设计而闻名。据称，他的工程师给他起了个 "巴米 "的绰号，因为他正在研究的一门实验性环氧炮发生了爆炸，把他粘在了天花板上。`
 		conversation
 			scene "scene/loc5"
-			`You are met in the spaceport by a junior engineer from Kraz Cybernetics, who leads you to their facility and introduces you to his boss, who is known as "Barmy Edward." Edward is wearing a set of thick welding glasses and smoking a cigarette. "Pleased to meet you," he says, extending a hand that is encased in a heavy leather glove.`
+			`Kraz Cybernetics公司的一名初级工程师在太空港见到了你，他带你到他们的设施，并向你介绍了他的老板，他被称为 "Barmy Edward"。爱德华戴着一副厚厚的焊接眼镜，抽着烟。"很高兴见到你，"他说，伸出一只包在厚厚的皮手套里的手。`
 			choice
-				`	"Pleased to meet you, too, sir."`
-				`	"Same here."`
+				`	"也很高兴见到你，先生。"`
+				`	"我也一样。"`
 					goto same
 			
-			`	"Don't call me 'sir,'" he says. "I'm not wearing a suit."`
-			`	"Sorry," you say. "It's just all these militia habits I'm learning."`
+			`	"不要叫我'先生'，"他说。"我没穿西装。"`
+			`	"对不起，"你说。"只是我正在学习这些民兵的习惯。"`
 				goto explain
 			
 			label same
-			`	"I've heard good things about your work," he says. "Assisting the Free Worlds and all. Not that I'm big on politics, but I do like blowing things up."`
+			`	"我听说过你工作的好事情，"他说。"协助自由世界和所有。我对政治不感兴趣，但我确实喜欢把东西炸掉。"`
 			choice
-				`	"Me too."`
-				`	"Well, we try to only blow things up when strictly necessary."`
+				`	"我也是。"`
+				`	"好吧，我们尽量只在严格必要时才炸毁东西。"`
 			
 			label explain
-			`	"Of course," he says. "Anyway, I bet you're wondering what new toys we're going to let you play with." You nod. He says, "We've been trying to come up with a weapon for our capital ships, something that's a match for one of the Navy's Heavy Laser Turrets. Something more elegant than those awful Quad Blaster Turrets the Syndicate makes. So I thought, why not take the biggest thing we've got, and then mount a pair of them on a turret?" He beckons for you to follow, and leads you through a door and into a hangar.`
+			`	"当然。"他说。"无论如何，我打赌你一定想知道我们会让你玩什么新玩具。"你点点头。他说："我们一直在努力为我们的首府舰艇想出一种武器，一种能与海军的重型激光炮塔相媲美的武器。比辛迪加制造的那些可怕的四联装爆破炮塔更优雅的东西。所以我想，为什么不把我们有的最大的东西，然后在炮塔上安装一对呢？"他招手让你跟上，并带领你穿过一扇门，进入一个机库。`
 			scene "outfit/plasma turret"
-			`	In front of you is a turret. It is almost absurdly large: a pair of Plasma Cannons mounted on a massive rotating base. "Sixty tons," says Barmy Edward. "Draws more power than... well, than anything else, practically. Runs a little hot, too."`
+			`	在你面前的是一个炮塔。它几乎大得离谱：一对等离子炮安装在一个巨大的旋转底座上。"60吨，"Barmy Edward说。"比......嗯，比其他任何东西都要耗费更多的能量，实际上是这样。运行起来也有点热。"`
 			choice
-				`	"It's so... big!"`
-				`	"I want one!"`
+				`	"它是如此......大！"`
+				`	"我想要一个！"`
 					goto want
-				`	"That's the ugliest turret I've ever seen."`
+				`	"这是我见过的最丑陋的炮塔。"`
 					goto ugly
 			
-			`	"Kind of mesmerizing, huh?" he says.`
+			`	"有点让人着迷，嗯？"他说。`
 				goto plan
 			
 			label want
-			`	"Well, you'll have to wait a month or two for us to work out the kinks," he says.`
+			`	"好吧，你必须等上一两个月，让我们来解决这个问题，"他说。`
 				goto plan
 			
 			label ugly
-			`	"If you're looking for pretty," he says, "go buy one of those wussy guns that Lovelace Labs churn out. We don't do pretty here."`
+			`	"如果你在寻找漂亮的东西，"他说，"去买那些洛夫莱斯实验室生产的孬种枪。我们这里不做漂亮的事。"`
 			
 			label plan
-			`	"So, where do I come in?" you ask.`
-			`	"Well, the Council says no testing against the Navy... yet. No point in provoking a fight just to try out an untested weapon. So I asked them what other target they could suggest, and they mentioned this pirate ship by the name of Red Nile that's been haunting the <waypoints> system, sniping on merchants that take a wrong turn and end up there."`
-			`	With a grand gesture, he indicates an aging Tarazed Falcon parked in the far corner of the hangar. It's a little rusty, and the paint is flaking, but a Falcon is an impressive ship under any circumstances. "We packed four of our prototypes into our department's very own test ship, the Walloping Window-Blind. We can't let you fly her, of course," he says, "on account of she's dearer to us than our own children. So the plan is, the Window-Blind will accompany you to <waypoints>, and you fight the pirates together, taking careful note of how the guns perform. Sound like fun?"`
+			`	"那么，我应该怎么做？"你问。`
+			`	"嗯，委员会说不能对海军进行测试......还没有。没有必要为了尝试一种未经测试的武器而挑起一场战斗。所以我问他们还能建议什么目标，他们提到了这艘名为 "红尼罗河 "的海盗船，它一直在<waypoints>系统中出没，狙击那些走错路而最终到达那里的商人。"`
+			`	他用一个宏大的手势，指了指停在机库远处角落里的一架陈旧的塔拉兹德猎鹰。它有点生锈，油漆也在剥落，但在任何情况下，猎鹰都是一艘令人印象深刻的船。"我们把我们的四个原型装进了我们部门自己的测试船，Walloping Window-Blind号。当然，我们不能让你驾驶她，"他说，"因为她对我们来说比我们自己的孩子还要珍贵。所以计划是，"盲窗 "号将陪你到<waypoints>，你们一起与海盗作战，仔细注意枪支的性能。听起来很有趣吗？"`
 			choice
-				`	"You bet!"`
+				`	"你说的没错！"`
 					accept
-				`	"What sort of ship is the Red Nile?"`
+				`	"红尼罗河号是什么样的船？"`
 			
-			`	"One of those antiques from Betelgeuse," he says. "Shouldn't give you any bother. Meet us back here when you're done."`
+			`	"来自贝特宙斯的那些古董之一，"他说。"应该不会给你带来任何麻烦。当你完成后在这里和我们见面。"`
 				accept
 	
 	npc accompany save
@@ -833,45 +833,45 @@ mission "FW Plasma Testing 1B"
 		personality plunders staying target
 		system "Ildaria"
 		ship "Leviathan (Heavy)" "Red Nile"
-		dialog `The <npc> has been eliminated. Time to return to <destination> and report to Barmy Edward.`
+		dialog `<npc>已经被消灭了。是时候回到<destination>并向Barmy Edward报告了。`
 	
 	on visit
-		dialog `You have returned to <planet>, but your mission is not complete - either the Red Nile is not destroyed, or you have left the Walloping Window-Blind behind.`
+		dialog `你已经回到了<planet>，但你的任务还没有完成--要么红尼罗河没有被摧毁，要么你把华罗庚的窗盲症留下了。`
 	on complete
 		payment 200000
 		event "plasma turret available" 50
 		log "Assisted a Kraz Cybernetics engineer known as Barmy Edward with a test of a new and extremely powerful Plasma Cannon turret."
 		conversation
 			scene "scene/loc7"
-			`When you enter the hangar, the Window-Blind has just returned, and a team of engineers is looking it over. Barmy Edward puts down his work to come over and debrief you. "How did the turrets perform?" he asks.`
+			`当你进入机库时，"盲窗 "刚刚回来，一队工程师正在查看它。巴米-爱德华放下手中的工作，走过来向你汇报。"炮塔的性能如何？"他问道。`
 			choice
-				`	"Very impressive. I want a few of those on my own ship."`
-				`	"Well, I was a bit worried about the ship overheating, but otherwise they work well."`
+				`	"非常令人印象深刻。我想在我自己的船上装几个。"`
+				`	"嗯，我有点担心飞船过热，但除此之外，它们工作得很好。"`
 					goto overheat
 			
-			`	"Yes," he said, "the team sent me some videos of the battle. First-rate carnage. I was very pleased. Any weak spots you noticed?"`
+			`	"是的，"他说，"团队给我发了一些战斗的视频。一流的大屠杀。我非常高兴。你注意到有什么薄弱点吗？"`
 				goto improve
 			
 			label overheat
-			`	"Yes, it will require a lot of cooling," he says. "Any other weak spots?"`
+			`	"是的，这需要大量的冷却，"他说。"还有其他薄弱点吗？"`
 			
 			label improve
 			choice
-				`	"It seems like the only way to fit a gun this big into most ships is by leaving half the hardpoints empty. It's a bit impractical."`
-				`	"It worked well against a large ship, but I wonder how well the turrets could track fighters."`
+				`	"看来要把这么大的火炮装进大多数战舰的唯一方法是把一半的硬点空出来。这有点不切实际。"`
+				`	"对付一艘大船效果不错，但我想知道炮塔能不能跟踪战斗机。"`
 					goto fighters
 			
 			label hardpoints
-			`	"It's true," he says, "most ships are designed expecting to be equipped with a larger number of smaller guns. But we think this might open up some interesting new directions in ship design.`
+			`	"这是真的，"他说，"大多数战舰在设计时都期望配备更多的小型枪支。但我们认为这可能会在舰艇设计方面开辟一些有趣的新方向。`
 				goto next
 			
 			label fighters
-			`	"I guess we'll need to test it to find out," he says, "but our main goal was to have a weapon that could do serious damage to a Cruiser. Right now the Navy's heaviest ships have ours severely outgunned.`
+			`	"我想我们需要测试一下才能知道，"他说，"但我们的主要目标是要有一种能对巡洋舰造成严重伤害的武器。现在，海军最重的舰艇让我们的舰艇严重地失去了武器。`
 			
 			label next
-			`	"This is to thank you for your help." Barmy hands you <payment>. "To help you pay for your first Plasma Turret once we've got them on the market," he says.`
-			`	"When do you think that will be?" you ask.`
-			`	"A month or two. I'll send you a message when they're available. Oh, and as for your next assignment, you're escorting a supply convoy to the front. You can meet up with them in the spaceport."`
+			`	"这是为了感谢你的帮助。"巴米递给你<payment>。"一旦我们的等离子炮塔上市，就帮你支付你的第一个等离子炮塔，"他说。`
+			`	"你认为那将是什么时候？"你问。`
+			`	"一两个月。当它们上市时，我会给你发一条信息。哦，至于你的下一个任务，你要护送一个供应车队到前线。你可以在太空港与他们会合。"`
 
 
 
@@ -883,47 +883,47 @@ mission "plasma turret available"
 		has "event: plasma turret available"
 	on offer
 		conversation
-			`When you land, a message pops up on your communicator from Barmy Edward. A photograph is enclosed as well. The message reads:`
+			`当你降落时，你的通讯器上弹出一条来自巴米-爱德华的信息。还附上了一张照片。信息中写道。`
 			scene "outfit/plasma turret"
-			`	Rejoice, Captain! The next time you are on Rust, you will be able to purchase Plasma Turrets for your very own.`
-			`				Regards,`
-			`						B. Edward Tivrusky`
-			`						Chief Offensive Engineer`
-			`						Kraz Cybernetics`
+			`	欢呼吧，船长！下次你在拉斯特岛的时候，你将会有机会见到他们。下次你在拉斯特的时候，你就可以为你自己购买等离子炮塔了。`
+			`				谢谢。`
+			`						B.Edward Tivrusky`
+			`						首席攻击性工程师`
+			`						克拉兹网络技术公司`
 				decline
 
 
 
 mission "FW Supply Convoy 1"
 	autosave
-	name "Escort Supply Convoy"
-	description "Escort this convoy carrying equipment from Kraz Cybernetics to the militia base on <destination>."
+	name "护送补给船队"
+	description "护送这个从Kraz Cybernetics运送设备的车队到<destination>的民兵基地。"
 	source "Rust"
 	destination "Longjump"
 	to offer
 		has "FW Plasma Testing 1B: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
-			`In the spaceport, you meet up with a woman wearing a militia uniform and carrying a clipboard. "Are you Captain <last>?" she asks. You nod. "We have a large shipment of weapons and equipment that needs to go to the militia base on <planet>. Your job is to make sure none of these ships get... lost in transit." She points to a large landing pad where you count ten Star Barges lined up next to each other.`
+			`在太空港，你遇到了一个穿着民兵制服、拿着写字板的女人。"你是<last>队长吗？"她问道。你点点头。"我们有一大批武器和设备需要运往<planet>上的民兵基地。你的工作是确保这些船在运输过程中不会......丢失。"她指着一个大的登陆台，在那里你可以看到十艘星际驳船挨着排成一排。`
 			choice
-				`	"Isn't it risky to transport valuable cargo in such flimsy and vulnerable ships?"`
-				`	"Hey, I'm a starship captain, not a cattle herder!"`
+				`	"用这种脆弱的船只运输有价值的货物，不是很冒险吗？"`
+				`	"嘿，我是一个星际飞船的船长，不是一个放牛娃！"`
 					goto cattle
-				`	"No problem. I'll see to it that they arrive safely."`
+				`	"没问题。我会确保他们安全抵达。"`
 					accept
 			
-			`	"It would be, except that our Free Worlds military presence has nearly, though not entirely, eliminated piracy in the Rim. So while we still need an escort, we're saving a lot of money on crew salaries by using ships that can be piloted by one person."`
+			`	"会的，除了我们自由世界的军事存在已经几乎，虽然不是完全，消除了环太平洋地区的海盗行为。因此，虽然我们仍然需要护航，但通过使用可以由一个人驾驶的船只，我们可以节省大量的船员工资。"`
 			choice
-				`	"Okay, I hope you're right!"`
+				`	"好吧，我希望你是对的！"`
 					accept
 			
 			label cattle
-			`	She grins. "Yes, I know it's not terribly glamorous work, and keeping track of a big fleet of slow ships is a pain. But, bulk freighters are just too expensive to use on internal cargo convoys. Just make sure you do a headcount when you arrive in each system."`
+			`	她咧嘴一笑。"是的，我知道这不是非常有魅力的工作，而且跟踪一大批慢船是件很痛苦的事。但是，散装货船实在是太贵了，不适合用于内部货物运输队。只要确保你在到达每个系统时做一个人数统计。"`
 			choice
-				`	"Okay, whatever it takes to further the cause of freedom, I'll do it."`
+				`	"好的，为了推进自由事业，无论需要什么，我都会去做。"`
 					accept
 	
 	npc accompany save
@@ -941,15 +941,15 @@ mission "FW Supply Convoy 1"
 		fleet "Small Southern Pirates" 2
 	
 	on visit
-		dialog `You have reached <planet>, but you left part of your convoy behind! Better depart and wait for them to arrive in this star system.`
+		dialog `你已经到达<planet>，但你留下了你的部分车队!最好出发并等待他们到达这个星系。`
 	on complete
-		dialog `You make sure that all ten Star Barges have landed safely, then report to the quartermaster. He thanks you for your work, and mentions that Tomek has asked to see you in the spaceport bar.`
+		dialog `你确保所有十艘星际驳船都安全着陆，然后向军需官报告。他感谢你的工作，并提到托梅克要求在太空港酒吧见你。`
 
 
 
 mission "FW Pirates 1"
-	name "Pirate Reconnaissance"
-	description "Scout out all the pirate systems on the southern fringe of human space, then report back to Tomek on <planet>."
+	name "海盗侦查"
+	description "侦察人类空间南部边缘的所有海盗系统，然后向<planet>上的托梅克报告。"
 	source "Longjump"
 	waypoint "Antares"
 	waypoint "Men"
@@ -958,116 +958,116 @@ mission "FW Pirates 1"
 	to offer
 		has "FW Supply Convoy 1: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		"salary: Free Worlds" = 2100
 		log "Tomek, from the Free Worlds Council, is trying to decide how to best deal with the threat of the pirates to the south of Free Worlds space."
 		conversation
-			`You find Tomek sitting at the spaceport bar with a galactic map. The map has notes written all over it, with lines marking the current Free Worlds and Republic territories. "Good to see you, <first>!" he says. "I pray whatever weapons Barmy Edward had you testing worked well. Most of his inventions are pure genius, but some are just bizarre and useless."`
-			`	You describe to him the impressive performance of the Plasma Turrets, and the challenge of finding a ship with enough size for them. "Excellent!" he says. "That opens up some interesting tactical possibilities. But now it's time to switch gears entirely."`
-			`	He smooths out the map, sweeping a few stray peanuts and crumbs off it. Apparently he's been sitting here for quite a while. "Right now," he says, "the Navy is leaving us alone, and we have no good reason to attack them. So the Council has been turning its attention to other matters, namely the pirates. They're a big threat to our shipping, and every shipment lost to piracy is a dent in our war effort. Plus, if we could do something about them it would gain us a whole lot of support in the nearby Republic systems. If we can gain sympathy from Republic worlds, then we will lower the Republic's appetite for war."`
+			`你发现托梅克坐在太空港的酒吧里，手里拿着一张银河系地图。地图上写满了笔记，用线标出了当前的自由世界和共和国领土。"很高兴见到你，<first>！"他说。"我祈祷不管巴米-爱德华让你测试什么武器都能顺利进行。他的大部分发明都是纯粹的天才，但有些只是怪异的、无用的。"`
+			`	你向他描述了等离子炮塔令人印象深刻的性能，以及为它们找到一艘尺寸足够的飞船的挑战。"太好了！"他说。"这开启了一些有趣的战术可能性。但现在是完全换档的时候了。"`
+			`	他抚平了地图，扫掉了上面的几颗流落的花生和面包屑。显然，他已经在这里坐了很久了。"现在，"他说，"海军对我们不闻不问，我们也没有很好的理由去攻击他们。所以理事会一直在把注意力转向其他事项，即海盗。他们对我们的航运是一个很大的威胁，每一次因海盗行为而损失的货物都是对我们战争努力的一种削弱。另外，如果我们能对他们做点什么，就能在附近的共和国系统中获得大量的支持。如果我们能获得共和国世界的同情，那么我们将降低共和国的战争胃口。"`
 			choice
-				`	"Agreed."`
+				`	"同意。"`
 					goto agree
-				`	"But isn't the Navy still the bigger threat?"`
+				`	"但海军不是仍然是更大的威胁吗？"`
 			
-			`	"They certainly are, but there's little we can do about them right now aside from prepare for their next move. We have absolutely no desire to take all of human space away from the Republic. All we want is the freedom to govern our own selves, here in our one corner of the galaxy. So attacking systems that the Republic holds right now would make absolutely no sense, and would likely only embolden the Republic, reinforcing their desire to see us conquered."`
-			`	"I suppose you're right," you say.`
+			`	"他们当然是，但除了为他们的下一步行动做准备外，我们现在对他们没有什么办法。我们绝对不希望从共和国手中夺走所有的人类空间。我们想要的只是在银河系的一个角落里管理我们自己的自由。因此，攻击共和国现在掌握的系统是完全没有意义的，而且很可能只会让共和国更有胆量，加强他们看到我们被征服的愿望。"`
+			`	"我想你是对的，"你说。`
 			
 			label agree
-			`	"So, here's the plan," he says. "These four systems belong to the pirates." He points to them on the map. "We want you to scout out all four systems. Just a quick fly-through, no need to land on their planets. Then report back to us, and we'll decide what our next step will be."`
-			`	As you are about to leave, he says, "Oh, one other thing: you've been approved for a salary raise to 2,100 credits. We figure that helping you maintain a slightly larger ship is a worthwhile investment. Congratulations, Captain."`
+			`	"那么，计划是这样的，"他说。"这四个系统是属于海盗的。"他在地图上指着它们。"我们想让你侦察一下所有这四个系统的情况。只是快速飞过，不需要在他们的星球上降落。然后向我们报告，我们将决定我们的下一步行动。"`
+			`	当你准备离开时，他说："哦，还有一件事：你已经被批准加薪到2100信用点。我们认为，帮助你维持一艘稍大的船是一项值得的投资。恭喜你，船长。"`
 				accept
 	
 	on visit
 		dialog phrase "generic waypoint on visit"
 	on complete
-		dialog `You have scouted out all four pirate systems that Tomek asked you to visit. Time to head back to the spaceport bar and see if he is waiting for you.`
+		dialog `你已经探查了托梅克要求你访问的所有四个海盗系统。是时候回到太空港酒吧，看看他是否在等你。`
 
 
 
 
 mission "FW Senate 1"
-	name "Senator Huygens"
-	description "Meet Senator Arianna Huygens on <planet>, and transport her to the new Free Worlds Senate building on Bourne."
+	name "休伊根斯参议员"
+	description "在<planet>上遇到参议员阿丽安娜-惠更斯，并把她送到伯恩的新自由世界参议院大楼。"
 	source "Longjump"
 	destination "Mere"
 	to offer
 		has "FW Pirates 1: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		log "The Free Worlds have finally elected a Senate, which will be convening for the first time soon on Bourne."
 		conversation
-			`Surprisingly, when you get back to <origin> you find that Tomek is no longer there. A courier hands you a short note: "Captain <last>: because the decision of how to deal with the pirates is of interest to all the Free Worlds, the Council has decided to convene the first session of the Free Worlds Senate ahead of schedule. I have already left for Bourne. You have been assigned to transport Senator Arianna Huygens of <planet>; please pick her up as soon as possible and bring her with you."`
+			`令人惊讶的是，当你回到<origin>时，发现托梅克已经不在了。一个信使递给你一张简短的纸条："船长<last>：由于如何处理海盗的决定关系到所有自由世界的利益，理事会决定提前召开自由世界参议院的第一次会议。我已经出发前往伯恩。你被指派运送来自<planet>的参议员阿丽安娜-惠更斯；请尽快接她并带她走。"`
 				accept
 
 
 
 mission "FW Senate 1B"
 	landing
-	name "Senator Huygens"
-	description "Transport Senator Arianna Huygens to <destination>."
+	name "休伊根斯参议员"
+	description "运送参议员Arianna Huygens到<destination>。"
 	source "Mere"
 	destination "Bourne"
 	passengers 1
-	blocked "You have reached <origin>, but you do not have a bunk free for Senator Huygens. You should return here after freeing up a bunk."
+	blocked "你已经到达<origin>，但你没有空出一个铺位给Huygens参议员。你应该在腾出一个铺位后回到这里。"
 	to offer
 		has "FW Senate 1: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		event "fw senate timer" 8
 		conversation
-			`Senator Huygens turns out to be an attractive woman in her mid-fifties, with a dour expression on her face. "About time you showed up," is all she says when you introduce yourself.`
-			`	You take one of her suitcases and lead her into your ship to her room. Once you get there, she says, "I'm glad the Council relented and agreed to convene the Senate. I had begun to worry that the democracy we signed up for had become an oligarchy instead."`
-			`	"What do you mean?" you ask.`
-			`	"Don't play dumb. I mean the Council, deciding everything."`
+			`惠更斯参议员原来是一位五十多岁的迷人女性，脸上带着沉闷的表情。当你介绍自己时，她只说了一句话："你是时候出现了"。`
+			`	你拿着她的一个行李箱，带她进入你的船，去她的房间。你一到那里，她就说："我很高兴理事会松口了，同意召开参议院。我已经开始担心，我们签署的民主制度已经变成了一个寡头制度。"`
+			`	"什么意思？"你问。`
+			`	"别装傻了。我是说理事会，决定了一切。"`
 			choice
-				`	"Don't worry, it was never their intention to hold on to power once each world had had sufficient time to elect their own representatives."`
-				`	"Hey, the Council has provided great leadership at a time when no one else was ready to take charge. Give them some respect."`
-			`	She looks angry for a minute, then her expression softens. "Oh, pardon me," she says. "I was treating you like another scheming politician, but now I realize you're way too clueless for that. Tell me, Captain, do you know what makes politics similar to piloting a ship?"`
+				`	"别担心，一旦每个世界有足够的时间选出自己的代表，他们从来没有想过要把持住权力。"`
+				`	"嘿，理事会在没有人准备好负责的时候，提供了伟大的领导。给他们一些尊重。"`
+			`	她看起来生气了一分钟，然后表情变得柔和。"哦，原谅我，"她说。"我本来把你当作另一个阴谋诡计的政客，但现在我意识到你对这一点太无知了。告诉我，船长，你知道是什么让政治与驾驶船舶相似吗？"`
 			choice
-				`	"I have no idea."`
-				`	"Ummm... they both involve momentous decisions that have serious consequences?"`
-				`	"They both require someone skilled and decisive to be in command?"`
-			`	"The correct answer," she says, "was, 'nothing whatsoever; they are entirely different disciplines.' Now, hurry up, I hope to be on Bourne a week from now." You consider explaining to her that it's impossible to get there that fast, but decide against it.`
+				`	"我不知道。"`
+				`	"嗯......它们都涉及有严重后果的重大决定？"`
+				`	"它们都需要一个熟练和果断的人去指挥？"`
+			`	"正确的答案，"她说，"是，'什么都不懂，它们是完全不同的学科。现在，快点，我希望一周后能到伯恩号上。"你考虑向她解释，不可能那么快到达那里，但决定不这样做。`
 				accept
 	
 	on visit
-		dialog `You land on <planet>, but realize that your escort carrying Senator Huygens hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你在<planet>上降落，但意识到你的护卫队载着惠更斯参议员还没有进入该系统。最好离开并等待它的到来。`
 	on complete
-		log "People" "Ijs Springborn" `Ijs is now working to found the Conservatory, a publicly funded Free Worlds university that will have a particular focus on terraforming technology. Their goal is to make terraforming methods efficient enough that even Dirt Belt worlds will be able to afford them.`
+		log "People" "Ijs Springborn" `Ijs现在正在努力创建音乐学院，这是一所由政府资助的自由世界大学，将特别关注于地球形成技术。他们的目标是使地形改造方法足够有效，甚至连泥土带世界都能负担得起。`
 		conversation
 			branch slow
 				has "event: fw senate timer"
-			`You drop off Senator Huygens, who appears uncharacteristically pleased. "Good work Captain <last>, I see we made good time. It seems you're far more reliable than most captains I work with," she says before walking off.`
+			`你送走了参议员Huygens，他似乎一反常态地高兴。"干得好，<last>号船长，我看我们的时间不错。看来你比和我一起工作的大多数船长要可靠得多，"她说，然后就走了。`
 				goto waiting
 			label slow
-			`You drop off Senator Huygens, who says nothing by way of acknowledging your help except, "It's about time we got here." She hurries off.`
+			`你把参议员Huygens放下，她除了说 "我们是时候到这里了 "之外，没有说什么感谢你的帮助的话。她匆匆离去。`
 			label waiting
-			`	A few minutes later, someone shouts, "Hello there, Captain <last>!" It's Ijs Springborn. "I'm glad to see you again," he says.`
+			`	几分钟后，有人喊道："你好，<last>队长！"是Ijs Springborn。"我很高兴再次见到你，"他说。`
 			choice
-				`	"You too. What brings you to Bourne?"`
-				`	"You too. Did you hear what happened to Katya?"`
+				`	"你也是。什么风把你吹到伯恩来了？"`
+				`	"你也是。你听说卡蒂亚的事了吗？"`
 					goto katya
-			`	"I guess I'm sort of a lobbyist," he says, "here to make Katya's dream a reality."`
+			`	"我想我算是个说客，"他说，"来这里是为了让卡佳的梦想成为现实。"`
 				goto dream
 			label katya
-			`	"Yes, that's why I'm here," he says, "to make sure her dream becomes a reality."`
+			`	"是的，这就是我在这里的原因，"他说，"以确保她的梦想成为现实。"`
 			label dream
-			`	"Which dream?" you ask.`
-			`	"Terraforming for the masses. A publicly funded university and research center. Are you familiar with the Free Worlds taxation model?"`
-			`	"Not really," you say.`
-			`	"It's brilliant. And probably totally unsustainable. Each world that joins us negotiates a certain yearly tax amount based on their population and resources. In return they gain access to our defense fleet and other shared resources. Twenty percent of each planet's tax payments are 'unrestricted,' money the Free Worlds can use for whatever we think is most important. But the rest of the taxes can be earmarked for whatever projects that world thinks are most important. Those taxes can also be in the form of a donation, such as supplying ships or crews for the common militia..."`
-			`	He continues talking for quite some time. You stop even trying to follow what he is saying. Finally he sees the blank expression on your face and stops babbling. "The point is," he says, "if we can convince enough worlds to pool their money, the Conservatory will become a reality. Our own public university."`
+			`	"哪个梦想？"你问。`
+			`	"大众的地球形成。一个公共资助的大学和研究中心。你熟悉自由世界的税收模式吗？"`
+			`	"不大了解，"你说。`
+			`	"这很聪明。而且可能是完全不可持续的。每个加入我们的世界都会根据他们的人口和资源协商出一定的年度税额。作为回报，他们可以使用我们的防御舰队和其他共享资源。每个星球税收的20%是 "不受限制的"，自由世界可以把钱用于我们认为最重要的事情。但其余的税收可以指定用于该世界认为最重要的任何项目。这些税收也可以是捐赠的形式，例如为普通民兵提供船只或船员......"`
+			`	他继续说了相当长的一段时间。你甚至不再试图听懂他在说什么。最后他看到你脸上的茫然表情，停止了喋喋不休。"重点是，"他说，"如果我们能说服足够多的世界来汇集他们的资金，音乐学院将成为现实。我们自己的公立大学。"`
 			choice
-				`	"So you're here to talk to the senators?"`
-				`	"Sounds like that could be a great public relations move for convincing more worlds to join us."`
-			`	"Indeed," he says. "Anyway, I'm off to a meeting, but meet me later in the spaceport if you've got room for some passengers."`
+				`	"所以你是来和参议员们谈话的？"`
+				`	"听起来这可能是说服更多世界加入我们的一个伟大的公共关系举措。"`
+			`	"的确如此。"他说。"不管怎样，我去开会了，但如果你有空间容纳一些乘客的话，稍后在太空港见我。"`
 
 event "fw senate timer"
 
@@ -1076,8 +1076,8 @@ event "fw senate timer"
 mission "FW Pirates 2"
 	autosave
 	landing
-	name "Southern Patrol"
-	description "Lead a patrol through the Free Worlds systems on the Southern Rim, driving off any pirates you encounter, then meet up with Tomek on <destination>."
+	name "南方巡逻队"
+	description "带领巡逻队穿过南缘的自由世界系统，赶走你遇到的任何海盗，然后在<destination>与托梅克碰头。"
 	source "Bourne"
 	destination "Longjump"
 	waypoint "Alniyat"
@@ -1091,51 +1091,51 @@ mission "FW Pirates 2"
 	to offer
 		has "FW Senate 1B: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
-			`A few minutes later, Tomek shows up at your ship. "Glad you made it," he says. "Sorry to disappear on you earlier."`
+			`几分钟后，托梅克出现在你的船上。"很高兴你来了，"他说。"很抱歉之前在你身上消失了。"`
 			choice
-				`	"Has the Senate decided anything about the pirates yet?"`
-				`	"It seems like some people are a little bit hostile toward the Council."`
+				`	"元老院对海盗有什么决定吗？"`
+				`	"似乎有些人对议会有点敌意。"`
 					goto council
-			`	"Not yet. This is why I wanted to get as much done as possible while we were still under a relatively agile leadership structure. Getting two dozen politicians to agree on any course of action is... difficult. What did your reconnaissance turn up?"`
+			`	"还没有。这就是为什么我想在我们还在一个相对灵活的领导结构下尽可能多地完成工作。让二十几个政治家就任何行动方案达成一致是......很困难的。你的侦查发现了什么？"`
 				goto recon
 			label council
-			`	"You mean Arianna? Don't worry, she's one of those people who by reflex opposes any idea that comes from someone other than her. Most people appreciate what the Council has done, and in fact before you even arrived the Senate voted to give us a continued advisory role, under the Senate's supervision."`
-			`	"They had that vote before she arrived?"`
-			`	"Yes, we already had a quorum. She was the last to get here, because of her transportation troubles. Sorry to give you a menial job like that, by the way. Now, what can you tell me about the pirates?"`
+			`	"你是说阿丽亚娜？别担心，她是那种条件反射地反对任何来自她以外的人的想法的人。大多数人都很欣赏理事会所做的事情，事实上，在你到达之前，参议院就已经投票决定让我们继续发挥咨询作用，在参议院的监督下。"`
+			`	"在她来之前，他们就进行了投票？"`
+			`	"是的，我们已经有了一个法定人数。她是最后一个到这里的，因为她的交通问题。顺便说一下，很抱歉给你一个这样的琐碎工作。现在，你能告诉我海盗的情况吗？"`
 			label recon
-			`	You show him your sensor logs. "I've been trying to decide what advice we should give the Senate," he says. "A shock and awe assault on Greenrock might bring all the pirate systems in this sector under our control overnight. But we might have fewer losses if we attack the smaller worlds first, then demand that Greenrock surrender. In any case, something must be done. Even though our biggest concern is the Republic, much of the animus toward them is as a result of their failure to get piracy in this region under control. We must succeed where they have failed, otherwise we'll be no better than they were. If confidence in this project falters, the Free Worlds will collapse, and we'll be back to square one, except with all our leadership, all those who got us this far, in prison."`
+			`	你给他看你的传感器日志。"我一直在努力决定我们应该给参议院什么建议，"他说。"对绿岩的震慑性攻击可能会在一夜之间将这个区域的所有海盗系统置于我们的控制之下。但是，如果我们先攻击较小的世界，然后要求绿岩镇投降，我们的损失可能会更少。在任何情况下，必须做些什么。尽管我们最大的担忧是共和国，但对他们的大部分敌意是由于他们未能控制这一地区的海盗行为。我们必须在他们失败的地方取得成功，否则我们将不会比他们更好。如果对这个项目的信心动摇，自由世界将崩溃，我们将回到原点，除了我们所有的领导，所有那些让我们走到今天的人，都在监狱里。"`
 			choice
-				`	"I say we strike right at their heart, and launch a massive assault on Greenrock."`
-				`	"Why not start by clearing out the Antares system? It's not very well defended."`
+				`	"我说我们要直击他们的心脏，对绿岩城发动大规模的攻击。"`
+				`	"为什么不从清除安塔斯系统开始？它的防卫不是很好。"`
 					goto antares
-				`	"Occupying four pirate systems in perpetuity would be a huge drain on our resources. Why not try to negotiate with them, say by offering those worlds freedom from our interference as long as they stop supporting pirate fleets?"`
+				`	"永久地占领四个海盗系统将是对我们资源的巨大消耗。为什么不尝试与他们谈判，比如说，只要他们停止支持海盗舰队，就可以让这些世界免受我们的干扰？"`
 					goto diplomacy
 			
 			action
 				set "fw pirate suggestion: greenrock"
-			`	"That's definitely the fastest solution," he says, "although it would also be a difficult one. Defending an assault from the Navy was one thing, but subjugating the seat of pirate power in the region is another. It would be a great show of strength, though, not only to the pirates, but also to the Republic."`
+			`	"这绝对是最快的解决方案，"他说，"尽管这也会是一个困难的解决方案。抵御海军的攻击是一回事，但征服该地区的海盗势力所在地是另一回事。不过，这将是一次伟大的力量展示，不仅对海盗，而且对共和国。"`
 				goto next
 			
 			label antares
 			action
 				set "fw pirate suggestion: antares"
-			`	"Sounds reasonable to me," he says. "We could probably do that with minimal loss of life. But the risk is that Greenrock would still refuse to surrender. Anyone could nip at the weakest member of the herd, but if we take down Greenrock first it would be a great show of strength, not only to the pirates, but also to the Republic."`
+			`	"对我来说听起来很合理，"他说。"我们也许可以在生命损失最小的情况下做到这一点。但风险是，格林洛克仍然会拒绝投降。任何人都可以咬住族群中最弱的成员，但如果我们先拿下格林洛克，这将是一个伟大的力量展示，不仅是对海盗，也是对共和国。"`
 				goto next
 			
 			label diplomacy
 			action
 				set "fw pirate suggestion: diplomacy"
-			`	He frowns. "Negotiate with criminals?"`
-			`	"I'm told that only a small portion of the people on those worlds actually engage in piracy," you say, "and many of them are children pressed into service as crew members."`
-			`	"That may be," he says, "but their leaders are dangerous criminals, perhaps even more dangerous than the Navy, because they have no honor or morality. Every anarchist world is also a possible haven for other lawless individuals, including any of the Alphas who are still in hiding, so I say we need to capture and control those worlds. The heart of piracy in this region is at Greenrock, and if we take down Greenrock first it would be a great show of strength, not only to the pirates, but also to the Republic."`
+			`	他皱起了眉头。"与罪犯谈判？"`
+			`	"我被告知，那些世界上只有一小部分人真正从事海盗活动，"你说，"他们中的许多人是作为船员被压迫服役的儿童。"`
+			`	"可能是这样，"他说，"但他们的领导人是危险的罪犯，也许比海军还要危险，因为他们没有荣誉和道德。每一个无政府主义的世界也可能是其他无法无天的人的避难所，包括任何仍在躲藏的阿尔法师，所以我说我们需要捕获并控制这些世界。这个地区的海盗活动的核心在格林洛克，如果我们先拿下格林洛克，这将是一个巨大的力量展示，不仅是对海盗，也是对共和国。"`
 			
 			label next
-			`	"But I suppose we need to wait for the Senate to decide?" you ask.`
-			`	"Perhaps," he says. "In the meantime, I've got a related mission for you. While the Senate is deliberating, I'd like you to lead a patrol through our systems in the Southern Rim, to keep up enough of a presence to keep the pirates at bay. Once you've finished patrolling, bring the fleet back to <planet>. By then I should be back there, and we'll discuss our next steps."`
+			`	"但我想我们需要等待参议院的决定？"你问。`
+			`	"也许，"他说。"与此同时，我有一个相关的任务给你。在元老院审议的时候，我希望你能带领一支巡逻队穿过我们在南缘的系统，以保持足够的存在来阻止海盗。一旦你完成了巡逻，把舰队带回<planet>。那时我应该已经回到那里，我们将讨论我们的下一步行动。"`
 				accept
 	
 	npc
@@ -1147,15 +1147,15 @@ mission "FW Pirates 2"
 	on visit
 		dialog phrase "generic waypoint on visit"
 	on complete
-		dialog `Your patrol fleet is still busy finding landing spots, but your work is done. Time to head to the spaceport bar and see if Tomek is there.`
+		dialog `你的巡逻舰队仍在忙着寻找登陆点，但你的工作已经完成。是时候去太空港酒吧，看看托梅克是否在那里。`
 
 
 
 # To tell players to go to Longjump to resume the story if they were in the middle of one of the deleted missions.
 mission "FW Pirates Patch"
 	landing
-	name "Return to <planet>"
-	description "Return to <destination> to continue your work with the Free Worlds."
+	name "返回<planet>。"
+	description "回到<destination>，继续你与自由世界的工作。"
 	source
 		not planet "Longjump"
 	destination "Longjump"
@@ -1175,14 +1175,14 @@ mission "FW Pirates Patch"
 		not "FW Refinery 1: offered"
 	on offer
 		conversation
-			`When you updated your game, you were in the middle of a story arc in the Free Worlds campaign that has since been changed. In order to continue, you should go to <destination>.`
+			`当你更新你的游戏时，你正处于自由世界活动的一个故事弧中，后来这个故事弧被改变了。为了继续，你应该到<destination>去。`
 				accept
 
 
 
 mission "FW Pirates: Attack 1"
-	name "Attack Greenrock"
-	description "Disobeying the Senate's orders, head to <destination> and gather a Free Worlds fleet for an all-out attack on the pirate world of Greenrock."
+	name "攻击绿岩"
+	description "违背元老院的命令，前往<destination>，召集自由世界的舰队，对海盗世界Greenrock进行全面攻击。"
 	source "Longjump"
 	destination "Trinket"
 	to offer
@@ -1198,108 +1198,108 @@ mission "FW Pirates: Attack 1"
 		conversation
 			branch diplomacy
 				has "fw pirate suggestion: diplomacy"
-			`Tomek meets you outside the spaceport bar and pulls you roughly aside into an alley. "Do you still think that an attack on the pirates is our best option?" he asks.`
+			`托梅克在太空港酒吧外遇见你，并把你粗暴地拉到一旁的小巷里。"你仍然认为攻击海盗是我们最好的选择吗？"他问道。`
 			choice
-				`	"Yes, it's our best chance for eliminating the pirates."`
+				`	"是的，这是我们消灭海盗的最好机会。"`
 					goto yes
-				`	"Only if the Senate agrees. This is a democratic government, after all."`
-				`	"Why? What's going on?"`
-			`	"Those fools in the Senate want us to negotiate with the pirates," he says. "We need to save them from their own stupidity. I've rallied a battle fleet waiting for you on <planet>, brave captains who are willing to join an assault on Greenrock."`
+				`	"只有在参议院同意的情况下。这毕竟是一个民主政府。"`
+				`	"为什么，发生了什么？"`
+			`	"参议院的那些傻瓜要我们与海盗谈判，"他说。"我们需要把他们从自己的愚蠢行为中拯救出来。我已经集结了一支战斗舰队，在<planet>上等着你，勇敢的船长们愿意加入对绿岩的攻击。"`
 				goto others
 			
 			label yes
-			`	"Then head to <planet> immediately. I've rallied some militia captains there who will join you in a battle fleet. Our target is Greenrock. It's now or never, before the Senate finishes their work of castrating our military."`
+			`	"那就立即前往<planet>。我已经在那里召集了一些民兵队长，他们将与你一起组成战斗舰队。我们的目标是绿岩。在元老院完成他们阉割我们军队的工作之前，机不可失。"`
 			
 			label others
-			`	Just then, JJ walks out of the bar and sees you talking with Tomek. "Tomek," he says, "what are you doing? Freya and I are waiting inside." He beckons you into the bar.`
-			`	Inside, Freya and Alondo are sitting at a table looking at Tomek's battered galactic map. Tomek, JJ, and you sit down with them.`
+			`	就在这时，JJ走出了酒吧，看到你和托梅克在交谈。"托梅克，"他说，"你在做什么？我和弗雷亚在里面等着呢。"他招手让你进酒吧。`
+			`	里面，弗雷亚和阿隆多正坐在一张桌子旁，看着托梅克那张破旧的银河系地图。托梅克、JJ和你和他们一起坐下来。`
 				goto explain
 			
 			label diplomacy
-			`You find Tomek in the spaceport bar, talking with Freya, JJ, and Alondo around Tomek's battered galactic map. "Well, Captain," says Tomek, "you're going to be happy to hear this. The Senate recommended the same approach you did: negotiating with the pirates." He seems very upset at this.`
+			`你在太空港酒吧找到了托梅克，他正与弗莱亚、小杰和阿隆多围着托梅克那张破旧的银河系地图交谈。"好吧，船长，"托梅克说，"你听到这个会很高兴。元老院建议采取与你相同的方法：与海盗谈判。"他对此似乎很不高兴。`
 			
 			label explain
-			`	JJ explains, "We've been asked to deliver an ultimatum to each pirate world: the Free Worlds maintains the right to attack any ships engaged in piracy. Any world that continues to support piracy, slavery, or illegal weapons manufacture will be a valid military target for us. But first, we are to offer each world the opportunity to become truly autonomous and free from outside intervention, if they will pledge to cease those activities."`
-			`	Freya says, "The thing is, just like any other world, most people on the 'pirate' planets are just ordinary farmers, or factory workers, or whatever. The only difference is, they want no off-world government telling them how to live. So that's what we're going to offer them."`
-			`	"Our first mission will be to Thule in the Men system," Alondo says. "Although Thule is not the biggest hub of piracy in the region, it is the most populous with almost a billion people, a greater population than all the other pirate worlds in the region combined. We hope that by first coming to an agreement with the majority of the population of pirate worlds in the region, the rest will be easier to negotiate with. I will be leading the negotiations."`
+			`	JJ解释说："我们被要求向每个海盗世界发出最后通牒：自由世界保持攻击任何从事海盗行为的船只的权利。任何继续支持海盗行为、奴隶制或非法武器制造的世界都将成为我们的有效军事目标。但首先，我们要为每个世界提供机会，使其成为真正的自主者，不受外界干预，只要他们保证停止这些活动。"`
+			`	芙蕾雅说，"问题是，就像其他世界一样，'海盗'星球上的大多数人只是普通的农民，或工厂工人，或其他什么。唯一的区别是，他们不希望有异世界的政府来告诉他们如何生活。所以这就是我们要提供给他们的东西。"`
+			`	"我们的第一个任务将是去Men系统的Thule，"Alondo说。"虽然图勒不是该地区最大的海盗中心，但它是人口最多的地方，有近10亿人口，比该地区所有其他海盗世界的人口总和还要多。我们希望首先与该地区大多数海盗世界的人口达成协议，其余的海盗世界就会更容易谈判。我将领导这次谈判。"`
 			choice
-				`	"That's good news! I think the Senate made the right choice."`
-				`	"How do you negotiate with a billion anarchists? Sounds like that will take forever."`
+				`	"这是个好消息!我认为参议院做出了正确的选择。"`
+				`	"你如何与十亿无政府主义者谈判？听起来这要花很长时间。"`
 					goto anarchists
-				`	"That doesn't make any sense. If we leave those pirate worlds alone, they'll stab us in the back some time in the future."`
+				`	"这没有任何意义。如果我们放过那些海盗世界，他们会在未来的某个时候在背后捅我们一刀。"`
 					goto disagree
 			
-			`	"Well, I think the Senate has water flowing through their veins instead of blood," says Tomek, "and I think asking anarchists to make a binding diplomatic contract is an exercise in futility. We should speak with them in the only language they'll understand: violence."`
+			`	"好吧，我认为元老院的血管里流的是水而不是血，"托梅克说，"我认为要求无政府主义者签订有约束力的外交合同是徒劳的。我们应该用他们能理解的唯一语言与他们交谈：暴力。"`
 				goto plan
 			
 			label anarchists
-			`	"Good question," Tomek remarks mockingly. "It's almost like this will be an exercise in futility. We should speak with them in the only language they'll understand: violence."`
+			`	"好问题，"托梅克嘲讽地说道。"这几乎是一种徒劳的练习。我们应该用他们能理解的唯一语言与他们交谈：暴力。"`
 				goto plan
 			
 			label disagree
-			`	"Absolutely," says Tomek. "The Senate doesn't know what's best for them. Perhaps we should save them from their own stupidity and make sure the right thing gets done. A world of anarchists will never come to a binding agreement. We should speak with them in the only language they'll understand: violence."`
+			`	"绝对的，"托梅克说。"参议院不知道什么对他们是最好的。也许我们应该把他们从自己的愚蠢中拯救出来，确保正确的事情得到完成。一个无政府主义者的世界永远不会达成一个有约束力的协议。我们应该用他们能理解的唯一语言与他们交谈：暴力。"`
 			
 			label plan
-			`	"Tomek," says Freya, "this is a democracy. We follow the Senate's orders."`
-			`	"And what if those orders are wrong?" Tomek shouts, drawing attention from some patrons of the bar. "When has diplomacy ever worked with pirates? Did diplomacy work for the Republic in the 2800s when they sought to eliminate slave trades across the galaxy? Has diplomacy worked during the years of neglect that the Navy has shown us with the constant raids that the South has experienced? No, it didn't! It was the force of the Republic Navy that nearly eliminated the slave trade! It was the force of OUR militia which finally put an end to the constant raids against our people!"`
-			`	"Tomek, that's enough," Alondo says softly.`
-			`	JJ, ignoring Tomek's outbursts, says to you, "Captain <last>, the Senate wants you to travel to Thule and deliver their ultimatum. You will be given a single Falcon as an escort: not enough for a battle fleet, just enough to keep you safe. You are to avoid engaging any pirates you meet, if possible. Alondo will be aboard the Falcon and will negotiate with the locals once you arrive. Understood?"`
+			`	"托梅克，"弗雷亚说，"这是一个民主国家。我们遵循参议院的命令。"`
+			`	"如果这些命令是错的呢？"托梅克喊道，引起了酒吧里一些顾客的注意。"外交手段什么时候对海盗起过作用？在2800年代，当共和国试图消除整个银河系的奴隶贸易时，外交手段对他们有用吗？在海军对我们忽视的这些年里，在南方所经历的不断突袭中，外交手段起过作用吗？不，它没有!是共和国海军的力量几乎消除了奴隶贸易！是我们民兵的力量几乎消除了奴隶贸易。是我们民兵的力量最终结束了对我们人民的不断袭击！"`
+			`	"托梅克，够了，"阿隆多轻声说。`
+			`	JJ无视托梅克的发泄，对你说："船长<last>，元老院希望你前往图勒，传达他们的最后通牒。你将得到一艘猎鹰号作为护卫：不足以组成战斗舰队，只够保证你的安全。如果可能的话，你要避免与你遇到的任何海盗交战。阿隆多会在猎鹰号上，在你们到达后与当地人谈判。明白了吗？"`
 			choice
-				`	"Understood."`
+				`	"明白了。"`
 					goto agree
-				`	"So, we're not going to attack the pirates?"`
-			`	Tomek says, "No, we're just going to let them sit there waiting to stab us in the back at the first opportunity."`
+				`	"那么，我们不打算攻击海盗？"`
+			`	托梅克说："不，我们只是要让他们坐在那里等着一有机会就在背后捅我们一刀。"`
 				goto senate
 			
 			label agree
-			`	Tomek looks at you in disbelief. "So you're just going to agree with them? You're just going to let the pirates stab us in the back at the first opportunity?"`
+			`	托梅克不相信地看着你。"所以你就打算同意他们的说法？你就打算让海盗们一有机会就在背后捅我们一刀？"`
 			
 			label senate
-			`	JJ puts a hand on his shoulder and says, a little more firmly than Alondo did, "Calm down, Tomek. We're obeying the orders of the Senate. We have to honor the democratic process even when we don't like the decisions they make."`
-			`	"Oh, the Senate. Of course. The Senate this, the Senate that," Tomek says mockingly while throwing his head back. "The Senate is in no position to be commanding this war. They do not have the military experience that I have, or that you have JJ. Do you think the Republic Parliament is busying themselves voting on every little fleet movement, or do you think they've put this in the hands of the Navy and told them to win this war? I made my reasons clear to you all many times why I didn't want to convene the Senate, because they would only hinder and handicap us from winning this war, and that's exactly what they're already doing!"`
-			`	"Tomek! That's enough!" JJ yells, which seems to draw even more surprise and attention than when Tomek yelled. "The Council was decided that the Senate would convene, and so it did. It is only by the grace of the Senate that the Council even still exists."`
-			`	"And it'll be by the grace of God that we don't all end up dead because of it," Tomek responds.`
-			`	JJ turns to you and Alondo. "<first>. Alondo. I pray your mission to Thule is a success."`
-			`	"I'll introduce you to your escort," says Tomek, shaking off JJ's hand as he leads you out of the bar.`
+			`	JJ把一只手放在他的肩膀上，比阿隆多更坚定地说："冷静，托梅克。我们在服从参议院的命令。我们必须尊重民主进程，即使我们不喜欢他们的决定。"`
+			`	"哦，参议院。当然了。参议院这个，参议院那个，"托梅克一边嘲弄地说着，一边把头往后甩。"参议院没有资格来指挥这场战争。他们没有我的军事经验，也没有你的JJ经验。你认为共和国议会正忙着对每一个小舰队的动向进行投票，还是你认为他们把这件事交给了海军，并告诉他们要赢得这场战争？我已经多次向你们说明了我不想召开参议院的理由，因为他们只会阻碍和妨碍我们赢得这场战争，而这正是他们已经在做的事！"`
+			`	"托梅克!这就够了！"JJ大叫，这似乎比托梅克大叫时更能引起人们的惊讶和注意。"理事会决定召开元老院，于是它就召开了。只是由于参议院的恩典，理事会甚至还存在。"`
+			`	"也要靠上帝的恩典，我们才不会因此而全部死亡，"托梅克回应道。`
+			`	JJ转向你和阿隆多。"<first>。阿隆多。我祈祷你在图勒的任务能够成功。"`
+			`	"我把你介绍给你的护卫队。"托梅克说，甩开JJ的手，他带你走出酒吧。`
 			
 			branch remember
 				not "fw pirate suggestion: diplomacy"
-			`	Once you are outside, he pulls you aside and says, "If at any point you are attacked by pirates along the way or change your mind, head to <planet>. I've rallied a battle fleet waiting there, brave captains who are willing to join in an assault on Greenrock. If you join them, they should have enough firepower to take the system."`
+			`	一旦你到了外面，他就把你拉到一边，说："如果在任何时候你在路上被海盗袭击或改变主意，请前往<planet>。我已经召集了一支战斗舰队在那里等待，勇敢的船长们愿意加入对绿岩的攻击。如果你加入他们，他们应该有足够的火力来占领这个系统。"`
 			choice
-				`	"You're asking me to go against the Senate's decision?"`
-				`	"Understood."`
+				`	"你是要我违背参议院的决定？"`
+				`	"明白了。"`
 					accept
-			`	"Never mind," he says, "I guess you're as weak-willed as the rest of them." He walks back into the bar and leaves you alone.`
+			`	"不要紧，"他说，"我猜你和他们其他人一样意志薄弱。"他走回酒吧，留下你一个人。`
 				accept
 			
 			label remember
-			`	Once you are outside, he pulls you aside and says, "Remember what we talked about, <first>." He walks back into the bar and leaves you alone.`
+			`	一旦你到了外面，他就把你拉到一边，说："记住我们谈的事情，<first>。"他走回酒吧，让你独自离开。`
 				accept
 
 
 
 mission "FW Pirates: Attack 2"
 	landing
-	name "Attack Greenrock"
-	description "Disobeying the Senate's orders, launch an all-out attack on the pirate world of <destination>, then land there."
+	name "攻击绿岩"
+	description "违背元老院的命令，对<destination>的海盗世界发动全面攻击，然后在那里登陆。"
 	source "Trinket"
 	destination "Greenrock"
 	clearance
 	to offer
 		has "FW Pirates: Attack 1: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
-			`When you land on <planet>, you find the fleet that Tomek mentioned: a few militia heavy and medium warships, a couple of carriers, three squadrons of interceptors, and even four merchant ships of varying sizes. In total the fleet is nearly as large as one of the fleets that defended Sabik or Kornephoros, but as you survey the motley mix of grizzled militia veterans, young, naive interceptor pilots, and eager merchant captains, you can't help but wonder if a fleet of this size has a good chance against the strongest pirate world in Southern space.`
-			`	The Navy failed to conquer Longjump. Why would a fleet of a similar size be capable of conquering Greenrock? Perhaps the Senate was right in suggesting a diplomatic solution. Or perhaps luck will be in your favor.`
+			`当你在<planet>登陆时，你发现了托梅克提到的舰队：几艘民兵的重型和中型战舰，几艘航母，三个拦截机中队，甚至还有四艘大小不一的商船。总的来说，这支舰队几乎和保卫萨比克或科内普罗斯的一支舰队一样大，但当你打量这支由灰头土脸的民兵老兵、年轻天真的拦截机飞行员和热心的商船船长组成的杂牌军时，你不禁要问，这样规模的舰队是否有机会对抗南部空间最强大的海盗世界。`
+			`	海军没能征服长株潭。为什么一支类似规模的舰队会有能力征服绿岩？也许元老院建议通过外交途径解决是正确的。或者，也许运气会对你有利。`
 			choice
-				`	(Go ahead and attack Greenrock, disobeying the Senate's orders regardless of the consequences.)`
-				`	(Give up on Tomek's scheme and follow the Senate's orders to make a diplomatic visit to Thule.)`
+				`	(继续进攻格林洛克，不顾后果地违抗元老院的命令。)`
+				`	(放弃托梅克的计划，听从元老院的命令，对图勒进行外交访问。)`
 					decline
-			`	You speak with some of the captains of the invasion fleet. Apparently Tomek has been busy visiting spaceports and giving rousing speeches about ending piracy and slavery once and for all in the South, hence the fleet being so large despite being unsanctioned by the Senate. That also explains the inclusion of a few merchant captains in the fleet, likely local captains who overheard the speeches and aren't interested in joining the Free Worlds to fight against the Navy, but are more than happy to make life easier for their freighters if this succeeds.`
-			`	You plan to leave after nightfall, which should hopefully mean that Alondo doesn't realize that you've left him behind until it's too late. Now all that remains is for you to travel to <system>, defeat whatever opposition you find, and land on <planet>. Or die trying.`
+			`	你与入侵舰队的一些舰长交谈。显然，托梅克一直忙于访问太空港，并发表振奋人心的演讲，说要彻底结束南方的海盗和奴隶制，因此尽管没有得到元老院的批准，但舰队的规模却如此庞大。这也解释了为什么舰队里有几个商人船长，他们可能是当地的船长，他们听到了这些演讲，对加入自由世界对抗海军不感兴趣，但如果这件事成功了，他们更乐意为他们的货船提供便利。`
+			`	你计划在夜幕降临后离开，这应该意味着阿隆多不会意识到你已经把他抛下，直到为时已晚。现在剩下的就是你前往<system>，击败你发现的任何反对者，并在<planet>上登陆。或者尝试死亡。`
 				accept
 	
 	on accept
@@ -1416,26 +1416,26 @@ mission "FW Pirates: Attack 2"
 				"Dagger" 5
 	
 	on visit
-		dialog `You've landed on <planet>, but there are still pirates defending the system. All pirates in the system must be eliminated before <planet> can be taken.`
+		dialog `你已经登陆了<planet>，但仍有海盗在保卫这个系统。在占领<planet>之前，必须消灭该系统中的所有海盗。`
 	on complete
 		event "fw suppressed Greenrock"
 		log "Disobeyed the Free Worlds Senate by helping to launch an attack on the pirate hub world of Greenrock. Captured the planet after a massive battle, but it is unclear how long the Free Worlds can afford to keep them subdued by force."
 		conversation
-			`As the remaining invasion fleet comes in for a landing on <origin>, you spot small pirate ships scattering from the spaceport, not into space, but instead into the far reaches of the Greenrock wilderness. When you reach the spaceport, there is a wild mix of emotions from the locals who remained. Some spit at you and curse you out. Others thank you for driving off the pirates, even if only temporarily. Others still thank you for freeing them and ask for transportation off-world before the slavers return; Greenrock is the hub of the underground slave trade in the galaxy, and it seems in the confusion and rush for some criminals to escape the spaceport, they left their slaves behind.`
-			`	In an attempt to not get yourselves assassinated by pirates looking for revenge, the fleet forms their ships into a circle just outside the spaceport and keeps an eye out for aggressors while waiting for Tomek, or anyone of authority within the Free Worlds for that matter, to show up and determine your next move.`
-			`	Hours later, Tomek's ship arrives, with even more ships in tow, likely to support a continued occupation. Tomek greets the invasion fleet, looking ecstatic. "Wonderful work, all of you. The people of the Free Worlds will be thanking you for generations." Tomek orders the members of the occupation fleet to sweep the spaceport, freeing any slaves they find and arresting any known criminals and warlords. "We can't possibly take in every criminal here, but if you find someone with a big name, we need to take this opportunity to arrest them."`
-			`	After Tomek is done giving orders and celebrating, he approaches you and gives your hand a firm shake. "Thank you for listening to reason, Captain <last>. I know I asked a lot of you when I asked you to directly disobey Senate orders."`
+			`当剩余的入侵舰队在<origin>上登陆时，你发现小型海盗船从太空港分散开来，不是进入太空，而是进入绿岩荒野的远方。当你到达太空港时，留在那里的当地人的情绪很混乱。有些人向你吐口水，诅咒你。其他人则感谢你赶走了海盗，即使只是暂时的。还有人感谢你释放了他们，并要求在奴隶主回来之前把他们送出世界；格林洛克是银河系地下奴隶交易的中心，似乎在一些罪犯逃离太空港的混乱和匆忙中，他们把他们的奴隶留下了。`
+			`	为了不被寻求报复的海盗刺杀，舰队将他们的船只在太空港外围成一圈，并留意侵略者，同时等待托梅克或自由世界中的任何权威人士出现，并决定你们的下一步行动。`
+			`	几个小时后，托梅克的飞船到达，甚至还有更多的飞船被拖着，可能是为了支持继续占领。托梅克向入侵舰队致意，看起来欣喜若狂。"了不起的工作，你们都是。自由世界的人民将世代感谢你们。"托梅克命令占领舰队的成员扫荡太空港，释放他们发现的任何奴隶，逮捕任何已知的罪犯和军阀。"我们不可能收留这里的每一个罪犯，但如果你发现有大名鼎鼎的人，我们需要利用这个机会逮捕他们。"`
+			`	托梅克下完命令和庆祝之后，他走近你，坚定地握了握你的手。"感谢你听从理智，上尉<last>。我知道当我要求你直接违抗元老院的命令时，我对你要求很高。"`
 			choice
-				`	"What now?"`
-				`	"I'm sure we'll be getting in trouble for this."`
+				`	"现在怎么办？"`
+				`	"我相信我们会因此而惹上麻烦。"`
 					goto trouble
 			
-			`	Tomek smiles. "Now we do what we can to rout the criminals and warlords out of this place while we have the advantage. The more damage we can do to them, the less innocent people within the Free Worlds will be hurt by piracy in the future. I've already ordered the men to sweep the spaceport, and we'll be leaving a fleet stationed here for some time to keep the peace. In time we may need to pull back to focus on the Navy again, but for now Greenrock is ours."`
-			`	"What about the Senate?" you ask. "We'll certainly be in trouble for this."`
+			`	托梅克微笑着说。"现在我们尽我们所能，在我们有优势的时候，把罪犯和军阀击溃在这个地方。我们对他们造成的伤害越大，自由世界内的无辜者今后就越少受到海盗行为的伤害。我已经命令人去扫荡太空港，我们会留下一支舰队在这里驻扎一段时间以维持和平。过段时间，我们可能需要撤军，重新关注海军，但现在绿岩是我们的。"`
+			`	"那参议院呢？"你问。"我们肯定会因此而陷入困境。"`
 			
 			label trouble
-			`	"No good deed goes unpunished, I suppose," Tomek says. "Despite the great opportunity we've created for the Free Worlds, I have no doubt that the Senate will not be happy with the actions we took here. Should they attempt to punish us, let me take full responsibility for what was done here. They need me, so my punishment will not be too severe, and any punishment that is placed upon you should hopefully be minor by comparison. If asked, you were simply following the orders of a superior."`
-			`	Just then, you hear another ship coming in for a landing. You both look up to see a Falcon landing in the spaceport: Alondo's Falcon that you were supposed to escort to Thule. Tomek has a somber look on his face. "Let me speak with them first," he says to you. "Meet with us in the spaceport later. Hopefully I'll have smoothed things over by then."`
+			`	"我想，没有什么好事不受惩罚的，"托梅克说。"尽管我们为自由世界创造了巨大的机会，但我毫不怀疑，参议院不会对我们在这里采取的行动感到满意。如果他们试图惩罚我们，让我为在这里所做的一切负全责。他们需要我，所以我的惩罚不会太严重，相比之下，对你们的任何惩罚都应该是轻微的。如果问起来，你们只是在执行上级的命令。"`
+			`	就在这时，你们听到另一艘飞船来降落的声音。你们俩抬头一看，看到一艘猎鹰在太空港着陆。阿隆多的猎鹰，你本该护送它去图勒的。托梅克脸上带着阴郁的表情。"让我先和他们谈谈。"他对你说。他对你说："我先和他们谈谈。"稍后在太空港和我们见面。希望到时我能把事情处理好。"`
 
 
 
@@ -1446,51 +1446,51 @@ event "battle for Greenrock"
 
 
 mission "FW Pirates: Attack 3"
-	name "Early Warning"
-	description "The early warning systems you installed on Hope have detected a heightened Navy presence. Travel to <destination> to defend against the potential Navy assault. Any punishment for the invasion of Greenrock will come later."
+	name "早期警告"
+	description `你在 "希望 "号上安装的预警系统检测到了海军的高度存在。前往<destination>，抵御海军可能的攻击。对入侵绿岩城的任何惩罚将在以后进行。`
 	source "Greenrock"
 	destination "Deep"
 	to offer
 		has "FW Pirates: Attack 2: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
-			`When you return to the spaceport, you're pointed to a small tent staging area by a militia officer. Inside you find Tomek speaking with Freya and Alondo, both of whom look rather unhappy.`
-			`	"Do you not realize how weak of a position this puts us into?" Alondo says to Tomek. "If we want to keep Greenrock then it will be a perpetual resource drain that we cannot afford right now."`
-			`	"You're not seeing the bigger picture," Tomek responds. "Yes, we will need to spend resources keeping Greenrock under control, but we're already spending copious amounts of resources defending our planets, systems, and freighters from pirates as is. If we have Greenrock under our control and the other pirate worlds become afraid to act against us then that is one concentrated place that we need to focus on as opposed to being spread thin across our territory. In the end I imagine this will be a net positive for us."`
-			`	"That is yet to be seen," says Freya, "but right now we're in the red. Do you know how much we're going to need to spend on repairs as a result of this stunt of yours, not only in credits but in man-hours? A massive amount of our fleet is out of commission because of this. If the Navy attacked now we'd be practically defenseless."`
-			`	Tomek pauses as he notices you standing at the entryway to the tent. Freya and Alondo also look over to you. "Care to explain yourself?" Freya asks.`
+			`当你回到太空港时，一个民兵军官指给你一个小帐篷的集结地。在里面，你发现托梅克正在和弗雷亚和阿隆多交谈，他们两个看起来都很不高兴。`
+			`	"你没有意识到这让我们处于多么弱势的地位吗？"阿隆多对托梅克说。"如果我们想保留绿岩，那么这将是一个永久的资源消耗，我们现在无法承受。"`
+			`	"你没有看到大局，"托梅克回应说。"是的，我们将需要花费资源来控制绿岩，但我们已经花费了大量的资源来保卫我们的行星、系统和货船不受海盗的侵害。如果我们控制了绿岩，其他的海盗世界就会害怕对我们采取行动，那么我们就需要集中精力在一个地方，而不是在我们的领土上分散开来。最后，我想这对我们来说将是一个净的积极因素。"`
+			`	"这还有待观察，"弗雷亚说，"但现在我们处于亏损状态。你知道由于你的这个噱头，我们需要花多少钱来修理，不仅是信用额度，而且是工时？我们大量的舰队因此而停工。如果海军现在进攻，我们几乎没有任何防备。"`
+			`	托梅克注意到你站在帐篷的入口处，就停了下来。弗雷亚和阿隆多也向你看去。"愿意解释一下自己吗？"弗雷亚问道。`
 			choice
-				`	"I was simply following the orders of a superior. This was Tomek's idea."`
-				`	"No."`
+				`	"我只是在执行上级的命令。这是托梅克的主意。"`
+				`	"不行。"`
 					goto no
-			`	"The orders of your superior were the orders from the Senate to escort me to Thule for a diplomatic mission," Alondo responds angrily. "Now that I'm late and word of this has spread quickly, the people of Thule are not interested in negotiating. I'm sure the Senate would love to hear your explanation. You know full well that you should not have come here, yet you did. You, Tomek, and every other captain here will be answering to the Senate shortly."`
+			`	"你上级的命令是元老院的命令，护送我去图勒执行外交任务。"阿隆多愤怒地回应道。"现在我迟到了，而且消息很快就传开了，图勒的人对谈判不感兴趣。我相信元老院很想听听你的解释。你很清楚，你不应该来这里，但你却来了。你，托梅克，以及这里的其他每一位船长，很快就会向元老院交待。"`
 				goto emergency
 			
 			label no
 			branch live
 				random < 99
-			`	Freya heaves a deep sigh and looks to the side for a moment before reaching to her hip, drawing her sidearm, and shooting you. You do not have an opportunity to react. You must have caught Freya on a particularly bad day. Try again.`
+			`	芙蕾雅深深地叹了一口气，向旁边看了一会儿，然后把手伸向她的臀部，拔出她的副枪，向你开枪。你没有机会做出反应。你一定是在一个特别糟糕的日子里抓住了芙蕾雅。再试一次。`
 				die
 			
 			label live
-			`	"Well maybe you'll be willing to explain yourself to the Senate," Alondo responds angrily. "Your orders were to escort me to Thule for a diplomatic mission, but now that I'm late and word of this has spread quickly, the people of Thule are not interested in negotiating. You know full well that you should not have come here, yet you did. You, Tomek, and every other captain who took part in this attack will be answering to the Senate shortly."`
+			`	"好吧，也许你会愿意向参议院解释你自己，"阿隆多愤怒地回应道。"你的命令是护送我去图勒执行外交任务，但现在我迟到了，而且消息很快传开了，图勒的人对谈判不感兴趣。你很清楚，你不应该来这里，但你还是来了。你，托梅克，以及其他所有参与这次袭击的舰长，很快就会向元老院交待。"`
 			
 			label emergency
-			`	Before anyone can continue arguing, JJ rushes into the tent. "Sorry to interrupt, but this little spat is going to need to wait. I just got word that our sensors on Hope have detected increased Naval fleet movements. It seems like they're getting ready for an assault."`
-			`	"Have they entered our space?" Alondo asks.`
-			`	"No, not yet. Not even a single scout," says JJ.`
-			`	"Leave a small fleet here to maintain our occupation, but move the rest of our available forces to <system>," Tomek says, taking charge of the situation. "Recall the eastern patrols. They might arrive late to any battle, but they can at least act as reinforcements if necessary."`
-			`	"You're in no position to be giving orders," Freya says, looking disgusted at Tomek. "You and <first> should both be placed under arrest for disobeying the Senate."`
-			`	"No," JJ says. "At least not yet. If the Navy is about to attack then we need everyone we can get. We'll resolve this matter once we have the time. And for now, Tomek is still a part of the Council. But if you won't listen to his orders, then I imagine you'll listen to mine, and I agree with Tomek, at least in this instance. Do what he says. Move our forces to <system> and recall any patrols."`
-			`	With that, JJ leaves the tent, hurrying off to a ship. Alondo too leaves without a word. As Freya begins to leave, she turns back to you and Tomek. "I'm very disappointed in you. Both of you." She exits the tent, leaving you and Tomek alone.`
-			`	"You should get going," Tomek says solemnly. "And don't get yourself killed in this battle just because of this little mess here. As disappointed as they might be, you still have a part to play. The Free Worlds still needs you. I can feel it." He pauses for a moment before saying, "See you on <planet>," and leaving.`
+			`	在任何人继续争论之前，JJ冲进帐篷。"对不起，打断一下，但这个小争吵需要等待。我刚刚得到消息，我们在希望号上的传感器检测到海军舰队的行动有所增加。看来他们正准备进行一次攻击。"`
+			`	"他们进入我们的空间了吗？"阿隆多问道。`
+			`	"不，还没有。甚至没有一个侦察兵。"JJ说。`
+			`	"在这里留下一支小舰队以维持我们的占领，但将我们其余的可用力量转移到<system>。"托梅克说，负责处理这一情况。"召回东部的巡逻队。他们可能会在任何战斗中迟到，但他们至少可以在必要时充当增援。"`
+			`	"你没有资格发号施令。"芙蕾雅说，对托梅克显得很反感。"你和<first>都应该因不服从元老院的命令而被逮捕。"`
+			`	"不，"JJ说。"至少现在还不行。如果海军要进攻，那么我们需要我们能得到的所有人。一旦我们有时间，我们会解决这件事。而现在，托梅克仍然是理事会的一员。但如果你不听他的命令，那么我想你会听我的，我同意托梅克的意见，至少在这种情况下。按他说的做。将我们的部队转移到<system>，并召回任何巡逻队。"`
+			`	就这样，JJ离开了帐篷，匆匆去了一艘船。阿隆多也一言不发地离开了。当芙蕾雅开始离开时，她回头看向你和托梅克。"我对你们非常失望。你们俩都是。"她退出了帐篷，留下你和托梅克两人。`
+			`	"你应该走了，"托梅克郑重地说。"而且不要因为这里的小麻烦而在这场战斗中丧生。尽管他们可能很失望，但你仍然有一个角色要扮演。自由世界仍然需要你。我可以感觉到。"他停顿了一会儿，然后说："在<planet>上见。"然后离开。`
 				accept
 	
 	on enter
-		dialog `When you launch, you receive a message from the Terebinth, Alondo's transport. "Greetings, Captain <last>. This is the captain of the F.S. Terebinth. I have the Council in tow. I know that Greenrock has been suppressed, but I wouldn't be surprised if there are pirates looking for revenge. Care to watch my back on our way to <planet>? Thanks."`
+		dialog `当你发射时，你收到了来自阿隆多的运输船Terebinth的信息。"你好，<last>号船长。我是F.S. Terebinth号的船长。我带着议会的人。我知道绿岩号已经被镇压了，但如果有海盗在寻找报复，我也不会感到惊讶。介意在我们去<planet>的路上看着我吗？谢谢。"`
 	
 	npc accompany save
 		government "Free Worlds"
@@ -1509,8 +1509,8 @@ mission "FW Pirates: Attack 3"
 
 mission "FW Pirates: Diplomacy 1"
 	autosave
-	name "Pirate Diplomacy"
-	description "Following the Senate's orders, travel to <destination> and negotiate with the ruling authorities. Don't fight pirates if you don't have to, and don't let your escort be destroyed."
+	name "海盗外交"
+	description "遵照元老院的命令，前往<destination>，与执政当局进行谈判。如果没有必要，不要与海盗作战，也不要让你的护卫队被摧毁。"
 	source "Longjump"
 	destination "Thule"
 	clearance
@@ -1537,26 +1537,26 @@ mission "FW Pirates: Diplomacy 1"
 mission "FW Pirates: Diplomacy 2"
 	autosave
 	landing
-	name "Defend Thule"
-	description "Destroy the pirate fleet that is attacking the spaceport on Thule. Free Worlds reinforcements ought to be on their way."
+	name "保卫图勒"
+	description "摧毁正在攻击图勒岛太空港的海盗舰队。自由世界的增援部队应该已经在路上了。"
 	source "Thule"
 	clearance
 	to offer
 		has "FW Pirates: Diplomacy 1: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		event "battle for Thule"
 		conversation
-			`One of the first people to step off the Falcon "Terebinth" when it lands is Alondo. You ask him what the plan is.`
-			`	"Well," he says, "the people I'll be meeting with here are tribal elders, of a sort. But the tribes are separated not so much by ethnicity, as by geography and ideology. I can't claim to understand all the intricacies, really, but in matters affecting the entire planet they have authority to make consensus decisions. Of course, there are hundreds of independent settlements and groups that may or may not abide by that decision. So I hate to say it, but Tomek is right that this will be difficult to pull off."`
+			`猎鹰 "Terebinth "号着陆后，最先走下来的人之一是阿隆多。你问他有什么计划。`
+			`	"嗯，"他说，"我在这里要见的人是部落的长老，算是一种。但是，这些部落不是因为种族而分开，而是因为地理和意识形态。我不能声称了解所有的复杂性，真的，但在影响整个地球的问题上，他们有权力做出一致的决定。当然，有数以百计的独立定居点和团体可能会或可能不会遵守这一决定。所以我不想这么说，但托梅克是对的，这将是很难完成的。"`
 			choice
-				`	"What do you think our odds are of a successful negotiation?"`
-				`	"What do we do if diplomacy doesn't work?"`
+				`	"你认为我们谈判成功的几率有多大？"`
+				`	"如果外交手段不起作用，我们该怎么办？"`
 			scene "scene/army0"
-			`	Before he has a chance to respond, the sky lights up with incoming particle beams, and you see one of the Terebinth's engines erupt in a gout of flames. "What the hell?" says Alondo.`
-			`	The captain of the Terebinth, who is standing next to you, stares slack-jawed at his ship for a second before jumping into action. "Captain <last>," he says, "fire up your ship immediately and go after whoever is attacking us. I'll call for backup, but you will need to keep the attackers distracted until they arrive."`
+			`	在他有机会回答之前，天空中亮起了传来的粒子束，你看到Terebinth号的一个引擎爆发出一阵阵火焰。"什么鬼东西？"阿隆多说。`
+			`	站在你旁边的Terebinth号的舰长，在跳入行动之前，松懈地盯着他的船看了一秒钟。"船长<last>，"他说，"立即开动你的船，去追击攻击我们的人。我会请求支援，但你需要让攻击者分心，直到他们到达。"`
 				launch
 	
 	npc evade
@@ -1602,33 +1602,33 @@ event "battle for Thule"
 mission "FW Pirates: Diplomacy 3"
 	autosave
 	landing
-	name "Return to Longjump"
-	description "Escort the newly repaired F.S. Terebinth back to the Free Worlds base on <destination>."
+	name "返回长株潭"
+	description "护送刚修好的F.S.Terebinth号回到<destination>上的自由世界基地。"
 	source "Thule"
 	destination "Longjump"
 	to offer
 		has "FW Pirates: Diplomacy 2: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		"reputation: Independent" >?= 10
 		event "Thule becomes independent"
 		log "The elders on Thule do not want to join the Free Worlds, but they have agreed to crack down on pirate activity in their system and to welcome Free Worlds visitors to their planet."
 		conversation
-			`A pall of smoke still hangs over the spaceport, and as you are coming in for a landing you fly over one landing pad where bodies draped in sheets have been laid out side by side: dozens of casualties. Several buildings are in ruins, some of them still smoldering.`
-			`	Alondo has survived, fortunately. He tells you, "While the fight was going on overhead, I met with the elders, and they agreed that now that the Free Worlds exist and opposing the pirates is a viable option, they will try to put an end to piracy in this system. But they have no interest whatsoever in joining the Free Worlds."`
+			`航天港上空仍然笼罩着一层烟雾，当你要降落时，你飞过一个降落台，那里并排摆放着披着床单的尸体：几十名伤亡人员。有几座建筑成了废墟，其中一些还在冒烟。`
+			`	幸运的是，阿隆多活了下来。他告诉你："当头顶上的战斗正在进行时，我会见了长老们，他们同意现在自由世界的存在和反对海盗是一个可行的选择，他们将努力结束这个系统中的海盗行为。但他们对加入自由世界没有任何兴趣。"`
 			choice
-				`	"That's the best we had hoped for, right?"`
+				`	"这就是我们希望的最好结果，对吗？"`
 					goto best
-				`	"While we've got our fleet here, why not just demand that they join us?"`
-			`	"You can't force people to join a democracy," he says. "Maybe some day they'll be ready, but in the meantime, any pressure we exert on them will turn them from an almost-ally into an enemy."`
+				`	"既然我们的舰队在这里，为什么不直接要求他们加入我们？"`
+			`	"你不能强迫人们加入一个民主国家，"他说。"也许有一天他们会准备好，但在这期间，我们对他们施加的任何压力都会使他们从一个几乎平等的人变成一个敌人。"`
 				goto next
 			label best
-			`	"Indeed," he says, "I hate to say it, but that pirate attack actually helped our case. But only time will tell what will come of this experiment of letting worlds be 'independent.' If more worlds start wanting total independence, rather than joining us, our future may not be sustainable."`
+			`	"的确，"他说，"我不想这么说，但那次海盗袭击实际上对我们的情况有帮助。但只有时间能告诉我们，这种让世界'独立'的实验会产生什么。如果更多的世界开始想要完全独立，而不是加入我们，我们的未来可能无法持续。"`
 			label next
-			`	"So, what do we do next?" you ask.`
-			`	"Well, the Terebinth is patched up, but they could use an escort back to <planet>. After that, you'll have to see what the Senate or the Council want you to do."`
+			`	"那么，我们接下来做什么？"你问。`
+			`	"好吧，Terebinth号已经修补好了，但他们可能需要一个护卫队回到<planet>。在那之后，你得看看元老院或理事会要你做什么。"`
 				accept
 	
 	npc accompany save
@@ -1643,42 +1643,42 @@ mission "FW Pirates: Diplomacy 3"
 
 mission "FW Pirates: Diplomacy 4"
 	landing
-	name "Early Warning"
-	description "The early warning systems you installed on Hope have detected a heightened Navy presence. Travel to <destination> to defend against the potential Navy assault. Any punishment for the invasion of Greenrock will come later."
+	name "早期警告"
+	description `你在 "希望 "号上安装的预警系统检测到了海军的高度存在。前往<destination>，抵御海军可能的攻击。对入侵绿岩城的任何惩罚将在以后进行。`
 	source "Longjump"
 	destination "Deep"
 	to offer
 		has "FW Pirates: Diplomacy 3: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		event "fw suppressed Greenrock"
 		conversation
-			`You arrive back on Longjump to a hero's welcome. People have heard of the battle you fought on Thule and the deal that was forged with the locals there. JJ and Freya greet you too, and congratulate you. But then Freya says, "We need to talk in private."`
-			`	You lead them into your ship, where Freya explains, "Soon after you left for Thule, Tomek took off on his own and raised a fleet for an attack on Greenrock. He thought the Senate's plan of making a deal with the pirate worlds was too cowardly, and that we needed a show of strength instead. Surprisingly, his stunt succeeded; Greenrock is now nominally under Free Worlds control."`
-			`	"This puts us in a rather difficult position," says JJ. "Much of Tomek's fleet didn't survive the assault, and those ships didn't come out of thin air; they were intended for defensive purposes in case the Navy attacks again. Word of this has spread quickly. Thule is already second guessing their deal with us, and if Thule has heard of this then there's no doubt in my mind that the Republic has as well."`
-			`	"And regardless of his success, an invasion of Greenrock was not approved by the Senate," says Freya. "Tomek was detained on Greenrock by some of our officers on order of the Senate, and he's currently being transported to Bourne for a hearing."`
+			`你回到龙跳岛，受到了英雄的欢迎。人们已经听说了你在图勒岛的战斗以及与那里的当地人达成的协议。JJ和Freya也向你问好，并向你表示祝贺。但芙蕾雅却说："我们需要私下谈谈。"`
+			`	你把他们领到你的船上，芙蕾雅解释说："在你去图勒后不久，托梅克就独自行动，组建了一支舰队，准备进攻绿岩。他认为元老院与海盗世界达成协议的计划太过懦弱，我们需要展示一下实力。令人惊讶的是，他的特技成功了；格林洛克现在名义上是在自由世界的控制之下。"`
+			`	"这使我们处于一个相当困难的境地，"JJ说。"托梅克的大部分舰队没有在袭击中幸存下来，那些船不是凭空出现的；它们是为了防御，以防海军再次袭击。这个消息已经迅速传开。Thule已经在猜测他们与我们的交易，如果Thule听说了这件事，那么在我看来，毫无疑问，共和国也听说了。"`
+			`	"不管他是否成功，入侵格林洛克的行动并没有得到参议院的批准。"弗雷亚说。"根据参议院的命令，托梅克被我们的一些官员扣留在格林洛克，目前他正被送往伯恩接受听证。"`
 			choice
-				`	"Why would Tomek do something like that? It's unthinkable!"`
-				`	"How can the Senate have him arrested? He's part of the Council!"`
+				`	"托梅克为什么要做这样的事？这是不可想象的！"`
+				`	"参议院怎么能让他被捕？他是理事会的一员！"`
 					goto defend
-			`	"That's easy to answer," says Freya. "He didn't like the idea of taking orders from the Senate. He thought they should treat him like a hero and go along with whatever he thought best."`
-			`	"Is it really that easy?" says JJ softly. Freya raises an eyebrow, but doesn't respond to the question.`
+			`	"这很容易回答，"弗雷亚说。"他不喜欢听命于元老院的想法。他认为他们应该把他当作一个英雄，顺从他认为最好的事情。"`
+			`	"真的那么容易吗？"JJ轻轻地说。芙蕾雅挑了挑眉毛，但没有回应这个问题。`
 				goto next
 			label defend
-			`	JJ and Freya are both quiet for a minute, then Freya says, "You know, there are people in the Senate who worry that the Council could become the ruling authority in the Free Worlds, instead of a democratic Senate. It wouldn't be the first time a people's revolution turned into an oligarchy. We of the Council have to be careful not to let that happen."`
+			`	JJ和芙蕾雅都沉默了一分钟，然后芙蕾雅说："你知道，参议院里有人担心理事会可能成为自由世界的统治机构，而不是民主的参议院。这不是第一次人民革命变成了寡头政治。我们理事会的人必须小心，不要让这种情况发生。"`
 			label next
-			`	"So, what will happen to Tomek?" you ask.`
-			`	"That's for the Senate to decide," says JJ. "But he's a tactical genius. We'll need his advice, if this war turns worse."`
-			`	Just then, Alondo comes running onto your ship, looking particularly worried. "I hope I'm not interrupting anything too important, but I just received word that our sensors on Hope have detected increased Naval fleet movements. It seems like they're getting ready for an assault."`
-			`	"Have they entered our space?" JJ asks.`
-			`	"No, not yet. Not even a single scout," says Alondo.`
-			`	"We should head to <planet> before deciding our next move," says Freya.`
-			`	"About that," says Alondo. "It seems like Tomek is way ahead of us. The news that Tomek is under arrest by the Senate didn't spread quickly enough, and an officer gave him the news about the sensors. He argued that since his position in the Council hasn't yet been revoked, he still has the power to command the militia, and he already ordered all available forces to <system>, including recalling our patrols in the eastern Dirt Belt. The officers who were detaining him reluctantly agreed, given the situation, and released him."`
-			`	"What?" Freya says with disbelief. "Tomek is in no position to be giving orders! Let everyone know that he is not to be obeyed!"`
-			`	"No," JJ says. "At least not yet. If the Navy is about to attack then we need everyone we can get. We'll resolve this matter once we have the time. And for now, Tomek is still a part of the Council. But if you won't listen to his orders, then I imagine you'll listen to mine, and I agree with Tomek, at least in this instance. Do what he says. Move our forces to <system> and recall any patrols."`
-			`	Freya doesn't argue with JJ. "We should get going," says Alondo. "The Terebinth has room for all of us. I'm sure Tomek will find his own way to <planet>."`
+			`	"那么，托梅克会怎么样？"你问。`
+			`	"那要由元老院来决定，"JJ说。"但他是个战术天才。我们会需要他的建议，如果这场战争变得更糟。"`
+			`	就在这时，阿隆多跑到你的船上，看起来特别担心。"我希望我没有打扰到什么太重要的事情，但我刚刚收到消息，我们在希望号上的传感器检测到海军舰队的运动增加。看起来他们正准备进行一次攻击。"`
+			`	"他们进入我们的空间了吗？"JJ问道。`
+			`	"不，还没有。甚至没有一个侦察兵。"阿隆多说。`
+			`	"我们应该先去<planet>，再决定下一步行动。"弗雷亚说。`
+			`	"关于这一点，"阿隆多说。"看来托梅克远远领先于我们。托梅克被元老院逮捕的消息没有迅速传开，一位官员给了他关于传感器的消息。他认为，由于他在议会的职位还没有被撤销，他仍然有权指挥民兵，他已经命令所有可用的力量去<system>，包括召回我们在东部泥土带的巡逻队。鉴于这种情况，扣留他的官员们勉强同意，并释放了他。"`
+			`	"什么？"芙蕾雅不相信地说道。"托梅克没有资格发号施令!让所有人都知道，他是不可能被服从的！"`
+			`	"不，"JJ说。"至少现在还不行。如果海军要进攻，那么我们需要我们能得到的所有人。一旦我们有时间，我们会解决这件事。而现在，托梅克仍然是理事会的一员。但如果你不听他的命令，那么我想你会听我的，我同意托梅克的意见，至少在这种情况下。按他说的做。将我们的部队转移到<system>，并召回任何巡逻队。"`
+			`	芙蕾雅没有和JJ争论。"我们应该走了，"阿隆多说。"Terebinth有我们所有人的空间。我相信托梅克会找到他自己去<planet>的路。"`
 				accept
 	
 	npc accompany save
@@ -1693,8 +1693,8 @@ mission "FW Pirates: Diplomacy 4"
 
 mission "FW Early Warning 1"
 	landing
-	name "Early Warning"
-	description "The Navy looks as though they're preparing for an attack. Scout the <waypoints> systems just north of Free Worlds space to determine the strength of the Navy there."
+	name "早期警告"
+	description "海军看起来好像是在为攻击做准备。侦察自由世界空间以北的<waypoints>系统，以确定那里的海军实力。"
 	source "Deep"
 	waypoint "Alioth"
 	waypoint "Alnasl"
@@ -1706,43 +1706,43 @@ mission "FW Early Warning 1"
 			has "FW Pirates: Attack 3: done"
 			has "FW Pirates: Diplomacy 4: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
 			branch greenrock
 				has "FW Pirates: Attack 3: done"
-			`When you arrive at the quartermaster's building in the spaceport where the militia are gathering, you find that the rest of the Council has already found Tomek and are arguing with him in front of a silent crowd of militia officers who look as though they're watching their parents fighting.`
-			`	"Do you not realize how weak of a position this puts us into?" Alondo says to Tomek. "If we want to keep Greenrock then it will be a perpetual resource drain that we cannot afford right now."`
-			`	"You're not seeing the bigger picture," Tomek responds. "Yes, we will need to spend resources keeping Greenrock under control, but we're already spending copious amounts of resources defending our planets, systems, and freighters from pirates as is. If we have Greenrock under our control and the other pirate worlds become afraid to act against us then that is one concentrated place that we need to focus on as opposed to being spread thin across our territory. In the end I imagine this will be a net positive for us."`
-			`	"That is yet to be seen," says Freya, "but right now we're in the red. Do you know how much we're going to need to spend on repairs as a result of this stunt of yours, not only in credits but in man-hours? A massive amount of our fleet is out of commission because of this. If the Navy attacked now we'd be practically defenseless."`
-			`	Tomek pauses for a moment, allowing JJ to step in. "We can discuss the consequences of Tomek's actions later. For now we need to focus on the situation at hand."`
+			`当你到达民兵聚集的太空港的军需官大楼时，你发现理事会的其他成员已经找到了托梅克，并且正在一群沉默的民兵军官面前与他争论，他们看起来就像在看他们的父母打架一样。`
+			`	"你没有意识到这让我们处于多么弱势的地位吗？"阿隆多对托梅克说。"如果我们想保留绿岩，那么这将是一个永久的资源消耗，我们现在无法承受。"`
+			`	"你没有看到大局，"托梅克回应说。"是的，我们将需要花费资源来控制绿岩，但我们已经花费了大量的资源来保卫我们的行星、系统和货船不受海盗的侵害。如果我们控制了绿岩，其他的海盗世界就会害怕对我们采取行动，那么我们就需要集中精力在一个地方，而不是在我们的领土上分散开来。最后，我想这对我们来说将是一个净的积极因素。"`
+			`	"这还有待观察，"弗雷亚说，"但现在我们处于亏损状态。你知道由于你的这个噱头，我们需要花多少钱来修理，不仅是信用额度，而且是工时？我们大量的舰队因此而停工。如果海军现在进攻，我们几乎没有任何防备。"`
+			`	托梅克停顿了一会儿，让JJ出面。"我们可以稍后讨论托梅克的行为的后果。现在我们需要关注手头的情况。"`
 				goto report
 			
 			label greenrock
-			`You arrive at the quartermaster's building in the spaceport where the militia are gathering. The Council are standing outside, along with a silent crowd of militia officers who look as though they've just watched their parents fighting.`
+			`你到达了太空港的军需官大楼，民兵们正在那里聚集。理事会站在外面，还有一群沉默的民兵官员，他们看起来好像刚刚看了他们父母的战斗。`
 			
 			label report
-			`	"Let's get inside," Tomek says, motioning for a number of militia officers to follow. As they file in, he also motions to you.`
+			`	"我们进去吧。"托梅克说，示意一些民兵官员跟上。当他们排队进去时，他也向你示意。`
 			choice
-				`	(Go inside.)`
-			`	On the inside there is a large table with a map of the region at its center, much nicer than Tomek's map that he was using on Longjump. "Officer Sullivan, please give us a sitrep," JJ says.`
-			`	"Yes, sir. As the quartermaster of Deep, I have been monitoring the results of the early warning sensors installed on Hope by Captain <last>. For months now we would receive only the occasional ping of Navy ships entering the system, presumably scout fleets or fleets passing through the system from the western Dirt Belt to the east.`
-			`	"But starting within the past week, the number of Navy ships passing through the system began to rapidly increase. We went from seeing a fleet every few days to multiple per day, and those fleets that did enter often lingered for a longer amount of time for an unknown reason."`
+				`	(进去吧。)`
+			`	里面有一张大桌子，桌子中央有一张该地区的地图，比托梅克在Longjump上使用的地图漂亮多了。"苏利文警官，请给我们提供一份情况报告。"JJ说。`
+			`	"是的，长官。作为 "深海 "号的军需官，我一直在监测<last>舰长在 "希望 "号上安装的预警传感器的结果。几个月来，我们只会偶尔收到海军舰艇进入该系统的ping，大概是侦察舰队或从西部泥土带向东经过该系统的舰队。`
+			`	"但从上个星期开始，经过该系统的海军舰艇的数量开始迅速增加。我们从每隔几天看到一支舰队到每天看到多支，而那些进入的舰队往往因为一个未知的原因而逗留较长时间。"`
 			branch sensors
 				has "fw caught navy planting sensors"
-			`	"Whatever we're capable of, they're capable of and then some," says JJ. "I wouldn't be surprised if they know about our sensors and are trying to use them against us."`
+			`	"无论我们有什么能力，他们都有能力，然后还有一些，"JJ说。"如果他们知道我们的传感器并试图利用它们来对付我们，我不会感到惊讶。"`
 				goto next
 			
 			label sensors
-			`	"Captain <last> discovered a Navy Gunboat planting sensors of their own onto Hope when we installed ours," JJ says. "Surely they suspect that we have some as well."`
+			`	"船长<last>发现一艘海军炮舰在我们安装了他们的传感器后，把他们自己的传感器植入了希望号，"JJ说。"当然，他们怀疑我们也有一些。"`
 			label next
-			`	"They're trying to bait us," Tomek says. "Or they're distracting us."`
-			`	"Distracting us from what?" Alondo asks.`
-			`	Tomek thinks for a moment. "Have any of the eastern patrols returned yet?"`
-			`	"None," says an officer. "Most of our patrols have been sticking close to Tarazed to stay out of reach of the Navy. It'll take a few more days for them to begin arriving."`
-			`	"We could sure use those ships that were lost attacking Greenrock," Freya snips.`
-			`	Tomek ignores her. "Alright, Captain <last>, I want you to scout <waypoints>. Simply enter the systems, look at what forces the Navy has there, then leave as soon as possible. We need to know what we're up against, if the Navy truly are moving to attack from Wei. If it turns out this is a distraction, hopefully we'll have intel from the returning patrol fleets by then."`
+			`	"他们在试图引诱我们，"托梅克说。"或者他们在分散我们的注意力。"`
+			`	"分散我们的注意力，什么？"阿隆多问道。`
+			`	托梅克想了一会儿。"有任何东部的巡逻队回来了吗？"`
+			`	"没有。"一位军官说。"我们的大多数巡逻队一直紧贴着塔拉泽德，以避开海军的攻击。他们还需要几天时间才能开始抵达。"`
+			`	"我们当然可以使用那些在攻击绿岩岛时损失的船只。"弗莱亚冷笑道。`
+			`	托梅克没有理会她。"好吧，船长<last>，我要你去侦察<waypoints>。只要进入这些系统，看看海军在那里有什么力量，然后尽快离开。我们需要知道我们面对的是什么，如果海军真的要从魏国发动进攻。如果事实证明这只是一个分散注意力的办法，希望到时候我们能从返回的巡逻舰队那里得到情报。"`
 				accept
 	
 	npc
@@ -1785,108 +1785,108 @@ mission "FW Early Warning 1"
 
 mission "FW Early Warning 2"
 	landing
-	name "Seeking Harmony"
-	description "<planet> has become an unofficial ceasefire zone for the Navy and Free Worlds patrols in the eastern Dirt Belt. Bring JJ there to attempt to negotiate with the Navy to prevent an attack."
+	name "寻求和谐"
+	description "<planet>已经成为海军和自由世界巡逻队在东部泥土带的非官方停火区。把JJ带到那里，试图与海军进行谈判，以防止攻击。"
 	source "Deep"
 	destination "Harmony"
 	passengers 1
-	blocked `JJ contacts you and says, "Captain, you're going to need a bunk free for me. Do you have space?" You do not, so you should complete or abort another mission to make room for him, then return here.`
+	blocked `JJ联系你说："船长，你需要为我腾出一个铺位。你有空间吗？"你没有，所以你应该完成或放弃另一个任务，为他腾出空间，然后回到这里。`
 	to offer
 		has "FW Early Warning 1: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	on offer
 		conversation
-			`When you return, you find Tomek and JJ speaking with captains of the eastern patrols. The rest of the Council has been moved off-world in case the Navy retakes Kornephoros.`
-			`	"Welcome back, Captain," says Tomek. "I pray that your scouting mission went well."`
+			`当你回来时，你发现托梅克和JJ正在与东部巡逻队的队长们交谈。理事会的其他成员已经被转移到了世界之外，以防海军夺回科内普罗斯。`
+			`	"欢迎回来，队长，"托梅克说。"我祈祷你的侦查任务顺利。"`
 			choice
-				`	"Yes. The Navy didn't give me too much trouble passing through their systems."`
-				`	"The Navy gave me some difficulty, but I was able to pull through."`
-			`	You recall the strength of the Navy fleets to Tomek and JJ, mentioning the small fleets in Wei as well as the larger fleets in Alioth, Alphecca, and Seginus. "I also spotted a few Protectors in Navy colors," you add. "They were a part of the Navy fleets."`
-			`	"I thought we had an agreement that the Syndicate would not act as mercenaries for the Republic," JJ says.`
-			`	"They never said anything about selling supplies to the Republic," says Tomek. "They're doing the same for us, after all."`
+				`	"是的，海军在通过他们的系统时没有给我太多麻烦。"`
+				`	"海军给了我一些困难，但我还是挺过来了。"`
+			`	你向托梅克和JJ回忆了海军舰队的实力，提到了在魏国的小舰队以及在阿里奥斯、阿尔卑斯山和塞吉努斯的大舰队。"我还发现了一些穿着海军服装的保护者，"你补充道。"他们是海军舰队的一部分。"`
+			`	"我以为我们有一个协议，辛迪加不会为共和国充当雇佣兵，"JJ说。`
+			`	"他们从未说过要向共和国出售物资，"托梅克说。"他们毕竟是在为我们做同样的事情。"`
 			choice
-				`	"What's our next move?"`
-				`	"Have we learned anything from the patrols?"`
-			`	"The patrols tell us that the Navy presence to the east dropped recently," says Tomek. "Most of them are still there, but it was a big enough drop for our patrols to notice."`
-			`	"Apparently the Navy patrols and militia patrols in the eastern Dirt Belt are on friendly terms," says JJ. "No information sharing, of course, but they're not shooting at one another. Neither side has found it advantageous to attack the other; Navy patrols outgun ours and so our patrols don't provoke them, but if the Navy patrols drew our attention then they'd be easily cut off. Given that, we've been able to keep accurate head counts of each other in the east."`
-			`	"Which means they'll have noticed our own drop in presence there," says Tomek. "They know that we know that they're making moves to our north. Hopefully baiting us into recalling our patrols wasn't a part of their plan."`
-			`	"Well if our patrols are already friendly, perhaps we can talk ourselves out of another battle," says JJ.`
-			`	"<planet> has become something of a neutral zone," one of the militia officers jumps in, presumably one from the eastern patrols. "Navy and militia patrols pass each other by in the spaceport without incident. People from the Republic and Free Worlds who know each other meet there often. We could arrange a meeting there."`
-			`	"I'll travel there to speak with the Navy. Captain <last> shall be my transport," says JJ. "Tomek shall remain here with the fleet." Tomek nods in agreement. "Meeting dismissed."`
-			`	After the officers shuffle out, just you, JJ, and Tomek remain. JJ tells you to wait outside. "I want to speak with Tomek in private for a moment."`
-			`	You move outside the building and stand next to the doorway. From inside you can hear the mumbling of Tomek and JJ speaking. You could probably press your ear to the door to hear what's going on.`
+				`	"我们的下一步行动是什么？"`
+				`	"我们从巡逻队那里了解到什么了吗？"`
+			`	"巡逻队告诉我们，海军在东部的存在最近下降了，"托梅克说。"他们中的大多数人还在那里，但下降幅度很大，足以让我们的巡逻队注意到。"`
+			`	"显然，海军巡逻队和民兵巡逻队在东部泥土带的关系是友好的，"JJ说。"当然，没有信息共享，但他们没有互相射击。双方都没有发现攻击对方是有利的；海军巡逻队的武器超过了我们的，所以我们的巡逻队不会去挑衅他们，但是如果海军巡逻队引起了我们的注意，那么他们就会很容易被切断。鉴于此，我们已经能够在东部对对方进行准确的人数统计。"`
+			`	"这意味着他们会注意到我们自己在那里的存在感下降，"托梅克说。"他们知道我们知道他们正在向我们的北方采取行动。希望诱使我们召回我们的巡逻队不是他们计划中的一部分。"`
+			`	"好吧，如果我们的巡逻队已经是友好的，也许我们可以说服自己不要再打仗了。"JJ说。`
+			`	"<planet>已经成为某种意义上的中立区。"一个民兵军官跳了进来，估计是东部巡逻队的人。"海军和民兵的巡逻队在太空港里互相擦肩而过，没有发生任何事件。共和国和自由世界的人互相认识，经常在那里见面。我们可以在那里安排一次会议。"`
+			`	"我将前往那里与海军交谈。舰长<last>将是我的交通工具，"JJ说。"托梅克应留在这里与舰队一起。"托梅克点头表示同意。"会议解散。"`
+			`	军官们洗漱完毕后，只剩下你、JJ和托梅克。JJ让你在外面等着。"我想和托梅克私下谈一谈。"`
+			`	你走到大楼外面，站在门口旁边。从里面你可以听到托梅克和JJ的喃喃自语。你也许可以把耳朵贴在门上，听听发生了什么事。`
 			choice
-				`	(Step away so I don't hear anything.)`
+				`	(走远点，这样我就听不到什么了。)`
 					goto away
-				`	(Eavesdrop on them.)`
-			`	"You will go peacefully to the Senate when this situation is handled, right, Tomek?" JJ asks.`
-			`	"I did what I had to, and I will not fight the punishment I receive," Tomek responds. "But it's up to you to not squander the opportunity I've provided us."`
-			`	"I'll do what I can," says JJ.`
-			`	You hear JJ walking toward the door and step away as to not be seen eavesdropping. He exits the building.`
+				`	(偷听他们说话。)`
+			`	"这种情况处理好后，你会和平地去参议院，对吗，托梅克？"JJ问道。`
+			`	"我做了我必须做的事，我不会对抗我所受到的惩罚，"托梅克回应道。"但这取决于你，不要浪费我为我们提供的机会。"`
+			`	"我会做我能做的。"JJ说。`
+			`	你听到JJ向门口走去，为了不被发现偷听，你走了过去。他退出了大楼。`
 				goto end
 			label away
-			`	Once they are done speaking, JJ exits the building.`
+			`	一旦他们讲完话，JJ就退出了大楼。`
 			label end
-			`	"Alright, let's move quickly," he says. "There's no telling when the Navy could attack. Chart a course for <destination>. I'll contact the Navy and arrange the meeting on our way there."`
+			`	"好了，我们赶快行动吧，"他说。"不知道海军什么时候会进攻。制定一条前往<destination>的路线。我会联系海军，在我们去的路上安排会面。"`
 				accept
 	
 	on visit
-		dialog `You land on <planet>, but realize that your escort carrying JJ hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你在<planet>上降落，但意识到你搭载JJ的护卫队还没有进入该系统。最好离开并等待它的到来。`
 
 
 
 mission "FW Early Warning 3"
 	autosave
 	landing
-	name "Harmony Lost"
-	description "The peace talks with the Navy have broken down. Another battle seems inevitable. Return to <destination> with JJ to prepare."
+	name "失去和谐"
+	description "与海军的和平谈判已经破裂。另一场战斗似乎不可避免。与JJ一起返回<destination>准备。"
 	source "Harmony"
 	destination "Deep"
 	passengers 1
 	to offer
 		has "FW Early Warning 2: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
-		log "People" "Ranulph Hines" "Ranulph Hines is a commander within the Republic Navy. While a competent leader, he has a reputation for disregarding many of the Navy's old traditions, instead preferring to do things his own way."
+		log "People" "Ranulph Hines" "拉努夫-海因斯是共和国海军中的一名指挥官。虽然是个称职的领导者，但他却以无视海军的许多古老传统而闻名，反而更喜欢用自己的方式做事。"
 		conversation
-			`When you arrive, you see that the local Navy and Free Worlds soldiers have already gathered in the spaceport, keeping their distance from one another. News of the meeting must have already spread through the ranks. You see some civilians continuing to go about their day, while others are standing around watching the soldiers, but even with all the soldiers and civilians, the streets feel empty; perhaps many of the civilians that would normally be here have sought out shelter in fear of violence.`
-			`	JJ speaks with a Navy officer, asking him who he'll be meeting to negotiate with. "Commander Ranulph Hines, sir." The officer responds, seeming to catch himself up on calling JJ "sir." JJ has a look of concern on his face, but you don't think it's because of the Navy officer calling him "sir."`
+			`当你到达时，你看到当地的海军和自由世界的士兵已经聚集在太空港，彼此之间保持着距离。会议的消息肯定已经在队伍中传开了。你看到一些平民继续过着他们的日子，而其他人则站在周围看着士兵，但即使有所有的士兵和平民，街道也感觉空荡荡的；也许许多通常会在这里的平民因为害怕暴力而寻求庇护。`
+			`	JJ与一名海军军官交谈，问他将与谁见面谈判。"指挥官Ranulph Hines，先生。"这名军官回答说，似乎是在抓紧时间叫JJ "长官"。JJ脸上露出关切的表情，但你不认为这是因为海军军官叫他 "长官"。`
 			choice
-				`	"Is something wrong?"`
-				`	(Say nothing.)`
+				`	"有什么问题吗？"`
+				`	(什么也不说。)`
 					goto talk
-			`	"Nothing," JJ responds, then pauses before saying, "I fear this won't end well."`
+			`	"没什么，"JJ回应道，然后停顿了一下才说，"我担心这不会有好结果。"`
 			label talk
-			`	The officer directs you and JJ to an outdoor seating area of one of the spaceport's restaurants, where you find Commander Ranulph Hines finishing what looks like a plate of salmon. JJ sits down across from him.`
-			`	"Lieutenant Commander Jean-Jacques Soleau, in the flesh before my very eyes," Hines says, wiping the edges of his mouth. "I never imagined I'd be seeing you again after you so unceremoniously left the Navy."`
-			`	"I'm not here to discuss the past, Commander," JJ responds. "I'm here to prevent more bloodshed in this pointless war."`
-			`	"As am I, Soleau, as am I. Although I might ask, were the lives lost in your attacks on Geminus and Martini pointless, or were those necessary losses."`
-			`	"The Free Worlds is not responsible for those bombings," says JJ, sounding somewhat shaken. "We maintain our innocence, and were seeking to uncover who was responsible before the Republic ordered the Navy to take Kornephoros from us."`
-			`	"There was no 'taking,' Soleau. Kornephoros is rightfully Republic territory. We were simply enacting a police action on one of our own worlds, and arresting the terrorists who-"`
-			`	"So did you only come here to insult me and the Free Worlds or are you here to discuss peace as I asked?" JJ says, cutting Hines off. "As I said, I'm here to prevent more bloodshed. The deaths of those on Geminus and Martini as well as those in Kornephoros and Sabik were enough already. Continued bloodshed will not satisfy either side in this war."`
-			`	"Continued bloodshed like what occurred on Greenrock only days ago?" Hines quips. "I'm sure you are aware that the Navy cannot bring its full force upon the 'Free Worlds.' We have borders to patrol and piracy to tend to. You, on the other hand, have just shattered the biggest hub of piracy in the region, and I have no doubt that this has freed up many resources. It would appear to me that you yourselves are consolidating your forces for an offensive and further bloodshed despite your insistence to the opposite."`
-			`	"The actions that were taken on Greenrock were unsanctioned by the Free Worlds Senate or Council," JJ responds. "It was the result of rogue elements that have been taken care of."`
-			`	"Rogue elements within your ranks? You certainly have a history of those if it was a rogue element within your insurgency that committed the terrorist acts that took the lives of thousands of Republic citizens. At least, I presume it was a rogue element, as I've never known the venerable Jean-Jacques Soleau to be a liar, so I certainly believe you when you tell me that your 'Free Worlds' wouldn't do that. Although I'm sure you would have also told me that your 'Free Worlds' would never subjugate the population of Greenrock, either."`
+			`	军官把你和JJ带到太空港的一家餐厅的室外座位区，在那里你发现指挥官Ranulph Hines正在吃一盘看起来像鲑鱼的东西。JJ在他对面坐了下来。`
+			`	"让-雅克-索洛中校，在我眼前的肉体，"海因斯说，擦拭着他的嘴边。"我从来没有想到，在你如此不经意地离开海军之后，我还会再见到你。"`
+			`	"我不是来讨论过去的，指挥官，"JJ回应说。"我是来防止这场毫无意义的战争出现更多流血事件的。"`
+			`	"我也是，Soleau，我也是。 虽然我想问，在你们对Geminus和Martini的攻击中，所失去的生命是毫无意义的，还是那些必要的损失。"`
+			`	"自由世界并不对那些爆炸事件负责，"JJ说，听起来有些动摇。"我们坚持我们的清白，在共和国命令海军从我们手中夺走科内普罗斯之前，我们一直在寻求揭开谁是责任人。"`
+			`	"没有什么'夺取'，Soleau。科尼佛罗斯是共和国的合法领土。我们只是在我们自己的一个世界上进行了一次警察行动，并逮捕了那些恐怖分子......"`
+			`	"所以你来这里只是为了侮辱我和自由世界，还是按照我的要求来讨论和平？"JJ说，打断了海恩斯的话。"正如我所说，我是来防止更多的流血事件。杰米努斯和马蒂尼岛上的人以及科内普洛斯和萨比克的人的死亡已经够多了。持续的流血事件不会让这场战争中的任何一方满意。"`
+			`	"继续流血，就像几天前在格林洛克发生的那样？"海因斯打趣道。"我相信你知道，海军不能将其全部力量用于'自由世界'。我们有边界要巡逻，有海盗要处理。另一方面，你们刚刚粉碎了该地区最大的海盗活动中心，我毫不怀疑这释放了许多资源。在我看来，尽管你们坚持相反的观点，但你们自己也在为进攻和进一步的流血而整合力量。"`
+			`	"在绿岩上采取的行动没有得到自由世界参议院或理事会的批准，"JJ回应说。"这是流氓分子的结果，已经被解决了。"`
+			`	"你们队伍中的流氓分子？如果是你们起义军中的流氓分子犯下了夺去数千名共和国公民生命的恐怖行为，你们肯定有这样的历史。至少，我推测那是一个流氓分子，因为我从来不知道可敬的让-雅克-索洛是个骗子，所以当你告诉我你的'自由世界'不会那样做时，我当然相信你。尽管我确信你也会告诉我，你们的'自由世界'也不会征服绿岩镇的居民。"`
 			choice
-				`	"This guy doesn't seem to interested in peace talks. We should go."`
-				`	(Let JJ handle the situation.)`
+				`	"这家伙似乎对和谈不感兴趣。我们应该走了。"`
+				`	(让JJ处理这个情况。)`
 					goto handle
-			`	You whisper your concerns to JJ. "No," he responds. "I can handle this."`
+			`	你对JJ小声说了你的担忧。"不，"他回应道。"我可以处理这个问题。"`
 			label handle
-			`	"So it would seem that the answer to my question is no," JJ says, raising his voice. "You're not interested in peace talks."`
-			`	"I am afraid so, Soleau. The Republic does not wish to lower itself to negotiating with terrorists. As such, I am ordering the arrest of you and every captain and crew member of the so-called 'Free Worlds' here for acts of terrorism and treason against the Republic."`
-			`	Some of the militia watching begin to reach for their weapons or move away as some Navy soldiers step forward, but JJ raises his hand to motion them to stop. The militia notice and hold their ground, as do the Navy soldiers. "Where is the Navy honor that we've all heard so much about?" JJ shouts loud enough for everyone watching to hear. "We come here with open arms asking for peace talks and you move to arrest us?" You hear jeers coming from some of the civilians watching.`
-			`	Hines turns up his nose. "This is undoubtedly Republic territory you're standing on, Soleau, and therefore we have every right to arrest you."`
-			`	"I think your men disagree," JJ remarks. All of the Navy personnel have either remained in or returned to formation. "Remember that I myself was a part of the Navy once. A Navy that each and every one of your honored men surely remember, either because they lived it or because they grew up revering it. But a Navy that I left because of those like you. I'm sorry to disappoint you, but if we can't negotiate peace talks then we'll be leaving. I pray that you'll be wise enough to see the error in your ways and let us go." JJ stands up and begins walking off, leaving Hines to sulk in his chair.`
-			`	"Your days are numbered, Soleau," Hines shouts, but he remains in his chair and gives no orders to his soldiers.`
-			`	The Navy allows you to leave unmolested as you enter your ship with JJ. "Launch your ship immediately and return to <planet>," he says. "The only thing that rivals honor among the Navy is duty, and I don't want to be around when Hines starts whipping his men into his shape."`
+			`	"这么看来，我的问题的答案是否定的。"JJ说，提高了他的声音。"你对和谈不感兴趣。"`
+			`	"恐怕是这样，索莱乌。共和国不希望降低自己的身份，与恐怖分子进行谈判。因此，我命令逮捕你和这里所谓的'自由世界'的每一位船长和船员，罪名是恐怖主义行为和对共和国的背叛。"`
+			`	一些观看的民兵开始伸手去拿他们的武器，或者随着一些海军士兵的上前而离开，但JJ举起手示意他们停止。民兵们注意到并坚守阵地，海军士兵们也是如此。"我们都听说过的海军的荣誉在哪里？"JJ大声喊道，足以让所有观看的人听到。"我们张开双臂来到这里要求和谈，你们却要逮捕我们？"你听到一些观看的平民发出的嘲笑声。`
+			`	海因斯翘起了鼻子。"你所站的这块地方无疑是共和国的领土，Soleau，因此我们有权利逮捕你。"`
+			`	"我想你的手下不同意，"JJ说。所有的海军人员都留在了或回到了队列中。"记住，我自己曾经是海军的一员。你们每一个受表彰的人肯定都记得这支海军，要么是因为他们经历过，要么是因为他们从小就崇尚它。但我因为像你这样的人而离开了这支海军。我很抱歉让你们失望，但如果我们不能进行和谈，那么我们就会离开。我祈祷你会有足够的智慧，看到你的错误，让我们离开。"JJ站起来，开始走了，留下海因斯在椅子上生闷气。`
+			`	"你的日子不多了，Soleau，"海因斯喊道，但他仍然坐在椅子上，没有给他的士兵下命令。`
+			`	海军允许你不受干扰地离开，因为你和JJ一起进入你的船。"立即发射你的飞船，返回<planet>，"他说。"在海军中唯一能与荣誉相媲美的就是责任，当海因斯开始鞭打他的手下时，我可不想在旁边。"`
 				launch
 	
 	on enter "Kornephoros"
-		dialog `Upon entering <system>, you spot Free Worlds ships in combat with the Navy. It looks like the Navy only sent a small force so far; there are only a few ships remaining and there don't appear to be many destroyed ships. Regardless, the Free Worlds captains defending the system would probably appreciate help clearing out the rest before you land.`
+		dialog `进入<system>后，你发现自由世界的船只正在与海军作战。到目前为止，看起来海军只派出了一支小部队；只剩下几艘船，而且似乎没有多少被摧毁的船只。不管怎么说，防守该系统的自由世界的舰长们可能会感谢你在登陆前帮助他们清除其余的舰只。`
 	
 	npc
 		government "Free Worlds"
@@ -1933,27 +1933,27 @@ mission "FW Early Warning 3"
 				"Rainmaker"
 	
 	on visit
-		dialog `You've landed on <planet>, but you haven't yet completed all the objectives. Either there are still Navy ships in the system, or one of your ships carrying JJ is not yet in the system.`
+		dialog `你已经降落在<planet>上，但你还没有完成所有的目标。要么是系统中仍有海军舰艇，要么是你的一艘载有JJ的舰艇还没有进入该系统。`
 
 
 
 mission "FW Early Warning 4"
 	landing
-	name "Preemptive Strike"
-	description "Meet the Navy ships for battle in <system>, attacking them before they can enter Free Worlds space. Once all the ships have been destroyed, land on <planet>."
+	name "先发制人"
+	description "在<system>中与海军战舰会战，在他们进入自由世界空间之前对他们进行攻击。一旦所有的战舰被摧毁，就在<planet>上登陆。"
 	source "Deep"
 	destination "Hope"
 	to offer
 		has "FW Early Warning 3: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		event "battle in Wei"
 		conversation
-			`When you return, Tomek is busy preparing the fleet. It looks like most of the ships are ready to go, with some already starting their engines. "I take it the peace talks didn't work out," he says.`
-			`	"Not quite," says JJ. "Although I think we won a small victory in another way."`
-			`	"You'll have to tell me later," Tomek says, beginning to shout as ships around you begin to take off. "Captain <last>, get your ship ready for the air. Our sensors tell us there's a massive Navy fleet in <system>. They could jump in here any hour now. I've ordered a preemptive strike; we're going to rush into <system> and take them head on before they can reach our territory. Detain any surviving Navy personnel on <planet> and we'll send in transports to either ferry them back to the Republic if they agree to join the Oathkeepers, or to Bourne if they refuse. Now get going. We have no time to waste."`
+			`当你回来时，托梅克正忙着准备舰队。看起来大部分的飞船都准备好了，有些已经开始了他们的引擎。"我想和谈并没有成功，"他说。`
+			`	"不完全是，"JJ说。"尽管我认为我们在另一个方面赢得了一个小小的胜利。"`
+			`	"你以后要告诉我。"托梅克说，当你们周围的飞船开始起飞时，他开始大喊。"船长<last>，让你的飞船准备好起飞。我们的传感器告诉我们，在<system>内有一支庞大的海军舰队。他们现在随时可能跳到这里。我已经下令进行先发制人的打击；我们要冲进<system>，在他们到达我们的领土之前迎头痛击。在<planet>上扣留任何幸存的海军人员，如果他们同意加入守誓人，我们会派运输船把他们送回共和国，如果他们拒绝，就把他们送回伯恩。现在开始行动吧。我们没有时间可以浪费。"`
 				accept
 	
 	npc
@@ -2035,10 +2035,10 @@ mission "FW Early Warning 4"
 				"Rainmaker" 2
 	
 	on visit
-		dialog `There are still Navy ships overhead. Staying on <planet> while your allies are dying in orbit would be a very bad idea.`
+		dialog `头顶上仍有海军舰艇。当你的盟友在轨道上死亡时，留在<planet>上将是一个非常糟糕的主意。`
 	on complete
 		event "battle in Wei over"
-		dialog `Although the battle is won, the mood is somber, just as with the first battles of the war. You help the militia tend to the wounded on both sides, caring for the Navy survivors, even on this harsh snowy planet. Within the hour, Free Worlds troop transports arrive to pick them up. As the transports take off, you receive a message from Freya calling you back to Longjump.`
+		dialog `虽然战斗胜利了，但气氛却很沉闷，就像战争的第一场战役一样。你帮助民兵照顾双方的伤员，照顾海军的幸存者，即使是在这个严酷的雪域星球。一小时内，自由世界的运兵车就会来接他们。当运输机起飞时，你收到了芙蕾雅发来的信息，叫你回到长株潭。`
 
 
 
@@ -2059,22 +2059,22 @@ event "battle in Wei over"
 mission "FW Early Warning 5"
 	autosave
 	landing
-	name "Return to <planet>"
-	description "With the battle won, return to <destination> to report to Freya."
+	name "返回<planet>。"
+	description "随着战斗的胜利，返回<destination>向芙蕾雅报告。"
 	source "Hope"
 	destination "Longjump"
 	to offer
 		has "FW Early Warning 4: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 
 
 
 mission "FW Senate Hearing"
 	autosave
 	landing
-	name "Senate Hearing"
-	description "Report to <destination> for a Senate hearing on your recent failure to obey their orders. If you do not arrive by <date>, your service will be terminated."
+	name "参议院听证会"
+	description "到<destination>报到，参加参议院关于你最近不服从他们命令的听证会。如果你在<date>之前没有到达，你的服务将被终止。"
 	source "Longjump"
 	destination "Bourne"
 	deadline 14
@@ -2082,21 +2082,21 @@ mission "FW Senate Hearing"
 		has "FW Early Warning 5: done"
 		has "FW Pirates: Attack 3: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		clear "salary: Free Worlds"
 		conversation
-			`JJ and Freya meet you soon after you land on <origin>. "Great work in the battle, Captain," Freya says. "Unfortunately, we can't delay the outcome of your attack on Greenrock any longer."`
-			`	JJ says, "You have been suspended from your service to the Free Worlds by order of the Free Worlds Council, and are commanded to report to <planet> for a Senate hearing within the next two weeks. There, the Senate will decide your fate. If you do not report for your hearing, your service will be terminated."`
+			`JJ和Freya在你登陆<origin>后不久与你见面。"在战斗中表现出色，船长，"Freya说。"不幸的是，我们不能再拖延你对绿岩的攻击结果了。"`
+			`	JJ说："根据自由世界理事会的命令，你已经被暂停了对自由世界的服务，并被命令在未来两周内到<planet>报到，接受参议院的听证。在那里，参议院将决定你的命运。如果你不去报告听证会，你的服务将被终止。"`
 			choice
-				`	"It's been an honor serving with you."`
-				`	"What's happened to Tomek?"`
+				`	"和你一起服务是我的荣幸。"`
+				`	"托梅克怎么了？"`
 					goto tomek
-			`	"You've been a good soldier," JJ says. "May you return to us in time. Goodbye, Captain."`
+			`	"你一直是个好士兵，"JJ说。"愿你能及时回到我们身边。再见，上尉。"`
 				accept
 			label tomek
-			`	"Tomek is on his way to the Senate right now," Freya says. "He left as soon as the news of the victory arrived. I imagine his Senate hearing will have occurred by the time you reach <planet>." She pauses. "Goodbye, Captain."`
+			`	"托梅克现在正在去参议院的路上，"弗雷亚说。"胜利的消息一到，他就离开了。我想在你到达<planet>时，他的参议院听证会已经发生了。"她停顿了一下。"再见，船长。"`
 				accept
 	
 	on complete
@@ -2104,39 +2104,39 @@ mission "FW Senate Hearing"
 		event "fw stripped of service"
 		set "fw first chapter done"
 		log "Officially censured by the Free Worlds Senate for launching an attack on a pirate world rather than obeying their instructions to seek a diplomatic solution. It may be a while before any further work for the Free Worlds is available."
-		log "People" "Tomek Voigt" `Tomek was removed from the Council and placed under house arrest by the Senate after he disobeyed their orders and captured the pirate world of Greenrock rather than pursue the diplomatic solution that the Senate preferred.`
+		log "People" "Tomek Voigt" `托梅克被参议院从议会中除名并被软禁，因为他不服从他们的命令，占领了海盗世界绿岩，而不是追求参议院喜欢的外交解决方案。`
 		conversation
-			`With some trepidation, you enter the Senate building and introduce yourself to the receptionist. He says, "Please wait here. Someone will come for you when they are ready."`
-			`	Several hours pass. Finally, you are led into the Senate chamber, where several dozen senators sit, each with a name card identifying the world they represent. Senator Huygens of Mere asks the first question. "Captain <last>, is it true that you took part in a recent unauthorized attack on Greenrock in the Shaula system?"`
+			`带着些许恐惧，你进入参议院大楼，向接待员介绍自己。他说："请在这里等候。当他们准备好时，会有人来接你。"`
+			`	几个小时过去了。最后，你被领进了参议院会议厅，那里坐着几十个参议员，每个人都有一张名片，标明他们代表的世界。梅尔的参议员惠更斯提出了第一个问题。"船长<last>，你是否真的参与了最近对Shaula系统的Greenrock的未经授权的攻击？"`
 			choice
-				`	"Yes, that is correct."`
+				`	"是的，这是正确的。"`
 					goto knew
-				`	"I was following orders from Tomek, from the Council."`
-			`	"I didn't ask what your excuse is," she says. "I asked whether you took part in the attack."`
-			`	"Yes, I did," you say.`
+				`	"我是听从托梅克的命令，来自理事会。"`
+			`	"我没有问你的借口是什么，"她说。"我问的是你是否参与了攻击。"`
+			`	"是的，我参加了，"你说。`
 			label knew
-			`	"Were you aware at the time that you were going against the orders of the Senate?"`
+			`	"你当时是否知道你在违背元老院的命令？"`
 			choice
-				`	"Yes."`
+				`	"是的。"`
 					goto reason
-				`	"No, I was led to believe that I was following the Senate's orders."`
-			`	"Interesting," says Arianna. "That's not what Tomek told us. And JJ and Freya both said that you were well aware of the Senate's wishes."`
+				`	"没有，我被引导着相信我是在执行参议院的命令。"`
+			`	"有意思，"阿丽亚娜说。"托梅克不是这样告诉我们的。而JJ和弗雷亚都说，你很清楚参议院的意愿。"`
 			label reason
-			`	One of the other senators, an older man, asks, "Why did you choose to take part in the attack?"`
+			`	其他参议员之一，一个年长的人，问道："你为什么选择参加袭击？"`
 			choice
-				`	"I wanted to do something to end the pirate threat."`
-				`	"I trusted that Tomek would know the best strategy."`
-				`	"I guess I got too caught up in trying to be a hero."`
+				`	"我想做点什么来结束海盗的威胁。"`
+				`	"我相信托梅克会知道最佳策略。"`
+				`	"我想我太沉迷于想成为一个英雄了。"`
 					goto hero
-			`	"And how did that work out?" says the old man. "Shortly after your attack on Greenrock, the Navy made moves to invade us once again, a plan that was no doubt helped by your actions."`
+			`	"那结果如何呢？"老人说。"在你攻击绿岩镇后不久，海军就采取了再次入侵我们的行动，这个计划无疑是由你的行动促成的。"`
 				goto sentence
 			label hero
-			`	"Indeed," says the senator. "And I bet it wasn't long after the battle that you realized saving the galaxy isn't that easy."`
+			`	"的确，"参议员说。"而且我敢打赌，在那场战斗之后不久，你就意识到拯救银河系并不那么容易。"`
 			label sentence
-			`	"I suppose so," you admit.`
-			`	A third senator speaks up, a woman whose name card identifies her as Sara, from Skymoot. "That will be all, Captain <last>. The Senate will confer and decide whether we want your continued services."`
-			`	You are led back out to the lobby, where you wait for what feels like another hour. During that time, you speak with someone else and learn that Tomek has been removed from the Council and put under house arrest. Although interestingly, despite Tomek disobeying orders, the Senate has decided to continue the occupation of Greenrock, at least for now, because it would "dishonor those who lost their lives doing what they believed to be right" to leave the planet so quickly.`
-			`	Finally, a messenger comes and hands you a small slip of paper. You open it. The message reads: "We have decided that you will be suspended without pay and stripped of your rank. When we are in need of your services again, we will contact you, and your rank will be reinstated as the Senate or Council sees fit." It looks like for now, you are back to being a simple merchant captain.`
+			`	"我想是的。"你承认。`
+			`	第三个参议员说话了，一个女人，她的名片显示她是萨拉，来自Skymoot。"就这样吧，船长<last>。元老院将讨论并决定我们是否需要你继续提供服务。"`
+			`	你被带回到大厅，在那里你又等了一个小时。在此期间，你与其他人交谈，得知托梅克已被从议会中除名并被软禁。但有趣的是，尽管托梅克不服从命令，元老院还是决定继续占领绿岩城，至少现在是这样，因为这么快离开这个星球会 "玷污那些为了他们认为正确的事情而丧生的人"。`
+			`	最后，一个信使来了，递给你一张小纸条。你打开它。信息中写道。"我们已经决定，你将被停职停薪，并被剥夺级别。当我们再次需要你的服务时，我们会与你联系，你的级别将在元老院或理事会认为合适时恢复。"看起来现在，你又回到了一个简单的商人船长的身份。`
 
 
 
@@ -2149,8 +2149,8 @@ event "fw stripped of service"
 mission "FW Refinery 1"
 	autosave
 	landing
-	name "Smuggler's Den Repairs"
-	description "Travel to <planet> and pick up a shipment of equipment from the Syndicate for repairing the refinery on Smuggler's Den."
+	name "走私窝修理"
+	description "前往<planet>，从辛迪加那里取回一批设备，用于修理走私者之穴的炼油厂。"
 	source "Longjump"
 	destination "Tundra"
 	clearance
@@ -2158,55 +2158,55 @@ mission "FW Refinery 1"
 		has "FW Early Warning 5: done"
 		has "FW Pirates: Diplomacy 4: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
-			`JJ and Freya meet you soon after you land on <origin>. "Great work in the battle, Captain," Freya says. "Unfortunately, we now need to turn our attention to cleaning up Tomek's mess."`
-			`	"The people of Thule became wary of our deal with them after Tomek's attack on Greenrock," JJ explains. "They feared that they would be next, and that our negotiations with them were just an attempt to get them to distance themselves from what would be their main line of defense."`
-			`	"We have to show them that our offer was genuine," Freya says.`
+			`JJ和Freya在你登陆<origin>后不久就会见到你。"战斗中干得不错，船长。"弗莱亚说。"不幸的是，我们现在需要把注意力转向清理托梅克的烂摊子。"`
+			`	"在托梅克袭击绿岩城之后，图勒的人们对我们与他们的交易产生了警惕，"JJ解释说。"他们担心他们会是下一个，而我们与他们的谈判只是试图让他们远离将成为他们主要防线的东西。"`
+			`	"我们必须向他们表明，我们的提议是真诚的，"弗雷亚说。`
 			choice
-				`	"How are we going to do that?"`
+				`	"我们要怎么做呢？"`
 					goto repairs
-				`	"So what happens to Tomek now?"`
-			`	"Tomek is on his way to Bourne right now," Freya says. "He left as soon as the news of the victory arrived. I imagine we'll know the outcome of his Senate hearing once you've returned from your mission."`
-			`	"What mission?" you ask.`
+				`	"那么托梅克现在会怎么样？"`
+			`	"托梅克现在正在去伯恩的路上，"弗雷亚说。"胜利的消息一到，他就离开了。我想，一旦你完成任务回来，我们就会知道他的参议院听证会的结果。"`
+			`	"什么任务？"你问。`
 			label repairs
-			`	"Well, thanks to you, the Men system is no longer engaged in piracy," says JJ. "And that means the folks on Smuggler's Den are in need of new work. That station used to be a deuterium refinery. With a little work, it can be one, again."`
-			`	"A working refinery could bring more income to that system than piracy ever did, and helping to repair it would show the people of Thule that we mean them no harm," says Freya. "Only problem is, the replacement parts are rare, and hard to come by. The Syndicate agreed to sell us the parts, but only if we meet them halfway, on <planet>. That's in the <system> system. Just one jump away from one of the major new Navy bases."`
+			`	"嗯，多亏了你，门系统不再从事海盗活动了，"JJ说。"这意味着走私者之穴上的人们需要新的工作。那个站曾经是一个氘气提炼厂。只要稍加努力，它就能再次成为一个。"`
+			`	"一个正常的精炼厂可以为该系统带来比海盗行为更多的收入，而且帮助修复它可以向图勒的人们表明我们对他们没有恶意。"弗雷亚说。"唯一的问题是，替换零件很罕见，而且很难得到。辛迪加同意卖给我们零件，但前提是我们要在中途和他们见面，在<planet>上。那是在<system>系统中。离主要的新海军基地之一只有一跳之遥。"`
 			choice
-				`	"We're going to take a supply convoy through Republic space?"`
+				`	"我们要带着补给船队穿过共和国的空间？"`
 					goto convoy
-				`	"How do we know this isn't a trap?"`
-			`	"We don't," says Freya, "but the Syndicate has helped us before, and they are always willing to make deals. I don't think they're ready to give up on the chance to sell their wares to both sides in this war just yet."`
-			`	"Still, how do they expect us to get a convoy safely to Tundra?" you ask`
+				`	"我们怎么知道这不是一个陷阱？"`
+			`	"我们不知道，"芙蕾雅说，"但辛迪加曾经帮助过我们，他们总是愿意做交易。我认为他们还没有准备好放弃向这场战争的双方出售他们的商品的机会。"`
+			`	"不过，他们怎么能指望我们把一个车队安全地送到Tundra？"你问道`
 			label convoy
-			`	"Not a convoy," says JJ. "Just you, Captain. It's only ten tons of spare parts. Your job is to fly to Tundra, retrieve the parts, and return here."`
+			`	"不是车队，"JJ说。"只有你，上尉。这只是十吨的备件。你的任务是飞往苔原，取回零件，然后返回这里。"`
 			choice
-				`	"I'll do my best."`
+				`	"我会尽我所能。"`
 					accept
-				`	"I hope this doesn't turn out to be a suicide mission."`
-			`	"I hope so too," says Freya. "If your ship has enough fuel capacity, you might try flying over to the neutral territory of Dabih or Tarazed, and then up to Cebalrai from there, to avoid the worst of the Navy patrols. Good luck, Captain. If anyone can do it, you can."`
+				`	"我希望这不会变成一项自杀式任务。"`
+			`	"我也希望如此。"弗雷亚说。"如果你的船有足够的燃料容量，你可以试着飞到达比或塔拉泽德的中立领土，然后从那里上到塞巴莱，以避开最糟糕的海军巡逻队。祝你好运，上尉。如果有人能做到这一点，你也可以。"`
 				accept
 
 
 
 mission "FW Refinery 1A"
 	landing
-	name "<planet> Repairs"
-	description "Bring a shipment of special refinery equipment to <destination>."
+	name "<planet>修理"
+	description "将一批特殊的炼油设备带到<destination>。"
 	source "Tundra"
 	destination "Smuggler's Den"
 	cargo "refinery equipment" 10
-	blocked "You have reached <origin>, but you do not have ten tons of cargo space free for the equipment. Return here when you have made more space available."
+	blocked "你已经到达<origin>，但你没有十吨的空余货物空间来放置这些设备。当你腾出更多空间时，请回到这里。"
 	to offer
 		has "FW Refinery 1: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
-			`Your landing site is an abandoned settlement a thousand kilometers from <origin>'s main spaceport. It's an old oil field that ran dry decades ago, and only a few of the landing pads are still usable. The Syndicate employees quickly load the cargo onto your ship, and say, "Now, take off quickly, before the Navy sees us doing business with a ship flying Free Worlds colors."`
+			`你的登陆点是一个废弃的定居点，距离<origin>的主要太空港有一千公里。这是一个几十年前就干涸的老油田，只有几个着陆点还可以使用。辛迪加的员工迅速将货物装上你的飞船，并说："现在，在海军看到我们与一艘悬挂自由世界颜色的飞船做生意之前，迅速起飞。"`
 				launch
 	
 	on visit
@@ -2215,13 +2215,13 @@ mission "FW Refinery 1A"
 		event "wolf pack reveal" 15
 		set "fw first chapter done"
 		log "Brought supplies to Smuggler's Den to help upgrade the station into a working deuterium refinery. No further orders from the Free Worlds, so this might be a good time to find ways to earn more money on the side."
-		log "People" "Tomek Voigt" `Tomek was removed from the Council and placed under house arrest by the Senate after he disobeyed their orders and captured the pirate world of Greenrock rather than pursue the diplomatic solution that the Senate preferred.`
+		log "People" "Tomek Voigt" `托梅克被参议院从议会中除名并被软禁，因为他不服从他们的命令，占领了海盗世界绿岩，而不是追求参议院喜欢的外交解决方案。`
 		conversation
-			`After unloading the supplies, you send Freya and JJ a message letting them know that you arrived safely with the refinery equipment. Locals work alongside Free Worlds militia members to throw out the old, rusted hardware and install the new equipment. It will likely take a few days for everything to get up and running again, but the people of this system seem eager to get back to more honest work.`
-			`	At the end of the day you receive a response from JJ. "Great work, Captain! This gesture will go a long way. With a great blow being dealt to the Navy, I doubt they'll come for us any time soon, and with our relationship with Thule repaired, I'm sure piracy will be at its lowest in years in this region. Thanks to our successes, we don't have any more work for you at the moment. We'll call upon you in the future when you're needed, but in the mean time you could help our officers with the occasional odd job. They've been posting on job boards around the Free Worlds looking for help from militia captains with spare time. Or you could just take time to relax if you need it. War can be taxing on the soul. Rest if you need to.`
-			`	"Before I sign off, I should also mention that I've just learned of the Senate's decision on Tomek. He's been removed from the Council and placed under house arrest until further notice. Furthermore, the Senate has decided that the occupation of Greenrock will continue, at least for now. Although they disagree with Tomek's disobedience, it seems he convinced the Senate during his hearing that holding Greenrock would provide a tactical advantage. Let's pray that this is the right decision to make.`
-			`	"Goodbye, Captain. Stay well."`
-			`	After months of just traveling around following other people's orders, it feels odd to be left to your own devices for a change.`
+			`卸下物资后，你给弗雷亚和JJ发了一条信息，让他们知道你带着炼油厂的设备安全抵达。当地人与自由世界的民兵一起工作，扔掉生锈的旧硬件，安装新设备。一切都可能需要几天时间才能重新启动和运行，但这个系统的人们似乎渴望回到更诚实的工作中去。`
+			`	在一天结束时，你收到了JJ的回复。"干得好，队长！"。这个姿态会有很大的作用。由于海军受到了巨大的打击，我怀疑他们很快就会来找我们，而且随着我们与遒力的关系得到修复，我相信这个地区的海盗活动将达到多年来的最低点。由于我们的成功，我们目前没有更多的工作给你。将来需要你的时候我们会找你，但同时你可以帮助我们的官员偶尔打打杂。他们已经在自由世界的招聘网站上发布了招聘信息，寻找有空闲时间的民兵队长的帮助。或者，如果你需要的话，你可以花时间来放松。战争可能会对灵魂造成负担。如果你需要，就休息吧。`
+			`	"在我签字之前，我还应该提到，我刚刚得知参议院对托梅克的决定。他已被从议会中除名，并被软禁起来，等待进一步通知。此外，元老院已经决定，对绿岩镇的占领将继续下去，至少在目前。虽然他们不同意托梅克的不服从，但似乎他在听证会上说服了参议院，认为占领格林罗克会带来战术优势。让我们祈祷这是个正确的决定吧。`
+			`	"再见，上尉。保持良好的状态。"`
+			`	在几个月的时间里，你一直听从别人的命令四处奔波，这让你感到很奇怪，因为你要自己去改变。`
 
 
 
@@ -2239,18 +2239,18 @@ mission "FW Rogue Elements"
 	on offer
 		event "navy occupying the south" 45
 		conversation
-			`After you land, you notice that a sizeable crowd has gathered around a video screen near the edge of the <origin> spaceport. You approach to find out what's going on. You're about to ask someone what's happening when you overhear Tomek's voice coming from screen. You look up to see a video of Tomek standing atop a Free Worlds warship and addressing an unseen crowd.`
-			`	"For generations we have been neglected by the Republic!" he shouts. "Our grievances were ignored! Our pain and suffering was ignored! Our needs were ignored! We cried out for help, and yet the Republic did nothing, allowing our planets to be ravaged by piracy while continuing to tax our credits for services we were not provided. And as the years have gone on the pirates have only become more and more emboldened.`
-			`	"We tried our best, even with the system stacked against us. Councilor Katya Reynolds and others like her spoke on the behalf of billions within the South, Rim, and Dirt Belt. On behalf of us. On behalf of our brothers and sisters, our fathers and mothers, our sons and daughters. And they spat in her face! And when they did that, they spat in our faces!`
-			`	"And so we banded together. Friends and family locked in arms, doing that which the Republic would not. We looked out for each other, and raised our own defenses against the piracy that we so feared. And then we stood up together and told the Republic that we would take their neglect no longer. We shouted that the system does not work, and so we will create our own! We, with the sweat, blood, and tears of generations, birthed these Free Worlds!`
-			`	"And how does the Republic respond to this? They have finally given us the attention we've asked, but not in the form we desired. They have attacked us! Waged war on us! And in doing so, Katya has become a prisoner of war, held for crimes she did not commit by a system that did not listen to her despite her greatest attempts to be heard."`
+			`在你着陆后，你注意到有相当多的人聚集在<origin>太空港边缘的一个视频屏幕周围。你走近一看，发现发生了什么事。你正准备问别人发生了什么事时，你听到屏幕上传来托梅克的声音。你抬头看到一段视频，托梅克站在自由世界的战舰上，向看不见的人群讲话。`
+			`	"几代人以来，我们都被共和国忽视了！"他喊道。"我们的不满被忽视了!我们的痛苦和折磨被忽视了！我们的需求被忽视了！"。我们的需求被忽视了！"。我们大声呼救，而共和国却无动于衷，任由我们的星球被海盗蹂躏，同时继续向我们的信用额度征税，不给我们提供服务。而随着时间的推移，海盗们只会变得越来越有恃无恐。`
+			`	"我们尽力了，即使系统对我们不利。卡蒂亚-雷诺兹议员和其他像她一样的人代表南方、边缘和泥土地带的数十亿人发言。代表我们。代表我们的兄弟姐妹，我们的父亲和母亲，我们的儿子和女儿。而他们却在她的脸上吐口水当他们这样做的时候，他们在我们的脸上吐口水!`
+			`	"因此，我们团结起来。朋友和家人紧紧抱在一起，做着共和国不愿意做的事情。我们互相照应，提高我们自己的防御能力，以抵御我们所担心的海盗行为。然后我们一起站起来，告诉共和国，我们将不再接受他们的忽视。我们大声疾呼，这个系统不起作用，所以我们将创造我们自己的系统！我们，用汗水、鲜血和生命创造了我们自己。我们，用几代人的汗水、鲜血和泪水，孕育了这些自由世界！"。`
+			`	"而共和国对此有何回应？他们终于给了我们所要求的关注，但不是以我们期望的形式。他们攻击了我们！对我们发动了战争对我们发动了战争!在这样做的过程中，卡蒂亚成了战俘，因为她没有犯下的罪行而被一个不听她说话的系统关押着，尽管她最大的努力是想让别人听到她的声音。"`
 			choice
-				`	"Is this live?"`
-				`	"What's happening?"`
-			`	"I don't know," a man next to you says. "It was playing the news like usual when suddenly this came on."`
-			`	You look back up to Tomek. "Yet even now our struggle does not end. Our new system is already beginning to fail us. I tell you now that the Free Worlds Senate has decided that instead of fighting piracy, they will negotiate with them instead! They will attempt to negotiate with those most known in this galaxy for lying and backstabbing and swindling. Those most known for not following the laws of the Republic, and who will undoubtedly refuse to follow the laws of these Free Worlds.`
-			`	"And so I make my plea to you, to those who fight for those who cannot, to join me in arms to give the pirates what they rightfully deserve! For inflicting so much pain upon us! For enslaving and killing our friends and family! For ruining our lives and businesses! For making us live in terror and fear! Who will join me to put an end to it all?"`
-			`	The crowd on the video can be heard cheering, and some of the crowd around you even cheers along with them.`
-			`	The screen then changes from the video of Tomek to a picture of a news clipping talking about Tomek's house arrest, with words flashing on the screen: "He fought for us, and for that they put him down." A symbol of three green wolves howling at a full moon appears, then the screen fades to black. A few seconds later the recording repeats, showing Tomek stepping up onto the top of a Free Worlds warship. "Captains and crew of the Free Worlds. Merchants of the Free Worlds. People of the Free Worlds. Please give me your attention. I have a plea, a cry for help that has gone unanswered.`
-			`	"For generations we have been neglected by the Republic! Our grievances..." The video continues as you saw it. You leave the crowd, not quite sure what to make of this situation.`
+				`	"这是直播吗？"`
+				`	"发生了什么？"`
+			`	"我不知道，"你旁边的一个人说。"它正像往常一样播放新闻，突然出现了这个。"`
+			`	你回头看了看托梅克。"然而，即使现在我们的斗争也没有结束。我们的新系统已经开始让我们失望了。我现在告诉你，自由世界的元老院已经决定，与其打击海盗，不如与他们谈判！他们将试图与这些人谈判。他们将试图与那些在这个星系中最出名的说谎、背信弃义和诈骗的人进行谈判。这些人因不遵守共和国的法律而闻名，而且毫无疑问，他们将拒绝遵守这些自由世界的法律。`
+			`	"因此，我向你们发出请求，向那些为不能战斗的人发出请求，和我一起拿起武器，让海盗们得到他们应得的东西！"。因为他们给我们带来了如此多的痛苦！因为他们奴役和杀害我们的朋友。奴役和杀害我们的朋友和家人!毁了我们的生活和事业！让我们生活在恐怖和恐惧之中。让我们生活在恐怖和恐惧之中!谁愿意和我一起结束这一切？"`
+			`	可以听到视频中的人群在欢呼，周围的一些人群甚至也跟着一起欢呼。`
+			`	随后，屏幕从托梅克的视频变成了一张谈论托梅克被软禁的新闻剪报图片，屏幕上闪烁着字样。"他为我们而战，为此他们把他放倒了。"一个三只绿狼对着满月嚎叫的符号出现，然后屏幕渐渐变黑。几秒钟后，录音重复出现，显示托梅克走上了自由世界战舰的顶部。"自由世界的船长和船员。自由世界的商人。自由世界的人民。请关注我。我有一个恳求，一个一直没有得到回应的帮助的呼声。`
+			`	"几代人以来，我们一直被共和国忽视！我们的不满......我们的冤屈......"视频继续进行，就像你看到的那样。你离开人群，不太清楚该如何看待这种情况。`
 				decline

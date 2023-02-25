@@ -45,7 +45,7 @@ ship "Earth Shaper"
 	engine 9 30
 	explode "tiny explosion" 20
 	explode "small explosion" 10
-	description "The Earth Shaper is a robotic drone that the Wanderers use for mining, exploring, surveying, and terraforming."
+	description "地球塑造者是一种机器人无人机，流浪者用于采矿、探索、勘测和地形改造。"
 
 
 
@@ -83,8 +83,8 @@ ship "Flycatcher"
 	turret 0 4
 	explode "tiny explosion" 30
 	explode "small explosion" 20
-	description "Flycatcher drones are used by the Wanderers to keep their star systems safe. Rather than carrying weapons of its own, a stock Flycatcher just carries an anti-missile turret for defending other ships."
-	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+	description "飞鸟无人机被流浪者用来保持他们的星系安全。一个库存的捕蝇者没有携带自己的武器，而只是携带一个反导弹炮塔，用于防御其他船只。"
+	description "	无人机并不配备超光速引擎。除非你的舰队里有一艘带有无人机舱的飞船，否则你无法携带无人机。"
 
 
 
@@ -134,7 +134,7 @@ ship "Summer Leaf"
 	explode "small explosion" 20
 	explode "medium explosion" 10
 	"final explode" "final explosion small"
-	description "The Summer Leaf is mostly used by the Wanderers as a light transport, but it is also quite effective in combat."
+	description "夏叶号主要被漫游者用作轻型运输工具，但它在战斗中也相当有效。"
 
 
 
@@ -185,7 +185,7 @@ ship "Autumn Leaf"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description "The Autumn Leaf is based on the Wanderer Summer Leaf light warship, but slightly larger and better equipped for combat. Unlike Wanderer peacetime ships, it is equipped with a turret mount in addition to the ports for fixed guns."
+	description "秋叶号是以漫游者夏叶号轻型战舰为基础，但稍大一些，战斗装备更好。与漫游者和平时期的战舰不同，它除了固定炮的端口外，还配备了一个炮塔座。"
 
 ship "Autumn Leaf" "Autumn Leaf (Heavy)"
 	outfits
@@ -255,7 +255,7 @@ ship "Strong Wind"
 	explode "medium explosion" 40
 	explode "large explosion" 20
 	"final explode" "final explosion medium"
-	description "The Strong Wind was originally designed for science and exploration, but recently the Wanderers have modified the design to allow it to be used as a warship."
+	description "强风号最初是为科学和探索而设计的，但最近漫游者修改了设计，使其可以作为战舰使用。"
 
 
 
@@ -312,7 +312,7 @@ ship "Tempest"
 	explode "medium explosion" 50
 	explode "large explosion" 25
 	"final explode" "final explosion medium" 1
-	description "In response to the Unfettered invasion, the Wanderers have begun digging up ancient warship designs from their archives and putting them back into production. The Tempest is the first purpose-built warship they have manufactured in tens of thousands of years."
+	description "为了应对不受约束的入侵，流浪者已经开始从他们的档案中挖掘出古老的战舰设计，并将其重新投入生产。暴风雨号是他们几万年来制造的第一艘专门的战舰。"
 
 ship "Tempest" "Tempest (Heavy)"
 	outfits
@@ -442,7 +442,7 @@ ship "Derecho"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large" 1
-	description "Like a latent gene waiting to express itself, the knowledge of how to wage war in space has been passed down through hundreds of generations of Wanderers. Based on one of their ancient designs, the Derecho has a mixture of agility and raw firepower that is well-suited to their present, rapidly changing situation."
+	description `就像一个等待表达自己的潜在基因，如何在太空中发动战争的知识已经通过几百代流浪者传了下来。基于他们古老的设计之一，"德雷克 "号混合了敏捷性和原始火力，很适合他们目前快速变化的情况。`
 
 ship "Derecho" "Derecho (Turret)"
 	outfits
@@ -571,7 +571,7 @@ ship "Hurricane"
 	explode "large explosion" 70
 	explode "huge explosion" 30
 	"final explode" "final explosion large" 1
-	description "The Hurricane is not built for speed, elegance, or versatility, but for one simple purpose: to be durable enough to serve as a rearguard, absorbing an enemy's attacks for long enough to allow the fleet it is guarding to escape."
+	description "飓风号不是为了速度、优雅或多功能而建造的，而是为了一个简单的目的：足够耐用，可以作为后卫，在足够长的时间内吸收敌人的攻击，让它所守卫的舰队能够逃脱。"
 
 ship "Hurricane" "Hurricane (Turret)"
 	outfits
@@ -694,7 +694,7 @@ ship "Cool Breeze"
 	explode "tiny explosion" 30
 	explode "small explosion" 10
 	"final explode" "final explosion small"
-	description "This is the first ship the Wanderers have built in millennia that is designed to be operated by a single pilot instead of a crew. They are flown mostly by young warriors eager to prove their mettle by winning individual glory in battle."
+	description "这是几千年来流浪者建造的第一艘船，其设计是由一名飞行员而不是船员来操作。驾驶它们的大多是年轻的战士，他们渴望通过在战斗中赢得个人荣誉来证明自己的能力。"
 
 ship "Cool Breeze" "Cool Breeze (Sunbeam)"
 	outfits
@@ -760,7 +760,7 @@ ship "Winter Gale"
 	explode "small explosion" 40
 	explode "medium explosion" 30
 	"final explode" "final explosion medium"
-	description "The Winter Gale was designed by the Wanderers as a hardier and better-armed alternative to their existing light patrol ships. The Gale's large number of weapon hardpoints makes it flexible enough to reconfigure for facing a wide variety of enemies."
+	description "冬风号是由流浪者设计的，作为他们现有的轻型巡逻舰的一个更坚固和更好的武器的替代品。烈风号的大量武器硬点使它能够灵活地重新配置，以面对各种各样的敌人。"
 
 ship "Winter Gale" "Winter Gale (Heavy)"
 	outfits
@@ -864,7 +864,7 @@ ship "Deep River"
 	explode "large explosion" 30
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "The Deep River is a modular freighter, designed to carry cargo in detachable pods."
+	description "深河号是一艘模块化的货船，被设计成用可拆卸的吊舱装载货物。"
 
 ship "Deep River" "Deep River 0"
 	sprite "ship/deep river 0"
@@ -949,7 +949,7 @@ ship "Deep River Transport"
 	explode "large explosion" 30
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "This is a Deep River freighter that has been converted into a transport ship for refugees."
+	description "这是一艘被改装成难民运输船的深河号货船。"
 
 
 
@@ -1000,4 +1000,4 @@ ship "Riptide"
 	explode "medium explosion" 40
 	explode "large explosion" 20
 	"final explode" "final explosion medium"
-	description "The Riptide is a dedicated transport ship meant to replace the temporary Deep River freighters that were converted into transport ships for refugee evacuation. Although not as durable as the Deep River, the Riptide is far more nimble of a ship while at the same time being able to carry more passengers."
+	description "激流号是一艘专门的运输船，意在取代临时性的深河号货船，这些货船被改装成用于难民疏散的运输船。虽然没有深河号那么耐用，但激流号的船身要灵活得多，同时也能搭载更多乘客。"

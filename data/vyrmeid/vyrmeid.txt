@@ -51,7 +51,7 @@ ship "Vyrmeid"
 	"gun" 0 -3
 	"leak" "blood" 1 2
 	"final explode" "blood"
-	description `These are tiny space creatures that feed on solar energy, storing it into two receptors found at the front of their bodies. They are extremely docile, and are found in large groups, almost never seen alone.`
+	description `这是一种微小的太空生物，以太阳能为食，将其储存在身体前端的两个受体中。它们非常温顺，在大群中被发现，几乎从未单独出现。`
 
 outfit "Plankton Mouth"
 	category "Guns"
@@ -104,7 +104,7 @@ ship "Vyrmeid" "Vyrmeid (B)"
 		"Boomerang Organ"
 	"leak" "blood" 2 3
 	"final explode" "blood"
-	description `Oddly shaped like a boomerang, these space creatures are in a constant rotary motion caused by a small internal organ. The motion provides a natural defense against small debris and projectiles that threaten to intercept the creature, which is harmless otherwise.`
+	description `这些太空生物的形状很奇怪，像回旋镖一样，由一个小型的内部器官引起持续的旋转运动。这种运动提供了一种天然的防御手段，可以抵御威胁拦截这种生物的小碎片和投射物，否则它是无害的。`
 
 outfit "Boomerang Organ"
 	category "Turrets"
@@ -160,7 +160,7 @@ ship "Vyrmeid" "Vyrmeid (C)"
 			"piercing" 0.1
 	explode "flamethrower die" 1
 	"final explode" "fission explosion"
-	description `This species of space life is found around hotter stars and feeds on solar energy, storing it in four organs that give off the appearance of eyes. Due to all of the internal energy and pressure, these creatures explode violently upon death, which may surprise aggressors.`
+	description `这种太空生物被发现在较热的恒星周围，以太阳能为食，将其储存在四个器官中，发出眼睛的样子。由于所有的内部能量和压力，这些生物在死后会发生剧烈的爆炸，这可能会使侵略者感到惊讶。`
 
 effect "fission explosion"
 	sprite "effect/explosion/nuke"
@@ -230,7 +230,7 @@ ship "Astral Cetacean"
 	leak "blood" 60 60
 	explode "blood" 160
 	"final explode" "blood"
-	description `Only few captains have had the chance to observe this illustrious creature. Its natural attenuation to the depths of space allows it to travel beyond where most ships are able, and its appearance reflects both the beauty and mystery of the void itself.`
+	description `只有少数舰长有机会观察这种杰出的生物。它对空间深处的自然衰减使它能够超越大多数船只的能力，其外观反映了虚空本身的美丽和神秘。`
 
 outfit "Astral Mouth"
 	category "Guns"

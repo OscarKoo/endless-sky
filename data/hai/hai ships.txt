@@ -39,8 +39,8 @@ ship "Aphid"
 		"Sand Cell" 2
 		"Hai Fissure Batteries"
 		"Hai Corundum Regenerator"
-		`"Basrem" Atomic Thruster`
-		`"Basrem" Atomic Steering`
+		`"Basrem "原子推进器`
+		`"巴斯雷姆 "原子转向器`
 		"Hyperdrive"
 	engine -8 40
 	engine 8 40
@@ -49,7 +49,7 @@ ship "Aphid"
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	explode "medium explosion" 15
-	description "The Aphid is the lightest freighter used by the Hai and was for many millennia the backbone of the Hai interplanetary economy. Because of how peaceful Hai space has been for much of its history, Aphids only come with basic defenses as stock, and rely on larger Hai ships for more serious protection."
+	description "蚜虫号是海族使用的最轻的货船，在许多千年里是海族星际经济的骨干。由于海族历史上大部分时间都是和平的，蚜虫号只配备了基本的防御系统，而依靠更大的海族船只来提供更严重的保护。"
 
 ship "Aphid" "Aphid (Armed)"
 	outfits
@@ -60,8 +60,8 @@ ship "Aphid" "Aphid (Armed)"
 		"Hai Williwaw Cooling"
 		"Quantum Keystone"
 		"Pulse Rifle"
-		`"Benga" Atomic Thruster`
-		`"Benga" Atomic Steering`
+		`"Benga "原子推进器`
+		`"本加 "原子转向器`
 		"Hyperdrive"
 
 ship "Aphid" "Aphid (Unfettered)"
@@ -74,8 +74,8 @@ ship "Aphid" "Aphid (Unfettered)"
 		"Small Bunk Room"
 		"Quantum Keystone"
 		"Pulse Rifle"
-		`"Basrem" Atomic Steering`
-		`"Basrem" Atomic Thruster`
+		`"巴斯雷姆 "原子转向器`
+		`"Basrem "原子推进器`
 		"Hyperdrive"
 
 
@@ -113,9 +113,9 @@ ship "Centipede"
 		"Hai Cuttlefish Jammer" 2
 		"Luxury Accommodations"
 		"Quantum Keystone"
-		`"Biroo" Atomic Thruster`
-		`"Biroo" Atomic Steering`
-		`"Basrem" Atomic Steering`
+		`"Biroo "原子推进器`
+		`"Biroo "原子转向器`
+		`"巴斯雷姆 "原子转向器`
 		Hyperdrive
 		
 	engine -15 113
@@ -133,7 +133,7 @@ ship "Centipede"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description `The introduction of humans to the Hai civilization has led to a substantial amount of cultural exchange. While some may argue that pickled acorns have been the greatest product of this relationship, many more will point to this luxury transport ship. The product of human-Hai cooperation from the project's inception, the Centipede was released around the turn of the 31st century, but has already become quite popular among Hai fleets.`
+	description `人类对海族文明的引入，导致了大量的文化交流。虽然有些人可能认为腌制的橡子是这种关系的最大产物，但更多的人将指出这艘豪华运输船。作为人类与海族合作的产物，蜈蚣号在31世纪初发布，但已经在海族舰队中相当受欢迎。`
 
 ship "Centipede" "Centipede (Pulse)"
 	outfits
@@ -147,9 +147,9 @@ ship "Centipede" "Centipede (Pulse)"
 		"Luxury Accommodations"
 		"Quantum Keystone"
 		"Pulse Rifle" 24
-		`"Biroo" Atomic Thruster`
-		`"Basrem" Atomic Steering`
-		`"Biroo" Atomic Steering`
+		`"Biroo "原子推进器`
+		`"巴斯雷姆 "原子转向器`
+		`"Biroo "原子转向器`
 		Hyperdrive
 
 ship "Centipede" "Centipede (Durable)"
@@ -157,15 +157,15 @@ ship "Centipede" "Centipede (Durable)"
 		Hyperdrive
 		"Outfits Expansion"
 		"Quantum Keystone"
-		`"Basrem" Atomic Steering`
+		`"巴斯雷姆 "原子转向器`
 		"Bullfrog Anti-Missile" 3
 		"Tracker Storage Pod" 2
 		"Hai Tracker Pod" 2
-		`"Biroo" Atomic Steering`
+		`"Biroo "原子转向器`
 		"Hai Gorge Batteries"
 		"Hai Williwaw Cooling" 3
 		"Hai Tracker" 168
-		`"Biroo" Atomic Thruster`
+		`"Biroo "原子推进器`
 		"Boulder Reactor"
 		"Hai Diamond Regenerator"
 
@@ -176,15 +176,15 @@ ship "Centipede" "Centipede (Refugees)"
 		Hyperdrive
 		"Outfits Expansion"
 		"Quantum Keystone"
-		`"Basrem" Atomic Steering`
+		`"巴斯雷姆 "原子转向器`
 		"Bullfrog Anti-Missile" 3
 		"Tracker Storage Pod" 2
 		"Hai Tracker Pod" 2
-		`"Biroo" Atomic Steering`
+		`"Biroo "原子转向器`
 		"Hai Gorge Batteries"
 		"Hai Williwaw Cooling" 3
 		"Hai Tracker" 168
-		`"Biroo" Atomic Thruster`
+		`"Biroo "原子推进器`
 		"Boulder Reactor"
 		"Hai Diamond Regenerator"
 		"Pulse Rifle" 35
@@ -225,8 +225,8 @@ ship "Cicada"
 		"Hai Diamond Regenerator"
 		"Hai Williwaw Cooling"
 		"Quantum Keystone"
-		`"Benga" Atomic Thruster`
-		`"Benga" Atomic Steering`
+		`"Benga "原子推进器`
+		`"本加 "原子转向器`
 		"Hyperdrive"
 	engine -6 75
 	engine 6 75
@@ -243,7 +243,7 @@ ship "Cicada"
 	explode "large explosion" 16
 	explode "huge explosion" 4
 	"final explode" "final explosion medium"
-	description `A design nearly as old as the Aphid, practically no new Cicadas have been built in recent memory; it is so reliable that the second-hand market is saturated Cicadas that have outlived not just one pilot, but in many cases multiple whole lineages of Hai that have owned one and passed it down through the generations. This feature is likely the main factor which has kept the popularity of the Scarab in check as well as defining the Yeer e Ki shipyard's motto: "Service for Life".`
+	description `这种设计几乎和蚜虫一样古老，在最近的记忆中几乎没有新的蜈蚣号被制造出来；它是如此可靠，以至于二手市场上的蜈蚣号已经饱和，不仅是一个飞行员，而且在许多情况下，多个海族的整个家族都拥有一个，并通过几代人的努力将它传承下去。这一特点可能是保持 "疤痕 "号受欢迎程度的主要因素，也是Yeer e Ki船厂的座右铭："终身服务"。`
 
 
 
@@ -272,7 +272,7 @@ ship "Flea"
 		"Railgun Slug" 3000
 		"Sand Cell"
 		"Supercapacitor" 2
-		`"Baellie" Atomic Engines`
+		`"Baellie "原子发动机`
 
 	engine 0 27 1.4
 	gun 0 -27 "Railgun"
@@ -280,15 +280,15 @@ ship "Flea"
 	gun 0 -27 "Railgun"
 	leak "leak" 60 50
 	explode "tiny explosion" 15
-	description `This combat drone is built to amplify the strength of any combat force for as few credits as possible. It was designed in conjunction with the tactical recoil of the Railgun to allow it to kite its targets, prolonging its combat efficacy while it supports its allies with debilitating ion damage.`
-	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+	description `这种战斗无人机是为了以尽可能少的信用额度放大任何战斗力而制造的。它的设计与轨道枪的战术后坐力相结合，使其能够风筝目标，延长其战斗力，同时用衰弱的离子伤害支持其盟友。`
+	description "	无人机并不配备超光速引擎。除非你的舰队里有一艘带有无人机舱的飞船，否则你无法携带无人机。"
 
 ship "Flea" "Flea (Pulse)"
 	outfits
 		"Pulse Cannon"
 		"Sand Cell"
 		"Supercapacitor" 2
-		`"Baellie" Atomic Engines`
+		`"Baellie "原子发动机`
 
 ship "Geocoris"
 	plural "Geocoris"
@@ -323,9 +323,9 @@ ship "Geocoris"
 		"Hai Valley Batteries"
 		"Hai Diamond Regenerator"
 		"Hai Williwaw Cooling" 4
-		`"Biroo" Reverse Thruster`
-		`"Biroo" Atomic Thruster`
-		`"Bondir" Atomic Steering`
+		`"Biroo" 反向推进器`
+		`"Biroo "原子推进器`
+		`"邦迪尔 "原子转向器`
 		Hyperdrive
 
 	engine 100 39
@@ -346,7 +346,7 @@ ship "Geocoris"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "After large human freighters began to out-compete traditionally smaller Hai ships, the Hai responded by developing the Geocoris: a heavy freighter that surpassed anything humanity had to offer at the time."
+	description "在人类的大型货船开始超越传统的小型海族船之后，海族以开发Geocoris作为回应：一种重型货船，超越了当时人类所能提供的一切。"
 
 ship "Geocoris" "Geocoris (Tracker)"
 	outfits
@@ -363,8 +363,8 @@ ship "Geocoris" "Geocoris (Tracker)"
 		"Tracker Storage Pod" 3
 		"Quantum Keystone"
 		"Pulse Rifle" 14
-		`"Biroo" Atomic Thruster`
-		`"Bondir" Atomic Steering`
+		`"Biroo "原子推进器`
+		`"邦迪尔 "原子转向器`
 		Hyperdrive
 
 
@@ -400,8 +400,8 @@ ship "Grasshopper"
 		"Hai Williwaw Cooling"
 		"Quantum Keystone"
 		"Pulse Rifle"
-		`"Benga" Atomic Thruster`
-		`"Benga" Atomic Steering`
+		`"Benga "原子推进器`
+		`"本加 "原子转向器`
 		Hyperdrive
 
 	engine 0 36
@@ -412,7 +412,7 @@ ship "Grasshopper"
 	explode "small explosion" 20
 	explode "medium explosion" 5
 	"final explode" "final explosion small"
-	description "Designed by the Hai to serve as a fast reconnaissance craft, the Grasshopper has been adopted by thrill-seekers and miners alike. At the same time, it is often used by Hai captains who are looking for effective protection at a low cost."
+	description "蚱蜢号被海族设计为快速侦查船，已被寻求刺激的人和矿工所采用。同时，它也经常被那些希望以低成本获得有效保护的海族船长所使用。"
 
 ship "Grasshopper" "Grasshopper (Tracker)"
 	outfits
@@ -424,8 +424,8 @@ ship "Grasshopper" "Grasshopper (Tracker)"
 		"Hai Williwaw Cooling" 2
 		"Quantum Keystone"
 		"Pulse Rifle"
-		`"Basrem" Atomic Thruster`
-		`"Basrem" Atomic Steering`
+		`"Basrem "原子推进器`
+		`"巴斯雷姆 "原子转向器`
 		Hyperdrive
 
 ship "Grasshopper" "Grasshopper (Surveillance)"
@@ -440,8 +440,8 @@ ship "Grasshopper" "Grasshopper (Surveillance)"
 		"Hai Williwaw Cooling" 2
 		"Quantum Keystone"
 		"Pulse Rifle"
-		`"Benga" Atomic Thruster`
-		`"Benga" Atomic Steering`
+		`"Benga "原子推进器`
+		`"本加 "原子转向器`
 		Hyperdrive
 
 ship "Grasshopper" "Grasshopper (Ion)"
@@ -453,8 +453,8 @@ ship "Grasshopper" "Grasshopper (Ion)"
 		"Hai Corundum Regenerator"
 		"Quantum Keystone"
 		"Pulse Rifle"
-		`"Benga" Atomic Steering`
-		`"Benga" Atomic Thruster`
+		`"本加 "原子转向器`
+		`"Benga "原子推进器`
 		Hyperdrive
 
 
@@ -491,8 +491,8 @@ ship "Lightning Bug"
 		"Hai Williwaw Cooling"
 		"Quantum Keystone"
 		"Pulse Rifle" 2
-		`"Benga" Atomic Thruster`
-		`"Biroo" Atomic Steering`
+		`"Benga "原子推进器`
+		`"Biroo "原子转向器`
 		"Hyperdrive"
 
 	engine -40 22
@@ -507,7 +507,7 @@ ship "Lightning Bug"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion small"
-	description "The Lightning Bug is a small defensive ship, mostly used by the Hai as a convoy escort. The Lightning Bug, as with many insects, works best in a swarm: even a small number of Lightning Bugs can manage to leave the largest of ships helpless with their stock-fitted Ion Cannons."
+	description `闪电虫 "是一种小型的防御性舰艇，大多被海族用作护航船队。就像许多昆虫一样，闪电虫在一群中工作得最好：即使是少量的闪电虫也能设法让最大的船只对其配备的离子炮束手无策。`
 
 ship "Lightning Bug" "Lightning Bug (Pulse)"
 	outfits
@@ -518,8 +518,8 @@ ship "Lightning Bug" "Lightning Bug (Pulse)"
 		"Hai Gorge Batteries"
 		"Hai Corundum Regenerator"
 		"Pulse Rifle" 2
-		`"Biroo" Atomic Thruster`
-		`"Benga" Atomic Steering`
+		`"Biroo "原子推进器`
+		`"本加 "原子转向器`
 		"Hyperdrive"
 
 ship "Lightning Bug" "Lightning Bug (Surveillance)"
@@ -535,8 +535,8 @@ ship "Lightning Bug" "Lightning Bug (Surveillance)"
 		"Hai Gorge Batteries"
 		"Hai Corundum Regenerator"
 		"Pulse Rifle" 2
-		`"Benga" Atomic Thruster`
-		`"Benga" Atomic Steering`
+		`"Benga "原子推进器`
+		`"本加 "原子转向器`
 		"Hyperdrive"
 
 ship "Lightning Bug" "Lightning Bug (Unfettered Shipyards)"
@@ -551,8 +551,8 @@ ship "Lightning Bug" "Lightning Bug (Unfettered Shipyards)"
 		"Sand Cell"
 		"Hai Gorge Batteries"
 		"Pulse Rifle" 6
-		`"Benga" Atomic Thruster`
-		`"Biroo" Atomic Steering`
+		`"Benga "原子推进器`
+		`"Biroo "原子转向器`
 		"Hyperdrive"
 
 
@@ -605,8 +605,8 @@ ship "Ladybug"
 		"Boulder Reactor"
 		"Pulse Rifle" 7
 		
-		`"Bondir" Atomic Steering`
-		`"Biroo" Atomic Thruster`
+		`"邦迪尔 "原子转向器`
+		`"Biroo "原子推进器`
 		"Hyperdrive"
 
 	gun 0 -69.5 "Hai Tracker Pod"
@@ -622,8 +622,8 @@ ship "Ladybug"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "These sensor-laden exploration vessels hail back to a more peaceful era of the Hai. Though they have no true ramscoop, a technology the Hai never developed, their built-in collection gills magnify the natural ramscoop present in all ships. These expensive features are the reason the ship has been replaced with the Lightning Bug."
-	description "However, this ship has seen combat in recent years against human pirates. With room for plentiful shield regeneration, good maneuverability, and the range to strike deep in pirate territory, their long sleep has ended."
+	description "这些装满传感器的探索船可以追溯到海的一个更和平的时代。虽然它们没有真正的冲压舱，海族从未开发过这种技术，但它们内置的收集鳃放大了所有船只中存在的天然冲压舱。这些昂贵的功能是该船被替换成闪电虫的原因。"
+	description "然而，这艘船近年来在与人类海盗的战斗中出现过。有了充裕的护盾再生空间，良好的机动性，以及深入海盗领地的打击范围，他们的长眠已经结束。"
 
 ship "Ladybug" "Ladybug (Three Ion)"
 	outfits
@@ -638,8 +638,8 @@ ship "Ladybug" "Ladybug (Three Ion)"
 		"Boulder Reactor"
 		"Pulse Rifle" 7
 		
-		`"Bondir" Atomic Steering`
-		`"Biroo" Atomic Thruster`
+		`"邦迪尔 "原子转向器`
+		`"Biroo "原子推进器`
 		"Hyperdrive"
 	gun "Ion Cannon"
 	gun "Ion Cannon"
@@ -660,8 +660,8 @@ ship "Ladybug" "Ladybug (Pulse)"
 		"Boulder Reactor"
 		"Pulse Rifle" 7
 		
-		`"Bondir" Atomic Steering`
-		`"Biroo" Atomic Thruster`
+		`"邦迪尔 "原子转向器`
+		`"Biroo "原子推进器`
 		"Hyperdrive"
 	gun "Pulse Cannon"
 	gun "Pulse Cannon"
@@ -683,9 +683,9 @@ ship "Ladybug" "Ladybug (Tracker)"
 		"Boulder Reactor"
 		"Pulse Rifle" 7
 		
-		`"Basrem" Atomic Steering`
-		`"Biroo" Atomic Steering`
-		`"Bondir" Atomic Thruster`
+		`"巴斯雷姆 "原子转向器`
+		`"Biroo "原子转向器`
+		`"邦迪尔 "原子推进器`
 		"Hyperdrive"
 	gun "Hai Tracker Pod"
 	gun "Hai Tracker Pod"
@@ -731,8 +731,8 @@ ship "Pond Strider"
 		"Hai Williwaw Cooling" 2
 		"Quantum Keystone"
 		"Pulse Rifle" 9
-		`"Basrem" Atomic Thruster`
-		`"Biroo" Atomic Steering`
+		`"Basrem "原子推进器`
+		`"Biroo "原子转向器`
 		"Hyperdrive"
 		
 	engine -23 80
@@ -768,7 +768,7 @@ ship "Pond Strider"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Hai upgraded their original Pond Strider after acquiring hull repair technology through alien diplomacy. These improvements have greatly reduced casualties in their conflict with the Unfettered, since the light Pond Striders become vulnerable as they collect damaged drones. Besides enabling the ship to repair damaged drones, the Hai have cleverly innovated the Railgun to make the Pond Strider and Fleas into very efficient combat support for their fleets."
+	description "海族在通过外星外交获得船体修复技术后，对他们原来的庞迪尔号进行了升级。这些改进大大减少了他们与不羁者的冲突中的伤亡，因为轻型池塘黾勉在收集损坏的无人机时变得脆弱。除了使该舰能够修复受损的无人机，海族还巧妙地创新了轨道炮，使池塘怪客和跳蚤成为他们舰队非常有效的战斗支援。"
 
 ship "Pond Strider" "Pond Strider (Tracker)"
 	outfits
@@ -784,8 +784,8 @@ ship "Pond Strider" "Pond Strider (Tracker)"
 		"Hai Williwaw Cooling" 2
 		"Quantum Keystone"
 		"Pulse Rifle" 9
-		`"Basrem" Atomic Thruster`
-		`"Biroo" Atomic Steering`
+		`"Basrem "原子推进器`
+		`"Biroo "原子转向器`
 		"Hyperdrive"
 
 ship "Pond Strider" "Pond Strider (Ion)"
@@ -801,8 +801,8 @@ ship "Pond Strider" "Pond Strider (Ion)"
 		"Hai Williwaw Cooling" 3
 		"Quantum Keystone"
 		"Pulse Rifle" 9
-		`"Benga" Atomic Thruster`
-		`"Biroo" Atomic Steering`
+		`"Benga "原子推进器`
+		`"Biroo "原子转向器`
 		"Hyperdrive"
 
 ship "Pond Strider" "Pond Strider (Pulse)"
@@ -819,8 +819,8 @@ ship "Pond Strider" "Pond Strider (Pulse)"
 		"Hai Williwaw Cooling" 2
 		"Quantum Keystone"
 		"Pulse Rifle" 9
-		`"Benga" Atomic Thruster`
-		`"Biroo" Atomic Steering`
+		`"Benga "原子推进器`
+		`"Biroo "原子转向器`
 		"Hyperdrive"
 
 ship "Pond Strider" "Pond Strider (Railgun)"
@@ -835,8 +835,8 @@ ship "Pond Strider" "Pond Strider (Railgun)"
 		"Hai Williwaw Cooling" 3
 		"Quantum Keystone"
 		"Pulse Rifle" 9
-		`"Benga" Atomic Thruster`
-		`"Biroo" Atomic Steering`
+		`"Benga "原子推进器`
+		`"Biroo "原子转向器`
 		"Hyperdrive"
 
 
@@ -865,8 +865,8 @@ ship "Sea Scorpion"
 			"hull damage" 420
 			"hit force" 1260
 	outfits
-		`"Bondir" Atomic Steering`
-		`"Bondir" Atomic Thruster`
+		`"邦迪尔 "原子转向器`
+		`"邦迪尔 "原子推进器`
 		"Cargo Expansion"
 		"Chameleon Anti-Missile"
 		"Fuel Pod"
@@ -912,7 +912,7 @@ ship "Sea Scorpion"
 	explode "medium explosion" 30
 	explode "large explosion" 14
 	"final explode" "final explosion medium"
-	description "The Sea Scorpion was designed several decades ago to serve as a mobile platform to launch Trackers. However, it is only recently that the Unfettered have been able to mass produce them. While individually vulnerable, the reduced cost of manufacturing compared to Shield Beetles allow the materially inferior Unfettered to gain a numerical advantage against their brethren."
+	description "海蝎号在几十年前被设计成作为发射追踪器的移动平台。然而，直到最近，不羁者才能够大规模生产它们。虽然个别情况下很脆弱，但与盾甲虫相比，制造成本的降低使物质条件较差的不羁者在与他们的兄弟们的对抗中获得了数量上的优势。"
 
 ship "Sea Scorpion" "Sea Scorpion (Tracker)"
 	outfits
@@ -925,8 +925,8 @@ ship "Sea Scorpion" "Sea Scorpion (Tracker)"
 		"Boulder Reactor"
 		"Hai Ravine Batteries"
 		"Hai Diamond Regenerator"
-		`"Bondir" Atomic Thruster`
-		`"Bondir" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"邦迪尔 "原子转向器`
 		"Value Detector"
 		"Hyperdrive"
 
@@ -939,8 +939,8 @@ ship "Sea Scorpion" "Sea Scorpion (Pulse)"
 		"Hai Ravine Batteries"
 		"Supercapacitor" 5
 		"Hai Diamond Regenerator" 2
-		`"Biroo" Atomic Thruster`
-		`"Bondir" Atomic Steering`
+		`"Biroo "原子推进器`
+		`"邦迪尔 "原子转向器`
 		"Value Detector"
 		"Hyperdrive"
 		"Pulse Rifle" 15
@@ -954,16 +954,16 @@ ship "Sea Scorpion" "Sea Scorpion (Ion)"
 		"Boulder Reactor"
 		"Hai Fissure Batteries"
 		"Hai Diamond Regenerator" 2
-		`"Bondir" Atomic Thruster`
-		`"Bondir" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"邦迪尔 "原子转向器`
 		"Value Detector"
 		"Hyperdrive"
 		"Pulse Rifle" 15
 
 ship "Sea Scorpion" "Sea Scorpion (Ionic)"
 	outfits
-		`"Biroo" Atomic Steering`
-		`"Bondir" Atomic Thruster`
+		`"Biroo "原子转向器`
+		`"邦迪尔 "原子推进器`
 		"Boulder Reactor"
 		"Chameleon Anti-Missile"
 		"Hai Corundum Regenerator"
@@ -977,8 +977,8 @@ ship "Sea Scorpion" "Sea Scorpion (Ionic)"
 
 ship "Sea Scorpion" "Sea Scorpion (Shredder)"
 	outfits
-		`"Biroo" Atomic Steering`
-		`"Biroo" Atomic Thruster`
+		`"Biroo "原子转向器`
+		`"Biroo "原子推进器`
 		"Boulder Reactor"
 		"Bullfrog Anti-Missile"
 		"Hai Diamond Regenerator" 2
@@ -1025,8 +1025,8 @@ ship "Scarab"
 		"Hai Williwaw Cooling"
 		"Quantum Keystone"
 		"Pulse Rifle"
-		`"Benga" Atomic Thruster`
-		`"Benga" Atomic Steering`
+		`"Benga "原子推进器`
+		`"本加 "原子转向器`
 		"Hyperdrive"
 
 	engine -29 27
@@ -1040,7 +1040,7 @@ ship "Scarab"
 	explode "medium explosion" 12
 	explode "large explosion" 4
 	"final explode" "final explosion small"
-	description `The hard-working cousin to the Lightning Bug, the Scarab has only ever grown in popularity, never declined. That this statistic is occasionally measured in thousandths of a percentage point for years at a time is immaterial to the title. This lightweight transport is commonly the pick for Grasshopper pilots looking to make money while continuing to feed their free spirit. It is also large enough to transport a large Hai family, making it perfect for nearly any odd job in Hai space.`
+	description `作为闪电虫的勤奋表弟，Scarab的知名度只增不减。这一统计数字偶尔会以千分之一的百分比来衡量，多年来都是如此，这与标题无关。这种轻型运输机通常是蚱蜢飞行员的选择，他们希望在赚钱的同时继续满足他们的自由精神。它也足够大，可以运送一个大的海族家庭，使其成为海族空间中几乎任何零星工作的完美选择。`
 
 
 
@@ -1081,8 +1081,8 @@ ship "Shield Beetle"
 		"Hai Williwaw Cooling" 3
 		"Quantum Keystone"
 		"Pulse Rifle" 55
-		`"Bondir" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"布法尔 "原子转向器`
 		"Hyperdrive"
 	engine -44 133
 	engine 44 133
@@ -1107,7 +1107,7 @@ ship "Shield Beetle"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "This ship was first built millennia ago, near the end of a more violent time in Hai history. Since then, it has served as the only heavy warship at the disposal of the Hai. The Shield Beetle is a versatile warship used by the Hai to guard their merchant convoys, or by the Unfettered to attack those very same convoys."
+	description "这艘船最初是在几千年前建造的，接近海族历史上一个更暴力的时期的结束。从那时起，它就成为海族唯一可以支配的重型战舰。盾甲虫是一艘多功能的战舰，被海族用来护卫他们的商船队，或者被不羁者用来攻击那些相同的船队。"
 
 ship "Shield Beetle" "Shield Beetle (Police)"
 	outfits
@@ -1126,8 +1126,8 @@ ship "Shield Beetle" "Shield Beetle (Police)"
 		"Brig"
 		"Hai Williwaw Cooling" 4
 		"Pulse Rifle" 55
-		`"Bondir" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"布法尔 "原子转向器`
 		"Hyperdrive"
 	gun "Ion Cannon"
 	gun "Ion Cannon"
@@ -1158,8 +1158,8 @@ ship "Shield Beetle" "Shield Beetle (Unfettered)"
 		"Value Detector" 2
 		"Quantum Keystone"
 		"Pulse Rifle" 65
-		`"Bondir" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"布法尔 "原子转向器`
 		"Hyperdrive"
 
 ship "Shield Beetle" "Shield Beetle (Unfettered Shipyards)"
@@ -1181,8 +1181,8 @@ ship "Shield Beetle" "Shield Beetle (Unfettered Shipyards)"
 		"Hai Gorge Batteries"
 		"Quantum Keystone"
 		"Pulse Rifle" 75
-		`"Bondir" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"布法尔 "原子转向器`
 		"Hyperdrive"
 
 # Custom anti-pirate build; insufficient battery for fighting Hai:
@@ -1201,8 +1201,8 @@ ship "Shield Beetle" "Shield Beetle (Pulse Tracker)"
 		"Hai Diamond Regenerator" 2
 		"Hai Williwaw Cooling" 7
 		"Pulse Rifle" 55
-		`"Bondir" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"布法尔 "原子转向器`
 		"Hyperdrive"
 	gun "Hai Tracker Pod"
 	gun "Hai Tracker Pod"
@@ -1232,8 +1232,8 @@ ship "Shield Beetle" "Shield Beetle (Jump)"
 		"Fuel Pod" 3
 		"Hai Williwaw Cooling" 4
 		"Pulse Rifle" 55
-		`"Bondir" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"布法尔 "原子转向器`
 		"Jump Drive"
 	gun "Ion Cannon"
 	gun "Ion Cannon"
@@ -1259,8 +1259,8 @@ ship "Shield Beetle" "Shield Beetle (Six Ion)"
 		"Hai Diamond Regenerator" 2
 		"Hai Williwaw Cooling" 6
 		"Pulse Rifle" 55
-		`"Bondir" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"布法尔 "原子转向器`
 		"Hyperdrive"
 	gun "Ion Cannon"
 	gun "Ion Cannon"
@@ -1288,8 +1288,8 @@ ship "Shield Beetle" "Shield Beetle (Fuel Jump)"
 		"Hai Ravine Batteries"
 		"Boulder Reactor"
 		"Geode Reactor"
-		`"Bondir" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"布法尔 "原子转向器`
 		"Tracker Storage Pod" 2
 		"Chameleon Anti-Missile" 2
 		"Hai Diamond Regenerator"
@@ -1319,8 +1319,8 @@ ship "Shield Beetle" "Shield Beetle (Particle Jump)"
 		"Quantum Keystone"
 		"Outfits Expansion" 2
 		"Boulder Reactor" 2
-		`"Bondir" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"布法尔 "原子转向器`
 		"Bullfrog Anti-Missile" 4
 		"Hai Diamond Regenerator" 2
 		"Fuel Pod" 3
@@ -1335,8 +1335,8 @@ ship "Shield Beetle" "Shield Beetle (Plasma Blaster Jump)"
 		"Quantum Keystone"
 		"Outfits Expansion" 3
 		"Boulder Reactor" 2
-		`"Bondir" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"布法尔 "原子转向器`
 		"Chameleon Anti-Missile" 2
 		"Hai Diamond Regenerator" 2
 		"Hai Chasm Batteries"
@@ -1356,8 +1356,8 @@ ship "Shield Beetle" "Shield Beetle (Jump, Tracker)"
 		"Fuel Pod" 3
 		"Hai Williwaw Cooling" 6
 		"Pulse Rifle" 47
-		`"Bondir" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"布法尔 "原子转向器`
 		"Jump Drive"
 
 ship "Shield Beetle" "Shield Beetle (Pulse)"
@@ -1371,8 +1371,8 @@ ship "Shield Beetle" "Shield Beetle (Pulse)"
 		"Hai Diamond Regenerator" 2
 		"Hai Williwaw Cooling" 3
 		"Pulse Rifle" 27
-		`"Bondir" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"布法尔 "原子转向器`
 		"Hyperdrive"
 	gun "Ion Cannon"
 	gun "Ion Cannon"
@@ -1394,8 +1394,8 @@ ship "Shield Beetle" "Shield Beetle (Durable Pulse)"
 		"Hai Diamond Regenerator" 3
 		"Hai Williwaw Cooling" 8
 		"Pulse Rifle" 55
-		`"Bondir" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"布法尔 "原子转向器`
 		"Hyperdrive"
 	gun "Pulse Cannon"
 	gun "Pulse Cannon"
@@ -1424,8 +1424,8 @@ ship "Shield Beetle" "Shield Beetle (Tracker)"
 		"Hai Cuttlefish Jammer" 3
 		"Quantum Keystone"
 		"Pulse Rifle" 32
-		`"Bondir" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"布法尔 "原子转向器`
 		"Hyperdrive"
 
 
@@ -1468,9 +1468,9 @@ ship "Solifuge"
 		"Hai Williwaw Cooling" 6
 		"Quantum Keystone"
 		"Pulse Rifle" 62
-		`"Benga" Atomic Steering`
-		`"Bufaer" Atomic Steering`
-		`"Bondir" Atomic Thruster`
+		`"本加 "原子转向器`
+		`"布法尔 "原子转向器`
+		`"邦迪尔 "原子推进器`
 		"Hyperdrive"
 		
 	engine -28 135.5
@@ -1508,7 +1508,7 @@ ship "Solifuge"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `Impressed by the Alpha's "Giftbringer," the Unfettered endeavored to build their own fighter carrier to take more advantage of their supply of jump drives.`
+	description `阿尔法的 "Giftbringer "给人留下了深刻的印象，不羁者努力建造他们自己的战斗机航母，以更多地利用他们的跳跃驱动器的供应优势。`
 
 ship "Solifuge" "Solifuge (Jump)"
 	outfits
@@ -1523,9 +1523,9 @@ ship "Solifuge" "Solifuge (Jump)"
 		"Hai Diamond Regenerator"
 		"Hai Williwaw Cooling" 6
 		"Pulse Rifle" 86
-		`"Benga" Atomic Steering`
-		`"Bufaer" Atomic Steering`
-		`"Bondir" Atomic Thruster`
+		`"本加 "原子转向器`
+		`"布法尔 "原子转向器`
+		`"邦迪尔 "原子推进器`
 		"Jump Drive"
 
 ship "Solifuge" "Solifuge (Jump, Pulse)"
@@ -1540,9 +1540,9 @@ ship "Solifuge" "Solifuge (Jump, Pulse)"
 		"Hai Diamond Regenerator"
 		"Hai Williwaw Cooling" 8
 		"Pulse Rifle" 71
-		`"Benga" Atomic Steering`
-		`"Bufaer" Atomic Steering`
-		`"Bondir" Atomic Thruster`
+		`"本加 "原子转向器`
+		`"布法尔 "原子转向器`
+		`"邦迪尔 "原子推进器`
 		"Jump Drive"
 	gun "Pulse Cannon"
 	gun "Pulse Cannon"
@@ -1563,9 +1563,9 @@ ship "Solifuge" "Solifuge (Jump, Tracker)"
 		"Hai Diamond Regenerator" 2
 		"Hai Williwaw Cooling" 6
 		"Pulse Rifle" 68
-		`"Benga" Atomic Steering`
-		`"Bufaer" Atomic Steering`
-		`"Bondir" Atomic Thruster`
+		`"本加 "原子转向器`
+		`"布法尔 "原子转向器`
+		`"邦迪尔 "原子推进器`
 		"Jump Drive"
 
 ship "Solifuge" "Solifuge (Pulse)"
@@ -1580,9 +1580,9 @@ ship "Solifuge" "Solifuge (Pulse)"
 		"Hai Diamond Regenerator"
 		"Hai Williwaw Cooling" 8
 		"Pulse Rifle" 62
-		`"Benga" Atomic Steering`
-		`"Bufaer" Atomic Steering`
-		`"Bondir" Atomic Thruster`
+		`"本加 "原子转向器`
+		`"布法尔 "原子转向器`
+		`"邦迪尔 "原子推进器`
 		"Hyperdrive"
 	gun "Pulse Cannon"
 	gun "Pulse Cannon"
@@ -1603,9 +1603,9 @@ ship "Solifuge" "Solifuge (Tracker)"
 		"Hai Diamond Regenerator" 2
 		"Hai Williwaw Cooling" 6
 		"Pulse Rifle" 59
-		`"Benga" Atomic Steering`
-		`"Bufaer" Atomic Steering`
-		`"Bondir" Atomic Thruster`
+		`"本加 "原子转向器`
+		`"布法尔 "原子转向器`
+		`"邦迪尔 "原子推进器`
 		"Hyperdrive"
 
 
@@ -1638,8 +1638,8 @@ ship "Violin Spider"
 		Supercapacitor
 		"Hai Williwaw Cooling"
 		"Pulse Rifle"
-		`"Basrem" Atomic Steering`
-		`"Basrem" Atomic Thruster`
+		`"巴斯雷姆 "原子转向器`
+		`"Basrem "原子推进器`
 
 	engine -15 30
 	engine 15 30
@@ -1648,8 +1648,8 @@ ship "Violin Spider"
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description `The Hai fighter is equipped with what most humans would consider the greatest technology available, but all of that high tech comes at a cost.`
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description `海号战斗机配备了大多数人类认为最伟大的技术，但所有这些高科技都是有代价的。`
+	description "	战斗机不配备超光速引擎。除非你的舰队中有一艘带有战斗机舱的飞船，否则你无法携带战斗机。"
 
 ship "Violin Spider" "Violin Spider (Pulse)"
 	outfits
@@ -1659,8 +1659,8 @@ ship "Violin Spider" "Violin Spider (Pulse)"
 		"Hai Williwaw Cooling"
 		"Quantum Keystone"
 		"Pulse Rifle"
-		`"Basrem" Atomic Steering`
-		`"Basrem" Atomic Thruster`
+		`"巴斯雷姆 "原子转向器`
+		`"Basrem "原子推进器`
 
 
 
@@ -1698,9 +1698,9 @@ ship "Water Bug"
 		"Hai Diamond Regenerator"
 		"Hai Williwaw Cooling"
 		"Quantum Keystone"
-		`"Basrem" Reverse Thruster`
-		`"Benga" Atomic Thruster`
-		`"Benga" Atomic Steering`
+		`"Basrem "反转推进器`
+		`"Benga "原子推进器`
+		`"本加 "原子转向器`
 		"Hyperdrive"
 	engine -50 33
 	engine 50 33
@@ -1717,7 +1717,7 @@ ship "Water Bug"
 	explode "large explosion" 20
 	explode "huge explosion" 5
 	"final explode" "final explosion medium"
-	description "The design of the Water Bug is almost as old as the Aphid, but until recently it never saw much use. A spike in aggression from the Unfettered Hai has led the tougher and more well-defended Water Bug to see an increase in popularity over its little brother, the Aphid. The Water Bug is now the most widely used Hai freighter, comprising the bulk of all Hai merchant fleets."
+	description `水虫号的设计几乎和蚜虫号一样古老，但直到最近，它都没有被大量使用。来自 "不受约束的海 "的攻击性激增，导致更强硬、防御性更强的水虫比它的小兄弟蚜虫更受欢迎。水虫号现在是最广泛使用的海族货船，包括所有海族商船队的大部分。`
 
 ship "Water Bug" "Water Bug (Jump)"
 	outfits
@@ -1732,8 +1732,8 @@ ship "Water Bug" "Water Bug (Jump)"
 		"Hai Williwaw Cooling"
 		"Quantum Keystone"
 		"Pulse Rifle" 8
-		`"Benga" Atomic Thruster`
-		`"Benga" Atomic Steering`
+		`"Benga "原子推进器`
+		`"本加 "原子转向器`
 		"Jump Drive"
 
 ship "Water Bug" "Water Bug (Pulse)"
@@ -1747,6 +1747,6 @@ ship "Water Bug" "Water Bug (Pulse)"
 		"Hai Diamond Regenerator"
 		"Hai Williwaw Cooling"
 		"Pulse Rifle" 3
-		`"Benga" Atomic Thruster`
-		`"Benga" Atomic Steering`
+		`"Benga "原子推进器`
+		`"本加 "原子转向器`
 		"Hyperdrive"

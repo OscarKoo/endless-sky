@@ -46,7 +46,7 @@ outfit "Grab-Strike Turret"
 		"shield damage" 108
 		"hull damage" 32
 		"hit force" -160
-	description "Korath Grab-Strike projectiles are designed to pull a target closer to the Korath ship, to keep it from escaping."
+	description "Korath的抓取打击弹是为了将目标拉近Korath的飞船，以防止其逃跑。"
 
 effect "grab-strike impact"
 	sprite "effect/grab-strike impact"
@@ -97,8 +97,8 @@ outfit "Shunt-Strike Turret"
 		"piercing" 0.1
 		"missile strength" 80
 		"safe"
-	description "This weapon fires homing balls of microbots that pass through a target's shields and attempt to convert its hull into raw materials or useful items such as heat shunts. As Exile microbots contain safety circuits that prevent them from becoming independent of their Systems Core, they will fail after a short time, but not before wreaking havoc on the ship."
-	description "	Because the same property that allows the microbots through a target's shields disrupts the shields of the ship firing them, it should never be used without an appropriately large Systems Core. Given adequate shield generation, however, the microbots make fantastic miners."
+	description "这种武器发射由微型机器人组成的定位球，穿过目标的护盾，试图将其船体转化为原材料或有用的物品，如热分流器。由于放逐者的微型机器人包含安全电路，防止它们独立于其系统核心，它们会在短时间内失效，但不会在对飞船造成破坏之前失效。"
+	description "	由于允许微型机器人穿过目标的护盾的相同属性会破坏发射它们的飞船的护盾，所以在没有适当大的系统核心的情况下绝对不能使用它。然而，如果有足够的护盾，这些微型机器人就会成为出色的矿工。"
 
 effect "shunt-strike hit"
 	sprite "effect/shunt-strike-hit"
@@ -141,7 +141,7 @@ outfit "Banisher Grav-Turret"
 		"shield damage" 2.8
 		"hull damage" .9
 		"hit force" 40
-	description "The Korath like to keep their enemies close... but not too close."
+	description "科拉斯人喜欢让他们的敌人靠近......但不能太近。"
 
 outfit "Expeller Grav-Ray"
 	category "Guns"
@@ -165,7 +165,7 @@ outfit "Expeller Grav-Ray"
 		"shield damage" 1.4
 		"hull damage" .45
 		"hit force" 25
-	description "This low-power version of the Banisher is used on Korath fighters to push enemy vessels away from carriers and civilians."
+	description "这种低功率版本的放逐者被用在Korath战斗机上，将敌人的船只推离航母和平民。"
 
 effect "banisher impact"
 	sprite "effect/banisher impact"
@@ -194,7 +194,7 @@ outfit "Warder Anti-Missile"
 		"reload" 5
 		"firing energy" 24
 		"firing heat" 10
-	description "This anti-missile system helps defend Korath warships from long-range attacks."
+	description "这种反导弹系统有助于保护科拉斯战舰免受远程攻击。"
 
 effect "korath warder"
 	sprite "effect/warder"
@@ -229,7 +229,7 @@ outfit "Fire-Lance"
 		"hull damage" 1.5
 		"heat damage" 8
 		"burn damage" .15
-	description "The Korath Fire-Lance is a medium-range beam weapon designed to be used by their fighters."
+	description "科拉思火枪是一种中程光束武器，专供他们的战斗机使用。"
 
 effect "fire-lance impact"
 	sprite "effect/fire-lance impact"
@@ -265,7 +265,7 @@ outfit "Blaze-Pike Turret"
 		"hull damage" 3.1
 		"heat damage" 18
 		"burn damage" 0.45
-	description "The seeming reverence the Korath have for fire appears embodied in this weapon. This pair of Fire-Lances mounted together in a turret do not merely create twin lances of fire: Rather, they begin to form a gestalt - a single, longer, hotter, and almost hypnotic column of fire."
+	description "科拉斯人对火的崇敬似乎体现在这种武器上。这对安装在炮塔上的长枪并不仅仅是创造出双枪的火力。相反，它们开始形成一个格式塔--一个单一的、更长的、更热的、几乎是催眠式的火柱。"
 
 effect "blaze-pike hit"
 	sprite "effect/blaze-pike hit"
@@ -303,7 +303,7 @@ outfit "Korath Inferno"
 		"hull damage" 4.8
 		"heat damage" 30
 		"burn damage" 0.9
-	description "Some Korath consider the Inferno the crowning achievement of Exile weapon design. Three Fire-Lances mounted together in precisely the right manner combine synergistically, creating a longer, more powerful beam than three would individually."
+	description `一些Korath认为 "地狱 "是流亡者武器设计的最高成就。三支火枪以正确的方式安装在一起，协同作战，创造出比三支单独的火枪更长、更强的光束。`
 
 effect "korath inferno hit"
 	sprite "effect/korath inferno hit"
@@ -342,7 +342,7 @@ outfit "Thermal Repeater"
 		"shield damage" 26
 		"hull damage" 22
 		"heat damage" 33
-	description "This is the smallest and simplest Korath projectile weapon, designed mostly for use on fighters and drones. As with most Korath technology, it generates a large amount of heat, enough that the gun must pause briefly after every few shots to cool down."
+	description "这是最小和最简单的Korath射弹武器，主要设计用于战斗机和无人机。与大多数Korath技术一样，它产生大量的热量，足以使枪支在每几发子弹后必须短暂停顿以冷却。"
 
 effect "repeater impact"
 	sprite "effect/repeater impact"
@@ -384,7 +384,7 @@ outfit "Thermal Repeater Turret"
 		"shield damage" 26
 		"hull damage" 22
 		"heat damage" 33
-	description "Thermal Repeaters fire compact bolts of superheated plasma at their targets. For every one of these turrets installed on a ship, an auxiliary cooling system is typically required to cope with its heat output."
+	description "热能中继器向其目标发射紧凑的过热等离子体子弹。对于每一个安装在船上的这种炮塔，通常需要一个辅助冷却系统来应对其热量输出。"
 
 
 outfit "Piercer Missile"
@@ -393,7 +393,7 @@ outfit "Piercer Missile"
 	thumbnail "outfit/piercer"
 	"mass" .3
 	"piercer capacity" -1
-	description "This missile is fired from a Piercer Missile Launcher."
+	description "这种导弹是由穿刺者导弹发射器发射的。"
 
 outfit "Piercer Missile Rack"
 	category "Ammunition"
@@ -403,7 +403,7 @@ outfit "Piercer Missile Rack"
 	"outfit space" -7
 	"piercer capacity" 16
 	ammo "Piercer Missile"
-	description "The Piercer Missile Rack is used to store extra ammunition for Piercer Missile Launchers."
+	description "穿刺者导弹架是用来储存穿刺者导弹发射器的额外弹药的。"
 
 outfit "Piercer Missile Launcher"
 	category "Secondary Weapons"
@@ -443,7 +443,7 @@ outfit "Piercer Missile Launcher"
 		"hit force" 300
 		"missile strength" 73
 		"stream"
-	description "Korath Piercer Missiles carry a pair of warheads. The first, a smaller one in the very tip of the missile, explodes on impact to blast a hole in the ship's shields to allow some of the subsequent, larger explosion to pierce through."
+	description "Korath穿刺者导弹携带一对弹头。第一枚弹头在导弹的最顶端，在撞击时爆炸，在飞船的护盾上炸出一个洞，以使随后的更大的爆炸能够穿透。"
 
 effect "piercer fire"
 	sprite "effect/piercer fire"
@@ -507,7 +507,7 @@ outfit "Korath Detainer"
 		"hull damage" 240
 		"slowing damage" 40
 		"blast radius" 20
-	description "Although not the most damaging weapon of its size, the Korath Detainer is feared for two reasons: its exceptionally long range, and its ability to interfere with the propulsion systems of any ship it strikes. Its reputation has earned it the honor of being named for the Korath themselves."
+	description "尽管Korath Detainer并不是同类武器中最具杀伤力的武器，但它因两个原因而令人畏惧：其超长的射程，以及其干扰任何被它击中的船只的推进系统的能力。它的声誉为它赢得了以Korath本身命名的荣誉。"
 
 effect "detainer sparks"
 	sprite "effect/detainer sparks"
@@ -545,7 +545,7 @@ outfit "Cluster Mine"
 	thumbnail "outfit/korath mine"
 	"mass" .7
 	"minelayer capacity" -1
-	description "This is ammunition for a Cluster Mine Layer. Each mine splits into eleven submunitions after it is deployed."
+	description "这是集束雷层的弹药。每枚地雷在部署后都会分裂成11个子弹药。"
 
 outfit "Cluster Mine Rack"
 	category "Ammunition"
@@ -555,7 +555,7 @@ outfit "Cluster Mine Rack"
 	"outfit space" -9
 	"minelayer capacity" 9
 	ammo "Cluster Mine"
-	description "The Cluster Mine Rack is used to store extra ammunition for Cluster Mine Layers."
+	description "集束雷架是用来储存集束雷层的额外弹药的。"
 
 outfit "Cluster Mine Layer"
 	category "Secondary Weapons"
@@ -594,7 +594,7 @@ outfit "Cluster Mine Layer"
 		"hull damage" -2400
 		"hit force" -150
 		"stream"
-	description "This launcher fires cluster munitions that split into a cloud of stationary mines that each do a considerable amount of damage if a ship crashes into them. However, if a ship hits the mine before it has a chance to deploy, the damage is considerably reduced."
+	description "这种发射器发射的集束弹药会分裂成一团固定的地雷，如果飞船撞上它们，每颗地雷都会造成相当大的伤害。然而，如果一艘船在地雷有机会展开之前就撞上了它，伤害就会大大减少。"
 
 outfit "Korath Mine Submunition"
 	weapon
@@ -663,7 +663,7 @@ outfit "Shield Disruptor Turret"
 		"shield damage" 3.8
 		"hull damage" .5
 		"disruption damage" .24
-	description "Shield Disruptor Turrets interfere with a ship's shields, allowing a ship's hull to be damaged even when shields are up. However, they do very little hull damage by themselves."
+	description "护盾干扰炮塔会干扰战舰的护盾，使战舰的船体在护盾升起时也会受到损害。然而，它们本身对船体的伤害非常小。"
 
 effect "disruptor impact"
 	sprite "effect/static"
@@ -699,7 +699,7 @@ outfit "Husk-Slice"
 		"firing heat" 17.8
 		"shield damage" 6.3
 		"hull damage" 16.7
-	description "This massive beam weapon is relatively ineffective against shields, but cuts through hull armor like it's made of paper."
+	description "这种巨大的光束武器对护盾相对无效，但对船体装甲的切割就像纸做的一样。"
 
 outfit "Husk-Slice Turret"
 	category "Turrets"
@@ -728,7 +728,7 @@ outfit "Husk-Slice Turret"
 		"firing heat" 17.8
 		"shield damage" 6.3
 		"hull damage" 16.7
-	description "This turret fires a tightly focused energy beam that is particularly effective against hull armor. When paired with a disruptor turret, it is a deadly combination."
+	description "这种炮塔发射的能量光束紧密集中，对船体装甲特别有效。当与干扰器炮塔配对时，它是一个致命的组合。"
 
 effect "slicer impact"
 	sprite "effect/slicer impact"
@@ -768,7 +768,7 @@ outfit "Digger Mining Turret"
 		"hull damage" 1.3
 		"minable damage" 5.2
 		"disruption damage" .08
-	description `When the Korath Exiles needed a cheap mining laser for their large vessels, they re-engineered this ancient, robust design and added a turret base. The mild shield disruption effect makes it somewhat useful in combat if required.`
+	description `当Korath流亡者需要为他们的大型船只提供廉价的采矿激光器时，他们重新设计了这种古老而坚固的设计，并添加了一个炮塔底座。如果需要的话，温和的护盾破坏效果使它在战斗中有点用处。`
 
 outfit "Digger Mining Beam"
 	category "Guns"
@@ -794,7 +794,7 @@ outfit "Digger Mining Beam"
 		"hull damage" 0.9
 		"minable damage" 4.6
 		"disruption damage" .06
-	description `The gun version of the classic Korath mining laser allows a larger mothership to release a cloud of fighter-sized miners to harvest resources when working faster-moving or more dangerous asteroid fields.`
+	description `经典的Korath采矿激光器的枪支版本允许较大的母舰在工作于移动速度较快或较危险的小行星区域时，释放一团战斗机大小的矿工来收获资源。`
 
 effect "korath digger hit"
 	sprite "effect/korath digger hit"
@@ -837,8 +837,8 @@ outfit "Langrage Hyper-Heaver"
 		"hull damage" -342
 		"hit force" 3600
 		submunition "Heaver Shard" 20
-	description `Langrage Hyper-Heavers raise the use of improvised ammunition to a fine art. This turret converts scrap metal, nearby asteroids, compressed garbage, or other debris into a high speed debris field. The exact mechanism is unclear, but the internal workings bear some similarities to hyperdrives and Banishers.`
-	description `	At close range, the heaved langrage merely forces the enemy back. As the launch field collapses and the langrage returns fully to normal space, however, it is rent into a rapidly-expanding cloud of deadly projectiles as it returns to normal space.`
+	description `Langrage Hyper-Heavers将简易弹药的使用提高到了一个很好的艺术水平。这种炮塔将废金属、附近的小行星、压缩的垃圾或其他碎片转换成高速碎片场。确切的机制尚不清楚，但其内部工作原理与超级驱动器和驱逐舰有一些相似之处。`
+	description `	在近距离，重物场只是迫使敌人后退。然而，随着发射场的坍塌，Langrage完全返回到正常空间，当它返回到正常空间时，它就会被租成一团迅速扩大的致命弹丸云。`
 
 effect "heaver hyperspace hit"
 	sprite "effect/heaver hyperspace hit"
@@ -905,7 +905,7 @@ outfit "Firelight Storage Rack"
 	"outfit space" -6
 	"firelight missile capacity" 10
 	ammo "Firelight Missile"
-	description "This rack stores additional Firelight missiles to feed into a Firelight Bank."
+	description `这个架子可以储存更多的 "火光 "导弹，以输入 "火光银行"。`
 
 outfit "Firelight Missile"
 	category "Ammunition"
@@ -915,7 +915,7 @@ outfit "Firelight Missile"
 	"firelight missile capacity" -1
 	"energy generation" 0.02
 	"heat generation" 0.1
-	description `The reactor element inside a Firelight Missile must be kept minimally active in order to ensure it is ready for launch. Although terribly inefficient, it nonetheless produces a trickle of power that can be tapped into when properly installed.`
+	description `火光导弹内部的反应堆元件必须保持最低限度的活性，以确保它可以随时发射。虽然效率极低，但在正确安装的情况下，它还是能产生涓涓细流的能量，可以利用。`
 
 outfit "Firelight Missile Bank"
 	category "Secondary Weapons"
@@ -952,8 +952,8 @@ outfit "Firelight Missile Bank"
 		"missile strength" 60
 		submunition "Firelight Turning"
 		"stream"
-	description "As the Firestorm Torpedo does not require full reactor shielding or safety interlocks, Korath engineers were able to create the Firelight by further scaling down the reactor element to fit in a missile casing for use on and against smaller vessels."
-	description "	Rather than rely on traditional reaction engines attached to the missile for launch, this rapid-fire missile bank appears to operate on the same principles as a Banisher."
+	description `由于 "火风暴 "鱼雷不需要完整的反应堆屏蔽或安全联锁，Korath的工程师们能够通过进一步缩减反应堆元件来创造 "火光"，以适应在小型船只上使用的导弹外壳。`
+	description "	这种快速发射的导弹库没有依靠传统的反应引擎连接到导弹上进行发射，而是采用了与放逐者相同的操作原理。"
 
 
 outfit "Firelight Turning"
@@ -1038,7 +1038,7 @@ outfit "Microbot Grinder"
 		"firing hull" -100
 		"piercing" 0.1
 		"safe"
-	description "This is a huge grinder that digests incoming material with the aid of microbots. With intake bays large enough to swallow a drone whole, wrecking claws massive enough to tear apart the hulls of heavy warships, and a seemingly omnicidal swarm of microbots ready to break down anything that falls in to its component molecules, it is a fearsome sight that any captain would be foolish to fly within reach of."
+	description "这是一个巨大的研磨机，在微型机器人的帮助下消化进入的材料。它的进气口大到足以吞下一架无人机，它的破坏爪大到足以撕裂重型战舰的船体，它的微型机器人群似乎无所不能，随时准备将任何东西分解成其组成分子，它是一个可怕的景象，任何舰长都会愚蠢地飞到它身边。"
 
 
 outfit "Firestorm Torpedo"
@@ -1050,7 +1050,7 @@ outfit "Firestorm Torpedo"
 	"firestorm torpedo capacity" -1
 	"energy generation" 0.06
 	"heat generation" 0.3
-	description `Massive in both size and destructive capability, the Firestorm Torpedo's enormous blast radius makes it a dangerous part of larger ship arsenals, despite the lack of more recent Korath innovations. The Firestorm Torpedo is used as ammo for the Firestorm Battery.`
+	description `火焰风暴鱼雷在尺寸和破坏能力上都很庞大，其巨大的爆炸半径使其成为大型舰艇武器库中的一个危险部分，尽管缺乏更多最近的Korath创新。火焰风暴鱼雷被用作火焰风暴炮台的弹药。`
 
 outfit "Firestorm Torpedo Rack"
 	category "Ammunition"
@@ -1060,7 +1060,7 @@ outfit "Firestorm Torpedo Rack"
 	"outfit space" -20
 	"firestorm torpedo capacity" 13
 	ammo "Firestorm Torpedo"
-	description "This large cage-like rack is designed to be able to house several deadly Firestorm Torpedoes."
+	description "这个大笼子一样的架子被设计成能够容纳几个致命的火风暴鱼雷。"
 
 outfit "Firestorm Battery"
 	plural "Firestorm Batteries"
@@ -1107,7 +1107,7 @@ outfit "Firestorm Battery"
 		"corrosion damage" 5
 		"hit force" 4000
 		"missile strength" 115
-	description "Though not as refined as the newer Firelight version, this torpedo contains an augmented Korath Plasma Core reactor element completely stripped of its protective casing and safety interlocks. When activated, it generates a tremendous explosion of heat and force that pushes ships away and will even melt their hulls."
+	description "虽然不像较新的火光版那样精致，但这种鱼雷包含一个增强的Korath等离子体核心反应元件，完全剥离了其保护外壳和安全联锁。当启动时，它产生巨大的热量和力量的爆炸，将船只推开，甚至会融化它们的船体。"
 
 effect "firestorm ring"
 	sprite "effect/firestorm ring"

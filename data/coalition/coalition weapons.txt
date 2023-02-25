@@ -36,7 +36,7 @@ outfit "Bombardment Cannon"
 		"firing heat" 14
 		"shield damage" 22
 		"hull damage" 25
-	description `The Bombardment Cannon was designed during the original war with the Quarg, in order to give Heliarch civilian ships a way to strike Quarg warships from a safe distance. But now, as with all their weapons, its use is limited to Heliarch warships.`
+	description `轰击炮是在最初与夸父的战争中设计的，目的是为了给赫利阿克的民用船只提供一种从安全距离打击夸父战舰的方法。但是现在，就像他们所有的武器一样，它的使用仅限于Heliarch战舰。`
 
 outfit "Bombardment Turret"
 	category "Turrets"
@@ -67,7 +67,7 @@ outfit "Bombardment Turret"
 		"firing heat" 14
 		"shield damage" 22
 		"hull damage" 25
-	description `A Bombardment Turret is not one of the most dangerous Heliarch weapons, but it has the advantage that it can hit targets a considerable distance away.`
+	description `轰炸炮塔并不是最危险的Heliarch武器之一，但它的优点是可以打击相当远的目标。`
 
 effect "bombardment impact"
 	sprite "effect/bombardment impact"
@@ -115,7 +115,7 @@ outfit "Finisher Pod"
 		"radar tracking" .8
 		"missile strength" 50
 		"submunition" "Active Finisher" 1
-	description `Finisher Torpedoes are one of the Heliarchs' most dreaded weapons. In fact, in one way or another most of their other weapons merely exist to hold a ship in place for long enough for a barrage of Finishers to destroy it.`
+	description `终结者鱼雷是Heliarchs最令人畏惧的武器之一。事实上，在某种程度上，他们的大多数其他武器只是为了在原地停留足够长的时间，以便用一连串的终结者来摧毁它。`
 
 outfit "Finisher Maegrolain"
 	category "Secondary Weapons"
@@ -154,7 +154,7 @@ outfit "Finisher Maegrolain"
 		"radar tracking" .8
 		"missile strength" 50
 		"submunition" "Active Finisher" 1
-	description `Baptized with the Saryd word for "furious thunderstorm," this enormous launcher is not meant for prolonged fights nor for use by lighter craft, but for delivering a few quick, devastating bursts of Finisher Torpedoes. It has much greater damage potential than its smaller counterpart.`
+	description `这种巨大的发射器在萨里德语中的意思是 "愤怒的雷暴"，它既不适合长时间的战斗，也不适合轻型飞船使用，而是用来发射一些快速、毁灭性的鱼雷。它的伤害潜力比其较小的对应物要大得多。`
 
 outfit "Active Finisher"
 	weapon
@@ -185,7 +185,7 @@ outfit "Finisher Storage Tube"
 	"energy capacity" 120
 	"finisher capacity" 20
 	ammo "Finisher Torpedo"
-	description "In order to allow Heliarch ships to install more Finisher Storage Tubes, Heliarch engineers have incorporated a tiny battery pack into each module. This allows for Heliarch ships to have a respectable energy capacity while also carrying a fearsome number of Finishers."
+	description "为了让Heliarch战舰能够安装更多的终结者储存管，Heliarch的工程师们在每个模块中都安装了一个微型电池组。这使得Heliarch战舰在拥有可观的能量容量的同时，还能携带数量惊人的终结者。"
 
 outfit "Finisher Torpedo"
 	plural "Finisher Torpedoes"
@@ -194,7 +194,7 @@ outfit "Finisher Torpedo"
 	thumbnail "outfit/finisher"
 	"mass" .5
 	"finisher capacity" -1
-	description `This extremely powerful but also expensive missile is ammunition for the Heliarch Finisher Pod.`
+	description `这种威力巨大但也很昂贵的导弹是Heliarch Finisher Pod的弹药。`
 
 effect "finisher sparks"
 	sprite "effect/finisher sparks"
@@ -265,7 +265,7 @@ outfit "Heliarch Attractor"
 		"hull damage" 4.2
 		"firing force" -30
 		"hit force" -30
-	description "When battling the Quarg, the Heliarchs learned that the Quarg would not engage in a battle that their ships might be unable to escape. In response, they focused on building weapons that would keep a ship from being able to come to a stop and activate its jump drive."
+	description "在与夸格人作战时，Heliarchs了解到，夸格人不会参与他们的战舰可能无法逃脱的战斗。作为回应，他们专注于建造能让飞船无法停下来并启动其跳跃驱动器的武器。"
 
 effect "attractor impact"
 	sprite "effect/attractor impact"
@@ -309,7 +309,7 @@ outfit "Heliarch Repulsor"
 		"firing force" 60
 		"hit force" 60
 		"slowing damage" .1
-	description "This beam turret allows a Heliarch ship to hold its enemies far enough away that they cannot make use of their short-range weapons."
+	description "这种光束炮塔可以让螺旋桨飞船把它的敌人挡在足够远的地方，使他们无法利用其短程武器。"
 
 effect "repulsor impact"
 	sprite "effect/repulsor impact"
@@ -346,7 +346,7 @@ outfit "Ion Hail Turret"
 		"firing energy" 48
 		"firing heat" 24
 		"submunition" "ion hail" 4
-	description "Instead of just placing an Ion Rain Gun on a turret mount, the Heliarch tweaked the cycles of shots, having each shot be significantly more effective and seeing an overall increase to the weapon's range, but at the cost of a reload period."
+	description "Heliarch没有直接将离子雨枪放在炮塔支架上，而是调整了射击的周期，让每一次射击都明显更有效，并且看到了武器射程的整体增加，但代价是重装期。"
 
 outfit "ion hail"
 	weapon
@@ -393,7 +393,7 @@ outfit "Ion Rain Gun"
 		"hull damage" 5
 		"ion damage" .32
 		"scrambling damage" .32
-	description "Heliarch ships primarily serve as a police force. This weapon is designed to neutralize a target's offensive capabilities until more Heliarch ships can join the fray."
+	description "Heliarch战舰主要充当警察部队。这种武器的设计是为了消除目标的攻击能力，直到更多的直升飞机加入战斗。"
 
 effect "ion rain impact"
 	sprite "effect/ion rain impact"
@@ -429,8 +429,8 @@ outfit "MCS Extractor"
 		"shield damage" .2
 		"hull damage" 1.4
 		"minable damage" 8.2
-	description `Not legally a weapon under Heliarch definitions, the "Mineral Collection and Sorting" extraction unit consists of a set of sharp, durable blades designed to quickly break down minable asteroids. It also comes with an integrated scanning system that looks for asteroids rich in minerals to facilitate the mining efforts.`
-	description `	Especially popular with novice pilots looking to pay off their ships, the extractor has been a reliable tool of mining businesses in the Coalition for millennia.`
+	description `根据Heliarch的定义，"矿物收集和分类 "提取装置在法律上并不是一种武器，它包括一套锋利、耐用的刀片，旨在快速分解可开采的小行星。它还配有一个综合扫描系统，可以寻找富含矿物的小行星，以促进采矿工作。`
+	description `	采掘机尤其受到希望偿还飞船费用的新手飞行员的欢迎，千百年来，采掘机一直是联盟中采矿企业的可靠工具。`
 
 effect "drilling"
 	sprite effect/smoke

@@ -13,10 +13,10 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 mission "Frontier delivery [0]"
-	name "Frontier delivery to <planet>"
+	name "向<planet>运送边境货物"
 	job
 	repeat
-	description `Deliver <cargo> to the frontier world of <destination>. Frontier systems have a high rate of piracy, so prepare to defend yourself. Payment is <payment>.`
+	description `将<cargo>运送到<destination>的边疆世界。边疆系统的海盗率很高，所以要准备好自卫。付款方式为<payment>。`
 	cargo random 5 2 .1
 	to offer
 		random < 30
@@ -45,10 +45,10 @@ mission "Frontier delivery [0]"
 
 
 mission "Frontier delivery [1]"
-	name "Frontier delivery to <planet>"
+	name "向<planet>运送边境货物"
 	job
 	repeat
-	description `Deliver <cargo> to the frontier world of <destination>. Frontier systems have a high rate of piracy, so prepare to defend yourself. Payment is <payment>.`
+	description `将<cargo>运送到<destination>的边疆世界。边疆系统的海盗率很高，所以要准备好自卫。付款方式为<payment>。`
 	cargo random 25 2 .05
 	to offer
 		random < 25
@@ -77,10 +77,10 @@ mission "Frontier delivery [1]"
 
 
 mission "Frontier delivery [2]"
-	name "Frontier delivery to <planet>"
+	name "向<planet>运送边境货物"
 	job
 	repeat
-	description `Deliver <cargo> to the frontier world of <destination>. Frontier systems have a high rate of piracy, so prepare to defend yourself. Payment is <payment>.`
+	description `将<cargo>运送到<destination>的边疆世界。边疆系统的海盗率很高，所以要准备好自卫。付款方式为<payment>。`
 	cargo random 40 2 .02
 	to offer
 		random < 20
@@ -108,10 +108,10 @@ mission "Frontier delivery [2]"
 
 
 mission "Frontier Emigration [0]"
-	name "Emigration to <planet>"
+	name "移民到<planet>"
 	job
 	repeat
-	description "These <bunks> passengers have finally saved up enough money to start a new life on <destination>, and are willing to pay you <payment> to transport them."
+	description "这些<bunks>乘客终于攒够了钱，准备在<destination>上开始新的生活，并愿意支付你<payment>来运送他们。"
 	passengers 2 10 .9
 	to offer
 		random < 30
@@ -129,10 +129,10 @@ mission "Frontier Emigration [0]"
 
 
 mission "Frontier Emigration [1]"
-	name "Emigration to <planet>"
+	name "移民到<planet>"
 	job
 	repeat
-	description "These <bunks> passengers have finally saved up enough money to start a new life on <destination>, and are willing to pay you <payment> to transport them."
+	description "这些<bunks>乘客终于攒够了钱，准备在<destination>上开始新的生活，并愿意支付你<payment>来运送他们。"
 	passengers 4 10 .8
 	to offer
 		random < 25
@@ -150,10 +150,10 @@ mission "Frontier Emigration [1]"
 
 
 mission "Frontier Emigration [2]"
-	name "Emigration to <planet>"
+	name "移民到<planet>"
 	job
 	repeat
-	description "These <bunks> passengers have finally saved up enough money to start a new life on <destination>, and are willing to pay you <payment> to transport them."
+	description "这些<bunks>乘客终于攒够了钱，准备在<destination>上开始新的生活，并愿意支付你<payment>来运送他们。"
 	passengers 6 10 .7
 	to offer
 		random < 20
@@ -171,10 +171,10 @@ mission "Frontier Emigration [2]"
 
 
 mission "Disaster Relief"
-	name "Disaster relief to <planet>"
+	name "前往<planet>救灾"
 	job
 	repeat
-	description "A disaster has occurred in a colony on the frontier world of <destination>. Deliver <cargo> to the planet by <date> for <payment>."
+	description "在<destination>的边境世界的一个殖民地发生了一场灾难。在<cargo>之前将<date>运送到该星球，获得<payment>。"
 	cargo "disaster relief supplies" 25 2 .05
 	deadline
 	to offer
@@ -189,13 +189,13 @@ mission "Disaster Relief"
 		not planet "Shangri-La"
 	on complete
 		payment 10000 160
-		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>. A group of <planet> citizens thank you and bid you farewell."
+		dialog "你放下你的<commodity>货物，并收取你的<payment>款项。一群<planet>公民感谢你并向你告别。"
 
 
 mission "Instruct Novice Pilot"
 	job
 	repeat
-	description "A novice pilot seeks instruction from an experienced captain, and requests an escort to <stopovers>. After that, return to <origin> and you will receive payment of <payment>."
+	description "一个新手飞行员向有经验的机长寻求指导，并请求护送他到<stopovers>。之后，返回<origin>，你将收到<payment>的付款。"
 	to offer
 		random < 5
 		"combat rating" > 100
@@ -209,12 +209,12 @@ mission "Instruct Novice Pilot"
 		attributes "spaceport"
 		distance 3 7
 	on stopover
-		dialog "After a smooth landing, you guide your student through an especially rough part of the spaceport, full of trash, homeless drifters, and poorly-lit alleyways. You explain the ins and outs of avoiding pickpockets, keeping out of bar fights, and how to spot a lousy deal at an outfitter's shop. After a few hours in one of the seedier parts of the galaxy, both of you are eager to return to <origin>."
+		dialog "顺利着陆后，你引导你的学生穿过太空港一个特别粗糙的地方，那里充满了垃圾、无家可归的漂泊者和光线不足的小巷。你向他解释如何避免扒手，如何避免在酒吧打架，以及如何在装备店发现一个糟糕的交易。在银河系的一个最肮脏的地方呆了几个小时后，你们两个人都急着要回到<origin>。"
 	on visit
-		dialog "You've returned to <planet>, but forgot to escort the <npc> to <stopovers> first! Better head there first."
+		dialog "你已经回到了<planet>，但是忘记了先护送<npc>到<stopovers>！你要去哪里？最好先去那里。"
 	on complete
 		payment 75000
-		dialog "Your student thanks you for the instruction and for providing a guided view of some of the galaxy's rougher areas. You receive your payment of <payment>."
+		dialog "你的学生感谢你的指导，感谢你提供了银河系一些粗糙地区的导览。你收到了你的报酬<payment>。"
 	npc
 		government "Pirate"
 		personality nemesis waiting
@@ -237,7 +237,7 @@ mission "Instruct Novice Pilot"
 
 
 mission "Small Pirate gambling"
-	description "Survive the pirate attack!"
+	description "在海盗的攻击中幸存下来!"
 	minor
 	repeat
 	to offer
@@ -249,43 +249,43 @@ mission "Small Pirate gambling"
 		attributes "dirt belt" "south" "rim" "pirate" "frontier"
 	on offer
 		conversation
-			`You're having a drink in a dimly lit spaceport bar when you notice a group of young men in crimson leather outfits gambling in a dark corner. The barman eyes them warily. One of them raises his drink and waves you over, beckoning to join their game.`
+			`你在一个灯光昏暗的太空港酒吧里喝酒时，注意到一群穿着深红色皮装的年轻人在一个黑暗的角落里赌博。酒保警惕地看着他们。其中一个人举起酒杯，向你招手，示意你加入他们的游戏。`
 			choice
-				`	(Join their game.)`
+				`	(加入他们的游戏。)`
 					goto gamble
-				`	(Ignore them and leave quickly.)`
+				`	(别理他们，赶快离开。）`
 					defer
 
 			label gamble
-			`	You walk over to the table. A closer examination indicates a strong likelihood that they are pirates; not one of them looks older than 19, and they all sport fearsome tattoos and dangerous-looking sidearms. After a few rounds of cards it becomes abundantly obvious that they're cheating, and making little effort to hide this from you.`
+			`	你走到桌子旁边。仔细观察后发现，他们很可能是海盗；他们中没有一个人看起来比19岁大，而且他们都有可怕的纹身和看起来很危险的武器。几轮牌过后，很明显，他们在作弊，而且几乎没有努力向你隐瞒这些。`
 			branch "good luck" "bad luck"
 				random < 30
 
 			label "good luck"
-			`	Fortunately, you're able to outsmart them anyway and win the game, winding up with a sizable pile of credit chips. They don't look too happy about it, but do not bother you as you quickly leave. You thank your lucky stars: you're nearly 25,000 credits richer and still in one piece after a face-to-face encounter with pirates.`
+			`	幸运的是，你还是能够胜过他们，赢得了游戏，最终得到了一大堆的信用筹码。他们看起来并不太高兴，但在你迅速离开时没有打扰你。你感谢你的幸运星：在与海盗正面交锋后，你的财富增加了近25,000个信用点，而且仍然完好无损。`
 				accept
 
 			label "bad luck"
-			`	You're starting to bleed money, with more than 10,000 credits in losses already.`
+			`	你开始流血了，已经损失了超过10,000信用点。`
 			choice
-				`	(Call them out on their cheating.)`
+				`	(揭露他们的作弊行为。）`
 					goto call
-				`	(Say nothing and continue playing.)`
+				`	(什么也不说，继续玩。)`
 					goto lose
 
 			label lose
-			`	You grit your teeth and lose hand after hand before the game finally ends. The pirates gloat over their "winnings" of almost 15,000 credits as you leave.`
+			`	你咬紧牙关，在游戏最终结束前输了一手又一手。当你离开时，海盗们为他们 "赢了 "近15,000个信用点而沾沾自喜。`
 				decline
 
 			label call
-			`	You confront them on their blatant cheating when the meanest-looking one growls at you, "We're just playin' a game here, see? You'd better shut your big mouth if you know what's good for you! We can make this ugly real fast."`
-			`	The thugs stare at you menacingly and start to reach for their guns.`
+			`	你质问他们公然作弊的行为时，那个看起来最刻薄的人对你吼道："我们只是在这里玩游戏，明白吗？你最好闭上你的大嘴，如果你知道什么对你有好处的话！"。我们可以把事情搞得很难看。"`
+			`	歹徒们气势汹汹地盯着你，开始伸手拿枪。`
 			choice
-				`	(Shoot first!)`
+				`	(先开枪！)`
 					goto shoot
-				`	(Grab the pot and run!)`
+				`	(拿着锅就跑！)`
 					goto run
-				`	(Let them fleece me.)`
+				`	(让他们骗我。)`
 					goto lose
 
 			label shoot
@@ -293,12 +293,12 @@ mission "Small Pirate gambling"
 				random < 30
 
 			label "shoot and die"
-			`	Unfortunately, they're faster than you. Your mutilated corpse hits the floor with a wet thump.`
+			`	不幸的是，他们比你快。你残缺不全的尸体落在地上，发出湿漉漉的砰砰声。`
 				die
 
 			label "shoot and run"
-			`	Grateful that you never leave your ship unarmed, your hand flies toward the pistol at your thigh. You draw the weapon and fire at the pirate who just threatened you. The slug punches a hole in the center of his chest, and he collapses to the ground. His shocked comrades fumble in horror for their weapons, but you've taken them by surprise and quickly gun down another before deciding it's time to escape. You grab some of the credits on the table on the way out!`
-			`	You dash toward the hangar bay and blast off in a hurry. You quickly count your spoils and see that you're nearly 25,000 credits richer! Halfway out of the atmosphere, the remaining two pirates hurl obscenities over the comms from their own ships, which are in hot pursuit.`
+			`	庆幸的是，你从来没有不带武器离开你的船，你的手飞向你大腿上的手枪。你拔出武器，向刚才威胁你的海盗开火。子弹在他的胸部中央打了一个洞，他倒在了地上。他震惊的战友们惊恐地摸索着自己的武器，但你让他们措手不及，在决定是时候逃跑之前，你又迅速枪杀了一个。你在离开的时候抢走了桌子上的一些信贷!`
+			`	你冲向机库，匆匆忙忙地离开。你迅速数了数你的战利品，发现你的财富增加了近25,000信用点在离开大气层的半路上，剩下的两个海盗从他们自己的船上通过通讯器骂骂咧咧，他们正在紧追不舍。`
 				launch
 
 			label run
@@ -306,12 +306,12 @@ mission "Small Pirate gambling"
 				random < 30
 
 			label "grab and die"
-			`	You grab the pot and make a break for it! The ruffians howl and draw their guns. Dodging gunfire, you run towards the door and get halfway there before one of the slugs finds its mark. You fall to the floor in pain, watching a pool of your own blood expand around you. You try to struggle to your feet, but the toughest-looking pirate kicks you to the ground and finishes you off with another shot.`
+			`	你抓起锅子就冲了出去!流氓们嚎叫着拔出他们的枪。躲开枪声，你向门外跑去，跑到一半时，一发子弹射中了目标。你痛苦地倒在地上，看着自己的血泊在你周围扩大。你试图挣扎着站起来，但那个看起来最强悍的海盗把你踢到地上，又开了一枪把你干掉。`
 				die
 
 			label "grab and run"
-			`	You grab the pot and make a break for it! The ruffians howl and draw their guns. You run towards the door in a zigzag motion as bullets fly past you and tear chips out of the walls. You glance backwards just in time to see the barkeep reduce one of the ruffians to hamburger meat with an enormous shotgun. The remaining three chase after you.`
-			`	You dash toward the hangar bay and blast off in a hurry. You quickly count your spoils and see that you're nearly 25,000 credits richer! Halfway out of the atmosphere, you receive a message from the port authorities warning you that while they apprehended two of the pirates, the remaining two made it to their ships and are in hot pursuit.`
+			`	你抓起锅子，冲了出去流氓们嚎叫着，拔出了他们的枪。你以 "之 "字形的方式向门跑去，子弹从你身边飞过，把墙壁撕成了碎片。你向后看了一眼，正好看到酒吧老板用一把巨大的猎枪把其中一个流氓打成了汉堡肉。剩下的三个人追着你跑。`
+			`	你冲向机库，匆匆忙忙地离开。你迅速数了数你的战利品，发现你的财富增加了近25,000个信用点！这就是你的财富。在离开大气层的半路上，你收到了来自港口当局的消息，警告你虽然他们逮捕了两个海盗，但剩下的两个海盗已经上了他们的船，正在紧追不舍。`
 				launch
 
 	on decline

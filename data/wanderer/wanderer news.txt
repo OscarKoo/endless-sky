@@ -18,11 +18,11 @@ news "wanderer civilians, no dialog 1"
 		not attributes "evacuation"
 	name
 		word
-			"Individual"
+			"个人"
 	message
 		word
-			"Outside the spaceport, you see someone performing maintenance on some sort of irrigation system. Once they get it working, it begins to water a field of plants."
-			"A dockworker unloads complex scientific equipment from a ship. More surprising, however, is the fact that they unload several bags of fertilizer from it as well."
+			"在太空港外，你看到有人在对某种灌溉系统进行维护。一旦他们开始工作，它就开始浇灌一片植物。"
+			"一个码头工人从一艘船上卸下复杂的科学设备。然而，更令人惊讶的是，他们还从船上卸下了几袋肥料。"
 
 news "wanderer civilians no dialog 2"
 	location
@@ -30,11 +30,11 @@ news "wanderer civilians no dialog 2"
 		not attributes "evacuation"
 	name
 		word
-			"Group"
+			"群体"
 	message
 		word
-			"A crowd has formed around an object. Upon closer inspection, it appears to be some sort of technological device."
-			"On a booth near the spaceport, a group is playing on objects that look vaguely like wooden flutes. Their music is quiet and lacks a discernible melody."
+			"在一个物体周围形成了一群人。经过仔细检查，它似乎是某种技术设备。"
+			"在太空港附近的一个摊位上，一群人正在用隐约看起来像木笛的物体演奏。他们的音乐很安静，缺乏可辨识的旋律。"
 
 news "wanderer civilians, no dialog 1, post language"
 	to show
@@ -44,10 +44,10 @@ news "wanderer civilians, no dialog 1, post language"
 		not attributes "evacuation"
 	name
 		word
-			"Wanderer"
+			"漂泊者"
 	message
 		word
-			"Many buildings near the spaceport have plants growing on their roofs. An indignant squawk draws your attention to a Wanderer as they rapidly flap away from an automated watering system dousing them where they stood."
+			"在太空港附近的许多建筑物的屋顶上都生长着植物。一声愤怒的叫声将你的注意力吸引到一个流浪者身上，他们迅速地从一个自动浇灌系统中飞走，将他们的身体浇灭。"
 
 news "wanderer civilians no dialog 2, post language"
 	to show
@@ -57,14 +57,14 @@ news "wanderer civilians no dialog 2, post language"
 		not attributes "evacuation"
 	name
 		word
-			"Group of Wanderers"
+			"一群流浪者"
 	message
 		word
-			"While walking through the spaceport, you see several Wanderers flying through the air, about to land. They do not notice you, and you duck to avoid them."
-			"As you walk by a group of Wanderers, they begin to coo and chitter at you. Evidently they have not seen something like you before."
-			"A group of Wanderer children appear to be playing a game similar to hopscotch, but instead of hopping they fly to their spots."
-			"Two Wanderers are at a table. They appear to be playing some sort of board game using shell pieces."
-			"A crowd of Wanderer children follow an adult through the spaceport. The adult talks to them as they follow, as the children take notes."
+			"当你走过太空港时，你看到几个流浪者在空中飞行，正要降落。他们没有注意到你，而你却躲开了他们。"
+			"当你走过一群流浪者时，他们开始对你咕咕哝哝地叫。很明显，他们以前没有见过像你这样的东西。"
+			"一群流浪者的孩子似乎在玩一种类似于跳房子的游戏，但他们不是在跳，而是飞向他们的位置。"
+			"两个流浪者在一张桌子旁。他们似乎在用贝壳碎片玩某种棋盘游戏。"
+			"一群流浪者的孩子跟着一个成年人穿过太空港。当他们跟随时，大人与他们交谈，而孩子们则做着记录。"
 
 news "Wanderers and Aliens"
 	to show
@@ -74,24 +74,24 @@ news "Wanderers and Aliens"
 		not attributes "evacuation"
 	name
 		word
-			"Wanderer merchant captain"
-			"Wanderer captain"
-			"Wanderer civilian"
-			"Wanderer"
+			"漫游者商人队长"
+			"漫游者舰长"
+			"漫游者平民"
+			"漂泊者"
 	message
 		word
 			`"`
 		word
-			"Long ago, we [rebirthed, cleansed] a group of worlds in the south. I wonder if any [aliens, sentient beings] live there now?"
-			"It is a shame we must [fight, defend against] the Hai. I wish we had the opportunity to [engage, treat] with their peaceful brethren."
-			"Alien societies [fascinate, interest] me. I [hope, desire] for more opportunities to meet with them."
-			"I [wonder, ponder] how a human managed to get all the way here. Aliens in our [space, territory] are a [rare, precious] sight."
-			"It is not often our [species, culture] gets to meet with so many [different, varieties of] aliens at once."
-			"I have heard that Hai and human space are [linked, joined] with a wormhole. Could it have been made by [our caretakers, those that open the Eye]?"
-			"The Unfettered Hai enter Wanderer [space, territory] using jump drives. Where did they get such [devices, technology]?"
-			"Our species has [met, made contact] with many aliens before, but never so many at once."
-			"Exploration is important for a society. If we did not move and discover new planets, we would have [stagnated, shrivelled] long ago."
-			"I can [sympathize with, understand] the Hai. They have been [stuck, stagnant] in their own space for too long. It is only [right, natural] that they should want to [migrate to, leave for] new lands."
+			"很久以前，我们[重新孕育了，净化了]南方的一群世界。我想知道现在是否有[外星人、有生命的人]住在那里？"
+			"很遗憾，我们必须[战斗，抵御]海族。我希望我们有机会与他们的和平兄弟们[接触，对待]。"
+			"外星社会[让我着迷，感兴趣]。我[希望，渴望]有更多机会与他们见面。"
+			"我[好奇，思索]一个人类是如何一路走到这里的。外星人在我们的[空间、领土]是一种[罕见、珍贵]的景象。"
+			"我们的[物种、文化]很少有机会同时与这么多[不同种类]的外星人见面。"
+			"我听说海和人类的空间是由一个虫洞[连接起来的]。它可能是由[我们的看守者，那些打开眼睛的人]制造的？"
+			"不受约束的海族使用跳跃驱动器进入流浪者[空间，领土]。他们从哪里得到这种[设备、技术]？"
+			"我们的物种以前曾与许多外星人[相遇，接触]，但从未同时有这么多。"
+			"探索对一个社会来说是很重要的。如果我们不移动和发现新的星球，我们早就[停滞不前，萎靡不振]了。"
+			"我可以[同情、理解]海族人。他们在自己的空间里[被困，停滞不前]太久了。他们想要[迁移到，离开到]新的土地上，这才是[正确，自然]的。"
 		word
 			`"`
 
@@ -103,15 +103,15 @@ news "Wanderer Linguistics 2"
 		not attributes "evacuation"
 	name
 		word
-			"Wanderer linguist"
-			"Linguist"
+			"流浪者语言学家"
+			"语言学家"
 	message
 		word
 			`"`
 		word
-			"The Hai language is [complicated, convoluted], but learning it has yielded much [insight, knowledge] about the Hai in general."
-			"It is difficult to [pronounce, speak] Hai words, because their [physiology, structure] is so much different than ours."
-			"I went to a [prison, jail] where some Unfettered Hai were being held, in order to [study, apprehend] their language on a more [in-depth, detailed] level. It was hard to get [information, data] out of them, to say the least."
+			"海族语言是[复杂的，曲折的]，但学习它可以获得许多关于海族一般的[洞察力，知识]。"
+			"要[发音、说话]海族的词很难，因为他们的[生理、结构]与我们的有很大的不同。"
+			"我去了一个[监狱]，那里关押着一些不受约束的海族，以便在更[深入、详细]的层面上[研究、领会]他们的语言。至少可以说很难从他们那里得到[信息、数据]。"
 		word
 			`"`
 
@@ -123,21 +123,21 @@ news "Wanderer civilians, dialog"
 		not attributes "evacuation"
 	name
 		word
-			"Wanderer"
-			"Wanderer worker"
-			"Wanderer traveler"
-			"Wanderer youth"
+			"漂泊者"
+			"流浪者工人"
+			"流浪的旅行者"
+			"流浪的青年"
 	message
 		word
 			`"`
 		word
-			"Whenever I go on a [journey, trip] through space I always bring some of my [favorite, most cherished] potted plants. It gets [lonely, barren] when you are far from nature."
-			"I have [heard of, known of] a human captain in Wanderer space, but seeing you is still quite [strange, odd]."
-			"I cannot [imagine, fathom] being unable to fly. How do you manage to get anywhere?"
-			"I wonder what kinds of [creatures, beings] live on your home planet."
-			"With that jump drive, you must be able to [observe, witness] all kinds of wondrous life forms from across the galaxy. I wish I had such access."
-			"One of my [friends, buddies] wanted to meet you, but was too [shy, scared]."
-			"While you are [here, present], you should try some of our [delectable, delicious] seed soup. It is a [filling, satisfying] meal after a long trip."
+			"每当我在太空中进行[旅程、旅行]时，我总是带一些我[最喜欢、最珍惜]的盆栽。当你远离自然时，会变得[孤独、贫瘠]。"
+			"我[听说过，知道]流浪者太空中的人类船长，但看到你仍然相当[奇怪，古怪]。"
+			"我无法[想象、揣摩]不能飞行的情况。你是如何设法去任何地方的？"
+			"我想知道你的母星上生活着什么样的[生物，生命]。"
+			"有了那个跳跃驱动器，你一定能够[观察、见证]来自银河系各地的各种奇妙的生命形式。我希望我有这样的机会。"
+			"我的一个[朋友，哥们]想见见你，但他太[害羞，害怕]了。"
+			"当你[在这里，在场]的时候，你应该尝尝我们的[美味的，可口的]种子汤。它是长途旅行后的[充实、满足]一餐。"
 		word
 			`"`
 
@@ -149,19 +149,19 @@ news "Wanderer scientists"
 		not attributes "evacuation"
 	name
 		word
-			"Wanderer scientist"
-			"Scientist"
-			"Wanderer ecologist"
-			"Ecologist"
+			"流浪者科学家"
+			"科学家"
+			"流浪者生态学家"
+			"生态学家"
 	message
 		word
 			`"`
 		word
-			"I recently [traveled, journeyed] to another world on a scientific [mission, study], where we discovered a new species of plant. How [exciting, thrilling]!"
-			"The best part of my [job, task] is the thrill of [discovery, revelation]."
-			"Communication with your colleagues is [important, indispensable]. I learnt this the [hard, difficult] way when I did not mention that a new plant species I had [found, discovered] was carnivorous."
-			"One of my [proudest, greatest] accomplishments was when I helped [nurture, grow] an almost-extinct species of insect back to a [viable, independent] population size."
-			"With all the different species we have to [keep track of, document], it is easy to get [mixed up, confused]. A spiny-haired T'kai may be upon closer [inspection, study] a short-necked Kat'tchi."
+			"我最近在一次科学[任务、研究]中[旅行、旅途]到另一个世界，在那里我们发现了一种新的植物物种。多么[令人兴奋，激动人心]!"
+			"我的[工作、任务]的最好部分是[发现、启示]的快感。"
+			"与同事的沟通是[重要的，不可缺少的]。当我没有提到我[发现，发现]的一个新的植物物种是食肉的时候，我以[艰难，困难]的方式学到了这一点。"
+			"我[最自豪、最伟大]的成就之一是我帮助[培育、成长]一个几乎灭绝的昆虫物种恢复到[可生存、独立]的种群规模。"
+			"由于我们要[跟踪、记录]所有不同的物种，所以很容易被[混淆、混淆]。一个长着刺毛的T'kai可能在仔细[检查、研究]后是一个短颈的Kat'tchi。"
 		word
 			`"`
 
@@ -173,14 +173,14 @@ news "Wanderer oil safety"
 		attributes "oil"
 	name
 		word
-			"Safety inspector"
-			"Wanderer safety inspector"
+			"安全检查员"
+			"流浪者安全检查员"
 	message
 		word
 			`"`
 		word
-			"My job is to prevent the [destruction, death] of that which we have sought to [renew, nurture]."
-			"The oil drillers have no [respect, regard] for the [life, existence] of this planet. Just yesterday I caught one [covering up, hiding] a spill that [affected, impacted] an estimated 328 blades of grass!"
+			"我的工作是防止我们试图[更新、培育]的东西被[破坏、死亡]。"
+			`石油钻探者对这个星球的[生命、存在]毫无[尊重、重视]。就在昨天，我抓到一个[掩盖、隐藏]泄漏的石油，[影响、冲击]估计有328片草叶！"。`
 		word
 			`"`
 
@@ -192,14 +192,14 @@ news "Wanderer oil drilling"
 		attributes "oil"
 	name
 		word
-			"Oil rigger"
-			"Wanderer oil rigger"
+			"钻油工"
+			"流浪者钻油工"
 	message
 		word
 			`"`
 		word
-			"Many do not [like, appreciate] it, but my work is the [backbone, support] of this [society, civilization]."
-			"What I do is [unfortunate, regrettable], but we have no other [option, choice]."
+			"许多人不[喜欢、欣赏]它，但我的工作是这个[社会、文明]的[骨干、支持]。"
+			"我所做的事情是[不幸的，令人遗憾的]，但我们没有其他的[选项，选择]。"
 		word
 			`"`
 
@@ -211,16 +211,16 @@ news "wanderer farmer"
 		attributes "farming"
 	name
 		word
-			"Wanderer farmer"
-			"Farmer"
+			"流浪者农夫"
+			"法尔默"
 	message
 		word
 			`"`
 		word
-			"We must preserve a [balance, order] when we plant our crops."
-			"Compared to the [struggles, challenges] that our [ancestors, forebearers] faced when they were first brought here by the Eye, my problems are [inconsequential, nothing]."
-			"To be a good farmer, you must be able to [predict, foresee] possible challenges. Just a few [years, cycles] ago my crops were almost completely [destroyed, wiped out] by a drought whose signs I [ignored, overlooked]."
-			"You must not [override, dismiss] the natural [rhythms? balance?] of the land you work on. Doing otherwise would cause [harm, destruction] to that which [feeds, nurtures] you."
+			"我们在种植庄稼的时候，必须保持一种[平衡、秩序]。"
+			"与我们的[祖先、先人]刚被眼睛带到这里时面临的[斗争、挑战]相比，我的问题是[无关紧要的，没什么]。"
+			"要成为一个好农民，你必须能够[预测、预见]可能的挑战。就在几年前[年，周期]，我的庄稼几乎被干旱完全[摧毁，消灭]，我[忽视，忽略]了干旱的迹象。"
+			"你不能[推翻、否定]你工作的土地的自然[节奏、平衡]。否则会对[养育你的]东西造成[伤害、破坏]。"
 		word
 			`"`
 
@@ -231,21 +231,21 @@ news "Wanderer soldier"
 		government "Wanderer"
 	name
 		word
-			"Wanderer soldier"
-			"Soldier"
-			"Wanderer conscript"
-			"Conscript"
+			"流浪者士兵"
+			"士兵"
+			"流浪者士兵"
+			"应征者"
 	message
 		word
 			`"`
 		word
-			"I wish we did not have to [fight, do battle] to survive. It is a [savage, inelegant] way of solving conflict."
-			"I joined our new [defense fleet, navy] because I wanted to protect lifeforms. Instead I am [battling, killing] them. It brings me great [sadness, sorrow] to see such [destruction, waste]."
-			"I volunteered for service in a warship, and many [ask, ponder] why. For every Hai I [shoot down, kill] I save [many, multiple] civilians."
-			"Just a few days ago I was asked to form a new [military, army] unit, even though I was given almost no [training, experience] in war. These are [desperate, hopeless] times indeed."
-			"Our [commander, unit leader] used to be a zoologist. His only [combat, fighting] experience was defending himself against a rabid Chi'kta on an [expedition, study]. They couldn't find anyone [better, more suitable], so he got 'promoted.'"
-			"One of my crewmates is [scared, frightened] of the sound of guns firing. How he got conscripted is [anyone's guess, a mystery]."
-			"Many of our [commanders, leaders] have no idea how a military [works, operates]. They often have to consult history [books, records] so that they can [learn, study] the [workings, activities] of a proper army."
+			"我希望我们不必为了生存而[战斗，做战]。这是一种[野蛮的、不优雅的]解决冲突的方式。"
+			"我加入我们新的[防御舰队、海军]是因为我想保护生命体。相反，我却在与它们[战斗、杀戮]。看到这样的[破坏、浪费]，我感到非常[悲伤、难过]。"
+			"我自愿在战舰上服役，许多人[问，思索]为什么。每当我[击落、杀死]一个海，我就会拯救[许多、多个]平民。"
+			"就在几天前，我被要求组建一个新的[军事、军队]单位，尽管我几乎没有得到任何[训练、经验]的战争。这的确是一个[绝望的、无望的]时代。"
+			"我们的[指挥官，单位领导]曾经是一名动物学家。他唯一的[作战、战斗]经验是在一次[考察、研究]中面对狂暴的Chi'kta进行自卫。他们找不到[更好、更合适的]人，所以他得到了'晋升'。"
+			"我的一个船员是[害怕、恐惧]枪声的人。他是怎么被征召的，是[任何人都能猜到的，一个谜]。"
+			"我们的许多[指挥官、领导人]都不知道军队是如何[工作、运作]的。他们经常要查阅历史[书籍、记录]，以便能够[学习、研究]一支正规军队的[工作、活动]。"
 		word
 			`"`
 
@@ -257,17 +257,17 @@ news "Wanderer engineer"
 		not attributes "evacuation"
 	name
 		word
-			"Wanderer engineer"
-			"Engineer"
+			"流浪者工程师"
+			"工程师"
 	message
 		word
 			`"`
 		word
-			"The warships we have begun to [manufacture, build] are from a more [brutish, dark] time in our history. I hope that we are not headed towards such times [again, once more]."
-			"Despite their [savage, regrettable] purpose, the warships we have begun to [make, fashion] are impressive from a purely technological [perspective, view]."
-			"I regret that I must [recreate, unearth] technologies of [war, battle], but it is necessary for our [survival, existence]."
-			"I would like to [study, understand] human technology and its [capabilities, abilities], but I am not able to. Now that we must build [warships, battleships], all my time has been taken up by their [production, creation]."
-			"I create weapons of [destruction, annihilation] so that we may survive and go on to [create, rebirth]."
+			"我们已经开始[制造、建造]的战舰来自我们历史上一个更加[残酷、黑暗]的时代。我希望我们不会[再一次，再一次]走向这样的时代。"
+			"尽管它们的[野蛮的、令人遗憾的]目的，但从纯粹的技术[角度、观点]来看，我们已经开始[制造、时尚]的战舰令人印象深刻。"
+			"我感到遗憾的是，我必须[重新创造、发掘][战争、战斗]的技术，但这对我们的[生存、存在]是必要的。"
+			"我想[研究、了解]人类技术及其[能力、本事]，但我无法做到。现在我们必须建造[军舰、战舰]，我所有的时间都被它们的[生产、创造]所占用。"
+			"我创造[毁灭、歼灭]的武器，以便我们可以生存并继续[创造、重生]。"
 		word
 			`"`
 
@@ -278,25 +278,25 @@ news "Wanderers and the Eye"
 		government "Wanderer"
 	name
 		word
-			"Wanderer"
-			"Wanderer civilian"
-			"Civilian"
-			"Pilot"
-			"Wanderer pilot"
-			"Wanderer scientist"
-			"Scientist"
+			"漂泊者"
+			"漫游者平民"
+			"平民"
+			"飞行员"
+			"流浪者飞行员"
+			"流浪者科学家"
+			"科学家"
 	message
 		word
 			`"`
 		word
-			"The Eye has opened in my [lifetime, existence]! I never dreamed of such a [miracle, wonder] happening for me to see!"
-			"The lands beyond the Eye shall bring a [rebirth? renewal?] to our species."
-			"It is time for our [society, species] to move to new lands; the Eye have given us this [honor, opportunity]."
-			"The opening of the Eye is a sign that we must continue our [purpose? existence?] in a new [part, region] of this galaxy."
-			"What [wonders, changes] await us at the end of the Eye!"
-			"I am honored to [bear witness? attest?] to this new phase of our cycle. The Eye shall [renew?, change?] us."
-			"Now that the Eye is [here, upon us], I wonder if I'll [undergo, experience] the Molt. It would be a [honor, privilege] to be changed in this way."
-			"Some of my feathers have [begun, started] to fall out, and I've been [noticing, observing] lumps on my skin. I [hope, wish] that it's the Molt."
+			"眼睛在我的[有生之年，存在]打开了!我从未梦想过会有这样的[奇迹，惊奇]发生，让我看到!"
+			"眼球之外的土地将为我们的物种带来[重生?更新?]。"
+			"现在是我们的[社会、物种]迁移到新土地的时候了；眼睛给了我们这个[荣誉、机会]。"
+			"眼睛的开放是一个信号，我们必须在这个星系的新[部分，区域]继续我们的[目的？"
+			"在眼睛的尽头，有什么[奇迹、变化]在等着我们!"
+			"我很荣幸能[见证？证明？]我们周期的这个新阶段。眼球将[更新？，改变？]我们。"
+			"现在，眼睛[在这里，在我们身上]，我想知道我是否会[经历，体验]蜕变。能以这种方式改变，将是一种[荣誉，特权]。"
+			"我的一些羽毛已经[开始，开始]脱落，而且我已经[注意到，观察到]我皮肤上的肿块。我[希望，希望]这是莫尔特。"
 		word
 			`"`
 
@@ -308,21 +308,21 @@ news "Wanderers and Korath"
 		not attributes "evacuation"
 	name
 		word
-			"Wanderer merchant captain"
-			"Wanderer captain"
-			"Wanderer"
-			"Wanderer civilian"
+			"漫游者商人队长"
+			"漫游者舰长"
+			"漂泊者"
+			"漫游者平民"
 	message
 		word
 			`"`
 		word
-			"The Korath have [enormous, gigantic] ships that many of them live on their whole lives. I cannot [imagine, fathom] doing the same."
-			"Have you [seen, viewed] a Korath up close? They only have feathers on their neck. How [strange, odd]."
-			"The engines the Korath use have no regard for [efficiency, subtlety]. But I must admit, they are much more powerful than ours."
-			"The Korath cannot pay [well, adequately] for their transport jobs, but they insist on paying [despite it, nonetheless]."
-			"I am trying to [learn, understand] more words of the Korath language. It is a difficult [task, undertaking], but it is important to learn the language of those who we are [undertaking, rescuing]."
-			"Have you been on a Korath [world, planet]? It is a [sobering, depressing] reminder of the importance of our [task, work]."
-			"I am [excited, overjoyed] to be part of [healing, renewing] the Korath worlds. We are once again [transforming, altering] the old into the new."
+			"科拉特人有[巨大的，巨型的]船，他们中的许多人一生都生活在船上。我不能[想象，想象]做同样的事情。"
+			"你[见过，看过]科拉特人近距离的生活吗？他们只有脖子上的羽毛。多么[奇怪，怪异]。"
+			"科拉思人使用的引擎不考虑[效率、精巧]。但我必须承认，它们比我们的强大多了。"
+			"科拉斯人不能为他们的运输工作支付[好的，足够的]，但他们坚持支付[尽管如此，还是要]。"
+			"我正在努力[学习、理解]更多的Korath语言的词汇。这是一项艰巨的[任务，工作]，但学习我们[工作，救援]对象的语言很重要。"
+			"你去过Korath[世界、星球]吗？这是对我们[任务、工作]重要性的一个[清醒、压抑]的提醒。"
+			"我很[兴奋，欣喜若狂]，能够成为[治愈，更新]Korath世界的一部分。我们又一次[改造、改变]了新旧事物。"
 		word
 			`"`
 
@@ -334,13 +334,13 @@ news "Wanderer Linguistics"
 		not attributes "evacuation"
 	name
 		word
-			"Wanderer linguist"
-			"Linguist"
+			"流浪者语言学家"
+			"语言学家"
 	message
 		word
 			`"`
 		word
-			"Many scientists are currently [studying, examining] the Korath language, and attempting to teach it to others. It is [exciting, satisfying] to be part of this [effort, undertaking]."
-			"We are still [figuring out, determining] whether or not a Wanderer who has not undergone the Molt could [learn, apprehend] the Korath language. The sounds in their [speech, tongue] are hard for us to [speak, pronounce]."
+			"许多科学家目前正在[研究，检查]Korath语言，并试图将其传授给其他人。能够成为这一[努力、事业]的一部分，是[令人兴奋、令人满意的]。"
+			"我们仍在[弄清楚，确定]没有经历过Molt的流浪者是否能[学习，领会]Korath语言。他们的[语言、舌头]中的声音对我们来说很难[说、发]。"
 		word
 			`"`

@@ -62,7 +62,7 @@ ship "Quarg Skylark"
 	explode "large explosion" 40
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description "The Skylark is used by the Quarg as a freighter and warship."
+	description "云雀号被夸格人用作货船和战舰。"
 
 
 ship "Quarg Wardragon"
@@ -116,4 +116,4 @@ ship "Quarg Wardragon"
 	explode "large explosion" 40
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description "The Wardragon is used by the Quarg as a light warship."
+	description "夸父号作为轻型战舰使用。"

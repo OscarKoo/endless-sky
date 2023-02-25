@@ -46,10 +46,10 @@ outfitter "Elenctic Commune Basic"
 	"Heavy Laser Turret"
 	"Bullfrog Anti-Missile"
 	"Chameleon Anti-Missile"
-	`"Basrem" Atomic Thruster`
-	`"Basrem" Atomic Steering`
-	`"Benga" Atomic Thruster`
-	`"Benga" Atomic Steering`
+	`"Basrem "原子推进器`
+	`"巴斯雷姆 "原子转向器`
+	`"Benga "原子推进器`
+	`"本加 "原子转向器`
 	"Hai Williwaw Cooling"
 	"Liquid Nitrogen Cooler"
 	"Hai Chasm Batteries"
@@ -72,8 +72,8 @@ event "liberated elenchus"
 		government "Elenctic Commune"
 		add fleet "Elenctic Commune Miners" 5000
 	planet "Elenchus"
-		description `Over the past century, a cubic kilometer of this moon has been hollowed out and filled with corridors and cavernous rooms. There is a city of nearly a hundred thousand people whose lives have been focused on science since their ancestors were first brought here a hundred twenty years ago. Now humans, Hai, and even some Korath, live here working side-by-side. Once they were slaves to a succession of criminal organizations, and their story brought the Hai and humans to the brink of war. Fortunately, a resourceful pilot from New Boston averted catastrophe and freed Elenctic Commune.`
-		spaceport `The spaceport is a distinct structure separate from the larger underground settlements. It has both hangar and ventilation access to the surface with a massive air processor that is the primary supply of breathable air to the population. This once allowed the city to be controlled by pirate groups despite being vastly outnumbered by those they ruled. A disused fighting ring, empty mounts for battle trophies, and bloody spikes that once held pirate victims are all still features baked into the construction. A thick access tunnel with supplementary corridors and vents leads downward from the spaceport to the main settlement. There is still extensive damage from the invasion, but the denizens are slowly cleaning it up.`
+		description `在过去的一个世纪里，这个月球有一立方公里被挖空了，充满了走廊和空洞的房间。这里有一个近十万人的城市，自从他们的祖先在一百二十年前第一次被带到这里，他们的生活就一直以科学为中心。现在，人类、海族，甚至一些Korath，都在这里并肩工作。他们曾经是一连串犯罪组织的奴隶，他们的故事把海族和人类带到了战争的边缘。幸运的是，一位来自新波士顿的足智多谋的飞行员避免了灾难的发生，解放了Elenctic Commune。`
+		spaceport `太空港是一个独立的结构，与较大的地下定居点分开。它有机库和通往地面的通风通道，有一个巨大的空气处理器，是人口呼吸空气的主要供应地。这曾经让这个城市被海盗集团控制，尽管他们的人数远远超过他们的统治者。一个废弃的格斗场、放置战斗战利品的空坐骑，以及曾经关押海盗受害者的血腥钉子，都仍然是建筑中烘托的特征。一条厚厚的通道，加上辅助走廊和通风口，从太空港向下通往主要定居点。入侵造成的损失仍然很大，但居民们正在慢慢清理。`
 		outfitter "Elenctic Commune Basic"
 		shipyard "Elenctic Commune Basic"
 

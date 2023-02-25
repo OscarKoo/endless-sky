@@ -50,8 +50,8 @@
 
 mission "Hai Rescue: Yeertle Hint"
 	landing
-	name "Investigate a Were-Squirrel"
-	description `A truly outlandish rumor has been floating around that there might be a "were-squirrel" (Hai) hiding out on <destination>.`
+	name "调查一只狼人松鼠"
+	description `一个真正离奇的传言一直在流传，说可能有一只 "松鼠"（Hai）隐藏在<destination>上。`
 	source
 		near "Betelgeuse" 4
 		government "Republic" "Syndicate"
@@ -68,9 +68,9 @@ mission "Hai Rescue: Yeertle Hint"
 		random < 50
 	on offer
 		conversation
-			`As you come in to land at the spaceport, you listen to the usual chatter of captains coming and going. Often this contains useful tidbits, such as which merchants are ticked off at the moment and whether you should expect to wait a while for refueling. Today, though, you overhear a captain telling an acquaintance a remarkable tale.`
-			`	Apparently, there is a man-beast on <planet>, and when the other captain laughs at the idea of a modern "werewolf," the first one is quick to clarify that it's more like a meter and a half tall "were-squirrel." There seems to be some confused discussion about the mythology of such beasts being revealed when caught staring at bright lights until a third captain, listening in the same as you, butts in to inform them that one of them stole that from a popular show a few years back.`
-			`	You stop listening on your final approach as the conversation descends into a good-natured argument. Nevertheless, it sounds like a lead on a possible stranded Hai that would be worth following up.`
+			`当你在太空港降落时，你听着船长们来来往往的唠叨。这通常包含一些有用的花絮，如哪些商人目前被勾销了，以及你是否应该等待一段时间来补充燃料。但今天，你无意中听到一位船长对一位熟人讲了一个非凡的故事。`
+			`	显然，在<planet>上有一个人形野兽，当另一位船长嘲笑现代 "狼人 "的想法时，第一位船长迅速澄清，它更像是一个一米五高的 "狼人松鼠"。似乎有一些关于这种野兽在被抓到盯着亮光看时被揭穿的神话的混乱讨论，直到第三个队长，和你一样在听，插嘴告诉他们，他们中的一个人从几年前的一个流行节目中偷了这个说法。`
+			`	你在最后一次接近时停止了收听，因为谈话陷入了一场善意的争论。尽管如此，这听起来像是一条可能是搁浅的海的线索，值得跟进。`
 				accept
 	to complete
 		has "Hai Rescue: Yeertle Family: offered"
@@ -79,8 +79,8 @@ mission "Hai Rescue: Yeertle Hint"
 
 
 mission "Hai Rescue: Yeertle Family"
-	name "Return the Yeertle family"
-	description "Transport the Yeertle family to <destination>. Payment is <payment>."
+	name "送回耶尔托一家"
+	description "将Yeertle一家送到<destination>。付款方式为<payment>。"
 	source Prime
 	destination Icelake
 	passengers 5
@@ -97,84 +97,84 @@ mission "Hai Rescue: Yeertle Family"
 		conversation
 			branch nohint
 				not "Hai Rescue: Yeertle Hint: offered"
-			`Wandering around after dark you find yourself down an alley near the spaceport, huddled in an alcove against the drizzle while you keep an eye out for anything suspicious, apparently last rumored to be around here. After a while, a few dozen meters ahead, you see a short man with a strange necklace. As he walks past a power transfer unit, the man shimmers and you see faintly-visible, squirrel-like features. It seems the necklace is a projector of a human hologram concealing a Hai. He is sticking to the shadows, trying to avoid being seen.`
+			`入夜后，你发现自己在太空港附近的一条小巷里徘徊，蜷缩在一个凹槽里，抵挡着细雨，同时留意着任何可疑的东西，显然最后的传言是在这附近。过了一会儿，在前面几十米处，你看到一个戴着奇怪项链的矮个子男人。当他走过一个电力传输装置时，这个人闪闪发光，你看到隐约可见的、类似松鼠的特征。看来这条项链是一个人类全息图的投影仪，里面藏着一个海。他粘在阴影里，试图避免被看到。`
 				goto start
 			label nohint
-			`Wandering around after dark you find yourself down an alley near the spaceport. The ongoing drizzle increases in intensity and you pause for a moment to huddle in an alcove for a while until it settles down. After a few moments, a few dozen meters ahead, you see a short man with a strange necklace. As he walks past a power transfer unit, the man shimmers and you see faintly-visible, squirrel-like features. It seems the necklace is a projector of a human hologram concealing a Hai. He is sticking to the shadows, trying to avoid being seen.`
+			`天黑后四处游荡，你发现自己在太空港附近的一条小巷里。正在下的细雨越来越大，你暂停了一会儿，蜷缩在一个凹槽里，直到它稳定下来。过了一会儿，在前面几十米处，你看到一个戴着奇怪项链的矮个子男人。当他走过一个电力传输装置时，这个人闪闪发光，你看到隐约可见的、类似松鼠的特征。看来这条项链是一个人类全息图的投影仪，里面藏着一个海。他正粘在阴影中，试图避免被人看到。`
 			label start
-			`	Do you want to talk to him?`
+			`	你想和他谈谈吗？`
 			choice
-				`	(Talk to him.)`
-				`	(Come back later.)`
+				`	(和他谈谈。)`
+				`	(稍后再来。)`
 					defer
-			`	The man's expression doesn't change much as you approach. His holoprojector may not be sophisticated enough to translate Hai facial expressions. You can see exposed wires on the device; this is probably a makeshift projector he produced with limited resources. A well-made version might keep Hai hidden in human space for a long time.`
-			`	From the shaking voice, you can tell he's frightened.`
-			`	"C-can I help you?"`
+			`	当你走近时，那人的表情没有什么变化。他的整体投影仪可能还不够成熟，无法翻译出海的面部表情。你可以看到设备上暴露的电线；这可能是他用有限的资源制作的临时投影仪。一个制作精良的版本可能会让海在人类空间中隐藏很长时间。`
+			`	从颤抖的声音中，你可以看出他很害怕。`
+			`	"我可以帮你吗？"`
 			choice
-				`	"You're a Hai. Why are you in human space?"`
+				`	"你是一个海。为什么你在人类空间？"`
 					goto far
-				`	"Do you need a ride home to Hai space?"`
+				`	"你需要搭车回海族空间吗？"`
 					goto "ride offer"
-				`	"How did you make that holoprojector?"`
+				`	"你是怎么做那个整体投影仪的？"`
 					goto "made in a cave"
 			label "made in a cave"
-			`	He pauses and after a brief delay his hologram registers surprise, "You know what this is then?"`
+			`	他停顿了一下，在短暂的延迟之后，他的全息图显示出惊讶。"那你知道这是什么？"`
 			choice
-				`	"Yes, that's a holoprojector and you're a Hai."`
-				`	"Yes, I've been looking for someone like yourself."`
-			`	He peers at you for a second, perhaps pondering if he can trust you with the answer.`
-			`	"Yes, well, holography is my trade, and Hai children sometimes construct holoprojectors for fun. This one is primitive but functional, if only barely, thanks to inferior human components I've had to scavenge."`
+				`	"是的，那是一个全息投影仪，你是一个海族。"`
+				`	"是的，我一直在寻找像你这样的人。"`
+			`	他盯着你看了一会儿，也许在思考他是否能相信你的答案。`
+			`	"是的，好吧，全息技术是我的职业，海族的孩子有时会建造全息投影仪来玩。这个是原始的，但可以使用，即使只是勉强，这要归功于我不得不搜刮的劣质人类部件。"`
 			choice
-				`	"Do you need a ride home to Hai space?"`
+				`	"你需要搭车回海族空间吗？"`
 					goto "ride offer"
-				`	"You're a Hai. Why are you in human space?"`
-			`	"I'm from Icelake. I chartered a flight from Icelake to Allhome with my family. They would have gone on vacation while I would have been at a conference. Instead, the human merchants locked us in a cell and took us here.`
+				`	"你是一个海。为什么你在人类空间？"`
+			`	"我来自Icelake。我和我的家人包了一架从Icelake到Allhome的飞机。他们本来是去度假，而我本来是去参加会议。相反，人类商人把我们锁在一个牢房里，把我们带到这里。`
 				goto "questioned first"
 			label far
-			`	He pauses for a second, perhaps pondering if he can trust you with the answer.`
-			`	"I'm a holographer from Icelake. I chartered a flight from Icelake to Allhome with my family. They would have gone on vacation while I would have been at a conference. Instead, the human merchants locked us in a cell and took us here.`
+			`	他停顿了一下，也许在思考他是否能相信你的答案。`
+			`	"我是一个来自伊塞拉克的全息摄影家。我和我的家人包了一架从Icelake到Allhome的飞机。他们本来是去度假，而我本来是去参加会议。相反，人类商人把我们锁在一个牢房里，把我们带到这里。`
 			label "questioned first"
-			`	"My youngest daughter is very small for her age, and was able to sneak through a vent to unlock our cell. The ship was under-crewed and so we overpowered them. Unfortunately, they had already landed and the ship was locked down. I didn't know how to disable the lock so we could not take off, and for lack of options we've been hiding near here ever since.`
-			`	"Can you take us back to <destination>? I have considerable savings back there and can pay you well. Say, <payment>?"`
+			`	"我的小女儿对她的年龄来说非常小，她能够偷偷穿过一个通风口，打开我们的牢房。这艘船的船员不足，所以我们制服了他们。不幸的是，他们已经着陆了，飞船被锁住了。我不知道如何解除锁，所以我们无法起飞，由于缺乏选择，我们从那时起就一直躲在这里附近。`
+			`	"你能带我们回<destination>吗？我在那里有相当多的积蓄，可以给你很好的报酬。说吧，<payment>？"`
 			choice
-				`	"Sure!"`
-				`	"Would the Hai government be looking for you?"`
+				`	"当然！"`
+				`	"海政府会不会找你们？"`
 					goto looking
-				`	"No, I can't."`
+				`	"不，我不能。"`
 					decline
-			`	"Thank you. My name is Duniip Yeertle, by the way. My wife and three children are nearby. They have holoprojectors as well."`
+			`	"谢谢你。顺便说一下，我叫杜尼普-耶尔特勒。我的妻子和三个孩子就在附近。他们也有全息投影仪。"`
 				goto leave
 			label "ride offer"
-			`	"Yes! Thank you. Some crooked human merchants locked us in a cell and took us here. I've been unable to find anyone who has even heard of Hai space, and I'm afraid to approach the human authorities. You're the first lead I have! I promise I'll pay you well when we return. I can afford <payment> once we're back at <destination>.`
-			`	"My name is Duniip Yeertle, by the way. My wife and three children are nearby. They have holoprojectors as well."`
+			`	"是的！谢谢你。一些奸诈的人类商人把我们锁在一个牢房里，把我们带到这里。我一直找不到任何听说过海空间的人，我也不敢去找人类当局。你是我的第一个线索!我保证当我们返回时，我会给你很好的报酬。一旦我们回到<payment>，我可以支付<destination>。`
+			`	"顺便说一下，我的名字是Duniip Yeertle。我的妻子和三个孩子就在附近。他们也有全息投影仪。"`
 				goto leave
 			label looking
-			`	The man's holographic expression doesn't change, but his body language shifts in a way that speaks of distress.`
-			`	"The Hai government... no. No, they wouldn't. Let's just say that it's not entirely uncommon for Hai to willingly go missing. An occasional tour of duty with the military, a thrill-seeking adventure with the hopes of getting a reaction upon returning, or even... defection to our brethren. If the authorities tried to track down every single Hai who went missing as soon as they went missing, they'd spend their time chasing their tails fruitlessly.`
-			`	"Doubtlessly I'm on a register somewhere, with a timer counting down. It is even possible that someone has been told to watch for if I show up on Darkcloak. Ultimately though, the authorities don't often look for missing persons, unless they're very wealthy, until at least four months have passed by. We have been gone for only two."`
+			`	这个人的全息表情没有变化，但他的身体语言发生了变化，说明了他的苦恼。`
+			`	"海政府......不。不，他们不会的。这么说吧，海族人自愿失踪并不是完全不常见的。偶尔在军队服役，寻求刺激的冒险，希望回来后得到反应，甚至......叛逃到我们的兄弟那里。如果当局试图追踪每一个失踪的海族人，只要他们失踪，他们就会花时间追寻他们的尾巴，毫无结果。`
+			`	"毫无疑问，我在某个登记簿上，有一个计时器在倒计时。甚至有可能有人被告知，如果我在黑暗环岛出现，就要注意了。不过归根结底，当局通常不会去寻找失踪的人，除非他们非常富有，直到至少四个月过去了。我们只离开了两个月。"`
 			choice
-				`	"Do you need a ride home to Hai space?"`
+				`	"你需要搭车回海族空间吗？"`
 					goto "ride offer"
-				`	"Well, let's get you out of here and home safely."`
-			`	Turns out relief is an expression his holoprojector does handle. "Thank you! My name is Duniip Yeertle, by the way. My wife and three children are nearby. They have holoprojectors as well."`
+				`	"好吧，让我们带你离开这里，安全回家。"`
+			`	原来解脱是他的整体投影仪确实处理的一种表情。"谢谢你！"。顺便说一下，我的名字是Duniip Yeertle。我的妻子和三个孩子就在附近。他们也有全息投影仪。"`
 				goto leave
 			label leave
-			`	"Please, follow me back to my house, and we will make our preparations."`
+			`	"请跟我回我家，我们会做准备的。"`
 			choice
-				`	(Follow him.)`
-			`	You walk down a corridor to a stairway that leads to a brick wall. Duniip walks through the wall; apparently this is another of his holograms. You pass through and see a trio of energetic Hai children eating dinner with their mother.`
-			`	Duniip turns off his hologram and addresses his family. "I found us a pilot! They're going to take us all the way home."`
-			`	The whole family cheers and it turns out they were already packed to leave. Duniip explains they move regularly so they're not found. It takes them under two minutes to finish preparations and don their holoprojectors. Your walk back to the ship is largely uneventful until some men with strange scanners detect the Yeertle family. One man throws a small grenade with a green light on top. You recognize it as a low-level EMP device. All five holograms turn off, along with a nearby bank of lights, but by the time you stumble to a stop and identify the cause you're much closer to your ship than they are to you.`
-			`	In the sudden dimness surrounding your group, you quickly cross the remaining distance to your ship as hastily as possible before someone gets a good look at the Yeertles. Looking back, you see the men were not following you; they were running to their own ships. Looks like they're planning to follow you into orbit.`
+				`	(跟着他。)`
+			`	你走过一条走廊，来到一个通往砖墙的楼梯口。杜尼普穿过墙壁；显然，这是他的另一个全息图像。你穿过墙，看到三个精力充沛的海族孩子正在和他们的母亲吃晚饭。`
+			`	杜尼普关掉他的全息图，向他的家人讲话。"我为我们找到了一个飞行员!他们将带我们一路回家。"`
+			`	全家欢呼起来，原来他们已经收拾好行李准备离开了。杜尼普解释说，他们经常搬家，所以不会被发现。他们花了不到两分钟就完成了准备工作，并戴上了全息投影仪。你们回船上的路基本没有什么问题，直到一些带着奇怪扫描器的人发现了耶尔托一家。一个人扔出了一个顶部有绿光的小手榴弹。你认出它是一个低级别的EMP装置。所有五个全息图都关闭了，还有附近的灯组，但当你跌跌撞撞地停下来并确定原因时，你已经离你的飞船比他们离你更近。`
+			`	在你们这群人周围突然出现的昏暗中，你们在有人看清耶尔特人之前，尽可能匆忙地穿过剩余的距离，来到你们的船上。回头一看，你发现那些人并没有跟着你，他们正跑向自己的船。看起来他们打算跟着你进入轨道。`
 				launch
 	on accept
-		dialog `It appears some unsavory types have followed you into orbit in pursuit of the Yeertle family. You could fight them, but they don't look equipped to make the journey back to Hai space successfully; so you could also probably outrun them if you prefer.`
+		dialog `看来有些不怀好意的人跟着你进入轨道，追捕耶尔托家族。你可以和他们战斗，但他们看起来没有装备，无法成功返回海空间；所以，如果你愿意，你也可以跑掉他们。`
 	on complete
 		log `Found a Hai family that had been locked up by some crooked merchants meant to be providing transport. A lively bunch, returned them to <planet>.`
-		log "Minor People" "Duniip Yeertle" `A holographer from <planet>, he was able to cobble together five holoprojectors from scrap parts while hiding in little more than a cave in order to protect his family.`
+		log "Minor People" "Duniip Yeertle" `他是一个来自<planet>的全息摄影家，为了保护他的家人，他能够用废旧的零件拼凑出五台全息投影仪，同时躲在一个几乎没有的山洞里。`
 		payment 350000
 		"hai slave prereq" ++
-		dialog `The Yeertle family is ecstatic to be home after their long ordeal and gladly give you <payment>. They promise to run background checks of human pilots before hiring next time.`
+		dialog `在经历了漫长的磨难之后，Yeertle一家对回家感到欣喜若狂，并欣然给你<payment>。他们承诺在下次雇佣人类飞行员之前会对其进行背景调查。`
 	npc
 		government "Bounty Hunter that Won't Enter Hai Space"
 		personality plunders disables unconstrained
@@ -184,8 +184,8 @@ mission "Hai Rescue: Yeertle Family"
 
 mission "Hai Rescue: Ooonem Hint"
 	landing
-	name "A (Short) Angel of Death"
-	description "There have been some mysterious deaths on <destination>."
+	name "死亡天使（短）"
+	description "在<destination>上发生了一些神秘的死亡事件。"
 	source
 		near "Alcyone" 3
 		government "Republic" "Syndicate"
@@ -201,9 +201,9 @@ mission "Hai Rescue: Ooonem Hint"
 		random < 30
 	on offer
 		conversation
-			`As you come in to land at the spaceport, you listen to the usual chatter of captains coming and going. To your surprise, on one of the lower, less obvious bands, you hear a pair of captains talking about the pirate world of <planet>. Apparently these two have enough connections to profit off the occasional trip there, but one of them is warning the other not to go by at the moment.`
-			`	You listen in carefully as the speaker relays that there's some kind of hunt going on there. All the ships are being searched before departure, and there's a lot of paranoid goons with weapons hot. A merchant has been killed on his own ship, while it was parked in the spaceport, and random people keep getting into firefights with a short, hooded, 'angel of death' in dark alleyways. So far, no one claims to know what's going on.`
-			`	It's really hard to say what this could be, but it might be worth checking out.`
+			`当你来到太空港着陆时，你听着机长们来来往往的唠叨。令你惊讶的是，在一个较低的、不太明显的波段，你听到一对船长在谈论<planet>的海盗世界。显然，这两个人有足够的关系，可以从偶尔的旅行中获利，但其中一个人正在警告另一个人不要在这个时候去。`
+			`	你仔细听着，说话的人说那里正在进行某种追捕。所有的船在出发前都要被搜查，有很多带着武器的偏执狂。一个商人在自己的船上被杀，当时他的船正停在太空港里，随机的人不断地在黑暗的巷子里与一个矮小的、带着头罩的 "死亡天使 "交火。到目前为止，没有人声称知道发生了什么。`
+			`	很难说这可能是什么，但可能值得一查。`
 				accept
 	to complete
 		has "Hai Rescue: Ooonem: offered"
@@ -212,8 +212,8 @@ mission "Hai Rescue: Ooonem Hint"
 
 
 mission "Hai Rescue: Ooonem"
-	name "Return Ooonem"
-	description "Transport the Hai you rescued to <destination>. Payment is <payment>."
+	name "归还Ooonem"
+	description "把你救的海运送到<destination>。付款方式为<payment>。"
 	source "Stormhold"
 	destination "Makerplace"
 	passengers 1
@@ -234,87 +234,87 @@ mission "Hai Rescue: Ooonem"
 				and
 					not "Hai Rescue: Ooonem Hint: offered"
 					not "Hai Rescue: Ooonem (defer count)" >= 1
-			`Following reports of the last time the 'angel of death' was sighted, you end up loitering in a twisting street parallel to a main thoroughfare. The few people using it hurry by quickly, and rarely seem to travel any great distance down this street. One very surly looking individual gives you a sour glare on his way past, a collection of weapons on full display. He looks a lot like you'd expect a bounty hunter to look, and as he moves out of sight you observe a shadow, previously motionless, detach from a spot on a wall and head back your direction, laser rifle pointed in the direction of the departing individual. As the shadow approaches, you see there's a lot of hair sticking out from their hood. They might be a Hai. Do you want to talk to them?`
+			`根据上次看到 "死亡天使 "的报告，你最终在一条与主要道路平行的扭曲街道上闲逛。使用这条街道的几个人匆匆走过，似乎很少在这条街上走很远。有一个看起来很粗鲁的人在经过时向你投来酸溜溜的目光，他身上的各种武器都摆在那里。他看起来很像你所期望的赏金猎人的样子，当他离开你的视线时，你看到一个之前一动不动的影子，从墙上的一个地方脱离出来，朝你的方向走来，激光枪指向那个离开的人的方向。当这个影子接近时，你看到他们的头巾上有很多头发。他们可能是一个海。你想和他们谈谈吗？`
 				goto start
 			label nohint
-			`As you come in you are informed that all the ships are being searched before departure. No sooner do you disembark your ship than you notice that there's a lot of paranoid goons with weapons hot. Like a lot. There seems to be some kind of manhunt going on for a short, hooded, 'angel of death' who has been loitering in dark alleyways. So far, no one is explicitly claiming to know what's going on though, and even for a place like this the effort seems... ungoverned. Even to the extent that some groups seem to be actively pretending to be involved while surreptitiously not joining in with groups that leave on the hunt.`
-			`	It's all very odd, but one thing you do glean from the constant conversation and the small selection of individuals loudly demanding cooperation is that the 'angel of death', as they're calling it, is unusually short and fast, and capable of things which give you reason to suspect they might possibly be a Hai.`
+			`当你进来的时候，你被告知所有的船只在出发前都要被搜查。当你下船的时候，你就注意到有很多带着武器的偏执狂。像很多。似乎正在对一个矮小的、戴着头罩的 "死亡天使 "进行某种搜捕，他一直在黑暗的巷子里徘徊。到目前为止，没有人明确声称知道发生了什么，即使像这样的地方，这种努力似乎......不受控制。甚至到了这样的程度：一些团体似乎在积极假装参与，同时偷偷摸摸地不加入那些离开狩猎的团体。`
+			`	这一切都很奇怪，但你从不断的谈话和大声要求合作的一小部分人中确实收集到一件事，那就是他们所说的'死亡天使'，异常的矮小和快速，而且能够做一些事情，让你有理由怀疑他们可能是海。`
 			choice
-				`	(Investigate for yourself.)`
-				`	(Come back later.)`
+				`	(自己去调查）。`
+				`	(稍后再来。)`
 					defer
-			`	Following reports of the last time the 'angel of death' was sighted, you end up loitering in a twisting street parallel to a main thoroughfare. The few people using it hurry by quickly, and rarely seem to travel any great distance down this street. One very surly looking individual gives you a sour glare on his way past, a collection of weapons on full display. He looks a lot like you'd expect a bounty hunter to look, and as he moves out of sight you observe a shadow, previously motionless, detach from a spot on a wall and head back your direction, laser rifle pointed in the direction of the departing individual. As the shadow approaches, you see there's a lot of hair sticking out from their hood. Seems you may have indeed found a Hai. Do you want to talk to them?`
+			`	根据上次看到 "死亡天使 "的报告，你最终在一条与主要大道平行的扭曲街道上闲逛。使用这条街道的几个人匆匆而过，似乎很少在这条街上走很远的路。有一个看起来很粗鲁的人在经过时向你投来酸溜溜的目光，他身上的各种武器都摆在那里。他看起来很像你所期望的赏金猎人的样子，当他离开你的视线时，你看到一个之前一动不动的影子，从墙上的一个地方脱离出来，朝你的方向走来，激光枪指向那个离开的人的方向。当这个影子接近时，你看到他们的头巾上有很多头发伸出来。看来你可能确实找到了一个海。你想和他们谈谈吗？`
 			label start
 			choice
-				`	(Talk to them.)`
-				`	(Come back later.)`
+				`	(与他们交谈。)`
+				`	(稍后再来。)`
 					defer
-			`	As you step into their path, the Hai swings the laser rifle towards you and says, "You're either very brave, very stupid, or know something... I should warn you, I'm not going back to them!"`
-			`	She watches your expression closely and, when you don't appear to be hostile, settles into a wary but more relaxed stance. "You're not one of them. What do you want with me?"`
+			`	当你步入他们的道路时，海族将激光步枪挥向你，并说："你要么非常勇敢，要么非常愚蠢，要么知道些什么......。我应该警告你，我不会再去找他们了！"`
+			`	她仔细观察着你的表情，当你没有出现敌意时，就定格在一个警惕但更轻松的姿态。"你不是他们中的一员。你想从我这里得到什么？"`
 			choice
-				`	"I was wondering why a Hai is on a pirate planet."`
+				`	"我在想为什么一个海族会在一个海盗星球上。"`
 					goto hai
-				`	"Not one of whom?"`
+				`	"不是谁的一员？"`
 					goto who
-				`	"Sorry to bother you. I'll leave you to your business."`
+				`	"对不起，打扰你了。我让你去做你的事。"`
 					goto decline
 			label hai
-			`	"I was going to meet a businessman on Shroud to arrange a large-scale import deal for my research project. I asked a human merchant to take me there, but I was tricked. The businessman doesn't really exist, and the deal was faked. The merchant locked me in a cell and brought me here instead. When he opened the cell, I managed to grab his rifle, shoot him, and hide. It's amazing how slowly humans move."`
+			`	"我准备去见Shroud上的一个商人，为我的研究项目安排一笔大规模的进口交易。我让一个人类商人带我去那里，但我被骗了。那个商人其实并不存在，交易也是伪造的。那个商人把我锁在一个牢房里，然后把我带到这里。当他打开牢房时，我设法抓住他的步枪，向他开枪，然后躲起来。人类的行动如此缓慢，真是令人惊讶。"`
 				goto "more questions"
 			label who
-			`	"There are some men looking for me. I've managed to escape them so far; they're not as quick as a Hai. I think they're friends of the merchant who locked me up."`
+			`	"有一些人在找我。到目前为止，我已经成功地逃脱了他们；他们不像海那样快。我想他们是把我关起来的那个商人的朋友。"`
 				goto "more questions"
 			label pay
-			`	"I have no money with me, but my family on <planet> can pay."`
+			`	"我没有带钱，但我在<planet>上的家人可以支付。"`
 				goto "more questions"
 			label "more questions"
-			`	Can you take me back to <destination>? My family can pay for my return.`
+			`	你能带我回<destination>吗？我的家人可以支付我回去的费用。`
 			choice
-				`	"Yes, I'll take you there."`
-				`	"How much will you pay me?"`
+				`	"可以，我带你过去。"`
+				`	"你会给我多少钱？"`
 					goto pay
-				`	"Why are you on a pirate planet?"`
+				`	"你为什么在一个海盗星球上？"`
 					goto hai
-				`	"I'm not one of whom?"`
+				`	"我不是谁的一员？"`
 					goto who
-				`	"Sorry, but you'll have to find another ride."`
+				`	"对不起，但你得另找一辆车。"`
 					goto decline
-			`	Good, but now I must ask, is your ship capable? Are you sure? The pirates are fully aware I am here and will likely chase you, even if you're in good standing with the local authorities. I'd rather not die on your ship.`
+			`	很好，但现在我必须问，你的船有能力吗？你确定吗？海盗们完全知道我在这里，很可能会追杀你，即使你在当地政府有良好的信誉。我可不想死在你的船上。`
 			choice
-				`	"Don't worry. I know how to dodge pirates."`
+				`	"别担心。我知道如何躲避海盗。"`
 					goto go
-				`	"I have a better ship parked somewhere else. I'll go get that first."`
-				`	"You should find a different ride then."`
+				`	"我有一艘更好的船停在别的地方。我先去拿那个。"`
+				`	"那你应该找一个不同的坐骑。"`
 					decline
-			`	She looks at you curiously. "You're a good one, aren't you? Very well, take this transmitter. When you return, come back to this area. Activate it, and I will find you. Come alone."`
+			`	她好奇地看着你。"你是个好东西，不是吗？很好，拿着这个发射器。当你回来时，回到这个区域。激活它，我就会找到你。一个人过来。"`
 			action
 				set "Oonem Transmitter"
-			`	She quickly keys something into the transmitter, and it beeps before displaying a locked icon on the screen. As soon as she has handed it over, she turns and melts down an alley which you weren't even entirely aware of. The transmitter in your hand is small, and looks custom modified. Whoever this Hai is, she's capable.`
+			`	她迅速在发射器上键入一些东西，在屏幕上显示一个锁定的图标之前，它发出了哔哔声。她一交出它，就转身融进了一条你甚至没有完全意识到的小巷。你手中的发射器很小，看起来是经过定制的。不管这个海是谁，她很有能力。`
 				defer
 			label transmitter
-			`	You return to the twisting alleyway you first met the mysterious 'angel of death' in and activate the transmitter. It's been a little while, but on your way in there was a bulletin out for her capture being broadcast, so it seems she's definitely still at large.`
-			`	You have to wait so long you're starting to feel silly, before she suddenly drops in front of you; a rappel rope swinging silently above her head. "Good, you have returned, are you ready to go?"`
+			`	你回到了你第一次见到神秘的 "死亡天使 "的那条曲折的小巷，并启动了发射器。已经有一段时间了，但在你进来的路上，有一个关于抓捕她的公告正在广播，所以看起来她肯定仍然在逃。`
+			`	你不得不等了这么久，你开始觉得自己很傻，然后她突然落在你面前；一条绳索在她头上静静地摆动。"很好，你已经回来了，你准备好了吗？"`
 			choice
-				`	"I'm ready."`
-				`	"I'm sorry, but it's too dangerous for me to get you out of here."`
+				`	"我准备好了。"`
+				`	"我很抱歉，但我带你离开这里太危险了。"`
 					goto decline
 			label go
-			`	"Okay. I guess I should have introduced myself... it's easy to forget social niceties in a place like this. My name is Ooonem, and I'm a researcher from <planet>. Thank you for agreeing to take me home."`
-			`	The pair of you, at her direction, make your way back to your ship, with you quietly greasing the palms of those at one of the many access points to the spaceport. Despite your precautions, though, as you weave between parked ships on your final approach, you notice several men sitting on a nearby ship's loading ramp looking intently at Ooonem, their guns lying close by. Before the men are able to make a grab for their weapons, Ooonem pulls a gas grenade out of her cloak and throws it at the gunmen in one smooth movement. The grenade lands squarely on the ramp, sending a fine mist all around their ship. The men, hands halfway to their weapons, all drop to the ground instead; from the screams of pain and the sounds of convulsion coming from behind you, they're probably not going to trouble you any longer.`
-			`	"I had better leave these behind," she says, dropping a few gas grenades on the ground. "I took them off some pirates a few days ago. They're quite illegal." You notice a label on the grenades: "Sarin Gas: twenty-meter radius." This was a nerve gas grenade that uses one of the older varieties of the gas. They're cheap and plentiful in pirate space.`
-			`	You quickly board your ship and immediately take off.`
+			`	"好吧，我想我应该自我介绍一下......在这样的地方很容易忘记社交礼仪。我的名字是Ooonem，我是一名来自<planet>的研究员。谢谢你同意带我回家。"`
+			`	你们两个，在她的指示下，走回你们的飞船，你悄悄地给那些在通往太空港的众多通道之一的人的手掌涂上油脂。尽管你采取了预防措施，但是，当你在最后接近时，在停泊的船只之间穿行时，你注意到有几个人坐在附近船只的装载坡道上，仔细地看着欧尼姆，他们的枪就在旁边。在这些人能够抓住他们的武器之前，欧尼姆从她的斗篷中拿出一枚毒气手榴弹，并以一个流畅的动作将它扔向这些枪手。手榴弹准确地落在斜坡上，在他们的船周围散发出一股细小的雾气。这些人的手半推半就，反而都掉到了地上；从你身后传来的痛苦的尖叫声和抽搐的声音来看，他们可能不会再找你的麻烦了。`
+			`	"我最好把这些东西留下，"她说，把几个毒气弹丢在地上。"几天前，我从一些海盗身上拿下了它们。它们很不合法。"你注意到手榴弹上的一个标签。"沙林毒气：半径20米。"这是一种神经毒气手榴弹，使用的是这种毒气的一个老品种。它们在海盗区很便宜，而且数量很多。`
+			`	你迅速登上你的飞船，立即起飞。`
 				launch
 			label decline
-			`	The woman shakes her head at you and runs off into the shadows. You doubt you'll ever see her again.`
+			`	那个女人对你摇了摇头，然后跑到阴影里去了。你怀疑你会再见到她。`
 				decline
 	on accept
-		dialog `Those pursuing Oonem have caught on quickly and followed you into orbit. You'll probably have to fight them, but they're only Core pirates and don't look equipped to make the journey back to Hai space successfully. If you're fast enough, you could probably attempt to simply dodge them instead.`
+		dialog `那些追捕Oonem的人很快就发现了，并跟着你进入了轨道。你可能不得不与他们战斗，但他们只是核心海盗，看起来没有装备，无法成功地返回海空间。如果你的速度够快，你也许可以尝试简单地躲避他们。`
 	on complete
 		log `Rescued a kidnapped Hai researcher, Ooonem, from Stormhold and returned her to Makerplace. She was tricked into leaving Hai space for a fake business deal, and the merchant who agreed to take her there kidnapped her instead. Men have been hunting her since she escaped. She doesn't know the real identities of the kidnappers.`
-		log "Minor People" "Oonem" `A Hai researcher with a remarkable talent for stealth and laser rifles. Also a predilection for shooting first and not taking prisoners. She escaped kidnapping and survived independently on <origin> for a remarkable length of time where she acquired the moniker 'angel of death'. She's also quite the capitalist.`
+		log "Minor People" "Oonem" `一个对隐身和激光步枪有非凡天赋的海族研究人员。也喜欢先开枪，不抓俘虏。她逃脱了绑架，在<origin>上独立生存了很长时间，在那里她获得了 "死亡天使 "的称号。她也是一个很好的资本家。`
 		payment 225000
 		"hai slave prereq" ++
-		dialog `Ooonem is relieved to return to <planet>. She leads you to her family's home where you're treated to a bountiful dinner. The cuisine is entirely human-Hai fusion dishes. The dessert is accompanied by what Oonem describes as the most delicious spice of all: <payment>.`
+		dialog `Ooonem对回到<planet>感到很欣慰。她带你到她家，在那里你可以享受到丰盛的晚餐。菜肴完全是人类与海族的融合菜肴。甜品是由Oonem描述的最美味的香料伴随的。<payment>。`
 	npc
 		government "Bounty Hunter that Won't Enter Hai Space"
 		personality plunders disables unconstrained
@@ -325,8 +325,8 @@ mission "Hai Rescue: Ooonem"
 
 mission "Hai Rescue: Prison RP Hint"
 	landing
-	name "Phantom Distress Calls"
-	description "Some merchants have mentioned picking up a distress call near <destination> that they couldn't locate the source of."
+	name "幻影求救电话"
+	description "一些商人提到在<destination>附近捡到一个无法定位来源的求救信号。"
 	source
 		near "Mirfak" 4
 		government "Republic" "Syndicate"
@@ -342,9 +342,9 @@ mission "Hai Rescue: Prison RP Hint"
 		random < 80
 	on offer
 		conversation
-			`As you come in to land at the spaceport, you listen to the usual chatter of captains coming and going. Out here on the edge of things and toward the Core, it is a popular pastime for merchants to swap ghost stories. In all likelihood, the majority of these stories can be put down to minor failures from cheap, mass-produced Syndicate equipment. Nevertheless, one of them stands out this time.`
-			`	It seems a handful of merchants have all been picking up a very faint distress signal in the vicinity of <planet>, but every time they've gone to look for it, they've either experienced some kind of engine warning, or a large group of pirates has jumped into the system, and they've bugged out. Mysteriously the pirates don't seem to have been looking for or pursuing the merchants when they've appeared though.`
-			`	It seems like a long-shot, but you wonder if perhaps this might be a legitimate call for help, maybe from someone who can't risk broadcasting themselves too aggressively...`
+			`当你在太空港降落时，你听着船长们来来往往的唠叨。在这里，在事物的边缘和朝向核心的地方，商人们交换鬼故事是一种流行的消遣。在所有的可能性中，这些故事的大部分都可以归结为廉价的、大规模生产的辛迪加设备的小故障。然而，这一次有一个人脱颖而出。`
+			`	似乎有几个商人都在<planet>附近接收到一个非常微弱的求救信号，但每次他们去寻找它时，要么遇到某种引擎警告，要么有一大群海盗跳入系统，他们都被吓跑了。神奇的是，当海盗出现时，他们似乎并没有寻找或追捕这些商人。`
+			`	这似乎是一个漫长的过程，但你想，也许这可能是一个合法的求救信号，也许是一个不能冒着风险太过激进地宣传自己的人......`
 				accept
 	to fail
 		not "Hai Leaks Response 6: active"
@@ -353,8 +353,8 @@ mission "Hai Rescue: Prison RP Hint"
 mission "Hai Rescue: Prison Role-Players"
 	# You get to rescue the Hai from "First Contact: Hai"
 	landing
-	name "Return the Prison Role-Players"
-	description "Return Hai prison role-players to <destination>. Payment is <payment>."
+	name "返回监狱的角色扮演者"
+	description "将海监狱的角色扮演者送回<destination>。付款方式为<payment>。"
 	source "Sunracer"
 	destination "Allhome"
 	passengers 5
@@ -367,54 +367,54 @@ mission "Hai Rescue: Prison Role-Players"
 		"Hai Rescue: Prison Role-Players (defer count)" ++
 	on offer
 		conversation
-			`As you set your landing vector, you detect a very faint distress call directed at your ship. Your scanners show it appears to come from a remote island. Do you want to check it out?`
+			`当你设定你的着陆航向时，你探测到一个非常微弱的针对你的飞船的求救信号。你的扫描器显示它似乎来自一个遥远的岛屿。你想去看看吗？`
 			choice
-				`	(Follow the distress signal.)`
-				`	(Ignore it and come back later.)`
+				`	(跟随求救信号。)`
+				`	(忽略它，稍后再来。)`
 					defer
-			`	You put your ship down in a forest clearing and step out to find some wary-looking Hai with a directional transmitter and a very broken freighter in pirate colors.`
-			`	One of them, a lady, steps forward, and as she does so her face lights up as if she's seen you before. "Captain <last>, Captain <last>! Please help us, we need to get home to <destination>!"`
+			`	你把你的船放在一个森林空地上，走出来发现一些看起来很警惕的海族人，他们有一个定向发射器和一个非常破旧的海盗颜色的货船。`
+			`	其中一位女士走上前去，当她这样做时，她的脸亮了起来，好像她以前见过你。"<last>号船长，<last>号船长!请帮助我们，我们需要回到<destination>的家！"`
 				goto "actual questions"
 			label questions
-			`	"Do you want to know anything else, or can we leave now?"`
+			`	"你还想知道什么吗，或者我们现在可以离开了吗？"`
 			label "actual questions"
 			choice
-				`	"Of course. Let's go."`
+				`	"当然可以。我们走吧。"`
 					goto go
-				`	"How do you know who I am?"`
+				`	"你怎么知道我是谁？"`
 					goto who
-				`	"How did you get here?"`
+				`	"你是怎么到这里来的？"`
 					goto how
-				`	"How much will you pay me?"`
+				`	"你会给我多少钱？"`
 					goto pay
-				`	"Sorry, maybe another time."`
+				`	"对不起，也许下次吧。"`
 					defer
 			label who
-			`	"You don't remember me? I was the first Hai you met. You were so confused back then and didn't know who or what we were. It was very cute."`
+			`	"你不记得我了？我是你遇到的第一个海。你那时很困惑，不知道我们是谁或什么。那是非常可爱的。"`
 				goto questions
 			label how
-			`	"There are prison role-play cruises in Hai space where we can ride in a brig with human security guards. My research group thought it would be a fun experience, so we all chartered one," she says.`
-			`	"Unfortunately, it was a trick! They were pirates and took us into human space instead. They didn't feed us much, so we all pretended to be too weak to stand. When one of the pirates came in to check on us, we overpowered him. I don't know if they got sloppy or if they were just new at this, but it seems they had forgotten how fast we can be. The other pirate set the ship to crash land and used an escape pod. Now we're stuck here."`
+			`	"在Hai空间有监狱角色扮演巡游，我们可以和人类保安一起乘坐旅店。我的研究小组认为这将是一个有趣的经历，所以我们都包了一个，"她说。`
+			`	"不幸的是，这是个骗局！他们是海盗，把我们带进了太空。他们是海盗，把我们带到了人类空间。他们没有给我们很多食物，所以我们都假装虚弱得站不起来。当其中一个海盗进来检查我们时，我们制服了他。我不知道是他们马虎了，还是他们刚开始干这个，但他们似乎忘记了我们的速度有多快。另一个海盗让船坠落，用了一个逃生舱。现在我们被困在这里了。"`
 				goto questions
 			label pay
-			`	"Ah, well, we can give you what is left of our travel budget: <payment>. The money is on <planet> though, so you'll have to fly us there first."`
+			`	"啊，好吧，我们可以把我们的旅行预算的剩余部分给你。<payment>。不过钱在<planet>上，所以你得先让我们飞过去。"`
 				goto questions
 			label go
-			`	"Excellent! Everyone pile aboard. Let's go back to <planet>!"`
+			`	"太好了！"。大家都堆上船。让我们回到<planet>！"`
 				accept
 	on complete
 		log `Found some gullible Hai that pirates tricked into a "prison role-play cruise," complete with security guards and a brig. They overpowered the pirate crew who crashed the ship and used escape pods. Returned the Hai to <planet>.`
 		payment 565000
 		"hai slave prereq" ++
-		dialog `The Hai researchers thank you for rescuing them from their ill-fated "prison role-play cruise" and promise to stick to safer pastimes in the future. They happily give you <payment>.`
+		dialog `海族研究人员感谢你把他们从命运多舛的 "监狱角色扮演之旅 "中解救出来，并承诺今后将坚持做更安全的消遣。他们高兴地给你<payment>。`
 	# No NPCs for this one since the Pirates are presumed dead.
 
 
 
 mission "Hai Rescue: Meroot and Lucy Hint"
 	landing
-	name "Deep Crevasses"
-	description "There could be kidnappers or kidnapped Hai hiding on <destination>."
+	name "深度裂缝"
+	description "可能有绑匪或被绑架的海躲在<destination>上。"
 	source
 		near "Zaurak" 4
 		government "Republic" "Syndicate"
@@ -431,7 +431,7 @@ mission "Hai Rescue: Meroot and Lucy Hint"
 		random < 80
 	on offer
 		conversation
-			`As you come in to land at the spaceport, you listen to the usual chatter of captains coming and going. You don't hear anything specific to Hai, but when the punchline of a joke is "deep crevasses" on <planet>, it occurs to you that there would be the perfect place for both illicit activities and escapees to hide out under the radar for a long time. It's probably worth a look...`
+			`当你来到太空港着陆时，你听着船长们来来往往的例行唠叨。你没有听到任何关于海的具体信息，但当一个笑话的标题是<planet>上的 "深裂缝 "时，你想到那里将是非法活动和逃亡者长期躲藏的完美场所。这可能值得一看...`
 				accept
 	to complete
 		has "Hai Rescue: Meroot and Lucy: offered"
@@ -440,8 +440,8 @@ mission "Hai Rescue: Meroot and Lucy Hint"
 
 
 mission "Hai Rescue: Meroot and Lucy"
-	name "Return Meroot and Lucy"
-	description "Transport the scientists you rescued to <destination>. Payment is <payment>."
+	name "送回Meroot和Lucy"
+	description "将你救出的科学家送到<destination>。付款方式为<payment>。"
 	source Canyon
 	destination Newhome
 	passengers 2
@@ -454,61 +454,61 @@ mission "Hai Rescue: Meroot and Lucy"
 		"Hai Rescue: Meroot and Lucy (defer count)" ++
 	on offer
 		conversation
-			`As you walk through a major street, you notice a woman approach an alcove in the side of a building carrying some food. She looks around to see if she's being followed before entering the alcove and covering it with a sheet of steel. You only had a moment to observe, but through the gap you spotted something hiding inside the small alcove which might have had tufts of hair sticking out of the clothing across its body. It's probably a Hai.`
-			`	Do you want to investigate?`
+			`当你走过一条主要街道时，你注意到一个女人拿着一些食物走到一栋建筑侧面的凹槽里。她环顾四周，看是否有人跟踪她，然后进入凹槽，用一块钢板盖住。你只有片刻的观察时间，但通过缝隙，你发现有什么东西躲在小凹槽里，它可能有一束头发从衣服里伸出来，横在它的身上。这可能是一个海。`
+			`	你想调查吗？`
 			choice
-				`	(Investigate.)`
-				`	(Come back later.)`
+				`	(调查一下。)`
+				`	(稍后再来。)`
 					defer
-			`	You knock on the steel sheet, and a woman within the alcove slides it to the side. As she emerges, she carefully moves her body to block your view of the alcove.`
-			`	She asks nervously, "Yes, can I help you?"`
+			`	你敲了敲钢板，凹室内的一个女人把它滑到一边。当她出现时，她小心翼翼地移动她的身体，挡住你的视线。`
+			`	她紧张地问道："是的，我可以帮你吗？"`
 			choice
-				`	"Why are you hiding a Hai in there?"`
+				`	"你为什么要把海藏在那里？"`
 					goto hiding
-				`	"Can I help you?"`
+				`	"我能帮助你吗？"`
 					goto help
-				`	"No, I was just walking by. Sorry to bother you."`
+				`	"不，我只是路过。对不起，打扰你了。"`
 					decline
 			label hiding
-			`	Her expression immediately takes on a shade of panic and you hear what sounds like something heavy being picked up in the background. "Please don't tell anyone! We were both kidnapped, but we managed to escape. Now we're hiding here, hoping those people don't find us again."`
+			`	她的表情立刻带上了恐慌的色彩，你听到背景中好像有什么重物被拿起来的声音。"请不要告诉任何人！"。我们都被绑架了，但我们设法逃脱了。现在我们躲在这里，希望那些人不要再找到我们。"`
 				goto trustcheck
 
 			label help
-			`	"Yes! Some men kidnapped my friend and I, but she got us out and we managed to escape. We've been hiding here, hoping they don't find us again."`
+			`	"是的！一些人绑架了我和我的朋友，但她把我们救了出来，我们成功逃脱。我们一直躲在这里，希望他们不要再找到我们。"`
 			label trustcheck
-			`	In the background you hear someone hiss, "Lucy! What are you doing, we can't trust them!"`
+			`	在背景中，你听到有人声嘶力竭地说："露西!你在做什么，我们不能相信他们！"`
 			choice
-				`	"Uh, luf e ow, vai, luf e eh?"`
+				`	"呃，luf e ow，vai，luf e eh？"`
 					goto "come in"
-				`	"No really, you can trust me, I promise!"`
-			`	Lucy's face goes pale and she seems frozen in shock, while in the background you can hear sounds of someone who is definitely rushing to do something, though you can't see what.`
+				`	"真的没有，你可以相信我，我保证！"`
+			`	露西的脸色变得苍白，她似乎在震惊中僵住了，而在背景中，你可以听到某人的声音，他肯定在急着做什么，尽管你看不到是什么。`
 			choice
-				`	"No wait! Luf e ow, vai, luf e eh?"`
+				`	"不，等等！"。Luf e ow, vai, luf e eh？"`
 			label "come in"
-			`	The person in the background stills. "What did you say?"`
-			`	You repeat the phrase.`
-			`	Somewhere out of sight you hear a string Hai words that sound very exasperated before they address Lucy again. "Let them in, Lucy, they probably are here to help."`
-			`	The emphasis placed on the 'are' is thick, and it seems to snap Lucy out of her frozen state. "Oh, uh, yes, alright. If you could fly us to <planet>, we can pay you when we arrive. You'll likely be followed though, so I hope you have a fast ship. I think you should probably come in, and we'll talk about it."`
+			`	背景中的人呆住了。"你说什么？"`
+			`	你重复这句话。`
+			`	在视线之外的某个地方，你听到一串听起来非常气愤的话，然后他们再次向露西讲话。"让他们进来，露西，他们可能是来帮忙的。"`
+			`	强调 "是 "的语气很重，这似乎让露西从她的冰冻状态中清醒过来。"哦，呃，是的，好吧。如果你能让我们飞到<planet>，我们可以在到达后付钱给你。不过你可能会被跟踪，所以我希望你有一艘快速的船。我想你也许应该进来，我们再谈一谈。"`
 			choice
-				`	(Enter their alcove.)`
-				`	"No, I can't help you get home."`
+				`	(进入他们的阁楼。)`
+				`	"不，我不能帮你回家。"`
 					decline
-			`	The alcove is a dead air space between two utility rooms in the basement of a warehouse. The hole in the wall looks like it was recently dug out by a laser cutter. There's a small refrigerator, a two-person cot, an air processor, and a shelf with typical household items. Books are strewn everywhere; the women must be avid readers. It seems they've set up this tiny space as a decent, albeit very small, apartment.`
-			`	The human woman slides the sheet of steel back into place behind you both once you're in and says, "I'm Lucy."`
-			`	"And I'm Meroot," adds the Hai woman. "I was on Newhome walking to my research lab when some men pulled me into an alley and zapped me with a taser. I woke up in the brig of a space ship."`
-			`	"My experience was similar. I was walking from my biolab to my house on Serpens. Some men jumped out from behind a dune and zapped me."`
-			`	Meroot continues, "They took us both here. I was able to struggle out of my handcuffs and sneak the keys from the guard. We escaped together, and we've been hiding for weeks. Please take us to <destination>!"`
+			`	凹室是一个仓库地下室的两个杂物间之间的死气沉沉的空间。墙上的洞看起来像是最近被激光切割机挖出来的。这里有一个小冰箱，一张两人用的小床，一个空气处理器，以及一个摆放着典型家庭用品的架子。书籍散落一地；这些妇女一定是狂热的读者。看来他们已经把这个狭小的空间布置成了一个体面的，尽管是非常小的公寓。`
+			`	当你们进去后，那个人类女人将钢片推回你们身后，说："我是露西。"`
+			`	"而我是Meroot，"海族女人补充说。"我在Newhome走到我的研究实验室时，一些人把我拉到一个小巷里，用泰瑟枪打我。我在一艘太空船的牢房里醒过来。"`
+			`	"我的经历也很相似。我正从我的生物实验室走到我在Serpens的房子。一些人从一个沙丘后面跳出来，把我打晕了。"`
+			`	莫鲁特继续说："他们把我们俩带到这里。我得以挣脱手铐，并从警卫那里偷偷拿到了钥匙。我们一起逃了出来，我们已经躲了几个星期了。请带我们去<destination>！"`
 			choice
-				`	"Sure. Let's go."`
-				`	"No, you'll have to find another pilot."`
+				`	"当然，我们走吧。"`
+				`	"不，你得再找一个飞行员。"`
 					decline
-			`	The two women put on clothing that thoroughly covers their person. They lead you through a series of ducts and alleys back to the pad where your ship is parked. Just as your airlock opens there's a sharp zapping sound as someone shoots Meroot with a stun gun. You and Lucy duck and a couple other shots dissipate harmlessly on the bulkhead of your ship. You fire off a couple shots back and between the two of you you manage to drag Meroot through the airlock, seal it behind you and lift off. It appears you're being followed into orbit.`
+			`	两个女人穿上衣服，彻底遮住了自己的身体。她们带领你穿过一系列的管道和小巷，回到你的飞船停放的平台。就在你的气闸打开时，有一个尖锐的滋滋声，有人用电击枪射杀了莫鲁特。你和露西躲开了，另外几枪在你的飞船的舱壁上无害地消散了。你又开了几枪，在你们两个人之间，你设法把莫鲁特拖进气闸，在你身后把它封住，然后升空。看来你们是被人跟踪到了轨道上。`
 				launch
 	on complete
 		log `Rescued a pair of researchers: a Hai woman named Meroot and a human woman named Lucy. They were kidnapped by men who brought them to Canyon. Returned them to <planet> where they now live together. They don't know the identities of the kidnappers.`
 		payment 315000
 		"hai slave prereq" ++
-		dialog `Meroot and Lucy thank you for your help and give you <payment>. Lucy decides to live in Hai space with Meroot. "It's safer here," she explains, though you have your doubts. You ask, but the two have no idea who the men that kidnapped them were.`
+		dialog `莫鲁特和露西感谢你的帮助，并给你<payment>。露西决定和莫鲁特住在海空间。她解释说："这里更安全，"尽管你有疑问。你问了，但两人不知道绑架他们的人是谁。`
 	npc
 		government "Bounty Hunter that Won't Enter Hai Space"
 		personality plunders disables unconstrained
@@ -519,8 +519,8 @@ mission "Hai Rescue: Meroot and Lucy"
 
 mission "Hai Rescue: Gipeep Hint"
 	landing
-	name "Lucrative Transport"
-	description "You've heard there's some suspiciously lucrative transport jobs on <destination>."
+	name "利润丰厚的运输"
+	description "你听说<destination>上有一些可疑的有利可图的运输工作。"
 	source
 		near "Nihal" 4
 		government "Republic" "Syndicate"
@@ -537,7 +537,7 @@ mission "Hai Rescue: Gipeep Hint"
 		random < 80
 	on offer
 		conversation
-			`As you come in to land at the spaceport, you listen to the usual chatter of captains coming and going. One guy is bragging particularly odiously about some lucrative transport jobs he'd picked up on <planet>. Of course, it could mean nothing, but it's also very suspicious for that particular world. <planet> is not known for lucrative transport jobs, and it could likely be contraband, or worse...`
+			`当你来到太空港着陆时，你听着那些来来往往的船长们的唠叨。有一个人正在特别可恶地吹嘘他在<planet>上接了一些有利可图的运输工作。当然，这可能意味着什么，但对于那个特定的世界来说，这也是非常可疑的。<planet>并不以有利可图的运输工作而闻名，它可能是违禁品，或者更糟......`
 				accept
 	to fail
 		has "event: hai-human treaty signed"
@@ -545,8 +545,8 @@ mission "Hai Rescue: Gipeep Hint"
 
 mission "Hai Rescue: Gipeep"
 	landing
-	name "Return Gipeep"
-	description "Transport the Hai you rescued to <destination>. Payment is <payment>."
+	name "返回Gipeep"
+	description "把你救的海运送到<destination>。付款方式为<payment>。"
 	source "Maelstrom"
 	destination "Greenbloom"
 	passengers 1
@@ -558,47 +558,47 @@ mission "Hai Rescue: Gipeep"
 		conversation
 			branch hint
 				has "Hai Rescue: Gipeep Hint: offered"
-			`As you come in to land one guy is on the comms, bragging particularly odiously about some lucrative transport jobs he'd picked up. This catches your attention only because <origin> is not known for lucrative transport jobs. It could likely be contraband, or worse...`
+			`当你降落时，有一个人在通讯器上，特别可恶地吹嘘着他所接的一些有利可图的运输工作。这引起了你的注意，因为<origin>并不以有利可图的运输工作而闻名。这很可能是违禁品，或者更糟......`
 			label hint
-			`After some quiet investigation you find out that all the lucrative transport jobs are coming out of one particular warehouse. The paperwork all looks to be in order, but to be sure you should pick up a job yourself.`
+			`经过悄悄调查，你发现所有有利可图的运输工作都来自一个特定的仓库。文书工作看起来都很正常，但为了确定，你应该自己去找一份工作。`
 			choice
-				`	(Check it out.)`
-				`	(Leave.)`
+				`	(检查一下。)`
+				`	(离开。)`
 					decline
-			`	Surprisingly, when you arrive the warehouse is unattended, which is suspicious in and of itself. Poking around a little you walk by some cargo and hear loud thumping coming from a locked crate. A ring of keys is hanging nearby. Someone could appear at any moment and you could be in trouble. Do you want to check it out?`
+			`	令人惊讶的是，当你到达时，仓库无人看管，这本身就很可疑。你稍微探了一下身子，走过一些货物，听到从一个上了锁的箱子里传来砰砰的响声。附近挂着一串钥匙。有人可能在任何时候出现，你可能会有麻烦。你想去看看吗？`
 			choice
-				`	(Examine the crate.)`
-				`	(Leave.)`
+				`	(检查板条箱。)`
+				`	(离开。)`
 					decline
-			`	One key stands out, it has a symbol you don't recognize that looks like an angry cat in a circle. As you get closer to the thumping, the ordinary-looking crate starts to seem a little strange. At first glance it appears to be the sort of crate that is well-insulated against sound and temperature, but this one must have concealed breathing holes. You can still hear muffled thumping fairly clearly, but outside you hear what sounds like a loading vehicle pull up, and you don't know what's in the crate.`
-			`	Do you want to try opening the crate?`
+			`	有一把钥匙很突出，它有一个你不认识的符号，看起来像一只愤怒的猫，在一个圆圈里。随着你越来越接近怦然心动的感觉，这个看起来很普通的箱子开始显得有些奇怪。乍一看，它似乎是那种对声音和温度绝缘良好的箱子，但这个箱子一定有隐蔽的呼吸孔。你仍然可以相当清楚地听到低沉的砰砰声，但在外面你听到听起来像是一辆装载车停了下来，而你不知道箱子里有什么。`
+			`	你想试试打开箱子吗？`
 			choice
-				`	(Open the crate.)`
-				`	(Leave.)`
+				`	(打开板条箱。)`
+				`	(离开。)`
 					decline
-			`	You put the key in the lock, turn, and the next thump you hear pushes the crate open so hard it falls over. An angry-looking Hai jumps out and starts yelling at you in its own language.`
-			`	After a few seconds, the Hai calms down and speaks in your tongue. "They locked me in a box! I was walking home from a store on <planet>, and some humans pulled me into an alley. They shoved me in a box and now I'm..." the Hai pauses and looks around, "not in Hai space?`
-			`	"Please take me home. I'm a ship architect from <planet>. We should hurry before they come back."`
+			`	你把钥匙放进锁里，转动，接下来你听到的砰砰声把板条箱推开了，它摔倒了。一个看起来很生气的海族人跳了出来，开始用它自己的语言对你大喊。`
+			`	几秒钟后，海族平静下来，用你的语言说话。"他们把我锁在一个箱子里！"。我从<planet>上的一家商店走回家，一些人类把我拉到一个小巷里。他们把我塞进一个盒子里，现在我...... "海族停顿了一下，环顾四周，"不在海族的空间？`
+			`	"请带我回家。我是一名来自<planet>的船舶建筑师。我们应该赶在他们回来之前。"`
 			choice
-				`	"Of course. Just hop in my ship."`
+				`	"当然。只要跳上我的飞船。"`
 					goto accept
-				`	"No, I'm not going that way any time soon."`
-			`	He makes a frustrated sound in the back of his throat and gives you a pointed and pleading look. "I have nowhere else to go! I'm not exactly inconspicuous. I'll be caught soon. Please, I can pay you well."`
+				`	"不，我很快就不会走那条路了。"`
+			`	他在喉咙里发出沮丧的声音，并给你一个尖锐而恳求的眼神。"我没有别的地方可去！"。我不是很不显眼。我很快就会被抓住。求你了，我可以给你很好的报酬。"`
 			choice
-				`	"In that case, I'll take you."`
-				`	"No. You'll have to find another pilot."`
+				`	"既然如此，我就带你走吧。"`
+				`	"不，你得再找一个飞行员。"`
 					decline
 			label accept
-			`	You can hear men approaching through the warehouse entry and the Hai quickly retrieves something from the crate before you both run quickly in the other direction. Soon you hear shots fired, and see them hit a nearby wall. They passed quite close to your head.`
-			`	Through luck and skill, the two of you make it to your ship and quickly launch. The escape seemed a little too easy though; they may have been taking pains to avoid hitting your new passenger.`
-			`	It appears ships are following you into orbit.`
+			`	你可以听到男人从仓库入口处走来，海迅速从箱子里取出一些东西，然后你们俩迅速向另一个方向跑去。很快你就听到了枪声，并看到它们击中了附近的墙壁。他们经过的地方离你的头相当近。`
+			`	通过运气和技巧，你们两个人来到了自己的船上，并迅速启动。不过逃跑似乎有点太容易了；他们可能一直在努力避免撞到你的新乘客。`
+			`	似乎有船只跟着你进入轨道。`
 				launch
 	on complete
 		log `Rescued a Hai ship architect named Gipeep who was kidnapped near his home on <planet> and transported in a locked cargo crate. The crate's key had a marking on it like an angry cat in a circle.`
-		log "Minor People" "Gipeep Anl'ooh" `A Hai ship architect whom you rescued from his captors. His tenacity of spirit may have helped you to do more than just recover him to Hai space.`
+		log "Minor People" "Gipeep Anl'ooh" `一个被你从俘虏手中救出的海船建筑师。他顽强的精神可能帮助你做了更多的事情，而不仅仅是把他恢复到海族空间。`
 		payment 285000
 		"hai slave prereq" ++
-		dialog `The Hai, who has since introduced himself as Gipeep Anl'ooh, thanks you for helping him finally finish his long walk home from the store. His grateful family give you <payment>. None of them know who kidnapped him or why.`
+		dialog `这名海族人，后来自我介绍为Gipeep Anl'oh，感谢你帮助他最终完成了从商店回家的漫长旅程。他感激的家人给了你<payment>。他们都不知道谁绑架了他，也不知道为什么。`
 	npc
 		government "Bounty Hunter that Won't Enter Hai Space"
 		personality plunders disables unconstrained

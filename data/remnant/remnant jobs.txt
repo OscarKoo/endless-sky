@@ -16,8 +16,8 @@
 mission "Remnant: Bounty"
 	job
 	repeat
-	name "Crippled <npc model> Bounty"
-	description "A crippled Korath ship is lurking in Remnant territory. Hunt it down, and then return to <planet> to receive your payment of <payment>."
+	name "残缺的<npc model>赏金号"
+	description "一艘残缺的Korath飞船正潜伏在遗迹的领土上。猎杀它，然后返回<planet>，领取你的<payment>。"
 	source
 		government "Remnant"
 	to offer
@@ -37,20 +37,20 @@ mission "Remnant: Bounty"
 			commodities "Food" "Clothing" "Metal" "Plastic" "Medical" "Heavy Metals"
 			variant
 				"Palavret (Crippled)"
-		dialog "You have destroyed the Korath ship. You can now return to <planet> to collect your payment."
+		dialog "你已经摧毁了Korath飞船。你现在可以回到<planet>领取你的报酬。"
 	on visit
 		dialog phrase "generic bounty hunting on visit"
 	on complete
 		payment 300000
-		dialog "A Remnant military leader thanks you for hunting down the <npc>, and gives you the agreed-upon payment of <payment>."
+		dialog "遗族军事领导人感谢你追捕<npc>，并给了你约定的<payment>的报酬。"
 
 
 
 mission "Remnant: Bounty 2"
 	job
 	repeat
-	name "Troublesome <npc model> Bounty"
-	description "A Korath ship is proving troublesome in Remnant territory. Hunt it down, and then return to <planet> to receive your payment of <payment>."
+	name "麻烦的<npc model>赏金"
+	description "一艘Korath飞船在Remnant领土上造成了麻烦。猎杀它，然后回到<planet>，接受你的<payment>。"
 	source
 		government "Remnant"
 	to offer
@@ -70,18 +70,18 @@ mission "Remnant: Bounty 2"
 			commodities "Food" "Clothing" "Metal" "Plastic" "Medical" "Heavy Metals"
 			variant
 				"Palavret (Hyperdrive)"
-		dialog "You have destroyed the Korath ship. You can now return to <planet> to collect your payment."
+		dialog "你已经摧毁了Korath飞船。你现在可以回到<planet>领取你的报酬。"
 	on visit
 		dialog phrase "generic bounty hunting on visit"
 	on complete
 		payment 400000
-		dialog "A Remnant military leader thanks you for hunting down the Korath ship <npc>, and gives you the agreed-upon payment of <payment>."
+		dialog "Remnant军方领导人感谢你猎杀Korath飞船<npc>，并给你约定的报酬<payment>。"
 
 
 
 mission "Remnant: Broken Jump Drive job"
-	name "Broken Jump Drive Delivery"
-	description "The researchers on <planet> need another broken jump drive to continue their project."
+	name "破碎的跳跃驱动器交付"
+	description "<planet>上的研究人员需要另一个破碎的跳跃驱动器来继续他们的项目。"
 	job
 	repeat 4
 	to offer
@@ -104,15 +104,15 @@ mission "Remnant: Broken Jump Drive job"
 		payment 300000
 		"reputation: Remnant" ++
 		"Remnant: Broken Jump Drive job: offered" --
-		dialog "The research team quickly offloads the broken jump drive and pays you <payment> before hurrying back to their lab."
+		dialog "研究小组迅速卸下破损的跳跃驱动器，并在赶回实验室前向你支付<payment>。"
 
 
 
 mission "Remnant: Expanded Horizons Astral job"
 	job
 	repeat
-	name "Research Expedition to <waypoints>"
-	description "Travel to <waypoints> with a Research Laboratory to collect data, then return to <destination>."
+	name "前往<waypoints>的研究远征"
+	description "带着研究实验室前往<waypoints>收集数据，然后返回<destination>。"
 	source
 		government "Remnant"
 	waypoint
@@ -124,19 +124,19 @@ mission "Remnant: Expanded Horizons Astral job"
 	on offer
 		require "Research Laboratory"
 	on waypoint
-		dialog "Your scientist unpacks the laboratory and takes the requested observations. A short while later, they have the data compiled on a set of data crystals and inform you that everything is ready for departure."
+		dialog "你的科学家打开实验室的包装，进行所要求的观察。过了一会儿，他们把数据整理在一组数据晶体上，并通知你一切准备就绪，可以出发了。"
 	on complete
 		payment 500000
 		"reputation: Remnant" ++
-		dialog "When you land, a researcher quickly retrieves the data crystals with the information about the surveyed system and hands you the logistics allotment of <payment>."
+		dialog "当你着陆时，一个研究人员迅速取回了带有被调查系统信息的数据晶体，并将后勤配给的<payment>交给你。"
 
 
 
 mission "Remnant: Bounty 3"
 	job
 	repeat
-	name "Damaged Rano'erek Bounty"
-	description "A damaged Korath ship is lurking in Remnant territory. Hunt it down, and then return to <planet> to receive your payment of <payment>."
+	name "损坏的Rano'erek赏金"
+	description "一艘受损的Korath飞船正潜伏在Remnant的领土上。猎杀它，然后返回<planet>，领取你的<payment>。"
 	source
 		government "Remnant"
 	to offer
@@ -157,20 +157,20 @@ mission "Remnant: Bounty 3"
 			commodities "Food" "Clothing" "Metal" "Plastic" "Medical" "Heavy Metals"
 			variant
 				"Rano'erek (Crippled)"
-		dialog "You have destroyed the Korath ship. You can now return to <planet> to collect your payment."
+		dialog "你已经摧毁了Korath飞船。你现在可以回到<planet>领取你的报酬。"
 	on visit
 		dialog phrase "generic bounty hunting on visit"
 	on complete
 		payment 400000
-		dialog "A Remnant military leader thanks you for hunting down the Korath ship <npc>, and gives you the agreed-upon payment of <payment>."
+		dialog "Remnant军方领导人感谢你猎杀Korath飞船<npc>，并给你约定的报酬<payment>。"
 
 
 
 mission "Remnant: Bounty 4"
 	job
 	repeat
-	name "Marauding Rano'erek Bounty"
-	description "A Korath ship is marauding through Remnant territory. Hunt it down, and then return to <planet> to receive your payment of <payment>."
+	name "掠夺Rano'erek的赏金"
+	description "一艘Korath飞船正在Remnant领土上进行掠夺。猎杀它，然后返回<planet>，领取<payment>的报酬。"
 	source
 		government "Remnant"
 	to offer
@@ -187,20 +187,20 @@ mission "Remnant: Bounty 4"
 			commodities "Food" "Clothing" "Metal" "Plastic" "Medical" "Heavy Metals"
 			variant
 				"Rano'erek (Crippled)"
-		dialog "You have destroyed the Korath ship. You can now return to <planet> to collect your payment."
+		dialog "你已经摧毁了Korath飞船。你现在可以回到<planet>领取你的报酬。"
 	on visit
 		dialog phrase "generic bounty hunting on visit"
 	on complete
 		payment 500000
-		dialog "A Remnant military leader thanks you for hunting down the Korath ship <npc>, and gives you the agreed-upon payment of <payment>."
+		dialog "Remnant军方领导人感谢你猎杀Korath飞船<npc>，并给你约定的报酬<payment>。"
 
 
 
 mission "Remnant: Bounty 5"
 	job
 	repeat
-	name "Destroy Ground Assault Bounty"
-	description "A Korath ship is hunting for our outposts in the Ember Wastes. Track it down, eliminate it and any fighters it is carrying, and then return to <planet> to receive your payment of <payment>."
+	name "摧毁地面突击队赏金"
+	description "一艘Korath飞船正在猎杀我们在微光荒地的前哨。追踪它，消灭它和它携带的任何战斗机，然后返回<planet>领取你的<payment>。"
 	source
 		government "Remnant"
 	to offer
@@ -223,18 +223,18 @@ mission "Remnant: Bounty 5"
 			variant
 				"Rano'erek (Ground Assault)"
 				"'olofez" 4
-		dialog "You have destroyed the Korath ship and its fighters. You can now return to <planet> to collect your payment."
+		dialog "你已经摧毁了Korath飞船和它的战斗机。您现在可以返回<planet>领取您的报酬。"
 	on visit
-		dialog "You've landed on <planet>, but the Korath ship and its fighters have not all been eliminated. Hunt them down and destroy them before returning."
+		dialog "您已经在<planet>上登陆，但是Korath飞船和它的战斗机还没有全部被消灭。在返回之前，请追捕他们并摧毁他们。"
 	on complete
 		payment 400000
-		dialog "A Remnant military leader thanks you for hunting down the Korath ship <npc> and its fighters, and gives you the agreed-upon payment of <payment>."
+		dialog "一位遗民的军事领导人感谢你猎杀Korath飞船<npc>和它的战斗机，并给了你约定的<payment>的付款。"
 
 
 
 mission "Remnant: Logistics Civil Engineering"
-	name "Civil delivery to <planet>"
-	description `Engineers on <planet> need <cargo> delivered. Logistics adjustment is <payment>.`
+	name "向<planet>运送民用物资"
+	description `<planet>上的工程师需要运送<cargo>。物流调整为<payment>。`
 	cargo "remnant civil" 30 80
 	job
 	repeat
@@ -253,14 +253,14 @@ mission "Remnant: Logistics Civil Engineering"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
-		dialog `A project engineer inspects the <cargo> and signs off on your payment of <payment>.`
+		dialog `一个项目工程师检查了<cargo>并签署了你的<payment>的付款。`
 		payment 10000 15
 
 
 
 mission "Remnant: Logistics Industrial Delivery"
-	name "Industrial delivery to <planet>"
-	description `Project teams on <planet> need <cargo> delivered. Logistics adjustment is <payment>.`
+	name "向<planet>的工业交付"
+	description `<planet>上的项目组需要<cargo>交付。物流调整为<payment>。`
 	cargo "remnant industrial" 30 300
 	job
 	repeat
@@ -279,14 +279,14 @@ mission "Remnant: Logistics Industrial Delivery"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
-		dialog `A project technician inspects the <cargo> and approves your payment of <payment>.`
+		dialog `一个项目技术人员检查了<cargo>并批准了你的付款<payment>。`
 		payment 20000 25
 
 
 
 mission "Remnant: Logistics Outfitter Delivery"
-	name "Component delivery to <planet>"
-	description `Outfitter repair crews on <planet> need <cargo> parts delivered. Logistics adjustment is <payment>.`
+	name "向<planet>交付部件"
+	description `<planet>上的装备维修人员需要运送<cargo>部件。物流调整为<payment>。`
 	cargo "remnant outfitter repair" 30 175
 	job
 	repeat
@@ -306,14 +306,14 @@ mission "Remnant: Logistics Outfitter Delivery"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
-		dialog `A repair technician inspects the <cargo> parts and authorizes your payment of <payment>.`
+		dialog `一名维修技术员检查了<cargo>部件，并授权您支付<payment>。`
 		payment 30000 25
 
 
 
 mission "Remnant: Logistics Salvage Delivery"
-	name "Salvage delivery to <planet>"
-	description `Deliver <cargo> components from recent salvage operations to the outfitters on <planet> for research, refurbishment, or recycling. Logistics adjustment is <payment>.`
+	name "向<planet>运送打捞物"
+	description `将近期打捞行动中的<cargo>部件交付给<planet>上的装备商，用于研究、翻新或回收。物流调整为<payment>。`
 	cargo "remnant salvage" 5 100
 	job
 	repeat
@@ -333,7 +333,7 @@ mission "Remnant: Logistics Salvage Delivery"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
-		dialog `Two armed repair technicians inspects the <cargo> and authorize your payment of <payment>.`
+		dialog `两名武装维修技师检查了<cargo>并授权你支付<payment>。`
 		payment 50000 25
 
 
@@ -341,8 +341,8 @@ mission "Remnant: Logistics Salvage Delivery"
 mission "Remnant: Rescue"
 	job
 	repeat
-	name "Search and Rescue: Scout"
-	description "The <npc> has gone missing during a scouting mission in the Ember Wastes. Find them and help them return to <destination>."
+	name "搜索和救援。侦察员"
+	description "<npc>在微光荒原的侦察任务中失踪了。找到他们并帮助他们返回<destination>。"
 	source
 		government "Remnant"
 	to offer
@@ -368,10 +368,10 @@ mission "Remnant: Rescue"
 		"remnant: rescue missions" ++
 		payment 200000
 		dialog
-			`Your communicator notifies you of a resource allocation of <payment>.`
+			`你的通讯器通知你，资源分配为<payment>。`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`你已经回来了，然而<npc>仍然失踪。`
 
 
 
@@ -408,8 +408,8 @@ outfit "Suicide Gun"
 mission "Remnant: Rescue 1B"
 	job
 	repeat
-	name "Search and Rescue: Scout"
-	description "The <npc> has gone missing during a scouting mission in the Ember Wastes. Find them and help them return to <destination>."
+	name "搜索和救援。侦察员"
+	description "<npc>在微光荒原的侦察任务中失踪了。找到他们并帮助他们返回<destination>。"
 	source
 		government "Remnant"
 	to offer
@@ -430,23 +430,23 @@ mission "Remnant: Rescue 1B"
 			variant
 				"Rescue Dummy"
 		dialog
-			`As you enter the system, your sensors pick up a lot of debris. Further analysis confirms your worst fears. The <npc> has been destroyed. You frantically spend the next few hours searching for survivors, your hope sinking with every passing minute.`
+			`当你进入该系统时，你的传感器发现了很多碎片。进一步的分析证实了你最担心的事情。<npc>已经被摧毁了。在接下来的几个小时里，你疯狂地寻找幸存者，你的希望随着时间的推移而沉沦。`
 	on complete
 		"remnant: rescue missions" ++
 		payment 200000
 		dialog
-			`You land, and with a heavy heart, report that the <npc> was lost with all hands. The Remnant are saddened at the news, but thank you regardless and hand off your resource allocation of <payment>.`
+			`你们登陆后，怀着沉重的心情报告说，<npc>号已经全军覆没。遗民们对这个消息感到悲伤，但还是感谢你，并交出了你的资源分配<payment>。`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`你已经回来了，然而<npc>仍然失踪。`
 
 
 
 mission "Remnant: Rescue 2"
 	job
 	repeat
-	name "Search and Rescue: Retrieval"
-	description "The <npc> has gone missing during a tech retrieval mission in the Ember Wastes. Find them and help them return to <destination>."
+	name "搜索和救援。寻回"
+	description "<npc>在微光荒原的技术检索任务中失踪了。找到他们并帮助他们回到<destination>。"
 	source
 		government "Remnant"
 	to offer
@@ -474,18 +474,18 @@ mission "Remnant: Rescue 2"
 		"remnant: rescue missions" ++
 		payment 300000
 		dialog
-			`Your communicator notifies you of a resource allocation of <payment>, along with a brief note of thanks.`
+			`你的通讯器会通知你<payment>的资源分配，以及一份简短的感谢信。`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`你已经回来了，然而<npc>仍然失踪。`
 
 
 
 mission "Remnant: Rescue 2B"
 	job
 	repeat
-	name "Search and Rescue: Retrieval"
-	description "The <npc> has gone missing during a tech retrieval mission in the Ember Wastes. Find them and help them return to <destination>."
+	name "搜索和救援。寻回"
+	description "<npc>在微光荒原的技术检索任务中失踪了。找到他们并帮助他们回到<destination>。"
 	source
 		government "Remnant"
 	to offer
@@ -506,23 +506,23 @@ mission "Remnant: Rescue 2B"
 			variant
 				"Rescue Dummy"
 		dialog
-			`As you enter the system, your sensors pick up a lot of debris. Further analysis confirms your worst fears. The <npc> has been destroyed. You frantically spend the next few hours searching for survivors, your hope sinking with every passing minute.`
+			`当你进入该系统时，你的传感器发现了很多碎片。进一步的分析证实了你最担心的事情。<npc>已经被摧毁了。在接下来的几个小时里，你疯狂地寻找幸存者，你的希望随着时间的推移而沉沦。`
 	on complete
 		"remnant: rescue missions" ++
 		payment 300000
 		dialog
-			`You land, and with a heavy heart, report that the <npc> was lost with all hands. The Remnant are saddened at the news, but thank you regardless and hand off your resource allocation of <payment>.`
+			`你们登陆后，怀着沉重的心情报告说，<npc>号已经全军覆没。遗民们对这个消息感到悲伤，但还是感谢你，并交出了你的资源分配<payment>。`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`你已经回来了，然而<npc>仍然失踪。`
 
 
 
 mission "Remnant: Rescue 3"
 	job
 	repeat
-	name "Search and Rescue: Supply Ship"
-	description "The <npc> has gone missing during a supply run in the Ember Wastes. Find them and help them return to <destination>."
+	name "搜索和救援。补给船"
+	description "<npc>在微光废墟的一次补给行动中失踪了。找到他们并帮助他们返回<destination>。"
 	source
 		government "Remnant"
 	to offer
@@ -548,18 +548,18 @@ mission "Remnant: Rescue 3"
 		"remnant: rescue missions" ++
 		payment 300000
 		dialog
-			`Your communicator notifies you of a resource allocation of <payment>, and also a thank you from the captain of the <npc>.`
+			`你的通讯器通知你有一笔<payment>的资源分配，同时还有<npc>船长的感谢信。`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`你已经回来了，然而<npc>仍然失踪。`
 
 
 
 mission "Remnant: Rescue 3B"
 	job
 	repeat
-	name "Search and Rescue: Supply Ship"
-	description "The <npc> has gone missing during a supply run in the Ember Wastes. Find them and help them return to <destination>."
+	name "搜索和救援。补给船"
+	description "<npc>在微光废墟的一次补给行动中失踪了。找到他们并帮助他们返回<destination>。"
 	source
 		government "Remnant"
 	to offer
@@ -580,23 +580,23 @@ mission "Remnant: Rescue 3B"
 			variant
 				"Rescue Dummy"
 		dialog
-			`As you enter the system, your sensors pick up a lot of debris. Further analysis confirms your worst fears. The <npc> has been destroyed. You frantically spend the next few hours searching for survivors, your hope sinking with every passing minute.`
+			`当你进入该系统时，你的传感器发现了很多碎片。进一步的分析证实了你最担心的事情。<npc>已经被摧毁了。在接下来的几个小时里，你疯狂地寻找幸存者，你的希望随着时间的推移而沉沦。`
 	on complete
 		"remnant: rescue missions" ++
 		payment 300000
 		dialog
-			`You land, and with a heavy heart, report that the <npc> was lost with all hands. The Remnant are saddened at the news, but thank you regardless and hand off your resource allocation of <payment>.`
+			`你们登陆后，怀着沉重的心情报告说，<npc>号已经全军覆没。遗民们对这个消息感到悲伤，但还是感谢你，并交出了你的资源分配<payment>。`
 	on visit
 		dialog
-			`You have returned, yet the <npc> is still missing.`
+			`你已经回来了，然而<npc>仍然失踪。`
 
 
 
 mission "Remnant: Rescue 4"
 	job
 	repeat
-	name "Distress Signal: Graveyard"
-	description "A distress signal has been received from the <npc> in the Graveyard. Follow the telemetry data to find them, and help return them safely to <destination>."
+	name "遇险信号。墓地"
+	description "从墓地的<npc>号上收到了一个遇险信号。按照遥测数据找到他们，并帮助他们安全返回<destination>。"
 	source
 		government "Remnant"
 	to offer
@@ -622,19 +622,19 @@ mission "Remnant: Rescue 4"
 		"remnant: rescue missions" ++
 		payment 500000
 		dialog
-			`Upon landing, the captain of the <npc> meets you at your ship to thank you personally for rescuing them from the Graveyard, leaving you with a heartfelt sentence: "May the Embers burn bright for you."`
-			`	Soon after, your communicator notifies you of a resource allocation of <payment>.`
+			`上岸后，<npc>的船长在你的船上与你见面，亲自感谢你将他们从墓地救出，并给你留下一句真心话。"愿余烬为你燃烧"。`
+			`	不久之后，你的通讯器通知你有一笔<payment>的资源分配。`
 	on visit
 		dialog
-			`You have returned, yet the <npc> has not.`
+			`你已经回来了，然而<npc>却没有。`
 
 
 
 mission "Remnant: Rescue 5"
 	job
 	repeat
-	name "Search and Rescue: Terminus"
-	description "While scouting around Terminus, the <npc> has stopped reporting in. Find out what happened and return to <destination>."
+	name "搜索和救援。总站"
+	description "在Terminus附近侦查时，<npc>停止了报告。查明情况并返回<destination>。"
 	source
 		government "Remnant"
 	to offer
@@ -655,17 +655,17 @@ mission "Remnant: Rescue 5"
 		"remnant: rescue missions" ++
 		payment 500000
 		dialog
-			`Worried that they would never see the Embers again, the captain of the <npc> personally thanks you for bringing them home, even before your communicator notifies you of a resource allocation of <payment>.`
+			`由于担心再也见不到余烬号，<npc>的船长亲自感谢你把他们带回家，甚至在你的通讯器通知你<payment>的资源分配之前。`
 	on visit
 		dialog
-			`You have returned, but there is still no word from the missing ship.`
+			`你已经回来了，但仍然没有失踪船只的消息。`
 
 
 mission "Remnant: Disable 1"
 	job
 	repeat
-	name "Disable Damaged Kas'lor Ik 582"
-	description "A damaged Kas'lor Ik 582 is stuck in a newly accessible system, near Postverta. It has a large civilian population so we ask you to only disable it to avoid an atrocity. Once you return to <planet> you will receive a logistics adjustment of <payment>."
+	name "禁用受损的Kas'lor Ik 582"
+	description "一艘受损的Kas'lor Ik 582被困在Postverta附近的一个新的可进入系统中。它有大量的平民，所以我们要求你只禁用它，以避免发生暴行。一旦你返回<planet>，你将收到<payment>的后勤调整。"
 	source
 		government "Remnant"
 	to offer
@@ -682,15 +682,15 @@ mission "Remnant: Disable 1"
 			names "korath"
 			variant
 				"Kas'lor Ik 582 (Stranded)"
-		dialog `You have disabled the Kas'lor Ik 582. Time to report back to <planet>.`
+		dialog `你已经禁用了Kas'lor Ik 582。是时候向<planet>报告了。`
 	on visit
-		dialog `You've landed on <planet>, but the stuck Kas'lor Ik 582 has not been disabled yet. Hunt it down and disable it before returning.`
+		dialog `你已经降落在<planet>上，但是卡住的Kas'lor Ik 582还没有被禁用。猎杀它，并在返回前禁用它。`
 	on abort
-		dialog `The Remnant are puzzled at your aborting of this mission, but they tell you they will send someone else to do this work. They advise you they will prioritize other teams for these missions in the future.`
+		dialog `残余者对你放弃这项任务感到不解，但他们告诉你他们会派其他人来做这项工作。他们告诉你，今后他们会优先安排其他小组执行这些任务。`
 	on fail
 		"reputation: Remnant" -= 250
-		dialog `You where unable to disable the Kas'lor Ik 582 without destroying it... The Remnant will not be pleased...`
+		dialog `你无法在不摧毁Kas'lor Ik 582的情况下禁用它......残党不会高兴的...。`
 	on complete
 		"remnant: disable and save count" ++
 		payment 2000000
-		dialog "A Remnant military prefect thanks you for disabling down the Kas'lor Ik 582 <npc>, and gives you the agreed-upon logistics adjustment of <payment>."
+		dialog "残余势力的军事长官感谢你禁用Kas'lor Ik 582 <npc>，并给你约定的后勤调整<payment>。"

@@ -12,9 +12,9 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 start "default"
-	name "Endless Sky"
+	name "无尽的天空"
 	description `你在新波士顿长大，这是一个位于泥土带的无趣的世界。自从你15岁时第一次去太空港，你就梦想着拥有一艘星船。在纺织厂工作了许多年后，你终于攒够了学分，可以向共和国申请飞行员执照了。`
-	description `	在获得许可证后，随着从这个星球上获得的自由唾手可得，你前往银行为你的第一艘船贷款...`
+	description `	在获得许可证后，随着从这个星球上获得的自由唾手可得，你前往银行为你的第一艘船贷款......`
 	thumbnail "scene/lobby"
 	date 16 11 3013
 	system "Rutilicus"

@@ -51,8 +51,8 @@ ship "Kaiken"
 	leak "flame" 60 80
 	explode "tiny explosion" 20
 	explode "small explosion" 15
-	description "While not particularly fast by fighter standards, where the Kaiken lacks in speed it makes up for in durability and firepower; it boasts a significant amount of weapon space and ports for up to three guns, allowing for the use of a trio of Locust Blasters or the option of using a larger Mandible Cannon."
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "虽然按照战斗机的标准，凯肯的速度不是特别快，但它在耐用性和火力方面得到了弥补；它拥有大量的武器空间和最多三把枪的接口，可以使用三把蝗虫炮，也可以选择使用更大的臼齿炮。"
+	description "	战斗机不配备超光速引擎。除非你的舰队中有一艘带有战斗机舱的飞船，否则你无法携带战斗机。"
 
 
 
@@ -116,7 +116,7 @@ ship "Sasumata"
 	explode "medium explosion" 20
 	explode "large explosion" 5
 	"final explode" "final explosion small"
-	description "The Sasumata is the chief scout ship of the Bunrodea. While not designed for combat, this stealth transport vessel is still capable of holding its all against some smaller warships; its four fighter bays turn the Sasumata into a force to be reckoned with when its fighters are deployed."
+	description "萨苏马塔号是布诺迪亚的主要侦察舰。虽然不是为战斗而设计的，但这艘隐形运输船仍然能够在一些较小的战舰面前坚持到底；它的四个战斗机舱使萨苏马塔号在部署战斗机时成为一支不可忽视的力量。"
 
 
 
@@ -168,7 +168,7 @@ ship "Tanto"
 	explode "small explosion" 30
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
-	description "The Tanto freighter was designed as a fast blockade runner. While being lightly armed and armored, the Tanto is incredibly swift for a ship of its size, allowing it to jump into and out of systems before any hostile force can bear its full might down on the small ship."
+	description "坦托号货船被设计为快速封锁船。虽然武器和装甲都很轻，但对于这种尺寸的船来说，坦托号的速度非常快，可以在任何敌对势力对这艘小船施加全部威力之前跳入和跳出系统。"
 
 
 
@@ -235,7 +235,7 @@ ship "Ararebo"
 	explode "medium explosion" 10
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "The Ararebo is one of the Bunrodea's main methods for shipping large volumes of cargo across space, but anyone who would dare to think that this freighter is an easy target would be sorely mistaken. The Ararebo doubles as the Bunrodea's primary support carrier, carrying a squadron of eight fighters that can tear almost any ship to shreds."
+	description "Ararebo号是Bunrodea在太空中运输大量货物的主要方法之一，但任何敢于认为这艘货船是一个简单目标的人都会大错特错。Ararebo号同时也是Bunrodea的主要支援航母，携带了一个由八架战斗机组成的中队，几乎可以将任何船只撕成碎片。"
 
 
 
@@ -291,7 +291,7 @@ ship "Tekkan"
 	explode "medium explosion" 10
 	explode "large explosion" 5
 	"final explode" "final explosion small"
-	description "The Tekkan is the one ship in the Bunrodean arsenal that favors turrets over forward facing guns. This allows the small and fast vessel to act as the primary means of anti-missile defense for larger Bunrodean ships that are lacking in turret mounts compared to their guns. Tekkans are also able to take advantage of the rarely used but powerful Locust Turrets, packing a considerable amount of damage into a small ship."
+	description "特坎号是布诺迪亚军火库中最喜欢使用炮塔而不是前向炮的船只。这使得这种小而快的船只可以作为大型布诺迪恩舰艇的主要反导弹防御手段，因为这些舰艇的炮塔数量比它们的火炮数量少。特肯人还能够利用很少使用但功能强大的蝗虫炮塔，将相当大的伤害装入一艘小船。"
 
 
 
@@ -349,7 +349,7 @@ ship "Kunai"
 	explode "medium explosion" 40
 	explode "large explosion" 20
 	"final explode" "final explosion small"
-	description "The Kunai is the smallest of the Bunrodea's gunships, warships which focus heavily on the power of their forward-facing guns. Lacking any turret mounts and focusing more on turning quickly than traveling fast, the Kunai is highly susceptible to missile weaponry and must rely on other ships in the fleet to carry anti-missile turrets."
+	description "库奈（Kunai）是布诺迪亚（Bunrodea）最小的炮艇，是非常注重其前向火炮威力的战舰。由于缺乏任何炮塔，并且更注重快速转向而不是快速行驶，库奈号非常容易受到导弹武器的影响，必须依靠舰队中的其他船只携带反导弹炮塔。"
 
 
 
@@ -416,7 +416,7 @@ ship "Kama"
 	explode "large explosion" 30
 	explode "huge explosion" 10
 	"final explode" "final explosion medium"
-	description "The Kama gunship is a formidable warship, capable of carrying up to ten guns as well as having a single turret mount typically equipped with an anti-missile turret. This makes the Kama less susceptible to missile weaponry than its smaller sibling, the Kunai."
+	description "卡玛炮艇是一艘强大的战舰，能够携带多达10门火炮，以及拥有一个通常配备有反导弹炮塔的单一炮塔座。这使得卡玛号比其较小的兄弟姐妹库奈号更不容易受到导弹武器的影响。"
 
 
 
@@ -493,4 +493,4 @@ ship "Chigiriki"
 	explode "large explosion" 20
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Chigiriki is the largest of the Bunrodea's gunships, boasting an astonishing seventeen gun ports. One of these ports is equipped with the devastating Thorax Cannon, a massive cannon capable of dealing significant damage to any ship that dares get in the Chigiriki's way. Some Chigiriki also double as missile platforms, raining down a walls of missiles so thick on their target that it can blot out the nearest star."
+	description `Chigiriki是Bunrodea最大的炮艇，拥有惊人的17个炮口。其中一个炮口配备了毁灭性的 "胸膛炮"，这种巨大的火炮能够对任何胆敢阻挡Chigiriki的船只造成重大伤害。有些Chigiriki还可以作为导弹平台，向目标倾泻厚厚的导弹墙，以至于可以遮蔽最近的恒星。`

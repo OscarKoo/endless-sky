@@ -16,8 +16,8 @@
 # You facilitate the supervised construction of a station to act as a base for the cover (and also as a checkpoint to hide access to Hai space).
 
 mission "Hai Building Mountaintop [1] Construction Fleet"
-	name "Escort construction fleet to Ultima Thule"
-	description "Meet a construction fleet at <stopovers> and escort them to to <destination> to prevent a confrontation."
+	name "护送建筑队到Ultima Thule"
+	description "在<stopovers>遇到一支建设舰队，护送他们到<destination>，以防止发生冲突。"
 	autosave
 	landing
 	source "Hai-home"
@@ -28,128 +28,128 @@ mission "Hai Building Mountaintop [1] Construction Fleet"
 		has "Hai Leaks Response 6: done"
 	on offer
 		conversation
-			`When you return to Hai-home, you are directed to a government hangar where you are met by Xilin and Sayari, both looking very relieved.`
+			`当你回到Hai-home时，你被引导到一个政府机库，Xilin和Sayari在那里见到了你，他们都显得非常欣慰。`
 			branch buildingdeferred
 				has "Building Mountaintop Deferred"
-			`	"I am very glad to see you returned, Captain <last>. Sayari said you were away on an important errand, but I've been hoping for a day now that you would reappear. I think you might be the solution to the current impasse."`
-			`	"You see," says Sayari, "while you've been away it's been decided that a 'tourist trap type theme park destination' is a critical part of the cover story." Despite her Hai inflections, you can still hear the air quotes around that phrase in the tone of her voice. "So far it seems the movie cover has been circulating quite successfully, so we're leaning into it.`
-			`	"This means we need a station, on your side of the wormhole in Ultima Thule. It also means we need it fast, much faster than your people could ever hope to assemble it. The Hai can build it much quicker than humanity can; we actually considered the possibility of needing to raise a station quickly a while back. The alien look that the station will have if we build it has been considered just another favorable aspect of the movie and it provides a long-term commercial justification for the whole idea; the, uh, 'tourist trap'."`
+			`	"我很高兴看到你回来，船长<last>。萨亚里说你去办了一件重要的事，但我已经盼望了一天，你会重新出现。我想你可能是解决目前僵局的办法。"`
+			`	"你看，"萨亚里说，"你不在的时候，已经决定'旅游陷阱型主题公园目的地'是封面故事的关键部分。"尽管她的海氏语调，你仍然可以从她的语气中听到这句话周围的引号。"到目前为止，似乎电影封面的流传相当成功，所以我们正在向它倾斜。`
+			`	"这意味着我们需要一个站点，在Ultima Thule的虫洞的你那边。这也意味着我们需要它的速度，比你们的人希望组装它的速度快得多。海族可以比人类更快地建造它；实际上，我们不久前就考虑过需要快速建立一个站的可能性。如果我们建造这个站，它的外星外观已经被认为只是电影的另一个有利方面，它为整个想法提供了一个长期的商业理由；呃，'旅游陷阱'。"`
 			choice
-				`	"It would help if I oversaw the construction, wouldn't it?"`
+				`	"如果我监督施工会有帮助，不是吗？"`
 					goto oversee
-				`	"Good idea. Let me know when the station is complete."`
-			`	"It's not so simple," Sayari responds. "In the light of the recent civil war your species has had, some of the Elders are less than keen on allowing a partisan observer to see the inner workings of a station in its earliest phases, especially when we haven't actually built one in so, so long."`
-			`	Now that she mentions it, all of the stations in Hai space do seem to be very, very old.`
-			`	"However, therein lies a problem," says Xilin.`
-			`	"The Republic will not allow the Hai to build a station on our side of the wormhole without some oversight by someone we trust. This has now been a point of contention for some days, and multiple suggestions have been rejected."`
-			`	Sayari chitters, "Honestly, it's all very silly. Lots of old men, who are meant to be friends, concerned that the other might have been lying to them."`
-			`	In an oddly comical gesture, they both shrug at the same time.`
-			`	"Anyway," she continues, "thanks to a little Freedom of Information request to the Republic, I have been looking at things, and I think I have the solution."`
+				`	"好主意。车站完工后，请告诉我。"`
+			`	"没那么简单。"萨亚里回应道。"鉴于你们这个物种最近发生的内战，一些长老不太愿意让一个党派观察员看到一个站的内部工作的最初阶段，尤其是当我们已经很久没有真正建造一个站的时候。"`
+			`	既然她提到了，海空间的所有站点似乎都非常、非常古老。`
+			`	"然而，这里面有一个问题，"西林说。`
+			`	"共和国不会允许海族在没有我们信任的人监督的情况下，在虫洞的我们这边建造一个站。现在这已经是一个争论的焦点，已经有好几天了，多个建议被拒绝了。"`
+			`	萨亚里喋喋不休地说："说实话，这一切都很愚蠢。很多老人，他们本是朋友，担心对方可能对他们撒谎。"`
+			`	以一种奇怪的滑稽姿态，他们俩同时耸耸肩。`
+			`	"不管怎样，"她继续说，"由于向共和国提出了一个小小的信息自由请求，我一直在研究事情，我想我有解决办法。"`
 			choice
-				`	"Is it me?"`
-			`	Sayari winks at you. "Catch on quick, don't you? The actions you're recorded as having taken show a certain conscience for the good of your species as a whole, despite your affiliations. I have convinced the other diplomats and our Elders that you might be a viable solution to this impasse. The human diplomats have already agreed, but the Elders wish to speak with you first."`
+				`	"是我吗？"`
+			`	萨亚里向你眨眨眼。"抓得真快，不是吗？根据记录，你所采取的行动显示出某种良知，为了你们整个物种的利益，尽管你的隶属关系。我已经说服了其他外交官和我们的长老，你可能是这个僵局的一个可行的解决方案。人类外交官已经同意了，但长老们希望先和你谈谈。"`
 				goto elders
 			label oversee
-			`	"You're learning to navigating the maze of galactic politics quickly, Captain <last>," says Sayari. "We are at an impasse. The Elders are less than keen on allowing a partisan observer to see the construction."`
-			`	Xilin continues her thought. "The Republic won't let the Hai build a station on our side of the wormhole without a trusted observer monitoring construction.`
-			`	"Both sides trust you, though," he says, as Sayari nods.`
+			`	"你很快就学会了驾驭银河系政治的迷宫，船长<last>，"萨亚里说。"我们陷入了僵局。长老们不太愿意让一个党派的观察者看到建筑。"`
+			`	西林继续她的思考。"共和国不会让海族在没有值得信赖的观察员监督施工的情况下，在虫洞的我们这边建站。`
+			`	"不过，双方都信任你。"他说，因为萨亚里点了点头。`
 			label elders
 			choice
-				`	"Who are these Elders?"`
-				`	"Of course, that's natural."`
+				`	"这些长老是谁？"`
+				`	"当然，这很自然。"`
 					goto main
-			`	Sayari explains, "The Hai are ruled by an elected council of elders. They are not responsible for every administrative decision that occurs, but they are the highest authority of our government. Their decisions are final, at least for the term of an election."`
+			`	萨亚里解释说，"海族是由一个选举产生的长老会统治的。他们不负责每一个发生的行政决定，但他们是我们政府的最高权威。他们的决定是最终的，至少在选举的期限内是如此。"`
 				goto main
 			label buildingdeferred
-			`	Xilin addresses you, "Not a great deal of progress has been made in your absence. We have maintained our position, so the other diplomats and the Elders still accept that you might be a viable solution to this impasse. It is unavoidable though that the Elders must speak with you first."`
+			`	西林对你说："你不在的时候，没有取得很大的进展。我们保持了我们的立场，所以其他外交官和长老们仍然接受你可能是这个僵局的一个可行的解决方案。但不可避免的是，长老们必须先和你谈谈。"`
 			label main
-			`	"If you're willing, there will be a council meeting in an hour, and I can put you first on the agenda. Will you do this?" asks Sayari.`
+			`	"如果你愿意，一小时后会有一个理事会会议，我可以把你放在议程的第一位。你愿意这样做吗？"萨亚里问道。`
 			choice
-				`	"I suppose I must."`
-				`	"Someone better be paying me for this."`
-				`	"Of course, let's do it."`
-				`	"Maybe in a bit. I should do something else first."`
+				`	"我想我必须这样做。"`
+				`	"最好有人为此付钱给我。"`
+				`	"当然，我们来做吧。"`
+				`	"也许过一会儿吧。我应该先做别的事情。"`
 					defer
-			`	Following Sayari, you pass beyond a security checkpoint where Xilin is prevented from following you. Sayari speaks with another Hai doing administrative work for a moment before gesturing you towards a private antechamber.`
-			`	"We shouldn't have to wait very long, but while we're alone," she says, glancing at the door as if faintly nervous for a second, "did you find anything on your investigation?"`
+			`	跟着萨亚里，你经过了一个安全检查站，锡林被阻止跟随你。萨亚里与另一位从事行政工作的海员交谈了一会儿，然后向你示意走向一个私人候见厅。`
+			`	"我们应该不用等很久，但当我们单独在一起时，"她说，瞥了一眼门，似乎有点紧张，"你在调查中发现了什么吗？"`
 			branch foundcat
 				has "Hai Rescue: Gipeep: done"
 			choice
-				`	"Yes, I found several Hai that had been kidnapped."`
+				`	"是的，我发现了几个被绑架的海。"`
 					goto kidnapped
-				`	"I found something out of place on Maelstrom."`
+				`	"我在漩涡上发现了一些不对劲的地方。"`
 					goto maelstrom
 			label foundcat
 			choice
-				`	"Yes, I found several Hai that had been kidnapped."`
+				`	"是的，我发现了几个被绑架的海。"`
 					goto kidnapped
-				`	"I found a symbol being used with a captured Hai in a registered warehouse."`
+				`	"我发现在一个注册的仓库里，有一个符号正在和被抓的海族一起使用。"`
 					goto angrycat
 			label kidnapped
-			`	Sayari looks crestfallen as you list off the Hai that you found, but as you finish describing the situations she frowns contemplatively. "That seems to be more Hai, and more easily found than I would have expected. It would seem that the problem may be larger than we've previously thought possible... but was that it? Was there nothing unusual?"`
+			`	当你列出你发现的海族时，萨亚里看起来很沮丧，但当你完成描述这些情况时，她皱着眉头沉思。"这似乎是更多的海，而且比我想象的更容易找到。看来，问题可能比我们以前认为的要大......但就是这样吗？没有什么不寻常的地方吗？"`
 			branch foundcat2
 				has "Hai Rescue: Gipeep: done"
 			choice
-				`	"I found something out of place on Maelstrom."`
+				`	"我在漩涡上发现了一些不对劲的地方。"`
 					goto maelstrom
 			label foundcat2
 			choice
-				`	"I found a symbol being used with a captured Hai in a registered warehouse."`
+				`	"我发现在一个注册的仓库里，有一个符号正在和被抓的海族一起使用。"`
 					goto angrycat
 			label maelstrom
-			`	"Maelstrom is a significant world, a lot of important corporations obtain their raw materials from there and keep an eye on its operations," she muses. "If there's something going on there it doesn't bode well, we'll have to investigate it."`
+			`	"漩涡是一个重要的世界，很多重要的公司都从那里获得原材料，并密切关注它的运作。"她沉思道。"如果那里有什么事情发生，那不是好兆头，我们必须调查一下。"`
 			action
 				set investigatemaelstrom
-			`	She glances at the door, as if having heard something you didn't, before giving you an appraising look. "I trust you have recorded all this in some capacity that you can give to me?"`
+			`	她瞥了一眼门，似乎听到了你没有听到的东西，然后给你一个评价的眼神。"我相信你已经以某种方式记录了这一切，你可以给我吗？"`
 				goto datastick
 			label angrycat
-			`	When you show her the symbol an odd expression flashes over her face for the briefest of moments, there and gone so quickly that you could've blinked and missed it. "Yes, this is a very odd symbol, and not one I associate with any known groups. I will have to investigate and show this to my friend. See if it matches anything she's found."`
+			`	当你给她看这个符号时，她脸上闪过一个奇怪的表情，时间很短，很快就消失了，你可能眨眼就错过了。"是的，这是一个非常奇怪的符号，而且我没有把它与任何已知的团体联系起来。我将不得不进行调查，并把这个给我的朋友看。看看它是否与她所发现的任何东西相匹配。"`
 			action
 				set catsymbolfound
-			`	She glances at the door, as if having heard something you didn't, and gestures for you to quickly put your data pad away. "I trust you have recorded all this in some capacity that you can give to me?"`
+			`	她瞥了一眼门，好像听到了什么你没有听到的东西，并示意你赶紧把你的数据板收起来。"我相信你已经以某种方式记录了这一切，你可以给我吗？"`
 			label datastick
-			`	You hand Sayari a data stick. "I saved everything from my logs on this."`
-			`	Gingerly, she takes the data stick and secretes it away on her person. Her expression of distaste looks like one she might give to some snake that could bite her at any moment.`
-			`	"I will have a thorough look later," is all she says.`
-			`	No sooner has she finished than there is a knock at the door, and an aide looks in. "The Council will see you now."`
+			`	你递给萨亚里一个数据棒。"我把我的日志中的所有内容都保存在这个上面。"`
+			`	她生硬地接过数据棒，把它藏在自己身上。她厌恶的表情看起来就像她可能给一些随时可能咬她的蛇的表情。`
+			`	"她只说了一句话："我稍后会彻底看一下。`
+			`	她刚说完，门就被敲响了，一个助手走了进来。"委员会现在要见你。"`
 			choice
-				`	(Walk into the Council chambers.)`
-			`	The next twenty minutes prove to be an exercise in tedium as various members of the council interrogate you over apparently mundane details of your recent actions as recorded in the Freedom of Information report. You're not really sure what most of it has to do with anything, but eventually one of the Elders stands up.`
-			`	"I think we've generally had enough of this here. Answer me two questions, and then we shall make our decision. Firstly, do you think that a diplomatic post should be able to defend itself? Or should it trust to the strength of those who meet there to ensure its protection?"`
-			`	This seems like a very strange question...`
+				`	(走进议会厅。)`
+			`	接下来的二十分钟被证明是一个乏味的练习，因为理事会的不同成员就信息自由报告中记录的你最近的行动的明显的世俗细节对你进行审问。你并不确定这其中的大部分有什么关系，但最终一位长老站了起来。`
+			`	"我想我们一般来说已经在这里受够了。回答我两个问题，然后我们将做出决定。首先，你认为一个外交机构应该有能力保护自己吗？还是应该相信在那里开会的人的力量来确保其保护？"`
+			`	这似乎是一个非常奇怪的问题......`
 			choice
-				`	"It should be strong enough to defend itself. You cannot trust your enemy."`
+				`	"它应该有足够的实力来保护自己。你不能相信你的敌人。"`
 					goto caution
-				`	"Both sides must be trusted to protect a diplomatic post, or there is no point to having one."`
+				`	"必须信任双方来保护一个外交机构，否则就没有意义了。"`
 					goto trust
 			label trust
 			action
 				set haitrust
-			`	You seem to get no reaction, and the Elder follows up with, "What is the gravest threat, in your opinion, facing humanity?"`
+			`	你似乎没有得到任何反应，长老接着说："在你看来，人类面临的最严重威胁是什么？"`
 				goto return
 			label caution
 			action
 				set haicaution
-			`	You seem to get no reaction, and the Elder follows up with, "What is the gravest threat, in your opinion, facing humanity?"`
+			`	你似乎没有得到任何反应，长老接着说："在你看来，人类面临的最严重威胁是什么？"`
 			label return
 			choice
-				`	"The Pug."`
-				`	"The Alphas."`
-				`	"Unknown jump-capable aliens."`
-				`	"Experimental technologies."`
-				`	"Humanity's hubris."`
+				`	"帕格人。"`
+				`	"阿尔法斯。"`
+				`	"未知的有跳跃能力的外星人。"`
+				`	"实验性技术。"`
+				`	"人类的狂妄。"`
 					goto wise
-			`	There is a collection of chittering laughs from the various council members. You're not sure if there was something wrong with what you said, but you aren't left long to ponder.`
-			`	"It seems the human agent is an honest fool, but an honest fool can at least be trusted to be foolish honestly on all fronts."`
-			`	You're pretty sure you should be offended by that, but the council members are smiling and don't look like they're about to evict you.`
+			`	各个理事会成员中传来一阵阵叽叽喳喳的笑声。你不确定你说的话是否有问题，但你并没有留下长时间的思考。`
+			`	"看来人类代理人是个诚实的傻瓜，但一个诚实的傻瓜至少可以相信他在所有方面都是诚实的傻瓜。"`
+			`	你很确定你应该被这句话所冒犯，但理事们都在微笑，看起来并不像要驱逐你。`
 				goto end
 			label wise
-			`	"It seems you learned the correct lesson from the crisis of your species," he says.`
-			`	You see several appreciative nods happening around the room out of the corner of your eyes.`
+			`	"看来你从你们物种的危机中得到了正确的教训，"他说。`
+			`	你从眼角的余光中看到房间里发生的几个赞赏的点头。`
 			label end
-			`	"You may act as the oversight for the human governments in this project. Proposal D-86513-7P4 is approved. Our Council is adjourned."`
-			`	When you meet Sayari afterwards, a touch of her usual enthusiasm returns as you share the news.`
-			`	"This is fantastic news. Now all that remains to be done is for you to escort the construction fleet from <stopovers> to Ultima Thule and observe the initial stages. They'll be waiting for your arrival."`
+			`	"你可以在这个项目中充当人类政府的监督者。提案D-86513-7P4被批准。我们的理事会休会。"`
+			`	当你事后见到萨亚里时，在你分享这个消息时，她又恢复了一丝一贯的热情。`
+			`	"这真是个好消息。现在剩下的就是你护送建设舰队从<stopovers>到Ultima Thule并观察初始阶段。他们会等着你的到来。"`
 				accept
 	on defer
 		"Building Mountaintop Deferred" ++
@@ -157,7 +157,7 @@ mission "Hai Building Mountaintop [1] Construction Fleet"
 		event "role-play station before construction"
 		log `The diplomats have elected to double down on the movie production angle, with the costumed community "focus group," citing its success. This requires a station to be built; however, the Hai are unwilling to trust a human government to see the inner workings of a station under construction in the wake of the civil war, and the Republic will not allow a station to be built on their side unsupervised. Agreed to fulfill the role of supervisor after being asked by the diplomats and completing some sort of test by the Hai Elders involving some odd questions.`
 	on stopover
-		dialog `A fleet of eight Geocoris is waiting to accompany you when you arrive, with just the final items being loaded as you come in to land. They will follow you to the site where the new station will be built.`
+		dialog `当你到达时，一支由8个Geocoris组成的舰队正等待着陪伴你，只是在你来登陆时，最后的物品正在装载。他们将跟随你到新站的建造地点。`
 	to complete
 		has "Hai Building Mountaintop [1a] Construction Escorts: done"
 	on complete
@@ -173,7 +173,7 @@ mission "Hai Building Mountaintop [1a] Construction Escorts"
 	to offer
 		has "Hai Building Mountaintop [1] Construction Fleet: active"
 	on visit
-		dialog `You have arrived without all eight of the Geocoris you are escorting from <origin> to <planet>. You must take off and wait for them to finish this mission.`
+		dialog `你到达时，你所护送的八只Geocoris都没有从<origin>到<planet>。你必须起飞，等待他们完成这个任务。`
 	npc accompany save
 		personality escort timid
 		government "Hai (Wormhole Access)"
@@ -189,8 +189,8 @@ mission "Hai Building Mountaintop [1a] Construction Escorts"
 
 mission "Hai Building Mountaintop [1b] Return"
 	landing
-	name "Return to <planet>"
-	description `The Hai have another job for you at <destination>.`
+	name "返回<planet>。"
+	description `海族人在<destination>有另一项任务给你。`
 	source "Mountaintop"
 	destination "Hai-home"
 	clearance
@@ -198,9 +198,9 @@ mission "Hai Building Mountaintop [1b] Return"
 		has "Hai Building Mountaintop [1a] Construction Escorts: done"
 	on offer
 		conversation
-			`On arrival, you see one of the Geocoris deploy a steel ring around itself. Space-based cranes unfold and set about removing the three outer sections of the Geocoris and moving them to the ring. After they finish with the first, they progressively dismantle the other seven Geocoris you escorted. Within a few hours, there is a makeshift station with eight Geocoris' power generators and a sizable amount of storage and habitat space. The construction workers begin unpacking the contents of the Geocoris' storage pods, checking construction seals, engaging principle life support systems, and erecting a massive holoprojector.`
-			`	The Geocoris' captains explain that the Hai had conceived this space station option when the Geocoris was first designed, with some station construction principles used to support its massive cargo capacity. With minor modifications, it was made a trivial effort to dismantle eight Geocoris and rapidly assemble a station. They thank you for your service and inform you that the Hai government needs your help again.`
-			`	Content that the station is built satisfactorily, you prepare to return to <planet>.`
+			`到达后，你看到其中一个Geocoris在自己周围部署了一个钢环。天基起重机展开，开始拆除Geocoris的三个外部部分，并将它们移到环上。在它们完成第一个部分后，它们逐步拆除你们护送的其他七个Geocoris。在几个小时内，这里有一个临时站，有八个Geocoris的发电装置和相当数量的存储和居住空间。建筑工人开始拆开Geocoris储存舱的东西，检查建筑密封性，启动原则性的生命支持系统，并架设一个巨大的整体投影仪。`
+			`	Geocoris号的船长解释说，在Geocoris号最初设计时，海氏就已经构想了这个空间站方案，一些空间站的建造原则被用来支持其巨大的货物容量。只要稍加修改，拆解八艘Geocoris并迅速组装一个空间站是小事一桩。他们感谢你的服务，并通知你，海政府再次需要你的帮助。`
+			`	满意地完成了空间站的建设，你准备返回<planet>。`
 				accept
 
 
@@ -220,7 +220,7 @@ event "role-play station before construction"
 		government "Hai"
 		attributes uninhabited
 		landscape land/station0
-		description `There's a construction site rapidly assembling a station from Hai Geocoris orbiting this wormhole.`
+		description `有一个建筑工地正在快速组装一个来自海族Geocoris的站，围绕着这个虫洞。`
 		"required reputation" -10
 		security 0.2
 
@@ -237,7 +237,7 @@ event "role-play station after construction"
 				distance 315
 				period 31.1964
 	planet Mountaintop
-		description `This station is made of eight Geocoris ships dismantled and reassembled into a spherical structure with external storage and landing platforms. Hai workers are shuffling about the station, installing human amenities and vast holographic projection systems. Presently it looks much like a construction site, but it is rapidly approaching completion.`
+		description `这个站是由八艘Geocoris飞船拆解后重新组装成一个球形结构，并带有外部存储和登陆平台。海族工人正在站内忙碌着，安装人类设施和巨大的全息投影系统。目前，它看起来很像一个建筑工地，但它正在迅速接近完成。`
 
 
 
@@ -246,8 +246,8 @@ event "hai dog and pony done"
 
 
 mission "Hai Building Mountaintop [2] Recruits"
-	name "Encourage recruits for Mountaintop"
-	description "Now that the station is going ahead, the Hai need to recruit people to be actors in this movie production. Someone needs to sell it to them, and apparently that someone is you."
+	name "鼓励为山顶招募人员"
+	description "现在，该站正在进行，海需要招募人们成为这部电影作品的演员。需要有人向他们推销，显然这个人就是你。"
 	landing
 	source "Hai-home"
 	stopover "Makerplace"
@@ -269,58 +269,58 @@ mission "Hai Building Mountaintop [2] Recruits"
 	destination "Mountaintop"
 	clearance
 	passengers 1
-	blocked `Terry contacts you and says, "Captain, there are things to do and you're going to need a bunk free for me. I need to speak to you as soon as practicable." You do not have a free bunk, so you should complete or abort another mission to make room for her, then return here.`
+	blocked `特里联系你说："船长，有事情要做，你需要为我腾出一个铺位。我需要在可行的情况下尽快和你谈谈。"你没有空铺，所以你应该完成或放弃另一个任务，为她腾出空间，然后返回这里。`
 	on visit
-		dialog `You have arrived at the Mountaintop construction site, but it isn't finished or staffed yet.`
+		dialog `你已经到达了山顶建筑工地，但它还没有完工，也没有人员。`
 	to offer
 		has "Hai Building Mountaintop [1b] Return: done"
 	on offer
 		conversation
-			`At Hai-home, you are directed to a now familiar government hangar. Sayari, Xilin, and Alondo all send you greeting pings, but are busy at the time of your landing. To your surprise though, Terry is banging on your airlock before too long.`
-			`	"Captain <last>, or should I call you <first>? Anyway, doesn't matter. How would you like to make some money?" The smile she gives you is something like you imagine a large cat giving the tasty morsel it just identified as its food. "Of course you do, everyone likes to make money," she continues, not waiting for you to reply.`
-			`	"The Hai have put out the call for volunteers to be actors in the movie production and also to staff the new Mountaintop station when it's finished, but there's a problem."`
+			`在海之家，你被引导到一个现在熟悉的政府机库。萨亚里、西林和阿隆多都向你发出了问候的信号，但在你着陆的时候都很忙。但令你惊讶的是，泰瑞没过多久就在敲打你的气闸。`
+			`	"船长<last>，或者我应该叫你<first>？不管怎样，这并不重要。你想赚点钱吗？"她给你的笑容就像你想象的一只大猫给它刚刚认定的美味小菜的样子。"当然愿意，每个人都喜欢赚钱，"她继续说，不等你回答。`
+			`	"海氏集团已经发出号召，希望志愿者成为电影制作的演员，也希望在新的山顶站完工后为其配备工作人员，但有一个问题。"`
 			choice
-				`	"What's the problem?"`
+				`	"有什么问题吗？"`
 					goto problem
-				`	"The movie production is real?"`
-			`	She looks and blinks at you as if caught slightly off-guard. "Yes, didn't they tell you? In order to keep up the cover they actually have to start making a movie, or at least believable clips from one. The director they found, an eccentric chap called David Cohen, seems to have got quite enthusiastic now he's not busy bemoaning the 'big reveal' of his 'secret project.' There's a Mr Turner who's now the cover story's guy bankrolling the thing.`
-			`	"That's Sam's business though, and he can do that without a secretary. I'm dealing with the operational side of things, as I should be." Something in the tilt of her head gives you the sense that she's supremely satisfied with this turn of events.`
+				`	"电影制作是真的？"`
+			`	她看着你，眨了眨眼睛，好像稍微有点措手不及。"是的，他们没有告诉你吗？为了保持掩护，他们实际上必须开始制作电影，或者至少是可信的电影片段。他们找到的导演，一个叫大卫-科恩的古怪家伙，现在似乎变得相当热情，他没有忙着哀叹他的 "秘密项目 "的 "大曝光"。有一位特纳先生现在是封面故事的人，他为这件事提供资金。`
+			`	"不过那是山姆的事，他可以不用秘书来做。我在处理业务方面的事情，这是我应该做的。"她歪着头的样子让你感觉到她对这一事件的发展极为满意。`
 			label problem
-			`	"While you've been watching early construction, we've been gauging public interest and... at the moment it's not going to work. In order to sell this, they're going to need at least four thousand volunteers by the end of the month, and twelve thousand by the time the station is built. We have to cover crews, staff, roles, extras; gauge needs for facilities, amenities, supplies, and livability requirements. We estimate they'll only get a third of that unless something changes."`
-			`	As she's talking, Terry has been laying out charts and graphs while using a handheld Hai holographic device to show animated diagrams.`
-			`	"The problem is that we need Hai who know how to interact with humans. We've had no shortage of Hai who are keen, even excited, at the prospect of acting in a human movie. Unfortunately, well, many of those Hai... have never met a human in their life. There's something off about their mannerisms and the way they interact; they're simply too alien... No one is going to believe that they're the result of motion capture in the movie, especially the staff and extras."`
+			`	"当你一直在关注早期建设时，我们一直在衡量公众的兴趣，而且......目前，这是不可能的。为了推销这个，他们在月底前至少需要四千名志愿者，而在车站建成时，需要一万二千名。我们必须涵盖工作人员、员工、角色、临时工；衡量对设施、便利设施、用品和宜居要求的需求。我们估计他们只能得到其中的三分之一，除非有什么变化。"`
+			`	在她说话的时候，特里一直在布置图表，同时用一个手持的Hai全息设备来显示动画图。`
+			`	"问题是，我们需要知道如何与人类互动的Hai。我们不乏热衷于在人类电影中表演的海族，甚至是兴奋。不幸的是，许多海族......在他们的生活中从未见过人类。他们的举止和互动方式有些不对劲；他们实在是太陌生了......没有人会相信他们是电影中动作捕捉的结果，尤其是工作人员和临时演员。"`
 			choice
-				`	"How do you know all this?"`
-				`	"How do we make them less alien?"`
+				`	"你是怎么知道这些的？"`
+				`	"我们怎样才能让他们不那么陌生？"`
 					goto lessalien
-			`	Terry raises an eyebrow at you. "The Oracle may have been an AI supercomputer that could predict the economic situation across the whole of human-inhabited space up to fifteen years in the future, but it was still dependent on our incredibly developed data gathering, reporting, and collation infrastructure. With or without it, the Syndicate knows data. How else do you think we're so profitable?"`
-			`	When she puts it that way, it does suddenly feel like a bit of a stupid question.`
-			`	"As it turns out, that infrastructure is predicting that the Syndicate stands to lose billions of credits, per day, for the duration of any crisis evolving from this which involves the uncontrolled release of the Hai secret. However, we have a plan."`
+			`	特里对你挑了挑眉毛。"甲骨文可能是一台人工智能超级计算机，可以预测整个人类居住的空间在未来15年内的经济状况，但它仍然依赖于我们令人难以置信的发达的数据收集、报告和整理基础设施。不管有没有，辛迪加都知道数据。否则你认为我们怎么会有这么大的利润？"`
+			`	当她这样说的时候，确实突然觉得这个问题有点愚蠢。`
+			`	"事实证明，那个基础设施预测，辛迪加每天会损失数十亿信用点，在由此演化出的任何危机期间，涉及海氏秘密的无节制释放。然而，我们有一个计划。"`
 				goto plan
 			label lessalien
-			`	Terry snorts and suppresses a smirk. "We don't. It takes years of sharing a society with humans for a Hai to learn how to code-switch their body language for us, and humans that have lived solely with Hai and no other human contact are equally unsuitable. No, we cannot make unsuitable volunteers less alien. There's a different approach that can work though."`
+			`	特里哼了一声，压抑着笑意。"我们没有。海族需要多年与人类共享一个社会，才能学会如何为我们转换他们的身体语言代码，而那些只与海族生活在一起，没有其他人类接触的人类也同样不适合。不，我们不能让不适合的志愿者不那么陌生。不过有一种不同的方法可以发挥作用。"`
 			label plan
 			choice
-				`	"And that is?"`
-				`	"What's the deal then?"`
-			`	Terry crosses her arms and leans back against the bulkhead. "We need a recruitment campaign. We need to attract Hai who've lived in shared urban environments with humans enough to be able to fake being humans pretending to be Hai. Which means we need a human touch to this; it can't just come from the Hai's own advertising networks, and we need some star power. Oh, and if you haven't guessed already, you're the one to do it. The Syndicate will offer you a sum of 10,000,000 credits to visit every planet in Hai space and do glossies. I'll obviously stage manage your image, and will have promotional material ready inside of 3 hours."`
+				`	"那就是？"`
+				`	"那是什么？"`
+			`	特里双手叉腰，背靠着舱壁。"我们需要一个招募活动。我们需要吸引那些与人类共同生活在城市环境中的海族，使他们能够假扮成人类，假装成海族。这意味着我们需要一个人情味；它不能仅仅来自海族自己的广告网络，而且我们需要一些明星效应。哦，如果你还没有猜到，你就是那个要做的人。辛迪加将为你提供一笔10,000,000信用点的资金，让你访问海族空间的每一个星球，并做华丽的广告。我显然会对你的形象进行舞台管理，并在3小时内准备好宣传材料。"`
 			choice
-				`	"That's it? Straight into it?"`
-			`	She stares you down. "Right now you are the linchpin. Potentially the only human in the entire galaxy that stands between peace and crisis... and we're already behind schedule."`
+				`	"就这样了？直接进入？"`
+			`	她盯着你。"现在，你是关键人物。有可能是整个银河系中唯一站在和平与危机之间的人类......而我们已经落后于计划。"`
 			choice
-				`	"I don't really have a choice in this matter, do I?"`
-			`	Terry's answering grin is best described as "predatory".`
+				`	"在这个问题上，我真的没有选择，是吗？"`
+			`	特里回答的笑容用 "掠夺性 "来形容最为恰当。`
 				accept
 	on stopover
 		set "hai dog and pony final stop"
 		"hai dog and pony" ++
 		event "hai dog and pony done" 1
 		conversation
-			`You have finally visited every world in Hai space and sold the pitch to the people. With any luck, enough will sign up to make it work. Terry indicates that you may now take her to Mountaintop without further stops, but then adds, "I do have some leftover materials though, so I'll get you to do some final spruiking if you stop anywhere else along the way."`
+			`你终于访问了海空间的每一个世界，并向人们推销了这个方案。运气好的话，会有足够的人报名参加，使之发挥作用。特里表示你现在可以带她去山顶，不用再停留，但又补充说："不过我有一些剩余的材料，所以如果你在沿途其他地方停留，我会让你做一些最后的宣传工作。"`
 	on complete
 		log `Had to go on a lengthy promotional tour to rustle up volunteers for the new station. Terry took care of all the details and seemed especially keen. Presumably she has some marketing background, which may explain her success within the Syndicate.`
 		payment 10000000
-		dialog `You finally dock at <planet>, your tedious tour complete. Shortly after, you receive a ping informing you that <payment> has been deposited into your account. Terry must've set it up to happen automatically.`
+		dialog `你终于停靠在<planet>上，你乏味的旅行结束了。不久之后，你收到一个提示，通知你<payment>已经存入你的账户。特里一定是把它设置成了自动发生。`
 
 
 mission "ZZ Hai Building Mountaintop [2a] Sales Job"
@@ -340,34 +340,34 @@ mission "ZZ Hai Building Mountaintop [2a] Sales Job"
 			branch overdone
 				has "event: hai dog and pony done"
 			branch toomany
-				"hai dog and pony" >= 17
+				"海狗和小马" >= 17
 			branch interminable
-				"hai dog and pony" >= 14
+				"海狗和小马" >= 14
 			branch ordeal
-				"hai dog and pony" >= 11
+				"海狗和小马" >= 11
 			branch tiresome
-				"hai dog and pony" >= 8
+				"海狗和小马" >= 8
 			branch tedious
-				"hai dog and pony" >= 5
-			`You land on the world of <planet> and do your part to sell the opportunity on Mountaintop.`
+				"海狗和小马" >= 5
+			`你降落在<planet>的世界上，在山顶上做你的工作，推销机会。`
 				defer
 			label tedious
-			`You land on the world of <planet> and do your part to sell the opportunity on Mountaintop. Despite the enthusiasm of the Hai, it's tediously repetitive by now.`
+			`你降落在<planet>的世界上，尽你的职责在Mountaintop上销售机会。尽管海的热情很高，但现在已经是乏味的重复了。`
 				defer
 			label tiresome
-			`You land on the world of <planet> and do your part to sell the opportunity on Mountaintop. The routine is well-practiced now but starting to get a little tiresome.`
+			`你降落在<planet>的世界上，做你的工作来推销山顶的机会。这套程序现在已经练习得很好了，但开始有点令人厌烦。`
 				defer
 			label ordeal
-			`You land on the world of <planet> and do your part to sell the opportunity on Mountaintop. You struggle to maintain a cheerful and enthusiastic facade as you count down the minutes until this ordeal is over.`
+			`你降落在<planet>的世界上，做你的工作来推销山顶的机会。当你在倒数计时时，你努力保持一个愉快和热情的面孔，直到这场磨难结束。`
 				defer
 			label interminable
-			`You land on the world of <planet> and do your part to sell the opportunity on Mountaintop. Why did you ever agree to this interminable dog and pony show? Is it really worth all this just to save one tiny little galaxy?`
+			`你降落在<planet>的世界上，做你的工作来推销山顶的机会。你为什么会同意这个无休止的狗和马的表演？仅仅为了拯救一个小小的星系，这一切真的值得吗？`
 				defer
 			label toomany
-			`You land on the world of <planet> and do your part to sell the opportunity on Mountaintop. You're pretty sure you've done this more times than there are habitable planets in Hai space. Did you lose track and repeat a world? Will this nightmare ever end?`
+			`你降落在<planet>的世界上，做你的工作来推销山顶的机会。你很确定你做的次数比海空间的可居住星球还要多。你是不是迷失了方向，重复了一个世界？这场噩梦会不会结束？`
 				defer
 			label overdone
-			`You land on the world of <planet> and do your part to sell the opportunity on Mountaintop. Terry makes good on her promise of forcing you to shuffle out and do some last-minute spruiking to offload the remaining promotional materials to those who missed it the first time.`
+			`你降落在<planet>的世界上，做你的工作，在山顶上推销这个机会。泰瑞兑现了她的承诺，迫使你洗牌，做一些最后的宣传，把剩余的宣传材料卸给那些第一次错过的人。`
 				decline
 
 
@@ -375,26 +375,26 @@ mission "ZZ Hai Building Mountaintop [2a] Sales Job"
 mission "Hai Building Mountaintop [3] Furnishings"
 	autosave
 	landing
-	name "Retrieve Human Furnishings"
-	description "The volunteers are so numerous that the Hai need outside help transporting furnishings for their quarters to the new station."
+	name "取回人类的摆设"
+	description "志愿者人数众多，海需要外界帮助将他们宿舍的家具运到新站。"
 	source "Mountaintop"
 	stopover "Prime"
 	destination "Mountaintop"
 	clearance
 	on visit
-		dialog `You have arrived at the Mountaintop construction site, but it isn't finished or staffed yet.`
+		dialog `你已经到达了山顶建筑工地，但它还没有完工，也没有人员。`
 	to offer
 		has "Hai Building Mountaintop [2] Recruits: done"
 	cargo "human furnishings" 200
-	blocked `A message left for you by Sayari reads, "<first>, we need your help and you're going to need 200 tons of cargo space for this." You should return here after freeing up <capacity>.`
+	blocked `萨亚里给你留下的信息是："<first>，我们需要你的帮助，为此你需要200吨的货物空间。"你应该在腾出<capacity>后回到这里。`
 	on offer
 		conversation
-			`As you and Terry offload her remaining supplies on Mountaintop where she intends to manage the arrivals and setup personally, you get a communication from Sayari on your personal device.`
-			`	"Captain <last>! Glad I could get a hold of you on the other side of the wormhole there. I see the new relays are working. We've just discovered a problem: interest has soared in sign-ups for Mountaintop, but we've realized that most of our 'human' furnishings produced in Hai space aren't going to pass as having been manufactured with your technology. Mr Yang has pulled some strings, but now we urgently need someone to go pick them up from Prime in Betelgeuse. Everything else should be ready on our end soon enough, so if you can just handle that pick-up and delivery, we'll be okay."`
-			`	You let her know you'll handle it and prepare to leave.`
+			`当你和泰瑞在山顶卸下她剩余的物资，她打算在那里亲自管理到达和设置，你在个人设备上收到了Sayari的通讯。`
+			`	"船长<last>!很高兴我能在虫洞的另一边联系到你。我看到新的继电器正在工作。我们刚刚发现了一个问题：人们对报名参加山顶计划的兴趣大增，但我们已经意识到，我们在海氏空间生产的大多数'人类'家具都不会被认为是用你们的技术制造的。杨先生已经拉了一些关系，但现在我们迫切需要有人去Betelgeuse的Prime挑选它们。其他的东西在我们这边应该很快就能准备好，所以如果你能处理好接货和送货，我们就没问题。"`
+			`	你让她知道你会处理它，然后准备离开。`
 				accept
 	on stopover
-		dialog `You have the furnishings the Hai ordered. It's time to return them to <planet>.`
+		dialog `你拿到了海氏订购的家具。现在是时候把它们送回<planet>了。`
 	on complete
 		payment 300000
 		event "role-play station active" 12
@@ -402,9 +402,9 @@ mission "Hai Building Mountaintop [3] Furnishings"
 		event "news: hai video clip debunked"
 		log `Of all the hilariously mundane things that could trip up a deception, it turned out to be Hai-made furniture. Acquired a large shipment of human-made furniture from Prime in order to complete the station.`
 		conversation
-			`By the time you return, you are shocked to notice that the station seems to be rapidly approaching a completed state. Some four thousand people have already arrived, though some are still on board ships docked at the station. Once you register your delivery amidst the station chaos, it's only a few minutes later that you get a "thank you" message from Sayari.`
-			`	The note is short, but accompanies a surprising amount of credits. "Captain <last> - Thank you for your prompt assistance, but I fear I must now ask it again. A friend of mine who leads an organization investigating interactions with Hai and pirates needs help in human space. I can vouch for her and her organization, and I implore you to trade information and resources to solve our pirate troubles. Please keep quiet about this, lest it spark a diplomatic event.`
-			`	"She will contact you soon."`
+			`当你回来时，你震惊地注意到，该站似乎正在迅速接近完成的状态。大约四千人已经到达，尽管有些人还在停靠在车站的船上。一旦你在车站的混乱中登记了你的交付，仅仅几分钟后，你就收到了Sayari的 "感谢 "信息。`
+			`	纸条很短，但伴随着令人惊讶的信用额度。"船长<last>--感谢你的及时帮助，但我恐怕现在必须再次请求你。我的一个朋友领导着一个调查与海和海盗互动的组织，他在人类空间需要帮助。我可以为她和她的组织作担保，我恳请你们交换信息和资源以解决我们的海盗问题。请对此事保持沉默，以免引发外交事件。`
+			`	"她会很快与你联系。"`
 
 event "role-play station active"
 	system "Ultima Thule"
@@ -436,8 +436,8 @@ event "role-play station active"
 		government "Neutral"
 		attributes station tourism
 		landscape land/station5
-		description `This brand new station is built with wide spacious interiors for later expansion, a staple of the Hai's geometric building designs. At the moment, there is a number of Hai pretending to be humans in costume and volunteer humans from Hai space helping to bolster the act. A powerful holoprojection system is projecting an 'anomaly' into space nearby as a novelty. It seems to reasonably entertain some 'investigators' following rumors of the Hai.`
-		spaceport `The spaceport is a spacious docking assembly sheltered under broad, carapace-like structures which are arrayed around the lower decks like petals. It is designed to look impressive and still has that shiny look and freshly oiled smell of a newly minted construction, though it has only basic facilities and services.`
+		description `这座全新的车站，内部空间宽阔，便于日后扩建，是海氏几何建筑设计的主打。目前，有一些海族人穿着服装假装成人类，还有来自海族空间的志愿人类帮助支持这一行为。一个强大的整体投影系统正在将一个 "异常点 "投射到附近的空间，作为一种新奇的事物。它似乎合理地招待了一些关注海族传闻的 "调查员"。`
+		spaceport `航天港是一个宽敞的对接组件，它被宽大的、类似护罩的结构所遮蔽，这些结构像花瓣一样排列在低层甲板周围。它的设计看起来令人印象深刻，仍然有那种新造的闪亮的外观和新油的气味，尽管它只有基本的设施和服务。`
 		security 0.7
 		"required reputation" -10
 
@@ -479,8 +479,8 @@ event "ladybug surveillance"
 # This begins with a P instead of an H so it will happen after the other Hai Reveal mission's dialog.
 mission "Pirates with Hai Weapons 1: Katya's Message"
 	landing
-	name "Pirates with Hai Weapons"
-	description "You need to find out if the Hai are arming pirates and, if they are, stop them. Be patient for an opportunity, don't tell the Hai that the Free Worlds sent you, and make sure the Republic doesn't find out."
+	name "拥有海族武器的海盗"
+	description "你需要找出海族人是否在武装海盗，如果是，就阻止他们。要耐心等待机会，不要告诉海族是自由世界派来的，并确保共和国不会发现。"
 	source Hai-home
 	destination Hai-home
 	to offer
@@ -489,73 +489,73 @@ mission "Pirates with Hai Weapons 1: Katya's Message"
 		has "Hai Reveal [A05] Take Teeneep to Hai-home: done"
 	on offer
 		conversation
-			`Before you leave, Alondo finds you in a hallway. "Captain <last>, come with me. We need to have a quick conference." You follow him to an unusual room with strange padding on all sides. He plugs a device with an attached keyboard into a wall-mounted monitor and types for a few seconds. Soon after, you see the familiar face of Katya.`
-			`	"The transmission is secure," Alondo says. "This room has good soundproofing and some signal dampening. You can talk freely."`
+			`在你离开之前，阿隆多在一个走廊里找到了你。"船长<last>，跟我来。我们需要进行一次快速会议。"你跟着他来到一个不寻常的房间，四面都是奇怪的填充物。他把一个带有连接键盘的设备插在一个挂在墙上的显示器上，并打了几秒钟的字。不久之后，你看到了卡蒂亚那张熟悉的脸。`
+			`	"传输是安全的，"阿隆多说。"这个房间的隔音效果很好，还有一些信号阻尼。你可以自由交谈。"`
 			choice
-				`	"What is it, Katya?"`
+				`	"怎么了，Katya？"`
 					goto whaizzit
-				`	"You've taken a lot of precautions for this call."`
-			`	"Yes," she says. "This is a sensitive matter.`
+				`	"你为这次通话采取了很多预防措施。"`
+			`	"是的，"她说。"这是件敏感的事。`
 			label whaizzit
-			`	"There's a problem I need you to solve... discreetly. The Free Worlds have seen pirates with Hai weapons for quite a while. Most weapons were on ships, but recently we've found a large stock in a warehouse on an anarchist world.`
+			`	"有一个问题我需要你来解决......谨慎地解决。自由世界在相当长的一段时间里看到了带海武器的海盗。大多数武器都在船上，但最近我们在一个无政府主义世界的仓库里发现了大量库存。`
 				to display
 					not "FW Bounty 3: done"
-			`	"There's a problem I need you to solve... discreetly. The Free Worlds have seen pirates with Hai weapons for quite a while. I know you fought the pirate ship Silverhawk back before the war. We know now that it had Hai outfits. Recently we've found a large stock in a warehouse on an anarchist world.`
+			`	"有一个问题我需要你来解决......谨慎地解决。自由世界看到海盗带着海族武器已经有一段时间了。我知道你在战前与海盗船 "银鹰 "号作战。我们现在知道，它有海族的装束。最近我们在一个无政府主义世界的仓库里发现了大量的库存。`
 				to display
 					has "FW Bounty 3: done"
-			`	"Such a vast supply is unlikely to have come from individual smugglers, so we must assume it's the result of a large-scale operation. I'm worried the Hai government may be arming pirates. If they are, I hope the weapons are just misguided tribute payments. In the south, we well know how useful bounties and tributes are when dealing with pirates, but from my time as a councilor, I can tell you the Republic will not be so understanding.`
-			`	"You must discreetly find out if the Hai government is arming the pirates and, if they are, put a stop to it. Don't tell them the Free Worlds asked you to do it, and whatever you do, don't let the Republic know. It could lead to an explosive diplomatic incident."`
+			`	"如此庞大的供应量不可能来自个人走私者，所以我们必须假设这是一个大规模行动的结果。我担心海国政府可能正在武装海盗。如果他们是这样，我希望这些武器只是被误导的贡品。在南方，我们很清楚悬赏和贡品在对付海盗时有多大作用，但从我当议员的时间来看，我可以告诉你，共和国不会如此理解。`
+			`	"你必须谨慎地找出海国政府是否在武装海盗，如果是的话，就阻止他们。不要告诉他们是自由世界要求你这样做的，无论你做什么，都不要让共和国知道。这可能会导致一个爆炸性的外交事件。"`
 			label loop
 			choice
-				`	"A diplomat called Sayari told me she has a friend looking into 'interactions between Hai and pirates' who should contact me soon."`
+				`	"一个叫萨亚里的外交官告诉我，她有一个朋友在调查'海族和海盗之间的互动'，他应该很快就会联系我。"`
 					goto byname
 					to display
 						not "Pirates with Hai Weapons 1: Katya's Message: explained"
-				`	"A trusted Hai contact of mine has friends that can help with the investigation. She also asked for discretion."`
+				`	"我的一个可信的海族联系人有朋友可以帮助调查。她还要求谨慎行事。"`
 					goto discrete
 					to display
 						not "Pirates with Hai Weapons 1: Katya's Message: explained"
-				`	"That's worrying news. I'll look into it."`
+				`	"这是个令人担忧的消息。我会调查的。"`
 					goto acceptable
 					to display
 						not "Pirates with Hai Weapons 1: Katya's Message: explained"
-				`	"Don't worry. I'll stop the Hai from arming pirates."`
+				`	"别担心。我会阻止海族武装海盗的。"`
 					goto acceptable
 					to display
 						not "Pirates with Hai Weapons 1: Katya's Message: explained"
-				`	"I'll pursue that lead and see where it takes me."`
+				`	"我会追查这条线索，看看它能把我带到哪里。"`
 					goto acceptable
 					to display
 						has "Pirates with Hai Weapons 1: Katya's Message: explained"
-				`	"If you vouch for her, then I'll trust her too."`
+				`	"如果你为她担保，那么我也会相信她。"`
 					goto acceptable
 					to display
 						has "Pirates with Hai Weapons 1: Katya's Message: Katya vouched for Sayari"
-				`	"Don't worry, I'm good for this secret agent stuff."`
+				`	"别担心，我对这种秘密特工的事情很在行。"`
 					goto goodagent
 					to display
 						has "Pirates with Hai Weapons 1: Katya's Message: explained"
 			label discrete
 			action
 				set "Pirates with Hai Weapons 1: Katya's Message: explained"
-			`	You explain about the note from a diplomat who also asked for "discretion."`
-			`	"A lead already! That sounds promising," says Katya.`
+			`	你解释了一个外交官的纸条，他也要求 "谨慎"。`
+			`	"已经有线索了!这听起来很有希望，"卡蒂亚说。`
 				goto loop
 			label byname
 			action
 				set "Pirates with Hai Weapons 1: Katya's Message: explained"
 				set "Pirates with Hai Weapons 1: Katya's Message: Katya vouched for Sayari"
-			`	You explain about the note from Sayari who also asked for "discretion."`
-			`	Katya seems surprised. "Sayari! Can you describe her?"`
-			`	You explain Sayari's appearance to Katya and she responds, "Sayari has a long history of keeping peace between Hai and humans, longer than I've been alive. If she knows there are weapon deals, then I expect she wants to stop them. Still, be careful."`
+			`	你解释了萨亚里的纸条，他也要求 "谨慎"。`
+			`	卡蒂亚似乎很惊讶。"萨亚里!你能描述一下她吗？"`
+			`	你向卡蒂亚解释了萨亚里的外貌，她回答说："萨亚里在维持海族和人类之间的和平方面有很长的历史，比我活着的时候还长。如果她知道有武器交易，那么我估计她想阻止它们。不过，还是要小心。"`
 				goto loop
 			label acceptable
-			`	"Thank you," says Alondo, "Just remember this is a secret mission. Go about your business normally and look for your opportunity. You may have to be quite patient to get this done."`
+			`	"谢谢你，"阿隆多说，"只要记住这是一项秘密任务。正常地去做你的事情，寻找你的机会。你可能要相当耐心才能完成这个任务。"`
 				goto end
 			label goodagent
 			action
 				set "self-declared good agent"
-			`	Alondo chuckles. "You're full of surprises, aren't you? Good to know you're confident in your skills though."`
+			`	阿隆多笑着说。"你充满了惊喜，不是吗？不过很高兴知道你对自己的技能有信心。"`
 			label end
-			`	After a few goodbyes, you head out to search for answers.`
+			`	几句告别之后，你就出去寻找答案了。`
 				accept

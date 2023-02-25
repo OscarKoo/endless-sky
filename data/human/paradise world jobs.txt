@@ -13,11 +13,11 @@
 
 
 mission "Paradise Job: Care Package"
-	name "Care package to <planet>"
+	name "给<planet>的关怀包裹"
 	job
 	repeat
 	deadline
-	description "An anxious mother will pay you <payment> to deliver a care package of <cargo> to her child studying on <destination> by <date>."
+	description "一位焦急的母亲将付给你<payment>，让你在<cargo>之前将<destination>的护理包裹送到她在<date>学习的孩子手中。"
 	cargo "Food" 1
 	to offer
 		random < 10
@@ -32,15 +32,15 @@ mission "Paradise Job: Care Package"
 	on complete
 		payment
 		payment 5000
-		dialog "Still wondering why one university student would possibly need such a large quantity of <commodity>, you deliver the interstellar care package and collect your payment of <payment>."
+		dialog "你仍然想知道为什么一个大学生会需要这么多的<commodity>，你送出了星际关怀包裹并收取了你的<payment>。"
 
 
 mission "Paradise Job: Birthday Supplies"
-	name "Birthday supplies to <planet>"
+	name "向<planet>提供生日用品"
 	job
 	repeat
 	deadline
-	description "An elderly couple wishes to contribute <cargo> for their grandchild's birthday bash on <destination> by <date>. Payment is <payment>."
+	description "一对老年夫妇希望为他们的孙子生日聚会提供<cargo>，在<destination>之前的<date>，佣金<payment>。"
 	cargo "Luxury Goods" 1 3
 	to offer
 		random < 10
@@ -55,15 +55,15 @@ mission "Paradise Job: Birthday Supplies"
 	on complete
 		payment
 		payment 5000
-		dialog "You deliver the cargo to the garden of an imposing mansion in the countryside, wherein some pouty young sprout is throwing a very conspicuous fit at the center of a swarm of guests. The parents sheepishly hand you your payment of <payment>."
+		dialog "你把货物送到乡下一栋气派的豪宅的花园里，在那里，一些嘟嘟囔囔的小家伙正在一群客人的簇拥下非常显眼地发脾气。父母怯生生地把你的付款<payment>交给你。"
 
 
 mission "Paradise Job: Art Delivery"
-	name "Art delivery to <planet>"
+	name "向<planet>运送艺术品"
 	job
 	repeat
 	deadline
-	description "Deliver <cargo> for an upcoming art exhibition on <destination> by <date>. Payment is <payment>."
+	description "在<cargo>之前为<destination>上即将举行的艺术展览运送<date>。付款为<payment>。"
 	cargo "Luxury Goods" 3 8
 	to offer
 		random < 10
@@ -78,15 +78,15 @@ mission "Paradise Job: Art Delivery"
 	on complete
 		payment
 		payment 5000
-		dialog "Your ship is directed to the rear loading dock of a palatial complex where your cargo of <commodity> is unloaded. You collect your payment of <payment>."
+		dialog "你的船被引导到一个宫殿式建筑群的后部装货码头，你的<commodity>货物在那里被卸下。你收取了你的付款<payment>。"
 
 
 mission "Paradise Job: Newlyweds"
-	name "Newlyweds to <planet>"
+	name "前往<planet>的新婚夫妇"
 	job
 	repeat
 	deadline
-	description "This pair of newlyweds seeks passage on a luxurious ship to reach their honeymoon on <destination> by <date>, along with <tons> of their wedding gifts. They will pay you <payment> to take them there."
+	description "这对新婚夫妇希望乘坐一艘豪华的轮船，在<destination>之前到达<date>度蜜月，并带着<tons>的结婚礼物。他们会付给你<payment>，让你带他们去。"
 	passengers 2
 	cargo "wedding gifts" 2 4
 	to offer
@@ -103,15 +103,15 @@ mission "Paradise Job: Newlyweds"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 10000 250
-		dialog "You bid the two lovebirds goodbye on <planet> and collect your payment of <payment>."
+		dialog "你在<planet>上向这对爱情鸟告别，并收取你的<payment>。"
 
 
 mission "Paradise Job: Theater Props"
-	name "Theater props to <planet>"
+	name "前往<planet>的戏剧道具"
 	job
 	repeat
 	deadline
-	description "A theater troupe on <destination> needs a delivery of <tons> of special <commodity> to use as props in an upcoming performance on <date>. Payment is <payment>."
+	description "<destination>上的一个剧团需要运送<tons>的特殊<commodity>，作为即将在<date>上演出的道具。付款方式为<payment>。"
 	cargo "Luxury Goods" 9 15
 	to offer
 		random < 10
@@ -126,15 +126,15 @@ mission "Paradise Job: Theater Props"
 	on complete
 		payment
 		payment 8000
-		dialog "Your ship is directed to the rear loading dock of a sprawling entertainment complex where your cargo of <commodity> is unloaded. You collect your payment of <payment>."
+		dialog "你的船被引导到一个庞大的娱乐场所的后部装卸码头，你的<commodity>货物在那里被卸下。你收取你的付款<payment>。"
 
 
 mission "Paradise Job: Fine Food"
-	name "Fine food to <planet>"
+	name "向<planet>提供精美食品"
 	job
 	repeat
 	deadline
-	description "A highly-rated restaurant on <destination> seeks to acquire <tons> of fine <commodity> by <date>. Payment is <payment>."
+	description "<destination>上的一家高评级餐厅希望在<tons>之前获得<commodity>精美<date>。付款方式为<payment>。"
 	cargo "Food" 9 25
 	to offer
 		random < 10
@@ -149,17 +149,17 @@ mission "Paradise Job: Fine Food"
 	on complete
 		payment
 		payment 8000
-		dialog "Your ship is directed to the rear loading dock of a very impressive eatery. White-gloved waiters gingerly unload the cargo of <commodity> and relay your payment of <payment>."
+		dialog "你的船被引导到一家非常令人印象深刻的餐厅的后部装卸码头。戴着白手套的服务员小心翼翼地卸下<commodity>的货物，并转达你的付款<payment>。"
 
 
 mission "Transport partiers [1]"
-	name "Party-goers to <planet>"
+	name "前往<planet>的聚会者"
 	job
 	repeat
-	description "This group of <bunks> university students is willing to pay <payment> for a deluxe ride to a huge party on <destination>, along with <tons> of their completely legal pharmaceuticals."
+	description "这群<bunks>大学生愿意支付<payment>，以获得前往<destination>上的大型派对的豪华旅程，以及<tons>他们完全合法的药品。"
 	passengers 7 12
 	cargo "pharmaceuticals" 2 4
-	illegal 1000 `It turns out that the "completely legal pharmaceuticals" in your hold are not so completely legal after all. The officers who confiscate the goods spend a long time talking with one of the students, whom you suspect to be politically connected. You're not surprised by the small size of the fine you receive as well as the fact that nobody was arrested.`
+	illegal 1000 `事实证明，你手中的 "完全合法的药品 "毕竟不是那么完全合法。没收货物的官员花了很长时间与其中一个学生谈话，你怀疑他有政治关系。你对你收到的罚款数额很小以及没有人被逮捕的事实并不感到惊讶。`
 	stealth
 	to offer
 		random < 10
@@ -175,14 +175,14 @@ mission "Transport partiers [1]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 10000 200
-		dialog "You're not sorry to say goodbye to the rowdy and uncouth troublemakers you've been transporting. Their parents send you your payment of <payment> with not a word of acknowledgment."
+		dialog "你并不遗憾地与你所运送的那些吵闹不羁的捣蛋鬼说再见。他们的父母给你送来了你的<payment>，没有一个字的确认。"
 
 
 mission "Transport partiers [2]"
-	name "Party-goers to <planet>"
+	name "前往<planet>的聚会者"
 	job
 	repeat
-	description "This group of <bunks> university students is willing to pay <payment> for a deluxe ride to a huge party on <destination>, along with <tons> of their snacks and school supplies."
+	description "这群<bunks>大学生愿意支付<payment>，以获得前往<destination>大型聚会的豪华车，以及<tons>他们的零食和学习用品。"
 	passengers 7 12
 	cargo "snacks and school supplies" 2 4
 	to offer
@@ -199,13 +199,13 @@ mission "Transport partiers [2]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 5000 190
-		dialog "You bid goodbye to the students, who behaved surprisingly well during the journey - yielding many fascinating conversations on subjects as diverse as philosophy, microfluidics, and intergalactic economics. Their proud parents send you your payment of <payment>."
+		dialog "你向这些学生告别，他们在旅途中表现得出奇的好--产生了许多迷人的对话，主题包括哲学、微流体和星系经济等。他们自豪的父母给你寄来了<payment>的款项。"
 
 mission "Paradise Job: Food Donations"
-	name "Food donations to <planet>"
+	name "向<planet>捐赠食物"
 	job
 	repeat
-	description "The fine citizens of <origin> seek a compassionate captain for a mission of mercy to donate <cargo> to the undernourished souls of <destination>. Payment is <payment>."
+	description "<origin>的优秀公民寻求一位富有同情心的船长来执行慈悲任务，将<cargo>捐赠给<destination>的营养不良的灵魂。付款方式为<payment>。"
 	cargo "Food" 7 2 .1
 	to offer
 		random < 10
@@ -218,14 +218,14 @@ mission "Paradise Job: Food Donations"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 1000 90
-		dialog "You collect your payment of <payment>, but not before noticing the general robustness and ample bellies of the dockworkers unloading the donation of <commodity>."
+		dialog "你收取了你的<payment>，但并没有注意到码头工人卸下捐赠的<commodity>时的普遍健壮和丰满的肚子。"
 
 
 mission "Paradise Job: Clothing Donations"
-	name "Clothing donations to <planet>"
+	name "向<planet>捐赠衣物"
 	job
 	repeat
-	description "The fine citizens of <origin> seek a compassionate captain for a mission of mercy to donate <cargo> to the under-dressed and fashion-deprived souls of <destination>. Payment is <payment>."
+	description "<origin>的优秀公民寻求一位富有同情心的船长执行慈悲任务，将<cargo>捐赠给<destination>衣着不整、时尚匮乏的灵魂。付款方式为<payment>。"
 	cargo "Clothing" 7 2 .1
 	to offer
 		random < 10
@@ -238,14 +238,14 @@ mission "Paradise Job: Clothing Donations"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 1000 100
-		dialog "You collect your payment of <payment>, but not before noticing the fine quality of the clothes worn by the dockworkers unloading the donation of <commodity>."
+		dialog "你收取了你的<payment>，但并没有注意到卸下捐赠的<commodity>的码头工人所穿的衣服的精美质量。"
 
 
 mission "Paradise Job: Medical Aid"
-	name "Medical aid to <planet>"
+	name "对<planet>的医疗援助"
 	job
 	repeat
-	description "The fine citizens of <origin> seek a compassionate captain for a mission of mercy to donate <cargo> to the suffering souls of <destination>. Payment is <payment>."
+	description "<origin>的优秀公民寻求一位富有同情心的船长执行慈悲任务，将<cargo>捐赠给<destination>的苦难灵魂。付款方式为<payment>。"
 	cargo "Medical" 7 2 .1
 	to offer
 		random < 10
@@ -258,14 +258,14 @@ mission "Paradise Job: Medical Aid"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 1000 100
-		dialog "You collect your payment of <payment>, but not before noticing the general health and vigor of the dockworkers unloading the donation of <commodity>."
+		dialog "你收取了你的<payment>，但并没有注意到码头工人在卸下捐赠的<commodity>之前的总体健康和活力。"
 
 
 mission "Paradise Job: Charity"
-	name "Charity goods to <planet>"
+	name "给<planet>的慈善物资"
 	job
 	repeat
-	description "The fine citizens of <origin> seek a compassionate captain for a mission of mercy to donate <cargo> to the naive and culturally-underexposed souls of <destination>. Payment is <payment>."
+	description "<origin>的优秀公民寻求一位富有同情心的船长执行慈悲任务，将<cargo>捐赠给<destination>的天真无邪和文化匮乏的灵魂。付款方式为<payment>。"
 	cargo "Luxury Goods" 7 2 .1
 	to offer
 		random < 10
@@ -278,15 +278,15 @@ mission "Paradise Job: Charity"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 1000 100
-		dialog "You collect your payment of <payment>, but not before noticing the quality of the clothes, jewelry, and personal electronics carried by the dockworkers unloading the donation of <commodity>."
+		dialog "你收取了你的<payment>，但并没有注意到卸下捐赠的<commodity>的码头工人携带的衣服、珠宝和个人电子产品的质量。"
 
 
 mission "Paradise Job: Party Goods"
-	name "Party goods to <planet>"
+	name "前往<planet>的聚会用品"
 	job
 	repeat
 	deadline
-	description "Planetside supplies of <commodity> are running low in the wake of an important gala. Pick up <tons> of it on <stopovers> and return to <origin> by <date>. Payment is <payment>."
+	description "在一个重要的晚会之后，行星上的<commodity>供应量正在减少。在<tons>上领取<stopovers>，并在<origin>前返回<date>。付款方式为<payment>。"
 	cargo "Luxury Goods" 10 2 .1
 	to offer
 		random < 10
@@ -298,20 +298,20 @@ mission "Paradise Job: Party Goods"
 		attributes "paradise" "rich"
 		attributes "spaceport"
 	on stopover
-		dialog "You oversee the loading as dockworkers carry box after box of <commodity> onto your ship. Must be some party."
+		dialog "当码头工人把一箱又一箱的<commodity>搬上你的船时，你监督着装货。一定是某个聚会。"
 	on visit
-		dialog "You've returned to <planet>, but forgot to pick up the <commodity> on <stopovers> first! Better head there before it's too late."
+		dialog "你已经回到了<planet>，但却忘了先去<commodity>拿<stopovers>!最好在太晚之前前往那里。"
 	on complete
 		payment
 		payment 10000 135
-		dialog "Your ship is directed to land on a makeshift tarmac near a sprawling greenfield where novelty castles are being constructed. Sharply-dressed stewards unload the <commodity> and you collect your payment of <payment>."
+		dialog "你的飞船被指示在一个临时停机坪上降落，这个停机坪靠近一个正在建造新奇城堡的广阔绿地。衣着光鲜的管家卸下了<commodity>，你领取了<payment>的款项。"
 
 
 mission "Paradise Job: Estate Assets"
-	name "Estate assets to <planet>"
+	name "遗产资产到<planet>。"
 	job
 	repeat
-	description "Trustees are seeking starship captains willing to deliver individual portions of a recently deceased upstanding citizen's estate - <cargo> - to the upcoming estate sale on <destination>. Payment is <payment>."
+	description "受托人正在寻找愿意将最近去世的正直公民的遗产中的个别部分--<cargo>--运送到即将到来的<destination>上的遗产拍卖会的星舰船长。付款方式为<payment>。"
 	cargo "Luxury Goods" 18 2 .15
 	to offer
 		random < 10
@@ -325,14 +325,14 @@ mission "Paradise Job: Estate Assets"
 	on complete
 		payment
 		payment 10000
-		dialog "As you watch the dockworkers unload crate after crate, you can't help but wonder what would drive someone to collect such a huge quantity of <commodity>. You collect your payment of <payment>."
+		dialog "当你看着码头工人卸下一箱又一箱的货物时，你不禁要问，是什么促使某人收集如此大量的<commodity>。你收取了你的<payment>的款项。"
 
 
 mission "Paradise Jobs: Contract Laborers"
-	name "Contract laborers to <planet>"
+	name "向<planet>承包劳工"
 	job
 	repeat
-	description "Return to <destination> after picking up <bunks> contract laborers located on <stopovers> who are eager to experience the luxury of the Paradise Worlds. Payment is <payment>."
+	description "在接回位于<destination>上的<bunks>合同工后返回<stopovers>，他们渴望体验天堂世界的奢华。付款方式为<payment>。"
 	passengers 13 30
 	to offer
 		random < 10
@@ -344,19 +344,19 @@ mission "Paradise Jobs: Contract Laborers"
 		attributes "mining" "fishing" "textiles" "factory" "farming" "oil"
 		attributes "spaceport"
 	on stopover
-		dialog "The shabbily-dressed young men and women in the group don't look nearly as happy to be boarding your ship as you expected, given the new opportunity that awaits them. They shuffle wearily up the ramp for the return trip to <planet>."
+		dialog "考虑到等待他们的新机会，这群衣着简陋的年轻男女看起来并不像你预期的那样，为登上你的船而高兴。他们疲惫地走上斜坡，准备返回<planet>。"
 	on visit
 		dialog phrase "generic missing stopover or passengers"
 	on complete
 		payment 10000 50
-		dialog "The bedraggled contract laborers kept to themselves and didn't say a word to you throughout the entire trip. The scruffy foreman who receives you on <origin> seems pleased, however. He hands you your payment of <payment>."
+		dialog "这些衣衫褴褛的合同工自顾自地走着，在整个旅途中没有和你说一句话。然而，在<origin>上接待你的那个邋遢的工头似乎很高兴。他递给你的报酬是<payment>。"
 
 
 mission "Paradise Job: Waste Disposal"
-	name "Waste disposal on <planet>"
+	name "<planet>上的废物处理"
 	job
 	repeat
-	description "Urgent waste disposal is needed. Transport <cargo> to <destination> to keep property values from falling. Payment is <payment>."
+	description "需要紧急处理废物。把<cargo>运到<destination>，以防止财产价值下降。付款为<payment>。"
 	cargo "Garbage" 30 2 .03
 	to offer
 		random < 10
@@ -369,11 +369,11 @@ mission "Paradise Job: Waste Disposal"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment
-		dialog "You drop off the exceptionally foul shipment of <commodity> on <planet>, already looking forward to the chemical bath your cargo hold is going to receive. You collect your payment of <payment> and hope that somebody around here knows what to do with the unpleasant mess you dropped off."
+		dialog "你在<commodity>上放下异常肮脏的<planet>货物，已经在期待着你的货舱将接受的化学清洗。你收取了你的<payment>，并希望这里有人知道如何处理你扔下的令人不快的烂货。"
 
 
 mission "Transport high-class tourists"
-	description "Bring <bunks> outrageously wealthy tourists on a fabulous journey to the wild and exotic world of <destination>. They'll only consider thinking about your ship if you have the 'appropriate facilities' for a comfortable journey. Payment is <payment>."
+	description "把<bunks>离谱的富有的游客带到<destination>的狂野和异国情调的世界的美妙旅程中。他们只会考虑考虑你的船，如果你有'适当的设施'来进行舒适的旅行。付款方式是<payment>。"
 	job
 	repeat
 	passengers 8 22
@@ -389,12 +389,12 @@ mission "Transport high-class tourists"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
-		dialog "Your passengers begin to wander off, some of them sporting puzzled looks as the memories of glossy photos in the brochures give way to reality. You collect your payment of <payment>."
+		dialog "你的乘客开始走动，其中一些人露出疑惑的神情，因为他们对小册子中光鲜的照片的记忆已经让位于现实。你收取你的付款<payment>。"
 		payment 25000 250
 
 
 mission "Pleasure cruise security"
-	description "Escort the <npc> on a pleasure cruise to the wild and exotic planet of <stopovers> along with <tons> of their <commodity>, then return to <destination>, where you will be paid <payment>."
+	description "护送<npc>到<stopovers>的狂野和异国情调的星球上游玩，同时带着<tons>他们的<commodity>，然后回到<destination>，在那里你会得到<payment>的报酬。"
 	job
 	repeat
 	cargo "Luxury Goods" 20 35
@@ -418,20 +418,20 @@ mission "Pleasure cruise security"
 			variant
 				"Star Queen"
 	on stopover
-		dialog "The passengers of the <npc> wander off, bedecked in the most conspicuous tourist attire they seem to have been able to find, and begin oohing and aahing at the exoticism of this faraway world. Hopefully none of them gets robbed. You prepare for the return journey to <destination>."
+		dialog "<npc>上的乘客穿着他们似乎能够找到的最显眼的旅游服装，开始对这个遥远的世界的异国情调赞叹不已。希望他们中没有人被抢走。你准备返回<destination>的旅程。"
 	on visit
-		dialog "You have reached <planet>, but you can't complete this mission until the <npc> has visited <stopovers> with you and then joined you here."
+		dialog "你已经到达了<planet>，但在<npc>与你一起访问<stopovers>，然后在这里与你会合之前，你无法完成这个任务。"
 	on complete
-		dialog "You bid goodbye to the captain of the <npc> and accept your payment of <payment>."
+		dialog "你向<npc>的船长告别，并接受你的报酬<payment>。"
 		payment
 		payment 50000
 
 
 mission "Paradise Job: Parolees"
-	name "Parolees to <planet>"
+	name "被假释到<planet>的人"
 	job
 	repeat
-	description `These <bunks> non-violent repeat offenders have accepted longer community service sentences in return for serving their time on the Paradise World of <destination>. They will need to be transported in a secure ship. Payment is <payment>.`
+	description `这些<bunks>非暴力惯犯已经接受了较长的社区服务刑期，以换取在<destination>天堂世界的服刑。他们将需要用安全的船来运送。付款方式为<payment>。`
 	passengers 20 4 .1
 	to offer
 		random < 15
@@ -448,14 +448,14 @@ mission "Paradise Job: Parolees"
 	on complete
 		payment
 		payment 10000
-		dialog "The passengers shuffle unhappily out of the ship under the watchful eye of a local security force as they prepare to repay their debts to society. A clerk on <planet> checks their condition as they're led off. He seems mostly pleased and hands you your payment of <payment>."
+		dialog "在当地安全部队的监视下，乘客们不高兴地走出船舱，准备偿还他们对社会的欠款。当他们被带离时，<planet>上的一名职员检查了他们的状况。他似乎很高兴，并把你的报酬<payment>交给你。"
 
 
 mission "Paradise Job: Debtors"
-	name "Debtors to <planet>"
+	name "<planet>的债务人"
 	job
 	repeat
-	description `These <bunks> poor souls have bankrupted themselves attempting to live beyond their means. In response, the local government will pay you <payment> to transport them securely to <destination> to "make themselves useful."`
+	description `这些<bunks>可怜的灵魂已经破产了，他们试图超出自己的能力生活。作为回应，当地政府将付给你<payment>，将他们安全地运送到<destination>，以 "让自己变得有用"。`
 	passengers 20 4 .1
 	to offer
 		random < 15
@@ -472,14 +472,14 @@ mission "Paradise Job: Debtors"
 	on complete
 		payment
 		payment 10000
-		dialog "The passengers shuffle unhappily out of the ship under the watchful eye of immigration officials. A grinning job service provider is on hand to pay you the <payment> you are owed."
+		dialog "在移民官员的注视下，乘客们不高兴地洗牌出船。一个面带微笑的工作服务提供者在现场向你支付了你所欠的<payment>。"
 
 
 mission "Paradise Job: Retirees"
-	name "Wealthy retirees to <planet>"
+	name "富有的退休人员前往<planet>。"
 	job
 	repeat
-	description "This coterie of <bunks> wealthy retirees is willing to pay <payment> to be transported in style to <destination>, along with <tons> of their most treasured possessions."
+	description "这群<bunks>富有的退休人员愿意支付<payment>，让他们带着<destination>最珍贵的财产，有模有样地被运到<tons>。"
 	passengers 7 12 .6
 	cargo "treasured possessions" 7 12 .2
 	to offer
@@ -497,14 +497,14 @@ mission "Paradise Job: Retirees"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 10000 200
-		dialog "You bid goodbye to the retirees, who were somewhat prone to spilling drinks or irritating you whilst attempting to do work. They were otherwise extremely polite and full of highly amusing, though often morally questionable, anecdotes. Once the last of their belongings have been safely unloaded your accounts receive the payment of <payment> from their travel broker."
+		dialog "你向这些退休人员告别，他们有点容易打翻饮料或在试图工作时刺激你。除此之外，他们非常有礼貌，而且充满了非常有趣的轶事，虽然往往是道德上有问题的轶事。一旦他们最后的物品被安全卸下，你的账户就会收到他们的旅行经纪人支付的<payment>。"
 
 
 mission "Paradise Job: Wilderness Retreat"
-	name "Wilderness Retreat to <planet>"
+	name "到<planet>的荒野撤退"
 	job
 	repeat
-	description `Bring <bunks> pseudo-celebrities and wealthy tourists to the wild and untamed world of <destination> for a "Wilderness Retreat." They'll only consider your ship if you can ensure that they can have a comfortable journey. Payment is <payment>.`
+	description `将<bunks>伪名人和富有的游客带到<destination>的狂野和不驯的世界，进行 "荒野静修"。如果你能保证他们能有一个舒适的旅程，他们才会考虑你的船。付款方式为<payment>。`
 	passengers 10 4 .1
 	to offer
 		random < 10
@@ -520,4 +520,4 @@ mission "Paradise Job: Wilderness Retreat"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 25000 250
-		dialog `Your passengers are met by an overly enthusiastic greeting service of comically overdressed "wilderness guides." You can't help but think these people are either about to end up on a popular reality show, or be safely fleeced of their money, but they're not the sort of characters who engender much sympathy for such fates. One of the greeters quietly transfers to you your payment of <payment>.`
+		dialog `迎接你的乘客的是一个过于热情的招呼服务，由衣着滑稽的 "荒野向导 "组成。你不禁要想，这些人要么即将出现在一个流行的真人秀节目中，要么被安全地骗走钱财，但他们不是那种对这种命运产生同情的人物。其中一个接待员悄悄地把你的付款<payment>转给你。`

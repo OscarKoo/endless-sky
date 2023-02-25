@@ -24,7 +24,7 @@ outfit "Small EM Battery"
 	"shield energy" 0.14
 	"shield heat" 0.14
 	"energy capacity" 3600
-	description "This small superconductive inductor stores just enough power to keep a fighter running, and the electromagnetic field it generates helps to maintain the shield matrix."
+	description "这个小型的超导感应器储存的能量刚好可以维持战斗机的运行，它产生的电磁场有助于维持护盾矩阵。"
 
 outfit "Large EM Battery"
 	plural "Large EM Batteries"
@@ -37,7 +37,7 @@ outfit "Large EM Battery"
 	"shield energy" 0.8
 	"shield heat" 0.8
 	"energy capacity" 40000
-	description "This is a massive superconductive coil, capable of storing large amounts of energy in an electromagnetic field and discharging all of it in a fraction of a second. The magnetic field also provides a small boost to the shield regeneration of the ship, which is otherwise very underdeveloped."
+	description "这是一个巨大的超导线圈，能够在电磁场中储存大量的能量，并在几分之一秒内将其全部放出。磁场还为飞船的护盾再生提供了一个小的推动力，否则它是非常不发达的。"
 
 outfit "Small Hybrid Cooling"
 	category "Systems"
@@ -48,7 +48,7 @@ outfit "Small Hybrid Cooling"
 	"cooling" 9
 	"active cooling" 17
 	"cooling energy" 3.1
-	description "This small cooling solution was designed with fighters in mind, and as such, it does not store fuel. However, it provides more passive cooling than its big brother."
+	description "这种小型冷却方案是为战斗机设计的，因此它不储存燃料。然而，它比它的大哥提供了更多的被动冷却。"
 
 outfit "Large Hybrid Cooling"
 	category "Systems"
@@ -60,7 +60,7 @@ outfit "Large Hybrid Cooling"
 	"active cooling" 128
 	"cooling energy" 16.2
 	"fuel capacity" 200
-	description "This Sheragi cooling system is primitive at best, but it works both actively and passively, allowing it to dissipate much more heat than a simple radiator would. It does, however, drain a lot of power when subjected to the heat of battle. It also includes cryogenic tanks to hold some additional fuel, which is used as a temporary heat reservoir."
+	description "这个Sheragi冷却系统充其量是原始的，但它主动和被动地工作，使它能够比简单的散热器散发出更多的热量。然而，当受到战斗的影响时，它确实会消耗大量的能量。它还包括用于容纳一些额外燃料的低温罐，这些燃料被用作临时热库。"
 
 outfit "Fission Drive"
 	category "Engines"
@@ -85,7 +85,7 @@ outfit "Fission Drive"
 		"frame rate" 30
 		"rewind"
 	"steering flare sound" "atomic tiny"
-	description "A much smaller cousin of the Fusion Drive, it relies on fission instead of fusion to function, providing the necessary power generation and thrust to drive the Heavy Ion Cyclotron."
+	description "它是聚变驱动的一个更小的表弟，依靠裂变而不是聚变来运作，提供必要的发电量和推力来驱动重离子回旋加速器。"
 
 outfit "Fusion Drive"
 	category "Engines"
@@ -120,7 +120,7 @@ outfit "Fusion Drive"
 		"rewind"
 	"reverse flare sound" "atomic large"
 	"unplunderable" 1
-	description "The Sheragi engines are much more than simple tubes spewing fire; they are a collection of interdependent devices, providing increased efficiency at the cost of modularity. These include a hyperdrive, an enormous fusion reactor, and the most powerful plasma engines you've ever seen. It's all examples of relatively simple technology, but they have been refined and taken to their extreme. The engines are fundamentally connected to the fusion reactor, increasing their thrust even further and thereby allowing the Emerald Sword to fly at impressive speeds, traveling through interstellar space with relative ease."
+	description "雪拉基发动机不仅仅是简单的喷火管；它们是一系列相互依存的设备，以模块化为代价提供更高的效率。这些装置包括一个超级驱动器，一个巨大的聚变反应堆，以及你所见过的最强大的等离子体引擎。这都是相对简单的技术的例子，但它们已经被改进并发挥到极致。发动机从根本上与核聚变反应堆相连，进一步增加其推力，从而使翡翠之剑以令人印象深刻的速度飞行，相对轻松地穿越星际空间。"
 
 outfit "Electronic Warfare System"
 	category "Systems"
@@ -132,7 +132,7 @@ outfit "Electronic Warfare System"
 	"tactical scan power" 25
 	"scan interference" 2
 	"energy consumption" .2
-	description "This device provides radar jamming and a whole suite of electronic warfare, gathering data about the battlefield in real time and enhancing a ship's combat capabilities. It was an essential item for every Sheragi warship, and the technique it uses is still difficult to counter to this very day."
+	description "这个装置提供雷达干扰和一整套电子战，实时收集战场数据，增强战舰的作战能力。它是每艘Sheragi战舰的必备物品，它所使用的技术直到今天仍然难以对抗。"
 
 # Weapons
 
@@ -166,7 +166,7 @@ outfit "Dragonflame Cannon"
 		"heat damage" 50000
 		"piercing" 0.4
 		"blast radius" 50
-	description "The ancient Sheragi superweapon is simple in concept, but the cost involved in developing something like it is exorbitant. It's hard to envision what could have motivated the creation of such a thing. It uses an obscene amount of energy to trigger an extremely powerful thermonuclear reaction, directing most of the energy from the resulting explosion forwards in a devastatingly powerful beam of gamma radiation."
+	description "古老的Sheragi超级武器在概念上很简单，但开发类似的东西所涉及的成本是很高的。很难想象是什么促使了这种东西的诞生。它使用惊人的能量来触发一个极其强大的热核反应，将由此产生的爆炸的大部分能量导向前方，形成一束毁灭性的强大伽马辐射。"
 
 effect "dragonflame"
 	sprite "effect/dragonflame"
@@ -225,7 +225,7 @@ outfit "Sheragi Anti-Missile"
 		"reload" 60
 		"firing energy" 220
 		"firing heat" 440
-	description "The Sheragi Anti-Missile fires an extremely powerful laser pulse capable of obliterating any missile in a single shot, but it comes at the expense of a long recharge time."
+	description "雪拉吉反导弹发射出一种极其强大的激光脉冲，能够在一次射击中消灭任何导弹，但它的代价是漫长的充能时间。"
 
 effect "sheragiam"
 	sprite "effect/sheragiam"
@@ -264,7 +264,7 @@ outfit "Particle Waveform Turret"
 		"heat damage" 224
 		"ion damage" 4.2
 		"scrambling damage" 4.2
-	description "This ancient Sheragi turret accelerates a dense packet of electrons that, while very ineffective against any kind of shielding, has a very long range and disrupts electrical systems. By the nature of these weapons, one can deduce that their tactics likely involved using the Dragonflame Cannon at long range to break the enemy shields and finishing them off at relatively close range with the Particle Waveform Turrets."
+	description "这种古老的Sheragi炮塔加速了密集的电子包，虽然对任何种类的屏蔽都非常无效，但它的射程非常长，并能破坏电气系统。根据这些武器的性质，可以推断出他们的战术很可能是在远距离使用龙焰炮来打破敌人的护盾，并在相对较近的距离用粒子波形炮塔将其解决。"
 
 effect "lightning flare"
 	sprite "effect/pwaveflare"
@@ -317,7 +317,7 @@ outfit "Shard Fabricator"
 		"homing" 4
 		"radar tracking" .8
 		"missile strength" 1
-	description "To reduce reliance on supply chains during prolonged war time, this outfit contains specialized fabricators that produce simple kinetic missiles from stock materials and a small amount of stored fuel; their guidance system merely receives data from the shipboard radar. The missiles are fired in volleys of six at a time from each launcher, making them very effective at overwhelming point defenses despite their fragility. However, the low amount of fuel they carry means they can only home in on the target for about a second before they turn into unguided ammunition. Because they are manufactured on the spot, it takes a long time to reload."
+	description "为了减少在长期战争期间对供应链的依赖，这套装备包含了专门的制造者，他们用库存材料和少量储存的燃料生产简单的动能导弹；他们的制导系统只是接收舰载雷达的数据。这些导弹从每个发射器中一次发射六枚，尽管它们很脆弱，但对压倒性的点防御非常有效。然而，它们携带的燃料数量少，意味着它们在变成无制导弹药之前只能在目标上停留大约一秒钟。因为它们是在现场制造的，所以需要很长的时间来重新装载。"
 
 outfit "Shard inactive"
 	weapon
@@ -360,7 +360,7 @@ outfit "Heavy Ion Cyclotron"
 		"firing energy" 2.9
 		"firing heat" 12.2
 		"firing force" 9
-	description "The main weapon of the Sheragi fighters is a particle accelerator not unlike the ones used by the Republic Navy and the Syndicate. However, this one produces a dense stream of heavy metal ions instead of bursts of lighter ones, resulting in high damage with intense recoil. Because the particle accelerator itself can be mounted elsewhere, it saves on weapon space."
+	description "Sheragi战斗机的主要武器是一个粒子加速器，与共和国海军和辛迪加使用的粒子加速器不一样。然而，这个加速器产生密集的重金属离子流，而不是爆发出较轻的离子，导致高伤害和强烈的后坐力。因为粒子加速器本身可以安装在其他地方，所以它节省了武器空间。"
 
 outfit "Heavy Ion Fragment"
 	weapon

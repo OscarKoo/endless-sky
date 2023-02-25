@@ -14,19 +14,19 @@
 
 phrase "unfettered tribute payment dialog"
 	word
-		`You drop off the tribute to the Unfettered, and they pay you <payment>.`
+		`你把贡品交给不受约束的人，他们会付给你<payment>。`
 
 phrase "unfettered tribute pickup dialog"
 	word
-		`When you inform the Hai that you are here to receive a tribute payment for the Unfettered, they load the cargo onto your ship with a rather surprising swiftness and cheerfulness.`
-		`The Hai dockworkers load the tribute for the Unfettered onto your ship. One of them says to you, "Thank you. This is far better than watching our kinfolk starve."`
-		`As the Hai load the tribute onto your ship, one of them says, "Tell our brothers and sisters that if they will only repent, they will be welcome to come home."`
+		`当你告知海族人你是来为不羁者接收贡品的时候，他们以令人惊讶的速度和愉快的心情将货物装上你的船。`
+		`海族码头工人将不受约束者的贡品装到你的船上。其中一个人对你说："谢谢你。这比看着我们的亲属挨饿要好得多。"`
+		`当海族人把贡品装到你的船上时，其中一个人说："告诉我们的兄弟姐妹，如果他们愿意忏悔，我们将欢迎他们回家。"`
 
 mission "Unfettered Tribute 1"
-	name "Hai Tribute to <planet>"
+	name "海族向<planet>进贡"
 	job
 	repeat
-	description "Collect a tribute payment of <tons> of food from <stopovers>, and bring it to the Unfettered on <destination>. Your share of the tribute will be <payment>."
+	description "从<tons>收集<stopovers>食物的贡品，并将其带到<destination>的不受约束者处。你的贡品份额将是<payment>。"
 	to offer
 		has "Unfettered Jump Drive 2: offered"
 		random < 80
@@ -46,10 +46,10 @@ mission "Unfettered Tribute 1"
 		dialog phrase "unfettered tribute pickup dialog"
 
 mission "Unfettered Tribute 2"
-	name "Hai Tribute to <planet>"
+	name "海族向<planet>进贡"
 	job
 	repeat
-	description "Collect a tribute payment of <tons> of food from <stopovers>, and bring it to the Unfettered on <destination>. Your share of the tribute will be <payment>."
+	description "从<tons>收集<stopovers>食物的贡品，并将其带到<destination>的不受约束者处。你的贡品份额将是<payment>。"
 	to offer
 		has "Unfettered Jump Drive 2: offered"
 		random < 60
@@ -69,10 +69,10 @@ mission "Unfettered Tribute 2"
 		dialog phrase "unfettered tribute pickup dialog"
 
 mission "Unfettered Tribute 3"
-	name "Hai Tribute to <planet>"
+	name "海族向<planet>进贡"
 	job
 	repeat
-	description "Collect a tribute payment of <tons> of food from <stopovers>, and bring it to the Unfettered on <destination>. Your share of the tribute will be <payment>."
+	description "从<tons>收集<stopovers>食物的贡品，并将其带到<destination>的不受约束者处。你的贡品份额将是<payment>。"
 	to offer
 		has "Unfettered Jump Drive 2: offered"
 		random < 40
@@ -95,8 +95,8 @@ mission "Unfettered Tribute 3"
 mission "Unfettered Jump Drive 4"
 	job
 	repeat
-	name "Sell Jump Drive"
-	description "Exchange a jump drive for money or weapons, if an outfitter is available."
+	name "出售跳跃驱动器"
+	description "如果有装备者的话，可以用跳跃驱动器换取金钱或武器。"
 	source
 		attributes "unfettered"
 	to offer
@@ -113,83 +113,83 @@ mission "Unfettered Jump Drive 4"
 			label money
 			action
 				payment 1000000
-			`As usual, the Unfettered are more than willing to pay you a million credits for your jump drive, but you do not gain any additional information by talking with them.`
+			`像往常一样，不羁者非常愿意为你的跳跃驱动器支付一百万信用点，但你并不能通过与他们交谈获得任何额外的信息。`
 				goto trade
 
 			label "want outfits"
-			`The Unfettered's usual deal of trading a jump drive for weapons still stands.`
+			`不受约束者通常用跳跃驱动器换取武器的交易仍然有效。`
 			choice
-				`	(Take two Tripulse Shredders.)`
-				`	(Take money instead.)`
+				`	(拿两个Tripulse Shredders。)`
+				`	(拿钱代替)。`
 					goto money
 			action
 				outfit "Tripulse Shredder" 2
-			`	The two Shredders are loaded onto your ship, in exchange for your jump drive.`
+			`	这两台粉碎机被装到你的船上，以换取你的跳跃驱动器。`
 
 			label trade
 			action
 				outfit "Jump Drive" -1
 				outfit "Hyperdrive" 1
-				"reputation: Hai (Unfettered)" >?= 40
+				"声望。海(不受约束)" >?= 40
 
 
 phrase "unfettered mining payment dialog"
 	word
-		"The group of"
+		"这群"
 		"The"
 	word
-		" Unfettered unloading the materials"
+		" 不受约束的人卸下材料"
 	word
-		" you mined"
-		" you gathered"
-		" you brought"
+		" 你开采的"
+		" 你收集的"
+		" 你带来的"
 	word
-		" seem "
-		" appear "
+		" 看来"
+		" 显得"
 	word
-		"satisfied."
-		"enthused."
-		"content."
-		"happy."
+		"满意。"
+		"欣喜若狂。"
+		"满足。"
+		"快乐。"
 	word
-		` "Keep this up and we will be building new ships in no time!`
-		` "This will allow us to repair our ships!`
+		` "继续这样下去，我们很快就能造出新船了！"。`
+		` "这将使我们能够修复我们的飞船！"。`
 	word
-		` Some captains use asteroids as target practice, but find it too dull and easy to fight an enemy that does not react,"`
-		` Too few captains are patient enough to gather asteroids like you are. Most of them try to get the resources from enemy ships, but this is a safer way to do it,"`
+		` 有些舰长把小行星作为目标练习，但发现这太枯燥了，容易与没有反应的敌人作战。"`
+		` 像你这样有耐心收集小行星的舰长太少了。他们中的大多数人都试图从敌人的飞船上获取资源，但这是一个更安全的方法，"`
 	word
-		" one tells you "
+		" 一个人告诉你"
 	word
-		"while handing over"
-		"before doling out"
+		"一个人告诉你，同时交出"
+		"然后再把"
 	word
-		" your payment of <payment>."
+		" 你的报酬<payment>。"
 
 phrase "unfettered mining payment dialog"
 	word
-		`The local Unfettered unload your cargo of minerals, and one comes to give you your payment of <payment>. "Some Unfettered use these asteroids as target practice, but too few bring the precious materials back," he says.`
-		`A group of Unfettered unload the materials you mined, without saying anything to you. When they are done, one gives you <payment>.`
-		`The local Unfettered collect the minerals and happily hand you <payment>.`
+		`当地的Unfettered卸下你的矿物货物，一个人来给你<payment>的报酬。"他说："有些不羁者把这些小行星当作目标练习，但很少有人把珍贵的材料带回来。`
+		`一群不羁者卸下了你开采的材料，没有对你说什么。当他们完成后，一个人给了你<payment>。`
+		`当地的Unfettered收集矿物，并高兴地交给你<payment>。`
 
 phrase "unfettered mining payment dialog"
 	word
-		"The leader of the Unfettered unloading the materials comes to you."
-		"Once the minerals are unloaded, an Unfettered comes to you, looking humble and sincere."
+		"卸下材料的Unfettered的首领来找你。"
+		"矿物卸完后，一个不羁者来到你面前，看起来谦逊而诚恳。"
 	word
 		` "`
 	word
-		`This will allow us to repair our houses, our hospitals, even our schools. For that you have my deepest thanks.`
-		`Thank you, Captain. We need these materials - and any other kind of help - more than we would like to admit.`
+		`这将使我们能够修复我们的房屋，我们的医院，甚至我们的学校。为此，我向你表示最深切的感谢。`
+		`谢谢你，上尉。我们需要这些材料--以及任何其他种类的帮助--比我们愿意承认的更多。`
 	word
 		`" `
 	word
-		"They then give you <payment>."
+		"然后他们给你<payment>。"
 
 mission "Unfettered Silicon Asteroid Mining"
 	job
 	repeat
-	name "Gather Silicon from asteroids"
-	description "Mine and collect 50 tons of silicon, then bring the minerals to <destination> for <payment>. Silicon is available in the asteroid field of Wah Yoot."
+	name "从小行星上收集硅"
+	description "开采并收集50吨硅，然后将矿物带到<destination>以获得<payment>。在华宇特的小行星领域可以获得硅。"
 	source "Darkcloak"
 	to offer
 		random < 40
@@ -202,8 +202,8 @@ mission "Unfettered Silicon Asteroid Mining"
 mission "Unfettered Silicon Asteroid Mining 2"
 	job
 	repeat
-	name "Gather Silicon from asteroids"
-	description "Mine and collect 100 tons of silicon, then bring the minerals to <destination> for <payment>. Silicon is available in the asteroid field in Wah Yoot."
+	name "从小行星上收集硅"
+	description "采矿并收集100吨硅，然后将矿物带到<destination>，获得<payment>。硅在Wah Yoot的小行星场中可以获得。"
 	source "Darkcloak"
 	to offer
 		random < 10
@@ -217,8 +217,8 @@ mission "Unfettered Silicon Asteroid Mining 2"
 mission "Unfettered Silver Asteroid Mining"
 	job
 	repeat
-	name "Gather Silver from asteroids"
-	description "Mine and collect 15 tons of silver, then bring the minerals back to <destination> for <payment>. Silver is available in the asteroid field in Ehma Ti."
+	name "从小行星上收集白银"
+	description "开采并收集15吨银，然后将矿物带回<destination>以获得<payment>。在Ehma Ti的小行星区可以获得银子。"
 	source
 		attributes "unfettered"
 		not planet "Warfeed"
@@ -233,8 +233,8 @@ mission "Unfettered Silver Asteroid Mining"
 mission "Unfettered Silver Asteroid Mining 2"
 	job
 	repeat
-	name "Gather Silver from asteroids"
-	description "Mine and collect 30 tons of silver, then bring the minerals to <destination> for <payment>. Silver is available in the asteroid field in Ehma Ti."
+	name "从小行星上收集白银"
+	description "采矿并收集30吨银，然后将矿物带到<destination>，以获得<payment>。在Ehma Ti的小行星区可以获得银。"
 	source
 		attributes "unfettered"
 		not planet "Warfeed"
@@ -251,8 +251,8 @@ mission "Unfettered Silver Asteroid Mining 2"
 mission "Unfettered Lead Asteroid Mining"
 	job
 	repeat
-	name "Gather Lead from asteroids"
-	description "Mine and collect 35 tons of lead, then bring the minerals to <destination> for <payment>. Lead is available in the asteroid field in Wah Yoot."
+	name "从小行星上收集铅"
+	description "开采并收集35吨铅，然后将矿物带到<destination>，获得<payment>。铅在华宇特的小行星场中可以获得。"
 	source
 		attributes "unfettered"
 		not planet "Warfeed"
@@ -268,8 +268,8 @@ mission "Unfettered Lead Asteroid Mining"
 mission "Unfettered Lead Asteroid Mining 2"
 	job
 	repeat
-	name "Gather Lead from asteroids"
-	description "Mine and collect 70 tons of lead, then bring the minerals to <destination> for <payment>. Lead is available in the asteroid field in Wah Yoot."
+	name "从小行星上收集铅"
+	description "采矿并收集70吨铅，然后将矿物带到<destination>，获得<payment>。在Wah Yoot的小行星区可以找到铅。"
 	source
 		attributes "unfettered"
 		not planet "Warfeed"
@@ -285,21 +285,21 @@ mission "Unfettered Lead Asteroid Mining 2"
 
 phrase "unfettered medicals pickup dialog"
 	word
-		`As usual, the Hai are more than happy to give you the medical supplies needed. "Tell our brothers and sisters to stay strong," one says while loading the supplies onto your ship.`
-		`The Hai understand the urgency of the situation, and waste no time in talking. They load the supplies on your ship, and wish you a safe trip.`
-		`There is no reticence to give you the medical supplies. "We prefer to make sure our brothers and sisters are not in need; our own needs come later," one says when done loading the supplies on your ship.`
+		`像往常一样，海族人非常乐意给你提供所需的医疗用品。"告诉我们的兄弟姐妹，保持坚强。"一个人一边说，一边把物资装到你的船上。`
+		`海族人了解情况的紧迫性，没有浪费任何时间说话。他们把物资装到你的船上，并祝你一路平安。`
+		`在给你提供医疗用品方面，他们没有丝毫犹豫。"我们更愿意确保我们的兄弟姐妹没有需要；我们自己的需要稍后才会出现。"一个人在把物资装到你的船上后说。`
 
 phrase "unfettered medicals payment dialog"
 	word
-		"The local health specialists are relieved that you have managed to bring the needed medical supplies back in time, and give you <payment> for it."
-		"All the Unfettered here seem busy, and you have to wait before being able to unload the medical supplies to the local hospital. After some time, a local worker gives you <payment> and tells you to drop the cargo at a specific location."
-		`Once you arrive with the medical supplies, you are greeted by a local health specialist who seems to be desperate for them. "Not a moment too soon. If this was any later the consequences could have been dire," he says while handing you <payment>.`
+		"当地的卫生专家对你能及时带回所需的医疗用品感到欣慰，并为此给了你<payment>。"
+		"这里所有的不羁者似乎都很忙，你必须等待，才能把医疗用品卸到当地医院。一段时间后，一个当地工人给了你<payment>，并告诉你把货物放在一个特定的地点。"
+		`当你带着医疗用品到达时，迎接你的是一位当地的卫生专家，他似乎对这些医疗用品非常渴望。"一刻也不能太早。如果再晚一点，后果会很严重。"他一边说，一边递给你<payment>。`
 
 mission "Unfettered Small Medicals Rush"
 	job
 	repeat
-	name "Express medical supplies to <planet>"
-	description "The Unfettered hospitals on <destination> are in urgent need of resupply. Collect <tons> of medical supplies from <stopovers>, and bring it to the Unfettered before <date> for <payment>."
+	name "向<planet>快递医疗用品"
+	description "<destination>上的不受约束的医院急需补给。从<tons>收集<stopovers>医疗用品，并在<date>之前将其送到不受约束者那里，以获得<payment>。"
 	deadline 5 1
 	cargo "medical supplies" 15 2 .05
 	source
@@ -323,8 +323,8 @@ mission "Unfettered Small Medicals Rush"
 mission "Unfettered Big Medicals Rush"
 	job
 	repeat
-	name "Medical supplies to <planet>"
-	description "The Unfettered hospitals on <destination> are in need of resupply. Collect <tons> of medical supplies from <stopovers>, and bring it to the Unfettered before <date> for <payment>."
+	name "向<planet>提供医疗用品"
+	description "<destination>上的不受约束的医院需要补给。从<tons>收集<stopovers>医疗用品，并在<date>前将其送到不受约束者处，以获得<payment>。"
 	deadline 10 1
 	cargo "medicals" 35 2 .05
 	source

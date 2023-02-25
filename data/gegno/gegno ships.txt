@@ -49,7 +49,7 @@ ship "Shale"
 	leak "leak" 50 60
 	explode "small explosion" 5
 	explode "tiny explosion" 10
-	description `After the Gegno discovered hyperspace lanes and began to use them, their enormous (and expensive) generation ships became too cumbersome to use for the purpose of interstellar commerce, leading to the need for a smaller and more manageable ship such as this. The Shale is the Gegno's equivalent of a Shuttle: a small and compact transport. Whether it be cargo, trade goods, travelers, or recruits, Shales are the foundation of Gegno interstellar civilization.`
+	description `在盖格诺人发现了超空间通道并开始使用后，他们巨大的（和昂贵的）一代飞船变得过于笨重，无法用于星际商业的目的，导致需要一种更小、更容易管理的飞船，比如说这个。页岩号相当于Gegno的航天飞机：一种小型和紧凑的运输工具。无论是货物、贸易品、旅行者还是新兵，页岩号都是盖格诺星际文明的基础。`
 
 ship "Dolomite"
 	sprite "ship/gegno dolomite"
@@ -92,7 +92,7 @@ ship "Dolomite"
 	explode "small explosion" 26
 	explode "tiny explosion" 10
 	"final explode" "final explosion medium"
-	description `Almost as large as a human cruiser, Dolomites are the Gegno's most common cargo vessel in service, its original design dating back to the early days of space colonization. They are used as both passenger liners and cargo vessels. Due to their popularity and continuous usage, both the Vi and Scin factions have developed on the original design for their own purposes.`
+	description `几乎和人类巡洋舰一样大的白云号是盖格诺最常见的货运船只，其原始设计可以追溯到太空殖民化的早期。它们既被用作客轮，也被用作货轮。由于它们的受欢迎程度和持续使用，维族和斯金族都为自己的目的在原始设计上进行了发展。`
 
 ship "Conglomerate"
 	sprite "ship/gegno conglomerate"
@@ -140,7 +140,7 @@ ship "Conglomerate"
 	explode "medium explosion" 38
 	explode "small explosion" 26
 	"final explode" "final explosion large"
-	description `Over time, the Gegno needed larger vessels to carry materials to and from new worlds - ones that would be easier to build and operate than their older, outdated generation ships, but larger than their shuttlecraft. The Conglomerate was designed to fill that exact role.`
+	description `随着时间的推移，Gegno需要更大的船只来运送材料到新的世界--这些船只要比他们老旧的、过时的一代船只更容易建造和操作，但比他们的穿梭机更大。Conglomerate号的设计正是为了填补这一角色。`
 
 ship "Gypsum"
 	sprite "ship/gegno gypsum"
@@ -188,8 +188,8 @@ ship "Gypsum"
 	explode "small explosion" 26
 	explode "tiny explosion" 10
 	"final explode" "final explosion medium"
-	description `To fuel their increasing need for materials, the Gegno designed a new ship class for the sole purpose of mining. The resulting platform, the Gypsum, is not much more than a flying drill with cargo containers, engines, and a bridge attached behind it, making it cost-efficient and easy to manufacture.`
-	description `	Because Gegno engines are not very powerful, the Gypsum has difficulty chasing faster-moving asteroids. In order to alleviate this problem without needing to massively increase the engine space on the ship, the Gegno have instead developed the powerful Excavator Drill, which can shred asteroids in a matter of seconds, meaning the Gypsum only needs to be near an asteroid for a mere moment in order to mine it.`
+	description `为了满足他们对材料日益增长的需求，盖格诺人设计了一个新的船级，专门用于采矿。由此产生的平台，石膏号，不过是一个带有货物集装箱、发动机和连接在后面的桥梁的飞行钻头，使其成本效益高且易于制造。`
+	description `	由于Gegno发动机不是很强大，Gypsum很难追赶移动速度更快的小行星。为了缓解这个问题，同时又不需要大量增加飞船上的引擎空间，盖格诺人转而开发了强大的挖掘机钻头，它可以在几秒钟内粉碎小行星，这意味着石膏号只需要在小行星附近停留片刻，就可以开采它。`
 
 # Gegno Vi:
 
@@ -234,8 +234,8 @@ ship "Dunite"
 	leak "leak" 40 20
 	explode "small explosion" 4
 	explode "tiny explosion" 8
-	description `Dunites are unique vessels designed by the Gegno Vi entirely for the purpose of dueling. It is a hodgepodge of parts, simply being an engine, power system, cockpit, and Irate Cannon mashed together without any regard to structural integrity. The most notable feature is a long mace-like protrusion next to the Irate Cannon which is used for jousting and ramming other duelists.`
-	description `	Being a mangled mess of machinery designed for only a single purpose, Dunites do not come equipped with nor have room for hyperdrives, and are purely intrastellar craft.`
+	description `Dunites是由Gegno Vi设计的完全为了决斗的独特船只。它是一个零件的大杂烩，简单地说就是把发动机、动力系统、驾驶舱和愤怒炮捣碎了，完全不考虑结构的完整性。最显著的特征是在愤怒大炮旁边有一个长长的麦斯状突起，用于比武和撞击其他决斗者。`
+	description `	作为一个只为单一目的而设计的混乱的机械，Dunites没有配备也没有空间安装超光速引擎，是纯粹的星际飞船。`
 
 
 ship "Augen"
@@ -356,8 +356,8 @@ ship "Augen"
 	explode "small explosion" 20
 	explode "tiny explosion" 60
 	"final explode" "final explosion large"
-	description `The Augen-Class is an ancient battleship proposed by the Vi as a large weapons platform for their Ballistic Cannons. It was built in secret over many years in Enbi's canyon shipyard, and for many periods of time its construction was put on hold. The recent civil war with the Scin gave reason to complete the warship, although it is still somewhat of a relic compared to current vessels in the service of the Vi fleet.`
-	description `	This project was meant to result in two sister-ship behemoths, but the blueprints for the other design went missing early in the process, and are currently nowhere to be found.`
+	description `奥根级是一艘古老的战舰，由维族人提议作为他们的弹道炮的大型武器平台。它是在恩比峡谷造船厂秘密建造多年的，在许多时期，它的建造被搁置了。最近与斯金的内战让我们有理由完成这艘战舰，尽管它与目前维族舰队服役的船只相比，仍然有些遗世独立。`
+	description `	这个项目本来是要建造两艘姊妹舰的庞然大物，但另一个设计的蓝图在这个过程的早期就已经丢失了，目前已经不知所踪。`
 
 ship "Slate"
 	sprite "ship/gegno slate"
@@ -396,7 +396,7 @@ ship "Slate"
 	leak "leak" 60 50
 	explode "small explosion" 5
 	explode "tiny explosion" 10
-	description `Designed by the Gegno Vi, the Slate is a modified Shale with a stronger hull and more space, a prime characteristic of Vi vessels. Slightly larger than other shuttle ships to suit the Vi's stature, it is able to carry several Gegno cadets along with a small cargo load.`
+	description `石板号是由盖格诺-维设计的，它是一个改良的页岩号，具有更强的船体和更大的空间，这是维的船只的主要特征。为了适应维族人的身材，它比其他穿梭船稍大一些，能够装载几个盖格诺学员和少量货物。`
 
 ship "Schist"
 	sprite "ship/gegno schist a"
@@ -454,8 +454,8 @@ ship "Schist"
 	explode "small explosion" 25
 	explode "tiny explosion" 10
 	"final explode" "final explosion medium"
-	description `Based on the Gegno's old Dolomite, the Schist is a mid-range ship used by the Vi. It can carry a decent amount of cargo, and has enough bunks to carry a whole platoon of warriors. It is the primary vessel used to transport recruits to the front lines, and veterans back to home territories.`
-	description `	Although is it lightly armed compared to other Vi ships, Schists still are mounted with a pair of forward facing cannons and a turret so they can bring some type of weaponry to any possible engagement, as well as a set of angled guns for deterring any smaller, faster ships from attempting to flank the vessel.`
+	description `基于Gegno的老式Dolomite，Schist是Vi使用的一种中程船。它可以装载相当数量的货物，并且有足够的铺位来装载整个排的战士。它是用来运送新兵到前线，以及运送老兵回国的主要船只。`
+	description `	虽然与其他Vi舰相比，Schists的武器装备较少，但它仍然安装了一对朝前的大炮和一个炮塔，因此它们可以在任何可能的交战中携带某种类型的武器，以及一套倾斜的枪支，以阻止任何更小、更快的船只试图包抄该船。`
 
 ship "Schist" "Schist (Light Load)"
 	sprite "ship/gegno schist b"
@@ -522,7 +522,7 @@ ship "Eclogite"
 	explode "small explosion" 20
 	explode "tiny explosion" 15
 	"final explode" "final explosion small"
-	description `While the style of longer battleship-esque vessels is a Gegno Vi staple, another shipyard rose to the competition for Vi warship designs. The Eclogite is one of the newest designs in the Vi fleet - a gunboat armed to the teeth with cannons, and maneuverability that the Vi's larger ships lack. It plays the role of a hit-and-run vessel, unloading volleys of shells against a target's armor in a rapid maneuver before adjusting its position for another run.`
+	description `虽然较长的战舰式的船只是Gegno Vi的主打产品，但另一家船厂在Vi战舰设计的竞争中崛起。Eclogite是维族舰队中最新的设计之一--一种武装到牙齿的炮艇，具有维族大型船只所缺乏的机动性。它扮演着打了就跑的角色，在快速机动中对目标的装甲卸下一排炮弹，然后调整位置再跑。`
 
 ship "Diorite"
 	sprite "ship/gegno diorite"
@@ -577,7 +577,7 @@ ship "Diorite"
 	explode "small explosion" 20
 	explode "tiny explosion" 17
 	"final explode" "final explosion medium"
-	description `Continuing on with the design concept of the Vi's Eclogite, the Diorite is made by a separate shipyard from other larger Vi vessels. It is much more maneuverable than other Vi ships in its class, allowing it to easily keep a bead on other ships its size, and sometimes smaller ones as well.`
+	description `延续了Vi的Eclogite的设计理念，Diorite是由一个独立的造船厂制造的，与其他大型Vi船只不同。它比其他同级别的维族船只更具机动性，使它能够轻松地保持对其他同级别的船只的控制，有时也能控制更小的船只。`
 
 ship "Diorite" "Diorite (Ballistic)"
 	outfits
@@ -655,7 +655,7 @@ ship "Hornfel"
 	explode "small explosion" 25
 	explode "tiny explosion" 10
 	"final explode" "final explosion medium"
-	description `Hornfels are the workhorse of the Gegno Vi's military - decently sized, decently fast, and more than decently armed warships designed for the frontline of operations. Hornfels are also the most configurable ship in the Vi's fleet, lined with many mounting points to support cargo pods, allowing them to provide a secondary transport role for when the Vi require replacement supplies in war. Other variants of Hornfels are instead occasionally found with adjustments to carry a larger armament. This multi-role function is extremely valued and is the reason why the Hornfel is one of the Vi's most popular ships.`
+	description `Hornfels是Gegno Vi军队的主力军--大小适中，速度适中，而且武器适中的战舰，专门为前线作战设计。Hornfels也是维族舰队中可配置性最强的舰艇，它有很多安装点来支持货物吊舱，当维族在战争中需要补充物资时，它们可以提供辅助运输作用。霍恩费尔斯的其他变种偶尔也会被发现，并进行调整以携带更大的武器装备。这种多用途的功能是非常有价值的，这也是为什么霍恩费尔是维族最受欢迎的战舰之一的原因。`
 
 ship "Hornfel" "Hornfel (Light Load)"
 	sprite "ship/gegno hornfel b"
@@ -784,8 +784,8 @@ ship "Gneiss"
 	explode "small explosion" 40
 	explode "tiny explosion" 80
 	"final explode" "final explosion large"
-	description `Gneiss battleships are the Gegno Vi's true sword and shield in war. They are slightly older than the Hornfels and Schists, but carry the heaviest armament, bearing three huge mounts dedicated to holding enormous Ballistic Cannons. Gniess also have extremely strong armor plating, and can take a hefty beating while firing threatening broadsides at the opposing force.`
-	description `	Unfortunately, in exchange for huge firepower and defensive armor, they lack speed and maneuverability, even when fitted with the largest engine systems the Vi have to offer.`
+	description `格涅斯战舰是盖诺维族在战争中真正的利剑和盾牌。它们比霍恩费尔号和雪斯特号略显老旧，但却携带着最重的武器装备，承载着三个专门用于容纳巨大弹道炮的巨大支架。Gniess也有极强的装甲，可以在向对方部队发射威胁性的宽幅炮弹时承受巨大的打击。`
+	description `	不幸的是，为了换取巨大的火力和防御性装甲，他们缺乏速度和机动性，即使安装了维族所能提供的最大的引擎系统。`
 
 ship "Granulite"
 	sprite "ship/gegno granulite"
@@ -862,7 +862,7 @@ ship "Granulite"
 	explode "medium explosion" 35
 	explode "small explosion" 25
 	"final explode" "final explosion large"
-	description `Granulites are descendants of the Gegno's early generation ships used to colonize nearby systems before the invention of the hyperdrive. They now carry hundreds of Vi both in and out of war, and huge cargo loads to supply depots. They are not typically used as warships, but can support enough weaponry to threaten most smaller vessels, or fend off larger ships long enough for reinforcements to arrive.`
+	description `Granulites是Gegno早期飞船的后裔，在发明超光速引擎之前用于殖民附近的系统。它们现在可以在战争中携带数百名维族人，并将巨大的货物运往补给站。它们通常不作为战舰使用，但可以支持足够的武器来威胁大多数较小的船只，或抵御较大的船只，以便增援部队抵达。`
 
 # Gegno Scin:
 
@@ -904,9 +904,9 @@ ship "Halite"
 	leak "leak" 60 50
 	explode "small explosion" 8
 	explode "tiny explosion" 10
-	description `Halites are a successful experimental test platform designed by the Gegno Scin. They are the Gegno's first fighter-based craft, and the first to equip both early-stage pulse weapon and shield technology; almost half the hull is dedicated to these new developments.`
-	description `	Able to bring a swarm of instant damage to slow-moving Vi warships while under protective shielding, a large number of these ships are seen aboard Scin carrier craft.`
-	description `	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay.`
+	description `Halites是由Gegno Scin设计的一个成功的实验性测试平台。它们是盖格诺的第一艘以战斗机为基础的飞船，也是第一艘同时装备了早期脉冲武器和防护罩技术的飞船；几乎一半的船体都用于这些新的发展。`
+	description `	在保护性屏蔽下，能够给缓慢移动的维族战舰带来一窝蜂的即时伤害，大量的这种战舰出现在斯金的航母飞船上。`
+	description `	战斗机不配备超光速引擎。除非你的舰队中有一艘带有战斗机舱的飞船，否则你无法携带战斗机。`
 
 ship "Mica"
 	sprite "ship/gegno mica"
@@ -945,7 +945,7 @@ ship "Mica"
 	leak "leak" 30 40
 	explode "small explosion" 4
 	explode "tiny explosion" 12
-	description `The Mica is the Gegno Scin's take on a shuttlecraft, and is based on the Shale and the Vi's Slate. It is ever so slightly smaller, since the Scin aren't as large, but carries newer engine systems so it is almost twice as fast as the Shale and the Slate.`
+	description `云母号是斯金人对穿梭机的看法，它是基于页岩号和维氏石板号。它稍微小一点，因为斯金人没有那么大，但它携带了较新的引擎系统，所以它的速度几乎是页岩和石板的两倍。`
 
 ship "Coesite"
 	sprite "ship/gegno coesite"
@@ -998,7 +998,7 @@ ship "Coesite"
 	explode "small explosion" 24
 	explode "tiny explosion" 18
 	"final explode" "final explosion small"
-	description `Coesites are smaller warships that the Scin use as screening vessels during battles with the Vi. They are speedy and carry two turret mounts which allow them to always be orbiting and firing on the move. Being a smaller design, these ships are relatively easy to manufacture, and are often fielded in groups so they may overtake vessels much larger than them.`
+	description `科西特（Coesites）是较小的战舰，在与维族的战斗中，斯金人将其作为屏蔽舰。它们速度快，并带有两个炮塔，这使得它们可以一直在轨道上移动并进行射击。作为一种较小的设计，这些战舰相对来说比较容易制造，而且通常是成群结队的，这样他们就可以超越比他们大得多的船只。`
 
 ship "Tridymite"
 	sprite "ship/gegno tridymite"
@@ -1051,7 +1051,7 @@ ship "Tridymite"
 	explode "small explosion" 19
 	explode "tiny explosion" 14
 	"final explode" "final explosion small"
-	description `Built upon a similar frame to the Coesite, the Tridymite serves as a small luxury transport vessel for the Gegno Scin. Tridymites are typically used as research vessels, transporting crews of scientists from one location to another, or as private vessels for top ranking Scin scientists. Additionally, Tridymites can occasionally be seen used as a scout craft by the military, equipped with an early prototype scanner system built into the frame.`
+	description `Tridymite建立在与Coesite相似的框架上，作为Gegno Scin的小型豪华运输船。Tridymites通常被用作研究船，将科学家们从一个地方运送到另一个地方，或者作为顶级斯金科学家的私人船只。此外，特里迪米特号偶尔也会被军方用作侦察船，在船架上配备了早期的原型扫描系统。`
 
 ship "Felsic"
 	sprite "ship/gegno felsic"
@@ -1103,7 +1103,7 @@ ship "Felsic"
 	explode "small explosion" 28
 	explode "tiny explosion" 16
 	"final explode" "final explosion medium"
-	description `Felsics are based on Schists, but offer many upgrades in exchange for less durability. The Scin have opted for three turret mounts, as well as expanded capacity for outfits, weapons, and engines. All this allows these ships to perform logistical duties as well as doubling as a secondary combat vessel, making up for the lack of a dedicated Scin warship.`
+	description `Felsics是基于Schists的，但提供了许多升级，以换取较低的耐久性。斯金人选择了三个炮塔支架，以及扩大了装备、武器和发动机的容量。所有这些都使这些战舰能够执行后勤任务，同时也可以作为辅助作战舰艇，弥补了斯金人专用战舰的不足。`
 
 ship "Feldspar"
 	sprite "ship/gegno feldspar"
@@ -1188,8 +1188,8 @@ ship "Feldspar"
 	explode "small explosion" 50
 	explode "tiny explosion" 40
 	"final explode" "final explosion large"
-	description `The mighty Feldspar is a Scin creation to behold. As a testbed for the new Halite fighters, Feldspars bring their own small fleets with them and overwhelm their enemy. They were also designed as a semi-experimental platform, built around a brand new multi-engine system and the latest in Gegno plasma technology.`
-	description `	Able to keep a decent stance away from a battle while putting down artillery fire, Feldspars are quite a dangerously well-rounded ship for their size. On the downside, they are more susceptible to hull damage like any other Scin warship, especially when alone. As such, they rely on their fighters to keep their enemies at a distance.`
+	description `强大的长石号是斯金人的创造物。作为新的海利特战斗机的试验台，长石号带着自己的小舰队，压倒了敌人。它们也被设计成一个半实验性的平台，围绕一个全新的多引擎系统和最新的盖格诺等离子技术而建造。`
+	description `	能够在战斗中保持一个体面的姿态，同时放下炮火，费尔德帕斯对于它们的尺寸来说是相当危险的全面的船。在缺点上，他们和其他的斯金战舰一样更容易受到船体的伤害，尤其是在单独作战的时候。因此，他们依靠他们的战斗机来保持与敌人的距离。`
 
 ship "Epidote"
 	sprite "ship/gegno epidote"
@@ -1254,5 +1254,5 @@ ship "Epidote"
 	explode "medium explosion" 42
 	explode "small explosion" 38
 	"final explode" "final explosion large"
-	description `Epidotes are large independent research platforms with adequately-sized cargo holds, allowing them to perform as a reliable heavy freighter for the Gegno Scin. A large number of bunks either help transport groups of Scin scientists to their project destinations, or allow for mobile on-board demonstrations and observations. Each Epidote is equipped with a rear fighter docking bay capable of carrying two Halites, typically used to ship Halite fighters around Scin space to resupply carriers. Thanks to these fighters and the Epidotes' three dorsal turrets, they can also be used as a secondary warship when needed.`
-	description `	Like other Gegno Scin ships, Epidotes themselves are an experimental test bed; they are built around the same large engine system tested on Feldspars, making them notably fast for their size.`
+	description `Epidotes是大型的独立研究平台，有足够大小的货舱，使它们能够作为盖格诺-斯金的可靠的重型货船。大量的铺位可以帮助运送斯金科学家小组到他们的项目目的地，或者允许移动的机载演示和观察。每艘Epidote都配备了一个后部战斗机对接舱，能够装载两架海利特，通常用于在斯金空间周围运送海利特战斗机，为航母提供补给。由于这些战斗机和Epidotes的三个背侧炮塔，它们也可以在需要时被用作二级战舰。`
+	description `	像其他的斯金战舰一样，Epidotes本身也是一个实验性的测试平台；它们是围绕着在Feldspars上测试过的大型引擎系统建造的，这使得它们在尺寸上具有明显的速度。`

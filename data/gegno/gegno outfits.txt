@@ -23,7 +23,7 @@ outfit "R01 Skirmish Battery"
 	"mass" 12
 	"outfit space" -12
 	"energy capacity" 4506
-	description `Skirmish Batteries are very common outfits on Gegno ships. They can be either a cheaper alternative than upgrading to a larger reactor, or a nice addition alongside one where short bursts of high energy may be needed.`
+	description `小规模战斗炮台是盖格诺飞船上非常常见的装备。它们既可以是比升级到更大的反应堆更便宜的选择，也可以是一个很好的补充，因为可能需要短期的高能量爆发。`
 
 
 outfit "R02 Battlezone Battery"
@@ -36,7 +36,7 @@ outfit "R02 Battlezone Battery"
 	"mass" 23
 	"outfit space" -23
 	"energy capacity" 8987
-	description `Battlezone Batteries are primarily used on the Gegno's medium-range combat vessels, holding a moderate amount of power for long-lasting engagements. They also fit nicely on larger vessels as a buffer to power their more energy-hungry systems.`
+	description `战区电池主要用于盖格诺的中程作战舰艇，为持久的交战提供适量的能量。它们也很适合在大型舰艇上作为缓冲器，为其更多的能量消耗系统提供动力。`
 
 
 outfit "R03 Warforge Battery"
@@ -49,7 +49,7 @@ outfit "R03 Warforge Battery"
 	"mass" 41
 	"outfit space" -41
 	"energy capacity" 16646
-	description `Warforge Batteries have proven their usefulness over the years as large, sturdy battery packs. They support the equally large volleys that are fired from Gegno ships, and help maintain an excess of power for engine usage.`
+	description `多年来，Warforge电池作为大型、坚固的电池组已经证明了它们的作用。它们支持从Gegno战舰上发射的同样大的炮弹，并帮助维持发动机使用的过剩能量。`
 
 
 outfit "R04 Crusade Battery"
@@ -65,7 +65,7 @@ outfit "R04 Crusade Battery"
 	"mass" 70
 	"outfit space" -70
 	"energy capacity" 28140
-	description `As the largest battery mounted on power-hungry Gegno ships, the Crusade Battery holds an immense amount of energy, more than a Scrap Cell could produce in almost two minutes. However, the Gegno are inefficient at increasing density with size. As a result, these batteries are generally only used on ships that consistently need this sort of power reserve, while most other ships simply stack multiple smaller batteries that are more convenient to install or remove according to their needs.`
+	description `作为安装在耗电的Gegno战舰上的最大电池，十字军电池拥有巨大的能量，比一个废电池在近两分钟内产生的能量还要多。然而，Gegno在随尺寸增加密度方面效率很低。因此，这些电池一般只用在那些持续需要这种能量储备的舰艇上，而其他大多数舰艇只是简单地堆放多个较小的电池，根据它们的需要，更方便地安装或拆除。`
 
 
 outfit "C3 Scrap Cell"
@@ -78,7 +78,7 @@ outfit "C3 Scrap Cell"
 	"outfit space" -25
 	"energy generation" 1.4
 	"heat generation" 2
-	description `The Scrap Cell is a small radiothermal generator that produces a limited amount of energy. It is only used on the Gegno's smaller-sized vessels, or in tandem with their less energy-hungry internals.`
+	description `废旧电池是一种小型的辐射热发电机，产生的能量有限。它只用于盖格诺的小尺寸船只，或与它们对能量要求不高的内部设备串联使用。`
 
 
 outfit "C7 Brawl Cell"
@@ -91,7 +91,7 @@ outfit "C7 Brawl Cell"
 	"outfit space" -39
 	"energy generation" 2.7
 	"heat generation" 3.4
-	description `When developing the C7 Brawl Cell, the Gegno decided to scale up the smaller C3 Scrap Cell. Unfortunately, the new design became so tall that the Gegno struggled to fit it into some of their ships, requiring them to turn the entire thing sideways. This design still serves the Gegno well, though it will likely be phased out in favor of newer generators as they become more compact and efficient.`
+	description `在开发C7争吵细胞时，Gegno决定扩大较小的C3废品细胞的规模。不幸的是，新的设计变得如此之高，以至于Gegno很难将其装入他们的一些战舰中，需要他们将整个东西侧向。这种设计仍然很好地服务于盖格诺，尽管它可能会被淘汰，以支持更新的发电机，因为它们变得更加紧凑和高效。`
 
 
 outfit "C17 Warzone Core"
@@ -104,7 +104,7 @@ outfit "C17 Warzone Core"
 	"outfit space" -87
 	"energy generation" 10.2
 	"heat generation" 22.9
-	description `The Gegno began developing nuclear technology once their cities grew massive enough to require it. The Warzone Core is a medium-sized nuclear fission reactor that is a suitable power source for most of the Gegno's large ships, though it appears to lack many of the fail-safes you would expect to find on a human nuclear reactor.`
+	description `一旦他们的城市发展到需要核技术的程度，盖格诺人就开始发展核技术。战区核心是一个中等规模的核裂变反应堆，是大多数盖格诺人的大型船只的合适动力来源，尽管它似乎缺乏许多你期望在人类核反应堆上找到的故障保护装置。`
 
 
 outfit "C27 Campaign Core"
@@ -120,7 +120,7 @@ outfit "C27 Campaign Core"
 	"outfit space" -145
 	"energy generation" 19.9
 	"heat generation" 46.3
-	description `In order to power the largest of vessels along with their energy-guzzling systems and engines, the Gegno designed the Campaign fusion reactor from earlier prototypes dating back to their generation ship era. It's still used to this day and is efficient enough to satisfy the requirements of the largest of Gegno warships, but just looking at it raises safety concerns.`
+	description `为了给最大的船只及其耗能的系统和引擎提供动力，Gegno设计了运动式核聚变反应堆，其早期原型可追溯到他们的一代船时代。它至今仍在使用，其效率足以满足最大的盖格诺战舰的要求，但光看它就会引起安全问题。`
 
 
 outfit "I70 Ameliorate Cell"
@@ -136,7 +136,7 @@ outfit "I70 Ameliorate Cell"
 	"energy capacity" 2520
 	"energy generation" 1.4
 	"heat generation" 2.9
-	description `The I70 Cell was designed by the Scin as a smaller, more compact power system for their Halite fighters. It has enough energy generation and capacity to fuel the Halite's thrusters and their weapons for a short period. Unfortunately, as a side effect, a bit more excess heat is also generated.`
+	description `I70电池是由斯金人设计的，作为他们的海利特战斗机的更小、更紧凑的动力系统。它有足够的能量产生和容量来为海利特的推进器和他们的武器提供短时间的燃料。不幸的是，作为一个副作用，也会产生更多的多余热量。`
 
 
 # Engines:
@@ -156,7 +156,7 @@ outfit "RG15 Torch Thruster"
 	"flare sprite" "effect/vi flare/small"
 		"frame rate" 2.5
 	"flare sound" "ion torch small"
-	description `The RG15 Ion Torch Thruster is the Gegno Vi's smallest torch thruster, found almost exclusively on the Slate. It is somewhat inefficient, weighing more and producing more heat than most thrusters of a similar size in exchange for using slightly less energy.`
+	description `RG15离子火炬推进器是Gegno Vi最小的火炬推进器，几乎只在石板上发现。它的效率有点低，与大多数类似尺寸的推进器相比，它的重量更大，产生的热量更多，而使用的能量却略少。`
 
 
 outfit "RG15 Torch Steering"
@@ -174,7 +174,7 @@ outfit "RG15 Torch Steering"
 	"steering flare sprite" "effect/vi flare/small"
 		"frame rate" 2.4
 	"steering flare sound" "ion torch small"
-	description `This steering system is meant for the smallest of Gegno Vi ships. However, some Gegno pilots use it to cheaply supplement their main steering engines.`
+	description `这种转向系统是为最小的Gegno Vi船准备的。然而，一些Gegno飞行员用它来廉价地补充他们的主转向引擎。`
 
 
 outfit "RG18 Torch Thruster"
@@ -192,7 +192,7 @@ outfit "RG18 Torch Thruster"
 	"flare sprite" "effect/vi flare/medium"
 		"frame rate" 2.4
 	"flare sound" "ion torch medium"
-	description `The RG18 is a moderately large thruster used by the Gegno Vi. Ion Torch Thrusters are similar to human ion thrusters, but their explosive exhaust causes them to run hotter. However, they also require slightly less energy.`
+	description `RG18是Gegno Vi使用的一种中等规模的推进器。离子火炬推进器与人类的离子推进器类似，但其爆炸性的排气会导致其运行温度更高。然而，它们需要的能量也略少。`
 
 
 outfit "RG18 Torch Steering"
@@ -210,7 +210,7 @@ outfit "RG18 Torch Steering"
 	"steering flare sprite" "effect/vi flare/medium"
 		"frame rate" 2.4
 	"steering flare sound" "ion torch medium"
-	description `The RG18 Steering system is quite large for a steering system of its power. Many Gegno Vi ships install these as a minimum to be able to turn their already heavy ships.`
+	description `RG18转向系统对于其功率的转向系统来说是相当大的。许多Gegno Vi战舰都安装了这个系统，以使他们已经很重的战舰能够转向。`
 
 
 outfit "RG3 Torch Thruster"
@@ -231,7 +231,7 @@ outfit "RG3 Torch Thruster"
 	"flare sprite" "effect/vi flare/large"
 		"frame rate" 2.3
 	"flare sound" "ion torch large"
-	description `Derived from the massive thrusters that powered early Gegno generation ships, RG3 Ion Torch Thrusters are the Gegno's largest thrusters and the oldest still used. Smaller ships that attempt to use these engines often end up overheating themselves.`
+	description `RG3离子火炬推进器源自为早期盖格诺一代飞船提供动力的大型推进器，是盖格诺最大的推进器，也是目前仍在使用的最古老的推进器。试图使用这些引擎的小型舰艇往往最终会导致自身过热。`
 
 
 outfit "RG3 Torch Steering"
@@ -252,7 +252,7 @@ outfit "RG3 Torch Steering"
 	"steering flare sprite" "effect/vi flare/large"
 		"frame rate" 2.3
 	"steering flare sound" "ion torch large"
-	description `The oldest steering system used in Gegno space, RG3 Torch Thrusters can only fit on the largest Gegno vessels, and are rarely seen as a result.`
+	description `作为盖格诺太空中使用的最古老的转向系统，RG3火炬推进器只能安装在盖格诺最大的船只上，因此很少见到。`
 
 
 outfit "SC-1 Plasma Engines"
@@ -279,7 +279,7 @@ outfit "SC-1 Plasma Engines"
 	"steering flare sprite" "effect/scin flare/tiny"
 		"frame rate" 0.6
 	"steering flare sound" "scplasma tiny"
-	description `In order to power the tiny Halite frame, the Gegno Scin developed this smaller engine system. Based on their larger plasma thrusters, these engines are much more efficient than the Vi's bigger, more sluggish ion engines, which would never be compact or light enough to run on a fighter.`
+	description `为了给微小的Halite框架提供动力，Gegno Scin公司开发了这种较小的发动机系统。基于他们较大的等离子推进器，这些引擎比Vi的更大、更迟钝的离子引擎要有效得多，而后者永远不会紧凑或轻到可以在战斗机上运行。`
 
 
 outfit "SC-12 Plasma Thruster"
@@ -298,7 +298,7 @@ outfit "SC-12 Plasma Thruster"
 	"flare sprite" "effect/scin flare/small"
 		"frame rate" 0.5
 	"flare sound" "scplasma small"
-	description `Rather than developing on the Ion Torch design of the Vi, the Scin began work on a plasma-based thruster. They are more compact, weigh less, and produce significantly more thrust. However, since Ion Torches expel some of their heat in their thrust, the more stable and powerful SC thrusters tend to run hotter.`
+	description `斯金没有在Vi的离子火炬设计上进行开发，而是开始了基于等离子体的推进器的工作。它们更加紧凑，重量更轻，而且产生的推力明显更大。然而，由于离子火炬在其推力中排出了一些热量，更稳定和强大的SC推进器往往运行得更热。`
 
 
 outfit "SC-12 Plasma Steering"
@@ -317,7 +317,7 @@ outfit "SC-12 Plasma Steering"
 	"steering flare sprite" "effect/scin flare/small"
 		"frame rate" 0.5
 	"steering flare sound" "scplasma small"
-	description `The new SC plasma engines allow Gegno Scin ships to outmanoeuvre their opposing brothers. What might take a Vi ship a long time takes only a moment on a Scin ship.`
+	description `新的SC等离子体引擎使Gegno Scin战舰能够超越他们的对手。维族飞船可能需要很长的时间，而在斯金族飞船上只需要一瞬间。`
 
 
 outfit "SC-14 Plasma Thruster"
@@ -336,7 +336,7 @@ outfit "SC-14 Plasma Thruster"
 	"flare sprite" "effect/scin flare/med"
 		"frame rate" 0.4
 	"flare sound" "scplasma medium"
-	description `SC-14 class thrusters power the Scin's average gunboat or transport, giving their ships reliable speed. They can quickly propel any medium-sized ship forward with reasonable efficiency.`
+	description `SC-14级推进器为斯金人的普通炮艇或运输船提供动力，使他们的船只拥有可靠的速度。它们能以合理的效率迅速推动任何中型船只前进。`
 
 
 outfit "SC-14 Plasma Steering"
@@ -355,7 +355,7 @@ outfit "SC-14 Plasma Steering"
 	"steering flare sprite" "effect/scin flare/med"
 		"frame rate" 0.4
 	"steering flare sound" "scplasma medium"
-	description `Larger than SC-12 engines, SC-14 class steering is one of the most powerful steering systems in Gegno space, allowing the Scin to reposition even their largest ships many times faster than their Vi counterparts.`
+	description `比SC-12引擎更大的SC-14级转向器是盖格诺太空中最强大的转向系统之一，使斯金人甚至能以比他们的维族同行快许多倍的速度重新定位他们最大的船只。`
 
 
 outfit "SC-15 Plasma Thrusters"
@@ -382,7 +382,7 @@ outfit "SC-15 Plasma Thrusters"
 	"reverse flare sprite" "effect/scin flare/large"
 		"frame rate" 0.3
 	"reverse flare sound" "scplasma large"
-	description `The Gegno Scin have taken another step forward from the SC-14 class engine system, incorporating both reverse and forward thrust into a single engine. In order to field the SC-15, the Scin had to design their largest ships around the thrusters, rather than fit it on later. The ability to reverse is especially important in engagements with the Gegno Vi's forward-heavy combat vessels.`
+	description `在SC-14级发动机系统的基础上，盖格诺的斯金人又向前迈进了一步，将反向和正向推力都纳入了一台发动机。为了投入使用SC-15，斯金人不得不围绕推进器来设计他们最大的战舰，而不是后来才安装的。反向推力的能力在与Gegno Vi的前向重型战舰的交战中尤为重要。`
 
 # Weapons:
 
@@ -412,7 +412,7 @@ outfit "Irate Cannon"
 		"shield damage" 6
 		"hull damage" 16
 		"hit force" 40
-	description `Irate Cannons are a rudimentary cannon technology that fire explosive projectiles made out of condensed scrap metal, making them effective against armor. They fire decently fast, but one cannon alone is barely enough to output any sort of meaningful damage, which is why they are often found clustered together in numbers.`
+	description `愤怒的大炮是一种初级的大炮技术，它发射的爆炸性弹丸是由凝结的废金属制成的，使它们对装甲很有效。它们的发射速度相当快，但单靠一门大炮几乎不足以输出任何形式的有意义的伤害，这就是为什么它们经常被发现聚集在一起的原因。`
 
 
 outfit "Irate Cannon Turret"
@@ -445,7 +445,7 @@ outfit "Irate Cannon Turret"
 		"shield damage" 6
 		"hull damage" 16
 		"hit force" 40
-	description `While the Irate Cannon Turret originally saw little use due to Vi ships having enough space to field larger caliber weapons in their turret mounts, this turret has become more popular as the Vi produce smaller ships with more limited weapon space. To offset the lack of raw firepower from a single cannon, the turret boasts two mounted on a rotating platform, doubling its rate of fire in a single mount.`
+	description `由于维族的战舰有足够的空间在炮塔上安装更大口径的武器，愤怒加农炮塔最初很少使用，但随着维族生产的战舰越来越小，武器空间越来越有限，这种炮塔也变得越来越受欢迎。为了弥补单门大炮的火力不足，该炮塔拥有两门安装在旋转平台上的大炮，使其在单个炮架上的射速增加一倍。`
 
 effect "irate fire"
 	sprite "effect/irfire"
@@ -492,7 +492,7 @@ outfit "Choleric Cannon"
 		"shield damage" 106
 		"hull damage" 311
 		"hit force" 180
-	description `A higher caliber than the Irate Cannon, Choleric Cannons fire larger, slower rounds that do a noticeable chunk of damage to a ship's hull. However, due to the nature of the cannon, it is, along with other Gegno weaponry, very ineffective against any sort of shielding.`
+	description `胆小鬼大炮的口径比愤怒大炮要高，它发射的子弹更大，速度更慢，对船体有明显的破坏作用。然而，由于大炮的性质，它和其他盖格诺武器一样，对任何形式的屏蔽都是非常无效的。`
 
 
 outfit "Choleric Cannon Turret"
@@ -526,7 +526,7 @@ outfit "Choleric Cannon Turret"
 		"shield damage" 106
 		"hull damage" 311
 		"hit force" 180
-	description `Mounted on a turret, a Choleric Cannon is much more devastating without the need to keep a target in front of the ship to land shots. It can consistently put out damage to a target's hull, and with multiple turrets, any shieldless vessel is forced to retreat after a decent enough bombardment lest they be destroyed.`
+	description `安装在炮塔上的 "胆小鬼 "加农炮的破坏力要大得多，因为它不需要在飞船前面保持一个目标来进行射击。它可以持续地对目标的船体造成伤害，如果有多个炮塔，任何没有护盾的船只在受到足够的轰击后都会被迫撤退，以免被摧毁。`
 	
 effect "choleric fire"
 	sprite "effect/chfire"
@@ -576,7 +576,7 @@ outfit "Ballistic Cannon"
 		"hit force" 360
 		"stream"
 		"missile strength" 18
-	description `The Gegno Vi Ballistic Cannon tops its sister cannons as the highest caliber weapon that the Gegno field. Each cannon round can inflict tremendous damage to a target's exposed hull. Due to the size and power of these cannons, their shells have a slow reload time and travel speed. As such, they can often be dodged by faster or smaller craft, but if able to be equipped in numbers, they can create a deadly wall of fire.`
+	description `Gegno Vi弹道炮作为Gegno的最高口径武器，在其姐妹炮中名列前茅。每一发炮弹都能对目标的裸露船体造成巨大的伤害。由于这些大炮的尺寸和威力，它们的炮弹重装时间和移动速度都很慢。因此，它们经常可以被更快或更小的飞船躲开，但如果能够大量装备，它们可以形成一道致命的火墙。`
 
 
 outfit "Ballistic Cannon Turret"
@@ -612,7 +612,7 @@ outfit "Ballistic Cannon Turret"
 		"hull damage" 970
 		"hit force" 360
 		"missile strength" 18
-	description `As the largest caliber cannon in the Gegno Vi's arsenal, Ballistic Cannons require a lot of work to be fitted on even the largest of ships. A huge, self-sustaining base with its own vent ports is necessary for one of these cannons to even be fitted on a turret mount, provided there are crew to operate it. Combining destructive force with adjustable aim, Ballistic Cannon Turrets are the deadliest weapons of Vi warships.`
+	description `作为Gegno Vi武器库中最大口径的大炮，弹道炮需要大量的工作才能安装在最大的船只上。一个巨大的、有自己通风口的自给自足的基地是必要的，这样的大炮甚至可以安装在炮塔上，只要有船员来操作它。弹道炮塔结合了毁灭性的力量和可调节的目标，是维族战舰最致命的武器。`
 
 effect "ballistic fire"
 	sprite "effect/balfire"
@@ -669,7 +669,7 @@ outfit "Astuit Battery"
 		"firing heat" 25.5
 		"shield damage" 8.8
 		"hull damage" 9.4
-	description "The Gegno Scin are the first Gegno to advance plasma technology to the point where it can be used in combat, although the energy requirement of such technology is still significant. Astuit Batteries work very similar to human Energy Blasters, firing small condensed plasma projectiles at high rates of fire. With four Astuit Blasters on a turreted mount, it produces a constant stream of damage which adds up over time, despite the minor damage that each individual projectile creates."
+	description "Gegno Scin是第一个将等离子体技术发展到可以用于战斗的Gegno，尽管这种技术的能量需求仍然很大。阿斯图特电池的工作原理与人类的能量爆破器非常相似，以高射速发射小型凝结等离子体弹丸。在一个炮台上有四个Astuit爆破器，尽管每个单独的弹丸产生的伤害很小，但它会产生源源不断的伤害，并随着时间的推移而增加。"
 
 effect "astuit hit"
 	sprite "effect/ast hit"
@@ -709,7 +709,7 @@ outfit "Acuit Artillery"
 		"shield damage" 195
 		"hull damage" 332
 		"hit force" 40
-	description `With a better grasp on plasma and energy weaponry, the Gegno Scin developed a larger blaster weapon to mount on the Feldspar Carrier as a counter to the Gegno Vi's huge cannon weaponry. Acuit Artillery turrets outrange most weapons in Gegno space, while having a higher rate of fire as well, making them very efficient bombardment weapons.`
+	description `随着对等离子体和能量武器的更好掌握，盖格诺-斯金开发了一种更大的爆破武器，安装在长石航母上，作为对盖格诺-维的巨大加农炮武器的反击。阿奎特炮塔的威力超过了盖格诺太空中的大多数武器，同时也具有更高的射速，使其成为非常有效的轰炸武器。`
 
 effect "acuit hit"
 	sprite "effect/acuit hit"
@@ -746,8 +746,8 @@ outfit "Guile Pulse Laser"
 		"shield damage" 12.4
 		"hull damage" 20.2
 		"cluster"
-	description `The Guile Pulse Laser is a recent experimental advancement in Scin plasma weapon technology. Rather than rapid firing plasma slugs, this weapon fires concentrated pulses of energy that only last for a brief moment. Each blast impacts the target ship almost instantaneously with a powerful hit, and a consistent amount of fire from Guile Lasers is extremely effective against slow moving targets.`
-	description `	Guile Pulse Lasers have noticeable drawbacks as they quickly consume energy and generate notable heat per shot. Unlike a beam-type weapon, they are incapable of consistent output, and have a fairly short range.`
+	description `古伊尔脉冲激光器是斯金等离子武器技术的最新实验性进展。这种武器不是快速发射的等离子弹头，而是发射集中的能量脉冲，只持续短暂的时间。每一次爆炸几乎都会在瞬间对目标舰艇产生强大的冲击力，而圭勒激光器的持续射击对缓慢移动的目标极为有效。`
+	description `	狡猾的脉冲激光器有明显的缺点，因为它们很快就会消耗能量，每次射击都会产生明显的热量。与光束型武器不同，它们无法持续输出，而且射程相当短。`
 
 
 outfit "Excavator"
@@ -775,7 +775,7 @@ outfit "Excavator"
 		"hull damage" 14
 		"minable damage" 104
 		"hit force" -4
-	description `Excavator Drills are large drills designed by the Gegno that rip materials out of asteroids in an efficient manner. These types of drill systems are only found on ships specifically designed around them as they require substantial infrastructure to be functional.`
+	description `挖掘机钻头是盖格诺人设计的大型钻头，可以有效地从小行星上撕下材料。这些类型的钻头系统只出现在专门为其设计的飞船上，因为它们需要大量的基础设施才能发挥作用。`
 
 effect "drilling"
 	sprite "effect/smoke"
@@ -809,7 +809,7 @@ outfit "Savagery Bludgeon"
 		"shield damage" 8
 		"hull damage" 40
 		"hit force" 500
-	description `A Savagery Bludgeon is a mace-like weapon found jammed into the Gegno Vi's Dunite duelist ships. They are used as melee weapons for close-quarter rams and jousts during duels. However, they have hardly any use as a weapon outside of this as they merely scratch larger ship's hulls and barely put a dent into anything shielded.`
+	description `Savagery Bludgeon是一种被塞进Gegno Vi的Dunite决斗者战舰中的类似于梅斯的武器。它们被用作近战武器，用于决斗时的近距离冲撞和角斗。然而，除此之外，它们几乎不能作为武器使用，因为它们只能划伤较大的船体，几乎不能对任何有盾牌的东西造成凹陷。`
 	
 effect "bludgeon impact"
 	sound "bludgeon impact"
@@ -828,7 +828,7 @@ outfit "Savagery Pike"
 	"capture attack" .9
 	"capture defense" .9
 	"unplunderable" 1
-	description `This is a ceremonial spear-like weapon presented to Vi warriors when they officially become part of the military. On the forward end are several long, sharp pikes that can easily pierce enemies, and on the rear end is a built-in cannon that can fire up to two explosive rounds. The cannon rounds are rarely used by the Vi unless they deem it absolutely necessary to defeat their foe or deal with unanticipated outside factors.`
+	description `这是在维族战士正式成为军队一员时，送给他们的一种类似长矛的仪式性武器。前端是几根长而锋利的长矛，可以轻易刺穿敌人，后端是一门内置的大炮，可以发射两发爆炸弹。炮弹很少被维族人使用，除非他们认为绝对有必要打败他们的敌人或处理不可预期的外部因素。`
 
 outfit "Irate Carronade"
 	category "Hand to Hand"
@@ -840,7 +840,7 @@ outfit "Irate Carronade"
 	"outfit space" -3
 	"capture defense" 3.7
 	"unplunderable" 1
-	description `Miniaturizing ship-to-ship cannons and haphazardly shoving them into small makeshift barricades isn't exactly the safest way to install boarding defenses. Despite this, the hard-armored hulls of larger Gegno warships prove resilient enough to field Irate Carronades. Anyone, or anything, that unknowingly approaches a corridor where one is installed will likely become a new paint layer on the nearby walls.`
+	description `将船对船的大炮小型化，并将其胡乱塞进小型临时路障中，并不是安装登船防御系统的最安全方式。尽管如此，较大的盖格诺战舰的硬甲船体被证明有足够的弹性，可以使用愤怒的卡隆炮。任何人，或任何东西，如果不知不觉地接近安装了这种武器的走廊，很可能会成为附近墙壁上的一个新油漆层。`
 	
 outfit "Plasmasickle"
 	category "Hand to Hand"
@@ -851,7 +851,7 @@ outfit "Plasmasickle"
 	"capture attack" .7
 	"capture defense" .6
 	"unplunderable" 1
-	description `Plasmasickles are weapons specialized for close-quarters combat. Incorporating the Scin's recently developed plasma technology, the blade is heated to high temperatures, enabling it to slice through tough targets. Only select groups of Scin crew are equipped with these, but they are trained well enough to use them effectively.`
+	description `电浆枪是专门用于近距离战斗的武器。结合斯金最近开发的等离子体技术，刀片被加热到高温，使其能够切开坚硬的目标。只有经过挑选的斯金船员群体配备了这些武器，但他们经过训练，足以有效地使用它们。`
 
 outfit "Plasma Grenades"
 	plural "Plasma Grenades"
@@ -863,7 +863,7 @@ outfit "Plasma Grenades"
 	"capture attack" 1.9
 	"capture defense" 1.2
 	"unplunderable" 1
-	description `With development of more plasma-based weaponry, the Scin invented their own type of grenades using plasma to create powerful explosions. They are effective at clearing out large groups of enemies and are less of a hazard than unpredictable fragmentation grenades, allowing them to be a bit more reliable for defensive use. These grenades are kept in odd magnetic storage devices that prevent them from accidentally detonating - except on rare occasions.`
+	description `随着更多基于等离子体的武器的发展，斯金人发明了他们自己的手榴弹，使用等离子体来制造强大的爆炸。它们能有效地清除大群的敌人，而且比不可预测的破片手榴弹的危害要小，使它们在防御性使用时更可靠一些。这些手榴弹被保存在奇怪的磁性存储设备中，防止它们意外引爆--除非在罕见的情况下。`
 	
 
 
@@ -872,34 +872,34 @@ outfit "Plasma Grenades"
 outfit "Gegno Civilian License"
 	category "Licenses"
 	thumbnail "outfit/unknown"
-	description "You have been accepted as a titular Gegno citizen that provides benefits for the Gegno race, and have been awarded access to their civilian technology."
+	description "你已经被接受为名正言顺的盖格诺公民，为盖格诺种族提供利益，并被授予使用其民用技术的权利。"
 
 outfit "Vi Lord License"
 	category "Licenses"
 	thumbnail "outfit/unknown"
-	description "A majority of the Vi's military hierarchy recognizes you as a respectable foe and invaluable asset for their ambitions. The responsibility of maintaining the largest of Vi vessels is now within your grasp."
+	description "维族的大多数军事阶层都承认你是一个值得尊敬的敌人，是他们野心的宝贵资产。维护维族最大的船只的责任现在在你的掌握之中。"
 	
 outfit "Vi Centurion License"
 	category "Licenses"
 	thumbnail "outfit/unknown"
-	description "Amongst the Vi's Evocati you have proven yourself as a powerful leader in combat and a successful user of judgment. Access to a portion of the Vi's military arsenal awaits your interests."
+	description "在维族的Evocati中，你已经证明了自己是一个强大的战斗领导者和一个成功的判断力使用者。你有机会接触到维族的部分军事武器，等待着你的兴趣。"
 
 outfit "Vi Evocati License"
 	category "Licenses"
 	thumbnail "outfit/unknown"
-	description "The Gegno Vi have recognized you as a committed warrior to their cause, and see usefulness in you. Low level Vi technology now becomes accessible for your leisure."
+	description "Gegno Vi已经认识到你是一个致力于他们事业的战士，并认为你很有用。低水平的维族技术现在可以为你所用。"
 
 outfit "Scin Hoplologist License"
 	category "Licenses"
 	thumbnail "outfit/unknown"
-	description "Your intelligence is most desirable in the eyes of the Gegno Scin, and your reward is the usage of advanced Scin weaponry."
+	description "你的聪明才智在盖格诺-斯金人眼中是最受欢迎的，而你的回报是使用先进的斯金人武器装备。"
 
 outfit "Scin Architect License"
 	category "Licenses"
 	thumbnail "outfit/unknown"
-	description "Showing that you are advantageous to the Scin's constructive efforts, you are now given permission to operate their most advanced vessels."
+	description "为了显示你对斯金人的建设性努力是有利的，你现在被允许操作他们最先进的船只。"
 
 outfit "Scin Adjutant License"
 	category "Licenses"
 	thumbnail "outfit/unknown"
-	description "Productive acts perpetrated by you have raised the interests of the Gegno Scin, and they authorize you to purchase their most basic technology."
+	description "你们的生产行为提高了盖格诺斯金人的兴趣，他们授权你们购买他们最基本的技术。"

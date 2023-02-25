@@ -20,121 +20,121 @@ mission "First Contact: Unfettered"
 			branch hai
 				has "First Contact: Hai: offered"
 				
-			`This planet is populated by a hostile alien species that resembles giant, intelligent squirrels. Do you want to approach one of them?`
+			`这个星球上住着一种充满敌意的外星物种，它们类似于巨大的智能松鼠。你想接近他们中的一个吗？`
 			choice
-				`	(Sure.)`
-				`	(Not now, it's too risky.)`
+				`	(当然。)`
+				`	(现在不行，太冒险了）。`
 					defer
-			`	You catch the eye of one of the alien dock workers and it walks over. "Ah," it says, "the monkey is curious. The monkey has never been face to face with a true Hai before?"`
+			`	你吸引了其中一个外星码头工人的目光，它走了过来。"啊，"它说，"猴子很好奇。猴子以前从未与真正的海族面对面过？"`
 			choice
-				`	"Hai? Is that what you call yourselves?"`
+				`	"海？你们是这样称呼自己的吗？"`
 					goto name
-				`	"What do you mean, 'true Hai'?"`
+				`	"你是什么意思，'真海'？"`
 					goto true
-				`	"Why did you shoot at me? Are you at war?"`
+				`	"你为什么向我开枪？你们在打仗吗？"`
 					goto war
 
 			label hai
-			`The Hai here appear to be at war with the rest of their species. Do you want to approach one of them and ask why?`
+			`这里的海族似乎在与他们的其他物种交战。你想接近他们中的一个，并询问原因吗？`
 			choice
-				`	(Sure.)`
-				`	(Not now, it's too risky.)`
+				`	(当然。)`
+				`	(现在不行，太冒险了）。`
 					defer
-			`	You catch the eye of one of the Hai dock workers and it walks over. "Ah," it says, "the monkey is curious. The monkey has never been face to face with a true Hai before?"`
+			`	你吸引了一个海族码头工人的目光，它走了过来。"啊，"它说，"这只猴子很好奇。猴子以前从未与真正的海族人面对面？"`
 			choice
-				`	"No, I've encountered many of your brethren south of here."`
+				`	"没有，我在南边遇到过很多你们的兄弟。"`
 					goto brethren
-				`	"What do you mean, 'true Hai'?"`
+				`	"你是什么意思，'真海'？"`
 					goto true
-				`	"Why are you at war with everyone else?"`
+				`	"你为什么要和其他人打仗？"`
 					goto everyone
 			
 			label brethren
-			`	It hisses. "They are not true Hai. We are Hai. The unaltered. We were masters of a hundred worlds before human monkeys had learned the use of thumbs."`
+			`	它嘶吼着。"他们不是真正的海。我们是海族。未被改变的人。在人类猴子学会使用拇指之前，我们是一百个世界的主人。"`
 				goto masters
 			
 			label true
-			`	"It means that we are unaltered, Hai as Hai were first born to be. Hai the conquerors. We were masters of a hundred worlds before human monkeys had learned the use of thumbs."`
+			`	"这意味着，我们是未被改变的，是海的最初诞生。海是征服者。在人类的猴子学会使用拇指之前，我们是一百个世界的主人。"`
 				goto masters
 			
 			label name
-			`	"We are Hai. Hai the conquerors. We were masters of a hundred worlds before human monkeys had learned the use of thumbs."`
+			`	"我们是海。海的征服者。在人类的猴子学会使用大拇指之前，我们就是一百个世界的主人。"`
 				goto masters
 			
 			label war
-			`	"We fight to defend ourselves from extinction," it says.`
-			`	"Extinction?" you ask. "Do you mean that there are no other Hai?"`
-			`	"We are all that is left of the original Hai," it says. "Unaltered. The conquerors. We were masters of a hundred worlds before human monkeys had learned the use of thumbs."`
+			`	"我们战斗是为了保护自己不被灭绝，"它说。`
+			`	"灭绝？"你问。"你是说没有其他的海吗？"`
+			`	"我们是原始海族剩下的全部，"它说。"未被改变的。征服者。在人类猴子学会使用拇指之前，我们是一百个世界的主人。"`
 				goto masters
 			
 			label everyone
-			`	"We fight to defend ourselves from extinction," it says.`
-			`	"Extinction?" you ask. "Do you mean that you are not the same species as the other Hai?"`
-			`	"Indeed," it says. "We are all that is left of the original Hai. Unaltered. The conquerors. We were masters of a hundred worlds before human monkeys had learned the use of thumbs."`
+			`	"我们战斗是为了保护自己不被灭绝，"它说。`
+			`	"灭绝？"你问。"你的意思是，你和其他海族不是同一个物种？"`
+			`	"的确，"它说。"我们是原始海族剩下的全部。未被改变。征服者。在人类猴子学会使用拇指之前，我们是一百个世界的主人。"`
 				goto masters
 			
 			label masters
 			choice
-				`	"Where was your territory? Why have I never heard of you before?"`
-				`	"What do you mean, the Hai were altered?"`
+				`	"你们的领土在哪里？为什么我以前从未听说过你们？"`
+				`	"你是什么意思，海族被改变了？"`
 			
-			`	"This is our story," it says. "Once, many worlds beyond wormhole were ours. Once, hundred thousand years now gone. We needed more worlds. A species that does not expand becomes like brackish water, like stunted tree. But dragonfolk in the south had created hyperdrive, and human monkeys had begun banging rocks together in what the Drak said was very intelligent fashion. So we were forbidden from taking more worlds."`
+			`	"这就是我们的故事，"它说。"曾经，虫洞之外的许多世界是我们的。曾经，十万年过去了。我们需要更多的世界。一个没有扩张的物种会变得像咸水，像发育不良的树。但是南方的龙人已经创造了超光速，而人类的猴子已经开始用德拉克人所说的非常聪明的方式把石头敲在一起。所以我们被禁止占领更多的世界。"`
 			branch sheragi
 				has "Rim Archaeology 6: offered"
-			`	"'Dragonfolk?'" you ask. "I've never heard of them."`
-			`	"Sheragi," it says, "they are extinct. Only their dumb ancestors survive, just as monkeys will outlast the thinking humans."`
+			`	"'龙族'？"你问。"我从来没有听说过他们。"`
+			`	"Sheragi，"它说，"他们已经灭绝了。只有他们愚蠢的祖先幸存下来，就像猴子会比有思想的人类更久远。"`
 				goto altered
 
 			label sheragi
-			`	"'Dragonfolk?'" you ask. "Do you mean the Sheragi?"`
-			`	"Impressive," it replies, "the monkey knows of Sheragi. We outlived them all. Funny that only their dumb ancestors survive, just as monkeys will outlast the thinking humans."`
+			`	"'龙族'？"你问。"你是说Sheragi吗？"`
+			`	"令人印象深刻，"它回答说，"猴子知道Sheragi。我们比他们都长寿。有趣的是，只有他们愚蠢的祖先幸存下来，就像猴子会超过有思想的人类一样。"`
 
 			label altered
-			`	"How were you altered?" you ask.`
-			`	It says, "We Hai fought Sheragi and took worlds that Drak said belonged to them, worlds that Sheragi had not yet even discovered. Drak retaliated. On all Hai worlds, Drak ships appeared in orbit. Sickness swept each planet: quick fever, strange feeling of frailness, like you are brittle bones with mouth full of dirt. Victims left alive, but all ambition gone, no desire but to die of comfortable old age."`
+			`	"你们是怎么被改变的？"你问。`
+			`	它说："我们海与Sheragi战斗，夺取了Drak说属于他们的世界，那些Sheragi甚至还没有发现的世界。Drak进行了报复。在所有海族的世界上，德拉克的飞船出现在轨道上。疾病席卷了每个星球：快速发烧，奇怪的虚弱感，就像你是脆皮的骨头，嘴里充满了污垢。受害者还活着，但所有的雄心壮志都消失了，除了安享晚年，没有任何愿望。"`
 			choice
-				`	"Did you try to resist the Drak?"`
+				`	"你试图抵抗德拉克人吗？"`
 					goto resist
-				`	"How do you know this, if it happened a hundred thousand years ago?"`
+				`	"你怎么知道这些，如果它发生在十万年前？"`
 					goto know
 			
 			label resist
-			`	"Silly monkey," it says, "none can resist. They are strong. Their will prevails. And their will is for the galaxy to be a zoo, little remnants of each species all in separate cages. For now they let humans run free so humans will grow in knowledge, but soon they will fashion a cage for humans too."`
+			`	"愚蠢的猴子，"它说，"没有人能够抵抗。他们很强大。他们的意志占上风。他们的意愿是让银河系成为一个动物园，每个物种的小残余都在不同的笼子里。现在他们让人类自由奔跑，这样人类就会增长知识，但很快他们也会为人类设计一个笼子。"`
 				goto help
 			
 			label know
-			`	"All Hai know. The story is passed down. Others tell an altered version, where the way of peace was choice and not an inflicted wound, but some in each generation learn truth, and join us here."`
+			`	"全海知道。这个故事被流传下来。其他人讲述的是一个经过改变的版本，在那里，和平的方式是选择，而不是造成的伤害，但每一代中都有一些人了解真相，并加入我们这里。"`
 				goto help
 			
 			label help
 			choice
-				`	"That is a frightening story. Thank you for taking the time to speak with me."`
+				`	"那是一个令人恐惧的故事。谢谢你花时间与我交谈。"`
 					decline
-				`	"Is there anything I can do to help you?"`
+				`	"有什么我可以帮助你的吗？"`
 			
-			`	"If you are ever willing to sell us a jump drive," it says, "we will richly reward you. And if you discover the secret of how we can construct our own jump drives and escape from this prison, bring it to us and you will live as a god among us."`
+			`	"如果你愿意卖给我们一个跳跃驱动器，"它说，"我们会给你丰厚的回报。如果你发现了我们如何建造自己的跳跃驱动器并逃出这个监狱的秘密，把它带给我们，你将作为一个神活在我们中间。"`
 			choice
-				`	"I'm sorry, I don't know the secret of the jump drive. No human being does."`
-				`	"If I ever have an extra jump drive to sell, I will bring it to you."`
+				`	"很抱歉，我不知道跳跃驱动器的秘密。没有人类知道。"`
+				`	"如果我有多余的跳跃驱动器要卖，我会把它带给你。"`
 					goto sell
-			`	"Then leave us alone," it says, and it walks off.`
+			`	"那就别管我们了。"它说，然后它就走了。`
 				decline
 			
 			label sell
-			`	"Bring us a jump drive," it says, "and we will count you among our friends. Bring us more, and we may even consider you worthy of a share of the plunder, when we take back what is ours."`
+			`	"给我们带来一个跳跃驱动器，"它说，"我们会把你算作是我们的朋友。给我们带来更多，我们甚至可以认为你值得分一杯羹，当我们夺回属于我们的东西。"`
 				decline
 	
 	on decline
-		log "Factions" "Unfettered Hai" `The "Unfettered" are a faction within the Hai species who are not as peaceful as the rest, and are normally not friendly toward humans. They claim that long ago the Drak altered the Hai to make them docile and peaceful, and that the Unfettered are descendants of those Hai who avoided undergoing that alteration. They are seeking jump drives so that they can escape the "prison" they are now stuck in: a few deteriorating worlds on the far northern edge of Hai space.`
-		log "Factions" "Sheragi" `The Unfettered Hai say that a dragon-like species called the "Sheragi" who are long extinct used to live in human space, back when much of what is now human territory was occupied by the Hai.`
+		log "Factions" "Unfettered Hai" `"不受约束 "是海族中的一个派别，他们不像其他人那样和平，而且通常对人类不友好。他们声称，很久以前，德拉克人改变了海族，使他们变得温顺、和平，而 "不受约束 "是那些避免接受这种改变的海族的后代。他们正在寻找跳跃驱动器，以便逃离他们现在被困的 "监狱"：在海族空间遥远的北部边缘的几个恶化的世界。`
+		log "Factions" "Sheragi" `不受约束的海族人说，一种叫做 "Sheragi "的龙类物种早已灭绝，他们曾经生活在人类的空间里，那时，现在人类的大部分领土都被海族人占领。`
 
 
 
 mission "Unfettered Jump Drive 1"
 	minor
 	landing
-	name "More Jump Drives"
-	description "The Unfettered Hai have promised you rich rewards if you bring them more jump drives."
+	name "更多跳跃驱动器"
+	description "如果你给他们带来更多的跳跃驱动器，不受约束的海族承诺给你丰富的奖励。"
 	to offer
 		has "First Contact: Unfettered: offered"
 		not "Wanderers: Jump Drive Source: active"
@@ -146,40 +146,40 @@ mission "Unfettered Jump Drive 1"
 		attributes "unfettered"
 	on offer
 		conversation
-			`The Unfettered have clearly noticed that you have a jump drive installed; a large crowd of them has gathered around your ship. Do you want to talk with them, and perhaps arrange a sale of your jump drive?`
+			`不受约束的人显然已经注意到你安装了一个跳跃驱动器；一大群人已经聚集在你的飞船周围。你想和他们谈谈，也许可以安排出售你的跳跃驱动器吗？`
 			choice
-				`	(No.)`
+				`	(不。)`
 					defer
-				`	(Yes.)`
-			`	As soon as you approach the crowd, one of them steps forward and says, "One million credits, and the friendship of the true Hai people. This is our offer, for the jump drive."`
+				`	(是的。)`
+			`	当你走近人群时，其中一个人走上前说："一百万信用点，以及真海人的友谊。这是我们的报价，为了跳跃驱动器。"`
 			choice
-				`	"Sure, I will accept that deal."`
+				`	"当然，我将接受这个交易。"`
 					goto end
-				`	"Can you offer me more than that?"`
+				`	"你能给我比这更多的东西吗？"`
 					goto more
-				`	"How will my ship leave here without my jump drive?"`
+				`	"没有我的跳跃驱动器，我的飞船怎么离开这里？"`
 			
-			`	"We will give you a hyperdrive in its place," it says, "and you will be counted as our friend, so you will not need to leave here quickly, or under threat of violence." You can't help but wonder if they will try to take your ship by force if you do not agree to the deal.`
+			`	"我们会给你一个超级驱动器来代替它，"它说，"而且你将被算作是我们的朋友，所以你不需要迅速离开这里，也不需要在暴力威胁下离开。"你不禁要问，如果你不同意这个交易，他们是否会试图用武力夺走你的飞船。`
 			choice
-				`	"Okay, I accept your generous offer."`
+				`	"好吧，我接受你慷慨的提议。"`
 					goto end
-				`	"Sorry, but if I give you this jump drive, I will lose my ability to capture more of them. Be patient, and I will bring you several of them when I am able."`
+				`	"对不起，但如果我把这个跳跃驱动器给你，我就会失去捕获更多的能力。请耐心等待，当我有能力时，我会给你带来几个。"`
 					goto refuse
 			
 			label refuse
-			`	It ponders this for a while, and says, "Very well. Our offer stands, whenever you choose to return." They allow you to return to your ship peacefully.`
+			`	它思考了一会儿，然后说："很好。我们的提议仍然有效，只要你选择返回。"他们允许你平静地回到你的船上。`
 				defer
 			
 			label more
-			`	"Do not underestimate the value of our friendship," it says. "Soon we will become powerful once more, with many fruitful worlds under our control, and when that day comes you will benefit greatly from being our ally."`
+			`	"不要低估我们友谊的价值，"它说。"很快我们将再次变得强大，在我们的控制下有许多富有成果的世界，当那一天到来时，你将从成为我们的盟友中获益匪浅。"`
 			choice
-				`	"Okay, as long as you give me a hyperdrive to take its place, I'll give you my jump drive."`
+				`	"好吧，只要你给我一个超级驱动器来取代它的位置，我就把我的跳跃驱动器给你。"`
 					goto end
-				`	"Sorry, but if I give you this jump drive, I will lose my ability to capture more of them. Be patient, and I will bring you several of them when I am able."`
+				`	"对不起，但如果我把这个跳跃驱动器给你，我就会失去捕获更多的能力。请耐心等待，当我有能力时，我会给你带来几个。"`
 					goto refuse
 			
 			label end
-			`	The Unfettered engineers quickly and carefully remove your jump drive and replace it with an ordinary hyperdrive. You sincerely hope that you are not making a mistake by giving them this new technology. "Remember," one of them says as it hands you your payment, "when you acquire more jump drives, return here with them and we will give you further rewards. Until then, may fortune favor you, human friend."`
+			`	不受约束的工程师们迅速而小心地取出你的跳跃驱动器，并用一个普通的超级驱动器取代它。你真诚地希望，你把这项新技术交给他们并不是一个错误。"记住，"其中一个人边说边把你的报酬递给你，"当你获得更多的跳跃驱动器时，带着它们回到这里，我们会给你进一步的奖励。在那之前，愿幸运之神眷顾你，人类朋友。"`
 				accept
 	
 	on accept
@@ -193,8 +193,8 @@ mission "Unfettered Jump Drive 1"
 mission "Unfettered Jump Drive 2"
 	minor
 	landing
-	name "More Jump Drives"
-	description "The Unfettered Hai have promised you rich rewards, and more information about their plans, if you bring them more jump drives."
+	name "更多跳跃驱动器"
+	description "不受约束的海族承诺给你丰富的奖励，以及关于他们计划的更多信息，如果你给他们带来更多的跳跃驱动器。"
 	to offer
 		has "Unfettered Jump Drive 1: offered"
 		not "Wanderers: Jump Drive Source: active"
@@ -206,22 +206,22 @@ mission "Unfettered Jump Drive 2"
 		attributes "unfettered"
 	on offer
 		conversation
-			`As before, when you land on this Unfettered world with a jump drive, a large crowd gathers around your ship. Clearly they are hoping that once again you will arrange a sale. Do you want to bargain with them?`
+			`和以前一样，当你带着跳跃驱动器降落在这个不受约束的世界时，一大群人聚集在你的飞船周围。很明显，他们希望你再一次安排一场交易。你想和他们讨价还价吗？`
 			choice
-				`	(No.)`
+				`	(不。)`
 					defer
-				`	(Yes.)`
-			`	When you approach the crowd, one of them says, "Greetings, human friend. We have made you known to all our brothers and sisters as one of the few creatures who have chosen to help the true Hai to gain their freedom. If you give us another jump drive, we will pay you another million credits, and make you one of our emissaries to collect the payments with which our frail brothers seek to buy peace. Will you accept this exchange?"`
+				`	(是的。)`
+			`	当你接近人群时，其中一个人说："你好，人类朋友。我们已经让所有的兄弟姐妹知道你是少数选择帮助真海人获得自由的生物之一。如果你再给我们一个跳跃驱动器，我们将再付给你一百万信用点，并让你成为我们的使者之一，以收取我们虚弱的兄弟试图购买和平的款项。你愿意接受这个交换吗？"`
 			choice
-				`	"Sorry, I need this jump drive right now, but I will come back later and sell it to you."`
+				`	"对不起，我现在需要这个跳跃驱动器，但我以后会回来把它卖给你。"`
 					defer
-				`	"Yes, I will sell you my jump drive."`
-			`	Once again, they swap your jump drive for a hyperdrive, and pay you far more than you could sell a jump drive for anywhere else. "We will tell the other true Hai to offer you jobs in our job boards," they tell you, "and remember that we need still more jump drives."`
+				`	"是的，我将把我的跳跃驱动器卖给你。"`
+			`	再一次，他们把你的跳跃驱动器换成了超级驱动器，并付给你远比你在其他地方卖跳跃驱动器的价格要高。"我们会告诉其他的真海，让他们在我们的招聘栏里为你提供工作，"他们告诉你，"记住，我们还需要更多的跳跃驱动器。"`
 			choice
-				`	"Then I will find more, and bring them to you."`
+				`	"那么我会找到更多，并把它们带给你。"`
 					accept
-				`	"Can you tell me what you are using them for?"`
-			`	"Not yet. If you further prove your friendship, perhaps we will." You assure them that you will continue to do your best to assist them.`
+				`	"你能告诉我你要用它们做什么吗？"`
+			`	"还不行。如果你进一步证明你的友谊，也许我们会。"你向他们保证，你将继续尽最大努力协助他们。`
 				accept
 	
 	on accept
@@ -244,47 +244,47 @@ mission "Unfettered Jump Drive 3"
 		attributes "unfettered"
 	on offer
 		conversation
-			`You have another jump drive, and the Unfettered will certainly be willing to pay you well for it. They also hinted that they might be willing to give you more information about what they plan to use the jump drives for. Do you want to sell them another drive?`
+			`你还有一个跳跃驱动器，不受约束者肯定愿意为此给你高额报酬。他们还暗示，他们可能愿意给你更多关于他们计划使用跳跃驱动器的信息。你想再卖给他们一个驱动器吗？`
 			choice
-				`	(No.)`
+				`	(不。)`
 					defer
-				`	(Yes.)`
-			`	You meet up with some local Unfettered leaders, and they again pay you a million credits and arrange for your jump drive to be swapped out of your ship. "If you bring more, we will continue to pay you," they say.`
+				`	(是的。)`
+			`	你和一些当地的不羁者领袖碰面，他们再次付给你一百万信用点，并安排将你的跳跃驱动器从你的船上换下来。"如果你带来更多，我们将继续付给你，"他们说。`
 			choice
-				`	"Can you tell me what you are using the jump drives for?"`
-				`	"Thank you, I will certainly bring more of them when I am able."`
+				`	"你能告诉我你用跳跃驱动器做什么吗？"`
+				`	"谢谢你，我有能力时一定会多带一些。"`
 					goto job
 			action
 				set "unfettered know of wanderers"
-			`	After a brief and hushed discussion in their own language, one of the leaders says, "You have proven your worth, so we will share our secret. The Hai once owned many worlds on the galactic fringe, a territory we can only visit using the jump drive. Those worlds are fruitful and nearly uninhabited. We will reclaim them as our own, and there will be food there to feed the Unfettered for many thousands of years to come."`
+			`	在用他们自己的语言进行了简短而沙哑的讨论后，其中一个领导人说："你已经证明了你的价值，所以我们将分享我们的秘密。海族曾经拥有银河系边缘的许多世界，我们只能使用跳跃驱动器访问这一地区。那些世界果实累累，几乎无人居住。我们将把它们开垦为我们自己的，那里将有食物，可以养活未来几千年的不羁者。"`
 			branch know
 				has "First Contact: Wanderer: offered"
 			choice
-				`	"Is there any other way I can help you to reclaim those worlds?"`
+				`	"我还有什么办法可以帮助你们开垦这些世界吗？"`
 					goto help
-				`	"'Nearly uninhabited?' You mean another species inhabits some of those worlds now?"`
+				`	"'几乎无人居住？你是说现在有另一个物种居住在那些世界中的某些地方？"`
 					goto wanderers
 			
 			label know
-			`	You suspect that they are talking about the territory that is now inhabited by the Wanderers.`
+			`	你怀疑他们说的是现在由流浪者居住的领土。`
 			choice
-				`	"Are you at war with the Wanderers? Can I help you to reclaim your territory?"`
+				`	"你在和流浪者交战吗？我能帮助你们夺回你们的领土吗？"`
 					goto help
-				`	"What are you going to do to the species that owns those worlds right now?"`
+				`	"你打算对现在拥有那些世界的物种做什么？"`
 					goto wanderers
 			
 			label help
-			`	"Your help may indeed be beneficial to us," says the leader. "I will tell the others to contact you if they have any particular missions you can undertake."`
+			`	"你的帮助可能确实对我们有利，"领袖说。"我会告诉其他人，如果他们有什么特别的任务可以承担，就与你联系。"`
 			choice
-				`	"I look forward to hearing from them."`
+				`	"我期待着他们的消息。"`
 					goto job
-				`	"What do you plan to do to the species that inhabits those worlds now?"`
+				`	"你打算对现在居住在那些世界上的物种做什么？"`
 			
 			label wanderers
-			`	"Those worlds are now held by a species of scavengers, who feast on the ruin of proud civilizations. Our scouts tell us that these carrion-feeders have wiped away nearly every Hai artifact, melting down our cities to make metal for their ships and factories, and hiding the scars of our wars beneath newly planted forests. They are an old and strong species, but few in number, and those worlds are ours by right."`
-			`	You try to press them for more information, but they tell you nothing useful, aside from promising you that they will seek out your help when it is time to reclaim their territory.`
+			`	"那些世界现在被一种清道夫的物种所占据，他们在骄傲的文明的废墟上大快朵颐。我们的侦察员告诉我们，这些食腐动物几乎抹去了所有的海产文物，融化了我们的城市，为他们的船只和工厂制造金属，并将我们的战争伤痕隐藏在新种植的森林之下。他们是一个古老而强大的物种，但数量很少，而这些世界是我们的权利。"`
+			`	你试图逼问他们更多的信息，但他们没有告诉你任何有用的信息，除了向你承诺，当他们要收回自己的领土时，会寻求你的帮助。`
 			label job
-			`	"If you want to provide us with more jump drives, visit the job board from now on," says the leader. "We will have warriors ready to receive them from you for the usual pay."`
+			`	"如果你想为我们提供更多的跳跃驱动器，从现在开始，请访问招聘栏，"领导者说。"我们会有战士准备好从你那里接收它们，并支付通常的报酬。"`
 				accept
 	
 	on accept
@@ -335,165 +335,165 @@ mission "Unfettered Jump Drive Trading"
 		random < 20 + 8 * "Unfettered Jump Drive 4: failed"
 	on offer
 		conversation
-			`The Unfettered are starting to know you by reputation for bringing jump drives to them. This time, one of them<hood> - an engineer, judging by the writing pad and equipment they have - is waiting for you at your hatch.`
-			`	Maybe they mean to trade something other than money with you. Do you want to bargain for another drive with them?`
+			`不受约束的人开始知道你给他们带来跳跃驱动器的声誉。这一次，他们中的一个人<hood>--从他们的写字板和设备来看，是个工程师--在你的舱口等你。`
+			`	也许他们的意思是要和你交换一些钱以外的东西。你想和他们讨价还价，让他们再开一次车吗？`
 				to display
 					not "unfettered: blade rodeo"
-			`	They probably mean to offer the same deal of exchanging jump drives for weapons as before. Do you want to try and see if you can prove yourself worthy this time, and bargain for a jump drive?`
+			`	他们可能是想提供和以前一样的交易，用跳跃驱动器换取武器。你想试试，看看这次你是否能证明自己的价值，并为一个跳跃驱动器讨价还价？`
 				to display
 					has "unfettered: blade rodeo"
 			choice
-				`	(No.)`
+				`	(不。)`
 					defer
-				`	(Yes.)`
-			`	As soon as you set foot on the world the supposed engineer drops her equipment and throws a blade at you just like before - it seems that she does not want to waste time with you anymore.`
+				`	(是的。)`
+			`	你一踏上这个世界，那个所谓的工程师就放下了她的设备，像以前一样向你扔了一把刀--看来她不想再和你浪费时间了。`
 				to display
-					"unfettered: blade rodeo" == 1
+					"不受约束：刀锋竞技场" == 1
 				goto blade
-			`	You exit your ship, but before you can even reach the engineer, another Unfettered shouts to attract your attention and then throws a blade at you, without any other warning or ceremony.`
+			`	你离开了你的飞船，但在你还没有走到工程师面前时，另一个不羁的人喊叫着吸引你的注意，然后向你扔了一把刀，没有任何其他警告或仪式。`
 				to display
-					"unfettered: blade rodeo" > 1
+					"不受约束：刀锋竞技场" > 1
 				goto blade
-			`	You exit your ship and immediately the engineer starts to lead you to the outfitter. "We have weapons to show you for your assistance in providing us with jump drives. For now you will only be allowed to trade for the one, but if you continue to provide assistance to us, you may prove yourself worthy to access the others." They never stop to ask if you are actually interested in new weapons.`
+			`	你离开你的飞船，工程师立即开始带你到装备者那里。"我们有武器要给你看，以感谢你为我们提供跳跃驱动器的协助。目前，你只能被允许换取一个，但如果你继续为我们提供帮助，你可能会证明自己有资格获得其他的武器。"他们从不停下来问你是否真的对新武器感兴趣。`
 			label repeat
 			choice
-				`	(Follow them.)`
+				`	(跟随他们。)`
 					goto next
-				`	"I'm not really interested in Hai weapons."`
+				`	"我对海武器并不感兴趣。"`
 					to display
 						not "unfettered: uninterested in weapons"
 					goto uninterested
-				`	(Leave and come back another time.)`
+				`	(离开，下次再来。)`
 			action
 				clear "unfettered: uninterested in weapons"
-				"unfettered: jd to sell" ++
-			`	"How rude. You better hope there will be someone else to guide you, next time!" Says the engineer as you walk off and return to your ship.`
+				"不受约束：JD出售" ++
+			`	"真无礼。你最好希望会有其他人来指导你，下一次！"当你走开并回到你的船上时，工程师说。`
 				defer
 			label uninterested
 			action
 				set "unfettered: uninterested in weapons"
-			`	"These are not standard Hai weapons, Captain, trust me. Also, it would be ill-advised to judge before seeing them, would it not?"`
+			`	"这些不是标准的海族武器，船长，相信我。另外，在看到它们之前就做出判断是不明智的，不是吗？"`
 				goto repeat
 			label next
-			`	They lead you through the usual outfitter but then go to an area you have never noticed before, probably because you were not meant to. As you are about to pass through what you assume to be a security check, an Unfettered throws a blade at your face!`
+			`	他们带领你穿过通常的装备店，但后来到了一个你以前从未注意过的区域，可能是因为你本不打算注意。当你准备通过你认为是安全检查的地方时，一个不羁者向你的脸扔了一把刀！你认出了同一个不羁者。`
 			label blade
-			`	You recognize the same Unfettered from last time; she must fancy throwing blades at people.`
+			`	你认出了上次的那个不羁者；她一定喜欢向人扔刀片。`
 				to display
 					has "unfettered: blade rodeo"
 			choice
-				`	(Try to grab it.)`
+				`	(试着抓住它）。`
 					goto grab
-				`	(Try to dodge it.)`
+				`	(试着躲开。)`
 					goto dodge
-				`	(Leap to the side and use my own weapon.)`
-				`	(Flee.)`
+				`	(跳到一边，用我自己的武器。)`
+				`	(逃离。)`
 					goto flee
-			`	You leap to the side, grabbing your own weapon just in time to threaten the Unfettered that threw the blade at you. Seeming a bit surprised by your unconventional tactics, they lower their own weapon. "Well done! In truth, there is no higher honor than surviving on the field of battle, because only then can you bring loot back to those who need it! A tactic is only good if you can find and execute it quickly enough to give you an edge, which you did.<learned> I am Desneeparu, and it is my pleasure to meet you, Captain."`
+			`	你跳到一边，抓住自己的武器，正好威胁到向你投掷刀片的不羁者。似乎对你的非常规战术有些惊讶，他们放下了自己的武器。干得好！"。事实上，没有比在战场上生存更高的荣誉了，因为只有这样你才能把战利品带回给那些需要它的人！"。一种战术只有在你能迅速找到并执行它，使你获得优势时才是好的，你做到了。<learned>我是德斯内帕鲁，很高兴见到你，上尉。"`
 				goto meet
 			label grab
-			`	You manage to grab the weapon, just in time to deflect an incoming attack from the same Unfettered. They duel with you for what feels like an eternity. At first you are astonished by the fact you have managed to survive this long, but you soon realize that, as you have not managed to land a single successful blow, this must be some kind of deliberate test.`
-			`	Then, suddenly, you can feel the pace of your opponent change; the game is over. They strike a masterful blow that disarms you with ease before smiling and lowering their weapon. "It looks like you know what to do with a blade!<learned> I am Desneeparu, and it is a pleasure to meet you, Captain <last>!" she exclaims, before laughing at your surprised face. You realize she must have been toying with you from the beginning, but, nevertheless, she seems satisfied by your performance.`
+			`	你设法抓住了武器，正好挡住了来自同一个不受约束者的来袭攻击。他们与你决斗，感觉像是永恒的。起初，你对自己能够存活这么久感到惊讶，但你很快意识到，由于你没有成功地打出一击，这一定是某种故意的测试。`
+			`	然后，突然间，你能感觉到你的对手的节奏发生了变化；游戏结束了。他们打出了高超的一击，轻松地解除了你的武装，然后微笑着放下了他们的武器。"看来你知道怎么用刀了！<learned>我是德斯内帕鲁，很高兴见到你，<last>队长！"她感叹道，然后对着你惊讶的脸笑起来。你意识到她一定是从一开始就在玩弄你，但是，尽管如此，她似乎对你的表现很满意。`
 			label meet
 			action
 				log "Minor People" "Desneeparu" `An Unfettered warrior that knows how to handle a blade. Was tested by her before being given access to new Unfettered weapons. Would have been a goner had she not been holding back.`
-			`	She does some kind of salute with her fist before leaving. "I must go now. I hope you will find the weapon you need, Captain."`
-			`	<The engineer> proceeds to take you underground to what looks like a very basic weapon testing range. They explain, "We prefer to do most of our testing on the field of battle. Here we only make sure the weapon actually fires before Unfettered captains can get their hands on it." You keep walking until you enter the outfitter section of the facility, where you notice the items on display are much more advanced than anything you have seen available on the surface: so much so it could almost pass for a 'normal' Hai outfitter, were it not for the overcharged, oppressive feel of the testing grounds.`
-			`	"Welcome to the advanced section of the outfitter, Captain! It is only for our most distinguished guests. Now that you have sold us multiple jump drives, I can tell you that we offer something much more valuable than money. For now, I can only offer you the mighty Tripulse Shredder, but eventually we will give you access to all kinds of weapons. Two Tripulse Shredders and our sympathy for one jump drive is the deal I propose," they say, presenting the weapons to you. Now that you can take a closer look, you notice these weapons seem fairly similar to other Hai weaponry, but they are enhanced in one way or another. Alongside the Tripulses you can spot what look like a very small Ion Cannon and an Ion Cannon mounted turret.`
+			`	她在离开前用拳头做了某种敬礼。"我现在必须走了。我希望你能找到你需要的武器，上尉。"`
+			`	<The engineer>继续把你带到地下，看起来像是一个非常基本的武器测试场。他们解释说："我们更喜欢在战场上做大部分的测试。在这里，我们只确保武器在不受约束的舰长们能够得到它之前真正发射。"你一直走，直到进入设施的装备区，你注意到那里展示的物品比你在地面上看到的任何东西都要先进得多：以至于它几乎可以作为一个 "正常 "的海装备区，如果不是因为测试场地的过度充电和压迫感的话。`
+			`	"欢迎来到舾装厂的高级区，船长！这是为我们最尊贵的人准备的。这里只为我们最尊贵的客人服务。既然你已经卖给我们多个跳跃驱动器，我可以告诉你，我们提供的东西比金钱更有价值。目前，我只能为你提供强大的Tripulse Shredder，但最终我们会让你获得各种武器。两台Tripulse Shredder和我们对一个跳跃驱动器的同情，就是我提议的交易。"他们说，把武器呈现给你。现在你可以仔细看看，你注意到这些武器似乎与其他海族武器相当相似，但它们以这种或那种方式得到了加强。在Tripulses旁边，你可以看到看起来像一个非常小的离子炮和一个安装了离子炮的炮塔。`
 			label weapons
 			choice
-				`	"Tell me more about those Tripulse Shredders I can buy."`
+				`	"告诉我更多关于那些我可以买到的Tripulse Shredders。"`
 					to display
 						not "choice: tripulse"
 					goto tripulse
-				`	"I'll settle for the tripulse, then."`
+				`	"那我就满足于Tripulse吧。"`
 					to display
 						has "choice: tripulse"
 					goto buytripulse
-				`	"Can you tell me more about that small ionic weapon?"`
+				`	"你能告诉我更多关于那个小型离子武器的情况吗？"`
 					to display
 						not "choice: blaster"
-				`	"I'd like to learn about this... ion cannon mounted on a turret?"`
+				`	"我想了解一下这个......安装在炮塔上的离子炮？"`
 					to display
 						not "choice: turret"
 					goto turret
-				`	"I would just prefer the money, actually."`
+				`	"我只是更喜欢钱，实际上。"`
 					goto money
 			action
 				set "choice: blaster"
 			scene "outfit/hai ionic blaster"
-			`	"Ah, the Blaster. It is favored by many Shield Beetle captains, because it can easily help them turn the tide of battle without needing to dedicate too much weapon space to it. Especially considering its other effects, its damage potential is serviceable. While it is true that it does not do enough ion damage to properly disable a ship on its own, it is able to jam their weapons and will give you the upper hand in a long fight."`
+			`	"啊，爆破器。它受到许多盾甲虫队长的青睐，因为它可以轻易地帮助他们扭转战局，而不需要为它拿出太多的武器空间。特别是考虑到它的其他效果，它的伤害潜力是可以使用的。虽然它确实没有足够的离子伤害来适当地使一艘船失去功能，但它能够干扰他们的武器，并将使你在长期战斗中占上风。"`
 				goto backtochoose
 			label turret
 			action
 				set "choice: turret"
 			scene "outfit/hai ionic turret"
-			`	"That is my preferred weapon out of all of them, by far. Unlike the Ion Cannon that is a hybrid weapon meant to damage the enemy from long range whilst applying a good deal of ionization, this one's role is mostly to disable enemy ships. Even a ship with many batteries will cower before this weapon! And due to its high range, small ships and even fighters will never bother you again!"`
+			`	"到目前为止，这是我在所有武器中最喜欢的武器。与离子炮不同的是，离子炮是一种混合型武器，旨在从远距离伤害敌人，同时施加大量的电离，这个武器的作用主要是使敌人的飞船失去功能。即使是拥有许多电池的舰艇也会在这种武器面前退缩。而且由于它的射程很远，小型舰艇甚至是战斗机都不会再来打扰你！"`
 			label backtochoose
-			`	"However, we only have these weapons in very limited quantities, and as such we cannot afford to give these to you yet. So, about my offer, have you made up your mind?"`
+			`	"但是，我们的这些武器数量非常有限，因此，我们还没有能力把这些武器送给你。那么，关于我的提议，你决定了吗？"`
 				goto weapons
 
 			label money
-			`	"Oh. Well, in that case, we will not bother you again with this weapon, or any other, Captain, here or in the job board."`
+			`	"哦，好吧，既然如此，我们就不再用这种武器，或其他任何武器来打扰你了，船长，在这里或在招聘会上。"`
 			choice
-				`	"Sounds good to me."`
-				`	"Wait, what was that weapon again?"`
+				`	"对我来说听起来不错。"`
+				`	"等等，那是什么武器来着？"`
 					goto tripulse
 			action
 				payment 1000000
 				set "unfettered: money for drives"
-			`	"As you wish. Do remember that if you want to sell further jump drives to us for money you may go to the job board."`
+			`	"如你所愿。请记住，如果你想进一步向我们出售跳跃驱动器以换取钱财，你可以到招聘栏去。"`
 				accept
 
 			label tripulse
 			action
 				set "choice: tripulse"
 			scene "outfit/tripulse shredder"
-			`	"The Tripulse Shredder may seem crude, but it packs a punch! Its specialty is how it combines a lot of firepower in one gun slot, and, due to its burst nature, it's perfect for pilots who already use hit and run tactics. Some captains even say that a Sea Scorpion can take out a Shield Beetle when it uses four of them, if you know what you're doing, of course! As I said, I may offer you two of these in exchange for your jump drive."`
+			`	"Tripulse Shredder可能看起来很粗糙，但它却有很强的冲击力！它的特长是如何将很多东西结合起来。它的特长是如何在一个炮位上结合大量的火力，而且，由于它的爆发性，它非常适合那些已经使用打了就跑战术的飞行员。有些机长甚至说，当海蝎子使用四把时，它可以干掉一只盾甲虫，当然，如果你知道自己在做什么的话！这就是海蝎子的优势。正如我所说，我可以用其中的两个来换取你的跳跃驱动器。"`
 				goto weapons
 			label buytripulse
 			action
 				outfit "Tripulse Shredder" 2
-			`	They order their crew to do the transfer and come to address you before leaving. "Do note that if you ever want more weapons, we will always be willing to trade them for jump drives in the job board. However, we can always offer money instead if that is of higher value to you. Of course, we can only do this exchange here on <origin>, given it is where these advanced weapons are produced and stocked."`
+			`	他们命令他们的工作人员进行转移，并在离开前来向你讲话。"请注意，如果你想要更多的武器，我们总是愿意用它们来换取工作栏里的跳跃驱动器。然而，如果这对你有更高的价值，我们总是可以提供金钱来代替。当然，我们只能在<origin>这里进行这种交换，因为这里是这些先进武器的生产和储存地。"`
 				accept
 
 			label dodge
 			action
-				"unfettered: jd to sell" += 2
-				"unfettered: dodged the blade" ++
-			`	<as before (run)> manage to dodge the blade but are then left defenseless when the same Unfettered closes with another one and slashes down to strike. They stop at the last possible moment, dissatisfaction clear on their face.`
+				"不受约束：JD出售" += 2
+				"不受约束：躲开了刀锋" ++
+			`	<as before (run)>设法躲开了刀锋，但随后被毫无防备地被同一个不受约束的人靠近，并砍下了一刀。他们在最后可能的时刻停了下来，脸上的不满很明显。`
 			branch fail
 				has "unfettered: flee from the blade"
-			`	"So this is how you 'fight,' Captain? You hide? You dodge? You refuse to seize our weapons, so you will not have them."`
+			`	"所以这就是你们的'战斗'方式，队长？你躲起来？你躲避？你拒绝夺取我们的武器，所以你不会拥有它们。"`
 				goto fail
 			label flee
 			action
-				"unfettered: jd to sell" += 4
-				"unfettered: flee from the blade" ++
-			`	<as before (flee)> run away from the blade without any difficulty, but the Hai that threw it catches up to you in mere seconds and immobilizes you with their blade on your throat.`
-			`	"You disappoint me, Captain. In battle it is of great importance that you identify your advantages over the enemy and not show weakness by running, else they will come in for the kill. You have failed in both ways here. Never would you have been able to outrun me. All you did was show fear."`
+				"不受约束：JD出售" += 4
+				"不受拘束：逃离刀锋" ++
+			`	<as before (flee)>毫不费力地从刀锋上跑开，但投掷刀锋的海在几秒钟内就追上了你，用刀锋抵住你的喉咙使你无法动弹。`
+			`	"你让我失望了，队长。在战斗中，最重要的是你要找出你对敌人的优势，不要因为逃跑而示弱，否则他们会来杀你。你在这两方面都失败了。你根本不可能跑得过我。你所做的只是表现出恐惧。"`
 				to display
 					not "unfettered: dodged the blade"
 			label fail
 			action
-				"unfettered: blade rodeo" ++
-			`	"You really keep on disappointing me, Captain. At one time you tried to avoid a fight you could not flee from, and the other to dodge a weapon that was so readily presented to you? Maybe you truly are no warrior and let most of your subordinates do the dirty work."`
+				"不受约束：刀锋竞技场" ++
+			`	"你真的一直在让我失望，上尉。一会儿你想躲避一场你无法逃离的战斗，一会儿又想躲避一个如此轻易呈现在你面前的武器？也许你真的不是战士，让你的大多数部下做脏活累活。"`
 				to display
-					"unfettered: flee from the blade" == 1
-					"unfettered: dodged the blade" == 1
-			`	"I will not keep on teaching you the same lesson! You had your chance. We cannot accept one that does not learn from their mistakes. It seems that we cannot trust you with our most advanced weapons." She then leaves, visibly irritated.`
+					"不受拘束：逃离刀锋" == 1
+					"不受约束：躲开了刀锋" == 1
+			`	"我不会再继续给你上同样的课了！"。你有过机会。我们不能接受一个不从错误中学习的人。看来，我们不能把我们最先进的武器交给你。"然后她离开了，明显地被激怒了。`
 				to display
 					or
-						"unfettered: dodged the blade" > 1
-						"unfettered: flee from the blade" > 1
+						"不受约束：躲开了刀锋" > 1
+						"不受拘束：逃离刀锋" > 1
 				decline
-			`	<leave> The engineer, who had watched the fight then explains, "Since you have failed the test we cannot give you access to our vault yet. Our weapons are only meant for the most capable of warriors. You will of course still be able to trade jump drives for money, but until you otherwise prove yourself, that is the extent of it."`
-			`	"This mistake is not permanent; I am sure she will happily forgive you, if you will only bring us more jump drives. Another engineer will be waiting for you at your hatch when that is the case."`
+			`	<leave>观看了这场战斗的工程师接着解释说："由于你没有通过测试，我们还不能让你进入我们的金库。我们的武器只为最有能力的战士准备。当然，你仍然能够用跳跃驱动器换取金钱，但在你以其他方式证明自己之前，这就是它的范围。"`
+			`	"这个错误不是永久性的；我相信她会很乐意原谅你，只要你能给我们带来更多的跳跃驱动器。到时候会有另一个工程师在你的舱口等你。"`
 				to display
-					"unfettered: jd to sell" < "Unfettered Jump Drive 4: failed"
+					"不受约束：JD出售" < "Unfettered Jump Drive 4: failed"
 				defer
-			`	"In fact, your reputation for bringing us jump drives is so great she has no choice but to forgive you in the near future. Another engineer will be waiting for you at your hatch when that is the case."`
+			`	"事实上，你为我们带来跳跃驱动器的声誉非常好，她没有选择，只能在不久的将来原谅你。在这种情况下，另一位工程师会在你的舱口等你。"`
 				to display
-					"unfettered: jd to sell" > "Unfettered Jump Drive 4: failed"
+					"不受约束：JD出售" > "Unfettered Jump Drive 4: failed"
 				defer
 	on accept
 		clear "unfettered: uninterested in weapons"
@@ -509,7 +509,7 @@ mission "Unfettered Jump Drive Trading"
 
 
 mission "Unfettered returning home"
-	description "This Hai has asked you to smuggle him out of Unfettered space and bring him to <destination>."
+	description "这个海哥让你把他偷运出不受约束的空间，并把他带到<destination>。"
 	minor
 	source
 		attributes "unfettered"
@@ -521,42 +521,42 @@ mission "Unfettered returning home"
 		random < 40
 	on offer
 		conversation
-			`During the night, you hear a gentle scratching sound on your ship's main hatch. Do you investigate?`
+			`夜里，你听到你的船的主舱门上有轻轻的刮擦声。你会调查吗？`
 			choice
-				`	(Yes.)`
-				`	(No.)`
+				`	(是的。)`
+				`	(不。)`
 					defer
-			`	You grab a flashlight and open the hatch, and find a juvenile Hai there, with a large satchel slung over his shoulder. "You are the <first> <last>, yes?" he says. You nod. He says, "Is it true what is written here?"`
-			`	In his hands he is holding a piece of foil paper. You recognize it as the wrapper from one of the food rations that you have been transporting to the Unfettered, the "tribute" that they demand from the peaceful Hai. But having never unwrapped one of the rations, you had not realized that there is writing on the inside, a few words in the angular alphabet of the Hai. The Unfettered youth sees your look of confusion, and translates the message. "It says, 'Hai-home is your home too. Rejoin your people.'"`
+			`	你拿起手电筒，打开舱门，发现一个少年海在那里，肩上斜挎着一个大书包。"你是<first><last>，是吗？"他说。你点点头。他说："这里写的是真的吗？"`
+			`	他的手中拿着一张铝箔纸。你认出这是你运送给不受约束者的食物配给的包装纸，是他们向和平的海族要求的 "贡品"。但是，由于你从未拆开过这些口粮，你没有意识到里面有文字，是海族有棱有角的字母表中的几个字。不受约束的青年看到了你的困惑，并翻译了这个信息。"它说，'海家也是你的家。重新加入你的人民。"`
 			choice
-				`	"I think it is true. The Hai who gave this tribute said they hoped the Unfettered would turn from violence and be reconciled with them."`
+				`	"我想这是真的。献上这份贡品的海族人说，他们希望不受约束的人能够放弃暴力，与他们和解。"`
 					goto true
-				`	"I'm sorry, but I don't think they will ever let you live among them, if it is your nature to be prone to violence."`
-			`	You have little experience reading Hai emotion, but the youth seems crestfallen. "You are certain?" he asks.`
+				`	"我很抱歉，但我不认为他们会让你生活在他们中间，如果你的本性是容易发生暴力的话。"`
+			`	你没有什么读懂海氏情绪的经验，但这个青年似乎很沮丧。"你确定吗？"他问道。`
 			choice
-				`	"I am certain. I can do nothing for you."`
+				`	"我很确定。我不能为你做什么。"`
 					goto refuse
-				`	"Perhaps you can come with me and find out, but don't get your hopes up."`
+				`	"也许你可以和我一起去看看，但不要抱太大的希望。"`
 					goto end
 			label true
-			`	"Will you take me to Hai-home?" he asks. "You are able to be outside Unfettered places. Can I go with you?"`
+			`	"你会带我去海之家吗？"他问道。"你能够在不受约束的地方之外。我可以和你一起去吗？"`
 			choice
-				`	"Yes, I will take you there."`
+				`	"是的，我将带你到那里。"`
 					goto end
-				`	"Sorry, I can't risk angering the Unfettered by carrying a defector."`
+				`	"对不起，我不能冒着激怒不受约束者的风险带着一个叛逃者。"`
 			label refuse
-			`	Disappointed, the youth leaves. You hope you made the right choice.`
+			`	失望之余，青年离开了。你希望你做出了正确的选择。`
 				decline
 			label end
-			`	You show the youth to one of your bunk rooms, and tell him to stay hidden there until you reach Hai-home.`
+			`	你把青年带到你的一个床铺房间，并告诉他在你到达海之家之前要藏在那里。`
 				accept
 	
 	on visit
-		dialog `You look for the young Hai, but realize that he took a ride on one of your escorts! Better depart and wait for your escorts to arrive in this star system.`
+		dialog `你寻找这个年轻的海，但发现他搭乘了你的一个护卫队！你最好离开，等待你的护卫队。最好离开并等待你的护卫队到达这个星系。`
 	on complete
 		payment 100000
 		dialog
-			`You need not have worried about the reception the Unfettered youth would receive here on Hai-home. Scarcely minutes after you hesitantly contact the Hai government, a happy crowd has gathered around your ship. When he steps out of the hatchway, he looks stunned at being welcomed so warmly. One of the Hai governors thanks you for transporting him, and pays you <payment>.`
+			`你不需要担心不受约束的年轻人在海之家这里会受到欢迎。在你犹豫不决地与海族政府联系后的短短几分钟，你的飞船周围已经聚集了一群快乐的人。当他走出舱门时，他看起来对受到如此热烈的欢迎感到惊愕。其中一位海族总督感谢你运送他，并向你支付了<payment>。`
 		"reputation: Hai" += 10
 		"reputation: Hai (Wormhole Access)" += 10
 		"reputation: Hai Merchant" += 10

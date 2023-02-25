@@ -14,16 +14,16 @@
 
 phrase "merchant names"
 	word
-		"Freelance"
-		"Merchant"
-		"Spacecraft"
-		"Spaceship"
-		"Starship"
+		"自由职业者"
+		"商人"
+		"宇宙飞船"
+		"飞船"
+		"星际飞船"
 	word
 		" "
 	word
-		"captain"
-		"pilot"
+		"船长"
+		"飞行员"
 
 
 news "merchant anywhere"
@@ -39,27 +39,27 @@ news "merchant anywhere"
 		word
 			`"`
 		word
-			"Can you believe how little they pay for used ships and outfits these days? It's just a scandal!"
-			"You know, planets as nice as this one make me want to think about selling off my fleet and retiring."
-			"I can't wait to get off this planet. What a dump!"
-			"Nice ship, captain. I hope I can afford something like that some day."
-			"I keep hearing rumors about ships disappearing north of Syndicate space. It's probably a bunch of hot air, but either way, I'm staying away from there!"
-			"I used to be a farmer, dealing with dirt and plants and animals all day. I had dozens of full barns. Thought I had it all. One day, I realized none of it was making me happy. I sold my farm to a retiring merchant and bought their fleet. Best thing I ever did."
-			"I'm barely able to turn a profit with the terrible prices at this port."
-			"It kind of boggles my mind to imagine that tomorrow I'll be a dozen light-years away. We lead exciting lives, but sometimes I wonder if we don't take enough time to appreciate what's right in front of us."
-			"Watch out for pirates! Those lowlifes will snatch every spool of thread out of your hold if you give them the chance. My advice: when you run into them, don't leave anything left to bury."
-			"Don't call the Luna shipyard workers Lunatics. They seem to be very sensitive about it."
-			"The people from Earth are called Earthlings, but the people from Mars don't want to be called Martians due to those stupid old science fiction stories."
-			"Somebody installed my anti-gravity plates upside-down. Luckily I saw it in time! Can you imagine what would have happened if I wouldn't have seen it?"
-			"To the optimist the glass is half full, but zero gravity is even better, because there you don't even need the glass."
-			"My ship has a built-in cinema, an artificial gravity pool, and an indoor roller-coaster. But you also have a nice ship, I guess."
-			"Hey, didn't I see you 3 weeks ago in the 'The Space Bar' on Bourne?"
-			"No bread is better than half a loaf, because then the passengers won't fight over it."
-			"A painting is worth a thousand words, because the profit margin on transporting visual art is much higher than on dry literature."
-			"A journey of a thousand miles has too short of a distance to make any profit."
-			"The other day I happened across a rock band whose transport flaked out. Good thing I had seats for all eight of them, because it got me into a free concert at their next stop."
-			"Always look for work that provides a lot of detail. The more interesting it sounds, the more likely it is to end up giving you stories to tell your kids someday."
-			"For some reason, boring jobs almost never hang out in the spaceport. So, if you are looking for interesting or at least varied work..."
+			"你能相信现在他们对二手船和装备的价格有多低吗？这简直是个丑闻!"
+			"你知道吗，像这个星球这么好的星球让我想卖掉我的舰队并退休。"
+			"我迫不及待地想离开这个星球。真是个垃圾场！"
+			"好船，船长。我希望我有一天能买得起这样的东西。"
+			"我一直听到关于船只在辛迪加空间北部消失的传言。这可能是一堆热空气，但无论如何，我都要远离那里！我曾经是一个农民，在那里工作。"
+			"我曾经是一个农民，整天与泥土、植物和动物打交道。我有几十个完整的谷仓。我以为我拥有这一切。有一天，我意识到这一切都不能让我快乐。我把我的农场卖给了一个即将退休的商人，买下了他们的车队。这是我做过的最好的事情。"
+			"由于这个港口的价格太差，我勉强能够实现盈利。"
+			"想象一下，明天我就会在十几光年之外，这让我有点摸不着头脑。我们过着激动人心的生活，但有时我想，我们是否没有花足够的时间去欣赏眼前的一切。"
+			"小心海盗!如果你给他们机会，这些低等生物会抢走你船舱里的每一卷线。我的建议是：当你遇到他们时，不要留下任何可以埋葬的东西。"
+			"不要叫月亮船厂的工人为疯子。他们似乎对这个问题非常敏感。"
+			"来自地球的人被称为地球人，但由于那些愚蠢的老科幻故事，来自火星的人不愿意被称为火星人。"
+			"有人把我的反重力板倒着安装。幸运的是，我及时看到了它!你能想象如果我没有看到它，会发生什么吗？"
+			"对乐观主义者来说，杯子是半满的，但零重力甚至更好，因为在那里你甚至不需要杯子。"
+			"我的飞船有一个内置的电影院，一个人工重力池，还有一个室内过山车。但你也有一艘漂亮的飞船，我猜。"
+			"嘿，三周前我不是在伯恩的'太空酒吧'看到你了吗？"
+			"没有面包比半个面包好，因为这样乘客就不会为它争吵。"
+			"一幅画胜过千言万语，因为运输视觉艺术的利润率要比干巴巴的文学作品高得多。"
+			"一千英里的旅程有太短的距离，无法赚取任何利润。"
+			"有一天，我碰巧遇到一个摇滚乐队，他们的交通工具出了故障。好在我有他们八个人的座位，因为这让我进入了他们下一站的免费音乐会。"
+			"总是寻找能提供大量细节的工作。听起来越有趣，就越有可能最终给你讲故事，让你的孩子有朝一日知道。"
+			"由于某些原因，无聊的工作几乎从不在太空港流连。所以，如果你正在寻找有趣的或至少是多样的工作..."
 		word
 			`"`
 
@@ -78,61 +78,61 @@ news "merchant in human space"
 		word
 			`"`
 		word
-			"Pirate attacks keep getting more and more frequent, even in star systems that used to be perfectly safe. Why isn't the Navy doing something about it?"
-			"I keep hearing rumors about ships disappearing north of Syndicate space. It's probably a bunch of hot air, but either way, I'm staying away from there!"
-			"I try to stick to safe parts of space if I can. Pirate attacks are too much risk for my tastes."
-			"It's such a shame how much the political situation has deteriorated. We're all humans; why can't we just get along?"
-			"I always buy my engines in the Deep. They sell the best of the best up there."
-			"With all these pirate attacks, so many people seem to be arming up and outfitting themselves for war, but I think that's a waste of money. Powerful engines, a scram drive, an afterburner, and some anti-missile defenses are all you need to stay safe."
-			"Slow and steady wins the race. Hauling cargo may not be very glamorous, but with a big enough fleet, you can net a million a week."
-			"Have you ever done any of those jobs moving black cubes around the Deep? I did that a few times but started to get a really weird vibe, and now I stay away if I can. They're hiding something big up there, and I don't want to have any part in it."
-			"Have you visited the collapsed wormhole north of Delta Velorum? Well, that's what I think it is, at least. I keep waiting for news that an alien fleet is pouring out of it. I'm sure there must be a way in, too. Haven't found it yet, but I'm not giving up!"
-			"A lot of people don't seem to like Syndicate tech, but I don't see what they're complaining about. It's cheap and it gets the job done."
-			"My first ship was a Star Barge. Took me seven weeks to get across the galaxy in that old tin can, and my cargo hold smelled of fish the whole time!"
-			"My first ship was a Sparrow. How I survived my first week in space, I'm still not sure!"
-			"My first ship was a Shuttle. I kind of miss that glorified tour bus."
-			"I love doing Syndicate jobs. Easy money for not much work. I guess they're all so rich that they can afford to pay for the best."
-			"Why does the Deep restrict the sale of City-Ships? They don't seem that much better than other warships or freighters."
-			"I just don't get why anyone would pick the pirate life. Sure, no rules, but any government that doesn't force you to have 10 licenses just to look at a heavy warship is free enough to me."
-			"I've heard rumors of captains seeing the distinct flash of whatever Quarg ships use to jump near the core. Wonder what the Quarg are doing up there."
-			"Being a pirate must be a lose-lose scenario. You do badly and you end up enslaved to a stronger pirate. You do well and you get enough attention to get targeted by the Navy or Militia."
-			"I think that people are too harsh towards pirates. Not all of them are heartless."
-			"Be careful when taking suspicious jobs. You might end up at the wrong end of a gun."
-			"Always check the spaceport for jobs. Some of them pay quite well."
-			"Falcons are the best! They're faster and sleeker than any other civilian warship!"
-			"Leviathans are the best! They're tankier and can hold more firepower than any other civilian warship!"
-			"Why would anyone use a Falcon? They have specifications worse than the Leviathan in every way, and Falcon hulls cost more to produce."
-			"How could anyone use a Leviathan? They're dreadfully slow and an eyesore to look at."
-			"Don't be fooled by the Falcon's low retail price! Once you strip out all the outfits, you'll find that the hull costs more than a Leviathan's."
-			"People may tell you otherwise, but I think that Vanguards are the best. They have such powerful frontal weaponry."
-			"Warships may have both speed and weaponry on their side, but if you're looking for something to last, use a Behemoth."
-			"I don't get how people could get worked up over what ship to use. As long as I'm in my trusty Protector, I'm happy."
-			"Ugh. Why are fighter pilots so gung-ho about charging right into the guns of their enemies? At the very least, don't make me waste hundreds of thousands of credits replacing my ships when you kill yourself."
-			"Don't you think it's strange that the Navy lets you buy their offensive fighters but not any of their other ships?"
-			"I wonder why shipyards haven't capitalized on making alternatives to the Navy combat drone. Probably because the only ships that can use drones are Navy ships, I guess."
-			"Some of the names that captains give their ships are awful. Seriously, I've seen ships named 'Ship.'"
-			"I'm convinced merchant captains make the worst jokes."
-			"What's up with the Deep? One moment, they have a defense force on par with the Navy, the next, they're asking random schmucks to help escort their fleets. How the mighty have fallen, I guess."
-			"I swear: Sparrows are so laughably weak that Flivvers are a better option for an interceptor."
-			"I was doing some jobs in the Core, when an enormous alien warship jumped in and attacked! People say I'm crazy, but I'm lucky to have gotten out of there with my life!"
-			"The Syndicate tries to keep alien attacks under wraps, but if you've been around as long as I have, you'll see them eventually."
-			"I was working a Syndicate defense job once, expecting to only deal with some pirates. Instead, I had to drive off an alien warship that jumped in same way the Quarg do! They made us sign a non-disclosure agreement, so don't tell anyone I said that."
-			"Take caution when doing bounty jobs. After it's accepted, only the bounty hunter is allowed to attack the target. Not even the Navy can help out."
-			"I once got hired by someone in search for his true love; he didn't know which ship she left in, so we traveled to dozens of planets to search for her... until he ran out of credits."
-			"I once had a passenger that was returning to the spaceport where she met her true love. I still wonder if they ever got together again."
-			"I once put 50,000 rifles and 150,000 grenades into my armory. Some of the grenades in the bottom became embedded in the floor because of all the weight on top of them. I still can't get one of them out."
-			"I felt lonely, so I participated in Romantic Matchmaking on a Syndicate planet, but that was a big scam! They never asked anything about the type of partner I was looking for, they only asked questions about what I wanted to buy in the next 10 years."
-			"I once joined Romantic Matchmaking organized by the Syndicate, but they couldn't tell me anything about my true love due to privacy concerns. Can you believe that?"
-			"Romantic Matchmaking as organized by the Syndicate is garbage; they don't even differentiate on gender."
-			"I once got married, but my partner didn't allow me to fly further than 5 systems away. Guess what? I'm now more than 5 systems away from my ex-partner."
-			"I once married somebody with no credits, and I lost half of my fleet when we divorced."
-			"I really found my true love in one of those Romantic Matchmaking programs; my love always joins me on every flight I'm on. We're a great team."
-			"I often join those Syndicate Romantic Matchmaking programs; they're a great source to pick up crew members that work for free - at least until they find out. Then I dump them on whatever planet I'm visiting."
-			"Truck drivers in the old days were required by law to take a break every 2 hours. Can you imagine that in our business? Stopping our ships every 2 hours to take a rest?"
-			"I once had some Flat Earthers as passengers. They claimed that the planets we saw are 2 dimensional circles instead of 3 dimensional spheres."
-			"Some Flat Earthers accused me of playing propaganda videos on the ship's viewports when they looked out of the ship while we were in orbit."
-			"There's no point crying over spilt milk. But the bill for cleaning the 200 tons of milk that leaked from my ship is no laughing matter either."
-			"I spy with my little eye... something large, flat, and sturdy. The landing pads! How did you know?"
+			"海盗袭击不断变得越来越频繁，甚至在过去完全安全的星系也是如此。为什么海军不采取一些措施呢？"
+			"我一直听到关于船只在辛迪加空间北部消失的传言。这可能是一堆热空气，但无论如何，我都要远离那里！我曾经是一个农民，在那里工作。"
+			"如果可以的话，我尽量坚持在太空的安全区域。海盗袭击对我来说风险太大。"
+			"政治局势恶化得如此之快，真是令人羞愧。我们都是人类；为什么我们不能和睦相处？"
+			"我总是在深海里买我的引擎。那里卖的都是最好的。"
+			"随着所有这些海盗的袭击，许多人似乎都在武装起来，为战争而装备自己，但我认为那是在浪费钱。强大的引擎、扫描驱动器、后燃机和一些反导弹防御系统就能保证你的安全。"
+			"缓慢而稳定地赢得比赛。拖运货物可能不是很有魅力，但如果有一个足够大的舰队，你可以每周净赚一百万。"
+			"你做过那些在深海里搬运黑方块的工作吗？我做过几次，但开始有一种非常奇怪的感觉，现在我尽可能地远离。他们在那里隐藏着巨大的东西，我不想参与其中。"
+			`你去过Delta Velorum北部的坍塌的虫洞吗？嗯，至少我是这么认为的。我一直在等待消息，一支外星舰队正从那里涌出。我相信也一定有办法进去。还没有找到，但我不会放弃的！"。`
+			"很多人似乎不喜欢辛迪加的技术，但我不明白他们在抱怨什么。它很便宜，而且能完成工作。"
+			`我的第一艘船是一艘星际驳船。我花了7个星期的时间在那个老锡罐里穿越银河系，而且我的货舱里一直都有鱼的味道！我的第一艘船是 "麻雀 "号。`
+			`我的第一艘飞船是 "麻雀 "号。我在太空中的第一个星期是怎么活下来的，我仍然不确定`
+			"我的第一艘飞船是一艘航天飞机。我有点想念那辆荣耀的旅游巴士。"
+			"我喜欢做辛迪加的工作。工作不多，钱却很容易赚。我猜他们都很富有，他们可以支付最好的东西。"
+			"为什么深渊限制出售城市之船？它们似乎并不比其他战舰或货船好多少。"
+			"我只是不明白为什么有人会选择海盗的生活。当然，没有规则，但任何政府如果不强迫你为了看一艘重型战舰而拥有10个许可证，对我来说就足够自由了。"
+			"我听说有传言说，船长们看到了夸父船在核心区附近跳跃时的明显闪光。不知道夸格人在那里做什么。"
+			"做海盗一定是两败俱伤的局面。你做得不好，你就会被一个更强大的海盗所奴役。你做得好，你就会得到足够的关注，成为海军或民兵的目标。"
+			"我认为人们对海盗太苛刻了。并非所有的人都是无情的。"
+			"在接受可疑的工作时要小心。你可能会成为枪口下的亡命之徒。"
+			"经常检查太空港的工作。有些工作的报酬相当高。"
+			"猎鹰是最好的!它们比任何其他民用战舰都要快，都要圆滑!"
+			"利维坦人是最好的!它们比任何其他民用战舰的坦克和火力更强!"
+			"为什么会有人使用猎鹰？它们的规格在各方面都比利维坦差，而且猎鹰船体的生产成本更高。"
+			"怎么会有人使用利维坦呢？它们慢得吓人，而且看起来很碍眼。"
+			`不要被 "猎鹰 "的低零售价所迷惑!一旦你剥去所有的装备，你会发现船体的成本比利维坦的还要高。`
+			"人们可能会告诉你，但我认为先锋号是最好的。他们有如此强大的正面武器。"
+			"战舰可能同时拥有速度和武器装备，但如果你想找一个持久的东西，就用巨兽。"
+			"我不明白人们怎么会为使用什么船而感到兴奋。只要我在我可靠的保护者里，我就很高兴。"
+			"唉。为什么战斗机飞行员如此热衷于直接冲向敌人的枪口？至少，不要让我在你自杀的时候浪费几十万信用点来更换我的飞船。"
+			"你不觉得海军让你购买他们的攻击性战斗机而不购买他们的其他船只很奇怪吗？"
+			"我想知道为什么船厂还没有利用制造海军战斗无人机的替代品。我想，可能是因为唯一能使用无人机的船是海军的船。"
+			"船长们给他们的船起的一些名字太糟糕了。说真的，我见过的船都叫'船'。"
+			"我确信商船船长们开的是最糟糕的玩笑。"
+			"深海号是怎么回事？一会儿，他们有一支与海军相当的防御力量，一会儿，他们又要求随机的笨蛋帮助护送他们的舰队。我想，强者是如何堕落的。"
+			"我发誓。麻雀是如此可笑的弱点，以至于Flivvers是拦截器的一个更好的选择。"
+			"我在核心区做了一些工作，这时一艘巨大的外星战舰跳了进来，并发动了攻击！人们说我疯了，但我不知道该怎么办。人们都说我疯了，但我很幸运地逃出了那里，还能保住性命!"
+			"辛迪加试图将外星人的攻击隐藏起来，但如果你像我一样在这里待了这么久，你最终会看到它们。"
+			"我曾经在辛迪加的防卫工作中，期望只处理一些海盗。相反，我不得不赶走一艘外星战舰，这艘战舰的跳跃方式与夸父的一样！他们让我们签署了保密协议。他们让我们签署了一份保密协议，所以不要告诉任何人我说过这些。"
+			"做赏金工作时要谨慎。接受后，只有赏金猎人可以攻击目标。甚至海军也不能帮忙。"
+			"我曾经受雇于某人寻找他的真爱；他不知道她乘坐哪艘船离开，所以我们去了几十个星球寻找她......直到他的信用额度耗尽。"
+			"我曾经有一个乘客要返回她遇到真爱的那个太空港。我仍然想知道他们是否曾经再次走到一起。"
+			"我曾经把50,000支步枪和150,000枚手榴弹放入我的军械库。由于上面的重量太大，底部的一些手榴弹被嵌入了地板。我仍然不能把它们中的一个拿出来。"
+			"我感到很孤独，所以我参加了辛迪加星球上的浪漫相亲会，但那是一个很大的骗局！他们从来没有问过我的类型。他们从来没有问过我要找的伴侣类型，他们只问我在未来10年里想买什么的问题。"
+			"我曾经参加过辛迪加组织的浪漫相亲会，但由于隐私问题，他们不能告诉我关于我的真爱的任何事情。你相信吗？"
+			"由辛迪加组织的浪漫相亲会是垃圾；他们甚至不区分性别。"
+			"我曾经结婚，但我的伴侣不允许我飞到5个系统以外的地方。你猜怎么着？我现在离我的前伴侣超过了5个系统的距离。"
+			"我曾经和一个没有学分的人结婚，我们离婚时我失去了一半的舰队。"
+			"我真的在那些浪漫的相亲节目中找到了我的真爱；我的爱人总是在我的每次飞行中和我一起。我们是一个伟大的团队。"
+			"我经常加入那些辛迪加的浪漫相亲项目；他们是一个很好的来源，可以挑选出免费工作的船员--至少在他们发现之前。然后我把他们扔到我要访问的任何星球上。"
+			"过去的卡车司机被法律要求每2小时休息一次。你能想象在我们的业务中这样做吗？每2小时让我们的船停下来休息一下？"
+			"我曾经有一些平地人作为乘客。他们声称，我们看到的行星是二维的圆，而不是三维的球体。"
+			"当我们在轨道上时，一些平土主义者指责我在飞船的视窗上播放宣传片，他们从飞船上看出去。"
+			"为打翻的牛奶哭泣是没有意义的。但清理从我的飞船上漏出的200吨牛奶的账单也不是什么笑料。"
+			"我用我的小眼睛观察到......一些大的、平的、结实的东西。着陆点！？你怎么知道的？"
 		word
 			`"`
 
@@ -143,27 +143,27 @@ news "farmer"
 		attributes "farming"
 	name
 		word
-			"Farmer"
+			"法尔默"
 	message
 		word
 			`"`
 		word
-			"My neighbor is using some sort of newfangled pesticides. The wind carried their residue onto my fields and destroyed half my crops."
-			"This year, only the farms with enough money to pay for irrigation are thriving. In most of my fields, there's nothing growing but knotweed and razor grass. I hope we can make it to the next season."
-			"The corporate farms keep buying out more and more small farmers to expand their own operations. Pretty soon there won't be any of us left."
-			"Fancy folks in the big cities and the Paradise Planets think they've got life all figured out, but if you scratch the surface, you'll find that they're slaves to their lifestyles, and we're the ones who are free."
-			"I moved here from a richer world and wouldn't ever go back."
-			"Surprised to see horses and wooden carts in the 31st century, huh? Sometimes the old ways are the best."
-			"Everybody who wants to stay here is crazy. We can't hardly make any money and nobody appreciates what we do."
-			"I hope I make enough money this season to afford passage to Maker. I hear there are at least opportunities to get ahead there."
-			"Why don't those bureaucrats ever leave us alone? With all the regulations and taxes I have to plan for, it's tough to make ends meet."
-			"I hear that merchant captains don't pay any taxes. What a racket! They tax hard-working folks like me who produce the real value in this galaxy and ignore the parasites like you who just move it around!"
-			"It's a good thing the Republic still lets the Syndicate sell pesticides. Without those, I'm not sure how we could grow anything at all what with the tough native weeds on this planet."
-			"Did you eat today? Thank a farmer."
-			"I used to be a merchant captain like you. Bank account got up to a few million at one point. Thought I had it all. One day I realized none of it was making me happy. I bought this farm and gave the rest away. Best thing I ever did."
-			"I came out here because I liked the company of animals more than people like you. Go away."
-			"You should check around spaceports often. You might find one of us needing a captain like you for a job."
-			"Carpe Diem!"
+			"我的邻居正在使用某种新式的杀虫剂。风把它们的残留物带到我的田里，毁了我一半的庄稼。"
+			"今年，只有那些有足够的钱来支付灌溉费用的农场才会兴旺。在我的大部分田地里，除了结缕草和剃刀草外，什么也没长。我希望我们能撑到下一季。"
+			"公司农场不断收购越来越多的小农户，以扩大他们自己的业务。很快，我们中就没有人了。"
+			"大城市和天堂星球上的花花公子们认为他们已经想通了生活，但如果你从表面上看，你会发现他们是他们生活方式的奴隶，而我们才是自由的人。"
+			"我从一个更富裕的世界搬到这里，再也不会回去了。"
+			"在31世纪看到马和木头车，很惊讶吧？有时老办法是最好的。"
+			"想留在这里的人都是疯子。我们几乎赚不到钱，没有人欣赏我们的工作。"
+			"我希望这一季我能赚到足够的钱，买得起去Maker的路费。我听说那里至少有出人头地的机会。"
+			"那些官僚们为什么不放过我们？我必须为所有的规章制度和税收做打算，要维持生计是很困难的。"
+			"我听说商船船长不交任何税。这真是个骗局!他们向像我这样辛勤工作的人征税，他们在这个星系中生产真正的价值，而忽略了像你这样的寄生虫，他们只是把它搬来搬去!"
+			"好在共和国仍然让辛迪加出售杀虫剂，这是件好事。没有这些，我不知道我们怎么能种植任何东西，因为这个星球上的本地杂草很顽强。"
+			"你今天吃了吗？感谢一个农夫。"
+			"我曾经是一个像你一样的商人船长。银行账户一度达到了几百万。我以为我拥有这一切。有一天，我意识到这一切都不能让我快乐。我买了这个农场，把剩下的都给了别人。这是我做过的最好的事情。"
+			"我来到这里是因为我喜欢动物的陪伴，而不是你这样的人。走吧。"
+			"你应该经常到太空港附近看看。你可能会发现我们中有人需要像你这样的船长来工作。"
+			"卡佩-迪恩"
 		word
 			`"`
 
@@ -175,18 +175,18 @@ news "textile worker"
 		attributes "textiles"
 	name
 		word
-			"Textile worker"
+			"纺织工人"
 	message
 		word
 			`"`
 		word
-			"Two days ago I ran over my finger with an industrial sewing machine. Put a hole straight through my thumb. But at least they paid my medical bill and gave me a week of sick leave."
-			"Working in the mill is hard, but I'm making good money. Someday I hope to buy my own spaceship like yours."
-			"Can you believe it's the year 3000 and they still need people like me to work in textile mills? Where are the robot factories to do all the work while I live a life of ease?"
-			"I'm just working here until I can save up enough money to go to college."
-			"I'm just working here until I can save up enough money to buy my own spaceship, just like yours!"
-			"Almost everyone else here can't wait to get out, but I'm proud of the work I do. Without people like me, you wouldn't have anything to wear!"
-			"You should check the spaceport often. I might not be able to afford transport right now, but I'll need to leave this dirtball when I get enough money for college."
+			"两天前我用一台工业缝纫机碾过我的手指。在我的拇指上直接开了个洞。但至少他们支付了我的医疗费，并给我一个星期的病假。"
+			"在工厂工作很辛苦，但我的收入不错。有一天我希望能买到像你一样的自己的飞船。"
+			"你能相信现在是3000年了，他们仍然需要像我这样的人在纺织厂工作吗？哪里有机器人工厂来做所有的工作，而我却过着轻松的生活？"
+			"我只是在这里工作，直到我可以攒够钱去上大学。"
+			`我只是在这里工作，直到我可以攒够钱买我自己的飞船，就像你的一样！"。`
+			`这里的其他人几乎都迫不及待地想出去，但我为我的工作感到自豪。没有像我这样的人，你就没有什么可穿的！"。`
+			"你应该经常检查太空港。我现在可能买不起交通工具，但当我有足够的钱上大学时，我需要离开这个土豪。"
 		word
 			`"`
 
@@ -198,17 +198,17 @@ news "miner"
 		attributes "mining"
 	name
 		word
-			"Miner"
+			"矿工"
 	message
 		word
 			`"`
 		word
-			"Mining's the best opportunity on this whole planet, but I worry about my health. I've started to cough up blood when I get sick. It's a good thing the company pays for our medical bills."
-			"I buried my dad last week. He was a miner, too. The company didn't give me any time off so I had to pay to attend my own father's funeral. Can you believe that?"
-			"A few years of this and I'll be able to afford my own starship. I pulled in more than 120,000 credits last year! That's more than my brother makes on Hermes, and he's a scientist."
-			"My team is sinking in the rankings again. I should have known better than to put 500 credits on them when they had such a bad season opener."
-			"I've heard that miners who work on Clink are several times more likely to develop cancer. I must admit that the wages are mighty tempting, though..."
-			"Check the spaceports around these parts. We might need an express delivery for extra equipment."
+			"采矿是这整个星球上最好的机会，但我担心我的健康。我已经开始在生病时咳血了。好在公司为我们支付医疗费用。"
+			"我上周埋葬了我的父亲。他也是个矿工。公司没有给我任何休息时间，所以我不得不花钱参加自己父亲的葬礼。你能相信吗？"
+			"再过几年，我就能买得起自己的星舰了。我去年的收入超过了12万信用点!这比我哥哥在赫尔墨斯的收入还多，而他是个科学家。"
+			"我的团队在排名上又开始下滑了。我应该知道，当他们的赛季开局如此糟糕时，我不应该在他们身上投入500个信用点。"
+			"我听说在克林克工作的矿工患癌症的可能性要大几倍。我必须承认，虽然工资很诱人......"
+			"检查这些地方的太空港。我们可能需要快递来运送额外的设备。"
 		word
 			`"`
 
@@ -220,23 +220,23 @@ news "factory worker"
 		attributes "factory"
 	name
 		word
-			"Factory worker"
+			"工厂工人"
 	message
 		word
 			`"`
 		word
-			"Everybody I know wound up working in the plant, so I guess I was gonna go, too. It was inevitable or something, right?"
-			"The plant's all right. I don't have to do much more than show up on time, and I can make a decent living. It's hard work, but I don't mind."
-			"Management keeps threatening to move the plant to a planet with lower wages if our union doesn't accept concessions. I think they're bluffing; the move would cost more than they'd ever make back in profit."
-			"Working around so many huge machines is exciting. Every day we build things that would have blown the mind of anyone a thousand years ago. We're the backbone of interstellar civilization!"
-			"I don't like those news shows that tell you what to think! When I'm in the voting booth it's only MY opinion that counts!"
-			"Some of the stuff we make here ends up as one little part of a spaceship. Whenever you see a ship, always remember that it represents the effort of over a thousand of us workers."
-			"When things go wrong, somebody is responsible, and somebody gets blamed. Those somebodies are rarely the same person, unfortunately."
-			"Some people claim our universe is a simulation, but my job is so boring that I'm sure nobody would ever want to simulate it."
-			"The ground transports are just overcrowded, and the waiting times for shuttle transports are horrible. Instead, I do parkour over the buildings to get to work."
-			"I love working at the Syndicate. The small company where I worked before didn't have showers, so all people that came to office by foot smelled bad throughout the day."
-			"Moving to this planet was the best thing I did; my commute changed from 3 hours spaceflight to just 15 minutes walking."
-			"My boss is great. If we suffer, then he makes sure he takes the heat as well."
+			"我认识的每个人都在工厂工作，所以我想我也要去。这是不可避免的，还是什么，对吗？"
+			"厂里的人都很好。除了按时上班，我不需要做更多的事情，而且我可以赚取体面的生活。工作很辛苦，但我并不介意。"
+			"管理层一直威胁说，如果我们的工会不接受让步，就把工厂搬到一个工资更低的星球。我认为他们是在虚张声势；搬迁的成本比他们赚回的利润要高。"
+			"在这么多巨大的机器周围工作是令人兴奋的。我们每天都在建造那些在一千年前会让人大跌眼镜的东西。我们是星际文明的骨干!"
+			"我不喜欢那些告诉你该怎么想的新闻节目!当我在投票站时，只有我的意见才是最重要的!"
+			"我们在这里制造的一些东西最终会成为宇宙飞船的一个小零件。每当你看到一艘飞船，永远记住它代表了我们一千多名工人的努力。"
+			"当事情出错时，有人负责，有人受到指责。不幸的是，这些人很少是同一个人。"
+			"有些人声称我们的宇宙是一个模拟，但我的工作是如此无聊，我相信没有人愿意模拟它。"
+			"地面运输机实在是太拥挤了，而穿梭运输机的等待时间也很可怕。相反，我在建筑物上做跑酷来上班。"
+			"我喜欢在辛迪加工作。我以前工作的小公司没有淋浴设备，所以所有步行来办公的人一整天都有异味。"
+			"搬到这个星球是我做的最好的事情；我的通勤时间从3小时的太空飞行变成了只需步行15分钟。"
+			"我的老板很好。如果我们受苦，那么他就确保自己也会受苦。"
 		word
 			`"`
 
@@ -249,23 +249,23 @@ news "street vendor"
 		not attributes "paradise"
 	name
 		word
-			"Street vendor"
-			"Open-Air Market vendor"
-			"Food stall operator"
+			"街头小贩"
+			"露天市场小贩"
+			"食品摊位经营者"
 	message
 		word
 			`"`
 		word
-			"With the right marinade, rat meat can be delicious. Of course, they don't let us sell the ones that were already dead when we collected them."
-			"This is my own famous delicacy, Yogurt on a Stick. No, it's not frozen yogurt. It's more like, well... congealed..."
-			"Can I interest you in some vegan falafels? Trust me, you don't want to eat any of the meat that's getting sold on this street."
-			"Want some burgers? They've got my secret sauce. What's the secret sauce made of? Well, if I revealed that, it wouldn't be secret, wouldn't it?"
-			"Want some budget caviar? What's caviar? It's horse beef, duh. Why do you think that people who ride horses are called cavalry... Fish eggs?"
-			"Here, have a sample of my famous lemonsausage. What's a lemonsausage? It's, erm... It's a blend of lemon and pig meat! Trust me! No, don't go away!"
-			"I wish I had enough money to ask captains roaming around the spaceport for transport to somewhere nicer."
-			"Sell a man a fish and you can sell him fish every day; teach a man to fish and you lose your customer."
-			"I have the safest stall in town; nobody ever died from the food that I serve. At least, nobody that I know."
-			"Can I offer you an egg in this trying time?"
+			"用合适的腌料，老鼠肉可以很美味。当然，他们不会让我们卖那些在我们收集时已经死了的。"
+			"这是我自己的著名美食，棒子上的酸奶。不，这不是冷冻酸奶。它更像是，嗯......凝固的......。"
+			"我能让你对一些素食沙拉三明治感兴趣吗？相信我，你不会想吃这条街上出售的任何肉类。"
+			"想要一些汉堡吗？他们有我的秘密酱汁。秘密酱汁是什么做的？好吧，如果我透露，那就不是秘密了，不是吗？"
+			"想要一些经济型鱼子酱吗？什么是鱼子酱？是马牛肉，咄。你认为为什么骑马的人被称为骑兵...鱼卵？"
+			"来，尝尝我著名的柠檬香肠。什么是柠檬香肠？它是，呃...它是柠檬和猪肉的混合物！相信我！不，别走开！"
+			"我希望我有足够的钱去问在太空港附近游荡的船长，让他们把我送到更好的地方。"
+			"卖给一个人一条鱼，你可以每天卖给他鱼；教一个人钓鱼，你就失去了顾客。"
+			"我的摊位是镇上最安全的；从来没有人死于我提供的食物。至少，我所知道的没有人。"
+			"在这个艰难的时刻，我能给你一个鸡蛋吗？"
 		word
 			`"`
 
@@ -278,18 +278,18 @@ news "grifter"
 		not attributes "paradise"
 	name
 		word
-			"Suspicious salesperson"
-			"Hooded salesperson"
-			"Shifty dealer"
+			"可疑的销售人员"
+			"戴帽子的销售人员"
+			"狡猾的经销商"
 	message
 		word
 			`"`
 		word
-			"Can I interest you in a pair of super shoes? You'll lap the competition with these sneakers! They can also help when walking away from people who are promoting shady products!"
-			"I know a guy who can do plastic surgery real cheap. Not to imply that you need it, of course."
-			"A single spray of this nanotech perfume will make you irresistible to any prospective partners! Just don't use it when close to a dog. Or any other animal."
-			"Can I offer you a lucky playing card deck? You're guaranteed to get perfect hands in every game you play! What? No! It's not just a pile of 52 aces!"
-			"This laser razor never needs sharpening! Achieve a smoking hot look every time!"
+			"我能让你对一双超级鞋感兴趣吗？有了这双运动鞋，你就可以在竞争中脱颖而出了。它们还可以帮助你远离那些推销不正当产品的人"
+			"我认识一个人，他可以做很便宜的整形手术。当然，这并不是说你需要它。"
+			"只要喷一下这种纳米技术的香水，就能让你对任何潜在的合作伙伴都无法抗拒！这就是我们的优势。只是在接近狗的时候不要使用它。或任何其他动物。"
+			"我可以给你一副幸运扑克牌吗？保证你在每场比赛中都能得到完美的手感！？什么？不!这不仅仅是一堆52张A!"
+			"这把激光剃须刀永远不需要磨刀!每次都能实现冒着热气的外观!"
 		word
 			`"`
 
@@ -301,18 +301,18 @@ news "company psychologist"
 		attributes "rich" "urban"
 	name
 		word
-			"Company psychologist"
+			"公司心理学家"
 	message
 		word
 			`"`
 		word
-			"Studies have shown that ultimate fulfillment in life comes from doing valuable work. My calling is to help all our workers achieve that sort of self-actualization by being as productive as possible."
-			"My job is to help workers deal with stress and channel it in healthy directions. A little bit of stress is not a bad thing, if it drives someone to be more productive."
-			"We routinely evaluate employees for sociopathic tendencies, narcissism, and other signs that they might be excellent candidates for upper management positions."
-			"I've gotten incredibly good at doing this thing with my face that makes it look like I care."
-			"A trouble shared is a trouble halved, so most resource issues can be brought within acceptable limits by just pretending to listen."
-			"A man is judged by his deeds, not by his words, except in my profession; the more I talk, the more people value me."
-			"People are sometimes afraid that we psychologists can read their minds, but we are actually more scared of learning our own motivations during our studies."
+			"研究表明，人生的最终成就感来自于做有价值的工作。我的使命是帮助我们所有的员工通过尽可能高的生产力来实现这种自我实现的愿望。"
+			"我的工作是帮助工人处理压力并将其引向健康的方向。一点点的压力并不是坏事，如果它能促使某人提高生产力的话。"
+			"我们经常评估员工是否有反社会倾向、自恋以及其他可能成为高层管理职位优秀候选人的迹象。"
+			"我已经变得非常擅长用我的脸做这件事，让人觉得我很在乎。"
+			"分担麻烦就是减少麻烦，所以大多数资源问题都可以通过假装倾听而被纳入可接受的范围。"
+			"一个人是由他的行为来判断的，而不是由他的言语来判断的，除了我的职业；我说得越多，人们就越重视我。"
+			"人们有时害怕我们心理学家能读懂他们的想法，但实际上我们更害怕在研究过程中了解自己的动机。"
 		word
 			`"`
 
@@ -324,17 +324,17 @@ news "genetic counselor"
 		attributes "rich" "urban"
 	name
 		word
-			"Genetic counselor"
-			"Personal geneticist"
+			"遗传咨询师"
+			"个人遗传学家"
 	message
 		word
 			`"`
 		word
-			"Of course the technology to manipulate genes is tightly controlled. But just reading a person's genome, and advising them based on the results, is perfectly legal."
-			"Technically speaking, social status is a much better predictor of future health outcomes than anything in your genome. But most of my clients are too rich to ever need to worry about that."
-			"I just had to break the news to one of my clients that he's likely to develop alarmingly long nose hair as he ages. He took it surprisingly well."
-			"No, science can't make anyone immortal, but for anyone with enough money it can substantially reduce their chances of dying young."
-			"I was once asked to help genetically engineer a baby for a very rich couple, but the amount of money they offered me for such a highly illegal activity was laughable."
+			"当然操纵基因的技术是受到严格控制的。但只是读取一个人的基因组，并根据结果给他们提供建议，是完全合法的。"
+			"从技术上讲，社会地位比你的基因组中的任何东西更能预测未来的健康结果。但我的大多数客户都很富有，不需要担心这个问题。"
+			"我不得不告诉我的一个客户，随着年龄的增长，他可能会出现惊人的长鼻毛。他出乎意料地接受了这个消息。"
+			"不，科学不能使人长生不老，但对于有足够资金的人来说，它可以大大减少他们早逝的机会。"
+			"我曾经被要求为一对非常富有的夫妇帮助进行婴儿的基因工程，但他们为这种高度非法的活动给我的钱是可笑的。"
 		word
 			`"`
 
@@ -346,16 +346,16 @@ news "parent"
 		attributes "rich" "urban"
 	name
 		word
-			"Parent"
+			"家长"
 	message
 		word
 			`"`
 		word
-			"My kids make me so proud. They are doing so well; one is a doctor and one is a lawyer. I'm so happy that none of them chose a job like becoming a spaceship captain."
-			"I'm sad that I'm not a grandparent yet; my kids are too busy flying spaceships to extend the family line."
-			"I'm so ashamed that my boy only graduated with great honors. Our neighbors' daughter graduated with highest honors. What should I say to them when I meet them again?"
-			"Do you want to see a picture of our newborn baby? We are so happy!"
-			"Don't you hate it when parents only talk about their kids and nothing else? I really try to avoid that... although I do have really nice kids. Do you want to hear about them?"
+			"我的孩子们让我非常自豪。他们做得很好；一个是医生，一个是律师。我很高兴，他们都没有选择成为宇宙飞船船长这样的工作。"
+			"我很难过，我还没有成为祖父母；我的孩子们忙于驾驶宇宙飞船来延长家族的血统。"
+			"我很惭愧，我的孩子只以优异的成绩毕业。我们邻居的女儿以最高荣誉毕业。当我再次见到他们时，我应该对他们说什么？"
+			"你想看看我们新生儿的照片吗？我们太高兴了!"
+			"你不讨厌父母只谈他们的孩子而不谈别的吗？我真的尽量避免这样......虽然我的孩子确实很好。你想听他们的事吗？"
 		word
 			`"`
 
@@ -367,25 +367,25 @@ news "unemployed youth"
 		attributes "urban" "near earth" "dirt belt" "south"
 	name
 		word
-			"Unemployed youth"
+			"失业青年"
 	message
 		word
 			`"`
 		word
-			"I may be living on the street, but at least I haven't let myself get trapped in debt slavery like the workers on Syndicate worlds."
-			"Got any change?"
-			"I may be dirty, but I'll never be as filthy as those politicians in power."
-			"Actually, I'm working on a novel. Well, right now I'm just doing world-building and research, so I haven't written much of the actual story yet."
-			"Do you know how lucky you are, that you can visit a different world every week if you want to? I've been stuck on this one filthy little planet my whole life."
-			"If I had enough money, I'd go up to a captain in the spaceport and ask for transport to anywhere else. Nowhere's as bad as this place."
-			"Are you hiring new crewmembers? And are you by chance planning to fly to the Paradise Worlds?"
-			"I'll get my act together someday. For now I'm just enjoying life one moment at a time."
-			"I'd love to get a job, but they all require so much experience, even for those so-called 'entry-level' positions."
-			"Beat it, old-timer. I've got more important things to do than chat with you."
-			"I hate working on spaceships, but 100 credits per day is 100 credits per day."
-			"I will work for food."
-			"I will work for transport out of this place."
-			"I barely have any money today, but that will change; just wait until my ship comes in."
+			"我可能住在街上，但至少我没有像辛迪加世界的工人那样让自己陷入债务奴役。"
+			"有零钱吗？"
+			"我可能很脏，但我永远不会像那些当权的政客一样肮脏。"
+			"事实上，我正在写一本小说。好吧，现在我只是在做世界建设和研究，所以我还没有写很多实际的故事。"
+			"你知道你有多幸运吗，只要你愿意，你每周都可以访问一个不同的世界？我这辈子都被困在这个肮脏的小星球上。"
+			"如果我有足够的钱，我会去找太空港的船长，要求运送到其他地方。没有什么地方比这里更糟糕。"
+			"你在招聘新的船员吗？你是否打算飞往天堂世界？"
+			"我有一天会振作起来的。现在我只是在享受生活中的每一个时刻。"
+			`我很想找一份工作，但他们都需要很多经验，即使是那些所谓的 "入门级 "职位。`
+			"滚吧，老前辈。我有比和你聊天更重要的事情要做。"
+			"我讨厌在宇宙飞船上工作，但每天100个信用点就是100个信用点。"
+			"我将为食物而工作。"
+			"我将为离开这个地方的交通工具而工作。"
+			"我今天几乎没有钱，但这将会改变；只要等我的船来了就可以了。"
 		word
 			`"`
 
@@ -397,20 +397,20 @@ news "union organizer"
 		not attributes "research" "frontier"
 	name
 		word
-			"Union organizer"
+			"联盟组织者"
 	message
 		word
 			`"`
 		word
-			"Capitalism is the best system ever invented for driving a productive economy. But without organized labor, the fruits of that productivity will not be shared with the workers."
-			"There's more than enough wealth to go around. All that we're asking for is our fair share."
-			"Syndicate managers get paid three times as much as their employees, just for sitting in an office all day and watching us sweat."
-			"My job is to encourage workers to place a higher value on their own lives despite being surrounded by a culture that tells them they are worthless."
-			"Management warning workers not to join the union is one of our best sources of visibility among the workers."
-			"Young people usually don't join a union, so we are mostly working for the benefit of higher aged workers."
-			"Our visibility is increasing among the workforce; a rolling snowball will be harder to stop!"
-			"If it ever happens that people paid more go home and you don't, then get a new job or join a union."
-			"Here's a tip to know if you're being treated unfairly: 'Someone assigns you work, gives you a pizza, and then goes home.' The pizza is worth less than your time, and both your time and the pizza are valued much less than they value their time."
+			"资本主义是有史以来发明的推动生产性经济的最佳制度。但如果没有有组织的劳动，这种生产力的成果将无法与工人分享。"
+			"有足够多的财富可以分配。我们所要求的只是我们的公平份额。"
+			"辛迪加经理的工资是他们雇员的三倍，只是为了整天坐在办公室里，看着我们流汗。"
+			"我的工作是鼓励工人对自己的生活有更高的评价，尽管他们被一种告诉他们毫无价值的文化所包围。"
+			"管理层警告工人不要加入工会是我们在工人中最好的知名度来源之一。"
+			"年轻人通常不会加入工会，所以我们主要是为高龄工人的利益而工作。"
+			"我们的能见度在工人中不断提高；滚动的雪球将更难阻止！我们的工作是在工人中进行的。"
+			"如果有一天发生了工资高的人回家而你不回家的情况，那就换个工作或加入工会。"
+			`这里有一个提示，可以知道你是否受到了不公平的待遇："有人给你分配工作，给你一个比萨饼，然后就回家了。披萨的价值低于你的时间，而你的时间和披萨的价值都比他们的时间价值低得多。`
 		word
 			`"`
 
@@ -418,13 +418,13 @@ news "union organizer"
 
 phrase "small trash item"
 	word
-		"outfit scanner"
-		"cargo scanner"
-		"energy blaster"
-		"laser rifle"
-		"cooling duct"
-		"radar jammer"
-		"fuel pod"
+		"装备扫描仪"
+		"货物扫描器"
+		"能量爆破器"
+		"激光步枪"
+		"冷却管"
+		"雷达干扰器"
+		"燃料舱"
 
 
 news "waste collector"
@@ -434,19 +434,19 @@ news "waste collector"
 		not attributes "paradise" "station"
 	name
 		word
-			"Waste collector"
-			"Garbage collector"
-			"Trash collector"
-			"Janitor"
+			"垃圾收集器"
+			"垃圾收集器"
+			"垃圾收集器"
+			"看门人"
 	message
 		word
 			`"`
 		word
-			"My job is cleaner than people think it is. Mostly just consists of loading these bins into a ship to be deposited in a remote area of space."
-			"All's fine and dandy until someone dumps a ton of rotten Caldan lobsters and you have to deal with the smell."
-			"My worth comes from removing what's worthless!"
-			"You wouldn't believe some of the stuff people throw away around the spaceport. Yesterday I found a perfectly intact ${small trash item} that someone had dumped."
-			"You may look down on me, but I earn more money in a day than you do in a month."
+			"我的工作比人们想象的要干净。大多数情况下，只是把这些垃圾桶装到飞船上，存放在太空的一个偏远地区。"
+			"一切都很好，直到有人倾倒了一吨腐烂的卡尔丹龙虾，你就得处理这种气味了。"
+			"我的价值来自于清除无价值的东西！我的价值来自于清除无价值的东西。"
+			"你不会相信人们在太空港周围扔掉的一些东西。昨天我发现了一个完好无损的${小垃圾物品}，是有人丢弃的。"
+			"你可能看不起我，但我一天赚的钱比你一个月赚的还多。"
 		word
 			`"`
 
@@ -458,29 +458,29 @@ news "dock worker"
 		attributes "dirt belt" "rim" "factory" "south" "core"
 	name
 		word
-			"Dock worker"
+			"码头工人"
 	message
 		word
 			`"`
 		word
-			"It seems crazy to me that people on other planets would be willing to pay money for the sort of junk that we're loading into starships here."
-			"The robots do most of the heavy lifting for us, but every so often one of them malfunctions and drops a crate on someone's toe."
-			"Why do they make the cargo bay doors on certain starships so small? You wouldn't believe how hard it is sometimes to load larger items onto a ship."
-			"Watch out on April Fools. You wouldn't believe what sorts of things we have to load onto ships that day."
-			"I'd check around the spaceport frequently if I were you. Sure, you can end up carrying some strange stuff, but it pays well in the end."
-			"Don't let the naysayers tell you dock work isn't intellectually stimulating. Have you ever tried to fit together a dozen crates that are all different sizes?"
-			"I've been in this profession for five years, and the cargo that passes by here just keeps getting stranger. I don't even know what I'm loading half the time anymore."
-			"Loading living animals is the worst. I'd rather be fired than listen to the screams of a herd of Porrimian mountain goats one more time."
-			"I may never make it to space myself, but at least I can get a touch of it working here!"
-			"Just don't ask me to deal with any illegal cargo. My boss is offering a hefty reward for identifying those smugglers!"
-			"They tried once to completely replace us with machines, but had to keep some of us around to manage unusual cargo that the machines can't seem to figure out."
-			"All my peers think they're cool going to college and all, but I'm gonna work hard and retire way before any of those losers even get a real job."
-			"Another ship, another piece of cargo, another boring day at work. At least it pays the bills."
-			"I use the knowledge I gain from this job to invest in stocks. You can always tell what companies are on the move from the products that pass through here."
-			"I got a raise today. Only two credits more than my previous salary. Ridiculous!"
-			"Found a bomb in a crate the other day. Turns out I probably saved a very important diplomat from being blown to pieces."
-			"Apparently, the spaceports in the Deep have fully automated loading systems. Imagine that!"
-			"The other day I saw a band manager scrambling to find transport. She needed something with at least eight free bunks, and most of the ships around at the time were already full."
+			"在我看来，其他星球上的人愿意花钱买我们在这里装入星舰的那种垃圾，这很疯狂。"
+			"机器人为我们做了大部分的重活，但每隔一段时间，它们中的一个就会出现故障，把一个箱子掉到某人的脚趾上。"
+			"为什么他们把某些星舰上的货舱门做得那么小？你不会相信有时把较大的物品装到船上是多么困难。"
+			"注意愚人节。你不会相信那天我们要把什么样的东西装到船上。"
+			"如果我是你，我会经常检查太空港周围。当然，你可能最终会携带一些奇怪的东西，但最终会有好的回报。"
+			"不要让那些反对者告诉你码头工作不具有智力刺激性。你有没有试过把一打大小不一的箱子拼在一起？"
+			"我从事这个职业已经五年了，经过这里的货物越来越多，越来越奇怪。有一半的时间我甚至不知道我在装什么。"
+			"装载活的动物是最糟糕的。我宁愿被解雇也不愿再听一群波里米亚山羊的尖叫声。"
+			"我自己可能永远也到不了太空，但至少我可以在这里工作时感受到它的魅力!"
+			"只是不要让我处理任何非法货物。我的老板为识别那些走私者提供了高额的奖励！他们曾经试图用我们来完全取代我们。"
+			"他们曾经试图用机器完全取代我们，但不得不保留我们中的一些人，以管理机器似乎无法理解的不寻常货物。"
+			"我的同龄人都认为他们上大学和所有的事情都很酷，但我要努力工作，在那些失败者得到一份真正的工作之前就退休。"
+			"另一艘船，另一块货物，另一个无聊的工作日。至少它能支付账单。"
+			"我利用我从这份工作中获得的知识来投资股票。你总是可以从经过这里的产品中看出哪些公司在发展。"
+			"我今天得到了加薪。只比我以前的工资多了两个学分。太荒唐了!"
+			"前几天在一个箱子里发现了一个炸弹。结果发现我可能救了一个非常重要的外交官，使他免于被炸成碎片。"
+			"显然，深海的太空港有完全自动化的装载系统。想象一下吧!"
+			"有一天，我看到一个乐队经理在争相寻找交通工具。她需要至少有8个空位的东西，而当时周围的大多数船只都已经满了。"
 		word
 			`"`
 
@@ -492,17 +492,17 @@ news "housekeeper"
 		attributes "rich" "paradise"
 	name
 		word
-			"Housekeeper"
-			"Domestic worker"
+			"管家"
+			"家政工人"
 	message
 		word
 			`"`
 		word
-			"How is it possible that a man who manages a billion-credit corporation can still be so incompetent or so careless that he routinely misses the toilet bowl when he takes a piss?"
-			"The family I work for offered to let me live in a room in the attic for free, but I'm not sure I want to have that little separation between work and my personal life."
-			"If rich kids are so pampered that they've never so much as had to wash a dish in their entire lives, it makes me wonder how they hope to be independent adults one day."
-			"The kids here are not spoiled at all; the kids in the family I work for typically don't get a new computer game until two days after it gets on the market."
-			"I just got fired. The dog of one of the kids died and the missus asked me to fly to Earth and buy a new identical one. When I returned she was screaming that she didn't need two dead dogs."
+			"一个管理着有十亿信用额度的公司的人怎么可能仍然如此无能或如此粗心，以至于他在小便时经常错过马桶？"
+			"我工作的家庭提出让我免费住在阁楼上的一个房间里，但我不确定我是否想在工作和个人生活之间有那么一点分离。"
+			"如果富家子弟被宠坏了，以至于他们一辈子都不用洗碗，这让我怀疑他们有一天希望成为独立的成年人。"
+			"这里的孩子一点都不被宠坏；我工作的家庭的孩子通常在新电脑游戏上市两天后才会得到它。"
+			"我刚刚被解雇了。其中一个孩子的狗死了，太太要我飞到地球去买一只一模一样的新狗。当我回来时，她大叫着说她不需要两条死狗。"
 		word
 			`"`
 
@@ -514,17 +514,17 @@ news "groundskeeper"
 		attributes "rich" "paradise"
 	name
 		word
-			"Groundskeeper"
-			"Gardener"
+			"场地管理员"
+			"园丁"
 	message
 		word
 			`"`
 		word
-			"The family I work for has an odd fascination with carnivorous plants. I have to keep rotting piles of refuse around just to produce enough flies to feed them all."
-			"They told me that they wanted the landscaping to be classic and entertaining, so I constructed a giant hedge maze."
-			"Despite all our best terraforming efforts, it can still be hard to get native Earth plants to grow on an alien world."
-			"My employer once asked me to add a garden in their Star Queen. The pirates were sure confused when they boarded us."
-			"My employer owns almost two complete planets, but today I'm watering the plants in the small apartment she owns on this planet."
+			"我工作的家庭对多肉植物有一种奇怪的迷恋。我不得不把腐烂的垃圾堆放在周围，只是为了产生足够的苍蝇来喂饱它们。"
+			"他们告诉我，他们希望景观设计是经典和娱乐性的，所以我建造了一个巨大的树篱迷宫。"
+			"尽管我们做出了所有最好的地球改造努力，但要让地球上的本土植物在一个异域世界上生长，还是很困难的。"
+			`我的雇主曾经要求我在他们的 "星际皇后 "中添加一个花园。海盗们在登上我们的时候肯定很困惑。`
+			"我的雇主几乎拥有两个完整的星球，但今天我正在给她在这个星球上的小公寓里的植物浇水。"
 		word
 			`"`
 
@@ -536,16 +536,16 @@ news "hair stylist"
 		attributes "rich" "urban" "paradise"
 	name
 		word
-			"Hair stylist"
+			"发型师"
 	message
 		word
 			`"`
 		word
-			"For too long, the creativity of trend-setting stylists like myself has been held in check by the limited height of the doorways in most houses."
-			"My work is made possible by vision, creativity, and hairspray. Lots and lots of hairspray."
-			"The newest fad is hairstyles made to look like starships. Those boxy Navy ships are particularly hard to model in such a fluid medium."
-			"It's a real shame that captains don't think to hire a good hair stylist or two for their ships. You wouldn't believe how little so many crew members take care of their hair."
-			"A real challenge for my profession in this day and age is finding styles that work in both high and low gravity environments."
+			"长期以来，像我这样引领潮流的造型师的创造力一直被大多数房屋中有限的门洞高度所制约。"
+			"我的工作是通过愿景、创造力和发胶实现的。很多很多的发胶。"
+			"最新的流行趋势是把发型做成星际飞船的样子。那些方方正正的海军舰艇在这样一种流动的媒介中特别难以建模。"
+			"船长们没有想到要为他们的船雇用一两个好的发型师，这真是太可惜了。你不会相信这么多船员对他们的头发照顾得有多少。"
+			"在这个时代，我的职业所面临的一个真正的挑战是找到在高重力和低重力环境下都适用的发型。"
 		word
 			`"`
 
@@ -557,25 +557,25 @@ news "tour guide"
 		attributes "tourism"
 	name
 		word
-			"Tour guide"
+			"导游"
 	message
 		word
 			`"`
 		word
-			"I've delivered the same speech so many times now that the whole thing runs on continuous repeat in my head when I'm trying to sleep."
-			"Some famous people who you've probably never heard of died near here. If I weren't on break right now I would tell you all about them."
-			"At least they don't make me dress up like anything. I knew a woman whose tour job made her dress up like someone from the 21st century. Apparently back then they all wore very tight-fitting pants."
-			"It's kind of amazing to me that people would travel halfway across the galaxy to see this dump. To me, it's the one place I've always wished I could get away from."
-			"Always check in at the spaceport. You might find an unprepared tourist looking for a return trip. Trust me, I've seen it far too many times."
-			"If you have any tourists onboard that want to go anti-gravity boarding, then let them ask for me. I'll pay you commission."
-			"Mind the gravity!"
-			"I'm handing out astronaut badges by the dozen for first-time space travelers. It lost a bit of glamour now that every fool can book a flight on a spaceship."
-			"As I get older, I remember all the people I lost along the way. Maybe I'm in the wrong profession."
-			"Before the hyperdrive, rich people paid large sums of credits to be very visible going into space. Nowadays they pay large sums of credits to be invisible on-planet."
-			"One time, I gave a tour to a bunch of shady individuals in longcoats and wide-brimmed hats. I think they might have been pirates."
-			"Antigrav boards for rent! You break it, you pay."
-			"I sometimes misread 'wine tasting' as 'time wasting'. The worst part is that nobody's noticed so far."
-			"Looking for some company for tonight? No questions asked, no strings attached. Just contact me if you need anything."
+			"我已经发表过很多次同样的演讲了，以至于当我想睡觉的时候，整个事情都在我的脑海中不断重复。"
+			"一些你可能从未听说过的名人在这里附近去世。如果我现在不是在休息，我会告诉你关于他们的一切。"
+			"至少他们不会让我打扮得像什么。我认识一个女人，她的旅游工作让她打扮得像21世纪的人。显然，那时他们都穿非常紧身的裤子。"
+			"对我来说，人们会穿越半个银河系去看这个垃圾场，这有点不可思议。对我来说，这是一个我一直希望能离开的地方。"
+			"一定要在太空港签到。你可能会发现一个毫无准备的游客在寻找回程的机会。相信我，我见过太多次了。"
+			"如果你的船上有任何游客想去反重力登船，那就让他们找我。我会付给你佣金。"
+			"注意重力!"
+			"我正在为第一次上太空的人一打一打地发放宇航员徽章。现在每个傻瓜都可以预订宇宙飞船的航班，它失去了一点魅力。"
+			"随着我年龄的增长，我记得一路上失去的所有的人。也许我入错了行。"
+			"在超级驱动器之前，有钱人支付大笔信用点，以便在进入太空时非常引人注目。现在，他们支付大量的信用点，以便在星球上隐身。"
+			"有一次，我给一群穿着长衣、戴着宽边帽的阴暗的人做了一次旅游。我想他们可能是海盗。"
+			"反重力板出租!你把它弄坏了，你就得付钱。"
+			`我有时把 "品酒 "误解为 "浪费时间"。最糟糕的是，到目前为止没有人注意到。`
+			"今晚想找人陪你吗？不问问题，不附带任何条件。如果你需要什么就联系我。"
 		word
 			`"`
 
@@ -587,18 +587,18 @@ news "human resources worker"
 		attributes "factory" "urban"
 	name
 		word
-			"Human resources worker"
+			"人力资源工作者"
 	message
 		word
 			`"`
 		word
-			"We always put our employees first. But sometimes they do things that are bad for their careers. Like, accusing a high-ranking manager of harassment."
-			"I once had to find a delicate way to explain to a worker that he smelled bad. Like, so bad that no one could bear to be in a small meeting room with him."
-			"For most jobs, it's essential to know how to get along with others and be a team player. But I bet a freelance pilot like you never needs to worry about that."
-			"Many people overestimate their own capabilities. Those people usually don't last long in their jobs."
-			"Some people underestimate their own capabilities. Those people usually get bored and unproductive over time due to their work not being enough of a challenge."
-			"Presenteeism, where people are present but too unwell to do productive work, is a bigger problem these days than absenteeism."
-			"I should be dealing with employees that just hang around and don't do any useful work, but being here in the spaceport and talking to people like you is much more fun."
+			"我们总是把员工放在第一位。但有时他们会做一些对他们的职业生涯不利的事情。比如，指责一位高级经理的骚扰行为。"
+			"有一次，我不得不找到一种微妙的方式来向一名工人解释他身上的气味。比如，糟糕到没有人能够忍受和他在一个小会议室里。"
+			"对于大多数工作来说，知道如何与他人相处并成为一个团队成员是至关重要的。但我打赌，像你这样的自由职业者从来不需要担心这个问题。"
+			"许多人高估了自己的能力。这些人通常在工作中坚持不了多久。"
+			"有些人低估了自己的能力。由于他们的工作没有足够的挑战，这些人通常会在一段时间内感到厌烦和没有成就感。"
+			"在职主义，即人们虽然在场，但由于身体不适而无法进行有效的工作，是现在比旷工更大的问题。"
+			"我应该处理那些只是闲逛，不做任何有用工作的员工，但在太空港这里和像你这样的人交谈，要有趣得多。"
 		word
 			`"`
 
@@ -610,18 +610,18 @@ news "loan officer"
 		attributes "rich"
 	name
 		word
-			"Loan officer"
-			"Mortgage broker"
+			"贷款官员"
+			"抵押贷款经纪人"
 	message
 		word
 			`"`
 		word
-			"You probably think the interest rates we charge are exorbitant, but with all the ships getting blown up by pirates these days, we barely break even."
-			"We charge however much interest the market will support. The only captains who can't manage to pay their debts are the ones with no business sense whatsoever."
-			"Sadly, for the last several centuries there have been laws against inflicting bodily harm on people to convince them to pay off their debts."
-			"I still think we should be able to charge double the interest on loans to buy a Sparrow, but the regulators won't let us."
-			"Do you know how hard it is to force somebody that joined the pirates to pay off their loans?"
-			"Some people say that we're loan sharks, but I don't understand why. I think that killer whales are way cooler than sharks."
+			"你可能认为我们收取的利息过高，但由于这些天所有的船只都被海盗炸毁，我们几乎没有收支平衡。"
+			"市场能支持多少利息，我们就收多少。唯一无法偿还债务的船长是那些没有任何商业意识的人。"
+			"可悲的是，在过去的几个世纪里，一直有法律禁止对人造成身体伤害以说服他们偿还债务。"
+			"我仍然认为我们应该能够对购买麻雀的贷款收取双倍的利息，但监管机构不会让我们这样做。"
+			"你知道强迫加入海盗的人还清贷款有多难吗？"
+			"有些人说我们是高利贷，但我不明白为什么。我认为虎鲸比鲨鱼要酷得多。"
 		word
 			`"`
 
@@ -636,17 +636,17 @@ news "hyperspace relay engineer"
 		not attributes "dirt belt" "frontier"
 	name
 		word
-			"Hyperspace relay engineer"
+			"超空间中继工程师"
 	message
 		word
-			`"All of human space is linked into a single communications network by relay beacons. It's something that most people just take for granted."`
-			`"Hyperspace links don't just allow faster-than-light travel. They also allow near-instantaneous communication, if you have the right sort of relay on both ends."`
-			`"The hyperspace communications network is a marvel of public infrastructure, but most people just take it for granted."`
-			`"Hyperspace relays are so integral to society that even pirates don't dare to touch them. They'd easily become the number one enemy of the Republic if they did."`
-			`"I'm surprised at how many people on Earth are still using the old IPv4 protocol. None of the off-Earth websites are reachable for them."`
-			`"Have you ever set up a TCP/IP connection from Bourne to a server on Farpoint? I have. It's a little slow, but it works!"`
-			`"Do you know the DRQ of the HSBE for the hyperlanes around here? You don't understand? Sorry, a hyperlane can be thought of as a corridor through space..." The engineer gives a long-winded and confusing explanation of hyperlanes.`
-			`"It might take hours to get a message a few systems away going through the hyperspace relays, but it sure beats taking multiple days to send a ship or multiple centuries to send a message at light speed."`
+			`"所有的人类空间都通过中继信标连接成一个单一的通信网络。这是大多数人认为理所当然的事情。"`
+			`"超空间链接不仅允许比光速更快的旅行。它们还允许近乎即时的通信，如果你在两端都有合适的中继器的话。"`
+			`"超空间通信网络是公共基础设施的一个奇迹，但大多数人只是认为它是理所当然的。"`
+			`"超空间中继器对社会来说是如此不可或缺，甚至连海盗都不敢去碰它们。如果他们这样做，他们会很容易成为共和国的头号敌人。"`
+			`"我对地球上有多少人还在使用旧的IPv4协议感到惊讶。地球以外的网站对他们来说都是无法到达的。"`
+			`"你有没有从伯恩建立一个TCP/IP连接到远点的服务器？我有。它有点慢，但它能工作！"`
+			`"你知道这附近的超大陆的HSBE的DRQ吗？你不明白吗？对不起，超车道可以被认为是一条穿越空间的走廊......"工程师对超车道进行了啰嗦而混乱的解释。`
+			`"通过超空间中继器，可能需要几个小时才能得到几个系统以外的信息，但这肯定胜过花多天时间发送飞船或花多个世纪时间以光速发送信息。"`
 
 
 
@@ -656,20 +656,20 @@ news "hyperspace scientist"
 		attributes "research" "deep"
 	name
 		word
-			"Hyperspace researcher"
-			"Hyperspace scientist"
-			"Hyperspace specialist"
+			"超空间研究者"
+			"超空间科学家"
+			"超空间专家"
 	message
 		word
 			`"`
 		word
-			"It's hard to believe that modern-day society relies on what is effectively magical space highways."
-			"Even centuries later, we still know barely more than Charles Plot, father of the hyperdrive, did about how the hyperspace lanes were formed. All we've learned since then is apparently some other race the Quarg know is involved with them."
-			"The Quarg don't appear to even bother with hyperspace lanes. Their drives apparently teleport their ships from one system to another. If that's true, then they would be able to visit the systems inaccessible to our hyperdrives."
-			"Even if they aren't directly linked by hyperspace lanes, your ship can still detect systems near you. Not that it matters, though, since we still can't jump to those systems."
-			"The field of hyperspace lane destruction is filled with misunderstanding and pseudoscience. If there was a method to remove hyperspace lanes, though, whoever discovered it would effectively control human space."
-			"Many a hyperspace-based weapon has been tested, but due to the dynamics of entering hyperspace while not aligned with a hyperspace lane, all of them have failed. Thankfully."
-			"Our field is not rocket science. We deal with actually hard problems."
+			"很难相信，现代社会依靠的是实际上是神奇的太空高速公路。"
+			"即使几个世纪过去了，我们对超空间通道是如何形成的，仍然比超速器之父查尔斯-普拉特知道得少。从那时起，我们所了解到的，显然是夸父族所知道的一些其他种族与它们有关。"
+			"夸父族似乎根本不屑于使用超空间通道。他们的驱动器显然是将他们的飞船从一个系统传送到另一个系统。如果那是真的，那么他们就能访问我们的超驱动器无法进入的系统。"
+			"即使它们没有被超空间通道直接连接，你的飞船仍然可以探测到你附近的系统。不过，这并不重要，因为我们仍然不能跳到那些系统。"
+			"超空间通道的破坏领域充满了误解和伪科学。如果有一种方法可以消除超空间通道，尽管如此，无论谁发现它，都会有效地控制人类空间。"
+			"许多基于超空间的武器已经被测试过了，但是由于在没有对准超空间通道的情况下进入超空间的动力学特性，所有的武器都失败了。幸亏如此。"
+			"我们的领域不是火箭科学。我们处理的是实际困难的问题。"
 		word
 			`"`
 
@@ -681,16 +681,16 @@ news "geological engineer"
 		attributes "mining" "volcanic"
 	name
 		word
-			"Geological engineer"
+			"地质工程师"
 	message
 		word
 			`"`
 		word
-			"With the right equipment, you can see inside a planet as easily as if it were... um... a tomato held up in front of an arc lamp. Sorry, I'm awful at similes."
-			"I have equipment that would let me trigger an earthquake just by pressing a button. That's why they never allow me into the office when I'm drunk."
-			"For centuries people have been saying that asteroid mining is going to put terrestrial resource extraction companies out of business, but it still hasn't happened."
-			"A few times, I've traveled so deep underground that the rock felt warm to the touch. But I imagine that's nowhere near as exciting as traveling through space."
-			"I can't believe how annoying it must've been in the distant past to be a geological engineer, with you on one side, the thing you're trying to study on the other, and 15 kilometers of solid rock in between. Thankfully, technology and scanners have marched on since then, and those depressing days are long gone."
+			"有了合适的设备，你可以很容易地看到一个星球的内部，就像它是......嗯......在弧光灯前举起的一个西红柿。对不起，我的比喻很糟糕。"
+			"我有一些设备，可以让我按下一个按钮就能引发地震。这就是为什么他们从来不允许我在醉酒后进入办公室。"
+			"几个世纪以来，人们一直在说，小行星采矿将使地球上的资源开采公司破产，但它仍然没有发生。"
+			"有几次，我在地下走得很深，岩石摸起来很温暖。但我想象这远不如在太空中旅行来得刺激。"
+			"我无法相信，在遥远的过去，作为一名地质工程师，你在一边，你要研究的东西在另一边，中间是15公里长的坚硬岩石，这一定很烦人。值得庆幸的是，从那时起，技术和扫描仪都在不断进步，那些令人沮丧的日子早已过去。"
 		word
 			`"`
 
@@ -702,28 +702,28 @@ news "agricultural scientist"
 		attributes "farming"
 	name
 		word
-			"Agricultural scientist"
+			"农业科学家"
 	message
 		word
 			`"`
 		word
-			"I hope you checked your shoes for invasive species before setting foot on my planet. The last thing we want is for our crops to get infected with the Arcturan Blight."
-			"Even though there are some alien ungulates that put on weight much quicker than Earth animals, or that have much leaner meat, most people still prefer to eat cows."
-			"I've heard that the corporate farms on some Paradise Worlds don't even need irrigation systems. They can just call up the terraforming office and order a rainstorm whenever they need one."
-			"People have been farming for thousands of years, but finding the best way to maximize yields without wearing out the land is still a hard problem to solve."
-			"Don't ever forget that you have us to thank for humanity's ability to support our growing population."
+			"我希望你在踏上我的星球之前检查你的鞋子是否有入侵物种。我们最不希望的就是我们的作物感染上阿克图兰病。"
+			"尽管有一些外星有蹄类动物比地球动物增重更快，或者肉质更瘦，但大多数人仍然喜欢吃牛。"
+			"我听说，一些天堂世界的企业农场甚至不需要灌溉系统。他们可以在需要的时候，直接打电话给地球改造办公室，订购一场暴雨。"
+			"几千年来，人们一直在耕作，但要找到在不耗费土地的情况下实现产量最大化的最佳方法，仍然是一个难以解决的问题。"
+			"永远不要忘记，人类有能力支持我们不断增长的人口，你要感谢我们。"
 		word
 			`"`
 
 
 phrase "athlete competition location"
 	word
-		"Earth"
-		"Pearl in the Phurad system"
-		"Valhalla in the Epsilon Leonis system"
-		"Bourne in the Gamma Corvi system"
-		"Trinket in the Sargas system"
-		"Shangri-La in the Polaris system"
+		"地球"
+		"法拉德系统的珍珠"
+		"位于Epsilon Leonis系统的Valhalla"
+		"伯恩在伽玛科维星系"
+		`萨格斯星系的 "饰品 "号`
+		"北极星系的香格里拉"
 		
 
 
@@ -733,19 +733,19 @@ news "athlete"
 		attributes "core" "paradise" "rim"
 	name
 		word
-			"Athlete"
+			"运动员"
 	message
 		word
 			`"`
 		word
-			"I'm planning to compete in a game on ${athlete competition location}!"
-			"I tried to compete in the Burthen Triathalon once, but the gravity was too much for me. Now I'm training to try again next year!"
-			"Have you ever done the long jump on Longjump? Even an untrained individual can jump ten meters in that environment!"
-			"I sure am glad we'll never have to compete against any Alphas. We would all lose!"
-			"Does your ship have a weight room?"
-			"I'm hoping to get a sponsorship, but nobody here wants to partner with me. Could you recommend a planet where I might find better results?"
-			"I don't expect everyone to be as fit as I am, but do remember to get up and exercise a little every once in a while!"
-			"I once went to a sports event on Dancer in the the Rastaban system, but never again! All activities were indoors because of the horrible weather the planet has."
+			"我打算在${运动员比赛地点}上参加比赛!"
+			"我曾经试图参加过一次Burthen Triathalon比赛，但是重力对我来说太大。现在我正在训练，准备明年再试!"
+			"你做过Longjump上的跳远吗？即使是没有受过训练的人，在那种环境下也能跳十米!"
+			"我当然很高兴我们永远不必与任何字母竞争。我们都会输的!"
+			"你们的船有举重室吗？"
+			"我希望能得到一份赞助，但这里没有人愿意和我合作。你能推荐一个星球，在那里我可能会找到更好的结果吗？"
+			"我不指望每个人都像我一样健壮，但一定要记得每隔一段时间就起来运动一下!"
+			"我曾经在拉斯塔班系统的丹瑟尔星球上参加过一次体育活动，但以后再也没有了！所有的活动都是在室内进行的。所有的活动都是在室内进行的，因为这个星球的天气太可怕了。"
 		word
 			`"`
 
@@ -757,18 +757,18 @@ news "dentist"
 		attributes "paradise" "rich" "urban"
 	name
 		word
-			"Dentist"
+			"牙医"
 	message
 		word
 			`"`
 		word
-			"Remember to pack a toothcleanser for your journey!"
-			"My new anti-cavity campaign is called 'Plaque Doesn't Deserve a Plaque.' Do you like it?"
-			"If the galaxy has many alien species, I hope they all have teeth."
-			"The advent of almost perfect artificial teeth may tempt you to stop caring if your natural teeth start to rot. Trust me that taking care of your teeth saves a lot of pain from both your mouth and your wallet."
-			"I'm that one dentist that doesn't recommend anything."
-			"I used to work as a back-alley doctor before getting this job."
-			"9 out of 10 dentists think the 10th dentist is an idiot."
+			"记得为你的旅程带上洗牙器!"
+			`我的新的反龋齿运动被称为 "牙菌斑不配拥有牙菌斑"。你喜欢它吗？`
+			"如果银河系有许多外星物种，我希望它们都有牙齿。"
+			"如果你的天然牙齿开始腐烂，几乎完美的人造牙齿的出现可能会诱使你不再关心。相信我，照顾好你的牙齿可以为你的口腔和你的钱包节省很多痛苦。"
+			"我是那个不推荐任何东西的牙医。"
+			"在得到这份工作之前，我曾经担任过后巷的医生。"
+			"10个牙医中的9个认为第10个牙医是个白痴。"
 		word
 			`"`
 
@@ -780,15 +780,15 @@ news "epidemiologist in human space"
 		attributes "medical"
 	name
 		word
-			"Epidemiologist"
+			"流行病学家"
 	message
 		word
 			`"`
 		word
-			"People always worry about extra-terrestrial viruses and bacteria, but the deadliest diseases are very often caused by microbes we brought with us to the stars from good old Mother Earth."
-			"Would you be willing to donate a saliva sample? Frequent interstellar travelers are the primary vector for pandemics, so we're supposed to monitor any starship captains that come through here."
-			"It's been so many centuries since the Rigellian Plague that most spaceports don't even have quarantine facilities anymore. When the next big one comes, we'll be woefully unprepared."
-			"Don't listen to those conspiracy theories that say you can catch awful viruses from the Quarg. Their physiology is so alien that we're immune to all their diseases."
+			"人们总是担心地外病毒和细菌，但最致命的疾病往往是由我们从善良的地球母亲带到星空的微生物引起的。"
+			"你愿意捐献唾液样本吗？频繁的星际旅行者是大流行病的主要媒介，所以我们应该监测任何经过这里的星际飞船的船长。"
+			"自里格利亚瘟疫以来，已经过去了好几个世纪，大多数太空港甚至都没有隔离设施了。当下一次大瘟疫来临时，我们将毫无准备。"
+			"不要听那些阴谋论的说法，说你可以从夸父那里感染可怕的病毒。他们的生理结构是如此陌生，以至于我们对他们的所有疾病都有免疫力。"
 		word
 			`"`
 
@@ -800,15 +800,15 @@ news "epidemiologist on quarg world"
 		attributes "human"
 	name
 		word
-			"Epidemiologist"
+			"流行病学家"
 	message
 		word
 			`"`
 		word
-			"People always worry about extra-terrestrial viruses and bacteria, but the deadliest diseases are very often caused by microbes we brought with us to the stars from good old Mother Earth."
-			"Would you be willing to donate a saliva sample? Frequent interstellar travelers are the primary vector for pandemics, so we're supposed to monitor any starship captains that come through here."
-			"It's been so many centuries since the Rigellian Plague that most spaceports don't even have quarantine facilities anymore. When the next big one comes, we'll be woefully unprepared."
-			"Don't listen to those conspiracy theories that say you can catch awful viruses from the Quarg. Their physiology is so alien that we're immune to all their diseases."
+			"人们总是担心地外病毒和细菌，但最致命的疾病往往是由我们从善良的地球母亲带到星空的微生物引起的。"
+			"你愿意捐献唾液样本吗？频繁的星际旅行者是大流行病的主要媒介，所以我们应该监测任何经过这里的星际飞船的船长。"
+			"自里格利亚瘟疫以来，已经过去了好几个世纪，大多数太空港甚至都没有隔离设施了。当下一次大瘟疫来临时，我们将毫无准备。"
+			"不要听那些阴谋论的说法，说你可以从夸父那里感染可怕的病毒。他们的生理结构是如此陌生，以至于我们对他们的所有疾病都有免疫力。"
 		word
 			`"`
 
@@ -820,15 +820,15 @@ news "economist"
 		attributes "rich" "urban"
 	name
 		word
-			"Economist"
+			"经济学家"
 	message
 		word
 			`"`
 		word
-			"We're actually required by local law to predict that the economy will continue to do well, because the government thinks that any dire predictions will be a self-fulfilling prophecy."
-			"It's crazy that we live in an age where technology lets us predict solar storms a month in advance, but we still can't predict what the stock market will do a week from today."
-			"The hardest part of being an economist isn't the difficulty of seeing a disaster coming; it's the difficulty of convincing those in power to do something about it."
-			"An economy is almost like a living organism, and if you're able to grasp its intricacy and scope, it's actually a very beautiful thing."
+			"实际上，当地法律要求我们预测经济会继续良好发展，因为政府认为任何可怕的预测都会成为自我实现的预言。"
+			"我们生活在一个技术可以让我们提前一个月预测太阳风暴的时代，但我们仍然无法预测一周后的股市情况，这太疯狂了。"
+			"作为一名经济学家，最困难的部分并不是看到灾难来临的困难，而是说服那些当权者对其采取行动的困难。"
+			"经济几乎就像一个活的有机体，如果你能把握住它的复杂性和范围，它实际上是一个非常美丽的东西。"
 		word
 			`"`
 
@@ -840,21 +840,21 @@ news "mechanic"
 		attributes "dirt belt" "rim" "factory" "south" "core"
 	name
 		word
-			"Mechanic"
+			"机械师"
 	message
 		word
 			`"`
 		word
-			"Don't worry, I keep a strict no-smoking policy when working near the fuel system."
-			"You should really have your coolant system flushed every 50,000 light-years."
-			"They just don't build 'em like they used to."
-			"I've been restoring an old Flivver I bought from a scrapyard as a hobby project. She's going to be a beauty once I get her flying again!"
-			"Make sure your ship is running cool. An overheated ship will give you nothing but trouble."
-			"I did my apprenticeship with the Navy, but after I finished my tour, I just wanted to open up my own repair shop."
-			"I spent three years on a bulk freighter as the ship's mechanic. The pay was decent, but I like being my own boss."
-			"Piracy is a problem, but I'd be lying if I said it didn't keep the ship repair business steady."
-			"Pass me the 10 mm socket wrench?"
-			"If it ain't broken, then don't come to me."
+			"别担心，在燃料系统附近工作时，我保持严格的禁烟政策。"
+			"你真的应该每5万光年冲洗一次你的冷却剂系统。"
+			"他们只是没有像以前那样制造它们。"
+			`我一直在修复我从废品站买来的一辆老弗利弗，作为一个爱好项目。一旦我让她重新飞起来，她就会成为一个美人！"。`
+			"确保你的飞船运行时是凉爽的。一艘过热的船只会给你带来麻烦。"
+			"我在海军做了学徒，但在我完成了我的任务后，我只想开一个自己的修理厂。"
+			"我在一艘散装货船上做了三年的船舶机械师。工资还算不错，但我喜欢自己当老板。"
+			"海盗是一个问题，但如果我说它没有使船舶维修业务保持稳定，那是在撒谎。"
+			"把10毫米套筒扳手递给我？"
+			"如果它没坏，就不要来找我。"
 		word
 			`"`
 
@@ -866,20 +866,20 @@ news "ship salesperson"
 	# TODO: Add filter for only planets with shipyards (once we can use conditions to filter this).
 	name
 		word
-			"Used Spaceship Salesman"
-			"Used Spaceship Saleswoman"
-			"Used Spaceship Salesperson"
-			"Used Spaceship Seller"
-			"Used Spaceship Dealer"
+			"二手飞船销售员"
+			"二手飞船女销售员"
+			"二手飞船销售员"
+			"二手飞船卖家"
+			"二手飞船经销商"
 	message
 		word
 			`"`
 		word
-			"When one hatch closes, another one opens. Other than that, it's a pretty good spaceship."
-			"First I tell my customers how very durable my ships are. And after they buy, I tell them about all the fragile parts to convince them to also buy an extended warranty."
-			"Like new, low mileage, previously owned by an elderly lady."
-			"Hey, you there! I have the perfect ship for you."
-			"One of my ships has a fuel leak? No way, it's... sweat from all the hard work it does."
+			"当一个舱门关闭时，另一个舱门会打开。除此以外，这是一艘相当不错的飞船。"
+			"首先我告诉我的客户我的飞船是多么的耐用。而在他们购买后，我告诉他们所有的易碎部件，以说服他们也购买延长保修。"
+			"像新的一样，低里程，以前是一位老太太的。"
+			"嘿，你在那里！我有最适合你的船。我有一个完美的船给你。"
+			"我的一艘船有燃料泄漏？不可能，这是......它做了那么多辛苦的工作，出的汗。"
 		word
 			`"`
 
@@ -891,18 +891,18 @@ news "nuclear technician"
 		not attributes "volcanic" "frontier"
 	name
 		word
-			"Nuclear technician"
+			"核技术员"
 	message
 		word
 			`"`
 		word
-			"Last year all the hair on the left hand side of my face turned white and fell out. The company swears it was just a weird illness and had nothing to do with my work."
-			"My kids keep asking me to bring a bar of plutonium home for them to play with. Some stupid video convinced them that it would give them super powers."
-			"Nuclear reactors are remarkably safe these days. I don't know why the government won't let us build them in residential neighborhoods."
-			"In all of human space, there hasn't been a single nuclear meltdown in fourteen years. And that was just a tiny one, hardly even worth mentioning."
-			"My company's motto is, 'We bring the power of the stars down to earth, and send earthlings to the stars.' I think we should change it to something catchier."
-			"Ever used a fusion reactor in your ship? Feel free to thank one of us."
-			"The most terrifying word in my profession is 'Oops.'"
+			"去年，我左脸的头发全部变白并脱落。公司发誓说这只是一种怪病，与我的工作无关。"
+			"我的孩子们一直要求我带一根钚回家给他们玩。一些愚蠢的视频让他们相信这将给他们带来超能力。"
+			"现在的核反应堆是非常安全的。我不知道为什么政府不允许我们在居民区建造核反应堆。"
+			"在所有的人类空间中，十四年来没有发生过一次核熔毁。而那只是一个很小的，甚至不值得一提。"
+			`我公司的座右铭是："我们把星星的力量带到地球上，并把地球人送到星星上。我认为我们应该把它改成更吸引人的东西。`
+			"在你的船上使用过聚变反应堆吗？请随时感谢我们中的一位。"
+			"我的职业中最可怕的词是'Oops'。"
 		word
 			`"`
 
@@ -914,16 +914,16 @@ news "substance abuse counselor"
 		attributes "poor" "dirt belt" "near earth" "south"
 	name
 		word
-			"Substance abuse counselor"
+			"药物滥用咨询师"
 	message
 		word
 			`"`
 		word
-			"I know some folks try to talk captains like you into carrying drugs on the side. I wish all of you could see the real human cost of that industry."
-			"Zooming around in your fancy spaceship, I bet you don't realize the sort of desperation that some of the folks down here below you are carrying around."
-			"The government pays my salary. They say it's worth it, because every credit spent on me prevents ten credits of lost productivity."
-			"Honestly, drugs are a problem throughout human space, but the richer folks have the resources to keep their addictions well-managed and well-hidden."
-			"If someone ever offers you a drug running job, I beg you to deny it and direct them toward one of us. That person will thank you later."
+			"我知道有些人试图说服像你们这样的船长在外面携带毒品。我希望你们所有人都能看到这个行业真正的人力成本。"
+			"在你那花哨的飞船里转来转去，我打赌你没有意识到你下面的一些人带着的那种绝望的心情。"
+			"政府支付我的工资。他们说这是值得的，因为花在我身上的每一分钱都能避免10分钱的生产力损失。"
+			"老实说，毒品是整个人类空间的一个问题，但更富有的人有资源来保持他们的毒瘾得到良好的管理和隐藏。"
+			"如果有人给你提供一份经营毒品的工作，我请求你拒绝，并把他们引向我们中的一个。那个人以后会感谢你的。"
 		word
 			`"`
 
@@ -938,23 +938,23 @@ news "reporter"
 			not attributes "human"
 	name
 		word
-			"Reporter"
+			"记者"
 	message
 		word
 			`"`
 		word
-			"I'm doing a human interest story about a llama that stowed away in a ship's cargo hold. Llamas are so cute, people will watch anything that involves them."
-			"My job is to bring sunlight into dark places and expose things that people are trying to keep hidden... and to avoid being killed in the process."
-			"A free and independent press is a critical component of any healthy democracy. But sensationalism is a whole lot more lucrative."
-			"I've been interviewing elderly starship captains. You wouldn't believe the tall tales that some of them tell!"
-			"Read my new article! 'Ten Things the Quarg Are Hiding from Us - Number Seven Will Surprise You!'"
-			"People love sorting things and lists that sort things. Do you want to listen to my list of the top ten starships?"
-			"Read this! 'The Real UGLIEST Starship that Lionheart Don't Want You to Know About!'"
-			"Look at my new article! 'The Protector - Actually a SCAM?'"
-			"Look at this! 'Five Reasons Why Captains Should Check Spaceports More Often - Number Two Will Make You Cry!'"
-			"Read my new article! 'Ten Things the Quarg Are Hiding from Us - Number Seven Will Surprise You!'"
-			"Check this out! 'Top 20 Things Starship Pilots Don't Want You to Know!' Wait, never mind."
-			"'11 signs that you are dealing with a corporate executive.' Read my blog to protect yourself from those psychopaths!"
+			"我正在做一个关于一只骆驼偷渡到船舱里的人文故事。骆驼太可爱了，人们会看任何涉及它们的东西。"
+			"我的工作是把阳光带入黑暗的地方，揭露人们试图隐藏的事情......并避免在这个过程中被杀害。"
+			"自由和独立的新闻媒体是任何健康的民主的重要组成部分。但耸人听闻的做法却更有利可图。"
+			"我一直在采访年长的星舰舰长。你不会相信他们中的一些人所讲的高大的故事!"
+			"请阅读我的新文章!夸格人对我们隐瞒的十件事--第七件事会让你吃惊！"
+			"人们喜欢对事物进行分类，以及对事物进行分类的清单。你想听听我列出的十大星舰吗？"
+			"请看这个!'真正的UGLIEST星舰，狮心网不想让你知道！'"
+			"看看我的新文章!'保护者--其实是个骗局？"
+			"请看这个!'船长应该更经常检查太空港的五个原因--第二条会让你哭的！'"
+			"请阅读我的新文章!夸格人对我们隐瞒的十件事--第七件事会让你吃惊！"
+			"看看这个吧!'星际飞船飞行员不想让你知道的前20件事！'等等，别介意。"
+			"'11个迹象表明你在与企业高管打交道。阅读我的博客，保护自己不受那些心理变态者的影响！'。"
 		word
 			`"`
 
@@ -968,15 +968,15 @@ news "public relations worker"
 			not attributes "human"
 	name
 		word
-			"PR consultant"
-			"Crisis Consultant"
+			"公关顾问"
+			"危机顾问"
 	message
 		word
 			`"`
 		word
-			"If you ever get accused of smuggling drugs, then the first person to call is not your lawyer, but me."
-			"It doesn't matter if an accusation is true or false. What does matter is if an accusation is made public or not."
-			"One of my clients crashed her shuttle into the Parliament building. Keeping that out of the news was horribly expensive, but it was still cheaper than the reputation hit if it were broadcast."
+			"如果你有一天被指控走私毒品，那么第一个要找的人不是你的律师，而是我。"
+			"指控是真还是假并不重要。重要的是一项指控是否被公开。"
+			"我的一个客户将她的航天飞机撞向议会大厦。阻止这一事件的发生是非常昂贵的，但这仍然比播出后的名誉损失要便宜。"
 		word
 			`"`
 
@@ -988,17 +988,17 @@ news "museum curator"
 		attributes "tourism" "near earth" "paradise" "rich"
 	name
 		word
-			"Museum curator"
+			"博物馆馆长"
 	message
 		word
 			`"`
 		word
-			"You would not believe the sorts of things that the inhabitants of ancient Earth did for entertainment back before interstellar travel was a reality."
-			"I operate an arboretum with trees and shrubs from more than fifty worlds. Fortunately, none of them are particularly invasive species."
-			"The most popular exhibit in our entire Children's Museum is the interactive starship simulator. You're living a life that those kids can only dream of."
-			"Did you know that humans used to rely on explosive fuel mixtures to propel them into orbit? Imagine how mad you'd have to be to do that!"
-			"We recently put a restored 20th-century shipping container on display. You can hardly tell the difference from the ones in use today! Isn't historical inertia fascinating?"
-			"Every so often, we get contacted by someone shady wishing to donate something to our museum."
+			"你不会相信，在星际旅行成为现实之前，古代地球的居民为了娱乐而做的各种事情。"
+			"我经营一个植物园，里面有来自50多个世界的树木和灌木。幸运的是，它们中没有一个是特别具有侵略性的物种。"
+			"在我们整个儿童博物馆里，最受欢迎的展品是互动式星舰模拟器。你正在过着那些孩子们只能梦想的生活。"
+			"你知道人类曾经依靠爆炸性的混合燃料来推动他们进入轨道吗？想象一下，你得有多疯狂才能做到这一点!"
+			"我们最近展出了一个经过修复的20世纪的海运集装箱。你几乎看不出与今天使用的集装箱有什么不同!历史的惯性是不是很吸引人？"
+			"每隔一段时间，就会有一些阴暗的人联系我们，希望向我们的博物馆捐赠一些东西。"
 		word
 			`"`
 
@@ -1010,18 +1010,18 @@ news "actor"
 		attributes "south" "paradise" "near earth"
 	name
 		word
-			"Actor"
+			"演员"
 	message
 		word
 			`"`
 		word
-			"We're doing a production of the Scottish Play where the three witches are made up to look like Quarg. I know it sounds weird, but it works in our context."
-			"I just finished a project doing voice acting for an animated children's book. It's kind of a relief to be done with it, honestly. Certain lines are still stuck in my brain."
-			"Right now I'm mostly just doing commercials, but I'm working on a concept for a zero-gravity musical that will be truly epic."
-			"I have a rich client on Hestia who pays me a thousand credits a day just for recording videos where I bestow extravagant compliments on him."
-			"I recommend that you don't look at any media from the 28th century. They're so laden with pop-culture references that it's painful to watch."
-			"Hey, you are so beautiful, do you want to marry me? Haha, just kidding, I'm rehearsing for my new role."
-			"Don't be fooled by my jovial appearance onstage. I take my work very seriously."
+			"我们正在做一个苏格兰戏剧的制作，其中三个女巫被化妆成夸父的样子。我知道这听起来很奇怪，但在我们的环境中是可行的。"
+			"我刚刚完成了一个项目，为一本动画儿童书配音。说实话，完成这个项目是一种解脱。某些台词仍然停留在我的大脑中。"
+			"现在我主要是在做商业广告，但我正在研究一个零重力音乐剧的概念，这将是真正的史诗。"
+			"我在赫斯提亚有一个富有的客户，他每天付给我一千信用点，只是为了录制我对他进行奢侈赞美的视频。"
+			"我建议你不要去看28世纪的任何媒体。它们充满了流行文化的参考，看了让人心痛。"
+			"嘿，你太漂亮了，你想嫁给我吗？ 哈哈，开玩笑，我正在为我的新角色排练。"
+			"不要被我在舞台上欢快的外表所迷惑。我对我的工作非常认真。"
 		word
 			`"`
 
@@ -1033,21 +1033,21 @@ news "musician"
 		attributes "south" "paradise" "near earth"
 	name
 		word
-			"Musician"
+			"音乐家"
 	message
 		word
 			`"`
 		word
-			"Excuse me! I seem to have lost my violin. Have you seen it?"
-			"You think human critics are hard to impress? Try performing for the Quarg!"
-			"I'm writing a new song called '${media name}.' Nobody seems to like it. What do you think?"
-			"I put on a concert here a while back, but some wacky band scheduled their own on the same day and everybody went there instead. I think the group was called 'Maybe an Uproar Will Happen' or something like that."
-			"The spaceport is a great place to go busking. People seem to give money more enthusiastically when they are excited about going to a new planet."
-			"The music played by all these young new performers is so shallow and artless. Music requires thoughtful consideration to every detail and nuance, yet so many 'musicians' think they can carelessly throw whatever together and call it 'music.'"
-			"Some musicians think they are so sophisticated just because they play antique tunes. I prefer to innovate beyond what already exists, even if the result is different. Doesn't the art of music demand such creativity?"
-			"Stories about extra-terrestrials are very unpopular now that most of humanity is living off-Earth."
-			"Stories about alien lifeforms became a lot more popular after humanity actually met alien lifeforms."
-			"It takes surprisingly little space to transport a band on a tour. Eight free bunks and only a little cargo space, so long as they are good at packing."
+			"请原谅我！我好像把小提琴弄丢了。我的小提琴好像丢了。你看到它了吗？"
+			"你认为人类的批评家很难打动人吗？试试为夸父表演吧!"
+			"我正在写一首新歌，叫'${媒体名称}'。似乎没有人喜欢它。你怎么看？"
+			`前段时间我在这里举办了一场音乐会，但一些古怪的乐队在同一天安排了他们自己的音乐会，大家都去了那里。我想那个乐队叫 "也许会发生骚乱 "或类似的东西。`
+			"航天港是一个去摆摊的好地方。当人们对去一个新的星球感到兴奋时，他们似乎更热心地给钱。"
+			`所有这些年轻的新表演者演奏的音乐是如此的浅薄和没有艺术性。音乐需要对每一个细节和细微之处进行深思熟虑，然而这么多 "音乐家 "认为他们可以不经意地把任何东西扔在一起，并称之为 "音乐"。`
+			"有些音乐家认为他们是如此复杂，只是因为他们演奏的是古董曲子。我更喜欢在已有的基础上进行创新，即使结果是不同的。难道音乐艺术不需要这样的创造力吗？"
+			"关于外星生物的故事现在非常不受欢迎，因为大多数人类都生活在地球之外。"
+			"关于外星生命体的故事在人类真正遇到外星生命体后变得更受欢迎。"
+			"运送一个乐队进行巡演所需的空间出奇的小。八个免费的床铺，只有一点货物空间，只要他们善于包装。"
 		word
 			`"`
 
@@ -1059,17 +1059,17 @@ news "technical writer"
 		attributes "north" "rim" "core" "near earth"
 	name
 		word
-			"Technical writer"
+			"技术作家"
 	message
 		word
 			`"`
 		word
-			"Do you have a few minutes to listen to my thoughts on the importance of the serial comma?"
-			"People who over-use the passive voice should be lined up and shot. It doesn't make your writing more formal, it just makes it harder to read."
-			"Documents are written once, and read many times. So every minute I spend polishing someone's writing will pay off many times over in the long run."
-			"Communication skills are essential no matter what your job is. If you can't write well, people will think you're an idiot. Or at least, people like me will think that."
-			"Be careful with the word 'awesome' on other planets. Here it means something great, but somehow the meaning changed to something awful on some other planets."
-			"Can you imagine that in the time before the Republic there were dozens of different programming languages? I wonder how they ever got any programming jobs done."
+			"你有几分钟的时间来听听我对连环逗号的重要性的看法吗？"
+			"过度使用被动语态的人应该被排队枪毙。它不会使你的写作更正式，只会使它更难读。"
+			"文件写一次，就会被读很多次。因此，从长远来看，我为某人的写作所花的每一分钟都会得到许多次的回报。"
+			"无论你的工作是什么，沟通技巧都是必不可少的。如果你不能写好，人们会认为你是一个白痴。或者至少，像我这样的人会这样想。"
+			`在其他星球上要小心使用 "真棒 "这个词。在这里，它意味着伟大的东西，但不知何故，其含义在其他一些星球上变成了可怕的东西。`
+			"你能想象，在共和国之前的时代，有几十种不同的编程语言？我想知道他们是如何完成任何编程工作的。"
 		word
 			`"`
 
@@ -1081,15 +1081,15 @@ news "dietitian"
 		attributes "rich" "paradise" "rim" "near earth"
 	name
 		word
-			"Dietitian"
+			"营养师"
 	message
 		word
 			`"`
 		word
-			"I actually have several recipes that can make processed algae delicious. Or at least, visually appealing. Quite edible. I mean, it's not that hard to mask the taste."
-			"One of my rich clients wants me to figure out how she can subsist on eating nothing but flowers. She thinks eating the leaves and roots of plants is cruel."
-			"A few years ago I worked for the Syndicate, designing prepackaged liquid meals for factory workers. They were incredibly nutritious, but they tasted disgusting."
-			"There are probably thousands of edible native plants on every world human beings have colonized, but people still prefer the plants we brought with us from ancient Earth."
+			"我其实有几个食谱，可以让加工过的海藻变得美味。或者至少，在视觉上吸引人。相当可食用。我的意思是，要掩盖味道并不难。"
+			"我的一个富有的客户想让我弄清楚她如何能靠只吃花来维持生计。她认为吃植物的叶子和根部是很残忍的。"
+			"几年前，我为辛迪加工作，为工厂工人设计预包装的液体餐。它们的营养非常丰富，但吃起来却很恶心。"
+			"在人类殖民的每个世界上，可能都有成千上万种可食用的本地植物，但人们仍然喜欢我们从古代地球带来的植物。"
 		word
 			`"`
 
@@ -1101,23 +1101,23 @@ news "chef"
 		attributes "rich" "paradise"
 	name
 		word
-			"Chef"
+			"厨师"
 	message
 		word
 			`"`
 		word
-			"For a recent corporate gala, I constructed a fire pit large enough to roast an entire Antarean thunder-lizard. The fat was perfectly rendered. It was amazing."
-			"I'm employed as the chef on a luxury cruise ship. A Star Queen. The captain tells me that Star Queens are considered the safest way to travel in outer space."
-			"A rich client of mine shot a spiny-tailed gorgebeast on a safari expedition and asked me to cook it for him. The flavor profile was quite... unique."
-			"I was a dish-washer when I started, and now I'm a sous-chef. And people say there's no upward mobility in the galaxy these days!"
-			"Eating fancy dishes is great, but sometimes there's nothing you want more than a good old sandwich."
-			"Last week my dish was completely ruined; somebody had calibrated my kitchen scale with the gravity settings of another planet."
-			"There is only one thing worse than finding a worm in an apple you're eating: finding half a worm in that apple."
-			"We can bake the most delicious fluffy cakes in space, but our trade union said we shouldn't call them spacecakes."
-			"Hey, don't just hang around over there! Help me load this stuff; these 50 catering containers aren't going to move themselves."
-			"Be careful what you transport; another chef once tried to poison my supplies during transport. Both that chef and the transporting captain are in jail now."
-			"A customer recently ordered a cheeseburger without the meat. Funny way to order a cheese sandwich."
-			"If you ever start a restaurant near a spaceport, then don't call it 'The Space Bar'. You might think you're funny, but so did hundreds of other new restaurant owners before you."
+			"在最近的一次公司晚会上，我建造了一个大火坑，足以烤制一整只安塔利亚雷霆蜥蜴。脂肪被完美地转化了。这真是不可思议。"
+			"我被聘为一艘豪华游轮的厨师。一艘星际皇后号。船长告诉我，星际皇后号被认为是在外太空旅行的最安全方式。"
+			"我的一个富有的客户在一次狩猎探险中射中了一只刺尾峡兽，并要求我为他烹饪。味道相当......独特。"
+			"我开始时是个洗碗工，现在我是个副厨师。人们说，现在的银河系没有上升的空间了。"
+			"吃花哨的菜肴是很好的，但有时你最想要的是一个好的老式三明治。"
+			"上周我的菜被完全毁了；有人用另一个星球的重力设置校准了我的厨房秤。"
+			"只有一件事比在你吃的苹果里发现一只虫子更糟糕：在那个苹果里发现半只虫子。"
+			"我们可以在太空中烤出最美味的松软蛋糕，但是我们的工会说我们不应该叫它们太空蛋糕。"
+			"嘿，不要只是在那里闲逛！你知道吗？帮我装这些东西；这些50个餐饮容器是不会自己移动的。"
+			"小心你运输的东西；另一个厨师曾经试图在运输过程中给我的物资下毒。那个厨师和运输队长现在都在监狱里。"
+			"最近一位顾客点了一个没有肉的奶酪汉堡。点奶酪三明治的方式很有趣。"
+			`如果你在太空港附近开一家餐馆，那么不要叫它 "太空酒吧"。你可能认为自己很有趣，但在你之前的数百名新餐馆老板也是如此。`
 		word
 			`"`
 
@@ -1129,18 +1129,18 @@ news "insurance agent"
 		attributes "rich" "urban" "paradise" "near earth"
 	name
 		word
-			"Insurance agent"
+			"保险代理人"
 	message
 		word
 			`"`
 		word
-			"No, we don't sell insurance policies on private starships in this day and age. We also don't insure buildings in flood plains and houses inhabited by convicted serial arsonists."
-			"Among the Paradise Worlds, there's currently a fad of taking out insurance policies on pets, to pay for therapy if the animal dies unexpectedly."
-			"Insurance is all about mitigating risks. But you're flying around the vacuum of space in a tin can, so you probably don't know much about that."
-			"I just got done handling an insurance fraud case where the owner claimed her entire home had been eaten by Sagittarian sand-fleas."
-			"It's a real shame that not everyone is able to afford insurance. More people insured means more money for us."
-			"I used to be a gambler. Still am in a way, but I'm acceptable to society now."
-			"A spaceship controller... is that someone that controls a spaceship, or a spaceship that controls something? The premiums and amounts of paperwork for those are quite different."
+			"不，在这个时代，我们不出售私人星舰的保险单。我们也不为洪泛区的建筑物和被定罪的连环纵火犯居住的房屋提供保险。"
+			"在天堂世界中，目前有一种为宠物投保的热潮，以支付动物意外死亡时的治疗费用。"
+			"保险都是为了减轻风险。但你是在真空的太空中坐着铁罐子飞行，所以你可能对这个不了解。"
+			"我刚刚处理完一个保险欺诈案件，业主声称她的整个家被射手座的沙蚤吃掉了。"
+			"不是每个人都能买得起保险，这真是太可惜了。更多的人投保意味着我们有更多的钱。"
+			"我曾经是个赌徒。在某种程度上仍然是，但我现在可以接受社会。"
+			"宇宙飞船控制者......是指控制宇宙飞船的人，还是控制某种东西的宇宙飞船？这些的保险费和文书工作的数量是完全不同的。"
 		word
 			`"`
 
@@ -1152,20 +1152,20 @@ news "excavation specialist"
 		attributes "mining"
 	name
 		word
-			"Excavation specialist"
-			"Explosives worker"
+			"挖掘专家"
+			"爆破工人"
 	message
 		word
 			`"`
 		word
-			"Those newfangled mining lasers are pretty cool, but there's nothing like good old-fashioned dynamite for shifting a lot of rock in a hurry."
-			"Sure, you may have been to outer space, but I bet you've never been ten kilometers underground."
-			"For hundreds of years we've been worried that asteroid harvesting will put terrestrial miners out of business, but it still hasn't happened."
-			"Once I've worked here for another decade, I plan to move to some Paradise World and earn a living excavating bunkers for paranoid rich folks to hide in."
-			"Once we had to stop work on a mine for a month because the archaeologists thought we found evidence of a million-year-old civilization. It turned out the site was just radioactive. Dodged that one!"
-			"Last month, we had some loony pilot offer to use their missile launchers to help us mine!"
-			"Last month, we had some loony pilot request a reactor upgrade after delivering some explosives to us!"
-			"I'm a former pirate. Now I've found more productive ways to blow stuff up."
+			"那些新式的采矿激光器非常酷，但没有什么比老式的炸药更能在短时间内转移大量的岩石了。"
+			"当然，你可能去过外太空，但我打赌你从来没有去过地下十公里。"
+			"几百年来，我们一直担心小行星采集会使地球上的矿工失去业务，但它仍然没有发生。"
+			"一旦我在这里又工作了十年，我打算搬到某个天堂世界，以挖掘地堡为生，让那些偏执的富人躲进去。"
+			"有一次，我们不得不在一个矿上停工一个月，因为考古学家认为我们发现了百万年文明的证据。结果发现这个地方只是有放射性。躲过了这一劫!"
+			"上个月，有一些疯狂的飞行员提出用他们的导弹发射器来帮助我们采矿!"
+			"上个月，我们有一些疯狂的飞行员在向我们提供了一些炸药后要求升级反应堆!"
+			"我以前是个海盗。现在我已经找到了更有成效的方式来炸毁东西。"
 		word
 			`"`
 
@@ -1177,19 +1177,19 @@ news "chauffeur"
 		attributes "rich" "paradise"
 	name
 		word
-			"Chauffeur"
+			"司机"
 	message
 		word
 			`"`
 		word
-			"I fly the missus to her appointments in a private shuttlecraft, because she hates being stuck in traffic."
-			"The family I work for is so rich that they pay me to ride in the back of their self-driving car just so I can open the doors for them when they arrive wherever they're going."
-			"My company gives private gyrocopter rides to rich tourists. I built the gyrocopter myself, but it's a very safe vehicle."
-			"You wouldn't believe the sorts of things that go on in the back of my car after certain extravagant social galas."
-			"You'll never believe what happened on my first day on the job. Someone tried to rob a building while I was in the parking lot. I had to ram their van to keep them from getting away!"
-			"They make me fly around the planet for ridiculous things, but you don't hear me complain with the salary they pay me."
-			"The vegetables are supposedly more fresh when I personally pick them up at the spaceport than when they get delivered through the 1-hour delivery service."
-			"I used to have a job flying a band around, but they wanted to spend some time in the Dirt Belt, and I was hoping for work closer to the Paradise Worlds."
+			"我用私人飞机载着夫人去赴约，因为她不喜欢被堵在路上。"
+			"我工作的家庭非常富有，他们付钱给我，让我坐在他们的自驾车后面，这样我就可以在他们到达目的地时为他们开门。"
+			"我的公司为富有的游客提供私人旋翼飞机的乘坐服务。我自己建造了这架旋翼机，但它是一种非常安全的交通工具。"
+			"你不会相信在某些奢侈的社交晚会之后，在我的车后面发生了什么样的事情。"
+			"你永远不会相信我第一天上班时发生的事情。当我在停车场的时候，有人试图抢劫一栋大楼。我不得不冲撞他们的面包车，以防止他们逃跑！他们让我在地球上飞来飞去。"
+			"他们让我为了可笑的事情在地球上飞来飞去，但你不会听到我抱怨他们给我的工资。"
+			"据称，我亲自到太空港取的蔬菜比通过1小时送达的蔬菜更新鲜。"
+			"我曾经有一份为乐队飞行的工作，但他们想在泥土地带呆一段时间，而我希望能在离天堂世界更近的地方工作。"
 		word
 			`"`
 
@@ -1200,21 +1200,21 @@ news "retiree"
 		attributes "paradise"
 	name
 		word
-			"Retiree"
-			"Pensioner"
+			"退休人员"
+			"退休者"
 	message
 		word
 			`"`
 		word
-			"Retiring is the best thing I ever did. They should make it mandatory!"
-			"All of my children have gone to the most prestigious academy on Hestia. They're so brilliant, it was the only place that would do."
-			"It makes me feel so safe to know that there are half a dozen Navy warships in orbit. The barbarians north of here wouldn't dare attack us!"
-			"This is such a great place to retire. They tax income much more heavily than investments and business profits, so if you make most of your money elsewhere, you can avoid paying practically any taxes at all!"
-			"I don't stand for it when I hear youngsters complain about the fact that I have a generous pension. I worked for 40 years to earn this retirement!"
-			"I feel sorry for the young workers who are supporting me right now. They have to pay more in taxes and pension contributions than I ever did, and they probably won't get to retire until they're 70, at least."
-			"We're very fortunate to have been able to retire here. Don't ever take your blessings for granted, captain."
-			"It's amazing how much technology has progressed in my lifetime!"
-			"You wouldn't believe the kinds of ruffians they let in here. My neighbor got their fortune by winning the lottery, for goodness sake!"
+			"退休是我做过的最好的事情。他们应该让它成为强制性的!"
+			"我所有的孩子都去了赫斯提亚上最有名的学院。他们是如此的出色，这是唯一可以做的地方。"
+			"知道有半打海军战舰在轨道上，这让我感到非常安全。这里北边的野蛮人不敢攻击我们!"
+			"这真是个退休的好地方。他们对收入的征税比对投资和商业利润的征税要重得多，所以如果你在其他地方赚了大部分钱，你就可以避免支付几乎所有的税款！这是个很好的地方。"
+			"当我听到年轻人抱怨我有丰厚的养老金时，我不忍心。我工作了40年，才赢得了这一退休待遇！我对那些年轻的工人感到遗憾。"
+			"我为那些现在支持我的年轻工人感到遗憾。他们必须支付比我更多的税收和养老金缴款，而且他们可能至少要到70岁才有机会退休。"
+			"我们非常幸运，能够在这里退休。永远不要把你的祝福视为理所当然，队长。"
+			"在我的有生之年，技术进步如此之大，真是令人惊讶！你不会相信，在我的有生之年，有多少种技术在不断进步。"
+			"你不会相信他们让什么样的流氓进入这里。我的邻居是靠中彩票发家的，看在上帝的份上!"
 		word
 			`"`
 
@@ -1225,21 +1225,21 @@ news "financial analyst"
 		attributes "paradise" "near earth"
 	name
 		word
-			"Financial analyst"
+			"金融分析家"
 	message
 		word
 			`"`
 		word
-			"You must be a very brave captain, if you have traveled to some of the... less civilized parts of human space."
-			"I can't believe how expensive college tuition is these days. My kid's first semester just set me back 172,000 credits!"
-			"My daughter's Flivver is a few years old already... maybe it's time for an upgrade? I hear the new ones are much safer."
-			"Have you heard about the Navy admiral who married a commoner? I just can't believe things like that still happen."
-			"I'm about to lose my vacation home on Martini! Next time I'm insisting on a pre-nuptial agreement."
-			"My son won a silver trophy in his last game. He's going to be a great athlete some day."
-			"The galactic economy's in trouble, mark my words. Indicators haven't been this negative in more than 50 years, but nobody wants to hear it."
-			"God, these taxes are killing me. I make a good income, but it feels like half of it goes to the Republic, and I've got bills to pay, too."
-			"I manage 8-figure portfolios, but what gets me up in the morning is the sight of a beautiful sunrise. I know it's all geo-engineered, but is a painting any less sublime just because it was made by human hands?"
-			"Nearly lost my shirt in the commodities market last week. If my boss ever found out, it'd be curtains for me!"
+			"你一定是个非常勇敢的船长，如果你曾到过一些......人类空间中不太文明的地方。"
+			"我无法相信现在的大学学费有多贵。我孩子的第一个学期刚让我花了172,000个学分!"
+			"我女儿的Flivver已经有几年历史了......也许是时候升级了？我听说新的要安全得多。"
+			"你听说过海军上将娶了一个平民的事吗？我只是不相信这样的事情还在发生。"
+			"我马上就要失去我在马蒂尼岛的度假屋了!下次我坚持要求签订婚前协议。"
+			"我儿子在他的最后一场比赛中赢得了银质奖杯。他有一天会成为一个伟大的运动员。"
+			"银河系的经济有问题，记住我的话。50多年来，各项指标都没有这么负面，但没有人愿意听到这个消息。"
+			"天啊，这些税收让我很难受。我的收入不错，但感觉有一半都给了共和国，而且我也有账单要付。"
+			"我管理着8位数的投资组合，但让我在早上起床的是看到美丽的日出。我知道这都是地理工程，但一幅画难道就因为是人做的就不那么崇高了吗？"
+			"上周我差点在商品市场上丢了衣服。如果我的老板发现了，那我就完了。"
 		word
 			`"`
 
@@ -1251,37 +1251,37 @@ news "syndicate manager"
 		attributes "urban"
 	name
 		word
-			"Syndicate manager"
-			"Manager"
+			"银团经理"
+			"经理"
 	message
 		word
 			`"`
 		word
-			"We've had to ask everyone to work sixty-hour weeks just to meet this month's quotas. The workers complain to me, but I tell them I'm in the same boat as they are."
-			"The Syndicate makes us take the same stupid workspace harassment training every single year. How would you like it if some bohemian outside consultant was telling you what you can and can't do in your social life?"
-			"In general, the women in my factory are much more conscientious workers than most of the men. Too bad so few of them have the sort of assertiveness and commanding presence you need in a manager."
-			"I had to resign my union membership when I was promoted to a manager, but I still try to do what's best for the folks who report to me."
-			"Outside of Syndicate space, kids aren't allowed to work until they turn eighteen. No wonder their economies are so much less productive than ours."
-			"You look like the kind of captain who could benefit from a Syndicate Proton Gun. Would you care to schedule a test-firing?"
-			"Have you considered a Syndicate Freighter for your next ship? Captains like you swear by them!"
-			"Nobody ever got fired for buying Syndicate."
-			"I would love to tell you about my job, but just telling you I work for the Syndicate probably already violates the non-disclosure agreement I signed."
-			"Those union boys are completely unreasonable; if we give them a finger then they try to eat up the whole arm up to the elbow."
-			"I've some disagreements with a manager above me. Can you pick up a mediator called Harry the Butcher from Deadman's Cove to help us resolve the problem peacefully?"
-			"I'm the manager. The folks here need to learn that it is my way or the highway."
-			"Those union guys wanted to rally on a planet nearby, but unionizing is forbidden on that planet. We could stop them easily by having the spaceport there closed for harboring known criminals!"
-			"My employees are angry when they need to do unpaid overtime in exceptional situations. They should have realized that working for me is exceptional every day."
-			"Patience is a virtue, but why is 'just hurry up' not also a virtue? Hurrying up works much better in the factory."
-			"If everything is under control, then we're not going fast enough. Except of course in your business, where people typically die due to explosions or the vacuum of space when things get out of control."
-			"I allow people to go home when they are no longer productive, even if it is 3 PM. Who are we kidding if we just steer on being present instead of steering on being productive?"
-			"We used to give our top performers shuttles, but they flew away faster than we could hire. Now we give them apartments and many are settling here and starting families."
-			"I'm really fed up with employees that have a 'can do' attitude. Just do your job, without the attitude."
-			"I'm actively recruiting people with a 9-to-5 mentality, because I know how important it is to have a good work/life balance."
-			"We used to advertise our food products with 100% organic ingredients, but nobody believed us. Now we are advertising with 60% organic ingredients and sales are sky high."
-			"We used to advertise that we're the best in the market, but that didn't work. Now we advertise with the slogan 'Just what's needed to get the job done,' and that really caught on."
-			"We hired a marketing agency and they came up with the sloppy slogan 'Just what's needed to get the job done.' Can you believe we spent huge amounts of money on that garbage?"
-			"An employee once asked me how I was able to buy such a luxurious Flivver. I said that if she keeps working hard, soon I'll be able to buy another one."
-			"A colleague of mine is in deep trouble: he was tired of having to use his badge every time to enter the office, so he just disabled all the security. It's going to take him years to repay all the equipment that was stolen."
+			"我们不得不要求每个人每周工作六十小时，只是为了达到这个月的配额。工人们向我抱怨，但我告诉他们我和他们在同一条船上。"
+			"辛迪加每年都让我们参加同样愚蠢的工作场所骚扰培训。如果一些波希米亚人的外部顾问告诉你在你的社交生活中可以做什么和不可以做什么，你会喜欢吗？"
+			"总的来说，我的工厂里的女性比大多数男性更认真地工作。太糟糕了，她们中很少有人具有你在经理中需要的那种自信和指挥能力。"
+			"当我被提升为经理时，我不得不辞去我的工会会员资格，但我仍然试图为那些向我报告的人做最好的事情。"
+			"在辛迪加空间之外，孩子们在18岁之前是不允许工作的。难怪他们的经济比我们的生产力低得多。"
+			"你看起来是那种可以从辛迪加质子枪中受益的船长。你愿意安排一次试射吗？"
+			"你有没有考虑用辛迪加的货船作为你的下一艘船？像你这样的船长对他们发誓!"
+			"从来没有人因为购买辛迪加而被解雇。"
+			"我很想告诉你我的工作，但只是告诉你我为辛迪加工作可能已经违反了我签署的保密协议。"
+			"那些工会男孩完全不讲道理；如果我们给他们一个手指头，那么他们就会试图吃掉整个手臂，直到肘部。"
+			"我和我上面的一个经理有些意见不合。你能不能从死人湾找一个叫哈里屠夫的调解员来帮助我们和平地解决问题？"
+			"我就是那个经理。这里的人需要学会，要么我行我素，要么我行我素。"
+			"那些工会的人想在附近的一个星球上集会，但在那个星球上禁止成立工会。我们可以很容易地阻止他们，因为那里的太空港因窝藏已知的罪犯而被关闭！我的员工在需要时很生气。"
+			"当我的员工在特殊情况下需要做无薪加班时，他们很生气。他们应该意识到，为我工作每天都是例外。"
+			"耐心是一种美德，但为什么'快点'不也是一种美德？抓紧时间在工厂里效果要好得多。"
+			"如果一切都在控制之中，那么我们的速度就不够快。当然，在你的企业里除外，当事情失去控制时，人们通常因爆炸或空间真空而死亡。"
+			"我允许人们在不再有生产力时回家，即使是下午3点。如果我们只是引导在座的人，而不是引导生产力，我们在骗谁呢？"
+			"我们曾经给我们的优秀员工提供班车，但他们飞走的速度比我们招聘的速度快。现在我们给他们提供公寓，许多人在这里定居并建立了家庭。"
+			`我真的受够了那些抱着 "能干 "态度的员工。只要做好你的工作，不要有什么态度。`
+			"我正在积极招聘有朝九晚五心态的人，因为我知道有一个良好的工作/生活平衡是多么重要。"
+			"我们曾经用100%的有机成分来宣传我们的食品，但没有人相信我们。现在我们用60%的有机成分做广告，销售量大增。"
+			"我们曾经宣传说我们是市场上最好的，但这并不奏效。现在我们的广告语是'只需要完成工作'，这真的很受欢迎。"
+			"我们雇用了一家营销机构，他们想出了'只需完成工作所需'这个马虎的口号。你能相信我们在这个垃圾上花了大量的钱吗？"
+			"一位员工曾经问我，我怎么能买到这么豪华的Flivver。我说，如果她继续努力工作，很快我就能再买一辆。"
+			"我的一个同事遇到了很大的麻烦：他厌倦了每次进入办公室都要使用徽章，所以他直接禁用了所有的安全设施。他要花几年时间才能偿还所有被盗的设备。"
 		word
 			`"`
 
@@ -1292,15 +1292,15 @@ news "work coach"
 		government "Syndicate"
 	name
 		word
-			"Corporate consultant"
-			"Work/Life balance coach"
-			"Work efficiency coach"
+			"企业顾问"
+			"工作/生活平衡教练"
+			"工作效率教练"
 	message
 		word
 			`"`
 		word
-			"A startup company once hired me, and I immediately advised them to stop; hiring an expensive consultant like me is a horrible decision for a cash strapped startup."
-			"Working as the head of a company requires sound decision making abilities. Hiring an expensive consultant like me usually suggests a lack thereof, but I'm not complaining since I get paid well."
+			"一家初创公司曾经雇用过我，我立即建议他们停止；对于资金紧张的初创公司来说，雇用我这样昂贵的顾问是一个可怕的决定。"
+			"作为一个公司的负责人，需要有合理的决策能力。雇用像我这样昂贵的顾问通常意味着缺乏这种能力，但我并不抱怨，因为我得到了很好的报酬。"
 		word
 			`"`
 
@@ -1312,18 +1312,18 @@ news "scientist"
 		attributes "research" "deep"
 	name
 		word
-			"Scientist"
-			"Researcher"
+			"科学家"
+			"研究员"
 	message
 		word
 			`"`
 		word
-			"It's so exciting being on the cutting edge of human knowledge, but I wish it were easier to secure funding. A lot of my equipment is more than 40 years old."
-			"This neutronium alloy I'm working on will be what's armoring your next starship - no doubt about it."
-			"Yesterday I almost lost all my research notes when my computer crashed. I can't believe we still have to worry about things like this! What are the software guys doing all day?"
-			"We've got student interns in the lab this month. A few of them are very bright!"
-			"Excuse me, captain, I have to resume work on a paper I'm co-authoring. Would you like an advance copy?"
-			"My research concerns force fields. No, not those kinds of force fields."
+			"站在人类知识的最前沿是如此令人兴奋，但我希望能更容易获得资金。我的很多设备都超过了40年的历史。"
+			"我正在研究的这种中子合金将成为你们下一艘星舰的装甲材料--这一点毫无疑问。"
+			"昨天我的电脑崩溃时，我几乎失去了我所有的研究笔记。我不能相信我们还需要担心这样的事情！软件人员整天在做什么？软件人员整天都在做什么？"
+			"这个月我们的实验室里有学生实习生。他们中的几个人非常聪明!"
+			"对不起，队长，我得继续写一篇我与人合写的论文。你想要一份预发稿吗？"
+			"我的研究涉及力场。不，不是那种力场。"
 		word
 			`"`
 
@@ -1335,22 +1335,22 @@ news "student"
 		attributes "research" "deep"
 	name
 		word
-			"Student"
+			"学生"
 	message
 		word
 			`"`
 		word
-			"I'm going to be a teacher some day!"
-			"I'm going to be a doctor some day!"
-			"I'm going to be a financial manager some day!"
-			"I'm going to be an engineer some day!"
-			"I'm going to be a scientist some day!"
-			"Sorry, no time to talk; I'm busy studying."
-			"People keep telling me to go into STEM, but it's just so hard. Besides, I really like PR. I think I'll be fine."
-			"Tuition is so high these days that I've had to take three side jobs just to get through the semester. It's hard to focus on my studies, but I'll manage somehow."
-			"After graduation, I think I'd like to work in industry somewhere, but my advisor is encouraging me to go on and get my master's degree. What do you think?"
-			"Sorry, no time to chat. My master's thesis is already late and I'm hiding from my advisor."
-			"This is the life! I'm only in class like 3, so my days are totally open! I know it'll end in a few years, but I'm going to enjoy it while I can. After you graduate, it's just work work work until you're dead."
+			"我有一天会成为一名教师！"
+			"有一天我也会成为一名医生!"
+			"我有一天会成为一名财务经理！我有一天会成为一名工程师。"
+			"我有一天会成为一名工程师！我有一天会成为一名科学家。"
+			"有一天我会成为一名科学家!"
+			"对不起，没有时间说话；我正忙着学习。"
+			"人们一直告诉我去做STEM，但这太难了。此外，我真的很喜欢公关。我想我会好起来的。"
+			"现在的学费太高了，我不得不做三份兼职来度过这个学期。我很难专注于我的学习，但我会想办法的。"
+			"毕业后，我想在某个地方从事工业工作，但我的导师鼓励我继续下去并获得硕士学位。你怎么看？"
+			"对不起，没有时间聊天了。我的硕士论文已经晚了，我正在躲避我的导师。"
+			"这就是生活!我只上了3节左右的课，所以我的日子是完全开放的!我知道再过几年就会结束，但我要趁机享受它。毕业后，就只有工作，工作，直到你死。"
 		word
 			`"`
 
@@ -1362,24 +1362,24 @@ news "religious"
 		attributes "religious"
 	name
 		word
-			"Mystic"
-			"Religious scholar"
-			"Preacher"
+			"神秘主义者"
+			"宗教学者"
+			"传教士"
 	message
 		word
 			`"`
 		word
-			"May God be with you!"
-			"The path to enlightenment is fraught with sacrifice."
-			"We spend all our lives striving, but everything we need is always right in front of us."
-			"When we spend our lives chasing desire, we find that it turns to ashes in our mouths, and that which we seek most becomes a prison. What do you seek?"
-			"I thought I needed to come to this place to seek spiritual fulfillment, but I have since learned that it was inside myself all along."
-			"In a few weeks, I'm leaving here to join the Navy. The pirate attacks are getting worse and worse, and what good are we if we cannot defend our own holy sites? The eternal may listen to words and prayers, but pirates respect only guns and warships."
-			"It's been many years since I came to this world seeking out cosmic truth, and I sense that my journey may soon be at an end."
-			"Can you spare a few credits for the poor, captain? In this universe of abundance, so many still suffer."
-			"Praise Jesus! This day is a blessing."
-			"Praise Allah! This day is a blessing."
-			"Praise God! This day is a blessing."
+			"愿上帝与你同在!"
+			"通往启蒙的道路充满了牺牲。"
+			"我们一生都在努力，但我们需要的一切总是在我们面前。"
+			"当我们一生都在追逐欲望时，我们发现它在我们口中变成了灰烬，而我们最追求的东西变成了监狱。你在寻求什么？"
+			"我以为我需要到这个地方来寻求精神上的满足，但后来我知道，它一直都在我自己的内心。"
+			"再过几周，我就要离开这里，加入海军。海盗的袭击越来越严重，如果我们不能保卫自己的圣地，我们还有什么用？永恒的人可能会听从话语和祈祷，但海盗只尊重枪支和军舰。"
+			"我来到这个世界寻求宇宙真理已经很多年了，我感觉我的旅程可能很快就要结束了。"
+			"你能为穷人腾出几个信用点吗，船长？在这个富足的宇宙中，这么多人仍然在受苦。"
+			"赞美耶稣!这一天是一个祝福。"
+			"赞美真主!这一天是一种祝福。"
+			"赞美上帝!这一天是个祝福。"
 		word
 			`"`
 
@@ -1392,34 +1392,34 @@ news "tourist"
 		not attributes "station"
 	name
 		word
-			"Tourist"
-			"Sightseer"
-			"Traveler"
+			"游客"
+			"观光者"
+			"旅行者"
 	message
 		word
 			`"`
 		word
-			"This place is so romantic. I wish I could stay forever."
-			"I may have paid a small fortune to get here, but it was worth it! Don't you just love this place?"
-			"I paid so much money to get here, and look at the place - it's a dump. I'll try to make the best of it, I suppose."
-			"Next year I hope I can afford to book passage on a ship with nicer accommodations. I had to listen to the reactor's noisy humming for the whole five-day trip here!"
-			"I come here every year."
-			"Can you believe that our ship was attacked by pirates on the way here? It's lucky a Navy patrol showed up and chased them off before our shields dropped. It was all so exciting! I'm taking the same route again next year."
-			"I can't wait to go skiing here! Haha, just kidding."
-			"It's too bad I have to leave tomorrow. I only get two weeks of vacation a year, and it's hard to leave after spending half that time in transit here and back."
-			"I'm not riding on any ship that doesn't have the decency to have luxurious accommodations!"
-			"It's criminal how cheap the fares are to get here. For around a few thousand credits, you get to see stunning sights and shocking spectacles well worth double of what you paid."
-			"I was really hoping for more aliens in space. What's the point if there's no steamy interspecies romance!?"
-			"Can you tell me again which planet this is? No, I'm not lost, I just don't know where I am."
-			"We did a ride on an ancient spacecraft the other day. It was called something like Soyuz or Shuttle Dragon. I don't remember the name exactly, but it was horrible; my back still hurts from the bumpy ride."
-			"I almost missed my transport last week; someone was wrong on the hypernet and I was in a long, heated discussion to correct it."
-			"Hey! Where's platform 5? I need to board there in a few minutes!"
-			"Have you seen my luggage? I'm sure I put it here some minutes ago."
-			"We visited an exhibition about ancient military weapons; stuff like stealth fighters, artillery and tanks. It all became obsolete so fast when we got cheap spaceflight."
-			"I can travel millions of kilometers to another planet, cheaply and within a day; but going to the other side of this planet, just a few thousand kilometers, costs me a fortune and a week of travel time."
-			"Can I speak to the manager? There was a scratch on my cabin-door and it really irritated me. I think my whole vacation is ruined now."
-			"Can I speak to the manager? The landing on this planet was a bit rough and I'm seriously considering filing a complaint."
-			"Warn me if you see my partner or my secret lover. They learned about each other and now they're both trying to kill me."
+			"这个地方是如此的浪漫。我希望我可以永远留在这里。"
+			"我可能花了点小钱才来到这里，但这是值得的!你难道不喜欢这个地方吗？"
+			"我花了这么多钱来到这里，看看这个地方--它是一个垃圾场。我想，我将努力使它成为最好的地方。"
+			"明年，我希望我能够订得起住宿条件更好的船票。在这里的五天旅程中，我不得不听着反应堆嘈杂的嗡嗡声!"
+			"我每年都来这里。"
+			"你能相信我们的船在来的路上被海盗袭击了吗？幸运的是，一支海军巡逻队出现了，在我们的护盾掉落之前赶走了他们。这一切都太让人兴奋了!明年我还会走同样的路线。"
+			"我迫不及待地想去这里滑雪了!哈哈，只是开个玩笑。"
+			"太糟糕了，我明天就得离开。我每年只有两个星期的假期，花了一半的时间在来回的途中，很难离开。"
+			"我不会坐任何没有体面的豪华住宿的船！我不会坐任何没有体面的豪华住宿的船。"
+			"到这里来的票价有多便宜，这是个问题。只要花上几千个信用点，你就能看到令人惊叹的风景和令人震惊的景象，值得你付出双倍的代价。"
+			"我真的希望有更多太空中的外星人。如果没有蒸汽般的物种间的浪漫，那还有什么意义呢！？"
+			"你能再告诉我这是哪个星球吗？不，我没有迷路，我只是不知道我在哪里。"
+			"前几天我们乘坐了一个古老的航天器。它被称为类似联盟号或龙号航天飞机。我不记得具体的名字了，但它很可怕；我的背还因为颠簸而疼痛。"
+			"上周我几乎错过了我的交通工具；有人在超级互联网上说错了话，我为了纠正它而进行了长时间的激烈讨论。"
+			"嘿！5号站台在哪里？我需要在几分钟后在那里登机!"
+			"你看到我的行李了吗？我确定我几分钟前把它放在这里了。"
+			"我们参观了一个关于古代军事武器的展览；像隐形战斗机、大炮和坦克。当我们有了廉价的太空飞行后，这一切都变得如此之快地过时了。"
+			"我可以到几百万公里外的另一个星球去，很便宜，而且在一天之内；但去这个星球的另一边，只有几千公里，却要花一大笔钱和一周的旅行时间。"
+			"我可以和经理谈谈吗？我的舱门上有一道划痕，这让我非常恼火。我想我的整个假期现在被毁了。"
+			"我可以和经理谈谈吗？在这个星球上的着陆有点粗糙，我正在认真考虑提出投诉。"
+			"如果你看到我的伙伴或我的秘密情人，请警告我。他们互相了解，现在他们都想杀了我。"
 		word
 			`"`
 
@@ -1430,15 +1430,15 @@ news "protester"
 		attributes "urban"
 	name
 		word
-			"Protester"
+			"示威者"
 	message
 		word
 			`"`
 		word
-			"Stay with global companies! Don't depend on galactic companies from other worlds!"
-			"Humans were not built for traveling in space. Bad things happen when traveling at 25,000 kilometers per second!"
-			"If we were meant to be in space, then we would have been born with built-in oxygen bottles!"
-			"Give up your sinful life as spaceship captain and settle on this beautiful planet."
+			"留在全球公司!不要依赖来自其他世界的银河系公司!"
+			"人类不是为在太空旅行而生的。当以每秒25,000公里的速度旅行时，会发生不好的事情!"
+			"如果我们注定要在太空中生活，那么我们在出生时就会有内置的氧气瓶!"
+			"放弃你作为宇宙飞船船长的罪恶生活，在这个美丽的星球上定居。"
 		word
 			`"`
 
@@ -1450,18 +1450,18 @@ news "diplomat"
 		attributes "rich"
 	name
 		word
-			"Diplomat"
-			"Elite negotiator"
+			"外交官"
+			"精英谈判家"
 	message
 		word
 			`"`
 		word
-			"Tact is the art of making a point without making an enemy."
-			"Good counsel does no harm."
-			"Never argue with an idiot. People watching may have trouble telling who's who."
-			"Taxes are what we use to buy civilization."
-			"Never trouble trouble till trouble troubles you."
-			"No raindrop likes to see itself as responsible for the flood."
+			"战术是在不树敌的情况下提出观点的艺术。"
+			"好的建议不会造成伤害。"
+			"永远不要和一个白痴争论。看热闹的人可能难以分辨谁是谁。"
+			"税收是我们用来购买文明的东西。"
+			"永远不要找麻烦，直到麻烦来找你。"
+			"没有雨滴喜欢看到自己对洪水负责。"
 		word
 			`"`
 
@@ -1473,19 +1473,19 @@ news "mercenary"
 		attributes "frontier"
 	name
 		word
-			"Mercenary"
+			"雇佣兵"
 	message
 		word
 			`"`
 		word
-			"I've tracked fugitives halfway across the galaxy, and they have me on... guard duty. These guys must really be desperate given the kind of money they waved in my face."
-			"Security may be expensive, but think of it this way: it's better to be poor than dead."
-			"Nothing beats the thrill of boarding a crippled starship, laser rifle in your hands."
-			"Have you ever been to a pirate world? The conditions there are nearly inhuman!"
-			"It's criminal how much the Navy and Syndicate prefer to destroy pirates rather than disable them. How are people like us supposed to make money if we can't loot?"
-			"If you're trying to nab a pirate ship, try it in the South. The militia often leave the pirates disabled rather than killing them."
-			"Take it from me: if you want to disable ships, only use lasers. Projectile-based weapons always overkill your target."
-			"As much as I'd like to dual-wield laser rifles, I'd probably just miss every shot."
+			"我追踪了半个银河系的逃犯，他们让我负责......警卫工作。鉴于他们在我面前挥舞的那些钱，这些人一定是真的很绝望了。"
+			"保安可能很贵，但这样想吧：贫穷总比死亡好。"
+			"没有什么能比登上一艘残破的星舰，手里拿着激光步枪更刺激的了。"
+			"你曾经去过海盗世界吗？那里的条件几乎是没有人性的!"
+			"海军和辛迪加是多么喜欢摧毁海盗，而不是让他们丧失能力，这真是犯罪。如果我们不能抢劫，像我们这样的人怎么能赚钱呢？"
+			"如果你想抓住一艘海盗船，那就在南方试试吧。民兵们经常让海盗们丧失能力而不是杀死他们。"
+			"听我说：如果你想把船弄坏，只能用激光。基于弹丸的武器总是过度杀伤你的目标。"
+			"虽然我很想双持激光步枪，但我可能每枪都打不中。"
 		word
 			`"`
 
@@ -1497,21 +1497,21 @@ news "republic soldier"
 		attributes "military"
 	name
 		word
-			"Republic Soldier"
+			"共和国士兵"
 	message
 		word
 			`"`
 		word
-			"I bet you think that starship of yours is hot stuff, huh? Try tooling around in a cruiser with Atomic Engines sometime. You can run circles around interceptors."
-			"As soon as I leave the service, I'm buying my own ship like yours. It'll be nice to give the orders for a change!"
-			"Nice ship, captain. We trashed one just like it the other day during a pirate raid. Plating behind the engine room was real weak once the shields dropped, and a volley of sidewinders crippled her. You might want to look into that on yours."
-			"I used to be in the Syndicate Armed Forces before resigning my commission and joining the Navy. Here we actually train and fight instead of filling out paperwork all day."
-			"I can't wait until the day I get out. These rations are going to make me lose my mind. What I wouldn't give for a home-cooked meal..."
-			"Let me give you a piece of advice: Particle Cannons are some of the best weapons out there. Pirates don't stand a chance."
-			"I hope I don't get posted to fighter duty next week. Those things are deathtraps. By the time you get close enough to fire your lasers, you've already lost half your shields!"
-			"Nobody thinks about the Alphas anymore, but don't forget that they just disappeared. They could return at any time. If that happens, I'm going to kill every last one of 'em."
-			"While it seems pointless to have the Bactrian locked behind a license, don't forget that it's one of the oldest designs in human space. It was the Navy Carrier of its time - and it's still comparable to one."
-			`We recently went to full alert, because somebody screamed "It's scrambled!" Turns out some rookie in the galley was enthusiastic about making scrambled eggs.`
+			"我敢打赌，你认为你的星际飞船是热的东西，嗯？有空试试开着有原子引擎的巡洋舰到处跑。你可以绕着拦截器跑一圈。"
+			"我一退役，就会买一艘像你这样的船。换个角度来发号施令的感觉会很好!"
+			"不错的船，舰长。前几天我们在一次海盗袭击中毁掉了一艘和它一样的船。引擎室后面的镀层在护盾掉落后非常脆弱，一排侧舷炮就把它打残了。你可能想研究一下你的船的情况。"
+			"我曾经是辛迪加武装部队的一员，后来辞去了职务，加入了海军。在这里，我们实际上是在训练和战斗，而不是整天填写文书工作。"
+			"我不能等到我出去的那一天。这些口粮会让我失去理智。我真想吃一顿家常菜......。"
+			"让我给你一个建议。粒子炮是目前最好的武器之一。海盗根本没有机会。"
+			`我希望下周我不会被派去执行战斗机任务。那些东西是致命的。当你接近到可以发射激光的时候，你已经失去了一半的护盾！"。`
+			`没有人再去想 "字母 "了，但别忘了他们刚刚消失了。他们随时都可能回来。如果发生这种情况，我将把他们每个人都杀掉。`
+			"虽然把巴克特里亚号锁在许可证后面似乎毫无意义，但别忘了它是人类空间中最古老的设计之一。它是那个时代的海军航母--而且它仍然可以与之媲美。"
+			`我们最近进入了全面戒备状态，因为有人尖叫 "它被扰乱了！"原来是厨房里的某个菜鸟热衷于做炒蛋。`
 		word
 			`"`
 
@@ -1523,19 +1523,19 @@ news "syndicate soldier"
 		attributes "military"
 	name
 		word
-			"Syndicate Soldier"
+			"辛迪加士兵"
 	message
 		word
 			`"`
 		word
-			"What a terrible posting. I thought I'd filed my transfer paperwork right, but it turned out my commander's seal had to be a certified original and not a copy, so now I'm stuck here for another two years."
-			"I did a stint in the Republic military a few years ago, but the Syndicate pays so much more. Now I can actually save some money for my daughter's college tuition."
-			"You're living the dream, captain! Someday I'm going to retire from the Syndicate military and buy my own ship."
-			"After 20 years, you're eligible for a lifetime pension. I've only got 8 years left, and then I'm home free!"
-			"It's a scandal how many pirates are out here. We do our best, but upper management ties our hands with ridiculous rules of engagement."
-			"Everybody knows where the pirate planets are, so why don't we ever go on a mission to wipe 'em out? I don't understand it."
-			"My team was about to obliterate the flagship of a pirate fleet, but just before we could, we received orders to cease fire and fall back. One more second and those pirates would have been rigatoni."
-			"If you ask me, I think that the Syndicate is far too soft on the pirates - almost as if they don't want to harm them more than they need to. Don't tell my employers that I said that, though."
+			"真是个糟糕的帖子。我以为我的调职文件归档正确，但结果是我的指挥官印章必须是经过认证的原件，而不是复印件，所以现在我又被困在这里两年了。"
+			"几年前，我在共和国军队中做过一段时间的工作，但辛迪加的工资要高得多。现在我真的可以为我女儿的大学学费存一些钱了。"
+			"你活在梦中，队长！有一天，我也要为我的女儿攒钱。有一天，我将从辛迪加的军队中退休，并购买我自己的船。"
+			"20年后，你就有资格获得终身养老金了。我只剩下8年了，然后我就可以回家了!"
+			"这里有多少海盗，这是一个丑闻。我们尽力而为，但上层管理部门用可笑的交战规则束缚了我们的手脚。"
+			"每个人都知道海盗星球在哪里，那么为什么我们从来没有去执行任务来消灭他们呢？我不明白这一点。"
+			"我的团队正准备消灭一支海盗舰队的旗舰，但就在我们动手之前，我们收到了停火和撤退的命令。再多一秒钟，那些海盗就会变成意大利面。"
+			"如果你问我，我认为辛迪加对海盗太软弱了--几乎就像他们不想伤害他们超过他们需要的那样。不过，不要告诉我的雇主我这么说。"
 		word
 			`"`
 
@@ -1546,55 +1546,55 @@ news "pirate"
 		government "Pirate"
 	name
 		word
-			"Pirate"
-			"Renegade"
-			"Marauder"
-			"Looter"
-			"Buccaneer"
-			"Freebooter"
-			"Plunderer"
-			"Bandit"
+			"海盗"
+			"叛逆者"
+			"掠夺者"
+			"抢劫犯"
+			"海盗"
+			"自由盗贼"
+			"掠夺者"
+			"盗贼"
 	message
 		word
 			`"`
 		word
-			"Next time we meet up, maybe I'll be plundering your ship."
-			"What are you looking at, punk?"
-			"Hobbes and Darwin got it right: it's a war of all against all, and only the strongest deserve to survive. Without that pistol at your side, I'd slit your throat right now and take everything you own."
-			"Slaves for sale! Slaves for sale! Here is an exotic beauty with eyes full of fire that you can buy!"
-			"Wanna buy some death sticks?"
-			"Sometimes I wonder if what I'm doing is wrong."
-			"Every morning I look in the mirror... and I like what I see."
-			"Why did I become a pirate? It's the only way to truly be free. I was born a slave, and look at me now! I command a fleet of warships. I pay no taxes. I obey no laws. What a life!"
-			"Just watch yourself, and maybe we'll let you live."
-			"At half your age, I was richer than you'll ever be. This is the life, baby."
-			"Don't look at me like that. You wouldn't survive five minutes of my life."
-			"Just knocked over a fat merchant ship. Can't wait to blow all this cash on slaves and drugs!"
-			"I used to be a soft-bellied merchant captain before my life took a turn. Gotta get tough or get dead in this galaxy."
-			"Just a word of warning: don't fall asleep in the hotels here."
-			"Betcha I can name a combat use for every ship in the sky. Flivver? Might as well be a Sparrow. Freighter? Umm... it works as a great plundering vessel. Surveillance drone? Don't make me shoot you."
-			"Bah. How can you not gag at the suffocating rules that the Republic forces onto you? I mean, banning chickens with dynamite strapped to them? Ridiculous!"
-			"Yo, yo, yo, what's up, suckers! I'm high on ${contraband}! Wanna freebie? No? Coward!"
-			"You look like a good captain. I'd bet you'd be a better slave!"
-			"Hmph. You 'freelancers' have it easy, relying on the Navy as a crutch. If you wanna be your own captain, you've gotta strike out on your own!"
-			"Ever heard of the game Mafia? My life's a real-life version of that, 'cept instead of a town, there's merchants, and instead of a mafia, there's us, and the town has no way to survive!"
-			"Look at me like that one more time, and I'll give you plastic surgery free of charge."
-			"Crime pays, and the hours are good!"
-			"I'll retire as a security adviser in the Paradise Worlds. You know the saying: An old poacher makes the best gamekeeper."
-			"Hey, that's a very nice ship you have there. Would be a shame if something happened to it. Do you want to make a donation to the System Safety Fund?"
-			"Your credits or your life! Oh, you don't have either? Never mind then."
-			"Don't count on the Navy to save you if me or any of my friends attack you. Those Navy goons only hang around near the rich planets."
-			"Did I attack you? Well, I've attacked many people, could you be a bit more specific?"
-			"The size of my crimes no longer matter; one may as well hang for a sheep as for a lamb."
-			"Hey! We have this new Piracy As A Service offering. Want someone ambushed without incriminating yourself? Just tell me who, where, and how much it's worth to you."
-			"I don't get it; if I donate a kidney, then I'm some sort of hero. But if I donate 7 kidneys, then suddenly I'm some sort of monster."
-			"I wasn't close to my parents when they died. Which was quite fortunate, since they died in an exploding ship."
-			"I hate double standards; burn a body in a crematorium and you're a professional, burn a body in a spaceship and you're a criminal."
-			"I missed my lover during the raids today. But only by a few inches; next time I'll aim better."
-			"I once prayed to God for a new ship, but quickly found out He doesn't roll that way. So then I hijacked one and prayed for his forgiveness."
-			"Living on the edge."
-			"You can't win the game if you're afraid to lose it."
-			"Good things come to those who wait, and then I rob those from them very quickly."
+			"下次我们见面时，也许我将会掠夺你的船。"
+			"你在看什么呢，小混混？"
+			"霍布斯和达尔文说得很对：这是一场所有人对所有人的战争，只有最强的人才能生存。如果没有那把手枪在你身边，我现在就会割断你的喉咙，拿走你的一切。"
+			"奴隶出售!奴隶出售！奴隶出售！奴隶出售这里有一个眼睛里充满火焰的异国美女，你可以买下她!"
+			"想买些死亡之杖吗？"
+			"有时我想知道我所做的是否是错的。"
+			"每天早上我都会照照镜子......我喜欢我所看到的一切。"
+			"我为什么要成为一个海盗？这是真正获得自由的唯一途径。我生来就是奴隶，看看现在的我！我指挥着一支舰队。我指挥着一支战舰舰队。我不交税。我不遵从任何法律。多么美好的生活啊!"
+			"只要注意自己，也许我们会让你活下去。"
+			"在你一半的年龄，我比你更富有。这就是生活，宝贝。"
+			"别这样看着我。你在我的生活中连五分钟都活不了。"
+			"刚刚撞翻了一艘肥大的商船。迫不及待地把这些钱都花在奴隶和毒品上！"
+			"在我的生活发生转折之前，我曾经是一个软弱的商船船长。在这个星系中，必须变得强硬，否则就会死。"
+			"只是一个警告：不要在这里的旅馆里睡着了。"
+			"我敢打赌，我可以说出天空中每艘飞船的战斗用途。Flivver？还不如麻雀号呢。货船？嗯......它可以作为一个伟大的掠夺船。监视无人机？别让我对你开枪。"
+			"呸。你怎么能不对共和国强加给你的令人窒息的规则感到厌恶？我的意思是，禁止在鸡身上绑炸药的鸡？荒唐!"
+			"哟，哟，哟，怎么了，笨蛋们！我在嗑药！想要免费的东西吗？不要？胆小鬼！"
+			"你看起来像个好队长。我打赌你会是个更好的奴隶！"
+			`哼哼。你们这些'自由职业者'很容易，依靠海军作为拐杖。如果你想成为你自己的船长，你就得自己出击了！"。`
+			`听说过黑手党这个游戏吗？我的生活就是现实版的黑手党，只不过不是城镇，而是商人，不是黑手党，而是我们，而城镇没有办法生存下去！"。`
+			"再这样看我一次，我就免费给你做整形手术。"
+			"犯罪是要付出代价的，而且时间也很充裕!"
+			"我就在天堂世界当安全顾问退休。你知道这句话。一个老偷猎者是最好的猎物看守人。"
+			"嘿，你的这艘船真不错。如果它出了什么事，那就太可惜了。你想为系统安全基金捐款吗？"
+			"你的信用额度或你的生命！哦，你都没有？那就别管了。"
+			"如果我或我的任何朋友攻击你，不要指望海军会救你。那些海军士兵只在富有的星球附近活动。"
+			"我攻击你了吗？嗯，我攻击了很多人，你能不能说得更具体一点？"
+			"我的罪行的大小已经不重要了；一个人可能会因为一只羊而被绞死，也可能因为一只羊而被绞死。"
+			"嘿！我们有这个新的海盗服务项目。想让人伏击而不牵连到自己吗？只要告诉我是谁，在哪里，以及对你来说值多少钱。"
+			"我不明白；如果我捐出一个肾，那么我就是某种英雄。但如果我捐了7个肾，那我就突然成了某种怪物。"
+			"我的父母去世时，我和他们并不亲近。这是很幸运的，因为他们死在一艘爆炸的船上。"
+			"我讨厌双重标准；在火葬场烧掉一具尸体，你就是专业人士，在飞船上烧掉一具尸体，你就是罪犯。"
+			"在今天的突击检查中，我错过了我的爱人。但只是差了几英寸；下一次我会瞄准得更好。"
+			"我曾经向上帝祈祷，希望得到一艘新的飞船，但很快就发现，他并不这么做。所以后来我劫持了一艘，祈求他的宽恕。"
+			"生活在边缘。"
+			"如果你害怕输掉比赛，你就无法赢得比赛。"
+			"好东西是给那些等待的人的，然后我很快就从他们那里抢走了那些东西。"
 		word
 			`"`
 
@@ -1605,32 +1605,32 @@ news "merchant in pirate space"
 		government "Pirate"
 	name
 		word
-			"Merchant captain"
-			"Starship captain"
-			"Spacecraft captain"
-			"Spaceship captain"
-			"Freelance captain"
-			"Merchant pilot"
-			"Starship pilot"
-			"Spacecraft pilot"
-			"Spaceship pilot"
-			"Freelance pilot"
+			"商船船长"
+			"星舰舰长"
+			"宇宙飞船舰长"
+			"飞船船长"
+			"自由职业者舰长"
+			"商人飞行员"
+			"星际飞船驾驶员"
+			"航天器驾驶员"
+			"飞船驾驶员"
+			"自由职业飞行员"
 	message
 		word
 			`"`
 		word
-			"Yikes! I just wanted to see what outfits were here! I'm out of here as soon as I get back to my ship!"
-			"What are you lookin' at? Don't judge me!"
-			"Nice to see a friendly face in these parts. I needed to land to shake those buggers off my tail. Pirates won't shoot at you if you're going for a landing."
-			"Thank god, there's someone other than those freaky pirates around here. At least, assuming that you're not a pirate. Which you aren't, of course. Right?"
-			"Why am I here? I really needed the fuel and decided that bribing off pirates until another ship entered the system wasn't smart long-term."
-			"There's some real creeps around here. All I wanted to do was sell some cargo at this port, but it definitely wasn't worth the risk."
-			"Whatever you do, don't try the ${contraband}. That stuff's nasty."
-			"Why am I here? I could ask the same of you!"
-			"I have to admit, the thought of being a pirate is tempting."
-			"You're not going to kill me, are you?"
-			"I flew around half the galaxy to pick up a wedding banquet, but it wasn't here and they stole my cargo instead! The cake was a lie!"
-			"The optimist has the glass half full, the pessimist has the glass half empty, but here you are already lucky if the glass doesn't get shot, stolen, or broken before you take your first sip."
+			"呀!我只是想看看这里有什么服装!我一回到我的飞船就会离开这里!"
+			"你在看什么？不要评判我!"
+			"很高兴在这些地方看到一张友好的脸。我需要着陆，把那些家伙从我的尾巴上甩掉。如果你要降落，海盗是不会向你开枪的。"
+			"谢天谢地，这里除了那些怪异的海盗，还有其他人。至少，假设你不是一个海盗。当然，你不是。对吗？"
+			"我为什么在这里？我真的需要燃料，并决定在另一艘船进入这个系统之前，贿赂海盗不是明智的长期做法。"
+			"这里有一些真正的小人。我只想在这个港口卖些货物，但这绝对不值得冒险。"
+			"无论你做什么，都不要去尝试${违禁品}，那东西很恶心。"
+			"我为什么在这里？我可以对你提出同样的要求!"
+			"我不得不承认，当海盗的想法很诱人。"
+			"你不会杀了我吧？"
+			"我绕着半个银河系飞行，去接一个婚宴，但婚宴不在这里，他们反而偷走了我的货物!蛋糕是个谎言！"
+			"乐观主义者的杯子是半满的，悲观主义者的杯子是半空的，但在这里，如果杯子在你喝第一口之前没有被枪击、被偷或被打破，你已经很幸运了。"
 		word
 			`"`
 
@@ -1641,30 +1641,30 @@ news "farmer in pirate space"
 		government "Pirate"
 	name
 		word
-			"Farmer"
+			"法尔默"
 	message
 		word
 			`"`
 		word
-			"Fancy folks in the big cities and the Paradise Planets think they've got life all figured out, but if you dig below the surface, you'll find that they're slaves to their lifestyles, and we're the ones who are free."
-			"I moved here from a richer world and wouldn't ever go back."
-			"Surprised to see horses and wooden carts in the 31st century, huh? Sometimes the old ways are the best."
-			"Everybody who wants to stay here is crazy. We can't hardly make any money and nobody appreciates what we do."
-			"Did you eat today? Thank a farmer."
-			"I used to be a pirate, roamin' the skies, lootin' and plunderin'. Pockets got up to a few million at one point. Thought I had it all. One day, I realized none of it was making me happy. I bought this farm and sold the rest. Best thing I ever did."
-			"I came out here because I liked the company of animals more than people like you. Go away."
-			"Shocked to see some normal farmers wandering 'round here? Just because we live on a lawless world doesn't mean it's kill or be killed."
-			"My son was enslaved by a gang of pirates. Not much one can do around here to prevent that."
-			"My daughter was held hostage by a gang of pirates until I coughed up some money for them. It's become such a common occurrence that I have to keep a stockpile of credits just in case."
-			"My father was shot by a gang of pirates. Do you want to know why he was killed? It was because he had a large nose."
-			"My mother was once kidnapped by a gang of pirates. She escaped, but, well, now I'm here."
-			"It'd be nice if the pirates could plunder some pesticides for us. It's little more than a pipe dream, though."
-			"When one chooses the lawless lifestyle, the opportunities to grab a good bite lower drastically. That's what we're here for."
-			"The pirates could easily just loot us for our last credit. Of course, if they did that, they'd lose one of their sources of food. And some of us aren't completely defenseless..."
-			"The farmers in the Dirt Belt have it easy. They get the luxuries of fertilizer and pesticide."
-			"Pirates may look fierce, but the moment you start pushing against most of them, they fold like paper."
-			"I came here due to all of those oppressive rules and regulations that the Republic force down your throat. Now I'm dealing with all the oppressive demands and threats that pirates force down my throat. It's a start."
-			"Beneath the exterior of many pirates, there's a person who desperately wishes that they'd never taken that path and could return to living normally. I'm talking from personal experience."
+			"大城市和天堂星球上的花花公子们认为他们已经想通了生活，但如果你在表面之下挖掘，你会发现他们是他们生活方式的奴隶，而我们才是自由的人。"
+			"我从一个更富裕的世界搬到这里，再也不会回去了。"
+			"在31世纪看到马和木头车，很惊讶吧？有时老办法是最好的。"
+			"想留在这里的人都是疯子。我们几乎赚不到钱，没有人欣赏我们的工作。"
+			"你今天吃了吗？感谢一个农夫。"
+			"我曾经是一个海盗，在天空中游荡，抢劫和掠夺。口袋里的钱一度达到了几百万。我以为我拥有这一切。有一天，我意识到这一切都不能让我快乐。我买了这个农场，卖掉了其余的东西。这是我做过的最好的事情。"
+			"我来到这里是因为我喜欢动物的陪伴，而不是你这样的人。走吧。"
+			"看到一些正常的农民在这里游荡，感到震惊吗？我们生活在一个无法无天的世界上，但这并不意味着不杀人就会被杀。"
+			"我的儿子被一帮海盗奴役了。在这里，人们无法阻止这种情况的发生。"
+			"我的女儿被一伙海盗扣为人质，直到我拿出一些钱给他们。这已经成为一种常见的情况，以至于我不得不储存一些信用证以备不时之需。"
+			"我的父亲被一伙海盗枪杀。你想知道他为什么被杀吗？那是因为他有一个大鼻子。"
+			"我母亲曾经被一伙海盗绑架过。她逃脱了，但是，现在我在这里。"
+			"如果海盗们能为我们掠夺一些杀虫剂，那就太好了。不过，这不过是个空想。"
+			"当一个人选择了无法无天的生活方式时，抓到好东西的机会就会大大减少。这就是我们在这里的目的。"
+			"海盗们可以轻易地掠夺我们的最后一笔钱。当然，如果他们这样做，他们就会失去他们的食物来源之一。而我们中的一些人并不是完全没有抵抗力...。"
+			"泥土地带的农民很容易。他们得到了化肥和杀虫剂的奢侈品。"
+			"海盗可能看起来很凶猛，但当你开始对他们中的大多数人施加压力时，他们就会像纸一样折叠。"
+			"我来到这里，是因为共和国强加给你的那些压迫性规则和条例。现在我正在处理海盗们强加给我的所有压迫性要求和威胁。这是个开始。"
+			"在许多海盗的外表下，有一个人急切地希望他们从未走上那条路，可以回到正常生活。我说的是个人经验。"
 		word
 			`"`
 
@@ -1675,20 +1675,20 @@ news "republic reporter in pirate space"
 		government "Pirate"
 	name
 		word
-			"Reporter"
+			"记者"
 	message
 		word
 			`"`
 		word
-			"I should never have taken this assignment. Yesterday I interviewed a young pirate and he tried to rob me!"
-			"It really isn't so bad here, but I have to make it sound worse than it is to keep my ratings high."
-			"The political hierarchy out here is way more chaotic than any other planet I've visited. In the past year, I've had to report on five coups d'etat!"
-			"Understanding pirates is the key to defeating them. Yesterday I learned that the local warlord goes sock-shoe-sock-shoe and not sock-sock-shoe-shoe."
-			"I titled my latest article 'New Bombshell Interview Reveals All!' In fact, there were many bombs dropped and many shells fired during my conversation. It was really quite frightening."
-			"Look at this! 'Top Ten Pirates Hector Barbarossa is Too Afraid to Cross!'"
-			"Read this! 'Twenty Pirates with the Highest IQs - You'll Never Guess Who's Number One!'"
-			"Check this out! 'Telltale Signs Your Spouse is Secretly a Pirate - Number Five Says it All!'"
-			"Read my column on how to identify pirates in disguise! Or just look around this planet, that also works."
+			`我不应该接受这个任务。昨天我采访了一个年轻的海盗，他还想抢劫我呢！"。`
+			"这里的情况其实并不糟糕，但我必须让它听起来比实际情况更糟糕，以保持我的评分高。"
+			"这里的政治等级制度比我访问过的任何其他星球都要混乱得多。在过去的一年里，我不得不报道了五次政变。"
+			"了解海盗是击败他们的关键。昨天我了解到，当地军阀说的是sock-shoe-sock-shoe而不是sock-shoe-shoe。"
+			"我把我最新的文章命名为'新的爆炸性采访揭示了一切！'。事实上，在我的谈话中，有许多炸弹被投下，许多炮弹被发射。这真的很让人害怕。"
+			"看看这个吧!'赫克托-巴巴罗萨不敢过的十大海盗！'"
+			"读读这个!'二十个智商最高的海盗--你绝对猜不到谁是第一！'"
+			"请看这个!你的配偶暗中是海盗的蛛丝马迹--第五条说明了一切!"
+			"阅读我的专栏：如何识别伪装的海盗!或者只是看看这个星球的周围，这也行得通。"
 		word
 			`"`
 
@@ -1699,26 +1699,26 @@ news "spaceport video advertisement"
 		government "Republic"
 	name
 		word
-			"Spaceport Video Screen"
+			"空间站视频屏幕"
 	message
 		word
-			`You see a video of stuntmen making a jump from the edge of space. The "do not try this at home", "illegal on many planets", and "high risk/deadly" warnings at the end of the video suggest that this might become quite a popular sport.`
-			"A video of fast spaceships racing around a three dimensional course in space is shown on the screen, interwoven with clips of very luxurious ships where people appear to be watching the race."
-			"An action-packed advertisement about joining the Navy is playing on the screen. It shows impressive video-fragments of carriers, gunships, dropships and heroic marines."
-			"Some video is showing Syndicate equipment. The video ends with the slogan, 'Just what's needed to get the job done.'"
+			`你看到一个特技演员从太空边缘跳下的视频。视频结尾处的 "不要在家里尝试"、"在许多星球上是非法的 "和 "高风险/致命 "的警告表明，这可能成为一项相当受欢迎的运动。`
+			"屏幕上显示的是快速飞船在太空中的三维赛道上飞驰的视频，与非常豪华的飞船的片段交织在一起，人们似乎正在观看比赛。"
+			"屏幕上正在播放一个关于加入海军的行动广告。它显示了令人印象深刻的航母、炮艇、空投船和英雄的海军陆战队的视频片段。"
+			`一些视频显示了辛迪加的设备。视频的结尾是这样的口号："只需要完成工作就可以了。`
 
 
 
 phrase "culinary venue"
 	word
 		"pub"
-		"restaurant"
-		"cafe"
+		"餐厅"
+		"咖啡馆"
 
 
 phrase "restaurant names"
 	word
-		"The "
+		"缝纫师"
 	phrase
 		"civilian subphrase 2"
 		"civilian subphrase 3"
@@ -1734,18 +1734,18 @@ news "syndicate pa system"
 		not attributes "station"
 	name
 		word
-			"Public Announcement System"
+			"公共广播系统"
 	message
 		word
 			`"`
 		word
-			"Attention: baggage should not be left unattended. Any unattended baggage will be auctioned within days."
-			"Attention factory workers: please proceed to the fast-lane immigration desk. Time spent in regular immigration lanes will not be reimbursed."
-			"Dear spaceship captains: please be aware that our outfitters are open all hours of the day. There is never a reason to delay the purchase of your next piece of Syndicate equipment."
-			"Dear traveler: we recommend you to have dinner in our local ${culinary venue} '${restaurant names}'. You will not be disappointed."
-			"Attention course participants: The course 'Efficient Passenger Logistics' has been canceled because the trainer got stuck in transit."
-			"Attention: The safe spaceship piloting training course has been canceled because our instructors crashed their shuttles this morning."
-			"Notice: The course on dealing with space sickness has been canceled because the instructor got seasick."
+			"注意：行李不应无人看管。任何无人看管的行李将在几天内被拍卖。"
+			"工厂工人请注意：请到快速通道的出入境服务台。在普通移民通道花费的时间将不会得到补偿。"
+			"亲爱的飞船船长：请注意，我们的舾装厂在一天中的所有时间都是开放的。永远没有理由推迟购买你的下一件辛迪加设备。"
+			"亲爱的旅行者：我们推荐你在我们当地的${美食场所}'${餐厅名称}吃晚餐。你不会失望的。"
+			`课程参与者请注意。高效客运物流 "课程已被取消，因为培训师在运输途中被卡住了。`
+			"请注意。安全飞船驾驶培训课程已被取消，因为我们的教员今天早上撞坏了他们的班车。"
+			"通知。处理太空病的课程已被取消，因为教员晕船了。"
 		word
 			`"`
 
@@ -1774,7 +1774,7 @@ phrase "platform number"
 		"14" 100
 		"15" 100
 		"16" 100
-		"9 and three quarters"
+		"9又4分之3"
 		
 
 news "tourist pa system"
@@ -1783,19 +1783,19 @@ news "tourist pa system"
 		attributes "deep" "rich" "paradise" "tourism"
 	name
 		word
-			"Public Announcement System"
+			"公共广播系统"
 	message
 		word
 			`"`
 		word
-			"Attention: baggage should not be left unattended. Keep an eye on your belongings at all times."
-			"Note to travelers: the planetary security level has been changed to black."
-			"Be aware that parking restrictions are in effect around the spaceport. Do not leave your personal transport vehicles unattended."
-			"Dear travelers: the spaceport is a strictly no-smoking zone. Thank you for your consideration."
-			"Dear travelers: welcome to our planet. Please remember to synchronize your personal clocks to the local time and night/day cycle duration."
-			"Please stand clear of the doors when the shuttle train is departing."
-			"This is the final boarding call for passengers ${tourist names}, ${tourist names}, and ${tourist names} ${family names}. Please proceed to platform ${platform number} for immediate boarding."
-			"Dear travelers: please take the time to adjust to normal gravity."
+			"注意：行李不应放在无人看管的地方。随时注意你的物品。"
+			"旅行者注意：行星的安全等级已改为黑色。"
+			"请注意，太空港周围的停车限制已经生效。不要让你的个人运输车辆无人看管。"
+			"亲爱的旅行者：太空港是一个严格的禁烟区。谢谢你的考虑。"
+			"亲爱的旅行者：欢迎来到我们的星球。请记得将您的个人时钟与当地时间和夜/日周期持续时间同步。"
+			"当班车离去时，请站在门外，不要靠近。"
+			"这是乘客${旅游者姓名}、${旅游者姓名}和${旅游者姓名}${家庭姓名}的最后一次登机通知。请前往${平台编号}平台立即登机。"
+			"亲爱的旅客们：请花时间适应正常的重力。"
 		word
 			`"`
 
@@ -1804,78 +1804,78 @@ news "tourist pa system"
 phrase "republic motto graffiti"
 	word
 		`` 2
-		`Underneath are the words "PEACE AMONG THE STARS."` 2
-		`Underneath are the words "DEATH AMONG THE STARS."`
-		`Underneath are the words "TYRANNY AMONG THE STARS."`
-		`Underneath are the words "POVERTY AMONG THE STARS."`
-		`Underneath are the words "PEACE AMONG THE PARADISE WORLDS."`
+		`下面是 "星际和平 "的字样。` 2
+		`下面是 "死亡在星际 "的字样。`
+		`下面是 "星星上的暴行 "的字样。`
+		`下面是 "星际间的贫穷 "的字样。`
+		`下面是 "天堂世界的和平 "的字样。`
 
 phrase "deep motto graffiti"
 	word
 		`` 2
-		`Underneath are the words "Peace, Prosperity, Progress."` 2
-		`Underneath are the words "Power, Poverty, Pride."`
-		`Underneath are the words "Peace, Prosperity, Progress, for those who are born lucky."`
+		`下面是 "和平、繁荣、进步 "的字样。` 2
+		`下面是 "权力、贫穷、骄傲 "的字样。`
+		`下面是 "和平、繁荣、进步，为那些天生的幸运儿"。`
 
 news "graffiti on spaceport wall"
 	location
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Pirate"
 	name
 		word
-			"Graffiti painted on a wall"
+			"画在墙上的涂鸦"
 	message
 		word
-			"A lone, soulless husk. / Appointed immortal king. / To sulk forever."
-			"The galaxy's child / Cursed with madness of time / Behind bloody chains"
-			"Too proud for farming / Too poor to buy Paradise / I'll hoist the black flag - Lake"
-			"A small cosmological speck drifting in and out of time - Swiren"
-			"Tear down the planet / Draw the most perfect circle / Idle endlessly"
-			"Polish hull plating / Bring guns and ammunition / When will the blood stop?"
-			"Farmer's family / Where's our guardian fleet? / Trapped in Paradise"
-			"Built on graveyards / Our infant species pretends / No bodies remain"
-			"The honest soldier / Rescue children when Hope dies / Fired by Earth's wisest"
-			"Future looking bleak / Desperation reigns supreme / Light the fuse and watch"
-			"A little trinket / Into the tempest of blood / Reopen the door"
-			"Step into the stars / Listen to the larks dreaming / And open your eye"
-			"Combined trinity / Overthrow the ringleaders / Unity through fear"
-			"With a change in heart / Seeking to make a new life / But with skin of green"
-			"Cloudy star shines dim / Yet your mind is clear as day / Remember the past"
-			"Uncover the truth / Let sinners bask in sunlight / Reconcile freedom"
-			"No more hope of peace / Become what you most dreaded / Checkmate in seven"
-			"When all hope is lost / Unify the warmongers / Become the greater foe"
-			"What lies beyond life / A Rampant AI wonders / Exit door leads in - Warlord Mike"
-			"There once was a man from New Boston / To fly's a dream he'd had often / He purchased a shuttle / Brought folks in to huddle / Why do merchants call this a coffin? - Lake"
-			"There once was a man from New Boston / He picked the ugliest of options / He purchased a star barge / Mission cargo's too large / This shipment's starting to smell rotten... - Lake"
-			"There once was a man from New Boston / His loan officer advised caution / He purchased a sparrow / Took off like an arrow- / That sparrow soon turned up at auction. - Lake"
-			`A captain with a troubled past / Passed through this system very fast / Was playing a game / Had no proper name / The captain was called "First Last."`
-			"Haikus are easy, / but sometimes they don't make sense. / Refrigerator."
-			"Haikus are easy. / I can't think of a good line. / It's snowing on Mount Fuji."
-			"A long time ago / I was respected by all, / but now I sit here."
-			"Mary had a little lamb / Little lamb little lamb / Mary had a little lamb / Whose fleece was white as snow"
-			"You think piracy is bad and want to stop us? You and what army?"
-			"Messing with the Syndicate, Does That Sound Like Fun to You?"
-			"83 percent of all statistics are just made up."
-			"Ask not what your planet can do for you; ask what you can do for your planet."
-			"Fair is foul, and foul is fair - Shakespeare, Macbeth"
-			"For want of a shoe, the crewmember was lost. / For want of a crewmember, the ship was lost. / For want of a ship, the fleet was lost. / For want of a fleet, the battle was lost. And all for the want of a shoe."
-			"Shoot for the stars, but make sure you miss or your hull might not last."
-			"Clippy the paperclip was here."
-			"Kilroy was here."
-			"The Joker was here."
-			"Foo went to a Bar."
-			"The Pink Elephant is in a room around here."
-			"An elephant with painted nails was here but not seen by anyone."
-			"Elvis was here. He is alive!"
-			"Waldo was here, but where is he now?"
-			"The butler did it!"
-			"Hello Hero, have you heroically been hammering hostiles?"
-			"What do you get when you cross a rhetorical question with a joke?"
-			"Spacing out in space is never funny."
-			"Don't put graffiti on the wall here."
-			"A spray-painted circle surrounded by two arrows forms the Republic insignia. ${republic motto graffiti}"
-			"A spray-painted tree with a mass of branches in the shape of a brain forms the Deep insignia. ${deep motto graffiti}"
-			"Slow spaceships slow down speedy shipping."
-			"Fast Flivvers; ferociously ferrying famous families fast and friendly."
-			"Veni, vidi, hyperjumped away."
-			"Those who dance will be called fools by those who cannot hear the music."
-			"Better half a sentence, "
+			"孤独的、没有灵魂的躯壳。/ 被任命为不朽的国王。/ 永远生闷气。"
+			"银河系的孩子/被诅咒的疯狂的时间/在血腥的枷锁后面"
+			"骄傲得无法耕作/贫穷得无法购买天堂/我将挂起黑旗--湖泊"
+			"一个小小的宇宙学的斑点，在时间中飘来飘去--斯威伦"
+			"拆毁星球/画出最完美的圆/无休止地闲逛"
+			"擦亮船体镀层/带上枪支弹药/血腥味何时才能停止？"
+			"农夫的家庭/我们的守护舰队在哪里？/ 被困在天堂里"
+			"建在墓地上/我们的幼年物种假装/没有尸体留下"
+			"诚实的士兵/在希望破灭时拯救儿童/被地球上最聪明的人解雇"
+			"未来黯淡无光 / 绝望至上 / 点燃导火线，看着"
+			"一个小饰品/进入血腥的暴风雨/重新打开门"
+			"步入星空/聆听云雀的梦呓/睁开你的眼睛"
+			"三位一体的组合 / 推翻头目 / 恐惧中的团结"
+			"心灵的改变/寻求新的生活/但有绿色的皮肤"
+			"阴天星光暗淡/然而你的头脑清晰如昼/回忆过去"
+			"揭开真相/让罪人沐浴在阳光下/调和自由"
+			"再也没有和平的希望/成为你最害怕的东西/七步之内将死。"
+			"当所有的希望都破灭时 / 统一战争贩子 / 成为更大的敌人"
+			"生活之外还有什么/猖獗的人工智能想知道/出口的门通往里面--军阀迈克"
+			"曾经有一个来自新波士顿的人/飞翔是他经常做的一个梦/他买了一架航天飞机/把人们带到了一起/为什么商人们把这叫做棺材？- 湖"
+			"曾经有一个来自新波士顿的人/他选择了最丑陋的选择/他购买了一艘星形驳船/任务的货物太大/这批货物开始闻到腐烂的味道......- 湖"
+			"曾经有一个来自新波士顿的人/他的贷款官建议他谨慎行事/他购买了一只麻雀/像箭一样飞走了--/那只麻雀很快就被拍卖了。- 湖"
+			`一个有问题的船长/很快就通过了这个系统/在玩一个游戏/没有合适的名字/船长被称为 "第一最后"。`
+			"俳句很容易，/但有时却没有意义。/ 冰箱。"
+			"俳句很容易。/ 我想不出一句好话。/ 富士山上下雪了。"
+			"很久以前/我被所有人尊重，/但现在我坐在这里。"
+			"玛丽有一只小羊羔/小羊羔小羊羔/玛丽有一只小羊羔/它的绒毛白如雪"
+			"你认为海盗行为不好，想阻止我们？你和什么军队？"
+			"捣乱的辛迪加，你觉得这听起来很有趣吗？"
+			"83%的统计数据都是编造的。"
+			"不要问你的星球能为你做什么，要问你能为你的星球做什么。"
+			"公平即是污秽，污秽即是公平--莎士比亚《麦克白》。"
+			"因为缺少一只鞋，船员就失去了。/ 因为缺少一个船员，这艘船就丢失了。/ 因为缺少一艘船，舰队就失去了。/ 因为缺少一个舰队，战斗就失败了。而这一切都是因为缺少一只鞋。"
+			"射向星星，但要确保你没有射中，否则你的船体可能不会持久。"
+			"回形针Clippy来过这里。"
+			"基尔罗伊在这里。"
+			"小丑在这里。"
+			"Foo去了一个酒吧。"
+			"粉红大象在这附近的一个房间里。"
+			"一只涂有指甲的大象在这里，但没有人看到。"
+			"猫王曾在这里。他还活着!"
+			"瓦尔多曾在这里，但他现在在哪里？"
+			"是管家干的!"
+			"你好，Hero，你有没有英勇地锤击过敌人？"
+			"当你把一个反问句和一个笑话交叉在一起时，你会得到什么？"
+			"在太空中隔空喊话从来都不好笑。"
+			"不要在这里的墙上涂鸦。"
+			"一个喷漆的圆圈，周围有两个箭头，构成了共和国的徽章。${共和国格言涂鸦}。"
+			"一棵喷漆的树上有大量的树枝，呈大脑形状，构成了深渊的徽章。${深海箴言涂鸦}。"
+			"缓慢的宇宙飞船减缓了快速的航运。"
+			"快速的Flivvers；凶猛的摆渡名族快速而友好。"
+			"Veni, vidi，超跃而去。"
+			"跳舞的人将被那些听不到音乐的人称为傻瓜。"
+			"最好是半句。"

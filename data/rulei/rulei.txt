@@ -29,39 +29,39 @@ mission "Ira Contact"
 		never
 	on enter "Kanguwa"
 		fail
-		log "Factions" "Rulei" `The Rulei were likely an ancient, technologically advanced civilization from long ago, but the only things that remain of them are a single strange ship and two scarred planets.`
-			`They communicate through some sort of invasive psionic ability, speaking in a thousand voices all at once. Prolonged contact seems unhealthy.`
+		log "Factions" "Rulei" `鲁尔人很可能是很久以前的一个古老的、技术先进的文明，但他们唯一留下的是一艘奇怪的飞船和两颗伤痕累累的行星。`
+			`他们通过某种侵入性的幻觉能力进行交流，同时用一千种声音说话。长时间的接触似乎是不健康的。`
 		conversation
-			`Moments after entering the system, you are overwhelmed by an intense sense of emptiness. As you attempt to comprehend this feeling, you begin hearing whispers from behind.`
+			`在进入这个系统的瞬间，你被一种强烈的空虚感所淹没。当你试图理解这种感觉时，你开始听到来自背后的低语。`
 			choice
-				`	(Turn around slowly.)`
-				`	(Pull out my sidearm and turn quickly.)`
-			`	You turn around, but nothing is there besides the familiar internals of your ship. The whispers remain behind your head, like an itch that can't be reached. The whispers are in a completely foreign language that you can't even begin to understand. As you keep looking around, you begin hearing more and more murmuring. There feels to be hundreds of distinct voices tugging your mind in every direction at once now, overloading your senses. Just as you think you can't take anymore, everything falls completely silent.`
+				`	(慢慢转过身来。)`
+				`	(掏出我的手枪，迅速转身。)`
+			`	你转过身来，但除了你熟悉的飞船内部结构外，什么也没有。窃窃私语仍然在你的脑后，就像一个无法触及的痒点。这些耳语是用一种完全陌生的语言，你甚至无法理解。当你不断环顾四周时，你开始听到越来越多的杂音。现在感觉有数百个不同的声音同时在各个方向牵引着你的头脑，使你的感官超负荷。就在你认为你不能再忍受的时候，一切都完全沉寂下来。`
 			choice
-				`	"Hello?"`
-				`	"Is there someone there?"`
-				`	"Show yourself!"`
+				`	"喂？"`
+				`	"那里有人吗？"`
+				`	"现身吧！"`
 			scene "scene/rulei flash"
-			`	"Human."`
-			`	An image suddenly flashes in your head as you feel millions of eyes staring at you from beyond the boundaries of space. Looking around again, you see a strange-looking spacecraft a bit off into the distance in front of you facing your direction. The voices continue to surround your mind with only slightly reduced intensity.`
+			`	"人类。"`
+			`	一个画面突然在你的脑海中闪现，你感觉到有数百万双眼睛从空间的边界之外盯着你。再次环顾四周，你看到在你面前的远处，有一个看起来很奇怪的航天器正对着你的方向。那些声音继续围绕着你的头脑，只是强度略有下降。`
 			choice
-				`	"Who are you?"`
-				`	"Where am I?"`
+				`	"你是谁？"`
+				`	"我在哪里？"`
 					goto where
-			`	Numerous voices start up, but rather than becoming louder, they go back and forth in your head, as though they are having a discussion. After a few seconds, they fall silent, then speak a single word in a cacophonous unison.`
-			`	"Precursors."`
+			`	无数的声音开始响起，但它们并没有变大，而是在你的脑海中来回走动，仿佛在进行讨论。几秒钟后，它们陷入了沉默，然后以一种喧闹的声音齐声说出一个词。`
+			`	"前兆。"`
 			choice
-				`	"What is this place?"`
-				`	"Precursors of what?"`
+				`	"这是什么地方？"`
+				`	"什么的前兆？"`
 			label where
-			`	The whispers start to pick up with renewed strength. The swirl of endless vocals assaults your head, each moment more agonizing than the last. Finally, they cease, and you are left in silence.`
-			`	"An End."`
+			`	窃窃私语声开始以新的力量回升。无尽的人声漩涡袭击着你的大脑，每一刻都比上一刻更令人痛苦。最后，他们停止了，你被留在沉默中。`
+			`	"一个结束。"`
 			choice
-				`	"An end to what?"`
-				`	"What do you mean by that?"`
-			`	The voices resume, but you sense a newfound dreariness in their tone. You try once again to communicate with the ship, but despite constant whispering in the background, it no longer answers.`
-			`	Taking another look at the vessel, it seems to have some sort of advanced origin. Eerie star-like patterns flow on its surface, and it doesn't visibly have any standard means of propulsion. At the rear end is some type of floating ring of objects that rotate in a peculiar manner.`
-			`	The planets in this system seem to have an abnormal appearance similar to that of the starship, but for some reason even looking at them gives you a headache. Something unusual must have happened here a long time ago.`
+				`	"什么的结束？"`
+				`	"你这话是什么意思？"`
+			`	声音恢复了，但你在他们的语气中感觉到一种新的沉闷。你再次尝试与这艘船沟通，但尽管背景中不断有窃窃私语，它却不再回答。`
+			`	再看一下这艘船，它似乎有某种先进的起源。阴森的星形图案在它的表面流动，而且它显然没有任何标准的推进手段。在后端是某种类型的浮动物体环，以一种奇特的方式旋转。`
+			`	这个系统中的行星似乎有一个与星舰相似的异常外观，但由于某些原因，即使看着它们也会让你感到头疼。很久以前，这里一定发生过不寻常的事情。`
 				decline
 				
 				
@@ -72,22 +72,22 @@ mission "Rulei Planet"
 		attributes "rulei"
 	on offer
 		conversation
-			`It feels as though there is a tremendous weight on your mind while you visit this world. The same sort of purple starlit hues of the alien ship from above can also be found in various strange formations across the land. Unlike the whispers from before, the voices here are painfully unbearable, especially the closer you get to the surface.`
-			`	You can barely hear yourself think.`
-			`											It's enough to drive any living thing mad.`
-			`	The most ominous sensation here is a persistent feeling of your consciousness being pulled at from beneath you.`
-			`	Like something is attempting to drag`
-			`																					your`
-			`																							mind into the planet below.`
+			`当你访问这个世界时，感觉好像有一个巨大的重量压在你的心头。从上面看，外星飞船的那种紫色的星光色调也可以在整个土地上的各种奇怪的形态中找到。与之前的耳语不同，这里的声音让人痛苦不堪，尤其是你越接近地表。`
+			`	你几乎无法听到自己的思考。`
+			`											这足以让任何生物发疯。`
+			`	这里最不祥的感觉是你的意识被从你的脚下拉走的持续感觉。`
+			`	就像有什么东西在试图拖动`
+			`																					你的`
+			`																							到下面的星球。`
 			``
 			``
 			``
-			`	It's best you don't remain here for too long.`
+			`	你最好不要在这里停留太长时间。`
 				decline
 
 phrase "rulei hostile"
 	word
-		"Concede."
-		"End."
-		"Join."
-		"Fall."
+		"认输吧。"
+		"结束。"
+		"加入。"
+		"坠落。"

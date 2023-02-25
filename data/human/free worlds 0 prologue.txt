@@ -13,8 +13,8 @@
 
 mission "Pact Recon 0"
 	minor
-	name "Pirate Reconnaissance"
-	description "Fly through the <waypoints> systems, then report to <destination> so the Southern Mutual Defense Pact can analyze your logs of pirate activity (if any)."
+	name "海盗侦查"
+	description "飞过<waypoints>系统，然后向<destination>报告，以便南方共同防御条约组织能够分析你的海盗活动记录（如果有的话）。"
 	source
 		attributes "rim" "south"
 		not government "Pirate"
@@ -30,45 +30,45 @@ mission "Pact Recon 0"
 	
 	on offer
 		conversation
-			`You can't help noticing that the freighter parked next to the <ship> is in very bad shape, its hull pockmarked with blaster scars, as well as larger dents that may be from missiles. The crew and a number of men in militia uniforms are busy welding new hull plating onto it; the captain is having an animated conversation with a young female militia officer.`
+			`你不禁注意到，停在<ship>旁边的货船状况非常糟糕，船体上布满了冲击波的伤痕，还有可能是导弹造成的较大的凹痕。船员和一些身穿民兵制服的人正忙着在上面焊接新的船体镀层；船长正与一名年轻的女民兵军官进行着热烈的交谈。`
 			choice
-				`	(Approach them and find out what happened.)`
-				`	(Ignore them.)`
+				`	(走近他们，了解发生了什么。)`
+				`	(忽略他们。)`
 					decline
-			`	You overhear enough of the conversation to figure out that the freighter was attacked by pirates, and the militia are helping to get it in working condition again. "A little spit shine and it'll look as good as new," the officer says, but the captain of the ship doesn't look convinced and walks up to his ship to work on it alongside the crew.`
-			`	The militia officer glances over her shoulder and, having spotted you listening in, waves you over. "No need to be shy," she says. "I'm guessing you're not from around here."`
+			`	你偷听到的对话足以让你明白，这艘货船被海盗袭击了，民兵们正在帮助它恢复工作状态。"稍微擦拭一下，它就会像新的一样，"军官说，但船长看起来并不相信，他走到自己的船上，和船员一起工作。`
+			`	民兵军官瞥了一眼她的肩膀，发现你在偷听，便向你招手。"不用害羞，"她说。"我猜你不是这附近的人。"`
 			choice
-				`	"How can you tell?"`
-				`	"Are the pirates rough around these parts?"`
+				`	"你怎么知道？"`
+				`	"这些地方的海盗很粗暴吗？"`
 					goto pirates
-			`	"Because captains from around here don't rubberneck at an every-day occurrence. After seeing your first dozen or so damaged ships, you eventually get used to seeing them and just move on."`
-			`	"Are the pirates rough around these parts?" you ask.`
+			`	"因为来自这附近的船长不会对每天发生的事情橡皮筋。在看到你最初的十几艘受损船只后，你最终会习惯于看到它们，然后继续前进。"`
+			`	"这些地方的海盗很粗暴吗？"你问。`
 			label pirates
-			`	"Rougher than you're probably used to if you're from farther up north. The Navy doesn't patrol these parts, not unless there's some high profile warlord that's on their radar. Because of that, pirates have more free reign to terrorize us down here." She pauses for a moment while turning back to the freighter. "And the pirate fleets keep getting stronger every year," she says with concern.`
+			`	"如果你来自北方更远的地方，可能比你习惯的更粗暴。海军不在这些地方巡逻，除非有一些高调的军阀被他们盯上。正因为如此，海盗们在这里有更多的自由支配权来恐吓我们。"她停顿了一会儿，同时回头看向货船。"而且海盗船队每年都在变强，"她关切地说。`
 			choice
-				`	"Is there something I can do to help?"`
-				`	"I wish I could help, but my ship is not a warship."`
+				`	"有什么我可以帮忙的吗？"`
+				`	"我希望我能帮忙，但我的船不是战舰。"`
 					goto warship
-			`	"There is indeed," she says. "Have you heard of the Southern Mutual Defense Pact?"`
+			`	"确实有，"她说。"你听说过《南方共同防御条约》吗？"`
 				goto pact
 			label warship
-			`	"There are other ways you could help us," she says. "Have you heard of the Southern Mutual Defense Pact?"`
+			`	"你还有其他方法可以帮助我们，"她说。"你听说过《南方共同防御条约》吗？"`
 			label pact
 			choice
-				`	"No. What is it?"`
-				`	"Yes."`
+				`	"没有，它是什么？"`
+				`	"是的。"`
 					goto eyes
-			`	She says, "We're a collection of worlds that have decided that since the Navy doesn't patrol this part of the galaxy anymore, it's up to us to keep the pirates in check. The idea is that if the pirates ever try something big, like capturing an entire planet, that planet can call on the entire Pact to assist them. And, as you can see, we also do our fair share of helping out the local merchants where we can."`
-			`	"Sounds like a good idea," you say.`
+			`	她说："我们是一个世界的集合体，他们决定，既然海军不再巡逻银河系的这一部分，那么就由我们来控制海盗了。我们的想法是，如果海盗试图做一些大的事情，比如占领整个星球，那么这个星球可以呼吁整个公约来帮助他们。而且，正如你所看到的，我们也尽我们所能帮助当地的商人。"`
+			`	"听起来是个好主意，"你说。`
 			label eyes
-			`	"The Pact is launching a new initiative, led by myself," she says. "We're calling it the 'Thousand Eyes.' We're asking merchant ship captains to let us access their scanner logs, basically using merchants as a surveillance network. You don't have to fight the pirates, just let us know if you see them. Interested?"`
+			`	"契约组织正在发起一项新的倡议，由我本人领导，"她说。"我们叫它'千里眼'。我们要求商船船长让我们访问他们的扫描记录，基本上把商人作为一个监视网络。你不必与海盗作战，只要让我们知道你是否看到他们。有兴趣吗？"`
 			choice
-				`	"Sure, I would be glad to help."`
-				`	"Sorry, sounds too risky."`
+				`	"当然，我很乐意帮忙。"`
+				`	"对不起，听起来太冒险了。"`
 					decline
-			`	"Great!" she says. "Right now, we need more eyes on a few systems on the edge of Southern space. All you need to do is fly through those systems, then report to our base on <destination>. I'll mark the target systems on your ship's map for you. And by the way, the name's Freya Winters."`
-			`	"<first> <last>," you respond, shaking her hand.`
-			`	"Nice to meet you, Captain <last>. Glad to have another helping hand. I'll be heading to <planet> after I've finished my business on <origin>, so see you there."`
+			`	"太好了！"她说。"现在，我们需要在南方空间边缘的几个系统上有更多的眼睛。你需要做的就是飞过那些系统，然后向我们在<destination>的基地报告。我会在你的飞船地图上为你标记目标系统。顺便说一下，名字叫弗莱亚-温特斯。"`
+			`	"<first><last>，"你回应道，与她握手。`
+			`	"很高兴见到你，船长<last>。很高兴能有另一个帮手。我在完成<planet>上的事务后将前往<origin>，所以在那里见。"`
 				accept
 	
 	on accept
@@ -78,14 +78,14 @@ mission "Pact Recon 0"
 		dialog phrase "generic waypoint on visit"
 	on complete
 		payment 25000
-		dialog `When you land on <planet>, you're approached by Freya Winters. She gives you <payment> in exchange for your scanner logs of the Southern systems. "Thank you, Captain. I pray the pirates didn't give you too much trouble," she says. "I'll be in touch when we've got a new assignment for you, assuming you're still interested."`
+		dialog `当你降落在<planet>上时，弗雷亚-温特斯找到了你。她给了你<payment>，以换取你对南方系统的扫描记录。"谢谢你，船长。我祈祷那些海盗没有给你带来太多麻烦，"她说。"当我们有新的任务给你时，我会与你联系，假设你仍然感兴趣的话。"`
 
 
 
 mission "Pact Recon 1"
 	landing
-	name "Pirate Reconnaissance"
-	description "Fly through the <waypoints> systems, then report to <destination> so the Southern Mutual Defense Pact can analyze your logs of pirate activity (if any)."
+	name "海盗侦查"
+	description "飞过<waypoints>系统，然后向<destination>报告，以便南方共同防御条约组织能够分析你的海盗活动记录（如果有的话）。"
 	source
 		attributes "dirt belt" "near earth" "rim" "south"
 		not government "Pirate"
@@ -100,20 +100,20 @@ mission "Pact Recon 1"
 		not "event: war begins"
 	
 	on offer
-		dialog `You receive a message from Freya, the militia officer in charge of tracking pirate activity. "Hello, Captain <last>. I pray you're still interested in being a part of our Thousand Eyes program. We need some more intel on the empty systems in the middle of the Dirt Belt," she says. "Pay would be a bit better than last time, since these systems are a bit more out of the way. As with before, return to <destination> once you're finished."`
+		dialog `你收到了负责追踪海盗活动的民兵官员弗莱亚的信息。"你好，船长<last>。我祈祷你仍有兴趣成为我们千里眼计划的一部分。我们需要一些关于泥土带中间的空旷系统的更多情报，"她说。"报酬会比上次好一点，因为这些系统更偏僻一些。和以前一样，完成后返回<destination>。"`
 	
 	on visit
 		dialog phrase "generic waypoint on visit"
 	on complete
 		payment 35000
-		dialog `You transfer your sensor logs to Freya. She thanks you for your work and pays you <payment>. "I'll let you know when we need your services again," she says.`
+		dialog `你把你的传感器记录转给弗莱亚。她感谢你的工作，并付给你<payment>。"她说："当我们再次需要你的服务时，我会让你知道。`
 
 
 
 mission "Pact Recon 2"
 	landing
-	name "Pirate Reconnaissance"
-	description "Fly through the <waypoints> systems, then report to <destination> so the Southern Mutual Defense Pact can analyze your logs of pirate activity (if any)."
+	name "海盗侦查"
+	description "飞过<waypoints>系统，然后向<destination>报告，以便南方共同防御条约组织能够分析你的海盗活动记录（如果有的话）。"
 	source
 		attributes "dirt belt" "near earth" "rim" "south"
 		not government "Pirate"
@@ -128,20 +128,20 @@ mission "Pact Recon 2"
 		not "event: war begins"
 	
 	on offer
-		dialog `You receive another message from Freya: "Hello, Captain! I've got a more challenging and lucrative mission for you this time. We need someone to do a flyby of all four pirate systems here in the South, to gauge their strength. Again, no fighting is required, just fly in and out of the systems as fast as possible, and we're willing to pay much more than the last job given the danger involved. What do you say?"`
+		dialog `你收到了Freya的另一条信息："你好，船长！我有一个更有挑战性的，也是最重要的任务。这次我给你安排了一个更具挑战性和更有利可图的任务。我们需要有人对南方的所有四个海盗系统进行一次飞越，以衡量他们的实力。同样，不需要战斗，只需要尽可能快地飞入和飞出这些系统，考虑到所涉及的危险，我们愿意支付比上一次任务更多的报酬。你怎么说？"`
 	
 	on visit
 		dialog phrase "generic waypoint on visit"
 	on complete
 		payment 70000
-		dialog `Freya Winters meets up with you in person soon after you land. "Glad to see you're still in one piece. I pray you didn't have much trouble," she says, as she hands you a credit chip for <payment>. "You've been a great help to us. I'll be sure to contact you next time we need a scout."`
+		dialog `芙蕾雅-温特斯在你着陆后不久就与你亲自见面了。"很高兴看到你仍然完好无损。我祈祷你没有遇到什么麻烦。"她说，同时递给你一个用于<payment>的信用芯片。"你对我们的帮助很大。下次我们需要侦察员时，我一定会联系你。"`
 
 
 
 mission "Pact Recon 3"
 	landing
-	name "Pirate Reconnaissance"
-	description "Fly through the <waypoints> systems, searching for a gathering pirate fleet. Report to the Pact on <destination> when you are done."
+	name "海盗侦查"
+	description "在<waypoints>系统中飞行，寻找聚集的海盗舰队。完成后向<destination>上的公约组织报告。"
 	source
 		attributes "dirt belt" "near earth" "rim" "south"
 		not government "Pirate"
@@ -156,7 +156,7 @@ mission "Pact Recon 3"
 		not "event: war begins"
 	
 	on offer
-		dialog `Once again, you receive a message from Freya Winters. "We have another mission for you," she says, "this one a bit more dangerous. We've heard rumors of a pirate fleet amassing in one of the seldom-visited systems in the Dirt Belt, and we need to know where they are. Interested in helping to track them down? As before, you don't need to fight, just observe them."`
+		dialog `再一次，你收到了弗雷亚-温特斯的信息。"我们有另一个任务给你，"她说，"这个任务更危险一些。我们听说有传言说，一支海盗舰队正在泥土带的一个很少被访问的系统中集结，我们需要知道他们在哪里。有兴趣帮助我们追踪他们吗？和以前一样，你不需要战斗，只需要观察他们。"`
 	
 	npc
 		government "Pirate"
@@ -169,7 +169,7 @@ mission "Pact Recon 3"
 		dialog phrase "generic waypoint on visit"
 	on complete
 		payment 80000
-		dialog `You report to Freya that you found a sizable pirate fleet in the Naper system, as well as spotting some pirates elsewhere. She thanks you, and pays you <payment>. "Thank you for your assistance," she says. "Again, I'll be in touch if we need you."`
+		dialog `你向芙蕾雅报告说，你在纳佩尔系统发现了一支相当规模的海盗舰队，同时还在其他地方发现了一些海盗。她感谢你，并向你支付了<payment>。"谢谢你的帮助，"她说。"还是那句话，如果我们需要你，我会和你联系的。"`
 
 
 
@@ -184,74 +184,74 @@ mission "Pact Questioning"
 	on offer
 		log "Apparently the Navy is suspicious of anyone who worked with the Southern Mutual Defense Pact; got questioned about it by an officer. It was unclear what his rank or position in the Navy was."
 		conversation
-			`As you are walking through the spaceport, a middle-aged man in a Navy uniform walks up to you and says, "Excuse me, Captain <last>. I would like to speak with you for a few minutes."`
+			`当你走过太空港时，一个穿着海军制服的中年男子走到你面前，说："对不起，<last>船长。我想和你谈几分钟。"`
 			choice
-				`	"Okay."`
+				`	"好的。"`
 					goto branch
-				`	"Sorry, I'm really busy right now."`
-			`	"Unfortunately, this cannot wait," he responds as he pulls you aside from the crowd.`
+				`	"对不起，我现在真的很忙。"`
+			`	"不幸的是，这不能等。"他一边回应，一边把你从人群中拉到一边。`
 			label branch
 			branch free
 				has "event: war begins"
-			`	"Am I correct that you have been assisting the Southern Mutual Defense Pact?"`
+			`	"我没说错吧，你一直在协助《南方共同防御条约》？"`
 				goto start
 			label free
-			`	"Am I correct that you performed some missions for the Southern Mutual Defense Pact, back before they became the Free Worlds?"`
+			`	"我没说错吧，在南方共同防御条约成为自由世界之前，你为他们执行过一些任务？"`
 			label start
-			`	His voice is very friendly, and he is not armed or accompanied by any other officers that you can see, so it doesn't seem like you are in trouble or in danger of being arrested - especially since your work for the Pact was perfectly legal.`
+			`	他的声音非常友好，而且他没有武装，也没有你能看到的任何其他官员陪同，所以看起来你没有遇到麻烦，也没有被逮捕的危险--尤其是你为公约的工作是完全合法的。`
 			choice
-				`	"I don't know what you are talking about."`
-				`	"I did take a few jobs helping out the local militias, yes."`
+				`	"我不知道你在说什么。"`
+				`	"我确实接了几份帮助当地民兵的工作，是的。"`
 					goto pact
-				`	"Yes, I ran several missions for the Pact."`
+				`	"是的，我为公约组织执行过几次任务。"`
 					goto pact
-				`	"I'm sorry, but I don't want to talk to you about that."`
+				`	"很抱歉，但我不想和你谈这个。"`
 					goto quit
-			`	He has been looking intently into your eye, and when you lie to him, he frowns. "It really isn't necessary to lie to me," he says. You are not sure what to say in response, so you remain quiet.`
+			`	他一直紧紧盯着你的眼睛，当你对他撒谎时，他皱起了眉头。"真的没有必要对我撒谎，"他说。你不知道该说什么来回应，所以你保持沉默。`
 			label pact
-			`	"Tell me," he says, "was there one particular militia officer who you reported to, or was it someone different every time?" As he is speaking, you look for clues of who he is or why he is questioning you, and you notice something very odd. All Navy personnel you have encountered in the past have a name badge on their lapel and rank insignia on their collar, but his uniform is entirely blank.`
+			`	"告诉我，"他说，"有一个特定的民兵军官是你的报告对象，还是每次都是不同的人？"在他说话的时候，你在寻找他是谁或者他为什么要询问你的线索，你注意到一些非常奇怪的事情。你过去遇到的所有海军人员的衣襟上都有名牌，领口上有军衔标志，但他的制服完全是空白。`
 			choice
-				`	"I don't remember anyone's name in particular."`
-				`	"I would rather not name any names."`
-				`	"I usually reported to an officer named Freya Winters."`
+				`	"我不记得有谁的名字，特别是。"`
+				`	"我宁愿不说出任何名字。"`
+				`	"我通常向一位名叫弗里亚-温特斯的军官报告。"`
 					goto freya
-				`	"I don't want to talk about this. I'm leaving."`
+				`	"我不想谈这个。我要走了。"`
 					goto quit
-			`	"Oh well," he says, "it was worth asking. Would you at least be willing to tell me the nature of the missions you were performing?"`
+			`	"哦，好吧，"他说，"这值得一问。你至少愿意告诉我你所执行的任务的性质吗？"`
 				goto missions
 			label freya
-			`	"Ah yes, Miss Winters," he says. "A very capable woman, although she's more skilled as an engineer than as a leader. Can you tell me what sort of work you were performing for her?"`
+			`	"啊，是的，温特斯小姐，"他说。"一个非常能干的女人，尽管她作为一个工程师比作为一个领导者更熟练。你能告诉我你在为她执行什么样的工作吗？"`
 			label missions
 			choice
-				`	"I'd rather not say."`
+				`	"我宁愿不说。"`
 					goto quit
-				`	"Who are you? Why are you asking me these questions?"`
+				`	"你是谁？你为什么要问我这些问题？"`
 					goto questions
-				`	"Reconnaissance missions, tracking pirate movements."`
+				`	"侦查任务，跟踪海盗的动向。"`
 					goto recon
-				`	"Sorry, I'm done talking to you."`
+				`	"对不起，我不和你说了。"`
 					goto quit
 			label recon
-			`	"Are you certain your reconnaissance was only targeted at pirates?" he asks. "Did they collect only your logs on pirate ships, or on every ship you saw?"`
+			`	"你确定你的侦察只针对海盗吗？"他问道。"他们是只收集你在海盗船上的日志，还是收集你看到的每一艘船？"`
 			choice
-				`	"I honestly don't know."`
-				`	"I think it was only the pirate ships."`
-				`	"I just gave them all my logs. I'm not sure what parts of them they ended up using."`
-			`	"I see," he says. "I wonder why they didn't share more of the details of their work with you."`
-			`	"Why are you asking me all these questions?" you say.`
+				`	"说实话，我不知道。"`
+				`	"我认为只有海盗船。"`
+				`	"我只是把我所有的日志交给他们。我不确定他们最后使用了其中的哪些部分。"`
+			`	"我明白了。"他说。"我想知道他们为什么不与你分享更多的工作细节。"`
+			`	"为什么你要问我这些问题？"你说。`
 			label questions
-			`	"I'm just collecting information," he says. "Anything you tell me is interesting to me." Then, with a mischievous grin, he adds, "Anything you refuse to tell me is also interesting. Anyway, I won't detain you any longer. Thank you for your time." He smiles and walks away. You are left with no idea of what is going on.`
+			`	"我只是在收集信息，"他说。"你告诉我的任何事情对我来说都很有趣。"然后，他带着顽皮的笑容，补充说："你拒绝告诉我的事情也很有趣。总之，我不会再耽搁你了。谢谢你的时间。"他笑了笑，走了。你完全不知道发生了什么事。`
 				decline
 			label quit
-			`	"Understood," he says. "Thank you for your time." He makes no effort to detain you. As you walk away, you glance over your shoulder a few times to make sure you are not being watched or followed, but see no one.`
+			`	"明白了，"他说。"谢谢你的时间。"他没有努力去挽留你。当你走开时，你向你的肩膀看了几眼，以确保你没有被监视或跟踪，但没有看到任何人。`
 				decline
 
 
 
 mission "FW Recon 0"
 	minor
-	name "Transport Militia Officer"
-	description "Transport a Free Worlds militia officer to <destination>."
+	name "运送民兵官员"
+	description "运送一名自由世界的民兵官员到<destination>。"
 	source
 		government "Free Worlds"
 		near "Aldhibain" 1 10
@@ -267,33 +267,33 @@ mission "FW Recon 0"
 	
 	on offer
 		conversation
-			`A man approaches you in the spaceport. "Hello. Would you be able to give me a lift to <destination>? I'd be able to pay you <payment>." You notice that he is dressed in a militia uniform.`
+			`在太空港，一个男人走近你。"你好。你能送我到<destination>吗？我可以付给你<payment>。"你注意到他穿着民兵的制服。`
 			choice
-				`	"Sure, I'd be glad to help!"`
+				`	"当然，我很乐意帮忙！"`
 					accept
-				`	"Sorry, I'm busy with something else right now."`
+				`	"对不起，我现在正忙于其他事情。"`
 					defer
-				`	"Are you connected to the Free Worlds?"`
-			`	"Yes, I'm an officer in their militia." The man takes a half step back. "Is that a problem?"`
+				`	"你与自由世界有关吗？"`
+			`	"是的，我是他们民兵的一名军官。"那人退了半步。"这是个问题吗？"`
 			choice
-				`	"Sorry, I really don't want to assist the rebels."`
+				`	"对不起，我真的不想协助叛军。"`
 					decline
-				`	"No problem at all. I'd be glad to help with your cause!"`
+				`	"一点问题都没有。我很高兴能帮助你的事业！"`
 					accept
-				`	"Not a problem, but I'm afraid I don't have space for you right now."`
+				`	"不是问题，但恐怕我现在没有空间给你。"`
 					defer
 	
 	on visit
-		dialog `You land on <planet>, but you realize that the militia officer is on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你在<planet>上降落，但你意识到民兵官员在你的一个护卫队上，而这个护卫队还没有进入这个系统。最好离开并等待它的到来。`
 	on complete
 		payment
-		dialog `The militia officer thanks you for the ride and pays you <payment>. As he is leaving, he says, "If you're interested in doing more work for us, head to the spaceport bar and find my commander. I'll tell him to keep an eye out for you."`
+		dialog `民兵军官感谢你的旅程，并向你支付了<payment>。当他要离开时，他说："如果你有兴趣为我们做更多的工作，就去太空港酒吧找我的指挥官。我会告诉他，让他留意你。"`
 
 
 
 mission "FW Recon 1"
-	name "Free Worlds Reconnaissance"
-	description "Perform an outfit scan on the Cruiser <npc>, then report to a Free Worlds officer on <destination>."
+	name "自由世界侦查"
+	description "对巡洋舰<npc>进行装备扫描，然后向<destination>上的自由世界官员报告。"
 	source "Glaze"
 	to offer
 		has "FW Recon 0: done"
@@ -302,23 +302,23 @@ mission "FW Recon 1"
 	
 	on offer
 		conversation
-			`When you walk into the spaceport bar, a man in a militia uniform flags you down, and says, "Captain <last>. One of my officers told me to keep an eye out for you. Would you be willing to do another small service for the Free Worlds?"`
+			`当你走进太空港酒吧时，一个穿着民兵制服的人向你打招呼，并说："船长<last>。我的一个军官告诉我，要我注意你的情况。你愿意为自由世界再做一次小小的服务吗？"`
 			choice
-				`	"Perhaps. What do you want me to do?"`
-				`	"Sorry, I want no part in your rebellion."`
+				`	"也许吧。你想让我做什么？"`
+				`	"对不起，我不想参与你们的叛乱。"`
 					decline
-			`	"It's a rather simple matter," he says. "Most of the Republic ships that have come through this system seem to be outfitted for surveillance, not combat. But there is one in orbit right now, the <npc>, that seems to be equipped as a warship. Would you be willing to scan its outfits and report to us what you find? The oufitter stocks scanners if you don't have one, though you might want to install a few of them to improve performance. We will pay <payment>."`
+			`	"这是个相当简单的问题，"他说。"经过这个系统的大多数共和国飞船似乎都是为监视而装备的，而不是为战斗而装备的。但现在有一艘在轨道上的<npc>号，似乎被装备成了战舰。你是否愿意扫描它的装备并向我们报告你的发现？如果你没有的话，oufitter备有扫描器，不过你可能想安装几个扫描器来提高性能。我们将支付<payment>。"`
 			choice
-				`	"Sure, that sounds simple enough."`
+				`	"当然，这听起来很简单。"`
 					accept
-				`	"Why can't you scan the ship yourself?"`
-				`	"Sorry, I don't want to assist rebels."`
+				`	"为什么你不能自己扫描这艘船？"`
+				`	"对不起，我不想协助叛军。"`
 					decline
-			`	"I'm sure you understand the... tensions between the Free Worlds and the Republic at the moment. We're just trying to look out for ourselves, but we don't want to provoke anything with the Navy. It'd be much simpler if we could get a sympathetic merchant to scan the ship for us."`
+			`	"我相信你明白......自由世界和共和国之间目前的紧张关系。我们只是想为自己着想，但我们不想向海军挑衅什么。如果我们能让一个有同情心的商人为我们扫描这艘船，那就简单多了。"`
 			choice
-				`	"Sounds reasonable enough. I'll do it."`
+				`	"听起来很合理。我去做。"`
 					accept
-				`	"Sorry, but that sounds too risky for me to get involved in."`
+				`	"对不起，但这听起来太冒险了，我不能参与其中。"`
 					decline
 	
 	on accept
@@ -333,33 +333,33 @@ mission "FW Recon 1"
 			variant
 				"Cruiser (Heavy)"
 		conversation
-			`As soon as you scan the <npc> its captain hails you. "Excuse me, captain," he says, "can I assist you with something?"`
+			`你一扫描<npc>，它的船长就向你打招呼。"对不起，舰长，"他说，"我可以协助你做什么吗？"`
 			choice
-				`	"I was just wondering what sort of engines you've got that let you move so fast."`
+				`	"我只是想知道你们有什么样的引擎，能让你们移动得这么快。"`
 					goto engines
-				`	"Never mind sir, I was just admiring your... impressive equipment."`
+				`	"不要紧，先生，我只是在欣赏你的......令人印象深刻的设备。"`
 					goto equipment
 			label engines
-			`	"Nice, aren't they?" he says. "Atomic engines, the very latest in propulsion technology from Deep Sky. They're so smooth and responsive, I feel like I'm back piloting a shuttlecraft again."`
-			`	He pauses, then adds, "They pay me a thousand credits every time I say that."`
+			`	"不错，不是吗？"他说。"原子引擎，来自深空的最新推进技术。它们是如此平滑和反应灵敏，我感觉我又回到了驾驶航天飞机的状态。"`
+			`	他停顿了一下，然后补充说："每次我这么说，他们都会付给我1000个信用点。"`
 				goto close
 			label equipment
-			`	He looks awfully pleased with himself. "Yes, I suppose a ship like this is sure to turn a few heads. Next time we're on the same planet, stop by my berth and I'd be glad to give you a... private tour." He winks at you. You feel a little bit creepy.`
+			`	他看起来对自己非常满意。"是的，我想这样的飞船肯定会引起一些人的注意。下次我们在同一个星球上时，请到我的泊位来，我很高兴能给你一个......私人参观。"他向你眨眼。你觉得有点毛骨悚然。`
 				goto close
 			label close
-			`	You cut the commlink and breathe a sigh of relief that the conversation is over.`
+			`	你切断了通讯线路，松了一口气，谈话结束了。`
 	
 	on visit
-		dialog `You land on <planet>, but you haven't yet scanned the Navy Cruiser patrolling the system. Depart and scan the Cruiser's outfits before returning.`
+		dialog `你降落在<planet>上，但你还没有扫描到在该系统巡逻的海军巡洋舰。出发并在返回前扫描巡洋舰的装束。`
 	on complete
 		payment 10000
-		dialog `Soon after you land, the militia captain comes to your ship and pays you <payment> in exchange for your sensor logs regarding the <npc>. He says, "If you would be interested in continuing to work for us, meet me in the spaceport bar in an hour."`
+		dialog `在你登陆后不久，民兵队长来到你的船上，向你支付<payment>以换取你关于<npc>的传感器记录。他说："如果你有兴趣继续为我们工作，一小时后在太空港酒吧见我。"`
 
 
 
 mission "FW Recon 2"
-	name "Free Worlds Reconnaissance"
-	description "Scan any ships in the <waypoints> system that are equipped like the combat-ready Cruiser you scanned previously, then return to <destination>."
+	name "自由世界侦查"
+	description "扫描<waypoints>系统中任何像你之前扫描的可战斗的巡洋舰一样装备的船只，然后返回<destination>。"
 	source "Glaze"
 	waypoint "Menkent"
 	to offer
@@ -369,13 +369,13 @@ mission "FW Recon 2"
 	
 	on offer
 		conversation
-			`You meet up with the militia captain in the spaceport bar. "Glad you showed up," he says, "I'm Jean-Jacques, by the way, but you can call me JJ."`
-			`	You introduce yourself in return, and he continues. "Here's the deal. I'm the commander of the militia on Glaze. So far, we and the Navy are not shooting at each other, because no one wants to fire the first shot. But if they're getting ready to change that, they'll start refitting their Cruisers with heavy weaponry instead of surveillance equipment. So, I need to know how many more of their ships are equipped like the one you just scanned."`
-			`	He continues, "I'd like you to go to <waypoints>, where our reports say there's a build-up of Navy ships. Scan any ships you think match the Cruiser we just saw, then bring your scanner logs back here for me to look at."`
+			`你在太空港酒吧与民兵队长碰头。"很高兴你出现了，"他说，"顺便说一下，我是让-雅克，但你可以叫我JJ。"`
+			`	你自我介绍后，他继续说道。"事情是这样的。我是格莱泽岛的民兵指挥官。到目前为止，我们和海军没有互相射击，因为没有人想开第一枪。但如果他们准备改变这种情况，他们会开始用重型武器而不是监视设备来改装他们的巡洋舰。所以，我需要知道他们还有多少艘船像你刚才扫描的那艘那样装备。"`
+			`	他继续说："我想让你去<waypoints>，我们的报告说那里有海军的船只在集结。扫描任何你认为与我们刚才看到的巡洋舰相匹配的船只，然后把你的扫描记录带回来让我看看。"`
 			choice
-				`	"Sure, I'd be glad to do that."`
+				`	"当然，我很乐意这么做。"`
 					accept
-				`	"Sorry, after the way this last captain responded to me scanning him, I'm not sure I want to risk it again."`
+				`	"对不起，在上次这位船长对我扫描他的反应之后，我不确定我是否想再次冒险。"`
 					decline
 	
 	npc "scan outfits"
@@ -387,19 +387,19 @@ mission "FW Recon 2"
 			fighters "republic fighter"
 			variant
 				"Cruiser (Heavy)" 4
-		dialog `You've scanned all the ships you can find here that seem to be upgraded for combat. Time to return to <planet> to collect your payment.`
+		dialog `你已经扫描了你在这里能找到的所有似乎是为战斗而升级的船只。是时候回到<planet>去收取你的报酬了。`
 	
 	on visit
-		dialog `You land on <planet>, but you haven't yet scanned the Navy Cruisers patrolling Menkent. Depart and scan the Cruisers' outfits before returning.`
+		dialog `你降落在<planet>上，但你还没有扫描到在Menkent巡逻的海军巡洋舰。出发并在返回前扫描巡洋舰的装备。`
 	on complete
 		payment 50000
-		dialog `JJ meets you as soon as you land, and you hand over the scanner data in exchange for <payment>. "Thank you again," he says. "If you're willing to take on one more recon mission, meet me in the bar."`
+		dialog `JJ在你着陆后立即与你会面，你交出扫描数据以换取<payment>。"再次感谢你，"他说。"如果你愿意再承担一次侦察任务，请到酒吧找我。"`
 
 
 
 mission "FW Recon 3"
-	name "Free Worlds Reconnaissance"
-	description "Land on <destination> and secretly collect information on the developing Navy base there."
+	name "自由世界侦查"
+	description "在<destination>降落，秘密收集那里正在发展的海军基地的信息。"
 	source "Glaze"
 	destination "New Wales"
 	to offer
@@ -409,24 +409,24 @@ mission "FW Recon 3"
 	
 	on offer
 		conversation
-			`You meet JJ again in the bar. "I have one more reconnaissance mission for you," he says. "The Navy is building a base on New Wales, adjacent to the existing spaceport. From what I understand, they're employing thousands of locals to build it, so one more worker walking around would not seem out of place. I need you to walk around the base, take notes on the number and size of the landing pads and hangars, take pictures if you can, and report back to me. What do you say?"`
+			`你在酒吧里再次见到JJ。"我还有一个侦察任务给你，"他说。"海军正在新威尔士建造一个基地，与现有的太空港毗邻。据我所知，他们正在雇用数以千计的当地人来建造它，所以多一个工人走来走去也不会显得不合时宜。我需要你在基地周围走走，记下着陆场和机库的数量和大小，如果可以的话，拍下照片，然后向我报告。你怎么说？"`
 			choice
-				`	"Sure, I can do that."`
+				`	"当然，我可以这么做。"`
 					accept
-				`	"What if they arrest me?"`
-			`	"From what I understand," says JJ, "the base is not actually closed off to civilians. So as long as you keep out of any areas that are marked off limits, you won't be committing any crime."`
+				`	"如果他们逮捕我呢？"`
+			`	"据我所知，"JJ说，"该基地实际上并不对平民关闭。因此，只要你不进入任何被标记为禁区的区域，你就不会犯任何罪行。"`
 			choice
-				`	"Okay, I'll do it."`
+				`	"好吧，我去做。"`
 					accept
-				`	"Sorry, I've decided I don't really want to side with the Free Worlds."`
-			`	"I'm really sorry to hear that," says JJ. "We had high hopes for you."`
+				`	"对不起，我已经决定我不太愿意站在自由世界的一边。"`
+			`	"我真的很抱歉听到这个消息，"JJ说。"我们曾对你寄予厚望。"`
 				decline
 
 
 
 mission "FW Recon 3B"
-	name "Free Worlds Reconnaissance"
-	description "Return to <destination> with information on the Navy base on <origin>."
+	name "自由世界侦查"
+	description "带着<destination>上海军基地的信息回到<origin>。"
 	landing
 	source "New Wales"
 	destination "Glaze"
@@ -437,24 +437,24 @@ mission "FW Recon 3B"
 	
 	on offer
 		conversation
-			`You walk through the new section of the spaceport that the Navy is building, trying to look inconspicuous. When it seems that no one is watching, you snap a few photographs. You count seven hangars large enough to house a Carrier, and workers are clearing and blasting level surfaces for many more. An entire new village of identical prefabricated houses has sprung up nearby. And every few minutes, a warship flies overhead with a roar that shakes the entire mountain. It is an intimidating sight.`
-			`	As you are heading back to your ship after taking note of everything you think JJ would be interested in, two officers walk past you and you overhear one saying to the other, "Secret message from fleet command."`
-			`	You stop to tie your shoe and try to listen in. "What's the message?" asks the other.`
-			`	"I can't tell you here," says the first, and they duck behind one of the storage sheds.`
+			`你走过海军正在建造的太空港的新部分，试图让自己看起来不显眼。当看起来没有人在看时，你拍了几张照片。你数了数，有七个机库大到足以容纳一艘航母，工人们正在为更多的机库清理和爆破水平面。附近出现了一整个由相同的预制房屋组成的新村庄。每隔几分钟，就有一艘战舰从头顶飞过，发出的轰鸣声震动了整座山。这是一个令人生畏的景象。`
+			`	当你记下所有你认为JJ会感兴趣的东西后，正准备回你的船时，两名军官从你身边走过，你听到其中一人对另一人说："来自舰队司令部的秘密消息。"`
+			`	你停下来系鞋带，试图听进去。"什么消息？"另一个人问道。`
+			`	"我不能在这里告诉你，"第一个人说，然后他们躲到了一个储藏室的后面。`
 			choice
-				`	(Ignore them and return to my ship.)`
+				`	(不要理会他们，回到我的船上去。)`
 					accept
-				`	(Follow them and listen in.)`
+				`	(跟着他们，听进去。)`
 			
 			action
 				set "fw recon: caught"
-			`	You follow the officers into a supply yard and hide behind a large stack of crates. "Lieutenant," says one of them, "we just received word that the Free Worlds have contracted with someone to spy on this facility."`
-			`	"A professional, sir?"`
-			`	"Hardly. My grandmother would make a better spy. It's a merchant captain, clearly an amateur." They are both speaking quite loudly; you are having no trouble listening in.`
-			`	"What are we going to do, sir?" asks the lieutenant.`
-			`	"Nothing. If gawking at our ships were a crime, we'd have half the local population in prison by now. But if this captain should accept any further assignments, we may have to take action."`
-			`	"Should we at least inform this individual that those crates make terrible cover?" asks the lieutenant, grinning.`
-			`	"Now, now," says the other officer, "no need to be spiteful." They walk off, leaving you thoroughly embarrassed.`
+			`	你跟着军官们进入一个补给场，躲在一大堆箱子后面。"中尉，"其中一个人说，"我们刚收到消息，自由世界与某人签订了合同，对这个设施进行监视。"`
+			`	"一个专业人员，先生？"`
+			`	"很难说。我的祖母会成为一个更好的间谍。这是个商船船长，显然是个业余的。"他们两个人说话的声音都很响亮；你在听的时候没有任何问题。`
+			`	"我们要做什么，先生？"中尉问道。`
+			`	"没什么。如果盯着我们的船看是一种犯罪，我们现在已经把当地一半的人关进监狱了。但如果这位船长应该接受任何进一步的任务，我们可能不得不采取行动。"`
+			`	"我们至少应该通知这个人，这些箱子是很糟糕的掩护？"中尉问道，咧嘴一笑。`
+			`	"现在，现在，"另一名军官说，"没必要吐槽。"他们走了，留下你彻底尴尬。`
 				accept
 	
 	npc evade
@@ -467,67 +467,67 @@ mission "FW Recon 3B"
 	
 	on visit
 		set "fw recon: obvious gunboat"
-		dialog `A minute after you land, a Republic Gunboat, the <npc>, lands directly next to you. JJ does not approach you. You notice from your ship's logs that this Gunboat has been following you ever since you left <origin>; before you can hand over the information, you will need to escape its pursuit.`
+		dialog `在你登陆一分钟后，一艘共和国炮艇<npc>号直接降落在你旁边。JJ并没有接近你。你从船上的日志中注意到，自从你离开<origin>后，这艘炮艇一直在跟踪你；在你交出信息之前，你需要摆脱它的追踪。`
 	on complete
 		payment 80000
 		"assisted free worlds" ++
 		log "Gave the Free Worlds some photos and information on the Navy base on New Wales. Jean-Jacques, the militia contact, was very grateful for the help."
 		conversation
-			`JJ meets you as soon as you land. "Good job evading that Navy Gunboat," he says.`
+			`JJ在你登陆后立即与你会面。"他说："躲避那艘海军炮艇干得好。`
 			branch caught
 				has "fw recon: caught"
 			branch obvious
 				has "fw recon: obvious gunboat"
 			
 			choice
-				`	"Gunboat? What Gunboat?"`
-				`	"I knew I had a feeling that I was being followed."`
+				`	"炮艇？什么炮艇？"`
+				`	"我知道我有一种感觉，我被人跟踪了。"`
 					goto followed
-			`	"You didn't notice? I have scouts that report that you were being followed by a Gunboat by the name of the <npc> ever since you left <origin>. Keeping an eye on where you were going, no doubt.`
+			`	"你没有注意到吗？我有侦察员报告说，自从你离开<npc>后，就有一艘名为<origin>的炮艇跟踪你。毫无疑问，是在盯着你的去向。`
 				goto followed
 			
 			label caught
 			choice
-				`	"They knew I was gathering information on the base. It's no wonder they had someone following me."`
+				`	"他们知道我在收集基地的信息。难怪他们派人跟踪我。"`
 					goto followed
-				`	"How did they know I was involved with you?"`
+				`	"他们怎么知道我和你有关系？"`
 					goto followed
 			
 			label obvious
 			choice
-				`	"I knew I had a feeling that I was being followed."`
-				`	"How did they know I was involved with you?"`
+				`	"我知道我有一种感觉，我被人跟踪了。"`
+				`	"他们怎么知道我和你有关系？"`
 			
 			label followed
-			`	"The Republic's intelligence gathering capabilities are vast, far beyond anything we can muster. I can only guess how they knew you were involved and kept an eye on you."`
+			`	"共和国的情报收集能力是巨大的，远远超过我们所能调动的任何东西。我只能猜测他们是如何知道你参与其中的，并一直关注着你。"`
 			choice
-				`	"What should I do now that the Republic is watching me?"`
-				`	"Knowing that, how can you possibly expect to stand up against the Republic?"`
+				`	"现在共和国在监视我，我应该怎么做？"`
+				`	"知道了这些，你怎么可能指望对抗共和国？"`
 					goto odds
-			`	"Keep your head low. You're compromised, so I can't ask you to do any more recon work for us. So long as you don't cause them any trouble, they'll likely eventually leave you alone. We have a great number of merchants helping us, and as capable as the Republic is, they can only keep a close eye on so many people at a time."`
+			`	"把你的头放低。你已经妥协了，所以我不能再要求你为我们做任何侦察工作。只要你不给他们带来任何麻烦，他们最终可能会放过你。我们有大量的商人帮助我们，尽管共和国有能力，但他们一次只能密切关注这么多人。"`
 				goto info
 			
 			label odds
-			`	"I pray that we don't have to," JJ responds. "We're currently attempting to prove our innocence for the bombings on Geminus and Martini. But should it come to war, if we get continued help from merchants such as yourself, then, God willing, we might just stand a chance. While the Republic may be strong, they're not omnipotent."`
+			`	"我祈祷我们不必如此，"JJ回应道。"我们目前正试图证明我们在Geminus和Martini的爆炸案中的清白。但是，如果战争来临，如果我们得到像你这样的商人的持续帮助，那么，上帝保佑，我们可能就有机会了。虽然共和国可能很强大，但他们不是万能的。"`
 			
 			label info
-			`	JJ takes the information and photos you gathered and pays you <payment> in return. "I'll be sure to let the rest of the Free Worlds Council know how helpful you have been."`
+			`	JJ拿着你收集的资料和照片，并向你支付<payment>作为回报。"我一定会让自由世界委员会的其他成员知道你的帮助有多大。"`
 			choice
-				`	"Thank you."`
+				`	"谢谢你。"`
 					goto end
-				`	"What are you going to do with this information?"`
-				`	"Free Worlds Council? What's that?"`
+				`	"你打算用这些信息做什么？"`
+				`	"自由世界理事会？那是什么？"`
 					goto council
 			
-			`	"Full of questions, aren't we?" JJ chuckles. "We will not attack this naval base, so you don't need to worry about anyone being hurt by your actions today. But should the Free Worlds and the Republic go to war, information will be a vital resource, including the information that you've provided me, so thank you for that.`
+			`	"满脑子的问题，不是吗？"JJ笑着说。"我们不会攻击这个海军基地，所以你不需要担心有人会因为你今天的行动而受到伤害。但如果自由世界和共和国开战，信息将是一个重要的资源，包括你提供给我的信息，所以谢谢你。`
 				goto end
 			
 			label council
-			`	"Full of questions, aren't we?" JJ chuckles. "The Council is a collection of leaders born out of what used to be the Southern Mutual Defense Pact. It includes myself and a few others. We are currently responsible for commanding the militias of the Free Worlds, and should it come to it, we will be the commanding officers in a war with the Republic.`
+			`	"满脑子的问题，不是吗？"JJ笑着说。"理事会是由过去的南方共同防御条约产生的领导人的集合。它包括我和其他几个人。我们目前负责指挥自由世界的民兵，如果事情发展到这一步，我们将成为与共和国战争的指挥官。`
 				goto end
 			
 			label end
-			`	"Now if you'll excuse me, Captain, I have other work to attend to," JJ says. "If you wish to continue helping us, I'm sure there are others who could call upon you if you go looking for them."`
+			`	"现在如果你不介意的话，船长，我还有其他工作要做，"JJ说。"如果你想继续帮助我们，我相信如果你去找他们，还有其他人可以向你求助。"`
 				decline
 
 
@@ -535,8 +535,8 @@ mission "FW Recon 3B"
 mission "FW Escort 0"
 	autosave
 	minor
-	name "Free Worlds Escort"
-	description "Head to <destination> to meet up with a convoy of Free Worlds freighters."
+	name "自由世界护送"
+	description "前往<destination>，与自由世界的货运船队会合。"
 	source
 		government "Free Worlds"
 		near "Sabik" 1 100
@@ -552,38 +552,38 @@ mission "FW Escort 0"
 	
 	on offer
 		conversation
-			`As you are walking through the spaceport, a man in a militia uniform approaches you. Judging by the markings on his uniform, you suspect that he is very highly ranked within the militia.`
-			`	"Captain <last>?" he asks. You nod. "Glad to finally meet you. I'm Tomek Voigt, commanding officer of the Free militias. I have officers and friends who have spoken very highly of you. They tell me that you've gone to great lengths to help us. I thank you for that."`
+			`当你走过太空港时，一个穿着民兵制服的人向你走来。从他制服上的标记来看，你怀疑他在民兵中的地位非常高。`
+			`	"队长<last>？"他问道。你点点头。"很高兴终于见到你了。我是Tomek Voigt，自由民兵的指挥官。我有军官和朋友对你评价很高。他们告诉我，你不遗余力地帮助我们。我为此感谢你。"`
 			choice
-				`	"Oh, it was nothing. Just helping people out where I can."`
+				`	"哦，这没什么。只是在我能做的地方帮助人们。"`
 					goto humble
-				`	"I've gone to great lengths because I believe you have a great cause."`
+				`	"我费尽心机是因为我相信你有一个伟大的事业。"`
 					goto cause
-				`	"I'm just looking to get paid, and the Free Worlds pays well."`
-			`	Tomek raises an eyebrow. "A no nonsense captain, I see. Well if it's pay you're looking for, I have another job for you on behalf of the Free Worlds.`
+				`	"我只是想得到报酬，而自由世界的报酬很高。"`
+			`	托梅克挑了挑眉毛。"一个没有废话的船长，我明白了。好吧，如果你要找的是报酬，我还有一份代表自由世界的工作给你。`
 				goto mission
 			label humble
-			`	Tomek smiles. "A humble captain, I see. Well, if you're just looking to help people out, I have another job for you on behalf of the Free Worlds.`
+			`	托梅克笑了。"一个谦虚的船长，我明白了。好吧，如果你只是想帮助别人，我还有一份代表自由世界的工作给你。`
 				goto mission
 			label cause
-			`	Tomek grins. "Ah, a fellow freedom fighter. Always glad to see more captains earnestly joining the cause. I have another job for you on behalf of the Free Worlds.`
+			`	托梅克咧嘴一笑。"啊，一个自由战士的同伴。总是很高兴看到更多的船长认真地加入这一事业。我代表自由世界为你准备了另一份工作。`
 			label mission
-			`	"We're looking for ships to help escort a freighter convoy that is traveling to Tarazed to pick up supplies. Our last few convoys have been attacked by pirates, and we suspect this one will be as well. We already have a few captains on the job, but we could always use more help. Are you interested?"`
+			`	"我们正在寻找船只，帮助护送一支前往塔拉泽德领取物资的货运船队。我们的前几个护卫队被海盗袭击了，我们怀疑这次也会如此。我们已经有几个船长在工作，但我们总是需要更多的帮助。你有兴趣吗？"`
 			choice
-				`	"Sure, I'd be glad to assist in the escort."`
+				`	"当然，我很乐意协助护送。"`
 					goto accept
-				`	"What sort of supplies?"`
-				`	"Sorry, but that's not the type of work I'm looking for."`
+				`	"什么样的物资？"`
+				`	"对不起，但这不是我正在寻找的工作类型。"`
 					decline
 			
-			`	"Outfits, weapons, and other miscellaneous materials needed for the manufacturing of new ships. The Free Worlds is looking to bolster its forces, and we're already using as much of our local industry as we can, so we've begun importing materials from companies that aren't concerned with dealing with what the Republic labels a 'terrorist organization,'" Tomek says with a smirk.`
+			`	"装束、武器和其他制造新船所需的杂项材料。自由世界正在寻求加强它的力量，而我们已经尽可能多地使用我们的本地工业，所以我们已经开始从那些不关心与共和国标记的'恐怖组织'打交道的公司进口材料，"托梅克笑着说。`
 			choice
-				`	"Well, then I'd be glad to help."`
-				`	"Sorry, but that's not the type of work I'm looking for."`
+				`	"好吧，那我很乐意帮忙。"`
+				`	"对不起，但这不是我正在寻找的工作类型。"`
 					decline
 			
 			label accept
-			`	"Great!" he says. "The convoy will start from <destination> once all the escorts have arrived. I suggest you head there immediately."`
+			`	"太好了！"他说。"一旦所有护卫队到达，车队将从<destination>开始。我建议你立即前往那里。"`
 				accept
 
 
@@ -653,8 +653,8 @@ mission "FW Escort: Escorts"
 mission "FW Escort 1"
 	autosave
 	landing
-	name "Free Worlds Escort"
-	description "Escort a Free Worlds supply convoy safely to <destination>."
+	name "自由世界护送"
+	description "护送一个自由世界的补给船队安全到达<destination>。"
 	source "Longjump"
 	destination "Wayfarer"
 	to offer
@@ -663,8 +663,8 @@ mission "FW Escort 1"
 		has "chosen sides"
 	on offer
 		conversation
-			`You meet up with the convoy on <origin> in the spaceport: six freighters with an escort of... seven interceptors. Given how prevalent piracy is in this region and how strong some pirate fleets can be, you would have expected a larger escort, but it seems that this is all the Free Worlds is capable of mustering at the moment. It's no wonder they're asking merchant captains such as yourself to lend a hand.`
-			`	Shortly after you arrive, the convoy is ready to go and charts a course for <destination>.`
+			`你在<origin>的太空港与船队会合：六艘货船和......七艘拦截者的护卫。考虑到这个地区的海盗活动有多普遍，以及一些海盗舰队有多强大，你本以为会有更大的护卫队，但似乎这就是自由世界目前所能召集的全部力量。难怪他们会要求像你这样的商人船长伸出援手。`
+			`	在你到达后不久，护卫队就准备好了，并绘制了前往<destination>的路线。`
 				accept
 	
 	on accept
@@ -705,15 +705,15 @@ mission "FW Escort 1"
 		set "fw intro escort failed"
 		fail "FW Escort: Escorts"
 	on visit
-		dialog `You have reached <planet>, but you left part of the convoy behind! Better depart and wait for them to arrive in this star system.`
+		dialog `你已经到达<planet>，但你留下了部分车队!最好启程，等待他们到达这个星系。`
 
 
 
 mission "FW Escort 1B"
 	autosave
 	landing
-	name "Free Worlds Escort"
-	description "Escort the supply convoy safely to <destination> back in Free Worlds territory."
+	name "自由世界护送"
+	description "护送补给船队安全到达<destination>，回到自由世界境内。"
 	source "Wayfarer"
 	destination "Longjump"
 	to offer
@@ -723,8 +723,8 @@ mission "FW Escort 1B"
 	
 	on offer
 		conversation
-			`Your convoy of freighters reaches <origin> intact, despite numerous encounters with pirates. The escort of interceptors was just enough to hold them off. The merchant captains sell their trade goods and stock up with weapons and ship outfits that will be used to build new ships for the Free Worlds.`
-			`	Before you leave, a Free Worlds militia officer who you didn't arrive with approaches you, saying that he's finished doing business with the Tarazed Corporation and will join the convoy back to <planet>. The officer is commanding a Falcon, a much more formidable warship than your group of interceptors. Which is good, since, now that the freighters are carrying much more valuable cargo, the pirate attacks are likely to get even worse...`
+			`你的货船护航队完好无损地到达<origin>，尽管多次遭遇海盗。拦截者的护送刚好可以挡住他们。商人船长们卖掉了他们的贸易货物，囤积了武器和船舶装备，将用于为自由世界建造新船。`
+			`	在你离开之前，一个没有和你一起到达的自由世界的民兵军官走到你面前，说他已经和塔拉兹德公司做完了生意，将加入返回<planet>的车队。这位军官指挥着一艘猎鹰号，这是一艘比你们这群拦截者更强大的战舰。这是件好事，因为现在货船运载的是更有价值的货物，海盗的攻击可能会变得更加严重......`
 				accept
 	
 	npc accompany save
@@ -762,11 +762,11 @@ mission "FW Escort 1B"
 		set "fw intro escort failed"
 		fail "FW Escort: Escorts"
 	on visit
-		dialog `You have reached <planet>, but you left part of the convoy behind! Better depart and wait for them to arrive in this star system.`
+		dialog `你已经到达<planet>，但你留下了部分车队!最好启程，等待他们到达这个星系。`
 	on complete
 		payment 400000
 		event "fw escorts abandon timer"
-		dialog `Upon returning with the freighters, you are once again met by Tomek. He thanks you and the other escort captains for your service, and pays you each <payment>. "The convoy is heading out again immediately," he says, "so meet me in the spaceport if you are willing to volunteer for escort duty again. Same pay."`
+		dialog `带着货船回来后，托梅克又一次见到了你。他感谢你和其他护卫队长的服务，并向你们每人支付了<payment>。他说："护卫队马上又要出发了，""如果你们愿意再次自愿承担护卫任务，就到太空港来找我。同样的报酬。"`
 
 
 
@@ -776,8 +776,8 @@ event "fw escorts abandon timer"
 
 mission "FW Escort 2"
 	autosave
-	name "Free Worlds Escort"
-	description "Escort a Free Worlds supply convoy safely to <destination>."
+	name "自由世界护送"
+	description "护送一个自由世界的补给船队安全到达<destination>。"
 	source "Longjump"
 	destination "Wayfarer"
 	to offer
@@ -788,13 +788,13 @@ mission "FW Escort 2"
 	
 	on offer
 		conversation
-			`A few of the escort pilots, yourself included, have stuck around for another mission, and luckily a few new faces have joined in as well. Tomek meets you in the spaceport and says, "You know the drill. Escort the freighters to <planet> and back. 400,000 credits for your troubles. Plus, please believe that all of you are known to the Council, and your bravery will not be forgotten. We can't afford to lose any of these freighters. Who's willing to help escort them?"`
+			`一些护航飞行员，包括你自己，已经坚持到了另一个任务，幸运的是也有一些新面孔加入进来。托梅克在太空港见到你，说："你知道规矩的。护送货船到<planet>并返回。400,000信用点作为你的麻烦。另外，请相信，你们所有人都被委员会认识，你们的勇敢不会被遗忘。我们不能失去这些货船中的任何一艘。谁愿意帮助护送他们？"`
 			choice
-				`	(Volunteer.)`
-				`	(Go find some other work to do.)`
+				`	(志愿者。)`
+				`	(去找些其他工作做。)`
 					decline
 			
-			`	"Great!" says Tomek. "Good luck to all of you, and I pray to see you all safely back here in a couple of weeks."`
+			`	"太好了！"托梅克说。"祝你们所有人好运，我祈祷能在几周后看到你们都安全回来。"`
 				accept
 	
 	on decline
@@ -831,15 +831,15 @@ mission "FW Escort 2"
 		set "fw intro escort failed"
 		fail "FW Escort: Escorts"
 	on visit
-		dialog `You have reached <planet>, but you left part of the convoy behind! Better depart and wait for them to arrive in this star system.`
+		dialog `你已经到达<planet>，但你留下了部分车队!最好启程，等待他们到达这个星系。`
 
 
 
 mission "FW Escort 2B"
 	autosave
 	landing
-	name "Free Worlds Escort"
-	description "Escort a Free Worlds supply convoy safely to <destination>."
+	name "自由世界护送"
+	description "护送一个自由世界的补给船队安全到达<destination>。"
 	source "Wayfarer"
 	destination "Longjump"
 	to offer
@@ -849,7 +849,7 @@ mission "FW Escort 2B"
 	
 	on offer
 		conversation
-			`Once again, the convoy stocks up on weapons and outfits and begins preparing for the return journey. But unfortunately, there's no militia officer with a warship here to reinforce you this time. You can't help worrying that the longer these convoys keep running, the more pirates will discover their route and begin setting ambushes for them.`
+			`车队再一次储备了武器和装备，并开始为回程做准备。但不幸的是，这次没有民兵官员带着战舰来增援你们。你不禁担心，这些车队跑得越久，就会有更多的海盗发现他们的路线，开始为他们设下埋伏。`
 				accept
 	
 	npc accompany save
@@ -886,18 +886,18 @@ mission "FW Escort 2B"
 		set "fw intro escort failed"
 		fail "FW Escort: Escorts"
 	on visit
-		dialog `You have reached <planet>, but you left part of the convoy behind! Better depart and wait for them to arrive in this star system.`
+		dialog `你已经到达<planet>，但你留下了部分车队!最好启程，等待他们到达这个星系。`
 	on complete
 		fail "FW Escort: Escorts"
 		payment 400000
-		dialog `Again, Tomek Voigt meets you and the rest of the convoy at the spaceport, thanks you all for your courage and dedication, and pays you each <payment>. Then, he pulls you aside and says, "Captain <last>, if you're interested in helping us further, please meet me in the spaceport bar."`
+		dialog `Tomek Voigt再次在太空港接见了你和车队的其他成员，感谢你们的勇气和奉献精神，并向你们每人支付了<payment>。然后，他把你拉到一边，说："船长<last>，如果你有兴趣进一步帮助我们，请到太空港的酒吧找我。"`
 
 
 
 mission "FW Escort 3"
 	autosave
-	name "Stranded Freighter"
-	description "Repair the <npc>, which is stranded in the <waypoints> system, and escort it safely back to <destination>."
+	name "搁浅的货船"
+	description "修复滞留在<npc>系统的<waypoints>，并护送它安全返回<destination>。"
 	source "Longjump"
 	waypoint "Lesath"
 	to offer
@@ -907,13 +907,13 @@ mission "FW Escort 3"
 	
 	on offer
 		conversation
-			`When you walk into the bar, Tomek looks very glad to see you. "Here's the deal," he says. "One of our freighters, the <npc>, was just disabled in the <waypoints> system. We need you to fly there immediately, repair it, and bring it back here before it can be captured by pirates. Do you think you're up to the task?"`
+			`当你走进酒吧时，托梅克看起来非常高兴见到你。"交易是这样的，"他说。"我们的一艘货船，<npc>号，刚刚在<waypoints>系统中被禁用。我们需要你立即飞到那里，修复它，并在它被海盗捕获之前把它带回这里。你认为你能胜任这个任务吗？"`
 			choice
-				`	"Sure!"`
-				`	"Sorry, I'm just a merchant captain. The Free Worlds shouldn't be asking me to do combat missions."`
+				`	"当然！"`
+				`	"对不起，我只是一个商船船长。自由世界不应该要求我做战斗任务。"`
 					decline
 		
-			`	"Glad to hear it," he says. "The crew of that freighter is depending on you. I know I don't have to tell you what will happen to them if pirates board them before you get there, so get moving quickly."`
+			`	"很高兴听到这个消息，"他说。"那艘货船的船员都在依靠你。我知道我不必告诉你，如果海盗在你到达之前登上他们，他们会发生什么，所以赶快行动吧。"`
 				accept
 	
 	npc accompany save
@@ -927,30 +927,30 @@ mission "FW Escort 3"
 	on fail
 		set "fw intro escort failed"
 	on visit
-		dialog `You've returned to <planet>, but the <npc> is not with you. If you have not repaired it yet, travel to <waypoints> to do so, or take off wait for it to arrive in this system if you already have.`
+		dialog `你已经回到了<planet>，但<npc>没有和你在一起。如果你还没有修复它，请前往<waypoints>进行修复，如果你已经修复了，请起飞等待它到达这个系统。`
 	on complete
 		payment 200000
 		"assisted free worlds" ++
 		log "Helped rescue a Free Worlds freighter that had been disabled by pirates. Earned the gratitude of Tomek Voigt, the Council member in charge of the supply convoys."
 		conversation
-			`Tomek is immensely relieved to see the <npc> returned safely home. "You have done us a great service today, Captain," he says, as he hands you credit chips for <payment>. "I'll be sure to let the rest of the Council know how helpful you have been, and I pray we can call on you in the future."`
+			`看到<npc>安全返回家园，托梅克感到无比欣慰。"你今天为我们做了件大好事，船长。"他说，一边说一边递给你<payment>的信用芯片。"我一定会让理事会的其他成员知道你有多大的帮助，我祈祷我们将来能找你。"`
 			choice
-				`	"I'll be ready to answer the call whenever it comes."`
+				`	"无论何时，我都会准备好响应号召。"`
 					decline
-				`	"What exactly is the Council?"`
+				`	"理事会到底是什么？"`
 			
-			`	Tomek pauses to think for a moment. "Before there was the Free Worlds, there was the Southern Mutual Defense Pact, little more than a defense agreement between the worlds that now comprise the Free Worlds. Any group needs leadership, and the Council is what was once the leadership of the Pact.`
-			`	"We've retained all our powers that we held under the Pact, being the organizers and commanding officers of the various militias of the Free Worlds. With the Free Worlds having declared itself as a formal government and with tensions with the Republic so high, however, the militias are now obligated to answer to the Council as an emergency power, as opposed to the prior agreement where worlds could refuse to answer to the Pact if, for whatever reason, they chose not to.`
-			`	"But the Council is only a transitional organization; upon the establishment of the Free Worlds Senate, which is already in the works, the Council will be dissolved and all its responsibilities moved to the Senate.`
-			`	"Does that answer your question?" Tomek asks.`
-			`	"It does," you say. "Thank you."`
+			`	托梅克停顿了一下，思考了一会儿。"在有自由世界之前，有《南方共同防御条约》，只不过是现在组成自由世界的各个世界之间的防御协议而已。任何团体都需要领导，而理事会就是曾经的公约的领导。`
+			`	"我们保留了我们在公约下的所有权力，是自由世界各种民兵的组织者和指挥者。然而，由于自由世界已经宣布自己是一个正式的政府，并且与共和国的关系如此紧张，民兵们现在有义务向理事会负责，作为一种紧急权力，而不是像以前的协议那样，如果出于某种原因，世界可以拒绝向公约负责。`
+			`	"但理事会只是一个过渡性组织；在自由世界参议院成立后，理事会将被解散，其所有的责任将转移到参议院。`
+			`	"这回答了你的问题吗？"托梅克问道。`
+			`	"是的，"你说。"谢谢你。"`
 
 
 
 mission "FW Escort Second Chance"
 	minor
-	name "Second Chance"
-	description "Return to <destination> to meet up with Tomek Voigt and see if he will forgive you for failing the escort mission he gave you."
+	name "第二次机会"
+	description "回到<destination>与Tomek Voigt见面，看看他是否会原谅你没有完成他给你的护送任务。"
 	source
 		near "Sabik" 1 100
 		government "Free Worlds"
@@ -965,48 +965,48 @@ mission "FW Escort Second Chance"
 	
 	on offer
 		conversation
-			`Soon after you exit your ship a man approaches you. "Captain <last>?" he asks. You nod. "My name is Alondo," he says. "I'm a member of the Free Worlds Council. Katya speaks so highly of you that I would like to see you officially join us as a part of the Free Worlds militia, even though you messed up that escort mission that was given to you."`
+			`在你离开你的飞船后不久，一个男人走近你。"<last>船长？"他问道。你点点头。"我叫阿隆多，"他说。"我是自由世界委员会的成员。卡蒂亚对你评价很高，我想看到你正式加入我们，成为自由世界民兵的一员，尽管你把交给你的那个护送任务搞砸了。"`
 			choice
-				`	"Yes, I'm very sorry about that."`
-				`	"Sorry, but I decided I don't want to assist the Free Worlds anyway."`
+				`	"是的，我对此非常抱歉。"`
+				`	"对不起，但我决定无论如何都不想协助自由世界。"`
 					decline
 			
-			`	"I'm sure," he says, "but I'm not the one you need to say that to. Right now Tomek is refusing to let us offer you a job, but if you speak with him in person, he might change his mind. Or he might not. But if you really want to work for us, you should visit him on <planet>, take full responsibility for what happened, and apologize. Just a suggestion." He walks off.`
+			`	"我确定，"他说，"但我不是你需要说的人。现在托梅克拒绝让我们为你提供工作，但如果你亲自和他谈，他可能会改变主意。或者他可能不会。但如果你真的想为我们工作，你应该在<planet>上拜访他，为所发生的事情承担全部责任，并道歉。只是一个建议。"他走了。`
 				accept
 	
 	on complete
 		conversation
-			`Nervously, you contact Tomek and ask if he would be willing to meet with you. After a long pause, he says, "Okay. Meet me at the cantina in fifteen minutes." You wait for about twenty minutes before he finally shows up and says, without preamble, "Now, what do you have to say for yourself?"`
+			`紧张地，你联系托梅克，问他是否愿意与你见面。停顿了很久之后，他说："好的。15分钟后在小酒馆见我。"你等了大约20分钟后，他终于出现了，并且不假思索地说："现在，你要为自己说些什么？"`
 			choice
-				`	"I take full responsibility for the loss of that freighter. I'm sorry."`
+				`	"我对那艘货船的损失承担全部责任。我很抱歉。"`
 					goto responsible
-				`	"There was really nothing I could have done against so many pirates."`
-				`	"I'm sorry for what happened. It won't happen again."`
-			`	He doesn't look entirely satisfied with that response. "I had to write letters to five different families telling them why their son or daughter or husband had been killed on a routine cargo mission. You promised to keep them safe, and you failed. You understand that, right?"`
+				`	"面对这么多海盗，我真的无能为力。"`
+				`	"我对发生的事情感到抱歉。它不会再发生了。"`
+			`	他看起来对这个回答并不完全满意。"我不得不给五个不同的家庭写信，告诉他们为什么他们的儿子或女儿或丈夫在一次例行货运任务中被杀。你承诺要保证他们的安全，但你却失败了。你明白这一点，对吗？"`
 			choice
-				`	"Well, space is a dangerous place. Bad things happen. I can't stop that."`
-				`	"Yes, I know that I failed, and I'm very sorry for their loss."`
+				`	"嗯，太空是个危险的地方。不好的事情发生了。我不能阻止这一点。"`
+				`	"是的，我知道我失败了，对他们的损失我非常抱歉。"`
 					goto responsible
 			action
 				set "fw escort: mistrusted"
-			`	"That is not an appropriate response," he says. "If we offer you a mission, we have to be able to trust that you will complete it, with no excuses. I'm sorry, but I have no interest in working with you in the future. Goodbye, Captain." He walks away.`
+			`	"这不是一个适当的反应，"他说。"如果我们为你提供一个任务，我们必须能够相信你会完成它，没有任何借口。我很抱歉，但我没有兴趣在未来与你合作。再见，上尉。"他走了。`
 				decline
 			
 			label responsible
-			`	"If we offer you a mission in the future," he says, "we have to be able to trust that you will complete it. No excuses, no second tries. Do you understand?" You nod. "Fine," he says, with a long sigh. "Katya said she trusts you, so I'll give you a second chance this one time. But please try to be more responsible in the future, okay?"`
+			`	"如果我们在未来为你提供任务，"他说，"我们必须能够相信你会完成它。没有借口，没有第二次尝试。你明白吗？"你点点头。"好吧，"他说，长叹一声。"卡蒂亚说她信任你，所以我给你一次机会，就这一次。但请你以后尽量负责任一些，好吗？"`
 			choice
-				`	"I will. Thank you for giving me a second chance, sir."`
-				`	"I'll try my best."`
-			`	He shakes your hand and leaves, without ordering anything to drink. You get the feeling that he still does not think very highly of you.`
+				`	"我会的。谢谢你给我第二次机会，先生。"`
+				`	"我会尽力的。"`
+			`	他与你握手后离开，没有点任何饮料。你感觉到，他仍然不怎么看得起你。`
 			action
-				"assisted free worlds" ++
+				"协助自由世界" ++
 
 
 
 mission "FW Bounty 1"
 	minor
-	name "Free Worlds Bounty Hunting"
-	description `Hunt down and destroy the "Rat Pack," a gang of pirate ships led by a flagship named "Cluny" who have been attacking freighters in Free Worlds space. They were last seen attacking freighters in the Seginus system.`
+	name "自由世界的赏金猎杀"
+	description `猎杀并摧毁 "老鼠帮"，这是一伙由一艘名为 "克鲁尼 "的旗舰领导的海盗船，他们一直在自由世界的空间里攻击货船。他们最后一次被看到是在Seginus系统攻击货船。`
 	source
 		government "Free Worlds"
 	to offer
@@ -1016,32 +1016,32 @@ mission "FW Bounty 1"
 	
 	on offer
 		conversation
-			`As you walk through the spaceport, a woman in a militia uniform approaches you. "Are you Captain <last>?" she asks. You nod. "I'm a commander of the local militia," she says. "There's a pirate fleet that has attacked freighters in this sector several times in the last few months, but now it seems they've moved outside of Free space. I'd like to strike at them before they return and do more damage here, but right now the Free Worlds Council won't allow militia ships to be used for preemptive attacks, so instead we're looking to enlist the help of a merchant captain, and I was told that you're a formidable pilot."`
+			`当你走过太空港时，一个穿着民兵制服的女人向你走来。"你是<last>船长吗？"她问道。你点点头。"我是当地民兵的指挥官，"她说。"在过去的几个月里，有一支海盗舰队多次袭击这个区域的货船，但现在他们似乎已经转移到自由空间之外。我想在他们返回并在这里造成更多破坏之前对他们进行打击，但现在自由世界理事会不允许民兵的船只用于先发制人的攻击，所以我们正在寻求商船船长的帮助，有人告诉我，你是一个强大的飞行员。"`
 			choice
-				`	"Well, I'd be glad to destroy them for you."`
+				`	"好吧，我很乐意为你消灭他们。"`
 					goto accept
-				`	"How powerful of a fleet do these pirates have?"`
-				`	"How much will you be paying me to take out this fleet?"`
+				`	"这些海盗的舰队有多强大？"`
+				`	"你要付给我多少钱才能干掉这支舰队？"`
 					goto payment
-				`	"Sorry, I don't want to have anything to do with the Free Worlds."`
+				`	"对不起，我不想和自由世界有任何关系。"`
 					decline
 			
-			`	"Well they aren't exactly a powerful fleet. They're just a collection of interceptors, but they're numerous and swift enough that we've had trouble taking them down before they can run or swarm our larger ships. We can pay you <payment> if you can take them out."`
+			`	"好吧，他们并不完全是一支强大的舰队。他们只是一群拦截者的集合体，但他们数量众多，行动迅速，我们很难在他们跑路或蜂拥而至之前把他们打倒。如果你能干掉他们，我们可以给你<payment>。"`
 			choice
-				`	"Just a group of interceptors? That should be no problem for me to destroy."`
+				`	"只是一群拦截者？那对我来说，摧毁它们应该不成问题。"`
 					goto accept
-				`	"If you can't take them out then I don't know how I will. You're on your own."`
+				`	"如果你不能干掉他们，那我就不知道该怎么做了。你要靠自己了。"`
 					decline
 			
 			label payment
-			`	"Since these pirates have been particularly troublesome, we've placed a bounty of <payment> on their heads. Take them out for us and those credits are all yours."`
+			`	"由于这些海盗特别麻烦，我们已经在他们的头上悬赏了<payment>。为我们干掉他们，这些功劳都是你的。"`
 			choice
-				`	"That sounds reasonable enough. Okay, I'll destroy them for you."`
-				`	"Only <payment>? You're going to need to find someone else for the job."`
+				`	"这听起来很合理。好吧，我为你消灭他们。"`
+				`	"只有<payment>？你需要找别人来做这件事。"`
 					decline
 			
 			label accept
-			`	"Excellent," she says. "They call themselves the 'Rat Pack,' and you'll recognize them because most of their ships are named after various vermin, although for some unknown reason their flagship is just named 'Cluny.' They were last seen in the Seginus system, just northeast of Free space, so they'll probably be within a jump or two of there. Thank you in advance for your help."`
+			`	"太好了。"她说。"他们自称'老鼠帮'，你会认出他们的，因为他们的大部分船只都是以各种害虫命名的，虽然不知道什么原因，他们的旗舰只是叫'克鲁尼'。他们最后一次被看到是在Seginus系统，就在自由空间的东北部，所以他们可能会在那里的一两次跳跃之内。提前感谢你的帮助。"`
 				accept
 	
 	on accept
@@ -1058,13 +1058,13 @@ mission "FW Bounty 1"
 		ship "Wasp (Proton)" "Vixen"
 		ship "Fury (Laser)" "Stoat"
 		ship "Sparrow" "Rat"
-		dialog `The "Rat Pack" has been eliminated. You can claim the bounty payment by returning to <destination>.`
+		dialog `"老鼠帮 "已经被消灭了。你可以通过返回<destination>来索取赏金款项。`
 	
 	on visit
 		dialog phrase "generic fleet bounty hunting on visit"
 	on complete
 		payment 200000
-		dialog `The militia officer who asked you to hunt down the "Rat Pack" arrives at your ship soon after you land and thanks you profusely. "Now we won't have to worry about them bothering ships in this sector anymore." She pays you the bounty of <payment> and says she'll tell other militia leaders how helpful you were.`
+		dialog `让你追捕 "老鼠帮 "的民兵军官在你登陆后不久就来到了你的船上，并对你表示了深深的感谢。"现在我们不用再担心他们会打扰这个区域的船只了。"她向你支付了赏金<payment>，并说她会告诉其他民兵领袖你是多么有帮助。`
 
 
 
@@ -1096,8 +1096,8 @@ ship "Mammoth" "Mammoth (Moonless)"
 
 
 mission "FW Bounty 2"
-	name "Free Worlds Bounty Hunting"
-	description `A Free Worlds militia officer from <destination> asked you to hunt down the <npc>, a pirate ship last seen in the Delta Sagittarii system. The militia officer suggested trying to attack the ship from a distance.`
+	name "自由世界的赏金猎杀"
+	description `一位来自<destination>的自由世界民兵官员要求你追捕<npc>，这是一艘最后出现在人马座三角洲系统的海盗船。该民兵官员建议尝试从远处攻击该船。`
 	source
 		government "Free Worlds"
 	to offer
@@ -1107,25 +1107,25 @@ mission "FW Bounty 2"
 	
 	on offer
 		conversation
-			`A Free Worlds officer waves to you as you are walking through the spaceport. "Hello Captain <last>," he says. "I've heard you've helped us in the past to deal with pirate threats. Interested in another bounty hunting mission?"`
+			`当你走过太空港时，一名自由世界的官员向你招手。"你好，船长<last>，"他说。"我听说你过去曾帮助我们处理过海盗的威胁。对另一个赏金狩猎任务感兴趣吗？"`
 			choice
-				`	"What will it be this time?"`
-				`	"Sure, I do love destroying pirates!"`
+				`	"这次会是什么？"`
+				`	"当然，我确实喜欢消灭海盗！"`
 					goto accept
-				`	"Sorry, I'm way too busy right now."`
+				`	"对不起，我现在太忙了。"`
 					defer
 			
-			`	"There's a retrofitted heavy freighter by the name of <npc> that has been stealing large amounts of cargo from our supply convoys. It was last seen in the Delta Sagittarii system. Be warned that this ship is a tough one, fitted with more Heavy Lasers than I've ever seen anyone install on a single ship, but it's slow as a sloth, so you might be able to hit it from afar. The bounty on it is <payment>."`
+			`	"有一艘名为<npc>的改装重型货船，一直在从我们的补给船队中偷取大量的货物。最后一次看到它是在人马座三角洲系统。请注意，这艘船很难缠，它所安装的重型激光器比我见过的任何一艘船都要多，但它的速度很慢，所以你也许能从远处打到它。对它的赏金是<payment>。"`
 			choice
-				`	"Sounds like this shouldn't be too difficult. I'm in."`
-				`	"I could handle a group of interceptors, but this sounds like too much for me. You'll have to find someone else."`
+				`	"听起来这应该不是太难。我加入。"`
+				`	"我可以处理一群拦截者，但这听起来对我来说太难了。你得找别人。"`
 					decline
 			
-			`	He grins. "Glad to hear you're on board. Good luck, Captain."`
+			`	他咧嘴一笑。"很高兴听到你在船上。祝你好运，船长。"`
 				accept
 			
 			label accept
-			`	He grins. "Your target is a retrofitted heavy freighter by the name of <npc> that has been stealing large amounts of cargo from our supply convoys. It was last seen in the Delta Sagittarii system. Be warned that this ship is a tough one, fitted with more Heavy Lasers than I've ever seen anyone install on a single ship, but it's slow as a sloth, so you might be able to hit it from afar. Good luck, Captain."`
+			`	他咧嘴一笑。"你的目标是一艘改装的重型货船，名字叫<npc>，一直在从我们的补给船队中偷取大量的货物。最后一次看到它是在人马座三角洲系统。请注意，这艘船很难缠，它所安装的重型激光器比我见过的任何一艘船都要多，但它的速度慢得像只树懒，所以你也许能从远处击中它。祝你好运，上尉。"`
 				accept
 	
 	npc kill
@@ -1140,13 +1140,13 @@ mission "FW Bounty 2"
 		dialog phrase "generic bounty hunting on visit"
 	on complete
 		payment 300000
-		dialog `The militia officer who asked you to hunt down the <npc> meets you in the spaceport and pays you <payment>. "Once again, thank you for assisting us," he says.`
+		dialog `让你追捕<npc>的民兵军官在太空港与你见面，并向你支付<payment>。"再次感谢你协助我们，"他说。`
 
 
 
 mission "FW Bounty 3"
-	name "Free Worlds Bounty Hunting"
-	description `A Free Worlds militia officer from <destination> asked you to hunt down the <npc>, a powerful pirate ship last seen in the Shaula system.`
+	name "自由世界的赏金猎杀"
+	description `一位来自<destination>的自由世界民兵官员要求你追捕<npc>，这是一艘强大的海盗船，最后一次出现在Shaula系统。`
 	source
 		government "Free Worlds"
 	to offer
@@ -1156,22 +1156,22 @@ mission "FW Bounty 3"
 	
 	on offer
 		conversation
-			`Once again, as you are walking through the spaceport a Free Worlds officer flags you down. "We've got another bounty hunting mission for you," he says. "This one is a bit more dangerous; this pirate ship has weapons we've never seen before, that may be alien in origin. Interested in helping us to destroy it?"`
+			`再一次，当你走过太空港时，一位自由世界的官员向你打招呼。他说："我们有另一个赏金猎杀任务给你，"他说。"这个任务有点危险；这艘海盗船有我们从未见过的武器，可能是外星人的。有兴趣帮助我们摧毁它吗？"`
 			choice
-				`	"Yes, I'm sure my ship will be up to the challenge."`
+				`	"是的，我相信我的船会迎接挑战。"`
 					goto accept
-				`	"Alien in origin? What sort of weapons does it have?"`
-				`	"Sorry, I'm not interested in giving the Free Worlds more assistance."`
+				`	"起源于外星人？它有什么样的武器？"`
+				`	"对不起，我没有兴趣给自由世界更多的帮助。"`
 					decline
 			
-			`	"It has a pair of strange cannons that seem to interfere with a ship's electrical systems, draining its power and causing its weapons to malfunction. It's similar to those lasers the Quarg have, which is why we think the weapons are alien technology."`
+			`	"它有一对奇怪的大炮，似乎能干扰飞船的电力系统，耗尽它的能量，导致其武器失灵。它与夸格人的那些激光器相似，这就是为什么我们认为这些武器是外星技术。"`
 			choice
-				`	"Well you came to the right person. I'll take it out for you."`
-				`	"Sorry, but that sounds like a job for someone else."`
+				`	"好吧，你来找对人了。我会为你把它拿出来。"`
+				`	"对不起，但这听起来像是别人的工作。"`
 					decline
 			
 			label accept
-			`	"Great," he says. "Your target is named the <npc>. After we nearly destroyed it, we think it went to the Shaula system to hide out, which means that you'll probably have to deal with other pirates at the same time. Good luck, Captain."`
+			`	"太好了。"他说。"你的目标被命名为<npc>。在我们几乎摧毁它之后，我们认为它去了Shaula系统藏身，这意味着你可能要同时对付其他海盗。祝你好运，船长。"`
 				accept
 	
 	npc kill
@@ -1187,14 +1187,14 @@ mission "FW Bounty 3"
 		payment 500000
 		"assisted free worlds" ++
 		log "Earned a good reputation with the Free Worlds militia by taking on missions to hunt down some dangerous pirates."
-		dialog `The militia officer who asked you to hunt down the <npc> contacts you soon after you land. "You've done us a great service," he says. "I'll be telling the Council how helpful you were." He hands you a payment of <payment>.`
+		dialog `让你追捕<npc>的民兵军官在你登陆后不久就与你联系。他说："你为我们做了很大的贡献，"他说。"我会告诉议会你是多么的有帮助。"他递给你一笔<payment>的报酬。`
 
 
 
 mission "FW Katya 1"
 	minor
-	name "Assist the Free Worlds"
-	description "Stop by <destination>, pick up two passengers and some cargo, and distract the Republic from a more important cargo exchange going on simultaneously."
+	name "协助自由世界的人"
+	description "在<destination>停留，接上两名乘客和一些货物，并分散共和国对同时进行的更重要的货物交换的注意力。"
 	source
 		government "Free Worlds"
 	destination "Glory"
@@ -1207,86 +1207,86 @@ mission "FW Katya 1"
 	
 	on offer
 		conversation
-			`Wandering through the spaceport, you have stopped for a moment to read the menu posted in front of a restaurant, when your thoughts are interrupted by the click of a gun being cocked right behind your head, and a woman's voice saying, "Think fast, Captain."`
+			`在太空港里闲逛，你已经停下来看了一会儿贴在一家餐厅门口的菜单，这时你的思绪被咔嚓一声枪被扣在你脑后打断了，一个女人的声音说："快想想，船长。"`
 			choice
-				`	(Do this karate move I saw in a video one time.)`
+				`	(做这个空手道的动作，我有一次在视频中看到。)`
 					goto karate
-				`	(Raise my hands slowly into the air and find out what she wants.)`
+				`	(把我的手慢慢举到空中，找出她想要的东西。)`
 			
-			`	"Good choice," she says. "Now, turn around, slowly, and don't try any funny business. I've got a semiautomatic pistol pointed right at your head."`
+			`	"选择得好，"她说。"现在，转过身来，慢慢地，不要尝试任何有趣的事情。我有一把半自动手枪，正对着你的头。"`
 			choice
-				`	(Now, try that karate move.)`
+				`	(现在，试试那个空手道动作）。`
 					goto karate
-				`	(Turn around slowly.)`
+				`	(慢慢转过身来。)`
 			
-			`	You turn around and find yourself facing a woman in a Free Worlds uniform. The chevrons on her collar mark her as some sort of officer. She is grinning at you. "Beautifully done, Captain," she says. "Such restraint. Such remarkable levelheadedness. Not something I often see around here. If this thing were loaded, quite a few backcountry rubes in the last few months would've had their brains blown open before I could even get around to recruiting them." She lowers the gun.`
+			`	你转过身，发现自己面对的是一个穿着自由世界制服的女人。她领子上的徽章标志着她是某种官员。她正对你咧嘴笑。"做得很好，上尉，"她说。"如此克制。如此出色的头脑冷静。这不是我在这里经常看到的东西。如果这东西上了膛，过去几个月里，在我还没来得及招募他们的时候，就有不少乡下人的脑袋被炸开了。"她放下了枪。`
 			choice
-				`	"You mean this was some sort of test? You're not trying to mug me?"`
+				`	"你是说这是某种测试？你不是想打劫我吧？"`
 					goto explanation
-				`	(Try that karate move, just for kicks.)`
+				`	(试试那个空手道动作，只是为了踢球。）`
 			
-			`	You make a grab for the gun. A second later she's got your arm twisted behind your back, using just enough force to make it clear that things could get really painful if you continue to struggle. "Smart, and playful too," she says, "I like that. But, it'll be a cold day in hell before a kid like you gets the drop on me. Now, shall we talk?" She lets go of you, and you shake out your arm gingerly.`
+			`	你抓住了枪。一秒钟后，她把你的胳膊扭到了背后，用足够的力量让你明白，如果你继续挣扎，事情会变得非常痛苦。"很聪明，也很好玩，"她说，"我喜欢这样。但是，在像你这样的孩子得到我的帮助之前，这将是地狱中的一个寒冷日子。现在，我们可以谈谈吗？"她放开了你，你轻轻地甩了甩胳膊。`
 			
 			label explanation
-			`	"I need a civilian for some courier work," she says. "Nothing illegal, at least nothing the Republic can pin on you. It just needs to be done by a ship that isn't flying our colors, and by a captain who isn't going to scream, 'Death to all tyrants!' and go in with guns blazing the first time your cargo gets scanned. What do you say?"`
+			`	"我需要一个平民做一些快递工作，"她说。"没有什么非法的，至少共和国不能把它归咎于你。它只是需要由一艘没有悬挂我们颜色的船来做，由一个不会在你的货物第一次被扫描时就大叫'所有暴君去死'并持枪冲进去的船长来做。你怎么说？"`
 			choice
-				`	"I'm not sure I'm ready to pick sides in this war, yet."`
-				`	"Why would I help a group of terrorists?"`
+				`	"我不确定我已经准备好在这场战争中选边站了，还没有。"`
+				`	"我为什么要帮助一伙恐怖分子？"`
 					goto terrorists
-				`	"Okay, tell me more."`
+				`	"好吧，告诉我更多。"`
 					goto more
 			
-			`	"Look, kid," she says. "When I ask you to pick sides, when I offer you a mission that's gonna burn some bridges for you, I won't be sneaky about it. I'll tell you exactly what you're signing up for. What I'm offering you now is just a chance to get to know us, and let us get to know you, with no expectations. Heck, you can even run missions for the Reps at the same time."`
+			`	"听着，孩子，"她说。"当我要求你选边站的时候，当我给你提供一个会给你带来一些麻烦的任务的时候，我不会偷偷摸摸的。我会准确地告诉你你要签的是什么。我现在提供给你的只是一个机会，让你了解我们，也让我们了解你，没有任何期望。哎呀，你甚至可以同时为代表队执行任务。"`
 			choice
-				`	"That sounds fair. I'll hear you out."`
+				`	"这听起来很公平。我会听你的。"`
 					goto more
-				`	"Fair enough, but I don't like working with people who start conversations by pointing guns at my head. Even unloaded guns. Find someone else to do this job for you."`
+				`	"很公平，但我不喜欢和那些用枪指着我的头来开始谈话的人一起工作。即使是没有子弹的枪。找别人来帮你做这个工作吧。"`
 					decline
 			
 			label terrorists
-			`	"Look, kid," she says. "I know the situation looks bad, but I'm telling the truth when I say that the Free Worlds aren't the ones who dropped those nukes, and we don't know who did, either. So I'll proudly be called treasonous for separating from the Republic, but I will not tolerate being called a terrorist."`
+			`	"听着，孩子，"她说。"我知道情况看起来很糟糕，但我说的是实话，自由世界并不是投下那些核弹的人，我们也不知道是谁干的。因此，我会因为脱离共和国而自豪地被称为叛国者，但我不会容忍被称为恐怖分子。"`
 			choice
-				`	"And what reason do I have to believe you?"`
-				`	"I'm not convinced. You'll need to find some other sucker to do your dirty work for you."`
+				`	"那我有什么理由相信你？"`
+				`	"我不相信。你需要找一些其他的傻瓜来为你干脏活。"`
 					decline
 			
-			`	She pauses for a moment. "You don't have a reason," she says with a sigh. "Sometimes you just need to take things on faith."`
+			`	她停顿了一会儿。"你没有理由，"她叹了口气说。"有时你只需要把事情当作信仰。"`
 			choice
-				`	"Alright, I'm willing to hear you out."`
-				`	"Well I don't have a lot of faith in people who start conversations by pointing guns at my head. Even unloaded guns. Find someone else to do this job for you."`
+				`	"好吧，我愿意听你说。"`
+				`	"好吧，我对那些用枪指着我的头开始谈话的人没有什么信心。即使是没有子弹的枪。找别人来帮你做这个工作吧。"`
 					decline
 			
 			label more
-			`	"Okay, here's the deal. We need some cargo carried from <planet> to Skymoot. It's just medical supplies - no bombs, no contraband. But we'll load it onto your ship in the dead of night, trying our best to avoid any notice. But the Reps have the sharpest eyes in the galaxy, so you'll get noticed anyway. And since anything done in the dead of night is likely to arouse their suspicions, you'll get boarded and searched. Meanwhile, the real cargo will have been loaded onto one of our ships in broad daylight, and will pass through Republic space entirely unnoticed."`
+			`	"好吧，事情是这样的。我们需要从<planet>运一些货物到天茂。这只是医疗用品--没有炸弹，没有违禁品。但我们会在夜深人静的时候把它装到你的船上，尽力避免被发现。但是代表们有银河系最敏锐的眼睛，所以你还是会被注意到。由于在夜深人静时做的任何事情都可能引起他们的怀疑，你会被登船搜查。同时，真正的货物将在光天化日之下被装到我们的一艘船上，并将在共和国的空间中完全不被注意到。"`
 			choice
-				`	"I like the way you think. Count me in."`
+				`	"我喜欢你的思维方式。算我一个。"`
 					goto details
-				`	"Sorry, it sounds a bit too shady for my liking. Please don't offer me any work in the future."`
+				`	"对不起，这听起来有点太阴暗了，我不喜欢。请以后不要给我提供任何工作。"`
 			
-			`	"Shucks," she says, "I liked you. I was looking forward to having you on my team." She looks genuinely crestfallen. "But fair is fair. You're free to go, and I'll tell my colleagues that you're not interested in working for us."`
+			`	"糟了，"她说，"我喜欢你。我正期待着你加入我的团队。"她看起来真的很沮丧。"但公平就是公平。你可以走了，我会告诉我的同事，你对为我们工作不感兴趣。"`
 				decline
 			
 			label details
-			`	"Great," she says, grinning even more broadly. "My name's Katya Reynolds, by the way. Glad we'll be working together." She starts to walk away, then seems to remember something. "One last thing - some friends of mine on <planet>, tourists, need a lift off that rock, and I owe them a favor. Would you mind saving two bunks for them?"`
+			`	"太好了，"她说，笑得更灿烂了。"顺便说一下，我的名字叫卡蒂亚-雷诺兹。很高兴我们将在一起工作。"她开始走了，然后似乎想起了什么。"最后一件事--我在<planet>上的一些朋友，游客，需要搭车离开那块石头，我欠他们一个人情。你介意为他们留两个铺位吗？"`
 			choice
-				`	"Sure, no problem."`
+				`	"当然，没问题。"`
 			
-			`	"Excellent. I'm looking forward to doing business with you, Captain."`
+			`	"太好了。我很期待与你做生意，船长。"`
 				accept
 			
 			label karate
-			`	You dodge sideways and spin quickly. As you do so you hear a loud click, but the gun does not fire. With one hand you knock aside the gun. With the other you land a karate chop which, if you had studied karate, would've shattered her collarbone and left her reeling in pain. But since you have not studied karate, instead your blow bounces harmlessly off her surprisingly muscular shoulder.`
-			`	Your assailant turns out to be wearing a Free Worlds uniform and a disappointed expression. "Well aren't you a dumb reckless bastard!" she says, "I'd hoped for something better from you. First of all, if this gun were loaded, your brains would be splattered all over the sidewalk. And second, you fight like a girl. I have no use for hotheads like you." She stalks off, leaving you very confused. It would appear that you've just failed some sort of test.`
+			`	你侧身躲开，迅速旋转。当你这样做时，你听到一声响亮的咔嚓声，但枪并没有开火。你用一只手把枪打到一边。另一只手则是一记空手道劈腿，如果你学过空手道，这一记劈腿会打碎她的锁骨，让她在痛苦中翻滚。但由于你没有学过空手道，你的一击反而从她那令人惊讶的肌肉发达的肩膀上无害地弹开。`
+			`	攻击你的人原来穿着自由世界的制服，表情很失望。"好吧，你不是一个愚蠢的鲁莽的混蛋！"她说，"我希望从你那里得到更好的东西。首先，如果这把枪上了膛，你的脑浆会溅满人行道。其次，你打架像个女孩。我对你这样的头脑发热者没有用处。"她径直离开，留下你非常困惑。看来你刚刚没有通过某种测试。`
 			choice
-				`	(Let her go.)`
+				`	(让她走。)`
 					decline
-				`	"Oh yeah? Well you ARE a girl!"`
+				`	"哦，是吗？好吧，你是个女孩！"`
 			
-			`	She turns back around, with a fearsome gleam in her eyes, and walks up to you until your faces are only inches apart. "Yeah, but I don't fight like one," she says. "I... fight like a she-badger."`
+			`	她转过身来，眼睛里闪着可怕的光芒，走到你面前，直到你们的脸只相隔几英寸。"是的，但我不像一个人那样战斗，"她说。"我......像一只母獾一样战斗。"`
 			choice
-				`	"A she... badger?"`
+				`	"一只母... 獾？"`
 			
-			`	"Fearsome creatures." She walks away, leaving you even more confused.`
+			`	"可怕的生物。"她走了，留下你更多的疑惑。`
 				decline
 	
 	on decline
@@ -1300,13 +1300,13 @@ mission "FW Katya 1"
 
 mission "FW Katya 1B"
 	landing
-	name "Assist the Free Worlds"
-	description "Bring some cargo (harmless but intended to look suspicious) and two tourists to <destination>."
+	name "协助自由世界的人"
+	description "带上一些货物（无害，但要看起来很可疑）和两名游客到<destination>。"
 	source "Glory"
 	destination "Skymoot"
 	passengers 2
 	cargo "surgical gear" 10
-	blocked `You have reached <origin>, but you need <capacity> in order to take on Katya's mission for the Free Worlds. Return here when you have the required space free.`
+	blocked `你已经到达<origin>，但你需要<capacity>，以便为自由世界承担Katya的任务。当你有了所需的空闲空间后，请返回这里。`
 	to offer
 		has "FW Katya 1: done"
 	to fail
@@ -1314,25 +1314,25 @@ mission "FW Katya 1B"
 	
 	on offer
 		conversation
-			`Soon after you land, a middle-aged tourist couple approach you and ask if you'd be willing to take them to Skymoot, "to see the dragons. Katerina recommended you." You tell them you would be glad to.`
-			`	The man, who is wearing floral print shorts and carrying an absurdly large camera, introduces himself as Marty. "And this is my wife, Sarah," he adds. "Would you mind taking a picture of us?" They pose in front of your ship. "Better take two pictures in case she blinks," says Marty. As you help them bring their oversized suitcases on board, you can't help wondering why Katya would be friends with such a quintessential pair of rich, uncultured buffoons.`
-			`	Much later that night, as planned, three shadowy figures load a set of unmarked crates into your cargo bay. Katya assured you that the contents are harmless, just intended to distract the Republic security officers, but you can't help feeling like you're getting involved in something shady.`
+			`在你着陆后不久，一对中年旅游夫妇走近你，问你是否愿意带他们去天荒地老，"去看龙。卡捷琳娜推荐了你。"你告诉他们，你很乐意这样做。`
+			`	那个穿着花纹短裤、拿着一个大得离谱的相机的男人介绍说他叫马蒂。"这是我的妻子，萨拉，"他补充说。"你介意给我们拍张照片吗？"他们在你的船前摆了个姿势。"最好拍两张照片，以防她眨眼，"马蒂说。当你帮他们把超大的行李箱搬上船时，你不禁想，为什么卡蒂亚会和这样一对典型的有钱、没文化的小丑做朋友。`
+			`	当天晚上，按照计划，三个阴暗的身影将一组没有标记的箱子装进了你的货舱。卡蒂亚向你保证，里面的东西是无害的，只是为了分散共和国安全官员的注意力，但你不禁觉得自己被卷入了一些不光彩的事情。`
 				accept
 	
 	on visit
-		dialog `You land on <planet>, but realize that your escort carrying Marty, Sarah, and the medical supplies hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但意识到你的护卫队载着马蒂、莎拉和医疗用品还没有进入这个系统。最好离开并等待它的到来。`
 	on complete
 		payment 100000
 		conversation
-			`When you land on <planet>, before your engines have even had a chance to cool, Katya comes aboard your ship. When she sees your passengers, she breaks into a wide grin. "Lynn!" she says, running up and hugging the woman who introduced herself as "Sarah." Then she turns to "Marty" and says, "And Henry! So good to see you both. Captain <last>, allow me to introduce you to Professor Lynn Anderson, one of the galaxy's premier planetary scientists, and her husband Henry, a former Navy intelligence officer."`
+			`当你降落在<planet>上时，在你的引擎还没有来得及冷却时，卡蒂亚登上了你的飞船。当她看到你的乘客时，她裂开了一个大大的笑脸。"林恩！"她说，跑上去拥抱那个自我介绍为 "莎拉 "的女人。然后她转向 "马蒂 "并说，"还有亨利！"。见到你们俩真好。舰长<last>，请允许我向你介绍林恩-安德森教授，银河系最重要的行星科学家之一，以及她的丈夫亨利，一位前海军情报官员。"`
 			choice
-				`	"Pleased to meet you both. Why the deception?"`
-				`	"Wait a minute... were they the secret cargo?"`
+				`	"很高兴见到你们俩。为什么要骗人？"`
+				`	"等一下......他们是秘密货物吗？"`
 			
-			`	Katya explains, "The Andersons are defecting to the Free Worlds. Their dream is to make terraforming a public service, supported by government funds, rather than a luxury available only to the richest of planets. We worked for years to get Parliament to accept that idea, but with no luck. And because of Henry's background and knowledge about the intelligence community, the Republic would have stopped them if they knew they were defecting."`
-			`	She adds, "The real secret cargo, which arrived several days ago via a faster ship, was their personal possessions and Lynn's lab equipment and instruments, which were loaded onto a ship supposedly bound for Hestia."`
-			`	"We had just rented a cottage there," says Henry, "saying we were downsizing. We'll lose the security deposit, of course, but it gave us an excuse to pack up and move."`
-			`	Katya says, "You might not guess it from the outfit he's wearing, but Henry is an absolute mastermind at subtlety and misdirection. He planned the whole thing." She hands you a credit chip for <payment>. "Thanks so much for your help. If you're willing to continue helping the Free Worlds, meet me in the spaceport bar in half an hour."`
+			`	卡蒂亚解释说："安徒生夫妇要投奔自由世界。他们的梦想是使地球改造成为一项公共服务，由政府资金支持，而不是只有最富有的星球才能享受的奢侈品。我们努力了很多年，想让议会接受这个想法，但没有成功。而且由于亨利的背景和对情报界的了解，如果共和国知道他们在叛逃，就会阻止他们。"`
+			`	她补充说："真正的秘密货物，几天前通过一艘更快的船抵达，是他们的个人财产和林恩的实验室设备和仪器，它们被装上一艘据说是前往赫斯提亚的船。"`
+			`	"我们刚在那里租了一间小屋，"亨利说，"说是要缩减规模。当然，我们会失去押金，但这给了我们一个借口，让我们收拾东西，搬家。"`
+			`	卡蒂亚说，"你可能从他穿的衣服上猜不到，但亨利绝对是个精巧和误导的高手。他策划了整件事。"她递给你一个用于<payment>的信用芯片。"非常感谢你的帮助。如果你愿意继续帮助自由世界，半小时后在太空港酒吧见我。"`
 
 
 
@@ -1349,56 +1349,56 @@ mission "FW Katya 1C"
 	
 	on offer
 		conversation
-			`When you land on <origin> and open your ship's main hatch, you find yourself facing a Navy officer with several armed guards in tow. He says, "Sorry captain, but you've been selected for a random cargo screening."`
+			`当你在<origin>登陆并打开你的飞船主舱门时，你发现自己面对的是一名海军军官，身边还有几个武装警卫。他说："对不起，船长，你被选中进行随机货物检查。"`
 			choice
-				`	(Let them in.)`
+				`	(让他们进来。)`
 					goto enter
-				`	(Attack them.)`
-				`	(Shut the hatch and escape into space.)`
+				`	(攻击他们。)`
+				`	(关闭舱门，逃入太空。)`
 					goto flee
 			
-			`	You draw your gun while screaming "Death to all tyrants!" The officer shouts in alarm and dives out of the way. His companions, who turn out to be wearing body armor, open fire. You die quickly. Katya will be very disappointed.`
+			`	你拔出你的枪，同时大喊："所有暴君都去死吧！"那名军官惊叫一声，跳开了。他的同伴，原来是穿着防弹衣的，开火了。你很快就死了。卡蒂亚会非常失望的。`
 				die
 			
 			label flee
-			`	You slam the hatch shut in their faces, quickly fire up your engines, and flee for the sky. Before you have even broken out of the atmosphere, your communicator picks up a broadcast message marking you as a wanted criminal. Also, your radar informs you that several Navy vessels are on your tail.`
+			`	你当着他们的面关上舱门，迅速点燃引擎，向天空逃窜。在你还没有冲出大气层的时候，你的通讯器就接收到一条广播信息，将你标记为通缉犯。另外，你的雷达通知你，有几艘海军舰艇正在追捕你。`
 				launch
 			
 			label enter
-			`	You let the officer and his companions into your cargo bay. They immediately zero in on the crates that were loaded up during the night. One of the guards runs a quick scan and says, "No explosives, no radiation."`
-			`	The Navy officer says, "Would you mind telling us what's in these crates?"`
+			`	你让那个军官和他的同伴进入你的货舱。他们立即将目标锁定在夜间装货的箱子上。其中一个警卫快速扫描了一下，说："没有爆炸物，没有辐射。"`
+			`	海军军官说："你介意告诉我们这些箱子里装的是什么吗？"`
 			choice
-				`	"Just medical supplies. Surgical gear, mostly."`
-				`	"Just some secret illegal things."`
+				`	"只是医疗用品。主要是外科设备。"`
+				`	"只是一些秘密的非法东西。"`
 					goto illegal
-				`	"I've never seen those crates before in my life. I don't know where they came from."`
+				`	"我这辈子从来没有见过这些箱子。我不知道它们是从哪里来的。"`
 					goto denial
 			
-			`	"Any biological material or restricted medications?" he asks.`
-			`	"No, sir," you say.`
+			`	"有生物材料或限制性药物吗？"他问道。`
+			`	"没有，先生。"你说。`
 				goto search
 			
 			label illegal
-			`	He laughs. "Sorry," he says, "you probably think we're just being paranoid, but rules are rules." Clearly he took what you said as a joke.`
+			`	他笑了。"对不起，"他说，"你可能认为我们只是偏执狂，但规则就是规则。"显然，他把你说的话当成了一个笑话。`
 				goto search
 			
 			label denial
-			`	He frowns. "We're going to have to frisk you," he says. One of the guards pats you down and takes your gun and your pocketknife. "Have a seat," says the officer. They force you to sit on the ground, and one of the guards points a very large gun at you.`
+			`	他皱起眉头。"我们必须对你进行搜身，"他说。其中一个警卫拍了拍你，拿走了你的枪和小刀。"请坐，"警官说。他们强迫你坐在地上，其中一个警卫用一把很大的枪指着你。`
 				goto search
 			
 			label search
-			`	He says, "I'm afraid we're going to have to search these crates." The guards grab a couple of crowbars and begin prying the lids off them. The contents turn out to be relatively innocuous, although one box full of scalpels and other surgical implements gives them pause. As they open crate after crate without finding anything incriminating, you can tell the officer is getting more and more frustrated and uncomfortable. When the last crate turns out to contain nothing but bandages and gauze pads, his frustration turns to embarrassment. They re-pack the crates and nail the lids back on.`
-			`	"I'm sorry," says the officer, "we must have been responding to a bad tip. I'm very sorry for this invasion of your privacy, Captain."`
+			`	他说："恐怕我们要对这些箱子进行搜查。"警卫拿起几根撬棍，开始撬开箱子的盖子。里面的东西相对来说是无害的，尽管有一个装满手术刀和其他手术工具的箱子让他们停了下来。当他们打开一个又一个箱子而没有发现任何罪证时，你可以看出警官越来越沮丧，越来越不舒服。当最后一个箱子里除了绷带和纱布垫外什么都没有时，他的沮丧变成了尴尬。他们重新包装板条箱，并把盖子重新钉上。`
+			`	"我很抱歉，"警官说，"我们一定是在回应一个糟糕的提示。我非常抱歉侵犯了你的隐私，上尉。"`
 			choice
-				`	"Never mind, I know you're just doing your job."`
-				`	"Since when has the Republic gotten so heavy handed about searching civilian ships?"`
+				`	"不要紧，我知道你只是在做你的工作。"`
+				`	"共和国什么时候开始对搜查民船这么重手了？"`
 					goto angry
 			
-			`	"You are very gracious, Captain. We will not detain you any longer." They leave.`
+			`	"您真是太客气了，船长。我们不会再扣留你了。"他们离开了。`
 				decline
 			
 			label angry
-			`	"I am sorry, Captain. Since the terrorist attacks everyone has been on edge. I hope you won't think badly of us." They leave.`
+			`	"我很抱歉，船长。自从恐怖袭击发生后，大家都很紧张。我希望你不要把我们想得太坏。"他们离开了。`
 				decline
 	
 	on accept
@@ -1415,8 +1415,8 @@ event "FW Katya Alt 2: ready"
 
 mission "FW Katya Alt 2"
 	minor
-	name "Transport Mr. Eyes"
-	description "Katya Reynolds asked you to travel to <destination>, where her friend Mr. Eyes is waiting for you."
+	name "运送眼睛先生"
+	description "卡蒂亚-雷诺兹要求你前往<destination>，她的朋友眼睛先生正在那里等你。"
 	source
 		government "Free Worlds"
 	destination "Foundry"
@@ -1432,28 +1432,28 @@ mission "FW Katya Alt 2"
 	
 	on offer
 		conversation
-			`As you are walking through the spaceport, someone calls out, "Captain <last>!" A Free Worlds officer is approaching you; you recognize her as the same woman who pulled a gun on you earlier as a way to "test" you. "I apologize for pulling that trick on you before," she says. "My name is Katya Reynolds. I've heard really good things about you from some other members of the Free Worlds Council, and I'm hoping you'd reconsider working with me."`
+			`当你走过太空港时，有人喊道："<last>船长！"一位自由世界的官员正向你走来；你认出她就是之前用枪指着你 "测试 "你的那个女人。"我为之前对你施展的那一招道歉，"她说。"我的名字是卡蒂亚-雷诺兹。我从自由世界委员会的其他一些成员那里听说了关于你的好话，我希望你能重新考虑与我合作。"`
 			choice
-				`	"Okay, as long as you don't point any more guns at me."`
-				`	"Sorry, I just really don't like you. Or the Free Worlds."`
+				`	"好吧，只要你不再用枪指着我。"`
+				`	"对不起，我只是真的不喜欢你。或自由世界的人。"`
 					decline
-			`	"Great," she says. "Here's the deal. I have a friend named Mr. Eyes, who needs a lift from <destination>. For his safety, I'd rather not tell you anything about his work, but I assure you he's an upstanding citizen. A little unpopular with big corporations and certain corrupt local governments, though. Can you give him a lift?"`
+			`	"太好了，"她说。"事情是这样的。我有个朋友叫眼睛先生，他需要从<destination>搭车。为了他的安全，我宁愿不告诉你关于他工作的任何事情，但我向你保证他是一个正直的公民。虽然在大公司和某些腐败的地方政府中有点不受欢迎。你能送他一程吗？"`
 			choice
-				`	"Sure, I would be glad to."`
+				`	"当然，我很乐意。"`
 					accept
-				`	"Sorry, this sounds a bit too shady to me."`
+				`	"对不起，这对我来说听起来有点太阴暗了。"`
 					decline
 	
 	on visit
-		dialog `You land on <planet>, but your escort with room for Mr. Eyes hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但你为眼睛先生提供空间的护卫队还没有进入这个系统。最好启程，等待它的到来。`
 	on complete
 		set "FW Katya 2: done"
 
 
 
 mission "FW Katya 2"
-	name "Transport Mr. Eyes"
-	description "Katya Reynolds asked you to travel to <destination>, where her friend Mr. Eyes is waiting for you."
+	name "运送眼睛先生"
+	description "卡蒂亚-雷诺兹要求你前往<destination>，她的朋友眼睛先生正在那里等你。"
 	source "Skymoot"
 	destination "Foundry"
 	passengers 1
@@ -1464,24 +1464,24 @@ mission "FW Katya 2"
 	
 	on offer
 		conversation
-			`When you enter the bar, Katya waves you over to her table. "I've got another friend who needs to be transported," she says. "This one is on a boondock planet near the Core right now."`
+			`当你进入酒吧时，卡蒂亚向你招手，让你去她的桌子。"我有另一个朋友需要被运送，"她说。"这个人现在在核心区附近的一个野营星球上。"`
 			choice
-				`	"Sure, I'd be glad to transport him."`
-				`	"Sorry, but I've decided working for the Free Worlds just isn't worth the risk."`
+				`	"当然，我很乐意运送他。"`
+				`	"对不起，但我已经决定为自由世界工作，不值得冒险。"`
 					decline
 			
-			`	"Great!" she says. "His name is Mr. Eyes, and he'll meet you on <destination>. For his safety, I'd rather not tell you anything about his work, but I assure you he's an upstanding citizen. A little unpopular with big corporations and certain corrupt planetary governments, though."`
+			`	"太好了！"她说。"他的名字叫眼睛先生，他将在<destination>上与你见面。为了他的安全，我宁愿不告诉你关于他工作的任何事情，但我向你保证他是一个正直的公民。虽然在大公司和某些腐败的行星政府中有点不受欢迎。"`
 				accept
 	
 	on visit
-		dialog `You land on <planet>, but your escort with room for Mr. Eyes hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但你为眼睛先生提供空间的护卫队还没有进入这个系统。最好启程，等待它的到来。`
 
 
 
 mission "FW Katya 2B"
 	landing
-	name "Transport Mr. Eyes"
-	description "Transport Mr. Eyes to <destination>, where the recent terrorist attack took place."
+	name "运送眼睛先生"
+	description "把眼睛先生送到<destination>，最近的恐怖袭击就发生在这里。"
 	source "Foundry"
 	destination "Geminus"
 	clearance
@@ -1492,48 +1492,48 @@ mission "FW Katya 2B"
 		has "chosen sides"
 	
 	on offer
-		log "People" "Katya Reynolds" `A former member of Parliament representing the impoverished Dirt Belt worlds, Katya is now a leader in the Free Worlds movement. She is well-known for standing up for the "common people" when they are being overlooked or mistreated by the government or by corporations.`
-		log "People" "Ijs Springborn" `Also known as "Mr. Eyes," Ijs worked for years as a self-appointed "vigilante nuclear power plant inspector," trying to catch and report environmental abuses that the government officials were turning a blind eye to. He has now agreed to join the Free Worlds movement.`
+		log "People" "Katya Reynolds" `卡蒂亚曾是代表贫困的泥土带世界的议会成员，现在是自由世界运动的领导者。当 "普通人 "被政府或公司忽视或虐待时，她因站出来为他们说话而闻名。`
+		log "People" "Ijs Springborn" `Ijs也被称为 "眼睛先生"，多年来作为一个自称的 "义务核电站检查员"，试图捕捉和报告政府官员视而不见的环境侵权行为。他现在已经同意加入自由世界运动。`
 		conversation
-			`As soon as you land and open your ship's hatch, a man wearing sunglasses and a ridiculous hat and carrying a large metal suitcase runs past you and into your ship, casting a quick furtive glance behind him to see if anyone is following.`
+			`当你着陆并打开你的飞船舱门时，一个戴着太阳镜和可笑的帽子，提着一个大金属手提箱的人从你身边跑过，进入你的飞船，向他身后快速投去一瞥，看看是否有人跟踪。`
 			choice
-				`	(Draw my weapon to defend myself against him.)`
-				`	(Quickly shut the hatch and find out if he is okay.)`
+				`	(拔出我的武器来抵御他。)`
+				`	(迅速关闭舱门，了解他是否没事。)`
 					goto okay
 			
-			`	You shut the hatch to keep anyone else from boarding your ship uninvited, then confront him. "Who are you and what are you doing on my ship?" you ask.`
+			`	你关闭舱门，防止其他人不请自来地登上你的船，然后与他对峙。"你是谁，你在我的船上做什么？"你问。`
 				goto name
 			
 			label okay
-			`	You shut the hatch to keep anyone else from boarding your ship, then turn around to find out who your visitor is. "My name is <first>," you say. "How can I help you?"`
+			`	你关上舱门，防止其他人登上你的船，然后转过身来，看看你的访客是谁。"我的名字是<first>，"你说。"我能为你做什么？"`
 			
 			label name
-			`	"I'm Ijs Springborn," he says, pronouncing the name like "Eyes." He takes off the glasses and hat. "Councilor Reynolds told me to meet you here."`
+			`	"我是Ijs Springborn，"他说，对这个名字的发音像 "眼睛"。他摘下眼镜和帽子。"Reynolds议员让我在这里见你。"`
 			choice
-				`	"Wait, 'Councilor' Reynolds? You mean Katya is in Parliament?"`
+				`	"等等，'理事长'雷诺兹？你是说卡蒂亚在议会？"`
 			
-			`	He looks genuinely shocked. "You didn't know? That woman is a legend. Did two terms representing the Dirt Belt. Defender of small worlds and the common people. In some circles her work has made her almost as unpopular as me. But she got tired of working for reform and decided to create her own government instead."`
-			`	"And what do you do for work?" you ask.`
-			`	"Vigilante nuclear power plant inspector," he says, nonchalantly.`
+			`	他看起来真的很震惊。"你不知道吗？那个女人是个传奇。做了两届代表泥土地带的议员。小世界和普通人的捍卫者。在某些圈子里，她的工作使她几乎和我一样不受欢迎。但她厌倦了为改革而工作，决定创建自己的政府来代替。"`
+			`	"那你是做什么工作的？"你问。`
+			`	"义务核电站检查员，"他不慌不忙地说。`
 			choice
-				`	"Um... what?"`
-				`	"How does that even work?"`
-				`	"Is that even legal?"`
+				`	"嗯...什么？"`
+				`	"这怎么能行呢？"`
+				`	"这也合法吗？"`
 			
-			`	"I go from world to world checking out plant emissions, to see if they're leaking isotopes into the air, the sea, or the groundwater. And if they are I sic the Department of Atomic Safety on them. The Syndicate hates my guts right now."`
-			`	"So, what has Katya asked you to do for the Free Worlds?" you ask.`
-			`	"Isn't it obvious?" he says. "We're going to hunt down certain naughty people who have been developing nuclear weapons, and the Free Worlds will turn them over to the Republic. Then the Republic will know that the Free Worlds weren't behind the attacks, and we'll stop this whole mess before it devolves into a civil war."`
+			`	"我从一个世界到另一个世界，检查工厂的排放情况，看看它们是否将同位素泄漏到空气、海洋或地下水中。如果有的话，我就派原子安全部的人去找他们。辛迪加现在对我恨之入骨。"`
+			`	"那么，卡蒂亚让你为自由世界做什么？"你问。`
+			`	"这还不明显吗？"他说。"我们要去追捕某些开发核武器的淘气鬼，而自由世界将把他们交给共和国。然后共和国就会知道自由世界不是袭击的幕后黑手，我们就会在它演变成一场内战之前阻止这整个混乱。"`
 			choice
-				`	"So, you're convinced that the Free Worlds are innocent?"`
-				`	"Okay, what's our plan to do that?"`
+				`	"那么，你确信自由世界是无辜的？"`
+				`	"好吧，我们有什么计划可以做到这一点？"`
 					goto plan
 			
-			`	"Absolutely," he says. "It makes no sense. First of all, that attack hurt their cause more than it helped it. And second, I've known Katerina and her friends in the Free Worlds for a long time. There's no way they would agree to such a thing. So, whoever is responsible is out there somewhere, and the Free Worlds will bring them to justice."`
+			`	"绝对的，"他说。"这没有意义。首先，那场袭击对他们的事业伤害比帮助更大。其次，我认识卡捷琳娜和她在自由世界的朋友已经有很长一段时间了。他们不可能同意这样的事情。所以，不管是谁干的，都在某个地方，自由世界会将他们绳之以法。"`
 			choice
-				`	"Well, then, what's our plan?"`
+				`	"好吧，那么，我们的计划是什么？"`
 			
 			label plan
-			`	"First," he says, "we need to go to Geminus, where the attack happened. I can explain more when we get there. In the meantime, I should also warn you that I seem to have terrible luck with pirates showing up wherever I go. It's almost like someone has put a price on my head." He grins.`
+			`	"首先，"他说，"我们需要去Geminus，袭击发生的地方。等我们到了那里，我可以解释更多。同时，我还应该警告你，我似乎运气很差，无论我走到哪里，海盗都会出现。这几乎就像有人在我头上开了个价。"他咧嘴一笑。`
 				accept
 	
 	on accept
@@ -1545,14 +1545,14 @@ mission "FW Katya 2B"
 		fleet "Small Core Pirates" 2
 	
 	on visit
-		dialog `You land on <planet>, but you realize that Mr. Eyes is on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但你意识到眼睛先生在你的一个护卫队上，而这个护卫队还没有进入这个系统。最好离开并等待它的到来。`
 
 
 
 mission "FW Katya 2C"
 	landing
-	name "Transport Mr. Eyes"
-	description "Bring Mr. Eyes to <destination>, where you will meet up with Katya (and hopefully get paid)."
+	name "运送眼睛先生"
+	description `把 "眼睛先生 "带到<destination>，在那里你将与Katya见面（并希望能得到报酬）。`
 	source "Geminus"
 	destination "Rand"
 	passengers 1
@@ -1563,24 +1563,24 @@ mission "FW Katya 2C"
 	
 	on offer
 		conversation
-			`It turns out that the suitcase Mr. Eyes is carrying is full of portable sensors. He fires them up while explaining to you what he is doing. "Each world, and even each mine, has a slightly different mix of isotopes in their fissionable elements," he explains. "So what I'm doing right now is almost like taking a fingerprint. Once we've got it, we can try to find a match on another planet. I'd be willing to bet the material just came from a civilian reactor core, so tracking it back to the mine wouldn't necessarily incriminate anyone. But developing nukes is tricky, so they probably did tests. And if we can find the test site, that may lead us to the perpetrators."`
-			`	A few minutes later, his measurements are done. "Got it," he says. "Time to start hunting. Katya said to meet up with her on <planet>. It's not our best bet, but it's on the list of suspects."`
+			`事实证明，眼睛先生携带的手提箱里装满了便携式传感器。他一边启动它们，一边向你解释他在做什么。"每个世界，甚至每个矿区，其可裂变元素的同位素组合都略有不同，"他解释说。"所以我现在所做的几乎就像提取指纹。一旦我们得到了它，我们可以尝试在另一个星球上找到一个匹配。我愿意打赌，这种材料只是来自一个民用反应堆的核心，所以追踪它回到矿区不一定会使任何人入罪。但开发核弹是很棘手的，所以他们可能做了测试。如果我们能找到试验地点，这可能会让我们找到肇事者。"`
+			`	几分钟后，他的测量完成了。"知道了，"他说。"是时候开始狩猎了。卡蒂亚说要在<planet>上与她碰头。这不是我们最好的选择，但它在嫌疑人的名单上。"`
 				accept
 	
 	on visit
-		dialog `You land on <planet>, but you realize that Mr. Eyes is on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但你意识到眼睛先生在你的一个护卫队上，而这个护卫队还没有进入这个系统。最好离开并等待它的到来。`
 	on complete
 		payment 100000
 		conversation
-			`As soon as you land, Mr. Eyes fires up his sensors and begins collecting data. A few minutes later, Katya shows up. "Eyes!" she says. "It's great to see you again."`
-			`	"You too, Councilor," he says.`
-			`	Katya hands you a credit chip for another <payment>. "Thanks again, Captain. Did Eyes explain the plan to you?" You nod. "Well," she says, "if you've got space for the two of us and want to be a part of seeing justice done, let's meet up in the spaceport once Eyes is done analyzing his data."`
+			`你一着陆，眼睛先生就启动了他的传感器，开始收集数据。几分钟后，卡蒂亚出现了。"眼睛！"她说。"很高兴再次见到你。"`
+			`	"你也是，理事长，"他说。`
+			`	卡蒂亚递给你一个信用芯片，用于支付另一笔<payment>。"再次感谢，队长。大眼向你解释了这个计划吗？"你点点头。"好吧，"她说，"如果你有空间容纳我们两个人，并且想成为看到正义得到伸张的一部分，一旦大眼完成了他的数据分析，让我们在太空港见面。"`
 
 
 
 mission "FW Katya 3"
-	name "Drone Hunting"
-	description `Disable a surveillance drone (ideally when no Cruisers are watching), board it, "salvage" its surveillance equipment, and return to <destination>. (Until you leave the system where you disabled the drone, other Republic ships may attack you.)`
+	name "猎杀无人机"
+	description `使一架监视无人机失效（最好是在没有巡洋舰监视的情况下），登上它，"打捞 "它的监视设备，然后返回<destination>。 (在你离开使无人机失效的系统之前，其他共和国船只可能会攻击你。)`
 	source "Rand"
 	to offer
 		has "FW Katya 2C: done"
@@ -1589,102 +1589,102 @@ mission "FW Katya 3"
 	
 	on offer
 		conversation
-			`You find Eyes and Katya sitting in the shade of one of the few trees in the port, drinking some sort of frozen milkshakes while they stare out at the desert and talk in hushed voices. When you join them, Katya says, "I was just filling Eyes in on the Navy's recent fleet mobilization. Half the Dirt Belt is swarming with Cruisers and surveillance drones right now. It's hard to believe that we can find the attackers before they do, unless they're somewhere the Navy hasn't thought to look."`
-			`	"Agreed," says Eyes, "and to make matters worse, their sensors are probably much better than mine."`
-			`	Katya appears to be struck by a sudden idea. "The sensors on their drones," she says, "their unmanned drones..."`
-			`	Eyes glances at her, sees her expression, and says, "No, Councilor, don't even think of it. That's a horrible idea."`
-			`	"No," she says, "it's brilliant. Captain <last>, are you familiar with the Dereliction and Salvage Act of 2976?"`
+			`你发现大眼和卡蒂亚坐在港口为数不多的树荫下，一边喝着某种冰冻奶昔，一边盯着外面的沙漠，用沙哑的声音交谈。当你加入他们时，卡蒂亚说："我正在向大眼介绍海军最近的舰队动员情况。现在一半的泥土带都被巡洋舰和监视无人机所包围。很难相信我们能在他们之前找到攻击者，除非他们在海军没有想到的地方。"`
+			`	"同意，"大眼说，"而且更糟糕的是，他们的传感器可能比我的好得多。"`
+			`	卡蒂亚似乎被一个突然的想法打动了。"他们无人机上的传感器，"她说，"他们的无人机..."`
+			`	大眼瞟了她一眼，看到她的表情，说："不，议员，想都别想。这是个可怕的想法。"`
+			`	"不，"她说，"这很精彩。舰长<last>，你熟悉2976年的《废弃和打捞法》吗？"`
 			choice
-				`	"No, I've never heard of it."`
+				`	"不，我从未听说过它。"`
 					goto no
-				`	"Of course. I read parliamentary proceedings every night when I'm trying to fall asleep."`
+				`	"当然了。我每天晚上在试图入睡时都会阅读议会议事录。"`
 			
-			`	"Well then," she says, "you'll probably agree that legally speaking, Navy surveillance drones count as abandoned goods the moment their owners have left the system."`
+			`	"那么，"她说，"你可能会同意，从法律上讲，海军的监视无人机在其主人离开系统的那一刻起就算作被遗弃的物品。"`
 				goto response
 			
 			label no
-			`	"Well," she says, "it started when the Syndicate began experimenting with fully automated mining facilities on uninhabitable planets. Pirates started raiding the mines to steal equipment, and the Syndicate claimed that these installations were 'colonies' and it was the Navy's job to defend them. The Act was Parliament's response, stating that taking goods from a human being is piracy, but if the owner or some living representative of theirs is not present in the system, taking those goods is a legal salvage operation. The point was to keep the Navy from being obligated to defend every equipment cache or abandoned station in the galaxy. But by the same law, those Navy surveillance drones become abandoned goods the moment their motherships leave the system."`
+			`	"好吧，"她说，"这是从辛迪加开始在不适合居住的星球上试验全自动采矿设施开始的。海盗们开始袭击矿场偷窃设备，辛迪加声称这些设施是 "殖民地"，保卫它们是海军的职责。该法案是议会的回应，指出从人类身上获取货物是海盗行为，但如果所有者或他们的一些活着的代表不在该系统中，获取这些货物是合法的打捞行动。这一点是为了不让海军有义务保卫银河系中的每一个设备库或废弃的车站。但根据同样的法律，那些海军监视无人机在其母舰离开系统的那一刻就成了被抛弃的货物。"`
 			
 			label response
 			choice
-				`	"Yup. That makes perfect sense to me."`
+				`	"是的，这对我来说很有意义。"`
 					goto agree
-				`	"So first you have me smuggling people across the galaxy, and now you want me to attack Navy ships? Next you'll ask me to start taking prisoners."`
-				`	"That sounds like a terrible idea."`
+				`	"所以你先是让我在整个银河系偷渡，现在又要我去攻击海军的船只？接下来你会要求我开始抓捕囚犯。"`
+				`	"这听起来是个糟糕的主意。"`
 					goto terrible
 			
-			`	Eyes laughs, spitting out his milkshake in the process. "We won't be asking you to do anything of that sort," Katya responds somewhat aggressively. "Look, if we want to track down who dropped those bombs then we need to get our hands on better scanning equipment, equipment that the Navy has on their unmanned surveillance drones, and you're the one with a ship unconnected to the Free Worlds. All you need to do is find a lone surveillance drone to plunder. Legally the Navy can't do anything about it, and no one will be hurt in the process. If we succeed in finding who's responsible for the bombings, we could prevent war between the Republic and Free Worlds, saving thousands or even potentially millions of lives. So are you with us or not?"`
+			`	眼睛笑了，在这个过程中吐出了他的奶昔。"我们不会要求你做那种事，"卡蒂亚有些咄咄逼人地回应道。"听着，如果我们想追踪谁扔了那些炸弹，那么我们需要得到更好的扫描设备，海军的无人侦察机上有的设备，而你是有一艘与自由世界无关的船。你所需要做的就是找到一个孤独的监视无人机来掠夺。从法律上讲，海军对此无能为力，而且在这个过程中也不会有人受伤。如果我们成功地找到爆炸事件的责任人，我们可以阻止共和国和自由世界之间的战争，拯救成千上万甚至可能数百万的生命。那么，你是否支持我们？"`
 				goto decision
 			
 			label terrible
-			`	"Are you saying we're going to need to find a different captain to work with?" says Katya. "That would be a big disappointment."`
+			`	"你是说我们需要找一个不同的船长来合作？"卡蒂亚说。"那将是一个很大的失望。"`
 			label decision
 			choice
-				`	"Fine, I'll do it. But I still think it's an unwise idea."`
-				`	"I'm sorry, but this is a bit farther than I'm willing to go. Count me out."`
+				`	"好吧，我去做。但我仍然认为这是个不明智的想法。"`
+				`	"我很抱歉，但这比我愿意去的地方要远一点。算我没说。"`
 					decline
 			
 			label agree
-			`	"Great!" says Katya. "All we have to do is disable a drone, board it, yank out the surveillance equipment, and bring it back here to test it out."`
-			`	Ijs says, "Captain, we should warn you: when you attack a drone, any Republic folks in that system will get mad at you. But once you jump out of the system, they'll calm down again."`
+			`	"太好了！"卡蒂亚说。"我们要做的就是让一架无人机失效，登上它，把监视设备拽出来，然后把它带回来测试一下。"`
+			`	Ijs说："船长，我们应该警告你：当你攻击一架无人机时，该系统中的任何共和国人都会对你生气。但一旦你跳出该系统，他们又会平静下来。"`
 				accept
 	
 	on accept
 		log "Katya's plan for hunting down the nuclear terrorists involves stealing the sensor equipment from a Navy surveillance drone. Supposedly taking equipment from a drone counts as a salvage operation as long as none of its owners are present, due to a legal loophole in an old act of Parliament."
 	
 	on visit
-		dialog `You land on <planet>, but you don't have a Surveillance Pod. You must disable a Navy surveillance drone and plunder the outfit from it before returning.`
+		dialog `你降落在<planet>上，但你没有监视舱。你必须让一架海军侦察机失效，并在返回前从它身上掠夺装备。`
 	on complete
 		outfit "Surveillance Pod" -1
 		conversation
-			`You hand over the "salvaged" equipment to Mr. Eyes and Katya. Eyes begins fiddling with it, and soon discovers how to work the atmospheric scanner. "This is really nice stuff!" he says, enthusiastically.`
-			`	Katya says, "We found a halfway decent restaurant in the spaceport village. If you want to keep working with us, meet us there this evening."`
+			`你把 "打捞 "出来的装备交给了大眼先生和卡蒂亚。大眼开始摆弄它，并很快发现了如何操作大气扫描仪。"这真是好东西！"他热情地说道。`
+			`	卡蒂亚说："我们在太空港村找到了一个半成品的餐厅。如果你想继续和我们一起工作，今天晚上在那里见面。"`
 
 
 
 mission "FW Katya 4"
-	name "Katya and Mr. Eyes"
-	description "Stop on <destination> and check the planet for signs of nuclear testing."
+	name "卡蒂亚和眼睛先生"
+	description "在<destination>上停留，检查该星球是否有核试验的迹象。"
 	source "Rand"
 	destination "Oblivion"
 	passengers 2
-	blocked `You need bunks for both Katya and Eyes in order to continue this mission.`
+	blocked `你需要卡蒂亚和大眼的铺位，以便继续这项任务。`
 	to offer
 		has "FW Katya 3: done"
 	to fail
 		has "chosen sides"
 	
 	on offer
-		log "People" "Katya Reynolds" `Katya grew up on Hope, a Dirt Belt world that is no longer inhabited because of a supervolcano eruption that triggered a new ice age. Despite her distrust of the Republic she has high regard for the Navy because they were the ones, acting without clearance from Parliament, who helped the settlers on Hope to evacuate safely.`
+		log "People" "Katya Reynolds" `卡蒂亚在希望号上长大，这是一个泥土地带的世界，因为一次超级火山爆发引发了新的冰河时代而不再有人居住。尽管她对共和国不信任，但她对海军有很高的评价，因为是他们在没有得到议会许可的情况下，帮助希望号上的定居者安全撤离的。`
 		conversation
-			`You join Katya and Mr. Eyes in the restaurant, and order your meals. They are both in high spirits. While you are waiting for the food to arrive, Mr. Eyes raises his glass of wine and says, "A toast, to Captain <last> and our marvelous new toy. May it bring us good information and swift justice."`
-			`	"We're thinking that while we're in the area, we should stop on <planet> next," says Katya, "and then work our way toward the Rim."`
-			`	Your meals arrive. The food is excellent, and you spend a relaxed evening sharing stories of your childhoods. Katya turns out to be a Dirt Belt native like yourself, from a planet named Hope. "No longer settled," she explains. "Supervolcano. It was a cold planet to start out with, and the eruption sent it into an ice age that could last for millennia. My home town is under thirty meters of glacier by now."`
+			`你们在餐厅里与卡蒂亚和眼睛先生会合，并点了你们的餐。他们都很有兴致。在你们等待食物到来的时候，眼睛先生举起酒杯，说："为<last>船长和我们奇妙的新玩具干杯。愿它给我们带来好的信息和迅速的正义。"`
+			`	"我们在想，当我们在这个地区的时候，我们应该在<planet>上停留一下，"卡蒂亚说，"然后再向环形地区前进。"`
+			`	你们的饭菜到了。食物很好，你们度过了一个轻松的夜晚，分享你们童年的故事。卡蒂亚原来和你一样是泥土带的本地人，来自一个叫希望的星球。她解释说："不再定居了，"。"火山喷发。它一开始是个寒冷的星球，火山爆发使它进入了一个可能持续数千年的冰期。我的家乡现在已经在三十米的冰川之下。"`
 			choice
-				`	"Was anyone killed?"`
-				`	"How did you escape?"`
+				`	"有人被杀吗？"`
+				`	"你是怎么逃出来的？"`
 			
-			`	"The eruption was on the other continent," she explains, "so no one was killed in the blast. It was a slow-moving disaster. We had six months or so to move two million settlers off-world before the temperatures would drop too low to be livable. More than half of the Navy was mobilized to ferry our people to other planets."`
-			`	"Here's the best part," says Eyes. "The Navy operates with a certain amount of autonomy. Turns out when they found out about the disaster, they mobilized without even waiting to clear it with Parliament. Which was technically within their mandate, this being a natural disaster. But the Navy is funded by taxes, and the Paradise Planets pay ten times as much in taxes as the Dirt Belt."`
-			`	"The Paradise Planets viewed the Navy as their own private security force," says Katya, "so they got really mad when half the Navy suddenly vanished to assist some dirty refugees. Because those admirals gave the order to assist us, millions of lives were saved. And then Parliament fired them."`
+			`	"火山爆发是在另一个大陆上，"她解释说，"所以没有人在爆炸中丧生。这是一场缓慢移动的灾难。我们有6个月左右的时间将200万定居者转移到世界之外，然后温度就会下降到无法居住的程度。一半以上的海军被动员起来，将我们的人民运送到其他星球。"`
+			`	"这里是最好的部分，"眼睛说。"海军的运作有一定的自主性。事实证明，当他们发现这场灾难时，他们甚至不等议会批准就动员起来。这在技术上属于他们的任务，因为这是一场自然灾害。但是，海军的经费来自税收，而天堂行星的税收是泥土带的十倍。"`
+			`	"天堂行星将海军视为他们自己的私人保安部队，"卡蒂亚说，"所以当一半的海军突然消失以协助一些肮脏的难民时，他们真的很生气。因为那些海军将领下达了援助我们的命令，数百万人的生命得到了拯救。然后议会解雇了他们。"`
 			choice
-				`	"You're making the Navy sound like heroes. I thought they were your enemies."`
-				`	"You've almost convinced me to join the Navy."`
+				`	"你把海军说得像个英雄。我以为他们是你的敌人。"`
+				`	"你几乎说服了我加入海军。"`
 			
-			`	"Our fight isn't with the Navy," says Katya. "Most of them are good people. I'm sure they don't want war any more than we do. They're like police officers who are suddenly being asked to fight against the very people they swore to protect and serve."`
-			`	"I was a child on Vinci while this was happening," says Eyes. "A Paradise World. I would listen to the news and could never understand why all the adults around me were so very, very angry that the Navy had gone off to rescue two million people from freezing to death. But they told me that we lived in one little island of safety in a dangerous galaxy, and that without the Navy protecting us the pirates or even maybe aliens would sweep in and destroy our homes and take our money. That it was us against the whole galaxy."`
-			`	"I'd hate to be rich," says Katya. "So much to fear."`
-			`	You finish your meal (Katya pays the tab), and agree to take off for <planet> first thing in the morning.`
+			`	"我们的斗争不是与海军的斗争，"卡蒂亚说。"他们中的大多数人都是好人。我相信他们比我们更不希望发生战争。他们就像警察，突然被要求与他们发誓要保护和服务的人作战。"`
+			`	"当这一切发生时，我还是文西岛的一个孩子，"眼睛说。"一个天堂世界。我听着新闻，永远无法理解为什么我周围的所有成年人都对海军去拯救两百万人免于冻死感到非常、非常愤怒。但他们告诉我，我们生活在一个危险的星系中的一个安全小岛上，如果没有海军保护我们，海盗甚至可能是外星人会席卷而来，摧毁我们的家园，拿走我们的钱。这就是我们与整个银河系的对抗。"`
+			`	"我讨厌成为富人，"卡蒂亚说。"要担心的事情太多了。"`
+			`	你们吃完饭（卡蒂亚付账），同意明天一早出发去<planet>。`
 				accept
 	on visit
-		dialog `You land on <planet>, but you realize that Katya and Mr. Eyes are on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但你意识到卡佳和眼睛先生在你的一个护卫队上，而这个护卫队还没有进入这个系统。最好离开并等待它的到来。`
 
 
 
 mission "FW Katya 5"
 	landing
-	name "Information Gathering"
-	description "Bring Katya and Mr. Eyes to <destination>, where some monks may be able to help you negotiate with the pirates for information."
+	name "信息收集"
+	description "把Katya和Mr.Eyes带到<destination>，那里的一些僧侣可能会帮助你与海盗谈判以获取信息。"
 	source "Oblivion"
 	destination "Harmony"
 	passengers 2
@@ -1695,53 +1695,53 @@ mission "FW Katya 5"
 	
 	on offer
 		conversation
-			`You land on <origin>, and Mr. Eyes fires up the new Navy surveillance equipment to make atmospheric measurements. "Nothing here," he says after a few minutes. "Guess we should move on."`
+			`你们降落在<origin>，大眼先生启动了新的海军监视设备，进行大气测量。"这里没有什么，"几分钟后他说。"我想我们应该继续前进。"`
 			choice
-				`	"Are we just going to search every planet in this sector? Won't that take months?"`
-				`	"Are there any other ships helping us search, or is it just us?"`
+				`	"我们只是要搜索这个区域的每一个星球吗？那不需要几个月吗？"`
+				`	"是否有其他飞船帮助我们搜索，还是只有我们？"`
 					goto search
 			
-			`	"You've got a point," says Eyes. "And we don't even know for sure that the terrorists originated from around here. Without any additional information, we're looking for a needle in a galaxy-sized haystack."`
+			`	"你说得很有道理，"大眼说。"而且我们甚至不确定恐怖分子是否源自这附近。没有任何额外的信息，我们是在银河系大小的干草堆里找一根针。"`
 				goto pirates
 			
 			label search
-			`	"No," says Eyes, "we've tried to keep this search a secret so the terrorists won't know we're looking for them. Any group with the resources to develop nuclear weapons likely has the resources to also cover their tracks, and if they know we're coming for them, they could make our job even harder than it already is."`
+			`	"不，"大眼说，"我们已经试图将这次搜索作为一个秘密，这样恐怖分子就不会知道我们在寻找他们。任何有资源开发核武器的组织都可能有资源来掩盖他们的踪迹，如果他们知道我们要来找他们，他们会使我们的工作比现在更难。"`
 			
 			label pirates
-			`	Katya says, "What we need is some leads to follow. I bet we could buy information on Greenrock. Whenever anyone is doing something illegal in this sector, there's a good chance the pirates are helping them."`
-			`	Mr. Eyes says, "Unless you've got boatloads of money to give the pirates, we need someone who's friendly with them, who can convince them to talk for free. We should go to the Brothers on Harmony."`
-			`	"That's not a bad idea," says Katya, "as long as they don't make me sit through one of their church services. I'm usually all for service, but theirs always makes me fall asleep."`
-			`	"What do you say, Captain?" asks Eyes. "Want to visit a monastery?"`
+			`	卡蒂亚说，"我们需要的是一些可以追踪的线索。我打赌我们可以买到关于Greenrock的信息。只要有人在这个地区做非法的事情，海盗就很有可能在帮助他们。"`
+			`	眼睛先生说："除非你有一船的钱给海盗，否则我们需要一个与他们友好的人，谁能说服他们免费说话。我们应该去找和谐号上的兄弟们。"`
+			`	"这不是个坏主意，"卡蒂亚说，"只要他们不让我坐着看他们的教堂仪式。我通常都很支持服务，但他们的服务总是让我睡着。"`
+			`	"你怎么说，船长？"大眼问道。"想参观一下修道院吗？"`
 			choice
-				`	"Sure, sounds like fun."`
+				`	"当然，听起来很有趣。"`
 					accept
-				`	"You guys have interesting friends. How do you know these monks?"`
-				`	"Sounds boring. Can't we go shoot down more surveillance drones instead?"`
+				`	"你们的朋友很有意思。你怎么认识这些和尚的？"`
+				`	"听起来很无聊。我们不能去击落更多的监视无人机来代替吗？"`
 					goto shoot
 			
-			`	"When I grew up and left the Paradise sector, as a young idealist," says Eyes, "I decided I wanted to take a vow of poverty, so I came to live with the Brothers. But it turns out they also wanted me to take a vow of obedience. And chastity. Not so much my cup of tea." He winks at Katya.`
-			`	"Are the monks really as boring as Katya says?" you ask.`
+			`	"当我长大并离开天堂部门时，作为一个年轻的理想主义者，"眼睛说，"我决定我想发一个贫穷的誓言，所以我来到兄弟们身边生活。但事实证明，他们也想让我发一个服从的誓言。还有贞洁。我不太喜欢这杯茶。"他向卡蒂亚眨了眨眼。`
+			`	"僧侣们真的像卡佳说的那样无聊吗？"你问。`
 			
 			label shoot
-			`	"Sorry kid," says Eyes. "Take it from me, working for justice is not always exciting."`
+			`	"对不起，孩子，"大眼说。"听我说，为正义工作并不总是令人兴奋的。"`
 			choice
-				`	"Fine, I'm in."`
+				`	"好吧，我加入。"`
 					accept
-				`	"Sorry, but I think I'm done with helping the Free Worlds. I'd rather strike out on my own."`
+				`	"对不起，但我想我已经不再帮助自由世界了。我宁愿靠自己的力量出击。"`
 					decline
 	
 	on visit
-		dialog `You land on <planet>, but you realize that Katya and Mr. Eyes are on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但你意识到卡佳和眼睛先生在你的一个护卫队上，而这个护卫队还没有进入这个系统。最好离开并等待它的到来。`
 
 
 
 mission "FW Katya 5B"
 	landing
-	name "Information Gathering"
-	description "Travel to <planet> with Brother Greg and see if he can get any information from the pirates there. (Hail the planet to have him negotiate landing clearance.)"
+	name "信息收集"
+	description "和格雷格兄弟一起前往<planet>，看看他是否能从那里的海盗那里得到任何信息。(向该星球呼喊，让他商讨登陆许可。)"
 	source "Harmony"
 	destination "Greenrock"
-	clearance `Brother Greg talks briefly with the spaceport traffic controller. When they realize who he is, they agree to let you land "without paying the usual fee."`
+	clearance `格雷格弟兄与太空港的交通管制员进行了简短的交谈。当他们知道他是谁时，他们同意让你降落，"不需要支付通常的费用"。`
 	passengers 2
 	to offer
 		has "FW Katya 5: done"
@@ -1749,54 +1749,54 @@ mission "FW Katya 5B"
 		has "chosen sides"
 	
 	on offer
-		log "Factions" "Pirates" `Pirate ships are often crewed by children, the equivalent of street gangs or child soldiers. Many lawless worlds are so poor that joining a pirate gang is one of the only attractive options for earning a living.`
+		log "Factions" "Pirates" `海盗船的船员往往是儿童，相当于街头帮派或儿童兵。许多无法无天的世界都非常贫穷，加入海盗团伙是唯一有吸引力的谋生选择之一。`
 		conversation
-			`Katya and Eyes lead you to the monastery. As you are approaching, you meet a monk who is wearing a long black robe and kneeling in a small vegetable garden, pulling weeds. When he looks up and sees you, he leaps to his feet and runs over. "Katya! And Ijs! Welcome back!" Then he turns to you. "I'm David," he says.`
+			`卡蒂亚和大眼睛带你到修道院。当你走近时，你遇到了一个穿着黑色长袍的僧人，他跪在一个小菜园里拔草。当他抬头看到你时，他跃跃欲试，跑了过来。"Katya!还有Ijs!欢迎回来！"然后他转向你。"我是大卫，"他说。`
 			choice
-				`	"I'm <first>. Pleased to meet you."`
+				`	"我是<first>。很高兴见到你。"`
 			
-			`	Katya asks, "Is Brother Greg here?"`
-			`	"He is," says David. "Come inside." The monastery building is a stone and brick structure that looks like pictures you have seen of ancient Earth. He leads you down a long hallway and into a sitting room with furniture that looks equally antique, then leaves.`
-			`	As you are waiting, Eyes explains, "Brother Greg is in charge of the monastery's outreach and ministry to pirate crew members."`
+			`	卡蒂亚问道："格雷格兄弟在这里吗？"`
+			`	"他是，"大卫说。"进来吧。"修道院的建筑是一个石头和砖块的结构，看起来像你看到的古代地球的图片。他带领你走过一条长长的走廊，进入一间起居室，里面的家具看起来同样是古董，然后离开。`
+			`	在你等待的时候，大眼解释说："格雷格修士负责修道院对海盗船员的宣传和传教。"`
 			choice
-				`	"That sounds even odder than being a vigilante nuclear inspector."`
-				`	"Why would anyone want to reach out to pirates?"`
+				`	"这听起来比做一个义务核检查员还要奇怪。"`
+				`	"为什么有人要向海盗伸出援手？"`
 					goto outreach
 			
-			`	Eyes laughs. "Yes, the monks were a big influence in helping me to think creatively about my own vocation."`
+			`	眼睛笑了。"是的，僧侣们在帮助我创造性地思考我自己的天职方面有很大影响。"`
 			
 			label outreach
-			`	"Consider this," says Katya. "In the galactic south, the average age of a pirate crew member is seventeen years old. And many are much younger than that. They're more like street kids than like hardened criminals."`
-			`	Just then, Brother Greg walks in. Mr. Eyes introduces you to him and explains your situation. Greg frowns, thoughtfully. "What do we have to offer in exchange for that information?" he asks.`
-			`	Katya says, "Ever since the bombings, Southern space has been swarming not only with an increased militia presence, but with the whole Republic Navy. That must make it awfully hard to be a pirate. Seems like the pirates would be glad if the Navy got what they were looking for and went back up north."`
-			`	Brother Greg nods. "It's worth a try. Why don't you join us for dinner, and we'll depart for Greenrock in the morning. When we get there, just hail the planet and let me do the talking, and I can probably get permission to land for free."`
-			`	You join the brothers for a simple but delicious dinner, soup and salad made entirely from their own gardens. After dinner, Greg asks you, "Do you want to join us for evening prayer?"`
+			`	"考虑一下这个，"卡蒂亚说。"在银河系南部，海盗船员的平均年龄是17岁。而且许多人比这要年轻得多。他们更像街头的孩子，而不像顽固的罪犯。"`
+			`	就在这时，格雷格兄弟走了进来。眼睛先生把你介绍给他，并解释了你的情况。格雷格皱着眉头，若有所思。"我们要用什么来交换这些信息？"他问道。`
+			`	卡蒂亚说："自从爆炸事件发生后，南部空间不仅涌现出越来越多的民兵，而且还有整个共和国海军。这一定让做海盗变得非常困难。似乎海盗们会很高兴，如果海军得到了他们想要的东西，回到了北方。"`
+			`	格雷格兄弟点点头。"这值得一试。你为什么不和我们一起吃晚饭，我们明天早上就出发去格林洛克。当我们到达那里时，只要呼唤这个星球，让我来说话，我也许可以免费得到降落的许可。"`
+			`	你和兄弟们一起吃了一顿简单而美味的晚餐，汤和沙拉完全由他们自己的花园制成。晚餐后，格雷格问你："你想和我们一起做晚祷吗？"`
 			choice
-				`	"Sure, I'd be glad to."`
+				`	"当然，我很乐意。"`
 					goto prayer
-				`	"Sorry, I've got some other stuff to get done tonight."`
+				`	"对不起，我今晚还有些别的事情要做。"`
 			
-			`	"No problem," he says. "See you in the morning."`
+			`	"没问题。"他说。"明天早上见。"`
 				goto morning
 			
 			label prayer
-			`	"Evening prayer" turns out to be a lengthy church service that apparently begins with the monks listing every bad thing they can possibly imagine and praying that it would not happen: "From lightning and tempest; from earthquake, fire, and flood; from plague, pestilence, and famine, good Lord, deliver us. From all oppression, conspiracy, and rebellion; from violence, battle, murder, and war; and from dying suddenly and unprepared, good Lord, deliver us..." It's very monotonous.`
-			`	At some point, they switch to praying for different people: for the Parliament of the Republic, and everyone in authority; for the governor of <origin>, their world; for the Quarg and all sentient species; for prisoners, for the homeless and poor, for orphans, for pregnant women and young children, for travelers, for starship crews and captains, for miners and oil crews, for mill and factory workers; for the abused; for the mentally ill; for pirates and street gangs; for all creatures and planets vulnerable to exploitation or ecological destruction. (Eyes, who is sitting next to you, responds to that last petition with a fervent "Amen!") The litany is so detailed and specific that you find it both exhausting and fascinating.`
-			`	When the service ends, the monks depart for their rooms in silence, and Eyes, with a brief nod to you, does the same.`
+			`	"晚祷 "原来是一个冗长的教堂仪式，显然是以僧侣们列出他们能想象到的所有坏事并祈祷它不会发生开始的。"从闪电和暴风雨中；从地震、火灾和洪水中；从瘟疫、瘟疫和饥荒中，善良的主，请拯救我们。从一切压迫、阴谋和叛乱中；从暴力、战斗、谋杀和战争中；从毫无准备的突然死亡中，好主，救我们......"这是很单调的。`
+			`	在某些时候，他们转而为不同的人祈祷。为共和国议会和所有当权者；为他们的世界<origin>的总督；为夸父和所有有生命的物种；为囚犯、为无家可归者和穷人、为孤儿、为孕妇和幼儿、为旅行者、为星舰船员和船长、为矿工和石油船员、为工厂工人；为受虐待者；为精神病患者；为海盗和街头帮派；为所有容易受到剥削或生态破坏的生物和星球。(坐在你旁边的大眼对最后一项请愿做出了热切的回应："阿门！")祷文是如此详细和具体，以至于你发现它既令人疲惫又令人着迷。`
+			`	仪式结束后，僧侣们默默地离开了他们的房间，大眼向你简短地点点头，也离开了。`
 			
 			label morning
-			`	At breakfast in the monastery, Mr. Eyes tells you, "I'm going to be staying here until you get back. Greenrock is no place for a man with a price on his head. But Katya will be going with you." You bring Katya and Greg back to your ship and get ready to take off.`
+			`	在修道院的早餐时，大眼先生告诉你："我要在这里呆到你回来。绿岩镇不是一个有代价的人可以去的地方。但卡蒂亚会和你一起去。"你把卡蒂亚和格雷格带回你的飞船，准备起飞。`
 				accept
 	
 	on visit
-		dialog `You land on <planet>, but you realize that Katya and Brother Greg are on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你在<planet>上降落，但你意识到卡蒂亚和格雷格兄弟在你的一个护卫队上，而这个护卫队还没有进入这个系统。最好离去，等待它的到来。`
 
 
 
 mission "FW Katya 5C"
 	landing
-	name "Information Gathering"
-	description "Return to <planet> with Katya and Brother Greg."
+	name "信息收集"
+	description "带着Katya和Greg兄弟返回<planet>。"
 	source "Greenrock"
 	destination "Harmony"
 	passengers 2
@@ -1807,30 +1807,30 @@ mission "FW Katya 5C"
 	
 	on offer
 		conversation
-			`Brother Greg disappears for several hours to talk with his various contacts, then returns and reports to you and Katya. "No one has heard anything specific," he says, "and they say keeping a nuclear program secret would take an incredible amount of resources, or a very remote location with very good security."`
-			`	"Any hints on where we should look?" asks Katya.`
-			`	"A few. I talked to one friend who had done research into nuclear development 'for purely academic reasons,' and he said that only a fool would perform atmospheric tests; Intelligence would notice that immediately, no matter what world you were on. He said the ideal development location would be a sparsely populated planet with some abandoned deep underground mines."`
-			`	"Anything else?" you ask.`
-			`	"Just one more thing," says Greg. "Several people mentioned that they think the Navy itself may have a nuclear arsenal, and that a renegade may have stolen the weapons from them. Much easier than developing them yourself."`
-			`	"Well, let's head back to <planet> and see what Eyes thinks," says Katya, "but I can't imagine the Navy would have such an arsenal. Searching on mining planets sounds like our best bet for now."`
+			`格雷格修士消失了几个小时，与他的各种联系人交谈，然后回来向你和卡提亚报告。"没有人听到任何具体的消息，"他说，"他们说保持一个核项目的秘密需要大量的资源，或者一个非常偏远的地方，有非常好的安全。"`
+			`	"有没有关于我们应该去哪里找的提示？"卡蒂亚问道。`
+			`	"有一些。我和一个'纯粹出于学术原因'研究过核开发的朋友谈过，他说只有傻瓜才会进行大气层试验；无论你在哪个世界，情报部门都会立即注意到这一点。他说理想的开发地点是一个人口稀少的星球，有一些废弃的地下深矿。"`
+			`	"还有什么吗？"你问。`
+			`	"还有一件事，"格雷格说。"有几个人提到，他们认为海军本身可能有一个核武库，而一个叛徒可能从他们那里偷了武器。这比自己开发要容易得多。"`
+			`	"好吧，让我们回到<planet>，看看大眼是怎么想的，"卡蒂亚说，"但我无法想象海军会有这样一个武库。在采矿行星上搜索听起来是我们目前最好的选择。"`
 				accept
 	
 	on visit
-		dialog `You land on <planet>, but you realize that Katya and Brother Greg are on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你在<planet>上降落，但你意识到卡蒂亚和格雷格兄弟在你的一个护卫队上，而这个护卫队还没有进入这个系统。最好离去，等待它的到来。`
 	on complete
 		payment 100000
 		conversation
-			`When you land on <planet>, as Brother Greg is gathering his luggage, Katya hands you another credit chip for <payment>. "Thanks for risking your life with the pirates," she says. "You've got real guts."`
-			`	You return to the monastery and share your new information with Mr. Eyes. His reaction is the same as Katya's. "No way the Navy has nukes," he says. "Some other secret branch of the government, maybe, but not the Navy. That would offend their sense of honor."`
-			`	"Still," says Katya, "if there was such a program and the weapons were stolen from it, that would explain why Intelligence has not named a suspect yet. They would have to reveal the program's existence."`
-			`	Eyes shakes his head. "This isn't a productive line of investigation," he says. "If it was some local terrorists, we've got some hope of tracking them down. If it's some shadowy government organization, there's no way we can find them. So, the local terrorist angle is the only one worth pursuing."`
-			`	"Very well," says Katya. "Captain <last>, meet us in the spaceport if you're willing to continue working with us."`
+			`当你在<planet>上着陆时，当格雷格兄弟正在收集他的行李时，卡提亚又递给你一张<payment>的信用芯片。"谢谢你冒着生命危险与海盗打交道，"她说。"你真有胆量。"`
+			`	你回到寺院，与眼睛先生分享你的新信息。他的反应和卡蒂亚的一样。"海军不可能有核弹，"他说。"其他一些政府的秘密部门，也许，但不是海军。那会触犯他们的荣誉感。"`
+			`	"不过，"卡蒂亚说，"如果有这样一个项目，而且武器是从那里偷来的，这就可以解释为什么情报部门还没有指定一个嫌疑人。他们将不得不透露该计划的存在。"`
+			`	眼睛摇了摇头。"这不是一个有成效的调查路线，"他说。"如果是一些当地的恐怖分子，我们有一些希望能追踪到他们。如果是一些阴暗的政府组织，我们就没有办法找到他们。所以，当地恐怖分子的角度是唯一值得追求的。"`
+			`	"很好。"卡蒂亚说。"队长<last>，如果你愿意继续与我们合作，在太空港见我们。"`
 
 
 
 mission "FW Katya 6"
-	name "The Hunt Continues"
-	description "Take Katya and Eyes to <destination>."
+	name "狩猎继续进行"
+	description "带着Katya和Eyes去<destination>。"
 	source "Harmony"
 	destination "Sinter"
 	passengers 2
@@ -1841,34 +1841,34 @@ mission "FW Katya 6"
 	
 	on offer
 		conversation
-			`You find Katya and Mr. Eyes sitting at a table in the corner of a small cafe, talking in hushed voices and examining a galactic map that is spread out in front of them. Several of the nearby systems are circled. Katya says, "Hello again, Captain. We've picked three planets that we think are our best options: <planet>, Hopper, and New Iceland. It should only take a few weeks to visit all of them. What do you say?"`
+			`你发现卡蒂亚和大眼先生坐在一家小咖啡馆角落的桌子旁，用沙哑的声音交谈，并检查摊在他们面前的银河系地图。附近的几个系统被圈了起来。卡蒂亚说，"又见面了，船长。我们已经挑选了三个我们认为是最佳选择的星球。<planet>、霍普和新冰岛。访问所有这些星球应该只需要几周时间。你怎么说？"`
 			choice
-				`	"Sure, I definitely want to help solve this case!"`
+				`	"当然，我绝对想帮助解决这个案子！"`
 					goto sure
-				`	"Why these worlds specifically? Why not check worlds in Free space if the Republic thinks you did it?"`
-				`	"Sorry, I'm through with helping the Free Worlds. I don't think we have a chance of beating the Navy to the punch."`
+				`	"为什么特别是这些世界？如果共和国认为是你干的，为什么不检查自由空间的世界？"`
+				`	"对不起，我已经不再帮助自由世界了。我不认为我们有机会击败海军。"`
 					decline
 			
-			`	"I suppose that showing a lack of evidence for nuclear testing done on Free planets would be circumstantial evidence for us," Eyes says, "but we're specifically hunting for the culprit, so these are our best bets as far as nearby mining worlds go. And searching these three worlds would be quicker than searching all of Free space."`
-			`	"Another thing we have to keep in mind is that we may not be able to operate outside of Free space forever," Katya responds. "I pray that we find answers before it comes to it, but war between the Free Worlds and Republic would cut us off from freely searching most of the galaxy."`
+			`	"我想，显示在自由星球上做的核试验缺乏证据，对我们来说是间接证据，"大眼说，"但我们是专门追捕罪犯的，所以就附近的采矿世界而言，这些是我们最好的选择。而且搜索这三个世界会比搜索整个自由空间更快。"`
+			`	"我们必须记住的另一件事是，我们可能无法永远在自由空间之外运作，"卡蒂亚回应说。"我祈祷我们在这之前找到答案，但自由世界和共和国之间的战争将切断我们自由搜索大部分银河系的机会。"`
 			choice
-				`	"Okay, I'll help you search these worlds."`
-				`	"Sorry, but I don't think this is the best course of action. You'll have to find someone else to help you with this."`
+				`	"好吧，我帮你搜索这些世界。"`
+				`	"对不起，但我认为这不是最好的行动方案。你得找别人来帮你做这件事。"`
 					decline
 			
 			label sure
-			`	"Great!" says Katya. "We'll stop on <destination> first, then swing by Hopper and on to New Iceland. If we still haven't found anything by that point, we'll start working our way up the Rim."`
+			`	"太好了！"卡蒂亚说。"我们先在<destination>上停一下，然后在霍普晃一晃，再去新冰岛。如果到那时我们仍然没有发现任何东西，我们就开始在环形山上工作。"`
 				accept
 	
 	on visit
-		dialog `You land on <planet>, but you realize that Katya and Mr. Eyes are on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但你意识到卡佳和眼睛先生在你的一个护卫队上，而这个护卫队还没有进入这个系统。最好离开并等待它的到来。`
 
 
 
 mission "FW Katya 6B"
 	landing
-	name "The Hunt Continues"
-	description "Take Katya and Eyes to <destination>."
+	name "狩猎继续进行"
+	description "带着Katya和Eyes去<destination>。"
 	source "Sinter"
 	destination "Hopper"
 	passengers 2
@@ -1879,19 +1879,19 @@ mission "FW Katya 6B"
 	
 	on offer
 		conversation
-			`Mr. Eyes fires up his instruments and looks at the results for a few minutes. "Nothing," he says. "Even underground testing would've thrown up a debris plume large enough to measure traces of it. But I'm picking up nothing."`
-			`	"No problem," says Katya. "Let's continue to <planet>."`
+			`眼睛先生启动了他的仪器，看了几分钟的结果。"什么都没有，"他说。"即使是地下测试也会抛出足够大的碎片羽流来测量它的痕迹。但我没有发现任何东西。"`
+			`	"没问题。"卡蒂亚说。"让我们继续前往<planet>。"`
 				accept
 	
 	on visit
-		dialog `You land on <planet>, but you realize that Katya and Mr. Eyes are on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但你意识到卡佳和眼睛先生在你的一个护卫队上，而这个护卫队还没有进入这个系统。最好离开并等待它的到来。`
 
 
 
 mission "FW Katya 6C"
 	landing
-	name "The Hunt Continues"
-	description "Take Katya and Eyes to <destination>."
+	name "狩猎继续进行"
+	description "带着Katya和Eyes去<destination>。"
 	source "Hopper"
 	destination "New Iceland"
 	passengers 2
@@ -1902,18 +1902,18 @@ mission "FW Katya 6C"
 	
 	on offer
 		conversation
-			`Again, Eyes runs his tests, and again, nothing shows up. "One more planet to go," he says. "Time to try <planet>." You can tell that they are both starting to feel a bit discouraged, and you are overwhelmed by the thought of how many planets in this sector you may need to search unless you get a lucky break soon.`
+			`大眼再次运行他的测试，同样，什么也没有显示出来。"还有一个星球要去，"他说。"是时候试试<planet>了。"你可以看出，他们俩都开始感到有些气馁，而你一想到这个区块中可能需要搜索多少个星球，除非你很快就能得到一个幸运的机会，你就感到不知所措。`
 				accept
 	
 	on visit
-		dialog `You land on <planet>, but you realize that Katya and Mr. Eyes are on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但你意识到卡佳和眼睛先生在你的一个护卫队上，而这个护卫队还没有进入这个系统。最好离开并等待它的到来。`
 
 
 
 mission "FW Katya 7"
 	landing
-	name "The Hunt Continues"
-	description "Take Katya and Eyes to <destination> to check for signs of underwater testing."
+	name "狩猎继续进行"
+	description "带着卡蒂亚和眼睛去<destination>检查水下测试的迹象。"
 	source "New Iceland"
 	destination "Deep"
 	passengers 2
@@ -1924,36 +1924,36 @@ mission "FW Katya 7"
 	
 	on offer
 		conversation
-			`<origin> turns out no differently than the previous two. "We need a change in strategy," says Katya. "We've been talking about something while we were in transit."`
-			`	Eyes says, "It occurred to me that underwater testing might be even easier than underground: no need to dig or find a mine shaft. And, the Navy's sensors are for atmosphere, not oceans. But I've still got my old test kits with me for seawater."`
-			`	Katya says, "So then we wondered, what sort of world would you go to if you wanted rumblings in the ocean to go unnoticed? Either an unpopulated one, or one with lots of meteorite activity. And that leads us to... <planet>." She points out the system on your map. "Mild tidal surges on almost a weekly basis, due to impacts from all the asteroids in system. Perfect place to hide an undersea explosion."`
+			`<origin>的结果与前两个没有什么不同。"我们需要改变策略，"卡蒂亚说。"我们在运输过程中一直在谈论一些事情。"`
+			`	眼睛说："我想到，水下测试可能比地下更容易：不需要挖掘或寻找矿井。而且，海军的传感器是针对大气层的，不是海洋。但我仍然带着我的旧测试工具，用于海水。"`
+			`	卡蒂亚说："所以我们就想，如果你想让海洋中的隆隆声不被注意，你会去什么样的世界？要么是一个没有人口的世界，要么是一个有很多陨石活动的世界。这使我们找到了...<planet>。"她指出了你地图上的系统。"由于系统中所有小行星的撞击，几乎每周都有轻微的潮汐涌动。是隐藏海底爆炸的完美地点。"`
 			choice
-				`	"Sounds like a good possibility. Let's give it a try!"`
+				`	"听起来是个不错的可能性。让我们试一试吧！"`
 					goto agree
-				`	"But <planet> is part of the Free Worlds. What happens if we do find evidence there?"`
-				`	"Sorry, I've got some other missions I need to run instead of continuing this wild goose chase."`
+				`	"但是<planet>是自由世界的一部分。如果我们真的在那里找到证据会怎么样？"`
+				`	"对不起，我有一些其他的任务需要执行，而不是继续这种疯狂的追捕。"`
 					decline
 			
-			`	"The plan hasn't changed," Eyes responds. "We find where the testing occurred, and that will lead us to the culprits. Even if it turns out that someone connected to the Free Worlds is responsible, they'll be turned over to the Republic."`
-			`	"I pray that no one within the Free Worlds is a part of this, though," Katya says quietly. "I'm almost hoping we find nothing."`
+			`	"计划并没有改变，"大眼回应道。"我们找到测试发生的地方，这将引导我们找到罪魁祸首。即使最后发现是与自由世界有关的人所为，他们也会被移交给共和国。"`
+			`	"不过，我祈祷自由世界内部没有人参与其中，"卡蒂亚静静地说。"我几乎希望我们什么都没发现。"`
 			choice
-				`	"Fair enough. Let's give it a try."`
-				`	"The Free Worlds is looking guiltier the more we look. I'm out of here."`
+				`	"足够公平。让我们试一试吧。"`
+				`	"自由世界看起来越发有罪了。我要离开这里。"`
 					decline
 			
 			label agree
-			`	"I appreciate your help, Captain <last>," says Katya. "Let's get going."`
+			`	"我感谢你的帮助，船长<last>，"卡蒂亚说。"我们走吧。"`
 				accept
 	
 	on visit
-		dialog `You land on <planet>, but you realize that Katya and Mr. Eyes are on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但你意识到卡佳和眼睛先生在你的一个护卫队上，而这个护卫队还没有进入这个系统。最好离开并等待它的到来。`
 
 
 
 mission "FW Katya 7B"
 	landing
-	name "The Hunt Continues"
-	description "Take Katya and Eyes to the mining moon <planet>."
+	name "狩猎继续进行"
+	description "带着卡蒂亚和大眼去采矿卫星<planet>。"
 	source "Deep"
 	destination "Clink"
 	passengers 2
@@ -1964,37 +1964,37 @@ mission "FW Katya 7B"
 	
 	on offer
 		conversation
-			`After landing, you go for a walk along the beach with Katya and Eyes. They both go barefoot, walking in the surf. Eyes is collecting pebbles and shells from under the water, and at one point instead of grabbing a pebble he surreptitiously reaches down and fills a small vial with seawater.`
-			`	Back at your ship he runs his tests, with you and Katya watching eagerly. He looks at the results, frowns, and then repeats the whole procedure with a second test kit. Finally he sighs. "Nothing," he says.`
-			`	Katya shouts in frustration and bangs her fists against the bulkheads. "We're never going to find anything," she says. "Forget it, I'm going for a walk." She leaves your ship.`
-			`	Mr. Eyes packs up his instruments, and then you walk outside and find her sitting on the landing pad near your ship, watching the moon rise over the ocean. She seems much calmer.`
+			`着陆后，你和卡佳、大眼一起到海滩上散步。他们都光着脚，在冲浪中行走。大眼正在收集水底的鹅卵石和贝壳，有一次他没有抓起一块鹅卵石，而是偷偷地把手伸下去，把一个小瓶装满了海水。`
+			`	回到你的船上，他进行了他的测试，你和卡蒂亚急切地看着。他看了看结果，皱了皱眉头，然后用第二个测试工具重复了整个过程。最后他叹了口气。"他说："没什么。`
+			`	卡蒂亚沮丧地喊道，用拳头敲打着舱壁。"我们永远不会找到任何东西，"她说。"算了吧，我去走走。"她离开了你的船。`
+			`	眼睛先生收拾好他的仪器，然后你走到外面，发现她坐在你的船附近的登陆台上，看着月亮从海上升起。她似乎平静了许多。`
 			choice
-				`	(Sit down next to her and try to comfort her.)`
-				`	"What should we do now?"`
+				`	(在她身边坐下，试着安慰她）。`
+				`	"我们现在应该怎么做？"`
 					goto last
 			
-			`	You sit on one side of her, and Eyes sits on the other. "It's really admirable, what you're doing," you say. "You're trying to work for peace, and for justice. It's valuable work. Don't lose heart."`
+			`	你坐在她的一边，大眼坐在另一边。"这真的很令人钦佩，你在做什么，"你说。"你正试图为和平和正义而努力。这是很有价值的工作。不要失去信心。"`
 				goto last
 			
 			label last
-			`	"One more try," she says. "One last world, and then we give up. I want you to take me... there." She points at the moon, hanging just above the horizon.`
-			`	Eyes says, "Mining world. Dusty atmosphere. Frequent meteorite impacts. You could set off a nuke on the far side of that world and the miners would probably sleep right through it."`
+			`	"再试一次吧，"她说。"最后一个世界，然后我们就放弃了。我希望你能带我去......那里。"她指着月亮，正好挂在地平线上。`
+			`	眼睛说，"采矿世界。尘土飞扬的大气。频繁的陨石撞击。你可以在那个世界的远处引爆一枚核弹，矿工们可能会睡得很香。"`
 			choice
-				`	"Okay, I'll take you to this one last world, and then we're done."`
-				`	"Sorry, 'one more world' is what you said two planets ago. I'm done with this."`
+				`	"好吧，我带你到这最后一个世界，然后我们就结束了。"`
+				`	"对不起，'还有一个世界'是你在两个星球前说的。我已经受够了。"`
 					decline
-			`	"I promise it will be the last one," says Katya.`
+			`	"我保证这将是最后一个，"卡蒂亚说。`
 				accept
 	
 	on visit
-		dialog `You land on <planet>, but you realize that Katya and Mr. Eyes are on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但你意识到卡佳和眼睛先生在你的一个护卫队上，而这个护卫队还没有进入这个系统。最好离开并等待它的到来。`
 
 
 
 mission "FW Katya 7C"
 	landing
-	name "Bring Eyes to <planet>"
-	description "While Katya is undercover on <origin>, bring Mr. Eyes to <destination> to report to the Free Worlds."
+	name "把眼睛带到<planet>上"
+	description "当卡蒂亚在<origin>上做卧底时，把眼睛先生带到<destination>，向自由世界报告。"
 	source "Clink"
 	destination "Zug"
 	passengers 1
@@ -2006,48 +2006,48 @@ mission "FW Katya 7C"
 	on offer
 		log "Found evidence of nuclear testing on Clink, a mining moon on the edge of Free Worlds territory. It's strange that the perpetrators left such clear evidence behind; the Navy's drones will certainly have discovered it before we did. Katya stayed behind to try to infiltrate the mining compound and collect more information."
 		conversation
-			`You land some distance from the mining settlement, and Mr. Eyes goes into the airlock in a pressure suit, cycling it to bring in some of the moon's thin atmosphere for him to test. "Firing up my instruments now," he says through the commlink. There is a long pause, and then he starts spouting a long string of creative profanity. Katya runs over to the airlock window to see what is happening.`
-			`	Finally, Eyes calms down enough to say, "It's a match! Not only has there been a recent test here, but the signature matches the one we took on Geminus. This is it."`
-			`	He cycles the airlock and comes back inside. "Let's fly around and see if we can find the site," he says. After a few hours of flying low over the surface and scanning for radiation signatures, you find a spot that looks like all the other meteorite craters but is full of radiation. Katya and Eyes look at the images of the surface almost in disbelief.`
-			`	"Based on the isotopic decay rates, this explosion happened in mid-June," says Eyes. "Just before the attacks happened."`
-			`	"It makes no sense," says Katya. "It's a blatant atmospheric test. No way the Navy hasn't found this. The Navy could act on this at any moment."`
+			`你在离采矿点有一段距离的地方降落，大眼先生穿上压力服进入气闸，让气闸循环，把一些月球上稀薄的大气带进来让他测试。"现在启动我的仪器，"他通过通信线路说。停顿了很久，然后他开始吐出一长串创造性的脏话。卡蒂亚跑到气闸窗口，看看发生了什么。`
+			`	最后，大眼镇定下来，说："这是个比赛！"。这里不仅有一个最近的测试，而且签名与我们在Geminus上的签名一致。这就是它。"`
+			`	他启动气闸，回到里面。"他说："让我们飞一圈，看看能不能找到这个地点。经过几个小时的低空飞行，扫描辐射特征，你找到了一个看起来和其他陨石坑一样的地方，但充满了辐射。Katya和Eyes几乎不敢相信地看着表面的图像。`
+			`	"根据同位素衰变率，这次爆炸发生在6月中旬，"大眼说。"就在攻击发生之前。"`
+			`	"这没有意义，"卡蒂亚说。"这是一个公然的大气层测试。海军不可能没有发现这一点。海军在任何时候都可以对此采取行动。"`
 			choice
-				`	"What do we do now that we've found the test site?"`
+				`	"既然我们已经找到了测试地点，我们该怎么做？"`
 					goto now
-				`	"So the Free Worlds is behind this! This is one of your planets!"`
+				`	"原来自由世界是幕后黑手！？这是你的一个星球！"`
 			
-			`	"Yes, this a Free planet, but this evidence is far too blatant," Eyes responds. "Just because we found a match here doesn't mean this is where all the testing happened. I'm only detecting enough isotopes to account for one explosion, and you wouldn't just test once. If anything, this shows that the Free Worlds is being framed by someone, and they used one nuke here before bombing Geminus and Martini to make it look like it was the Free Worlds who did it."`
-			`	"I swear before God when I say that the Free Worlds has nothing to do with this, Captain," Katya says. "But we'll find whoever is responsible and bring them to justice."`
+			`	"是的，这是一个自由星球，但这个证据太明目张胆了，"大眼回应道。"我们在这里发现了一个匹配，并不意味着这就是所有测试发生的地方。我只检测到足够的同位素来解释一次爆炸，而你不会只测试一次。如果有的话，这表明自由世界被某人陷害了，他们在轰炸双子星和马蒂尼之前在这里使用了一枚核弹，以使它看起来是自由世界所为。"`
+			`	"我在上帝面前发誓，自由世界与此无关，船长，"卡蒂亚说。"但我们会找到负责任的人，将他们绳之以法。"`
 			
 			label now
-			`	Katya thinks for a moment. "Captain, is the outpost reporting any job openings?"`
-			`	You check your computer. "One job opening, for a janitor in the mess hall."`
-			`	She grimaces. "Okay, it's better than nothing. I'll take the job to go undercover and see what I can find out. You take Eyes to <planet>, where he can get in touch with the Free Worlds Council. I'll find a way to send you a message once I've found the perpetrators."`
-			`	"Katerina," says Eyes, "this is way too dangerous. As I said, if we were able to detect this then so can the Navy, and they probably already have. They could decide to occupy Clink at any moment, and you'd be trapped here with no way out."`
-			`	"There's no other way," she says. "We have no time to lose. I'm willing to risk it."`
-			`	With deep reservations, you drop her off at the outpost. Katya ruffles her hair and rubs some moon dust onto her face to blend in while asking about the job, which she is quickly offered. "Not many folks care to work up here," says the foreman, "so your help would be much appreciated." You and Eyes return to your ship and get ready to travel to <planet> with the evidence.`
+			`	卡蒂亚思考了一会儿。"船长，前哨站是否报告有任何职位空缺？"`
+			`	你检查你的电脑。"有一个职位空缺，是食堂的门卫。"`
+			`	她苦笑了一下。"好吧，有总比没有好。我会接受这份工作，去做卧底，看看能发现什么。你带大眼去<planet>，在那里他可以和自由世界委员会取得联系。一旦我找到肇事者，我会想办法给你发消息。"`
+			`	"卡捷琳娜，"大眼说，"这实在是太危险了。正如我所说的，如果我们能够探测到这一点，那么海军也可以，而且他们可能已经探测到了。他们随时可能决定占领克林克，而你将被困在这里，无路可逃。"`
+			`	"没有其他办法了，"她说。"我们没有时间可以浪费。我愿意冒这个险。"`
+			`	带着深深的保留，你把她送到了前哨站。卡蒂亚揉了揉头发，在脸上抹了一些月光粉，以便融入其中，同时询问工作的情况，她很快就得到了工作机会。"没有多少人愿意在这里工作，"工头说，"所以你的帮助将是非常感激的。你和大眼回到你的船上，准备带着证据去<planet>旅行。`
 				accept
 	
 	on visit
-		dialog `You land on <planet>, but you realize that Mr. Eyes is on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但你意识到眼睛先生在你的一个护卫队上，而这个护卫队还没有进入这个系统。最好离开并等待它的到来。`
 	on complete
 		payment 250000
 		"assisted free worlds" ++
 		conversation
-			`Eyes has been really quiet for the whole journey; you're sure that he's worried about Katya. When you land, he hands you <payment> and says, "Thank you for all your help, Captain. I pray that this leads to justice being done."`
-			`	He starts to walk off, then comes back. "By the way, Katya wanted to keep this a secret, but I think you should know." He points to the credit chips he just handed you. "Katya's been funding this out of her own pocket. That's the last of her savings that she just paid you."`
+			`大眼在整个旅途中都非常安静；你确信他在担心卡蒂亚。当你着陆时，他递给你<payment>并说："谢谢你的帮助，船长。我祈祷这能让正义得到伸张。"`
+			`	他开始走了，然后又回来了。"顺便说一下，卡蒂亚想保守这个秘密，但我认为你应该知道。"他指了指他刚刚递给你的信用筹码。"卡蒂亚一直在用自己的口袋来资助这件事。这是她最后的积蓄，她刚付给你的。"`
 			choice
-				`	"I had no idea."`
-				`	"Wow, she really is dedicated to this work, isn't she?"`
-			`	"She's a unique woman," says Eyes. "I hope we see her again soon. Goodbye for now, <first>."`
+				`	"我不知道。"`
+				`	"哇，她对这项工作真的很投入，不是吗？"`
+			`	"她是个独特的女人，"大眼说。"我希望我们很快再见到她。暂时再见，<first>。"`
 
 
 
 mission "FW Commitment"
 	minor
 	landing
-	name "Join the Free Worlds"
-	description "If you want to join the Free Worlds, report to their headquarters on <destination>."
+	name "加入自由世界"
+	description "如果你想加入自由世界，请到他们在<destination>的总部报到。"
 	source
 		government "Free Worlds"
 	destination "Bourne"
@@ -2062,130 +2062,130 @@ mission "FW Commitment"
 	on offer
 		log "Got invited to join the Free Worlds. It's a valuable opportunity, but it would also be a fast way to become an enemy of the Republic."
 		conversation
-			`Soon after you land, a courier arrives at your ship and hands you a formal looking letter. It reads:`
+			`在你登陆后不久，一个信使来到你的船上，递给你一封看起来很正式的信。信中写道。`
 			``
-			`Dear Captain <last>,`
-			`	The Free Worlds Council would like to thank you for the invaluable assistance you have rendered to us recently. We are prepared to offer you a position as an officer in our militia, remaining in command of your own ship. Your starting salary will be 1,100 credits per diem. If you want to join us, please report to our headquarters on Bourne at your earliest convenience.`
-			`	Sincerely,`
+			`亲爱的<last>船长。`
+			`	自由世界委员会要感谢你最近对我们提供的宝贵帮助。我们准备为你提供一个在我们的民兵中担任军官的职位，仍然由你自己指挥船只。你的起薪将是每天1,100信用点。如果你想加入我们，请在你方便时尽早到我们在伯恩的总部报到。`
+			`	真诚的。`
 			`				Tomek Voigt`
 			`				Jean-Jacques Soleau`
-			`				Freya Winters`
-			`				Alondo Gruyere`
-			`				Katerina Reynolds`
+			`				弗雷亚-温特斯`
+			`				阿隆多-格鲁耶尔`
+			`				卡特琳娜-雷诺兹`
 			``
-			`	You notice that Katya's name is printed, instead of signed like the others; she must still be undercover on Clink.`
+			`	你注意到Katya的名字是打印出来的，而不是像其他人那样签名；她一定还在Clink公司做卧底。`
 				accept
 
 
 
 mission "Rescue Katya 1"
 	landing
-	name "Rescue Katya"
-	description "Rescue Katya from <planet>, before the Navy discovers her, and bring her safely to Longjump."
+	name "拯救卡蒂亚"
+	description "在海军发现她之前，从<planet>上救出Katya，并把她安全地带到Longjump。"
 	source "Bourne"
 	destination "Clink"
 	to offer
 		has "FW Commitment: offered"
 		not "chosen sides"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
-			`You are on Bourne, the capital of the Free Worlds. Do you take them up on their job offer and volunteer to officially join them? With tensions between the Free Worlds and Republic so high, it's not unthinkable that they could go to war with one another, so it would be a good idea to have a warship and some spare funds before siding with the Free Worlds.`
+			`你在伯恩，自由世界的首都。你是否接受他们的工作邀请，自愿正式加入他们？由于自由世界和共和国之间的关系如此紧张，他们之间可能会发生战争，这不是不可想象的，所以在站在自由世界一边之前，最好有一艘战舰和一些备用资金。`
 			choice
-				`	(Yes.)`
-				`	(Not yet.)`
+				`	(是的。)`
+				`	(现在还不行。)`
 					defer
 			
 			branch mistrust
 				has "fw escort: mistrusted"
 			
-			`	You find the Free Worlds offices and give your name to the person at the front desk. A few minutes later Tomek Voigt, who manages supplies and fleet movements for the Council, comes down the stairs to greet you. "I'm so glad you've agreed to join us, Captain <last>," he says.`
+			`	你找到自由世界的办公室，向前台的人报上自己的名字。几分钟后，为理事会管理物资和舰队动向的托梅克-沃伊格特下楼来迎接你。他说："我很高兴你同意加入我们，船长<last>，"。`
 				goto next
 			
 			label mistrust
-			`	You find the Free Worlds offices and give your name to the person at the front desk. A few minutes later Tomek Voigt, who manages supplies and fleet movements for the Council, comes down the stairs to greet you. "Captain <last>," he says with a stern glare. "If it were up to me alone you would not be standing in front of me today, but it would appear that your continued help has earned you enough good will to surpass my mistrust of you.`
-			`	"But I'm a reasonable man," he continues, his expression changing to a smile. "If my friends trust you, then I will give you a second chance, even if it is against my better judgment. Now please, join us."`
+			`	你找到了自由世界的办公室，向前台的人报了自己的名字。几分钟后，为理事会管理物资和舰队动向的托梅克-沃伊格特下楼来迎接你。"船长<last>，"他严厉地瞪着眼睛说。"如果由我一个人说了算，你今天就不会站在我面前，但看来你的持续帮助已经为你赢得了足够的善意，超过了我对你的不信任。`
+			`	"但我是个通情达理的人，"他继续说，他的表情变成了微笑。"如果我的朋友们信任你，那么我会给你第二次机会，即使这有违我更好的判断。现在，请加入我们。"`
 			
 			label next
-			`	That night you are introduced to the rest of the Council: Alondo Gruyere, the Council's chief diplomat, Freya Winters, an adept engineer and the Council's head of logistics, and Jean-Jacques "JJ" Soleau, an ex-Navy officer who now leads the training of the Free Worlds militias. Katya Reynolds, the final member of the Council, is not present.`
-			`	They take you out to dinner at a very fancy restaurant. Halfway through the third course of the meal, Tomek's communicator beeps. He reaches over to turn it off, then sees the message and turns pale. A hush falls over the table. "<system> has been captured by the Navy," he announces.`
-			`	After a long silence, JJ asks, "How many casualties?"`
-			`	"None," says Tomek. "The Navy claimed that <system> was the source of the terrorist attack, and after they showed the evidence to the militia commander on Deep he surrendered and yielded control of the system to them without a fight."`
+			`	那天晚上，你被介绍给理事会的其他成员。阿隆多-格鲁耶尔（Alondo Gruyere），理事会的首席外交官；弗莱亚-温特斯（Freya Winters），一位精明的工程师和理事会的后勤主管；以及让-雅克-"JJ"-索洛（Jean-Jacques "JJ" Soleau），一位前海军军官，现在领导自由世界民兵的训练工作。理事会的最后一名成员卡蒂亚-雷诺兹（Katya Reynolds）没有出席。`
+			`	他们带你到一家非常高级的餐厅吃饭。吃到第三道菜的一半时，托梅克的通讯器发出提示音。他伸手想把它关掉，然后看到信息，脸色变得苍白。桌子上一片寂静。"<system>已被海军俘获，"他宣布道。`
+			`	经过长时间的沉默，JJ问道："有多少人伤亡？"`
+			`	"没有。"托梅克说。"海军声称<system>是恐怖袭击的源头，在他们向迪普上的民兵指挥官展示证据后，他不战而降，将系统的控制权交给了他们。"`
 			choice
-				`	"Was Katya still there? We need to rescue her!"`
-				`	"We can't allow them to do that. We should gather our fleets and attack."`
+				`	"卡蒂亚还在那里吗？我们需要营救她！"`
+				`	"我们不能允许他们这样做。我们应该集合我们的舰队，进行攻击。"`
 					goto attack
 			
-			`	"Indeed," says Freya. "That should be our first priority."`
+			`	"确实如此。"芙蕾雅说。"这应该是我们的首要任务。"`
 				goto help
 			
 			label attack
-			`	JJ says, "Calm down, Captain. Combat is our last option, not our first. And if their claim is correct, they were justified in taking the system."`
-			`	Freya says, "Uniting the militias could take weeks. A much more pressing issue is that Katya is still on Clink, unless anyone has heard otherwise from her."`
+			`	JJ说："冷静点，船长。战斗是我们最后的选择，而不是我们的第一选择。而且，如果他们的主张是正确的，他们占领这个系统是合理的。"`
+			`	弗雷亚说："联合民兵可能需要几周时间。一个更紧迫的问题是，卡蒂亚仍然在克林克岛，除非有人从她那里得到其他消息。"`
 			
 			label help
-			`	"Well," says Alondo, "it's a good thing we haven't yet publicly announced that Captain <last> is working for us. Captain, we have one final mission for you as an independent merchant captain. We need you to stop on Clink, locate Katya, and bring her safely to Longjump without being stopped by the Navy."`
+			`	"好吧，"阿隆多说，"我们还没有公开宣布<last>上尉为我们工作，这是一件好事。船长，作为一个独立的商船船长，我们有一个最后的任务给你。我们需要你在克林克岛停留，找到卡蒂亚，并在不被海军阻止的情况下把她安全地带到朗琼。"`
 				accept
 	
 	on accept
 		set "chosen sides"
 		event "capture of Kornephoros"
-		log "People" "Alondo Gruyere" `Alondo grew up on Bourne, the relatively prosperous planet on the edge of the Rim that is now the capital of the Free Worlds. He served as a Republic diplomat for years before becoming convinced that Parliament was just using him to "pacify" the less developed worlds in the South with empty promises. He joined the Southern Mutual Defense Pact in the early days, before it became the Free Worlds, and is now a member of the Council.`
-		log "People" "Tomek Voigt" `Tomek is a young and ambitious militia commander. His brilliant tactical leadership and charismatic personality gained him quite a following in the Dirt Belt region even before the Free Worlds came into existence. He was asked to join the Council in part because of his popularity with the local militias throughout the region.`
-		log "People" "Freya Winters" `Freya is an engineer, specializing in surveillance equipment but with a wide range of talents. She organized the "Thousand Eyes" program run by the Southern Mutual Defense Pact, which was an attempt to reduce the power of the pirate fleets in the region by tracking their fleet movements. Despite her relative lack of interest in politics, she was asked to join the Free Worlds Council because of her expertise in optimizing the distribution and management of resources.`
-		log "People" "Jean-Jacques Soleau" `Known to most people simply as "JJ," Jean-Jacques grew up in the Dirt Belt and served in the Navy for years before quitting in frustration over the fact that the Navy was no longer defending his home region of space. He now serves on the Free Worlds Council, where he is tasked with coordinating actions between the local militias and shaping them into a single fighting force that can act in concert with each other.`
+		log "People" "Alondo Gruyere" `阿隆多在伯恩长大，伯恩是环形地区边缘相对繁荣的星球，现在是自由世界的首都。他曾担任共和国外交官多年，后来确信议会只是利用他用空洞的承诺来 "安抚 "南方的欠发达世界。他在早期加入了南方共同防御条约，在它成为自由世界之前，现在是理事会的成员。`
+		log "People" "Tomek Voigt" `托梅克是一位年轻而有抱负的民兵指挥官。他出色的战术领导能力和富有魅力的个性，甚至在自由世界出现之前，就在泥土带地区赢得了相当多的追随者。他被邀请加入理事会，部分原因是他在整个地区的当地民兵中很受欢迎。`
+		log "People" "Freya Winters" `芙蕾雅是一名工程师，专攻监视设备，但具有广泛的才能。她组织了由南方共同防御条约组织实施的 "千里眼 "计划，该计划试图通过跟踪海盗舰队的行动来削弱该地区海盗舰队的力量。尽管她对政治相对缺乏兴趣，但由于她在优化资源分配和管理方面的专长，她被邀请加入自由世界理事会。`
+		log "People" "Jean-Jacques Soleau" `大多数人只知道 "JJ"，让-雅克在泥土带长大，在海军服役多年，后来因为海军不再保卫他的家乡地区而沮丧地退出了。他现在在自由世界理事会任职，他的任务是协调当地民兵之间的行动，并将他们塑造成一支能够相互协调行动的单一战斗力量。`
 
 
 
 mission "Rescue Katya 2"
 	autosave
 	landing
-	name "Rescue Katya"
-	description "Return to <planet> and report to the Free Worlds Council that you were unable to locate Katya."
+	name "拯救卡蒂亚"
+	description "返回<planet>并向自由世界理事会报告，你无法找到卡蒂亚。"
 	source "Clink"
 	destination "Longjump"
 	to offer
 		has "Rescue Katya 1: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
-			`The mining outpost on Clink is swarming with Navy officers; you would guess that they in fact outnumber the miners. You are not sure how you are going to get in there and contact Katya without the Navy noticing.`
+			`克林克岛的采矿前哨站挤满了海军军官；你会猜想他们的人数事实上超过了矿工。你不确定你要如何进入那里，并在海军没有注意到的情况下联系卡佳。`
 			choice
-				`	(Wait in my ship and see if she approaches.)`
-				`	(Check if she is waiting for me out by the test site.)`
+				`	(在我的船上等待，看她是否接近。)`
+				`	(看看她是否在试验场边上等我。)`
 					goto site
-				`	(Make some excuse to enter the outpost.)`
+				`	(找一些借口进入前哨。)`
 					goto enter
 			
 			label wait
-			`	You wait on the landing pad for several hours. Katya does not show up. Navy officers in pressure suits walk by your ship about every fifteen minutes, no doubt wondering what you are doing here.`
+			`	你在登陆台等了几个小时。Katya没有出现。穿着压力服的海军军官大约每15分钟从你的船上走过，毫无疑问，他们想知道你在这里做什么。`
 			choice
-				`	(Check if she is waiting for me out by the test site.)`
-				`	(Make some excuse to enter the outpost.)`
+				`	(看看她是否在试验场边上等我。)`
+				`	(找一些借口进入前哨。)`
 					goto enter
-				`	(Give up and report my failure to the Council.)`
+				`	(放弃吧，向理事会报告我的失败。）`
 					goto fail
 			
 			label site
-			`	You fly over the test site scanning for life signs or energy signatures, but there is nothing. And, there is little chance that Katya could be living out here for long, because she would need an oxygen source.`
+			`	你飞过试验场，扫描生命迹象或能量特征，但什么都没有。而且，卡蒂亚在这里生活的可能性很小，因为她需要一个氧气源。`
 			choice
-				`	(Wait on the landing pad and see if she approaches.)`
+				`	(在登陆台等待，看她是否接近。)`
 					goto wait
-				`	(Make some excuse to enter the outpost.)`
-				`	(Give up and report my failure to the Council.)`
+				`	(找一些借口进入前哨。)`
+				`	(放弃吧，向理事会报告我的失败。）`
 					goto fail
 			
 			label enter
-			`	You put on a pressure suit, leave your ship, and approach the outpost. As soon as you step through the airlock you are stopped by a Navy officer. "What is your business here?" he asks.`
-			`	"My brother is a miner here," you say. "Our mother sent me to check on him."`
-			`	The officer says, "Don't worry, no one here has been hurt, and they will all be free to continue their work shortly. But for now, I'm going to have to ask you to leave this world." He calls over several guards who are wearing pressure suits; they escort you to your ship and command you to take off.`
+			`	你穿上压力服，离开你的飞船，并接近前哨。你一踏进气闸，就被一个海军军官拦住。"你在这里有什么事？"他问。`
+			`	"我哥哥是这里的一名矿工，"你说。"我们的母亲派我来检查他的情况。"`
+			`	那位军官说："别担心，这里没有人受伤，他们很快都会自由地继续工作。但现在，我不得不请你们离开这个世界。"他叫来几个穿着压力服的警卫；他们护送你到你的飞船，并命令你起飞。`
 			
 			label fail
-			`	You have no choice but to head back to <planet> without Katya. The Council is going to be very disappointed.`
+			`	你别无选择，只能在没有卡蒂亚的情况下返回<planet>。理事会将会非常失望。`
 				launch
 	
 	on accept
@@ -2195,13 +2195,13 @@ mission "Rescue Katya 2"
 
 mission "Defend Sabik"
 	landing
-	name "Defend Sabik"
-	description "Help to repulse a Navy attack on Sabik, then land on Longjump to debrief."
+	name "保卫萨比克"
+	description "帮助击退海军对萨比克的攻击，然后降落在Longjump上进行汇报。"
 	source "Longjump"
 	to offer
 		has "Rescue Katya 2: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		set "license: Militia"
@@ -2210,22 +2210,22 @@ mission "Defend Sabik"
 		event "start of hostilities"
 		event "joined the free worlds"
 		conversation
-			`When you land on <planet>, you discover that Tomek has already found transportation here; he meets you almost as soon as your ship lands. When you step out of the hatch alone, without Katya, he turns away in grief. "I'm sorry," you say, "I couldn't locate her. The whole place is under guard."`
-			`	"Very well," he says, "we'll have to pray that she's still hidden there somewhere. In the meantime, we need to make your allegiance official so that you can fight alongside us if it comes to that."`
-			`	He is carrying a paintbrush and a very large can of green paint. "Would you like to do the honors?" he asks.`
+			`当你降落在<planet>上时，你发现托梅克已经在这里找到了交通工具；他几乎在你的飞船降落后就和你见面了。当你独自走出舱门，没有卡蒂亚，他悲痛地转身离开。"我很抱歉，"你说，"我无法找到她。整个地方都有警卫。"`
+			`	"很好，"他说，"我们只能祈祷她还藏在那里的某个地方。同时，我们需要让你正式效忠于我们，这样，如果到了那个时候，你就可以和我们并肩作战了。"`
+			`	他拿着一把画笔和一罐很大的绿色油漆。"你愿意做这个荣誉吗？"他问道。`
 			choice
-				`	"Sure."`
+				`	"当然。"`
 					goto paint
-				`	"I can't just keep flying merchant colors?"`
+				`	"我总不能一直让商人的颜色飞起来吧？"`
 			
-			`	"No," he says, "it would be dishonest, and if you were to fight alongside us you would be classified as a partisan, a criminal rather than an enemy combatant. Believe it or not, you're better off as an official prisoner of war than as a partisan, if you ever do get captured. So, time to start painting."`
+			`	"不，"他说，"这将是不诚实的，如果你和我们并肩作战，你将被归类为游击队员，是罪犯而不是敌方战斗人员。信不信由你，如果你真的被俘，你作为正式的战俘比作为游击队员更好。所以，是时候开始画画了。"`
 			
 			label paint
-			`	You take the paintbrush, climb on top of your ship, and begin painting it in the green and gold of the Free Worlds. Suddenly you hear a cheer from one of the other ships parked nearby; someone has seen what you are doing and is shouting, "For freedom! Another ship for freedom!" Soon several other people see you, and before long it seems like everyone in the port has picked up the cheer.`
-			`	Tomek stands by, silently, until you finish, and then approaches you with an outstretched arm holding onto a license. "Here. You're going to need this. I'm sure your assistance will be invaluable to our cause," he says as you accept the militia license. "Now if you'll excuse me, I must gather the militia for the coming battle."`
-			`	You find that the militia are collecting at the spaceport bar. Some congratulate you on joining the Free Worlds, but most are standing around quietly, waiting for something to happen. More gather as time goes by, to the point that the bar becomes overcrowded and militia are waiting in the streets outside the building.`
-			`	An hour later, while standing outside the bar, you look up and notice the flashing lights of ship weapon fire off in the distance above the planet. Some militia begin running to their ships, but most stand there like a deer in headlights. Just then, Tomek returns with a megaphone and begins shouting orders. "The Navy has entered the system! We can't let them take it, or they'll have us completely bottled up. This is where it begins. We need to fight! Get to your ships, quickly! We have more reinforcements on their way from deeper in the Rim!`
-			`	"And if you can, disable their ships instead of destroying them. These are Navy ships, after all, and most of them don't want war any more than we do. Now go! Your worlds need you!" You hurry to join all the other ships taking off to defend the system.`
+			`	你拿着画笔，爬上你的船顶，开始用自由世界的绿色和金色来画它。突然，你听到停在附近的一艘船发出了欢呼声；有人看到了你正在做的事情，正在喊："为了自由！为了自由！"。另一艘船为了自由！"很快，其他几个人也看到了你，不久之后，似乎港口里的每个人都接受了这种欢呼声。`
+			`	托梅克默默地站在一旁，直到你说完，然后走近你，伸出手臂抓着一张许可证。"给你。你将会需要这个。我相信你的协助对我们的事业是无价的。"他在你接受民兵执照时说。"现在如果你不介意的话，我必须为即将到来的战斗召集民兵。"`
+			`	你发现民兵们正在太空港的酒吧里集合。一些人祝贺你加入自由世界，但大多数人都静静地站在一旁，等待着事情的发生。随着时间的推移，越来越多的人聚集在一起，以至于酒吧变得人满为患，民兵们在建筑外的街道上等待。`
+			`	一小时后，当你站在酒吧外面时，你抬起头来，注意到远处星球上空有飞船武器的闪光灯。一些民兵开始跑向他们的战舰，但大多数人站在那里，像头灯下的小鹿。就在这时，托梅克拿着一个扩音器回来了，开始大声命令。"海军已经进入该系统！"。我们不能让他们拿下它，否则他们会把我们完全束缚住。这是它的开始。我们需要战斗!快到你的船上去，快点！我们有更多的援军正从环形区的深处赶来！"。`
+			`	"如果可以的话，让他们的飞船失效，而不是摧毁它们。这些毕竟是海军舰艇，而且他们中的大多数人比我们更不想打仗。现在走吧!你们的世界需要你们！"你赶紧加入所有其他飞船的行列，起飞去保卫这个系统。`
 				launch
 	
 	on accept
@@ -2321,9 +2321,9 @@ mission "Defend Sabik"
 				"Sparrow"
 	
 	on visit
-		dialog `You've landed on <planet>, but there are still Navy ships circling overhead. You should take off and help finish them off.`
+		dialog `你已经降落在<planet>上，但仍有海军舰艇在头顶上盘旋。你应该起飞并帮助解决他们。`
 	on complete
-		dialog `The Navy has been driven off, but at a great cost. You should probably visit the spaceport and see if Tomek is there, or someone else who can tell you what to do next.`
+		dialog `海军已经被赶走了，但付出了巨大的代价。你也许应该去太空港，看看托梅克是否在那里，或者其他能告诉你下一步该怎么做的人。`
 
 
 

@@ -20,31 +20,31 @@ news "anonymous quarg"
 			"Quarg"
 	message
 		word
-			`"Are you what is called a 'tourist'?"`
+			`"你是所谓的'游客'吗？"`
 	message
 		word
 			`"`
 		word
-			"Are you"
+			"你是"
 		word
 			" "
 		word
-			"a merchant"
-			"a merchant captain"
-			"a travelling merchant"
-			"a captain"
+			"一个商人"
+			"商人船长"
+			"一个旅行商人"
+			"船长"
 		word
 			"?"
 		word
 			" "
 		word
-			"People"
+			"人民"
 		word
 			" "
 		word
-			"of peace"
-			"of law"
-			"of trade"
+			"和平的人"
+			"法律的人"
+			"贸易的人"
 		word
 			" "
 		word
@@ -52,14 +52,14 @@ news "anonymous quarg"
 		word
 			" "
 		word
-			"welcome"
-			"appreciated"
+			"欢迎"
+			"欣赏"
 		word
 			" "
 		word
-			"here"
-			"on Quarg worlds"
-			"on all Quarg worlds"
+			"这里"
+			"在夸父的世界里"
+			"在所有夸父的世界上"
 		word
 			"."
 		word
@@ -71,58 +71,58 @@ news "linguist on quarg planets in human and hai space"
 		attributes "human quarg" "hai quarg"
 	name
 		word
-			"Linguist"
+			"语言学家"
 	message
 		word
 			`"`
 		word
-			"The Quarg language is so different from ours"
+			"夸父的语言与我们的语言如此不同"
 		word
 			" "
 		word
-			"that"
+			"那次"
 		word
 			" "
 		word
-			"most people"
-			"ordinary people"
+			"大多数人"
+			"普通人"
 		word
 			" "
 		word
-			"could never"
-			"wouldn't be able to"
-			"would never"
+			"不可能"
+			"不可能"
+			"永远不会"
 		word
 			" "
 		word
-			"learn it"
-			"understand it"
-			"speak it"
+			"学习它"
+			"了解它"
+			"说它"
 		word
 			`"`
 	message
 		word
 			`"`
 		word
-			"I've been studying"
-			"I've studied"
-			"I've been learning"
+			"我一直在学习"
+			"我已经学习了"
+			"我一直在学习"
 		word
 			" "
 		word
-			"the Quarg language"
+			"夸父语"
 		word
 			" "
 		word
-			"for a decade"
-			"for years"
-			"for the most part of my career"
-			"all my life"
+			"十年来"
+			"多年来"
+			"在我职业生涯的大部分时间里"
+			"我的一生"
 		word
 			", "
 		word
-			"but I still can't pronounce their words"
-			"but I've yet to grasp the logic behind it"
+			"但我还是不能念出他们的单词"
+			"但我还没有掌握其背后的逻辑。"
 		word
 			"."
 		word
@@ -135,32 +135,32 @@ news "linguist on quarg planets in human and hai space"
 		word
 			" "
 		word
-			"writing"
-			"working on"
+			"写作"
+			"工作"
 		word
 			" "
 		word
-			"a study"
-			"an analysis"
+			"一项研究"
+			"分析"
 		word
 			" "
 		word
-			"of the Quarg language"
+			"对夸父语的分析"
 		word
 			", "
 		word
-			"mainly focusing on the "
+			"主要集中在"
 		word
-			"pronunciation"
+			"发音"
 			"use"
 		word
-			" of "
+			" 的"
 		word
-			"nouns"
-			"verbs"
-			"adjectives"
-			"words"
-			"pronouns"
+			"名词"
+			"动词"
+			"形容词"
+			"词"
+			"代词"
 		word
 			"."
 		word
@@ -173,51 +173,51 @@ news "tourist on quarg planets in human and hai space"
 		not attributes "station"
 	name
 		word
-			"Tourist"
+			"游客"
 	message
 		word
 			`"`
 		word
-			"These Quarg look so strange I shiver every time I see one."
-			"This world has the cleanest public toilets I have ever seen."
-		word
-			`"`
-	message
-		word
-			`"`
-		word
-			"I absolutely love the look of these buildings. I'm going to decorate my "
-		word
-			"house"
-			"living room"
-			"apartment"
-			"kitchen"
-			"bedroom"
-		word
-			" after them."
+			"这些夸父看起来很奇怪，我每次看到都会发抖。"
+			"这个世界有我见过的最干净的公共厕所。"
 		word
 			`"`
 	message
 		word
 			`"`
 		word
-			"Have you seen"
+			"我绝对喜欢这些建筑的外观。我打算装饰我的"
+		word
+			"房子"
+			"起居室"
+			"公寓"
+			"厨房"
+			"卧室"
+		word
+			" 在他们之后。"
+		word
+			`"`
+	message
+		word
+			`"`
+		word
+			"你是否见过"
 		word
 			" "
 		word
-			"one of those"
-			"one of their"
+			"其中的一个"
+			"他们中的一个"
 		word
 			" "
 		word
-			"ringworlds"
+			"环形世界"
 		word
-			" from up close"
+			" 从近处看"
 			""
 		word
 			"? "
 		word
-			"I can't even comprehend their extent."
+			"我甚至无法理解他们的程度。"
 		word
 			`"`
 
@@ -227,14 +227,14 @@ news "engineer on quarg planets in human space"
 		attributes "human quarg"
 	name
 		word
-			"Engineer"
-			"Tarazed engineer"
+			"工程师"
+			"塔拉兹德工程师"
 	message
 		word
 			`"`
 		word
-			"Quarg technology is so ahead of us we probably couldn't build their ships even if they gave us the plans."
-			"I'm working on a new spaceship for the Tarazed Corporation. Every once in a while I come here to take some inspiration from these magnificent designs."
+			"夸父的技术比我们领先，即使他们给我们图纸，我们可能也造不出他们的飞船。"
+			"我正在为塔拉兹德公司研制一艘新的飞船。每隔一段时间我就会来这里，从这些宏伟的设计中获取一些灵感。"
 		word
 			`"`
 
@@ -244,46 +244,46 @@ news "merchant on quarg planets in human and hai space"
 		attributes "human quarg" "hai quarg"
 	name
 		word
-			"Merchant"
-			"Captain"
-			"Ship captain"
-			"Merchant captain"
-			"Starship captain"
-			"Spacecraft captain"
-			"Spaceship captain"
-			"Freelance captain"
-			"Merchant pilot"
-			"Starship pilot"
-			"Spacecraft pilot"
-			"Spaceship pilot"
-			"Freelance pilot"
+			"商人"
+			"队长"
+			"船长"
+			"商船船长"
+			"星舰舰长"
+			"宇宙飞船舰长"
+			"飞船船长"
+			"自由职业者舰长"
+			"商人飞行员"
+			"星际飞船驾驶员"
+			"航天器驾驶员"
+			"飞船驾驶员"
+			"自由职业飞行员"
 	message
 		word
 			`"`
 		word
-			"The Quarg have impressive ships, but I bet my "
+			"夸格人有令人印象深刻的飞船，但我打赌我的"
 		word
-			"Behemoth"
+			"巨兽号"
 			"Hauler III"
-			"Bulk Freighter"
+			"散装货船"
 			"Bactrian"
 		word
-			" can carry twice the cargo their ships ever could."
+			" 可以装载两倍于他们船只的货物。"
 		word
 			`"`
 	message
 		word
 			`"`
 		word
-			"The Quarg are an unwarlike species, but I've heard they fought battles against "
+			"夸父族是一个不喜欢战争的物种，但我听说他们与一个外星种族打过仗"
 		word
-			"an alien race"
-			"some insectoid aliens"
+			"一个外星种族"
+			"一些昆虫类的外星人"
 		word
 			" "
 		word
-			"in the past"
-			"a long time ago"
+			"在过去"
+			"很久以前"
 		word
 			"."
 		word
@@ -295,63 +295,63 @@ news "merchant on quarg planets in human space"
 		attributes "human quarg"
 	name
 		word
-			"Merchant"
-			"Captain"
-			"Ship captain"
-			"Merchant captain"
-			"Starship captain"
-			"Spacecraft captain"
-			"Spaceship captain"
-			"Freelance captain"
-			"Merchant pilot"
-			"Starship pilot"
-			"Spacecraft pilot"
-			"Spaceship pilot"
-			"Freelance pilot"
+			"商人"
+			"队长"
+			"船长"
+			"商船船长"
+			"星舰舰长"
+			"宇宙飞船舰长"
+			"飞船船长"
+			"自由职业者舰长"
+			"商人飞行员"
+			"星际飞船驾驶员"
+			"航天器驾驶员"
+			"飞船驾驶员"
+			"自由职业飞行员"
 	message
 		word
 			`"`
 		word
-			"The Quarg go out of their way to keep piracy at bay in these systems. "
+			"夸格人不遗余力地在这些系统中阻止海盗活动。"
 		word
-			"I could fly a fleet of "
+			"我可以驾驶一支由"
 		word
-			"Star Barges"
-			"Shuttles"
-			"Heavy Shuttles"
+			"星际驳船"
+			"穿梭艇"
+			"重型穿梭机"
 		word
-			" around here!"
+			" 在这里!"
 		word
 			`"`
 	message
 		word
 			`"`
 		word
-			"The Quarg are "
+			"夸父族是"
 		word
-			"peaceful"
-			"a peaceful race"
-			"not violent"
+			"平和"
+			"一个和平的种族"
+			"没有暴力倾向"
 		word
 			", "
 		word
-			"but I've seen their weapons at work: they "
+			"但我见过他们的武器在工作：他们"
 		word
-			"took out"
-			"disabled"
-			"destroyed"
-		word
-			" "
-		word
-			"a Leviathan pirate"
-			"a pirate ship"
-			"a marauder ship"
+			"淘汰了"
+			"致残"
+			"摧毁"
 		word
 			" "
 		word
-			"in a matter of seconds"
-			"in a few seconds"
-			"without taking a single hit"
+			"一个利维坦海盗"
+			"一艘海盗船"
+			"一艘掠夺者船"
+		word
+			" "
+		word
+			"在几秒钟内"
+			"几秒钟内"
+			"而不会受到一丝一毫的伤害"
 		word
 			"."
 		word
@@ -363,28 +363,28 @@ news "reporter on quarg planets in human space"
 		attributes "human quarg"
 	name
 		word
-			"Reporter"
+			"记者"
 	message
 		word
 			`"`
 		word
-			"Read my new article:"
-			"Read my new article!"
-			"Read this!"
-			"Look at my new article!"
-			"Look at this!"
+			"阅读我的新文章。"
+			"阅读我的新文章!"
+			"看这个!"
+			"看我的新文章!"
+			"看这个!"
 		word
 			" '"
 		word
-			"Three"
-			"Five"
-			"Seven"
+			"三"
+			"五"
+			"七号"
 		word
 			" "
 		word
-			"Things Tarazed Corporation Stole from the Quarg!"
-			"Things the Quarg helped Tarazed Corporation With!"
-			"Secrets Humanity Learned from the Quarg!"
+			"塔拉兹德公司从夸父那里偷来的东西!"
+			"夸父帮助塔拉泽德公司的事情!"
+			"人类从夸父那里学到的秘密!"
 		word
 			`"`
 
@@ -394,50 +394,50 @@ news "student on quarg planets"
 		attributes "human quarg"
 	name
 		word
-			"Student"
-			"Scholar"
-			"University student"
+			"学生"
+			"学者"
+			"大学学生"
 	message
 		word
 			`"`
 		word
-			"I'm on a"
+			"我正在进行"
 		word
 			" "
 		word
-			"study tour"
-			"field trip"
-			"study visit"
+			"考察"
+			"实地考察"
+			"考察访问"
 		word
 			" "
 		word
-			"with my"
+			"与我的"
 		word
 			" "
 		word
-			"class"
-			"teacher"
-			"tutor"
-			"school"
+			"班级"
+			"老师"
+			"辅导员"
+			"学校"
 		word
 			"."
 		word
 			" "
 		word
-			"They taught me all about"
-			"I learned everything about"
+			"他们教我所有关于"
+			"我学到了关于"
 		word
 			" "
 		word
-			"the ringworlds, but"
-			"the Quarg, but"
+			"环形世界，但"
+			"夸父，但"
 		word
 			" "
 		word
-			"seeing them up close is quite different"
-			"I didn't realize how big they are"
-			"seeing their technology still fascinates me"
-			"the sheer scale of their buildings is astonishing"
+			"近距离看到它们是相当不同的"
+			"我没有意识到他们有多大"
+			"看到他们的技术仍然让我着迷"
+			"他们的建筑规模之大让人吃惊"
 		word
 			"."
 		word

@@ -275,7 +275,7 @@ void GameLoop ( PlayerInfo & player , const Conversation & conversation , const 
 		while ( SDL_PollEvent ( & event ) ) {
 			UI & activeUI = ( menuPanels . IsEmpty ( ) ? gamePanels : menuPanels ) ;
 			
-			myimgui_event ( & event ) ;
+
 
 			
 			// If the mouse moves, reset the cursor movement timeout.
@@ -314,7 +314,7 @@ void GameLoop ( PlayerInfo & player , const Conversation & conversation , const 
 				isFastForward = ! isFastForward ;
 			}
 		}
-					myimgui_framestart();
+		myimgui_framestart();
 		SDL_Keymod mod = SDL_GetModState ( ) ;
 		Font :: ShowUnderlines ( mod & KMOD_ALT ) ;
 
@@ -395,7 +395,7 @@ void GameLoop ( PlayerInfo & player , const Conversation & conversation , const 
 		( menuPanels . IsEmpty ( ) ? gamePanels : menuPanels ) . DrawAll ( ) ;
 		if ( isFastForward )
 		SpriteShader :: Draw ( SpriteSet :: Get ( "ui/fast forward" ) , Screen :: TopLeft ( ) + Point ( 10. , 10. ) ) ;
-
+		myimgui_event ( & event ) ;// not work?
 		myimgui_draw ( ) ;
 		myimgui_render ( ) ;
 

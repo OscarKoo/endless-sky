@@ -13,8 +13,8 @@
 
 mission "Hai Reveal [B01] Information Blackout"
 	landing
-	name "Information Blackout"
-	description "Meet the Syndicate Security Captain in the spaceport on <origin> when you're ready."
+	name "信息封锁"
+	description "当你准备好时，在<origin>的太空港与辛迪加保安队长会面。"
 	source "Sunracer"
 	clearance
 	to offer
@@ -24,8 +24,8 @@ mission "Hai Reveal [B01] Information Blackout"
 	on offer
 		event "hai and human ships at wormhole"
 		conversation
-			`Arriving on Sunracer, the entire port seems to be abuzz with the news. It has not gone unnoticed that the Navy moved a large fleet into the uninhabited systems in the northern corridor between Syndicate space and the Far North. Now, it seems that blockades are going up in Rigel, Nihal, Mirfak & Zaurak using Navy or Syndicate security vessels depending on jurisdiction. The theories are flying thick and fast, but everyone seems to agree on one thing; there is some sort of major crisis happening.`
-			`Your communicator beeps and you realize you have received a message from Remington. There's a Captain of one of their security detachments waiting to meet you in the spaceport. Apparently there have been developments while you were in flight. Now might be the last opportunity to sort anything else out for a little while.`
+			`抵达Sunracer后，整个港口似乎都在为这个消息而忙碌。海军向辛迪加空间和极北地区之间的北部走廊的无人居住的系统中调动了一支大型舰队，这一点并没有被人忽视。现在，似乎在瑞格尔（Rigel）、尼哈尔（Nihal）、米尔法克（Mirfak）和佐拉克（Zaurak）的封锁正在进行，根据管辖权，使用海军或辛迪加安全船只。各种理论纷至沓来，但每个人似乎都同意一件事；有某种重大的危机正在发生。`
+			`你的通讯器发出提示音，你意识到你收到了来自雷明顿的信息。他们的一个安全分队的队长在太空港等着见你。显然，在你飞行时有了一些发展。现在可能是最后的机会了，可以在一段时间内解决其他问题。`
 				accept
 
 
@@ -86,8 +86,8 @@ mission "Hai Reveal [B01-A] The Blockade Goes Up"
 # THIS mission is designed to give you a spectacle. A little visual demonstration of what a real battle could potentially look and feel like with low stakes for you. It's a visual feast, not a challenge.
 mission "Hai Reveal [B02] Join the Fleet"
 	autosave
-	name "Join the Fleet and Invade Stormhold"
-	description "The fleet will arrive in <waypoints> soon. Join it, and lead it to Stormhold."
+	name "加入舰队，入侵Stormhold"
+	description "舰队很快就会到达<waypoints>。加入它，并带领它去Stormhold。"
 	deadline 9
 	# The minimum journey time is 7
 	source "Sunracer"
@@ -98,19 +98,19 @@ mission "Hai Reveal [B02] Join the Fleet"
 		has "Hai Reveal [A14] A Time of Trouble: done"
 	on offer
 		conversation
-			`The Syndicate security captain in the spaceport is very easy to find. She hands you a pad with a secure validation sequence to confirm her briefing comes from the Navy, co-signed by Xilin.`
-			`	She appears to have a posse of other captains with her who conveniently enforce a bubble of privacy around you just by taking up space. "So," she says. "The Republic has agreed to accompany the Hai to precisely one world. Combined intelligence indicates that <planet> is the most likely place for any kidnapped Hai to be, assuming they exist. The blockades that have gone up are to secure this area of space against the secret of this exercise... or at least try to.`
-			`	"There's going to be a battle, and you have a critical role entrusted to you for coordinating the fleet. There can be no detours. Once we start moving it will be one jump to the rendezvous and then two to our target. Are you ready for it?"`
+			`在太空港的辛迪加保安队长很容易找到。她递给你一个带有安全验证序列的垫子，以确认她的简报来自海军，由西林共同签署。`
+			`	她似乎有一队其他队长和她在一起，他们方便地在你周围执行了一个隐私的气泡，只是占用了空间。"那么，"她说。"共和国已经同意陪同海族人去一个世界。综合情报显示，<planet>是任何被绑架的海族最可能出现的地方，假设他们存在的话。已经升起的封锁线是为了确保这片空间的安全，防止这次演习的秘密......或者至少是尝试。`
+			`	"将会有一场战斗，而你被赋予了协调舰队的关键角色。不能有任何迂回。一旦我们开始行动，将是一次跳跃到集合点，然后两次跳跃到我们的目标。你准备好了吗？"`
 			choice
-				`	"I'm ready now."`
-				`	"I need time to prepare."`
+				`	"我现在已经准备好了。"`
+				`	"我需要时间来准备。"`
 					goto prepare
-			`	"Very good." So far she hasn't introduced herself, but as she puts the pad away her flight jacket moves enough for you to see 'Captain Valeria Estrada' printed on the jumpsuit underneath. "Now, to bring you up to speed: At least two pirate groups at <planet> have been involved in smuggling or kidnappings. <planet> is a fortress of anonymity and discretion, as well as being a literal fortress. An agreed upon force of overwhelming numbers has been prepared at Mountaintop. The objective is to overwhelm the defenders, prevent any escapes, and occupy the planet while they ferret out all the groups intelligence has flagged.`
-			`	"The Navy, Unfettered, and Hai fleets will travel from Mountaintop to meet you. We must fly with all haste to <waypoints> to meet them, where you will lead the fleet and coordinate the attack. My security force will follow, but until we get to Sumar don't worry about waiting for us. We'll handle ourselves. Once we're all together in Sumar, your job will be to make sure everyone moves as one for each jump from there to <system>."`
-			`	She lowers her voice even further, despite the privacy afforded already. "There will be two Navy Carrier groups, our full Syndicate Special Security Detachment, the Unfettered Expeditionary Fleet, and a full Hai Taskforce. I haven't heard of a fleet this large in one place since the Alpha Wars. This coordination role is not a joke. There's lots of scope for things to go wrong. We will go in, clean up, and search for Hai. Parliament will reassess the scope of concern later, depending on what we find down there. We follow your lead, Captain <last>."`
+			`	"很好。"到目前为止，她还没有介绍自己，但当她把垫子放好时，她的飞行夹克移动了一下，你可以看到下面的连体服上印有'瓦莱里娅-埃斯特拉达上尉'。"现在，让你了解一下情况。在<planet>至少有两个海盗团伙参与了走私或绑架活动。<planet>是一个匿名和谨慎的堡垒，同时也是一个字面上的堡垒。在山顶已经准备了一支商定的压倒性的部队。目标是压倒守卫者，防止任何逃跑，并占领该星球，同时找出情报部门标记的所有团体。`
+			`	"海军、不受约束的和海的舰队将从山顶出发去迎接你。我们必须急速飞往<waypoints>与他们会合，你将在那里领导舰队并协调攻击。我的安全部队会跟随，但在我们到达苏马之前，不要担心等待我们。我们会自己处理。一旦我们在苏马尔集合，你的工作将是确保每个人在从那里到<system>的每次跳跃中都能统一行动。"`
+			`	她进一步压低了声音，尽管已经提供了隐私。"将有两个海军航母编队，我们完整的辛迪加特别安全支队，不受约束的远征舰队，以及一个完整的海特遣部队。自从阿尔法战争以来，我还没有听说过有这么大的舰队在一个地方。这种协调作用不是开玩笑的。有很多出错的余地。我们将进入，清理，并搜索海。议会稍后将重新评估关注的范围，这取决于我们在下面发现了什么。我们听从你的领导，船长<last>。"`
 				accept
 			label prepare
-			`	She nods. "Very well, but don't take too long. We'll be waiting here for as long as we're able."`
+			`	她点点头。"很好，但不要花太长时间。只要我们有能力，我们就会在这里等待。"`
 				defer
 	npc
 		government "Syndicate"
@@ -155,19 +155,19 @@ mission "Hai Reveal [B02] Join the Fleet"
 		fleet "Marauder fleet X" 4
 	# IX is 4 decent ships each, X is 6 ships but 2 are weak each. Total Fleet Size is roughly 28 + some chaff (~8).
 	on fail
-		dialog `You have failed an essential mission (ALL of one fleet has been wiped out). To complete this story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成一项重要的任务（一个舰队全部被消灭了）。要完成这个故事线，请恢复到自动保存或另一个较早的游戏快照。`
 	on accept
 		fail "Hai Reveal [B01] Information Blackout"
 		fail "Hai Reveal [A11-B] Permanent Fleets"
 	on enter "Moktar"
-		dialog `You have reached the rendezvous and various fleets are arriving. As promised, both Hai and human ships have tied their navigation to your systems for coordinating the next couple of jumps to Alcyone. You have never seen so many military vessels in one place.`
+		dialog `你已经到达了汇合点，各支舰队正在赶来。正如承诺的那样，海族和人类的船只都将他们的导航与你的系统联系在一起，以协调接下来的几个跳跃到Alcyone的过程。你从来没有见过这么多的军舰在一个地方。`
 	on enter "Oblate"
-		dialog `The next jump from here is to Alcyone. Make sure all ships are ready to jump all at once. The pirate and marauder lords of <planet> have prepared for the invasion and are expected to be waiting. A disciplined arrival is essential.`
+		dialog `从这里开始的下一次跳跃是去Alcyone。确保所有的船只都准备好了，可以同时跳跃。<planet>的海盗和掠夺者领主已经为入侵做好了准备，预计他们将在此等候。纪律严明的到来是至关重要的。`
 	on complete
 		event "stormhold suppressed"
 	on visit
 		dialog
-			`When the Hai and humans try to deploy troops, they're drawn off by orbital bombardment. You must defeat the entire pirate and marauder defense fleet before landing.`
+			`当海族和人类试图部署部队时，他们会被轨道轰炸吸引过去。你必须在登陆前击败整个海盗和掠夺者防御舰队。`
 
 event "stormhold suppressed"
 	# Update pirate and anti-pirate spawns in Alcyone - Hai ships stay landed so they don't travel into Syndi space. Korath ships keep away.
@@ -219,8 +219,8 @@ mission "Hai Reveal [B02-S] Republic Intelligence Stalkers"
 
 mission "Hai Reveal [B03] Contact Giti"
 	landing
-	name "Contact Giti"
-	description "Go to <planet> to get a line of communication out to Giti."
+	name "联系吉蒂"
+	description "去<planet>获得一条通往Giti的通讯线路。"
 	source "Stormhold"
 	destination "Canyon"
 	clearance
@@ -228,31 +228,31 @@ mission "Hai Reveal [B03] Contact Giti"
 		has "Hai Reveal [B02] Join the Fleet: done"
 	on offer
 		conversation
-			`While you join the fleet that lands to occupy the spaceport, other assault ships pursue priority targets elsewhere on <origin>. There's a significant wait to ensure that ground troops have secured the port before everyone can reconvene to discuss the next steps.`
-			`	You eventually reach the secured command area set up in the spaceport as Choot'k and Danforth come in discussing tactical minutiae. They are trailed by Batu, and eventually joined by Sayari and Teeneep. One of Danforth's lieutenants brings up the rear and closes the door behind you all.`
-			`	Everyone is waiting for you to speak. It seems this is your final briefing as the commander of the forces before diplomats and military leaders take over.`
+			`当你加入登陆占领太空港的舰队时，其他突击舰则在<origin>的其他地方追求优先目标。在大家重新聚在一起讨论下一步行动之前，需要等待很长一段时间，以确保地面部队已经确保了港口的安全。`
+			`	当Choot'k和Danforth进来讨论战术细节时，你最终到达了设置在太空港的安全指挥区。巴图跟在他们后面，最后萨亚里和蒂尼普也加入进来。丹佛斯的一名副手在后面跟着，并在你们身后关上了门。`
+			`	大家都在等着你讲话。看来这是你作为部队指挥官在外交官和军事领导人接手前的最后一次简报。`
 			label briefing
 			choice
-				`	"What is the status of the <origin> operation?"`
+				`	"<origin>行动的情况如何？"`
 					goto operation
 					to display
 						not "Hai Reveal [B03] Contact Giti: label operation"
-				`	"Is the Hai disinformation campaign still working?"`
+				`	"海氏的造谣活动还在进行吗？"`
 					goto disinformation
 					to display
 						not "Hai Reveal [B03] Contact Giti: label disinformation"
-				`	"Sayari and Teeneep, what are your plans?"`
+				`	"萨亚里和蒂尼普，你们有什么计划？"`
 					goto squirrels
 					to display
 						has "Hai Reveal [B03] Contact Giti: label operation"
 						not "Hai Reveal [B03] Contact Giti: label squirrels"
-				`	"I'm honored to have served you as fleet commander."`
+				`	"我很荣幸能作为舰队司令为你们服务。"`
 					goto honored
 					to display
 						has "Hai Reveal [B03] Contact Giti: label operation"
 						has "Hai Reveal [B03] Contact Giti: label disinformation"
 						has "Hai Reveal [B03] Contact Giti: label squirrels"
-				`	"Excellent work, everyone! Carry on!"`
+				`	"干得好，大家都很好!继续吧!"`
 					goto offended
 					to display
 						has "Hai Reveal [B03] Contact Giti: label operation"
@@ -262,95 +262,95 @@ mission "Hai Reveal [B03] Contact Giti"
 			label operation
 			action
 				set "Hai Reveal [B03] Contact Giti: label operation"
-			`	Danforth begins the report. "Stage one has been successful. However, it looks like we're going to be here a while. <origin> is a rabbit warren of hidden places. Even with the Hai resources on top of everything we've brought, it could take weeks to root things out sufficiently."`
-			`	"General Choot'k, would you agree with the human's assessment of the effort required here?" asks Teeneep.`
-			`	The Unfettered warlord does not even hesitate to respond, "Yes. Even with our superior capacities we will be here a while."`
+			`	丹佛斯开始报告。"第一阶段已经成功了。然而，看来我们要在这里呆上一段时间了。<origin>是一个隐藏的兔子窝。即使在我们带来的所有东西之上再加上海的资源，也可能需要几周的时间才能充分地把东西挖出来。"`
+			`	"Choot'k将军，你同意人类对这里所需努力的评估吗？"提尼普问道。`
+			`	这位不受约束的军阀甚至毫不犹豫地回答："是的。 即使我们有优越的能力，我们也会在这里待上一段时间。"`
 				goto briefing
 			label disinformation
 			action
 				set "Hai Reveal [B03] Contact Giti: label disinformation"
-			`	Batu clears his throat and Danforth glances at him before evidently remembering something discussed earlier. "I'm sorry, Captain <last> and Elder Teeneep. I must advise you that at this stage all hope of keeping the Hai a secret is lost. Even if we could convince all factions to keep the secret, the blockade has drawn too much attention, so all that remains is to resolve our common issues before the Hai become irretrievably common knowledge."`
-			`	Teeneep responds, "We all knew that day would come soon. Be glad we're here together to usher it in peacefully and with strength."`
+			`	巴图清了清嗓子，丹佛斯瞥了他一眼，然后显然想起了之前讨论的事情。"很抱歉，<last>队长和Teeneep长老。我必须劝告你们，在这个阶段，保持海的秘密的所有希望都已丧失。即使我们能说服所有派别保守这个秘密，封锁已经引起了太多的关注，所以剩下的就是在海族成为不可挽回的常识之前解决我们的共同问题。"`
+			`	蒂尼普回应道："我们都知道这一天很快就会到来。很高兴我们在这里一起以和平和力量迎来它。"`
 				goto briefing
 			label squirrels
 			action
 				set "Hai Reveal [B03] Contact Giti: label squirrels"
-			`	"Our place is here, Captain <last>," says Teeneep, definitively.`
-			`	Danforth looks between them. "Perhaps, Elder, you and the Ambassador would find it more comfortable to return to Mountaintop? There will be little diplomacy here, and scarcely more safety, and it would seem to me that, even with Batu here as the Deputy Minister's eyes on the ground, it would be easier to conduct your responsibilities directly."`
-			`	Teeneep seems to bristle but Sayari smoothly cuts in. "You should not concern yourself with our comfort, Admiral. It would not be seemly for the Elder to abandon the field while another leader remains." She looks pointedly at Choot'k. "You may have forgotten also but there are Hai representatives of two governments in this room. It would also be unseemly for our ships to act in concert with the Unfettered without a diplomatic liaison here. And so I too have my place here. Things have happened quickly, of course, but my colleague Hiyamaharu will soon arrive at Mountaintop to act as my counterpart there. I trust things are being attended to, but you might consider checking that your people are properly aware of that."`
+			`	"我们的位置在这里，船长<last>，"蒂尼普明确地说。`
+			`	丹佛斯看着他们之间。"也许，长老，你和大使会觉得回到山顶更舒服？这里不会有什么外交活动，也几乎没有什么安全问题，在我看来，即使有巴图在这里作为副部长的眼睛，直接履行你们的职责也会更容易。"`
+			`	蒂尼普似乎很生气，但萨亚里顺利地插话。"你不应该关心我们的安慰，将军。如果长老放弃战场，而另一位领导人还在，那就不太合适了。"她尖锐地看着Choot'k。"你可能也忘记了，但在这个房间里有两个政府的海员代表。如果我们的船在没有外交联络员的情况下与不受约束的人一起行动，也是不体面的。因此，我在这里也有我的位置。当然，事情发生得很快，但我的同事Hiyamaharu很快就会到达Mountaintop，作为我在那里的对应方。我相信事情正在得到处理，但你可以考虑检查一下，你的人是否正确地意识到了这一点。"`
 				goto briefing
 
 			label offended
-			`	Everyone looks surprised or offended, as if you are the court jester who thought he was king. They're dismissive of your comment, as they begin to discuss your departure.`
+			`	每个人看起来都很惊讶或被冒犯，好像你是以为自己是国王的宫廷小丑。他们对你的评论不屑一顾，因为他们开始讨论你的离开。`
 				goto done
 			label honored
-			`	The leaders all look pleased. General Choot'k says, "You've surpassed my expectations, Captain <last>. I've never seen a fleet so large, but you led it to victory with the speed and skill of a veteran general." Danforth looks just as impressed.`
+			`	领导们都显得很高兴。Choot'k将军说："你已经超过了我的期望，队长<last>。我从未见过如此庞大的舰队，但你以一个老将的速度和技巧带领它取得了胜利。"丹佛斯看起来同样印象深刻。`
 			label done
 			action
-			`	Danforth explains, "For now, all communication in and out of the area is blocked at the relay unless it is to or from specific high-level Navy or Syndicate sources. Captain <last>, I'm afraid that also includes you. We don't have time or equipment to harden your systems against potential intrusion, but you do have the nearly exclusive freedom to pass through the blockade. You're a pilot, not a ground combat troop operator, so you should pursue other matters."`
-			`	On your way out Sayari catches you. "Let's meet aboard Teeneep's ship. We have sensitive matters to discuss." You follow her to the ship.`
+			`	丹佛斯解释说："目前，所有进出该地区的通讯都在中继站被封锁，除非是与特定的高层海军或辛迪加来源的通讯。队长<last>，恐怕这也包括你。我们没有时间或设备来加固你的系统以防止潜在的入侵，但你确实有通过封锁的几乎专有的自由。你是一名飞行员，而不是地面作战部队的操作员，所以你应该去处理其他事情。"`
+			`	在你出去的路上，萨亚里抓住了你。"让我们在蒂尼普的飞船上见面。我们有敏感的事情要讨论。"你跟着她上了船。`
 			choice
-				`	"What is it, Sayari?"`
-				`	"Do you have more leads on the smuggling operation?"`
-			`	Once there she pulls up information on known or possible smuggling operations used to justify the <origin> operation. Her focus is on what they hadn't reconciled. "Unfortunately, while many matches were found, there was nothing in the new data that conclusively linked to the mysterious symbol. No human escapees had been tested for mild cadmium poisoning, so that was a dead end too. I know it's been thrust into the background pretty heavily, but did you find anything yourself? We need to decide if we're setting this aside or not."`
+				`	"什么事，萨亚里？"`
+				`	"你有更多关于走私行动的线索吗？"`
+			`	一旦到了那里，她就会调出已知或可能的走私行动的信息，用来证明<origin>行动的合理性。她的重点是他们没有调和的内容。"不幸的是，虽然找到了许多匹配的数据，但在新的数据中没有任何东西与神秘的符号有确凿的联系。没有人类逃亡者被检测出轻度镉中毒，所以这也是一个死胡同。我知道这已经被推到了很高的位置，但你自己有什么发现吗？我们需要决定是否搁置这个问题。"`
 			choice
-				`	"I've met a researcher named Giti who has been quite informative."`
+				`	"我遇到了一个叫Giti的研究人员，他的信息量相当大。"`
 					goto giti
-				`	"I need to leave the communication blackout to check."`
-			`	Sayari responds. "Yes, of course.`
+				`	"我需要离开通讯中断的地方去检查。"`
+			`	萨亚里回应道。"是的，当然了。`
 				goto end
 			label giti
-			`	You relate to her your meetings with Giti and the evidence she gathered.`
-			`	"If you haven't heard from her in a while," Sayari says, "then perhaps she has more information by now?`
+			`	你向她讲述你与吉蒂的会面以及她收集的证据。`
+			`	"如果你有一段时间没有她的消息，"萨亚里说，"那么也许她现在已经有了更多的信息？`
 			label end
-			`	"Please, while we have some time. Follow up that thread and then return. At this point if it proves to be a fruitless search then so be it, but I insist on having no loose ends we haven't tried our best to follow to conclusion. If you come back and that's the end, I'll bring Teeneep around."`
-			`	Recalling the star charts, you remember that <destination> is the nearest planet outside the communications blackout zone.`
+			`	"请在我们有时间的时候。跟进那条线，然后再回来。在这一点上，如果它被证明是一个没有结果的搜索，那就这样吧，但我坚持认为，没有任何我们没有尽力跟踪到结论的遗留问题。如果你回来了，这就是结局，我会把蒂尼普带过来。"`
+			`	回顾星图，你记得<destination>是通讯封锁区外最近的行星。`
 				accept
 
 
 
 mission "Hai Reveal [B04] The Road Not Taken"
 	landing
-	name "Investigate Coordinates"
-	description "Investigate the coordinates Giti found via jump drive"
+	name "调查坐标"
+	description "调查Giti通过跳跃驱动器找到的坐标"
 	source "Canyon"
 	waypoint "Devil-Run"
 	destination "Earth"
 	to offer
 		has "Hai Reveal [B03] Contact Giti: done"
 	on visit
-		dialog `You need to pass through the system at the coordinates before coming here.`
+		dialog `你需要通过坐标处的系统才能来到这里。`
 	on enter "Devil-Run"
 		log `Found a previously unknown system with a red wormhole in the most pirate-infested region of Syndicate space.`
-		dialog `You enter the system and find it to be largely barren, and yet there is what appears to be a red wormhole here. It is entirely possible that here, in the middle of the most pirate-infested region of Syndicate space, there is a route to somewhere else. This is an important discovery that needs to be reported. It would be safest to meet Giti in person and discuss what to do next.`
+		dialog `你进入该系统，发现它基本上是不毛之地，然而这里似乎有一个红色的虫洞。完全有可能，在这里，在辛迪加空间中海盗最猖獗的地区中间，有一条通往其他地方的路线。这是一个重要的发现，需要报告。最安全的做法是亲自去见吉蒂，讨论下一步该怎么做。`
 	on enter "Deep Space 7C"
 		log `Passed through the wormhole in Syndicate space to a region just outside the Milky Way galaxy. It looks like a good place to hide.`
-		dialog `It takes your computer a few seconds to triangulate, but it says you've left the Milky Way galaxy and are now just beyond the edge of the known galactic disc. Your computer is identifying the system name as "Deep Space 7C" from old astronomical surveys done in the early 22nd century. This is definitely a good place to hide. It is past time to return to Giti now and discuss what to do next.`
+		dialog `你的电脑花了几秒钟进行三角定位，但它说你已经离开了银河系，现在正好在已知银河盘的边缘之外。你的电脑根据22世纪初进行的旧天文调查，将系统名称确定为 "深空7C"。这绝对是一个藏身的好地方。现在已经过了返回Giti的时间，讨论下一步该怎么做。`
 	on offer
 		event "reveal devil-run"
 		conversation
-			`Once safely parked and hooked into the relay network from Canyon you check timezones and place a call to Giti. Astonishingly, you manage to get a remarkably clean connection and don't have to leave a message. Perhaps by fluke it's night in all the most populous places between here and there. She's at her desk when she answers, and it occurs to you for the first time that a research console on a Navy grade connection probably has pretty good bandwidth. "Oh it's a relief to see you Captain. There's been so much going on, I feared you'd been caught up and detained with all that blockade stuff that all over the news right now. You're lucky though, it's quite late here and I was just about to pack up."`
+			`一旦安全地停好车，并从Canyon连接到中继网络，你就检查时区并给Giti打一个电话。令人惊讶的是，你设法获得了一个非常干净的连接，而且不需要留下信息。也许是侥幸，在这里和那里之间所有人口最多的地方都是晚上。她接电话时正在办公桌前，你第一次想到，一个海军级连接的研究控制台可能有相当好的带宽。"哦，见到你真是松了一口气，船长。发生了这么多事，我担心你会被那些封锁的东西缠住，现在所有的新闻都是这样。不过你很幸运，这里已经很晚了，我正准备收拾东西。"`
 			choice
-				`	"I was a little caught up, actually."`
-				`	"What do you know about the blockades?"`
-			`	As you draw breath to speak she cuts you off. "I actually don't have a lot of time or I'll miss my ride, so we'll skip the pleasantries. Obviously if you're calling me back you want to know what I found about the notation. That too is something you have good timing on, I was delayed on that until just a couple days ago. Now where was that file... ah here it is.`
-			`	"So, the notation is actually quite dense, and is mostly some probably meaningless prose about something called 'Elenchus'. It sounds aspirational. However, it also refers to a secret gateway. I'm sending you some coordinates." You receive a simple text message a moment later with some system coordinates in it.`
+				`	"实际上，我是有点被抓了。"`
+				`	"你对封锁有什么了解？"`
+			`	当你吸口气想说话时，她打断了你。"实际上我没有多少时间，否则我会错过我的车，所以我们就跳过寒暄。显然，如果你给我回电话，你想知道我对记号的发现。这也是你的好时机，我在这方面一直拖延到几天前。现在，那个文件在哪里......啊，在这里。`
+			`	"所以，这个符号实际上是相当密集的，而且主要是一些可能毫无意义的散文，关于一个叫'Elenchus'的东西。这听起来很有吸引力。然而，它也提到了一个秘密的通道。我给你发一些坐标。"一会儿，你收到一条简单的短信，里面有一些系统坐标。`
 			choice
-				`	"What is Elenchus?"`
-				`	"I've never seen this system on a star map. What do you expect to find there?"`
-			`	Giti ignores your question and continues. "What I've just sent you is the modern representation of coordinates in the notation. Now it's possible there's some kind of code or cipher, in which case they'd be wrong, but if they are direct from the notation, they indicate a system in Syndicate space that is not on the regular star maps. It must require a jump drive to access, but fortunately I know you happen to have one."`
-			`	She shrugs. "Of course, I have no idea how they'd have a jump drive, but that's not my problem. Whether you find something or not, come back and see me. If that turns up bust, I found an online community who seem to be a support group for people who've had family members kidnapped. The missing person reports for some of them are suspiciously close matches or share features with those in the files you left for me. I haven't looked deeply though, it just came up yesterday while I was chasing down loose threads."`
+				`	"Elenchus是什么？"`
+				`	"我在星图上从未见过这个系统。你希望在那里找到什么？"`
+			`	吉蒂不理会你的问题，继续说道。"我刚才发给你的是现代的坐标表示记号。现在有可能存在某种代码或密码，在这种情况下，它们会是错误的，但如果它们是直接来自记号，它们表明辛迪加空间的一个系统不在常规星图上。它一定需要一个跳跃驱动器才能进入，但幸运的是，我知道你刚好有一个。"`
+			`	她耸耸肩。"当然，我不知道他们怎么会有一个跳跃驱动器，但这不是我的问题。无论你是否找到了什么，都要回来见我。如果找到了破绽，我发现一个网上社区，他们似乎是一个支持家庭成员被绑架的人的团体。其中一些人的失踪人口报告与你留给我的文件中的人有可疑的匹配或共同特征。不过我还没有深入研究，这只是昨天我在追寻松散线索时发现的。"`
 			choice
-				`	"Can you tell me more about the victim support group?"`
-				`	"How do you know I have a jump drive?"`
-				`	(Give up on getting any more information out of her.)`
+				`	"你能告诉我更多关于受害者支持小组的情况吗？"`
+				`	"你怎么知道我有一个跳转驱动器？"`
+				`	(放弃从她口中得到更多信息）。`
 					goto giveup
-			`	She seems rushed and ignores you, picking up a bag and putting some items from her desk into it.`
+			`	她似乎很匆忙，没有理会你，拿起一个袋子，把她桌子上的一些物品放进袋子里。`
 				goto end
 			label giveup
-			`	She picks up a bag and starts putting some items from her desk into it.`
+			`	她拿起一个袋子，开始把她桌子上的一些物品放进袋子里。`
 			label end
-			`	"In any event, I really must go. Check out those coordinates, and then come see me. Fly safe, Captain!"`
+			`	"无论如何，我真的得走了。检查一下那些坐标，然后来找我。飞行安全，船长！"`
 				accept
 
 event "reveal devil-run"
@@ -401,8 +401,8 @@ event "knows about keystones and wormholes"
 mission "Hai Reveal [B05-short] The Road Not Taken"
 	autosave
 	landing
-	name "Syndicate Internal Affairs"
-	description "Go directly to <planet> or you will become a fugitive in Republic space."
+	name "辛迪加内部事务"
+	description "直接去<planet>，否则你将成为共和国空间的一名逃犯。"
 	deadline
 	source "Earth"
 	destination "Hephaestus"
@@ -415,80 +415,80 @@ mission "Hai Reveal [B05-short] The Road Not Taken"
 	on offer
 		fail "Hai Reveal [B02-S] Republic Intelligence Stalkers"
 		log `Giti tripped an alert which places you both under the jurisdiction of a Syndicate Internal Affairs investigation. You've were sent directly to Hephaestus.`
-		log "Minor People" "Agent Kopkow" `A Republic Intelligence officer who intercepted your investigation with Giti before involving you with Syndicate Internal Affairs.`
+		log "Minor People" "Agent Kopkow" `一位共和国情报人员，在将你卷入辛迪加内务部之前，截获了你与吉蒂的调查。`
 		conversation "giti tripped an alert"
 	on fail
 		"reputation: Republic" <?= -100
 		"reputation: Syndicate" <?= -100
-		dialog `You have failed a critical narrative mission and are now considered an outlaw. If you want to complete this story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成一项关键的叙事任务，现在被认为是一个逃犯。如果你想完成这个故事线，请恢复到自动保存或另一个较早的游戏快照。`
 
 
 
 conversation "giti tripped an alert"
-	`After a long series of shuttles, high-speed rails, and a several-minute-long elevator ride, you once again reach Giti's office.`
-	`	As soon as she sees you she says, "Captain <last>! Welcome back. Please, come in."`
-	`	She walks into the room and as you follow you go to shut the door, since she didn't, and come face to face with four people in Republic Intelligence uniforms standing either side of the door waiting for you. They each have a hand on their holstered weapons, but none make any move to draw them.`
-	`	"Captain <last>," says the man to your right, "please shut the door."`
+	`经过一长串的班车、高速铁路和长达数分钟的电梯，你再次到达吉蒂的办公室。`
+	`	她一看到你就说："船长<last>!欢迎回来。请进来吧。"`
+	`	她走进房间，当你跟随时，你去关上了门，因为她没有关，迎面而来的是四个穿着共和国情报局制服的人站在门的两边等着你。他们每个人都有一只手放在他们的枪套上，但没有人做出任何拔枪的动作。`
+	`	"队长<last>，"你右边的人说，"请把门关上。"`
 	choice
-		`	(Shut the door.)`
+		`	(关上门。)`
 			goto talk
-		`	(Draw your weapon.)`
-	`	You are not faster than four trained intelligence operatives.`
+		`	(拔出你的武器。)`
+	`	你的速度不比四个受过训练的情报人员快。`
 		die
 	label talk
-	`	The man, whose Republic Intelligence uniform is labeled with the name "Agent Kopkow", nods very firmly and gestures for you to take one of the only seats in the room. He takes the one opposite and Giti sits at her desk. The three agents remain standing.`
-	`	You've had some encounters with Republic Intelligence, but you know what everyone knows. They're the top police force of the Republic, dealing with high-profile civilian crimes that local authorities can't handle: murder investigations, interplanetary kidnappings, and the like. They also gather intelligence throughout human space, and possibly beyond, reporting directly to the Republic Parliament... which mostly means it's beholden to the interests of the members of Parliament.`
+	`	那人的共和国情报局制服上标有 "科普科特工 "的名字，他非常坚定地点点头，并示意你坐到房间里唯一的一个座位上。他坐到对面的那个位置，吉蒂坐在她的办公桌前。三位特工仍然站着。`
+	`	你与共和国情报局有过一些接触，但你知道大家都知道的事情。他们是共和国的最高警力，处理地方当局无法处理的高调平民犯罪：谋杀调查、星际绑架，等等。他们还收集整个人类空间的情报，可能还有更多，直接向共和国议会报告......这多半意味着它受制于议会成员的利益。`
 	choice
-		`	"What's the problem?"`
+		`	"有什么问题吗？"`
 			goto uncomplaining
-		`	"I'm on an urgent mission that is critical for three governments. Don't bar my way."`
-	`	Uncannily, the agents all smirk at you at the same time. Kopkow responds flatly, "We don't respond well to threats."`
+		`	"我在执行一项紧急任务，这对三个政府来说至关重要。不要阻挡我的路。"`
+	`	不可思议的是，特工们都同时对你笑了笑。Kopkow平淡地回应道："我们对威胁的反应不大。"`
 	label uncomplaining
-	`	"Now, Captain <last>, your friend Giti here has tripped a flag in our systems that marks what you're looking into as an item of particular interest to Syndicate Internal Affairs. In fact, it is an interest which they have exclusive and sole jurisdiction over, even over and above us." He looks at you meaningfully. "That requires an Act of Parliament in a closed session, which has not occurred for a significant length of time, if you catch my drift."`
-	`	He clears his throat. "We've been following you recently, and interrogating some people you've met. Since we have determined that you have found... something, and that it is meaningful, we must send you to Hephaestus. We request that you take Giti, any information or equipment you were planning to take, and go immediately and directly. Do you understand?"`
+	`	"现在，队长<last>，你的朋友吉蒂在我们的系统中触发了一个标志，标志着你正在研究的东西是辛迪加内务部特别感兴趣的项目。事实上，这是一个他们拥有专属和唯一管辖权的利益，甚至超过我们。"他意味深长地看着你。"这需要在闭门会议上通过一项议会法案，这已经有相当长的时间没有发生了，如果你明白我的意思。"`
+	`	他清了清嗓子。"我们最近一直在跟踪你，并审讯了你遇到的一些人。既然我们已经确定你找到了......一些东西，而且它是有意义的，我们必须把你送到赫菲斯托斯。我们要求你带着吉蒂、任何你打算带走的信息或设备，立即直接前往。你明白吗？"`
 	choice
-		`	"Yes"`
+		`	"是的"`
 			accept
-		`	"I would prefer not to."`
-	`	Agent Kopkow narrows his eyes at you very slightly. "This is not an optional request." Beyond your line of sight you can hear the faint rustle of clothing shift where the agents are still standing.`
+		`	"我希望不要这样做。"`
+	`	科普柯探员很轻微地眯起眼睛看着你。"这不是一个可选的要求。"在你的视线之外，你可以听到衣服转移的微弱沙沙声，那里的特工还在站着。`
 	choice
-		`	(Comply.)`
+		`	(遵命。)`
 			accept
-		`	(Draw your weapon.)`
-	`	You are not faster than four trained intelligence operatives.`
+		`	(拔出你的武器。)`
+	`	你的速度不比四个受过训练的情报人员快。`
 		die
 
 
 
 mission "Hai Reveal [B05-long] The Red Mystery"
 	landing
-	name "Seeking Aid"
-	description `Seek out a man Giti has identified who has been independently looking into this with some degree of competence.`
+	name "寻求援助"
+	description `寻找一个Giti认定的人，他在一定程度上独立调查此事。`
 	source Earth
 	destination Wayfarer
-	clearance `Curious about your story, the authorities let you land.`
+	clearance `对你的故事感到好奇，当局让你降落。`
 	to offer
 		has "Hai Reveal [B04] The Road Not Taken: done"
 		not "event: knows about keystones and wormholes"
 		not "Hai Reveal [B05-short] The Road Not Taken: offered"
 	on offer
 		conversation
-			`At length you return again to tell Giti about the system with the unstable wormhole in it. You aren't required to land elsewhere on the planet this time, so it's a shorter, if equally crowded, journey to her office.`
-			`	After the both of you spend some time pouring over things for a while, she concludes that they must have some sort of special feature they're using to access it. "It just doesn't make sense that there'd be a system there, that they have coordinates to, that they're not using. Especially when we can't find them anywhere else."`
+			`渐渐地，你再次返回，告诉吉蒂关于那个有不稳定虫洞的系统。这次你不需要在地球上的其他地方降落，所以去她办公室的路程较短，但同样拥挤。`
+			`	在你们两个人花了一些时间倒腾了一阵子之后，她得出结论，他们一定有某种特殊功能，他们用它来访问。"那里有一个系统，他们有坐标，但他们却没有使用，这实在是说不通。特别是当我们在其他地方找不到他们的时候。"`
 			choice
-				`	"Do you have any other leads I can follow?"`
-				`	"Even if I've found them, I don't know what they're doing or how. Any ideas?"`
-			`	She looks at the many tabs displaying the information you've brought or she's found. "You remember that online community on unexplained kidnappings? I came across a man who might, just maybe, know something useful. He claims to have found something odd related to cases in the set in your data, and one of the cases in your set is the disappearance of his wife, which is where his motivation comes from.`
-			`	"His theory is... well, it's a bit crackpot for the local authorities. I wouldn't have believed it either, were it not for the vastly superior swathe of information we now have at our disposal, but it might be what you need. I think you should go seek him out on <planet>."`
-			`	She rummages around and then presents you with a data stick. "This has the information he gave me to follow him up. I convinced him to trust me, so hopefully he's receptive to you. It also has all the data that explicitly identifies all the ship IDs that are associated with our suspicious cases. That's the best I've got for you, though. If this doesn't pan out we'll need to go a different way."`
+				`	"你有什么其他的线索可以让我跟踪吗？"`
+				`	"即使我找到了他们，我也不知道他们在做什么或怎么做。有什么想法吗？"`
+			`	她看了看显示你带来的或她找到的信息的许多标签。"你还记得那个关于无法解释的绑架案的网上社区吗？我遇到了一个人，他可能，只是可能，知道一些有用的东西。他声称发现了一些与你的数据中的案件有关的奇怪的东西，而你的数据中的一个案件是他妻子的失踪，这就是他的动机的来源。`
+			`	"他的理论是......嗯，对于当地政府来说，这有点破绽百出。我也不会相信，要不是我们现在掌握的信息量大得多，但这可能是你需要的。我想你应该去<planet>上找他。"`
+			`	她四处翻找，然后给你一个数据棒。"这里面有他给我的信息，让我跟踪他。我说服了他相信我，所以希望他能接受你。它也有所有的数据，明确指出所有与我们的可疑案件有关的飞船ID。不过，这是我给你的最好的资料了。如果这没有结果，我们就需要走另一条路。"`
 				accept
 
 
 
 mission "Hai Reveal [B06-long] Tarazed Analysis"
 	landing
-	name "Hunting Smugglers"
-	description `Find and board a smuggler's ship. Your display will identify them as the "Smuggler" government, but they will still look like merchants. Try Syndicate space or the Far North. Then investigate any leads and return to <planet>.`
+	name "猎杀走私者"
+	description `找到并登上一艘走私者的船。你的显示器会识别他们是 "走私者 "政府，但他们看起来仍然像商人。试试辛迪加空间或远北地区。然后调查任何线索并返回<planet>。`
 	source Wayfarer
 	destination Earth
 	clearance
@@ -498,59 +498,59 @@ mission "Hai Reveal [B06-long] Tarazed Analysis"
 		has "Hai Reveal [B06-long] Boarded Smuggler: offered"
 		not "Hai Reveal [B06-long] Boarded Smuggler: active"
 	on visit
-		dialog `You have not yet boarded a ship to learn anything about the smugglers. You will need to do this to continue.`
+		dialog `你还没有登船了解关于走私者的任何情况。你将需要这样做才能继续。`
 	on offer
 		event "devil-run smugglers visible"
-		log "People" "Goraz Zoltof" `Goraz is a communications researcher from Tarazed Shipyards. His wife went missing some time ago, and he hopes his research will lead to her rescue.`
-		log "Factions" "Smugglers" `Some pirate or merchant ships (identified by the computer as "Smuggler") are identifiable by an odd frequency variance in their relay signatures. They are probably involved in kidnapping human or Hai specialists.`
+		log "People" "Goraz Zoltof" `戈拉兹是塔拉兹德船厂的一名通讯研究员。他的妻子前段时间失踪了，他希望他的研究能让她获救。`
+		log "Factions" "Smugglers" `一些海盗或商船（被计算机识别为 "走私者"）可通过其中继信号中奇怪的频率变化来识别。他们可能参与了绑架人类或海族专家。`
 		log `Goraz Zoltof has installed a program allowing you to check the logs of hyperspace relay stations to identify possible smuggling ships involved in the kidnappings you're investigating. The data he has acquired with his limited resources only indicates coreward parts of Syndicate space, but your other data suggests comparable evidence might be found in the Far North.`
 		conversation
-			`Following Giti's directions you make your way to the communications research laboratory for Tarazed Shipyards in search of a man named Goraz Zoltof who works there. The brief contains an address and detailed information about the man, whose wife went missing under mysterious circumstances some time ago, though it's mostly information you've already been told. After a short commute by subway you reach his house and knock on the door.`
-			`	He's a little groggy, but manages to ask, "Yes?" You explain about the kidnappings and how your colleague thinks his theory is worth investigating. You avoid mentioning that some of the people are Hai, just in case he's never heard of them. He seems to awaken immediately. "You found a lead on my wife's disappearance? Wait, you're with 'BookWyrm23'?!" He turns and steps into a pair of slip-on shoes while grabbing a jacket. "Let's go to my laboratory at once! I can show you."`
+			`按照吉蒂的指示，你来到塔拉兹德船厂的通信研究实验室，寻找在那里工作的一个叫戈拉兹-佐尔托夫的人。简报中包含了这个人的地址和详细信息，他的妻子前段时间在神秘的情况下失踪了，尽管这些信息大多是你已经知道的。经过短暂的地铁通勤，你到达了他家，并敲开了门。`
+			`	他有点昏昏沉沉的，但还是忍不住问："是吗？"你解释了绑架事件，以及你的同事如何认为他的理论值得调查。你避免提及其中一些人是海，以防他从未听说过他们。他似乎立即醒悟过来。"你找到了关于我妻子失踪的线索？等等，你和'BookWyrm23'在一起？"他转过身，踏上一双防滑鞋，同时抓起一件外套。"我们马上去我的实验室吧!我可以给你看。"`
 			choice
-				`	"Sure." (Head to the laboratory.)`
+				`	"当然。"(向实验室走去。)`
 					goto lab
-				`	"A lead of a sort."`
+				`	"某种程度上的线索。"`
 					goto lead
-				`	"Oh that's her handle?"`
-			`	He blinks at you. "I mean, I assume you're with the librarian?"`
-			`	"Research librarian," you clarify.`
-			`	"Exactly, come on, lets go." He quickly leads the way back to the tube.`
+				`	"哦，这是她的把手？"`
+			`	他对你眨眨眼。"我是说，我想你是和图书管理员一起的？"`
+			`	"研究馆员，"你澄清道。`
+			`	"没错，来吧，我们走。"他迅速带路回到了管子里。`
 				goto lab
 			label lead
-			`	You clarify that technically it's a lead on cases that match the same profile as his wife's, not strictly his wife's case. His expression falters momentarily and then he seems to find some internal resolve to draw upon. "Good enough for me... Thank you, for your honesty."`
+			`	你澄清说，从技术上讲，这是与他妻子的资料相同的案件的线索，而不是严格意义上的他妻子的案件。他的表情瞬间动摇了，然后他似乎找到了一些可以利用的内部决心。"对我来说足够好了......。谢谢你，谢谢你的诚实。"`
 			label lab
-			`	After a short return trip, you reach what looks like a small private spaceport. From the extra equipment and unusual ship designs, it must be a Tarazed Corporation research shipyard. Goraz's laboratory is an entire docking bay with a modified Blackbird, but despite its size, it is conspicuously absent any other personnel. He takes you on board and, noting your attention to your surroundings, explains that he has a few assistants who are off-world most of the time.`
-			`	Goraz says, "Here, let me take a look at what you've brought me." He's eyeing your pockets.`
+			`	在短暂的回程之后，你到达了一个看起来像小型私人太空港的地方。从额外的设备和不寻常的飞船设计来看，它一定是塔拉兹公司的研究船厂。戈拉兹的实验室是一整个对接舱，里面有一艘改装过的黑鸟号，但尽管它很大，却明显没有任何其他人员。他带你上船，并注意到你对周围环境的关注，解释说他有几个助手，他们大部分时间都在世界之外。`
+			`	戈拉兹说："来，让我看看你给我带来了什么。"他正盯着你的口袋。`
 			choice
-				`	"It's all in this data stick."`
-				`	"I think this is what you've been looking for."`
-			`	Goraz takes the data stick you brought and plugs it into the communicator. After several minutes of mucking about with list formats and muttering incoherently to himself, a search result collates matches on his screen and he pauses. You're not sure exactly what you're looking at, but when it finishes he lets out a long slow breath and comments to himself in a low voice. "Bastijn Biesterveld, you absolute legend. He was right - it's the interference."`
-			`	He turns back to you and explains. "Normally interference isn't something that's logged, but when you're in civilized space with hyperspace relays, your ship does a final handshake with the local relay station as it jumps." He pauses briefly, maybe to see if you understand him.`
-			`	You see a long technical explanation coming on.`
+				`	"都在这个数据棒里。"`
+				`	"我想这就是你一直在寻找的东西。"`
+			`	戈拉兹接过你带来的数据棒，把它插进通讯器。在对列表格式进行了数分钟的处理，并语无伦次地喃喃自语之后，一个搜索结果在他的屏幕上整理匹配，他暂停了。你不确定你到底在看什么，但当它结束时，他缓慢地吐出一口长气，用低沉的声音自言自语道。"Bastijn Biesterveld，你这个绝对的传奇。他是对的--这就是干扰。"`
+			`	他回头向你解释。"通常情况下，干扰不是被记录的东西，但是当你在有超空间中继的文明空间时，你的飞船在跳跃时与当地的中继站做最后的握手。"他简短地停顿了一下，也许是想看看你是否理解他的意思。`
+			`	你看到一个冗长的技术解释即将到来。`
 			choice
-				`	"Skip the technical bits, please. Can you tell me what I need to do?"`
+				`	"请跳过技术部分。你能告诉我，我需要做什么吗？"`
 					goto skip
-				`	"I've helped with hyperspace relays recently, and I can never get enough lectures about hyperspace network issues. Please don't spare any details."`
-			`	He nods and begins his lecture. "The local relay station your ship contacts sends that handshake signature to the destination station so it knows exactly who you are to be able to reconnect communications at the other end. It's a fully automatic process, and it's independent of ship IDs. It's just buried in there as a check from back in the days when hyperdrives would occasionally explode and we'd need to work out who went missing. It gets logged and automatically overwritten every couple days, and someone would probably have gotten rid of it if it wasn't so deeply baked into the way the system works. If you know when a ship jumped and where it jumped to, you can use it to confirm it didn't blow up; and if there's something wrong with the communications equipment you can use the log info to identify if a specific ship is the same ship talking to you later, but neither of those are particularly useful since the same information can be acquired more easily and in much higher quality through other means.`
-			`	"There's a small group of us comms geeks that have lost people, or know people who have, that the authorities can't help. We're scattered all over and we've been looking at this ourselves. Together we identified some ships we thought were suspicious, but we've not been able to pin down anything concrete. Bastijn was convinced there was a pattern of interference signatures from the logs; he made the analysis program, but it was never definitively distinct from the noise. This data set you've brought, though. Well, once you filter for the subset of ships in our data set, what you've given me matches so completely to the set of ships we've found with interference that it has to be a match! Ninety-eight point five percent confidence interval completely annihilates the idea that it could be random."`
+				`	"我最近帮助处理了超空间中继问题，关于超空间网络问题的讲座我永远都听不够。请不要放过任何细节。"`
+			`	他点点头，开始讲课。"你的飞船联系的本地中继站将那个握手签名发送给目的地站，这样它就能准确地知道你是谁，以便能够在另一端重新连接通信。这是一个完全自动的过程，它与飞船的ID无关。它只是作为一种检查被埋藏在那里，在超光速飞船偶尔会爆炸的时候，我们需要查明谁失踪了。它被记录下来，每隔几天就会被自动覆盖，如果它没有被深深地嵌入到系统的工作方式中，也许有人会把它删除。如果你知道一艘船什么时候跳伞，跳到了哪里，你可以用它来确认它没有被炸毁；如果通讯设备出了问题，你可以用日志信息来确定某艘特定的船是否是后来和你通话的那艘船，但这两点都不是特别有用，因为同样的信息可以通过其他途径更容易、更高质量地获得。`
+			`	"我们有一小群通信专家，他们失去了一些人，或者知道谁失去了一些人，但当局无法帮助他们。我们分散在各地，我们自己一直在研究这个问题。我们一起确定了一些我们认为可疑的船只，但我们一直无法确定任何具体的东西。巴斯蒂安确信，从日志中可以看出有一种干扰信号的模式；他做了分析程序，但它从未明确地与噪声区分开来。不过，你带来的这个数据集。好吧，一旦你对我们的数据集中的船只子集进行过滤，你给我的东西与我们发现的有干扰的船只集完全吻合，它必须是吻合的！这就是我们的数据。百分之九十八点五的置信区间完全消除了它可能是随机的想法。"`
 				goto wait
 			label skip
-			`	Goraz pauses for a moment, struggling to lower the content to layman's terms. "There's some ships that don't show up right on comms, which only a few experts like me can spot. Some of it could be random noise, but that's unlikely. We can filter out the subset of ships in our dataset. Hold on..."`
-			`	After a few moments of fiddling with terminals, he continues. "What you've given me matches so completely to the set of ships we've found with interference that it has to be a match! Ninety-eight point five percent confidence interval completely annihilates the idea that it could be random."`
+			`	戈拉兹停顿了一会儿，挣扎着将内容降低到通俗的程度。"有一些飞船在通讯器上显示得不对，只有像我这样的少数专家才能发现。有些可能是随机噪音，但这不太可能。我们可以在我们的数据集中过滤出飞船的子集。等一下......"`
+			`	在摆弄了一会儿终端后，他继续说道。"你给我的东西与我们发现的有干扰的飞船集完全匹配，它必须是一个匹配！"。百分之九十八点五的置信区间完全消除了它可能是随机的想法。"`
 			label wait
-			`	He casts around for a moment and then plugs a freshly unpacked data card into his console. "Give me a little time: I can do something for you now. I'll be back with you in ten minutes."`
+			`	他在周围投掷了一会儿，然后把一张刚拆封的数据卡插入他的控制台。"给我一点时间。我现在可以为你做一些事情。我将在十分钟内回到你身边。"`
 			choice
-				`	"Take your time."`
-				`	"I'll be here waiting."`
-			`	After some time, in which he looks like he's installing a series of programs, he returns your original data card and the second one. "Load this new card into one of your communicator's extra data storage slots, preferably the first one. This new card will run maintenance level processes with the communicator to download the logs from the local relay when you enter a system, match the log signatures for ships that are in-system, and code up extra info for their ID's. Functionally, they'll show up as 'Smuggler' on your display. You'll have to hunt for them though, cause you'll have to be in the same system as them for any of this to work."`
+				`	"慢慢来。"`
+				`	"我在这里等你。"`
+			`	经过一段时间后，他看起来像是在安装一系列的程序，他把你原来的数据卡和第二张卡还给你。"把这张新卡装进你的通讯器的一个额外的数据存储槽，最好是第一个槽。这张新卡将与通讯器一起运行维护级别的程序，当你进入一个系统时，从本地中继站下载日志，匹配系统内的飞船的日志签名，并为它们的ID编码额外的信息。在功能上，他们会在你的显示器上显示为 "走私者"。但你必须寻找他们，因为你必须和他们在同一个系统中，这一切才能发挥作用。"`
 			choice
-				`	"That's some impressive work in such a short time."`
-				`	"Thank you for the help."`
-			`	He nods in response. "Also... maybe keep this quiet. This is," he pauses and clears his throat conspicuously, "somewhat less than strictly legal, though there's no penalty attached to accessing the data at the level this card will use. My data sets only only cover coreward parts of Syndicate space, but your other data is heavily weighted to the Far North. Maybe if you have no luck in Syndicate space it'll be worth the trip to try up there."`
-			`	All business and technical explanation now out of the way, you watch as the reality of what's happening seems to suddenly sink in, and his demeanor changes suddenly as his eyes shine with faint hope, "And please, if you do find my wife Janitza... please bring her home."`
-			`	After one last ride through the metro system of <origin>, you arrive at your ship. You plug the data card into your computer, and a new "government" shows up: Smuggler. The ships will be colored differently than pirates.`
-			`	It may be risky, but you should disable one and board it.`
+				`	"在这么短的时间内，这是一些令人印象深刻的工作。"`
+				`	"谢谢你的帮助。"`
+			`	他点头回应。"另外......也许要保持沉默。这是，"他停顿了一下，显而易见地清了清嗓子，"有点不太严格合法，尽管在这张卡将使用的水平上访问数据没有附带任何惩罚。我的数据集只涵盖了辛迪加空间的核心部分，但你的其他数据在极北地区占了很大比重。也许如果你在辛迪加空间没有运气，那就值得去那里试试。"`
+			`	现在所有的业务和技术解释都结束了，你看着正在发生的现实似乎突然沉没了，他的举止突然改变了，他的眼睛闪耀着微弱的希望。`
+			`	在最后一次穿越<origin>的地铁系统后，你到达了你的飞船。你把数据卡插入你的电脑，一个新的 "政府 "出现了。走私者。船只的颜色会与海盗不同。`
+			`	这可能很冒险，但你应该禁用一个并登上它。`
 				accept
 
 event "devil-run smugglers visible"
@@ -645,8 +645,8 @@ fleet "Smuggler (Hai Traffickers)"
 
 
 mission "Hai Reveal [B06-long] Boarded Smuggler"
-	name "Learn about Keystones"
-	description "You need to know what the message means by asking Sayari or Teeneep on <planet> before going back to Giti."
+	name "了解关键石块"
+	description "在回Giti之前，你需要通过询问<planet>上的Sayari或Teeneep来了解信息的含义。"
 	boarding
 	destination Stormhold
 	clearance
@@ -656,13 +656,13 @@ mission "Hai Reveal [B06-long] Boarded Smuggler"
 		government "Smuggler (Hai Trafficker)"
 	on offer
 		conversation
-			`As you maneuver to board this ship you send a message telling them that you know they're smugglers and demand their surrender. There is no response, but once you dock and open your side of the airlock, the door to the smuggler ship <origin> also opens partway and a Hai pokes their head through. The Hai's eyes are wide with fear but also determination as they shout at you through the docking tube.`
+			`当你操纵着登上这艘船时，你发了一条信息，告诉他们你知道他们是走私者，并要求他们投降。没有回应，但当你停靠并打开你这边的气闸时，走私船<origin>的门也打开了一部分，一个海族人探出头来。海族人的眼睛睁得大大的，带着恐惧，但也有决心，他们通过对接管向你喊话。`
 			choice
-				`	"Come on, you can do it! Just push a little harder!"`
-				`	"There should be an access panel above you! Maybe you can short-circuit the door?"`
-			`	The Hai says, "This door is jammed, they're locking down the ship and going to blow it up!" In the background you hear a booming sound. "They're using the keystones, tell them they're using the keystones!"`
-			`	Inside your ship you hear alarms blare into full volume and you have just enough time to nod an acknowledgment to the doomed Hai before the airlock's automatic safeties shut it. A moment later, you hear an explosion and the sound of tearing metal as the docking tube is shredded and your ship is forced away from the expanding debris of the smuggler ship. When you return to the controls it seems the smugglers signaled for help before the ship exploded. An escape pod is flying away from the scene; apparently the smugglers care more about not being caught than about finishing their mission.`
-			`	You need to relay this to Giti, but the keystones are a Hai thing and that message didn't really explain much; you'll have to contact Sayari or Teeneep first, which means crossing the blockade again. You begin to set a course for <planet>, but your scanners report multiple new contacts; hostile ships entering the system. You prepare for battle.`
+				`	"来吧，你可以做到的!只要再用力一点！"`
+				`	"你上面应该有一个通道板！"。也许你可以把门短路？"`
+			`	海哥说："这扇门被卡住了，他们正在锁定这艘船，要把它炸掉！"在背景中，你听到一个轰隆隆的声音。"他们在使用钥石，告诉他们他们在使用钥石！"`
+			`	在你的飞船里，你听到警报声响成一片，在气闸的自动保险装置关闭之前，你只有足够的时间向注定失败的海号点头致意。片刻之后，你听到了爆炸声和金属撕裂的声音，因为对接管被撕碎了，你的飞船被迫离开了走私船膨胀的碎片。当你回到控制室时，似乎走私者在飞船爆炸前发出了求救信号。一个逃生舱正飞离现场；显然，走私者更关心的是不要被抓住，而不是完成他们的任务。`
+			`	你需要把这个消息转达给吉蒂，但钥石是海的东西，而且那条消息并没有真正说明什么；你必须先联系萨亚里或蒂尼普，这意味着再次穿越封锁线。你开始为<planet>设定路线，但你的扫描器报告了多个新的接触点；有敌意的船只进入该系统。你准备战斗。`
 				launch
 	npc
 		government "Pirate"
@@ -682,7 +682,7 @@ mission "Hai Reveal [B06-long A] Smuggler Ambush"
 		government "Smuggler (Hai Trafficker)"
 	on offer
 		conversation
-			`You scan this smuggling ship and notice only the basic crew are on board. Even so, the ship begins to self-destruct, and escape pods float away, just like before. Just as you wrap up, your ship informs you of incoming hostile ships. You prepare for another wave.`
+			`你扫描了这艘走私船，发现船上只有基本的船员。即便如此，这艘船开始自毁，逃生舱飘走了，就像以前一样。就在你收尾的时候，你的飞船通知你有敌方飞船来袭。你准备迎接另一波攻击。`
 				launch
 	npc kill
 		government "Pirate"
@@ -704,7 +704,7 @@ mission "Hai Reveal [B06-long B] Smuggler Ambush"
 		government "Smuggler (Hai Trafficker)"
 	on offer
 		conversation
-			`As before, the smugglers set the self-destruct mechanism and abandon their ship and its contents, and your ship detects more incoming hostile vessels. You prepare for another wave.`
+			`和以前一样，走私者设置了自毁装置，放弃了他们的船和里面的东西，而你的船探测到更多的敌对船只来袭。你准备迎接另一波攻击。`
 				launch
 	npc kill
 		government "Pirate"
@@ -724,8 +724,8 @@ mission "Hai Reveal [B06-long] Cleanup"
 
 mission "Hai Reveal [B07-long] Learn of Keystones"
 	landing
-	name "Missing Researchers"
-	description "You have the information Giti Gilani will need. It is time to visit her on <planet>."
+	name "失踪的研究人员"
+	description "你有Giti Gilani需要的信息。现在是时候去<planet>上拜访她了。"
 	source Stormhold
 	destination Earth
 	clearance
@@ -733,18 +733,18 @@ mission "Hai Reveal [B07-long] Learn of Keystones"
 		has "Hai Reveal [B06-long] Boarded Smuggler: done"
 	on offer
 		conversation
-			`The progressive search of <origin> still seems to be underway, and a cursory question directed to the Navy personnel now managing the spaceport indicates that they're less than happy about it. Despite the Navy promising to leave as soon as they've searched and confirmed the status of a handful of remaining pirate gangs' hideouts, those gangs remain resolutely hidden and haven't been exposed by any of their compatriots as yet.`
-			`	Fortunately this makes it easy to find Sayari, who has comparatively little to do at the moment and is mostly just helping to keep everyone communicating effectively. When you tell her of the system you found and the message from the Hai on the smuggler ship, she winces. "What a terrible fate, but it does confirm what we suspected. We'll have to see what more we can find out in the meantime while we're still bogged down here."`
+			`对<origin>的逐步搜索似乎仍在进行中，而针对现在管理太空港的海军人员的粗略询问表明，他们对此不太满意。尽管海军承诺，一旦他们搜查并确认了少数剩余海盗团伙的藏身之处，就会立即离开，但这些团伙仍然坚决地隐藏起来，至今还没有被他们的同胞揭露。`
+			`	幸运的是，这使得我们很容易找到萨亚里，她目前的工作相对较少，大部分时间只是帮助大家保持有效的沟通。当你告诉她你发现的系统和走私船上的 "海 "的信息时，她吓了一跳。"多么可怕的命运，但它确实证实了我们的怀疑。我们必须看看在这期间我们还能发现什么，而我们仍然被困在这里。"`
 			choice
-				`	"What does the Hai's message mean?"`
-				`	"Let's make sure that Hai didn't die in vain. What can you tell me?"`
-			`	"I have always believed the Keystones were to indicate respect for traditional superstitions. I fear it has lured some Hai into thinking they're trustworthy when they were clearly not. Perhaps there is more though. We have folktales of these stones making travel between the stars easier, and our space once extended to this region where the wormhole is. It is possible there may be a relation."`
-			`	She chuckles, "Maybe it is fortunate I insisted you have one for me to travel on your ship. If our quantum keystones have some effect on the wormhole... Please, continue your investigation, talk to whoever you need to talk to, and don't go unprepared. This may be key to a peaceful resolution at the end of all this."`
+				`	"海氏的信息意味着什么？"`
+				`	"让我们确保海哥没有白白死去。你能告诉我什么？"`
+			`	"我一直认为钥石是为了表示对传统迷信的尊重。我担心它引诱了一些海，让他们认为自己是值得信赖的，而他们显然不是。不过，也许还有更多。我们有关于这些石头使星际旅行更容易的民间故事，而我们的空间曾经延伸到虫洞所在的这个区域。这有可能是一种关系。"`
+			`	她笑着说："也许很幸运，我坚持要你有一个，让我在你的船上旅行。如果我们的量子钥石对虫洞有一些影响......请继续你的调查，和你需要交谈的人交谈，不要毫无准备的去。这可能是在这一切结束后和平解决的关键。"`
 			choice
-				`	"What is going on back in Hai space?"`
-				`	"How are the Hai recovering from the election?"`
-			`	"There's a bit of a problem. Certain people have noticed that you have had close interactions with Teeneep and I through this, and questions have indeed been asked as to whether you are responsible for the mess that was caused by Teeneep going public with the information you helped her find." Her expression is very serious. "We have not told them absolutely every detail, but we have made it clear to your diplomats that the issue was a matter which would have blocked any solution until it was resolved, regardless of if you helped or not. They understand that your involvement has helped move towards a solution, even if parts of it could be misconstrued when seen from the outside."`
-			`	You thank her for explaining. Now you definitely need to take the information to Giti. She may be able to use what you've found to predict what preparations should be made.`
+				`	"在海族空间发生了什么？"`
+				`	"海族人从选举中恢复得怎么样了？"`
+			`	"有一点问题。某些人注意到，你通过这件事与我和Teeneep有密切的互动，而且确实有人质疑你是否要对Teeneep公开你帮助她找到的信息所造成的混乱负责。"她的表情非常严肃。"我们没有告诉他们绝对的每一个细节，但我们已经向你们的外交官明确表示，这个问题在解决之前会阻碍任何解决方案，不管你是否帮助。他们明白，你们的参与有助于推动解决方案，即使从外面看，其中的部分内容可能会被误解。"`
+			`	你感谢她的解释。现在你肯定需要把这些信息带给吉蒂。她也许能利用你的发现来预测应该做哪些准备工作。`
 				accept
 
 
@@ -753,8 +753,8 @@ mission "Hai Reveal [B07-long] Learn of Keystones"
 mission "Hai Reveal [B08-long] The Other Just As Fair"
 	autosave
 	landing
-	name "Syndicate Internal Affairs"
-	description "Go directly to <planet>. Do not pass Go. Do not collect $200."
+	name "辛迪加内部事务"
+	description "直接前往<planet>。不要通过Go。不要收集200美元。"
 	deadline
 	source "Earth"
 	destination "Hephaestus"
@@ -766,101 +766,101 @@ mission "Hai Reveal [B08-long] The Other Just As Fair"
 	on offer
 		fail "Hai Reveal [B02-S] Republic Intelligence Stalkers"
 		log `Giti tripped an alert which places you both under the jurisdiction of a Syndicate Internal Affairs investigation. You've were sent directly to Hephaestus.`
-		log "Minor People" `Agent Kopkow` `A Republic Intelligence officer who intercepted your investigation with Giti before involving you with Syndicate Internal Affairs.`
+		log "Minor People" `Agent Kopkow` `一位共和国情报人员，在将你卷入辛迪加内务部之前，截获了你与吉蒂的调查。`
 		conversation "giti tripped an alert"
 	on fail
 		"reputation: Republic" <?= -100
 		"reputation: Syndicate" <?= -100
-		dialog `You have failed a critical narrative mission and are now considered an outlaw. If you want to complete this story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成一项关键的叙事任务，现在被认为是一个逃犯。如果你想完成这个故事线，请恢复到自动保存或另一个较早的游戏快照。`
 
 
 
 mission "Hai Reveal [B09] Scanning Devil-Hide"
 	landing
-	name "Searching Beyond the Wormhole"
-	description "Return to <planet> after finding and scanning the key system beyond the unstable wormhole. The Syndicate will pay <payment>."
+	name "在虫洞外搜索"
+	description "在找到并扫描不稳定的虫洞之外的关键系统后，回到<planet>。辛迪加将支付<payment>。"
 	source "Hephaestus"
 	waypoint "Devil-Hide"
 	passengers 1
 	cargo "advanced scanning equipment" 7
-	blocked `You need room for 7t of <cargo>.`
+	blocked `你需要空间容纳7t的<cargo>。`
 	on visit
-		dialog `Giti or her equipment are in one of your escorts. You need to wait for your escorts to arrive before landing again.`
+		dialog `佳蒂或她的设备在你的一个护卫队中。你需要等待你的护卫队到达后再着陆。`
 	to offer
 		or
 			has "Hai Reveal [B05-short] The Road Not Taken: done"
 			has "Hai Reveal [B08-long] The Other Just As Fair: done"
 	on offer
-		log "People" "Stephen Moray" `Deputy Director Moray works for Syndicate Internal Affairs dealing with pirate-related matters. In addition to enforcing the law, he also smuggles slaves from pirate worlds into freedom in Syndicate space. He claims to be an ally in this investigation and has provided equipment to further the goal.`
+		log "People" "Stephen Moray" `莫雷副局长为辛迪加内务部工作，处理与海盗有关的事务。除了执法之外，他还从海盗世界偷运奴隶到辛迪加空间的自由中。他声称自己是这次调查的盟友，并提供了设备来推进这一目标。`
 		log `You've been told to take Giti and some scanning equipment to the unexplored region beyond the Syndicate wormhole to seek a base of operations and bring back information.`
 		conversation
-			`Despite expectations, you are told to leave Giti on the ship, and a man who immediately identifies himself to you as Deputy Director Stephen Moray meets you at the entrance of the docking tube at the spaceport and gestures you into the private antechamber attached to each dock in the <origin> port. "I work for Syndicate Internal Affairs. We're the internal police of the Syndicate; when an employee of any rank does misdeeds, we track them down. Janitor or executive; it doesn't matter. My department of Internal Affairs works on piracy-related matters."`
-			`	After you both sit, Stephen Moray turns on a device and places it on the table. "Communications jammer," he explains, "so we're not heard."`
+			`尽管有预期，你被告知要把吉蒂留在船上，一个立即向你表明自己是副局长斯蒂芬-莫雷的人在太空港的对接管入口处与你见面，并示意你进入<origin>港的每个码头附属的私人候机室。"我为辛迪加内务部工作。我们是辛迪加的内部警察；当任何级别的雇员做错事时，我们会追踪他们。看门人或行政人员；这并不重要。我的内务部负责处理与海盗有关的事务。"`
+			`	你们俩坐下后，斯蒂芬-莫雷打开了一个设备，并把它放在桌子上。"通信干扰器，"他解释说，"这样我们就听不到了。"`
 			choice
-				`	"What is this about?"`
+				`	"这是为了什么？"`
 					goto about
-				`	"I don't appreciate how your goons treated me."`
-			`	He shrugs. "Those 'goons' were from Republic Intelligence. I have no say as to how they do their jobs. Now that you're here, let's get down to business.`
+				`	"我不欣赏你的手下如何对待我。"`
+			`	他耸耸肩。"那些'暴徒'是共和国情报局的。我对他们如何开展工作没有发言权。既然你来了，我们就说说正事吧。`
 			label about
-			`	"I know that you have been working closely with the Hai lately, helping to achieve an outcome with lasting stability. I communicated with Remington and he's informed me that while it might appear to an observer that you've caused a mess, that the Hai representatives have now explained that previous stalling on their part was because some things needed to be known first. It would seem that, as per usual, there is as much going on behind the scenes as in front and you have become embroiled in it.`
-			`	"I also understand what the Hai are grappling with right now," he says. "When I was a teenager, pirates kidnapped my brother and father, and forced them to serve on pirate vessels, calling them 'indentured servants.' My father watched helplessly as a Navy Frigate disabled my brother's just as it exited hyperspace. He escaped - but he's now serving his seventeenth year of a twenty-five-year sentence for piracy, even though his deeds were against his will," Moray explains as he lays out reports to emphasize his point.`
-			`	"I tell you this because it is important you understand I'm on your side. We haven't met before, but we must trust one another. You know the hails of the Navy: loyalty, honor, bravery - half-truths at best. We see the Navy as heroes because they are the only large organization capable of self-sacrifice. Yes, they do many good deeds, but those deeds blind us to their brutality and immorality. Not all humans are like that, many members of the Navy disagree with the barbaric rules about slavery. Some of us in the Syndicate, Free Worlds, and elsewhere, are trying to solve this problem.`
-			`	"In my time here, I have arranged for over eighty thousand slaves to be smuggled away from pirate planets to gain their freedom in Syndicate space. I have extensive contacts within the slaver community."`
+			`	"我知道你最近一直在与海氏集团密切合作，帮助实现具有持久稳定性的结果。我和雷明顿沟通过，他告诉我，虽然在旁人看来，你可能造成了混乱，但海族代表现在解释说，他们之前的拖延是因为有些事情需要先知道。看来，像往常一样，幕后的事情和幕前的事情一样多，而你已经被卷入其中。`
+			`	"我也理解海归们现在正在努力解决的问题，"他说。"在我十几岁的时候，海盗绑架了我的哥哥和父亲，并强迫他们在海盗的船上服务，称他们为'契约仆人'。我父亲无助地看着一艘海军护卫舰在我哥哥的船刚驶出超空间时就被击毁。他逃了出来--但他现在正因海盗罪在25年的刑期中的第17年服刑，尽管他的行为违背了他的意愿。"莫雷一边解释，一边铺开报告强调他的观点。`
+			`	"我告诉你这些是因为你必须明白我是站在你这边的。我们以前没有见过面，但我们必须相互信任。你知道海军的呼声：忠诚、荣誉、勇敢--充其量是半真半假的。我们把海军视为英雄，因为他们是唯一能够自我牺牲的大型组织。是的，他们做了很多善事，但这些善事使我们看不到他们的残暴和不道德。并非所有的人类都是这样的，许多海军成员不同意关于奴隶制的野蛮规则。我们在辛迪加、自由世界和其他地方的一些人，正在努力解决这个问题。`
+			`	"在我在这里的时候，我已经安排了超过八万名奴隶从海盗星球偷渡到辛迪加空间获得自由。我在奴隶主社区内有广泛的联系。"`
 			choice
-				`	"I'm glad to see there are good guys in the Syndicate."`
-				`	"That's a lot of good deeds for a Syndicate executive."`
-				`	"Did that freedom involve 100 hours a week of work in Syndicate factories?"`
-			`	He shrugs off your remark. "Now I understand you have found some things, that are also of historic interest to us. For this reason I am doubly invested; so now I need to know what you know."`
-			`	It would seem that this is the opportunity to hasten a desirable outcome most swiftly, though maybe the Syndicate doesn't need to know about the Hai's theories of cadmium poisoning from alien technology being used.`
+				`	"我很高兴看到在辛迪加有好人。"`
+				`	"对于一个辛迪加的主管来说，这是个很大的善举。"`
+				`	"这种自由包括每周在辛迪加工厂工作100个小时吗？"`
+			`	他推掉了你的话。"现在我知道你发现了一些东西，这些东西对我们也有历史意义。由于这个原因，我被加倍投资；所以现在我需要知道你知道什么。"`
+			`	这似乎是最迅速地催促一个理想的结果的机会，尽管也许辛迪加不需要知道海的理论，即使用外星技术造成的镉中毒。`
 			choice
-				`	"Here's some case location data on kidnapping victims." (Share only case location data, and don't mention the cadmium poisoning.)`
+				`	"这里有一些关于绑架受害者的案件位置数据。"(只分享案件位置数据，不要提镉中毒的事。)`
 					goto mission
-				`	"I have a lot of data I'd like you to analyze." (Don't mention the cadmium poisoning, but share all other data.)`
+				`	"我有很多数据，希望你能分析一下。"(不要提及镉中毒，但要分享所有其他数据。)`
 			action
 				set "syndicate learns of alien tech anyway"
-			`	Director Moray looks through some of the data you share while you summarize the key points. "Thank you very much, we will have our experts go over this promptly."`
+			`	莫雷主任在你总结关键点的同时，查看了你分享的一些数据。"非常感谢你，我们会让我们的专家及时查看这些。"`
 			label mission
-			`	With your explanation finished, he seems to straighten in preparation for something. "I have some leads to follow up. Someone has an extensive array of contacts, possibly close to home in the Syndicate - perhaps even executives, but for certain at least a department head somewhere. This is too much to be entirely independent. I can say for sure though that they're doing this without permission from the Syndicate proper.`
-			`	"The Hai have insisted they be involved in any solution which could involve captured Hai. Which means I will have to send you back to them soon, but before that I need information. So do you, but my due diligence demands I ensure you are properly equipped to retrieve what I need. Take Giti and the scanning equipment I am now loading onto your ship. I recommend a ramscoop for safety. Investigate the systems and bring her back here, after that you'll have to go back to the Hai without her."`
-			`	He pauses while getting ready to leave. "Oh, and you should probably tell her about the Hai at this point. We don't know if she knows, but if she doesn't she needs to know the basics. The scanners will flag anything we can explicitly identify as Hai tech, so the time has come. Good luck."`
+			`	随着你的解释完毕，他似乎直起身子准备做什么。"我有一些线索要跟进。有人有一系列广泛的联系，可能是离家很近的辛迪加--也许甚至是高管，但可以肯定的是至少是某个部门的负责人。这是太多了，不能完全独立。我可以肯定地说，虽然他们这样做没有得到辛迪加本身的许可。`
+			`	"海族人坚持要求他们参与任何可能涉及被俘海族的解决方案。这意味着我将不得不很快把你送回给他们，但在此之前，我需要信息。你也一样，但我的尽职调查要求我确保你有适当的装备来检索我需要的东西。带上Giti和我现在正在装到你船上的扫描设备。为了安全起见，我建议使用冲压式船舱。调查这些系统并把她带回来，之后你就得在没有她的情况下回海。"`
+			`	他停顿了一下，同时准备离开。"哦，你也许应该在这个时候告诉她关于海号的事情。我们不知道她是否知道，但如果她不知道，她需要知道基本情况。扫描器会标记任何我们可以明确识别为海族技术的东西，所以时机已经到来。好运。"`
 				accept
 	on enter "Devil-Run"
-		dialog `During the trip you take the time to tell Giti the basics about the Hai. She had already known they existed, but hadn't been privy to any details of what was going on now. Knowing that the disappearances you've been hunting extend to Hai space seems to answer more questions than it creates and she takes the revelation of how significant this is to current events easily in stride.`
+		dialog `在旅途中，你花时间告诉吉蒂关于海族的基本情况。她已经知道他们的存在，但还不知道现在发生的任何细节。知道你一直在追捕的失踪事件延伸到了海族的空间，似乎回答了更多的问题，她轻松地接受了这个对当前事件有多大意义的启示。`
 	on enter "Devil-Hide"
 		log `Found a bizarre planet with a subterranean colony in its moon. The planet defies analysis and seems to violate the known laws of physics. There is enough evidence of Hai tech to assume Hai presence in addition to the humans able to be detected. However, the scanners could not see the full extent of what's there due to interference from the planet.`
 		conversation
-			`Giti turns on the scanning equipment.`
+			`吉蒂打开了扫描设备。`
 			label scan
 			choice
-				`	"Tell me about the moon."`
+				`	"告诉我月球的情况。"`
 					goto moon
 					to display
 						not "Hai Reveal [B09] Scanning Devil-Hide: label moon"
-				`	"Tell me about that planet."`
+				`	"告诉我那个星球的情况。"`
 					goto planet
 					to display
 						not "Hai Reveal [B09] Scanning Devil-Hide: label planet"
-				`	"We found what we need. Let's get out before we're noticed."`
+				`	"我们找到了我们需要的东西。在我们被注意到之前，让我们离开吧。"`
 					goto leave
 					to display
 						has "Hai Reveal [B09] Scanning Devil-Hide: label moon"
 			label planet
 			action
 				set "Hai Reveal [B09] Scanning Devil-Hide: label planet"
-			`	"Okay, the planet..." Her voice trails off. "Wow! That's odd. This scanner is definitely not designed to properly scan this thing; I can only get surface readings.`
-			`	"Whatever it is, this planet is not normal by any stretch. It is completely inhospitable and appears to have a huge network of caves and caverns with crystalline structures that are radiating... something. Whatever it is, it's messing with the scanner's attempts to identify it. I'd have to know more about this scanner's functions to guess what the interference is. There's deuterium, though. Maybe the denizens of this system siphon the deuterium to make hyperspace fuel? Doesn't seem very efficient, but the solar wind is thin here. There's some kind of gravitational anomaly though, or maybe its just some kind of interference lensing. It looks like the planet has about a thousand times the mass it should, but with gravity around Earth normal. That... can't be right."`
-			`	She shakes it off and looks at you. "Whatever it is we're looking for, it's not down there."`
+			`	"好吧，那个星球......"她的声音小了下来。"哇！这很奇怪。这台扫描仪肯定不是用来正确扫描这东西的，我只能得到表面读数。`
+			`	"不管它是什么，这个星球无论如何都是不正常的。它完全是荒凉的，似乎有一个巨大的洞穴和洞窟网络，其中的晶体结构正在辐射......什么。不管它是什么，它正在扰乱扫描仪试图识别它的努力。我必须对这个扫描仪的功能有更多的了解，才能猜出干扰是什么。不过，这里有氘。也许这个系统的居民抽吸氘来制造超空间燃料？看起来效率不高，但这里的太阳风很稀薄。虽然有某种引力异常，或者也许只是某种干扰透镜。看起来这颗行星的质量是它应该有的一千倍，但地球周围的引力却很正常。这......不可能是正确的。"`
+			`	她甩了甩头，看着你。"不管我们要找的是什么，它都不在下面。"`
 				goto scan
 			label moon
 			action
 				set "Hai Reveal [B09] Scanning Devil-Hide: label moon"
-			`	"The moon? Hmmm... okay, it's just an ordinary chunk of rock, but radiation from the planet is disturbing the sensors. I can only see a few dozen meters below ground, even though the scanner should be able to look down at least ten times that far... Aha!`
-			`	"I found something. There's a facility buried in the moon's surface. There is definitely a lot of Hai tech too, your concerns were spot on. I can only see the uppermost part of the facility, but it appears to be divided into two parts. One section has hydroponics, big cargo bays, docking bays for ships, even a small shipyard. Doesn't look like they have space for more than a handful of large ships, though. It also seems to have the only decently sized air processor I can identify. The other section is deeper, and appears to have some spacious living areas. I can see some support systems, but it seems that the air supply is effectively controlled from the surface access section. I can detect 1,387 people, though no details about them, and that's just in the upper three floors that I can see."`
-			`	She looks at you, eyes wide. "This isn't just a base; there's a base down there, but it's controlling a whole colony."`
-			`	There is a pregnant pause for a moment and then she suddenly gasps. "Captain, this must be Elenchus!"`
+			`	"月球？嗯......好吧，它只是一块普通的岩石，但来自行星的辐射干扰了传感器。我只能看到地面以下几十米的地方，尽管扫描仪应该能够向下看至少十倍的距离......啊哈!`
+			`	"我发现了一些东西。有一个设施埋在月球的表面。肯定也有很多海的技术，你的担心是正确的。我只能看到设施最上面的部分，但它似乎被分成两部分。一部分有水培植物，大的货仓，船只的停靠区，甚至还有一个小的造船厂。不过，看起来他们没有空间容纳更多的大型船只。它似乎也有我能确定的唯一一个规模适当的空气处理器。另一个部分更深，似乎有一些宽敞的生活区。我可以看到一些支持系统，但似乎空气供应是由地面通道部分有效控制的。我可以探测到1387人，虽然没有关于他们的细节，而这只是在我能看到的上面三层。"`
+			`	她看着你，眼睛瞪得大大的。"这不仅仅是一个基地；下面有一个基地，但它控制着整个殖民地。"`
+			`	有一个怀孕的停顿片刻，然后她突然喘息起来。"船长，这一定是埃伦希斯！"`
 				goto scan
 			label leave
-			`	As you say this, you notice on your regular sensors that there are some ships heading your way and, more horrifyingly, some ground-based turrets coming online. It's time to go.`
+			`	在你说这句话的时候，你在你的常规传感器上注意到，有一些船只正朝你的方向驶来，更可怕的是，一些地面炮台正在上线。是时候出发了。`
 	on complete
 		payment 775000
 	npc
@@ -873,8 +873,8 @@ mission "Hai Reveal [B09] Scanning Devil-Hide"
 
 mission "Hai Reveal [B10] Report to Teeneep"
 	landing
-	name "Report the Discovery to Teeneep"
-	description "Return to <planet> and explain what you have found about Elenchus to Teeneep."
+	name "向蒂尼普报告发现的情况"
+	description "回到<planet>，向Teeneep解释你所发现的关于Elenchus的情况。"
 	source "Hephaestus"
 	destination "Stormhold"
 	clearance
@@ -883,16 +883,16 @@ mission "Hai Reveal [B10] Report to Teeneep"
 	on offer
 		log `While Syndicate Internal Affairs looks over the scan data, it is time to report to Teeneep again.`
 		conversation
-			`When you return to <origin>, Moray reclaims his scanning equipment and requests Giti's assistance with providing testimony to those interpreting it. She still may not know everything that's going on, but by this point she knows more than enough that she's happy to be able to assist in some way.`
-			`	Now there's nothing for it but to head straight on to <planet>.`
+			`当你回到<origin>时，莫雷收回了他的扫描设备，并请求吉蒂协助向解释设备的人提供证词。她可能仍然不知道发生的一切，但此时她知道的已经够多了，她很高兴能以某种方式提供帮助。`
+			`	现在，除了直接前往<planet>之外，没有别的办法了。`
 				accept
 
 
 
 mission "Hai Reveal [B11] Moving Together"
 	landing
-	name "Rendezvous with the Assault Team"
-	description "Return to <planet> and explain what you have found."
+	name "与突击队汇合"
+	description "回到<planet>，解释你的发现。"
 	source "Stormhold"
 	destination "Foundry"
 	clearance
@@ -900,101 +900,101 @@ mission "Hai Reveal [B11] Moving Together"
 		has "Hai Reveal [B10] Report to Teeneep: done"
 	on offer
 		conversation
-			`When you return to <origin> to tell Teeneep what you have found, she seems to already know much of what you have to say. "We've been waiting for you. Thanks to your visit to the Syndicate, we've found a lot of information in very short order. You'll have to lead another international task force through the wormhole at Devil-Eye. This time, they'll have jump drives from the Unfettered, which the Hai are renting for quite a hefty price. We expect all jump drives to be returned intact. Everyone is gathering to brief you on the status so you can prepare for the mission. A high-ranking Marshal Kaine is here with more information."`
-			`	Sayari seems anxious when she joins you on the way, and the two of them draw you along towards one of the meeting areas in the secured spaceport. There you are led past a selection of Navy personnel on guard into a meeting room with several people. Some appear to have just arrived, but others must have been here for a while, and to your surprise Alondo and Remington are also present. The place looks to have been acting as a war room of sorts. As soon you've walked through the door, someone says, "We're all here," and Choot'k and Remington stand up from where they'd been looking at something intently.`
+			`当你回到<origin>告诉Teeneep你的发现时，她似乎已经知道了你要讲的大部分内容。"我们一直在等你。感谢你对辛迪加的访问，我们在很短的时间内发现了很多信息。你必须带领另一支国际特遣部队穿过恶魔之眼的虫洞。这一次，他们将拥有来自 "不羁 "号的跳跃驱动器，"海 "号正以相当高的价格租借它们。我们希望所有跳跃驱动器都能完好无损地返回。所有人都聚集在一起，向你介绍情况，以便你为任务做准备。一位高级别的凯恩元帅在这里，他有更多的信息。"`
+			`	萨亚里在路上与你会合时显得很焦急，他们两个人把你引向安全的太空港的一个会议区。在那里，你被带着经过一些守卫的海军人员，进入一个有几个人的会议室。有些人似乎刚到，但其他人肯定已经在这里呆了一段时间了，令你惊讶的是阿隆多和雷明顿也在这里。这个地方看起来已经充当了某种作战室的角色。你刚走进门，就有人说："我们都到了。"Choot'k和Remington从他们一直在仔细看的地方站起来。`
 			label briefing
 			choice
-				`	"I see new faces here. Can everyone introduce themselves?"`
+				`	"我看到这里有新面孔。大家可以介绍一下自己吗？"`
 					goto introductions
 					to display
 						not "Hai Reveal [B11] Moving Together: label introductions"
-				`	"What have you found about the smuggling routes?"`
+				`	"你对走私路线有什么发现？"`
 					goto smuggling
 					to display
 						not "Hai Reveal [B11] Moving Together: label smuggling"
-				`	"How have you dealt with the smugglers so far?"`
+				`	"到目前为止，你们是如何与走私者打交道的？"`
 					goto dealt
 					to display
 						has "Hai Reveal [B11] Moving Together: label smuggling"
 						not "Hai Reveal [B11] Moving Together: label dealt"
-				`	"How do the Hai feel about the approach to the smugglers?"`
+				`	"海员们对走私者的做法有什么看法？"`
 					goto hai
 					to display
 						has "Hai Reveal [B11] Moving Together: label smuggling"
 						not "Hai Reveal [B11] Moving Together: label hai"
-				`	"Are you still able to keep the Hai a secret?"`
+				`	"你还能为海族保守秘密吗？"`
 					goto secret
 					to display
 						not "Hai Reveal [B11] Moving Together: label secret"
-				`	"What do you know about Elenchus?"`
+				`	"你对埃伦夏斯了解多少？"`
 					goto elenchus
 					to display
 						not "Hai Reveal [B11] Moving Together: label elenchus"
-				`	"How will we penetrate the Elenchus defenses?"`
+				`	"我们将如何穿透Elenchus的防线？"`
 					goto penetration
 					to display
 						has "Hai Reveal [B11] Moving Together: label elenchus"
 						not "Hai Reveal [B11] Moving Together: label penetration"
-				`	"We've discussed enough. It's time to get started."`
+				`	"我们已经讨论够了。现在是时候开始了。"`
 					goto solution
 			label smuggling
 			action
 				set "Hai Reveal [B11] Moving Together: label smuggling"
-			`	Remington looks at you. "I know it's rough when news travels ahead of you, but Moray's team identified two bases which act as holding facilities in human space for the previously unidentified group that you've been investigating. That's where the largest number of kidnapped Hai have been taken for processing, before being taken to this mysterious 'Elenchus' place you've found. One of the bases is on Deadman's Cove, and arrangements are already being made to deal with it, but the other one is right here on Stormhold.`
-			`	"This operation narrowed down our remaining search here to a single target in one area up in the north. It should take us no more than a few days to pinpoint it, and a few days more to plan and execute an action against it." He shrugs. "The information was just too important to delay it for your arrival. That, and they decided they wanted me here personally since Terry appears to be busy off doing something else."`
+			`	雷明顿看着你。"我知道当消息走在你前面的时候是很艰难的，但是莫雷的团队确定了两个基地，这两个基地在人类空间中充当了你一直在调查的那个以前未被识别的团体的收容设施。那是最大数量的被绑架的海被带去处理的地方，然后被带到你发现的这个神秘的'Elenchus'地方。其中一个基地在死人湾，已经在安排处理，但另一个基地就在Stormhold这里。`
+			`	"这次行动将我们在这里的剩余搜索范围缩小到北部一个地区的单一目标。我们应该不超过几天就能确定它的位置，再花几天时间来计划和执行针对它的行动。"他耸耸肩。"这些信息太重要了，不能为了你的到来而拖延。这一点，而且他们决定要我亲自来这里，因为特里似乎正忙着做别的事情。"`
 				goto briefing
 			label dealt
 			action
 				set "Hai Reveal [B11] Moving Together: label dealt"
-			`	Marshal Kaine continues, "While there is intel on some captured Hai in the North, we have worked out a program to address that side of things more subtly, and with a lower risk to all parties involved. Raiding pirate ships is a deadly affair and their bases more so. While it may seem heroic, even with the help of the Hai, the casualty rate is unsustainable. However, while they may be allowed to go by intact, we have much better tabs on slaver and smuggler ships in the north, so we have options that don't require the sort of thorough manhunt that's occurring here to be effective."`
+			`	凯恩元帅继续说："虽然有关于北方一些被俘的海族的情报，但我们已经制定了一个方案，可以更巧妙地解决这方面的问题，而且对所有参与方的风险更低。袭击海盗船是一件致命的事情，他们的基地更是如此。虽然看起来很英勇，但即使有海的帮助，伤亡率也是不可持续的。然而，虽然他们可能被允许完好无损地通过，但我们对北方的奴隶主和走私者的船只有更好的监视，所以我们有选择，不需要像这里发生的那种彻底的搜捕才有效。"`
 				goto briefing
 			label hai
 			action
 				set "Hai Reveal [B11] Moving Together: label hai"
-			`	Sayari speaks up. "The Elders have accepted the proposed plans, but with this new information we have decided that this organization you've uncovered must still be dealt with directly. It is our main concern now. As long as the Republic remains willing to negotiate on how they deal with smugglers in the future, resolving this one issue will be sufficient for us to move forward. The overwhelming majority of the other groups who appear to have been exploiting Hai seem to have been here on <origin> and so we consider there to have been serious inroads made into resolving the problem more broadly."`
+			`	萨亚里开口了。"长老们已经接受了提议的计划，但有了这些新的信息，我们决定，你所发现的这个组织仍然必须直接处理。它是我们现在主要关注的问题。只要共和国仍然愿意就他们未来如何处理走私者进行谈判，解决这一个问题就足以让我们向前推进。绝大多数其他似乎一直在利用海的团体似乎都在<origin>这里，因此我们认为在更广泛地解决这个问题方面已经取得了重大进展。"`
 				goto briefing
 			label introductions
 			action
 				set "Hai Reveal [B11] Moving Together: label introductions"
-			`	Remington responds. "Good point. I don't think everyone here knows everyone yet."`
-			`	You look around the room as Remington does introductions for the benefit of the new people, and counts off Teeneep, Sayari, Choot'k, Batu, Danforth, Adurath Kaine - a Marshal for the Navy, which is an ex-service political appointment - Alondo, and himself.`
-			`	Remington clearly did not need to be introduced, but doing so gives him a disarming charm, and you see for a moment some of the charisma that he must utilize as head of PR.`
-			`	Marshal Kaine introduces himself to you directly. "I'm the Marshal of the Third Armada, the guards of the Far North and the uninhabited regions near it. I know you've worked with my admiral William Danforth in the past, and he has spoken highly of your work. I'm here because occasionally the Navy needs a politician, and the politicians need someone from the service that understands politicians."`
-			`	Batu jumps in. "The Marshal has been very effective in helping to develop some solutions with Hiyamaharu, and has just arrived here to make sure everything is set in order."`
+			`	雷明顿回应道。"说得好。我认为这里的每个人都还不了解每个人。"`
+			`	当雷明顿为新人们做介绍时，你环顾了一下房间，并数了数提尼普、萨亚里、乔特克、巴图、丹佛斯、阿杜拉斯-凯恩--海军的元帅，这是一个退役的政治任命--阿隆多，还有他自己。`
+			`	雷明顿显然不需要被介绍，但这样做给了他一种迷人的魅力，你顿时看到了他作为公关部负责人必须利用的一些魅力。`
+			`	凯恩元帅直接向你介绍了自己。"我是第三舰队的元帅，极北地区和附近无人居住地区的守卫。我知道你过去曾与我的海军上将威廉-丹佛斯合作，他对你的工作评价很高。我来这里是因为偶尔海军需要一个政治家，而政治家们需要一个来自于了解政治家的人。"`
+			`	巴图跳了进来。"元帅在帮助与希亚马哈鲁制定一些解决方案方面非常有效，他刚刚来到这里，确保一切都安排妥当。"`
 				goto briefing
 			label secret
 			action
 				set "Hai Reveal [B11] Moving Together: label secret"
-			`	Remington explains. "This operation has gone on long enough that the popular opinion is that the Hai must obviously exist, even though there are no explicit voices saying as such. It has in fact almost become a joke; the perception being that, 'The Navy are blockading the Hai to hide humanity from them, because the blockade isn't doing a good job of being inconspicuous.' There have been memes of the Navy hiding their ships behind far too narrow light poles while they distract a squirrel with their headlights. Now it's a matter of being able to present good news. Place a successful spin on things."`
-			`	"Our problem," says Kaine, "is Elenchus."`
+			`	雷明顿解释道。"这个行动已经持续了足够长的时间，大众的看法是，海氏显然必须存在，尽管没有明确的声音这样说。事实上，这几乎成了一个笑话；人们的看法是，'海军封锁海族是为了向他们隐藏人类，因为封锁做得不好，不显眼。有一些备忘录显示，海军将他们的船只藏在太窄的灯杆后面，而他们用车灯引开一只松鼠。现在的问题是要能够提出好的消息。给事情加上一个成功的转折。"`
+			`	"我们的问题，"凯恩说，"是埃伦希斯。"`
 				goto briefing
 			label elenchus
 			action
 				set "Hai Reveal [B11] Moving Together: label elenchus"
-			`	Marshal Kaine explains, "Reaching Elenchus would seem to be a problem, because it is behind systems we cannot reach with our hyperdrives. However, the Unfettered are willing to loan us a few jump drives. Additionally, the base on Elenchus appears to be a hardened target. It will need specialized and suitably equipped shock troops to be sure of taking it. In our assessment so far we have determined that the Syndicate have suitable troopers they can mobilize quickly, but no way of getting them there, and our suitable shock troops are largely pre-occupied; either being needed here on <origin>, or are at least a week away from being available. We need a resolution sooner than that."`
+			`	凯恩元帅解释说："到达埃伦库斯似乎是个问题，因为它在我们的超光速引擎无法到达的系统后面。然而，不羁者愿意借给我们几个跳跃驱动器。此外，Elenchus上的基地似乎是一个加固的目标。它将需要专门的、有适当装备的冲击部队来确保拿下它。在我们迄今为止的评估中，我们确定辛迪加有合适的部队，他们可以迅速动员起来，但没有办法把他们送到那里，而我们合适的冲击部队基本上都被占用了；要么在<origin>这里需要，要么至少在一周后才能使用。我们需要一个比这更快的解决方案。"`
 			choice
-				`	"What pressure is making this so urgent?"`
-				`	"Yes, clearly we need a quick resolution."`
+				`	"是什么压力让事情变得如此紧急？"`
+				`	"是的，显然我们需要一个快速的解决方案。"`
 					goto briefing
-			`	Kaine sighs, and responds. "The thing about governments is that all crises are either to be solved, delayed, or weathered. This crisis cannot be delayed, and so they must choose to weather or resolve. There are enough representatives who feel that their positions are too fragile to weather it, and so they have pushed to resolve. The timeline is set by their perception of the urgency." He looks to the Hai. "And obviously, there are also those who value our historic relationship with the Hai and seek to resolve it for those reasons too. Those are only the first two reasons on a long list. At the end of the day, it's politics."`
+			`	凯恩叹了口气，回应道。"关于政府的事情是，所有的危机要么解决，要么推迟，要么经受住。这场危机不能被拖延，所以他们必须选择风化或解决。有足够多的代表觉得他们的地位太脆弱了，无法经受住考验，所以他们推动了解决。时间表是由他们对紧迫性的看法决定的。"他看向海。"显然，也有一些人重视我们与海族的历史关系，也是出于这些原因寻求解决。这只是一长串理由中的前两个。在一天结束时，这是政治。"`
 				goto briefing
 
 			label penetration
 			action
 				set "Hai Reveal [B11] Moving Together: label penetration"
-			`	Teeneep explains, "We also need a way to deal with the surface turrets and, short of bringing overwhelming firepower which we do not have, there's only one ship available with the systems to be able to affect that within our timeline. That ship is my Centipede. I had electronic warfare systems installed on it to baffle pirate defenses when I was investigating this before. It is our assessment that I should be able to baffle the turrets long enough to deal with any spaceship defenders, and land where the turrets will no longer matter." She looks to Choot'k. "The General has generously offered to loan a drive for my use."`
-			`	Choot'k addresses the group. "The designs of the facility show a weak point in one of the hangars, which we can exploit. My flagship has weapons pillaged from another species, which are strong enough to cut open the hangar doors yet precise enough not to destroy the hangar.`
-			`	"I also have two trusted captains who have been exploring the value of human weapons while they've been here, and think they have some winning combinations they would like to test in battle. I have chosen them to make use of our remaining available drives, and out of consideration for you humans. It would seem that the fewer alien weapons we carry through your space, the better."`
+			`	蒂尼普解释说："我们还需要一种方法来对付表面的炮塔，而且，除了带来压倒性的火力外（我们没有），只有一艘船的系统可以在我们的时间线内影响到它。那艘船就是我的 "蜈蚣 "号。我在它上面安装了电子战系统，以便在我之前调查这个问题时迷惑海盗的防卫。根据我们的评估，我应该能够阻挡炮塔足够长的时间来对付任何飞船防御者，并在炮塔不再重要的地方降落。"她看向Choot'k。"将军慷慨地提供了一个驱动器供我使用。"`
+			`	Choot'k对大家说。"该设施的设计显示，其中一个机库有一个弱点，我们可以加以利用。我的旗舰上有从另一个物种掠夺来的武器，这些武器足够强大，可以切开机库的门，但又足够精确，不会破坏机库。`
+			`	"我还有两个值得信赖的船长，他们在这里时一直在探索人类武器的价值，并认为他们有一些获胜的组合，他们想在战斗中测试。我选择他们是为了利用我们剩余的可用驱动器，也是出于对你们人类的考虑。看来，我们在你们的空间里携带的外星武器越少越好。"`
 				goto briefing
 
 			label solution
-			`	Marshal Kaine nods in agreement. "We have all the pieces. The solution therefore, is this: <last> will escort Danforth's Cruiser, the Elder and her Centipede, the General and his Shield Beetle, and two of his closest captains to Foundry. There you'll meet up with Agent Kopkow and Captain Wallace - a decorated Navy captain who has a Parliamentary Medal of Valor for handling the rescue of slaves - who will be bringing her empty Auxiliary, and one Free World Dreadnought that the good Alondo here had the foresight to make sure was stationed nearby. There you'll load up the Syndicate troopers and go to Elenchus."`
+			`	凯恩元帅点头表示同意。"我们有所有的碎片。因此，解决方案是这样的。<last>将护送丹佛斯的巡洋舰、长老和她的蜈蚣、将军和他的盾甲虫，以及他的两个最亲密的队长到铸造厂。在那里，你将与科普柯探员和华莱士上尉会合--他是一位有功勋的海军上尉，因为处理拯救奴隶的问题而获得了议会的英勇奖章--他将带着她的空辅助舰，以及这里善良的阿隆多有先见之明确保驻扎在附近的一艘自由世界无畏舰。在那里，你们将装载辛迪加的士兵，并前往埃伦丘斯。"`
 			# One crack team of people from all over working together.
 			# Alondo did this as a backup after his experience being briefly trapped on Hai-home.
-			`	Kaine looks at you all with an odd expression and concludes, "As plans go, it's mental. But every one of you will be heroes if you can pull it off."`
-			`	General Choot'k says, "I look forward to joining your people in combat. We haven't had enough chances to fight with - or against - your species. I hope we won't be disappointed."`
-			`	"I can vouch for the skill of our people, but not the pirates," Kaine replies, smiling.`
-			`	Danforth turns to you, "So, Captain, to Foundry, when you're ready."`
+			`	凯恩用一种奇怪的表情看着你们所有人，并得出结论："作为计划，这是精神上的。但如果你们能成功，你们每个人都会成为英雄。"`
+			`	Choot'k将军说："我期待着与你们的人一起作战。我们还没有足够的机会与你们的物种一起战斗--或者对抗--。我希望我们不会感到失望。"`
+			`	"我可以为我们的人的技能担保，但不能为海盗担保。"凯恩回答说，微笑着。`
+			`	丹佛斯转向你："那么，船长，准备好了就去铸造厂吧。"`
 				accept
 # Everyone has to make it safely to Foundry, even if they don't all make it home from Elenchus.
 	npc save accompany
@@ -1019,9 +1019,9 @@ mission "Hai Reveal [B11] Moving Together"
 		ship "Cruiser (Jump Plasma Anti-Missile)" "N.S. Peacemaker"
 	on complete
 		payment 600000
-		dialog `You are provided <payment> on arrival to cover ongoing expenses while helping out.`
+		dialog `你在抵达时获得了<payment>，以支付帮助时的持续费用。`
 	on visit
-		dialog `You've arrived on <planet>, but you've left one or more of your escorts behind.`
+		dialog `你已经抵达<planet>，但你留下了一个或多个护卫者。`
 
 
 # Flagship of the Unfettered Hai, filled with the spoils of wars against Korath and Wanderers:
@@ -1033,7 +1033,7 @@ ship "Shield Beetle" "Shield Beetle (Sunbeam Korath Jump)"
 		"Quantum Keystone"
 		"Outfits Expansion" 3
 		"Boulder Reactor" 3
-		`"Bufaer" Atomic Steering`
+		`"布法尔 "原子转向器`
 		Sunbeam 6
 		"Korath Warder"
 		"Small Heat Shunt"
@@ -1052,7 +1052,7 @@ ship "Centipede" "Centipede (Teeneep Jump)"
 		"Chameleon Anti-Missile" 3
 		"Quantum Keystone"
 		"Outfits Expansion"
-		`"Biroo" Atomic Steering`
+		`"Biroo "原子转向器`
 		"Hai Diamond Regenerator"
 		"Hai Corundum Regenerator"
 		"Hai Chasm Batteries"
@@ -1069,74 +1069,74 @@ ship "Centipede" "Centipede (Teeneep Jump)"
 mission "Hai Reveal [B12] Devil-Hide Battle"
 	autosave
 	landing
-	name "Storm Elenchus"
-	description "Dominate <planet>. Land with Choot'k, Teeneep, Danforth and Wallace's ships all intact..."
+	name "风暴埃伦库斯"
+	description "主宰<planet>。在Choot'k、Teeneep、Danforth和Wallace的船只都完好无损的情况下登陆..."
 	source "Foundry"
 	destination "Elenchus"
 	to offer
 		has "Hai Reveal [B11] Moving Together: done"
 	on offer
 		conversation
-			`You arrive on Foundry to a little-used spaceport which usually sees only private, Syndicate executive vessels. Kopkow gives you a mildly apologetic smile as he greets you for the second time, and introduces you to Captain Anna Wallace. She expresses her satisfaction that some serious efforts are being made to stem the plague of slavery that pirate factions get away with. Apparently many officers like her disagree with the Navy's standard non-boarding policy. They want to rescue slaves whenever possible, regardless of risk or orders.`
-			`	Just Wallace speaking seems to make Kopkow nervous to move on though; in fact he appears very stressed at the present. Kopkow explains, "It's becoming increasingly difficult to cover up the existence of the Hai."`
+			`你到达了Foundry，来到了一个很少有人使用的太空港，这里通常只看到私人、辛迪加的行政船只。科普科在第二次迎接你时给了你一个温和的歉意的微笑，并向你介绍了安娜-华莱士船长。她表示，她很满意正在做出一些认真的努力来阻止海盗派别逃脱的奴隶制瘟疫。显然，许多像她一样的军官不同意海军的标准不登船政策。他们希望尽可能地解救奴隶，不顾风险或命令。`
+			`	虽然仅仅是华莱士的发言似乎让科普柯紧张得无法继续前进；事实上，他目前显得非常紧张。科普柯解释说："要掩盖海的存在越来越难了。"`
 			label kopkow
 			choice
-				`	"We only need to maintain the ruse a little longer."`
+				`	"我们只需要把这个诡计再维持一段时间。"`
 					goto maintain
-				`	"You don't know that we've given up on that?"`
+				`	"你不知道我们已经放弃了吗？"`
 					goto giveup
-				`	"Is it still working at all?"`
+				`	"它到底还能不能用？"`
 					goto working
 					to display
 						not "Hai Reveal [B12] Devil-Hide Battle: working"
 			label working
 			action
 				set "Hai Reveal [B12] Devil-Hide Battle: working"
-			`	"Our ruse is getting preposterous. The captains at Ultima Thule already know about the Hai, but we had to tell the crews that we were dealing with a major pirate threat. We hired a few pirate gangs to fly through the area to back our story. The Shield Beetles you've just flown here have been explained away as experimental ship designs from the movie production being tested out. Still though, our cover stories have passed the point of plausibility into the realm of barefaced lying. I hope you can finish this without too many more public displays, otherwise we won't be able to hide the Hai anymore."`
+			`	"我们的诡计越来越矫情了。在Ultima Thule的船长们已经知道了 "海 "号，但我们不得不告诉船员们，我们正在对付一个主要的海盗威胁。我们雇了几个海盗团伙飞过这个地区来支持我们的故事。你刚刚飞到这里的盾甲虫已经被解释为电影制作中的实验性飞船设计，正在进行测试。不过，我们的掩护故事已经超过了合理性的范畴，进入了赤裸裸的谎言领域。我希望你能在没有太多公开展示的情况下完成这件事，否则我们将无法再隐藏海。"`
 				goto kopkow
 			label giveup
-			`	He blinks at you, "Wait, what?"`
+			`	他冲你眨眨眼，"等等，什么？"`
 				goto explain
 			label maintain
-			`	"We've decided on an end point to this deception?"`
+			`	"我们已经决定了这个骗局的结束点？"`
 			label explain
-			`	You explain how they're just trying to keep things going long enough to resolve this mission. It is like a load has been lifted off the man, although he takes it in his stride fairly professionally.`
-			`	"Of course, nobody tells me anything in a timely manner..."`
-			`	"Anyway, I've organized the Syndicate's 'hostile urban insertion security operatives' to be loaded onto the Auxiliary. They look like intelligence operatives, if you ask me, so that'll be a conversation for me to follow up on later, but for now they're specially trained for attacking pirate strongholds and equipped with state of the art equipment that... is on a need-to-know basis. As long as we can protect the Auxiliary we'll be fine. The intel you brought back doesn't suggest particularly strong resistance. Wallace, good luck."`
+			`	你解释说，他们只是想让事情持续足够长的时间来解决这个任务。这就像从这个人身上卸下了重担，尽管他相当专业地接受了这一点。`
+			`	"当然，没有人及时告诉我什么......"`
+			`	"不管怎么说，我已经组织了辛迪加的'敌对城市插入式安全特工'装上了辅助号。如果你问我，他们看起来像情报人员，所以这将是我以后要跟进的谈话，但现在他们接受了攻击海盗据点的专门训练，并配备了最先进的设备，这些设备......是在需要了解的基础上。只要我们能保护好辅助部队，我们就会没事。你带回来的情报并没有显示出特别强大的阻力。华莱士，祝你好运。"`
 			choice
-				`	"It's good to hear you have the ground combat situation under control."`
+				`	"很高兴听到你能控制住地面战斗的情况。"`
 					goto control
-				`	"That equipment sounds ominous."`
-			`	Kopkow gives you a disturbing smile that has an 'I love my work' appearance. He departs as everyone else assembles.`
+				`	"那设备听起来很不吉利。"`
+			`	科普柯给了你一个令人不安的微笑，有一种'我爱我的工作'的感觉。他在其他人集合的时候离开了。`
 				goto leave
 			label control
-			`	"It's more of a collaboration, really, but like I said: need-to-know basis." He nods to you and departs as everyone else assembles.`
+			`	"这更像是一种合作，真的，但就像我说的：需要了解的基础。"他向你点头，然后在其他人集合时离开。`
 			label leave
-			`	After a large meeting about logistics, and an unsurmountable buffet, everyone disperses. General Choot'k finds you to discuss critical tactical matters.`
-			`	"There's a problem with the plan," he says, "which we found after more analysis of the scans. The bay where we need to land already has ships inside, and if we try to fly in there, they'll blow us to pieces. You have lure them out and kill them all."`
+			`	在开了一个关于后勤的大型会议，以及一个无法克服的自助餐之后，大家都散了。Choot'k将军找到你，讨论关键的战术问题。`
+			`	"计划有一个问题，"他说，"我们在对扫描进行更多分析后发现了这个问题。我们需要降落的海湾里面已经有飞船了，如果我们试图飞进去，他们会把我们炸成碎片。你必须把他们引出来，并把他们全部杀死。"`
 			choice
-				`	"How do I lure them out?"`
+				`	"我怎么才能把他们引出来？"`
 					goto how
-				`	"Can't we blow them up on the way down?"`
-			`	"Have you ever tried to land on a pile of blown-up space ships in the wreck of a spaceport a half kilometer underground? It ain't easy."`
-			`	Choot'k looks amused by your surprise at his pointed use of a colloquialism. Maybe one day you should investigate how and why the Unfettered learn your language. In the meantime, not blowing up your landing site is a sufficient lesson.`
+				`	"我们不能在降落的时候把它们炸掉吗？"`
+			`	"你有没有试过在地下半公里的太空港残骸中的一堆被炸毁的太空船上降落？这并不容易。"`
+			`	Choot'k对你惊讶于他尖锐的口语使用而显得很有趣。也许有一天你应该调查不受约束者是如何以及为什么学习你的语言。同时，不炸毁你的登陆点就是一个充分的教训。`
 			action
 				set "Choot'k: ain't"
 			label how
-			`	"I've spent a lot of time interrogating pirate leaders these past few weeks, and they all have one thing in common: narcissism. Threaten their precious egos, and they'll fight when they should hide. All you have to do is demand tribute from their planet and the fools will rush out and fight you.`
-			`	"The pirates won't believe it if we demand the tribute, but they will believe it if you demand it. Then their defense fleets will rush out. You have to defeat them on your own to maintain the ruse. Eventually they'll give up and pay tribute. That's when we know it's safe to land."`
+			`	"过去几周，我花了很多时间审问海盗头目，他们都有一个共同点：自恋。威胁到他们宝贵的自我，他们就会在应该躲起来的时候战斗。你要做的就是要求他们的星球进贡，这些傻瓜就会冲出来和你战斗。`
+			`	"如果我们要求进贡，海盗们不会相信，但如果你要求进贡，他们会相信的。然后他们的防御舰队就会冲出来。你必须靠自己的力量打败他们来维持这个诡计。最终他们会放弃，并支付贡品。那时候我们就知道可以安全登陆了。"`
 			choice
-				`	"Sounds good. I look forward to the tribute payments."`
+				`	"听起来不错。我期待着进贡的款项。"`
 					goto done
-				`	"Why do I have to do that myself?"`
-			`	"In your culture, governments don't demand tribute from enemy planets." He shrugs. "The pirates will see it as an obvious trap if we do it. You, though? They'll see a pilot taking advantage of the situation. Just lure them out, and blow them up, while we hold off any incoming ships."`
+				`	"为什么我必须自己做？"`
+			`	"在你们的文化中，政府不会要求敌人的星球进贡。"他耸耸肩。"如果我们这样做，海盗们会把它看作是一个明显的陷阱。不过，你呢？他们会看到一个飞行员在利用这种情况。只要把他们引出来，然后把他们炸死，而我们则挡住任何来袭的船只。"`
 			choice
-				`	"Sounds good. I look forward to the tribute payments."`
+				`	"听起来不错。我期待着进贡的款项。"`
 					goto done
-				`	"Why won't our fleet help me destroy the pirates coming from the planet?"`
-			`	"Ah, they could, but they won't. Consider it a test. I want to see you prove yourself in battle before I open the entrance to <planet>."`
+				`	"为什么我们的舰队不帮我消灭来自星球的海盗？"`
+			`	"啊，他们可以，但他们不会。就当是个考验吧。我想在我打开<planet>的入口之前，看到你在战斗中证明自己。"`
 			label done
-			`	He seems to admire your ship for a moment. "If you succeed today you shall be Hai-friend, wherever you go."`
+			`	他似乎对你的飞船欣赏了一会儿。"如果你今天成功了，你将成为海友，无论你去哪里。"`
 				accept
 	on accept
 		event "elenchus can be dominated"
@@ -1146,22 +1146,22 @@ mission "Hai Reveal [B12] Devil-Hide Battle"
 		fail "Hai Reveal [B12-A] Devil-Hide Fleet"
 	on visit
 		conversation
-			`To complete this mission, you must land with Choot'k, Teeneep, Danforth and Wallace's ships all present in the system and intact...`
+			`要完成这个任务，你必须在Choot'k、Teeneep、Danforth和Wallace的飞船都在该系统中并且完好无损的情况下降落......`
 	on enter
-		dialog `Right after the fleet takes off, Danforth hails you. "We have just received additional fighters and drones from the Syndicate, please wait for them before jumping."`
+		dialog `就在舰队起飞后，丹佛斯向你呼唤。"我们刚刚收到来自辛迪加的额外战斗机和无人机，请在跳伞前等待他们。"`
 	on enter "Devil-Hide"
 		conversation
-			`Teeneep sends out a message to the fleet informing you that she is engaging the electronic warfare baffling and reminds you that everyone needs to get onto the ground intact if this is to go well. Choot'k's Shield Beetle has red engine flares; the others have blue. So if he gets into trouble you should be able to tell at a distance. The baffling won't work forever, so get to it.`
-			`	(NOTE: You need to dominate this planet to finish the battle. To do that, talk to the planet and demand tribute. The planet will send multiple waves of defense fleets. Demand tribute after defeating the final wave, and they'll agree. Then land to finish the mission.)`
-			`	(WARNING: The allies you are escorting will not help you fight the defense fleets sent in response to your tribute demands, but they will fight any other pirate ships in the system.)`
+			`蒂尼普向舰队发出信息，通知你她正在与电子战的莫名其妙的人交战，并提醒你，如果要顺利进行，每个人都需要完整地进入地面。Choot'k的盾牌甲壳虫有红色的引擎信号弹，其他的是蓝色的。所以如果他遇到麻烦，你应该能在远处看出来。挡板不会永远起作用，所以要去做。`
+			`	(注意：你需要支配这个星球来完成战斗。要做到这一点，与该星球对话并要求进贡。这个星球会派出多波防御舰队。打败最后一波后要求进贡，他们会同意的。然后登陆，完成任务）。`
+			`	(警告：你所护送的盟友不会帮助你对抗为响应你的进贡要求而派出的防御舰队，但他们会对抗系统中的任何其他海盗船。)`
 	on visit
 		conversation
-			`To finish this mission, you must destroy all defending pirate vessels, and land with Choot'k, Teeneep, Danforth and Wallace's ships all present in the system and intact...`
+			`要完成这个任务，你必须摧毁所有防守的海盗船只，并在Choot'k、Teeneep、Danforth和Wallace的船只都在该系统中且完好无损的情况下登陆......`
 				launch
 	on complete
 		event "liberated elenchus"
 	on fail
-		dialog `You have failed an essential mission. To complete this story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成一项重要的任务。要完成这个故事线，请恢复到自动保存或另一个较早的游戏快照。`
 
 	# IMPORTANT: For story reasons, all non-Unfettered ships must have "save" to ensure
 	# the Unfettered get their jump drives back.
@@ -1279,177 +1279,177 @@ mission "Hai Reveal [B12-A] Devil-Hide Fleet"
 
 mission "Hai Reveal [B13] Freedom"
 	landing
-	name "Take them Home"
-	description "Escort the Hai back to <planet>. Payment to cover your ongoing expenses is <payment>."
+	name "带他们回家"
+	description `护送 "海 "号回到<planet>。支付你的持续费用是<payment>。`
 	source "Elenchus"
 	destination "Stormhold"
 	clearance
 	to offer
 		has "Hai Reveal [B12] Devil-Hide Battle: done"
 	on visit
-		dialog `To finish this mission, you need to wait for Teeneep, Choot'k, and Danforth's ships to arrive and then land again.`
+		dialog `要完成这个任务，你需要等待Teeneep、Choot'k和Danforth的船只到达，然后再次登陆。`
 	on fail
 		fail "Hai Reveal [B12-A] Devil-Hide Fleet"
 	on decline
 		fail "Hai Reveal [B12-A] Devil-Hide Fleet"
 	on offer
-		log `Factions` `Elenchus` `Formerly a pirate stronghold, this city built by generations of kidnapped specialists is a hundred twenty years old now. Humans, Hai, and even Korath live peacefully, working side-by-side, and most have no desire to leave. They value their independence and have refused Republic membership. This city orbits a strange world that defies analysis in a region of space untouched by civilization.`
+		log `Factions` `Elenchus` `这个城市以前是海盗的据点，由几代被绑架的专家建立，现在已经有一百二十年的历史了。人类、海族，甚至科拉斯都和平相处，并肩工作，而且大多数人都不想离开。他们重视自己的独立性，拒绝加入共和国。这座城市环绕着一个奇怪的世界，在一个未被文明触及的空间区域内，无法分析。`
 		log `Liberated Elenchus.`
 		conversation
-			`General Choot'k cuts open the doors of a large hangar, and your ships land. The two hundred Syndicate operatives pour out, wearing exoskeletons with high density armor plating and equipped with all manner of weapons and gadgetry. They storm through the complex and you follow in their wake. Their tools melt through security locks in seconds, and most of their opposition lacks protection against the suits' stun gas bombs. With pirates focusing their efforts on the imposing suits, the Unfettered make many attacks of opportunity, inflicting massive casualties. The pirates outnumber the attackers ten to one, but this huge advantage in equipment, training, and discipline gives the attackers an overwhelming advantage.`
-			`	The squads move room to room, neutralizing all opposition with ease, until their opponents switch tactics. The pirates begin using electromagnetic pulse devices to shut down the Syndicate suits (and all other electronics nearby), leaving affected operatives helpless for ten long seconds. Here, some of General Choot'k's Unfettered show their strength, outmaneuvering the pirates long enough for the suits to recharge. They dart between operatives and bound off walls with Pulse Rifles and long knives. They strike rapidly and in an organized manner, before withdrawing as the operatives suits re-engage, preventing the pirates from coordinating a counter-assault.`
-			`	After a bloody struggle, forty-three operatives reach the end of the fight, clearing the way to a blast door. Only a couple dozen operatives are known to be seriously wounded, but many have been missing since the pirates switched tactics and began using traps and machinery to pin, crush, or disable the operatives or their suits. The Unfettered fared comparatively better, as the pirates focused most attacks on the Syndicate operatives, letting the fast, maneuverable Hai pass through. Still, over a dozen of them will take their own tails home as trophies, after the pirates used a miner's cutting power-arm extensions to great effect.`
-			`	The blast door that the force now stands before is twelve meters high and wide, and scanners show it to be six meters deep. It is designed to be closed from this side, though, and has not been sealed well against being reopened. Soon it grinds open but, evidently sabotaged, only part-way. Despite this attempt, the operatives put on their goggles and easily pass through into the darkness of the next room.`
-			`	You could be forgiven for hesitating to follow them, but General Choot'k appears beside you and places one strong paw on your shoulder. "Come, now. We will discover if our task is finished or impossible. It is time for bravery." He guides you in after the operatives, along with his own troops.`
+			`Choot'k将军打开了一个大型机库的门，你们的飞船降落了。两百名辛迪加特工涌了出来，他们穿着高密度装甲的外骨骼，配备了各种武器和小工具。他们冲进建筑群，而你则跟在他们后面。他们的工具能在几秒钟内融化安全锁，而他们的对手大多缺乏对套装的眩晕气体炸弹的保护。由于海盗们把精力集中在气势恢宏的套装上，不受约束的人趁机发动了许多攻击，造成了巨大的伤亡。海盗的人数比攻击者多十倍，但在装备、训练和纪律方面的巨大优势使攻击者具有压倒性的优势。`
+			`	小分队在一个又一个房间里穿梭，轻而易举地消灭了所有对手，直到他们的对手改变战术。海盗们开始使用电磁脉冲装置来关闭辛迪加的套装（以及附近的所有其他电子设备），使受影响的特工人员在十秒钟内无能为力。在这里，一些Choot'k将军的Unfettered展示了他们的力量，在海盗们的面前展示了足够长的时间，以使防护服能够重新充电。他们在特工之间飞奔，用脉冲枪和长刀把墙捆住。他们以有组织的方式迅速出击，然后在特工服重新介入时撤离，防止海盗们协调反击行动。`
+			`	经过一场血腥的斗争，四十三名特工到达战斗的终点，清理出通往爆炸门的道路。据了解，只有几十名特工受了重伤，但自从海盗们改变战术，开始使用陷阱和机械来夹住、压碎或使特工或他们的战衣失效后，许多人都失踪了。不受约束号的情况相对较好，因为海盗们将大部分攻击集中在辛迪加特工身上，让速度快、机动性强的海号通过。不过，在海盗们使用矿工的切割动力臂延伸装置取得巨大效果后，他们中的十几人还是会把自己的尾巴带回家作为战利品。`
+			`	部队现在站在的防爆门有12米高和宽，扫描器显示它有6米深。虽然它被设计成可以从这一侧关闭，但并没有被很好地密封以防止被重新打开。很快，它就被磨开了，但是，显然是被破坏了，只开了一部分。尽管有这样的尝试，特工们戴上护目镜，轻松地通过了下一个房间的黑暗。`
+			`	你可以原谅自己犹豫要不要跟着他们，但丘特克将军出现在你身边，把一只有力的爪子放在你的肩膀上。"来吧，现在。我们将发现我们的任务是否已经完成或不可能完成。现在是勇敢的时候了。"他引导你跟在特工人员后面，和他自己的部队一起进去。`
 			choice
-				`	"Lead on."`
+				`	"带路吧。"`
 					goto leadon
-				`	"Treating me like a coward? That's grounds for a duel."`
-			`	"Heh heh," he laughs in a low voice. "Maybe soon."`
+				`	"把我当做一个懦夫？那是决斗的理由。"`
+			`	"嘿嘿，"他低声笑道。"也许很快。"`
 			action
 				set "Hai Reveal [B13] Freedom: challenged Choot'k"
 			label leadon
-			`	It's pitch black when you enter, but scanners show the room is a vast cavern, some sort of public space suitable for ten thousand people or more. As the last of the troops file in, a second blast door closes behind you. High roof lights snap on making the room as bright as day in the blink of an eye.`
-			`	You see before you scores of pirates, corralled and held captive by an equally large crowd of heavily-armed civilians - all of which are hesitantly pointing guns at the operatives. It seems the citizens arranged a violent rebellion to coincide with the Republic's attack. Three unarmed civilians wearing distinctive hooded robes walk towards the operatives: one Hai, one human, and to your surprise one lizard-like Korath. The leader of the Syndicate operatives exits her suit and approaches them.`
-			`	The Hai speaks. "We are the leaders of the civilian government of Elenchus. Although we are grateful for your assistance in defeating our violent rulers, we will not accept your dominion either. We have heard of your civil war. Elenchus is an independent nation, and we intend to stay so unless you intend to force otherwise. I can, however, promise that unlike our overlords, we have no interest in anything other than peace. We will send no military ships through the wormhole.`
-			`	After several hours of discussion, Agent Kopkow prepares the documents for the provisional recognition of the new "Elenctic Commune" with Admiral Danforth and Captain Wallace as witnesses. The wounded are finally attended to in the Elenctic hospital facilities, and most of the human operatives pack up their gear and return to the Auxiliary. Meanwhile, Teeneep and Choot'k go to lengths to engage with the Hai here and discover what they would best like to do.`
+			`	你进入时一片漆黑，但扫描器显示这个房间是一个巨大的洞穴，某种适合一万人或更多人的公共空间。当最后一批部队排队进入时，第二扇防爆门在你身后关闭。高高的屋顶灯突然亮起，使房间在一眨眼的功夫就亮如白昼。`
+			`	你看到在你面前的几十个海盗，被同样多的全副武装的平民围困和囚禁--所有这些人都在犹豫不决地用枪指着特工人员。看来市民们安排了一场暴力叛乱，以配合共和国的进攻。三个手无寸铁的平民穿着独特的连帽长袍走向特工人员：一个是海族，一个是人类，而令你惊讶的是一个像蜥蜴的科拉斯。辛迪加行动组的组长走出她的衣服，走近他们。`
+			`	海族人说话了。"我们是埃伦库斯平民政府的领导人。虽然我们很感谢你在击败我们的暴力统治者方面的援助，但我们也不会接受你的统治。我们已经听说了你们的内战。埃伦库斯是一个独立的国家，我们打算保持这样的状态，除非你们打算强行改变。然而，我可以保证，与我们的统治者不同，我们对和平以外的事情没有兴趣。我们不会派军舰通过虫洞。`
+			`	经过几个小时的讨论，科普柯探员准备好了临时承认新的 "伊伦特公社 "的文件，丹佛斯上将和华莱士上尉作为证人。伤员终于在Elenctic医院设施中得到了照顾，大多数人类特工收拾好装备，回到了辅助区。同时，提尼普和乔特克不遗余力地与这里的海族接触，发现他们最想做的事情。`
 			choice
-				`	"Thank you. I have a few questions for you before I go."`
-				`	"I wish you a successful future with your newfound freedom. For now, it is time for me to depart."`
+				`	"谢谢你。在我走之前，我有几个问题要问你。"`
+				`	"我祝愿你在新发现的自由中拥有一个成功的未来。现在，是我离开的时候了。"`
 					goto leave
 			label questions
 			choice
-				`	"Do you want me to take you home?"`
+				`	"你想让我送你回家吗？"`
 					goto home
 					to display
 						not "Hai Reveal [B13] Freedom: label home"
-				`	"Do you know anything about the cadmium poisoning?"`
+				`	"你知道关于镉中毒的事情吗？"`
 					goto "cadmium"
 					to display
 						not "Hai Reveal [B13] Freedom: label cadmium"
-				`	"What can you tell me about this city?"`
+				`	"关于这个城市，你能告诉我什么？"`
 					goto place
 					to display
 						not "Hai Reveal [B13] Freedom: label place"
-				`	"What do you do here?"`
+				`	"你在这里是做什么的？"`
 					goto do
 					to display
 						not "Hai Reveal [B13] Freedom: label do"
 						or
 							has "Hai Reveal [B13] Freedom: label place"
 							has "Hai Reveal [B13] Freedom: label home"
-				`	"What do you know about this area of space?"`
+				`	"你对这个空间区域了解多少？"`
 					goto space
 					to display
 						not "Hai Reveal [B13] Freedom: label space"
 						has "Hai Reveal [B13] Freedom: label place"
-				`	"How did the Korath get here?"`
+				`	"Korath人是如何来到这里的？"`
 					goto korath
 					to display
 						not "Hai Reveal [B13] Freedom: label korath"
-				`	"Can you speak to other Korath for me?"`
+				`	"你能为我和其他Korath说话吗？"`
 					goto "translation services"
 					to display
 						not "Hai Reveal [B13] Freedom: label translation services"
 						has "Hai Reveal [B13] Freedom: label korath"
-				`	"I wish you a successful future with your newfound freedom. For now, it is time for me to depart."`
-			`	"It was a pleasure meeting you," says the human leader.`
+				`	"我祝愿你在新发现的自由中拥有一个成功的未来。现在，是我离开的时候了。"`
+			`	"很高兴见到你，"人类领袖说。`
 				goto leave
 			label korath
 			action
 				set "Hai Reveal [B13] Freedom: label korath"
-			`	The Korath leader speaks, with a thick, sibilant accent. "Several generations ago, three of our raiding ships jumped to the Alcyone system. Numerous pirate vessels left Stormhold and disabled our ships. A large human ship boarded our flagship, and used what you call 'nerve gas' to kill the entire crew. The death is excruciatingly painful to Korath. The pirates broadcast the footage over to us, so we could see the screaming. Not wanting that fate, most of the raiders on the other Korath ships surrendered. We worked as slaves for the pirate gangs, but now we're here, safe, and free. We are not specialists or their descendants like the others here, but we have other talents.`
-			`	"The pirates must defend this planet against a space-based lifeform that attacks in flocks. Our ships gave them a significant advantage. Fortunately, we have one more left to defend against any threats." The Korath eyes the Syndicate operatives as he waits for the translator to catch up.`
-			`	"I must ask you keep the presence of Korath here a secret. If the Archons or other Exiles hear of this place, they may attack to retrieve us, or the Exiles may simply pillage. We will remain here in hiding unless the Exiles finally learn to settle on their planet."`
+			`	Korath领导人说话了，带着浓重的咝咝声的口音。"几代人以前，我们的三艘突击舰跳到了阿尔西昂系统。许多海盗船离开了Stormhold，使我们的船失去了作用。一艘大型人类飞船登上了我们的旗舰，用你们所说的'神经毒气'杀死了全体船员。死亡对Korath来说是极度痛苦的。海盗们把录像转播给我们，让我们看到尖叫声。不希望有这种命运，其他Korath船上的大多数突击队员都投降了。我们为海盗团伙当过奴隶，但现在我们在这里，安全，自由。我们不像这里的其他人那样是专家或他们的后代，但我们有其他的才能。`
+			`	"海盗们必须保卫这个星球，对抗一种成群结队攻击的天基生命体。我们的飞船给了他们很大的优势。幸运的是，我们还剩下一艘可以抵御任何威胁。"科拉思人在等待译员跟上的同时，注视着辛迪加的特工们。`
+			`	"我必须要求你们对Korath在这里的存在进行保密。如果大主教或其他流亡者听说了这个地方，他们可能会发动攻击来找回我们，或者流亡者可能会直接掠夺。我们将继续躲在这里，除非流亡者最终学会在他们的星球上定居。"`
 				goto questions
 			label "translation services"
 			action
 				set "Hai Reveal [B13] Freedom: label translation services"
-			`	The Korath leader hisses. "No, we cannot. We here do not even speak a full form of our own language anymore. Even if we did, we must remain here in secret. Perhaps in time there there will be a reconnection, but not yet."`
+			`	科拉斯领袖嘶吼道。"不，我们不能。我们在这里甚至不说我们自己语言的完整形式了。即使我们有，我们也必须秘密地留在这里。也许随着时间的推移，会有一个重新连接，但还不是时候。"`
 				goto questions
 			label "cadmium"
 			action
 				set "Hai Reveal [B13] Freedom: label cadmium"
-			`	The Korath leader looks to the Hai, who responds, "Is that how you were led back here?"`
-			`	"Indirectly," you reply.`
-			`	The Hai leader continues, "Fascinating, we always wondered if it would pique someone's attention! Our Korath friends have ships equipped with these remarkable "Systems Cores", which are apparently vital to all Korath ships. None of the surviving Korath had the knowledge to replicate it, but they were asked to try and many of them have an uncanny knack for engineering. With their help, we attempted to build some equivalents of our own. Being not quite right, they work, but they fuse irrevocably with the ship, and some flaw in their function causes cadmium particulate. The cadmium is shed by the system maintenance processes into the air, where it is recirculated, and ignored by the system intended to filter it out since it's a part of the system itself."`
-			`	The human leader adds, "We worked out how to reduce that effect to safe levels, but kept that information to ourselves in the hope that it would draw some attention. It tended to make the pirates sick more often than anyone else, which also seemed to mean that more of their victims escaped."`
+			`	科拉斯领袖看向海，海回应道："你们就是这样被引回这里的吗？"`
+			`	"间接的，"你回答。`
+			`	海族首领继续说："很有趣，我们一直想知道这是否会引起某人的注意！"。我们的Korath朋友的船配备了这些非凡的 "系统核心"，这显然是所有Korath船的关键。幸存的Korath人中没有人具备复制它的知识，但他们被要求尝试，而且他们中的许多人在工程方面有一种不可思议的诀窍。在他们的帮助下，我们尝试着建造一些我们自己的等效物。由于不太正确，它们可以工作，但它们与飞船不可逆转地融合在一起，其功能上的一些缺陷导致镉微粒。镉由系统维护过程中脱落到空气中，在那里被重新循环，并被旨在过滤它的系统所忽略，因为它是系统本身的一部分。"`
+			`	人类领袖补充说："我们研究出了如何将这种影响降低到安全水平，但对我们自己保留了这一信息，希望它能引起一些注意。它往往使海盗比其他人更容易生病，这似乎也意味着更多的受害者逃脱了。"`
 				goto questions
 			label home
 			action
 				set "Hai Reveal [B13] Freedom: label home"
-			`	The three leaders laugh, and the Hai answers. "We are home. Most of us were born here, or have lived most of our adult lives here. This is a place of learning, where three races join as one to progress together. Even several of the new arrivals had few connections back in Hai space and have viewed this place as a grand new novelty. An adventure without compare. Some recent kidnapping victims wish to leave, of course, and we will help you find them and send them home."`
-			`	The Korath speaks next. "Where my people came from, everyone was starving, barely subsisting. We had to raid for supplies, or slave away in bleak factory stations. This is a much better place for us."`
-			`	The human leader concludes, "Most of the humans in this city have been here for several generations. This has always been home to us."`
+			`	三位领导人哈哈大笑，海爷回答。"我们是家。我们中的大多数人在这里出生，或在这里度过了我们大部分的成年生活。这是一个学习的地方，三个种族在这里合为一体，共同进步。即使是一些新来的人，在海族的空间里也没有什么联系，他们把这个地方看作是一个宏伟的新事物。一个无与伦比的冒险。当然，最近一些被绑架的受害者希望离开，我们会帮助你们找到他们，并送他们回家。"`
+			`	科拉斯人接下来发言。"在我的族人来的地方，每个人都在挨饿，勉强维持生计。我们不得不搜刮物资，或者在荒凉的工厂里做苦力。这对我们来说是一个更好的地方。"`
+			`	人类领袖总结说："这个城市中的大多数人类已经在这里生活了几代人。这里一直都是我们的家。"`
 				goto questions
 			label place
 			action
 				set "Hai Reveal [B13] Freedom: label place"
-			`	"It must seem strange to you," the human replies, "but I shall explain. This place was founded over a hundred and twenty years ago by anarchists from the colony of Freedom. Their community had been working within the Syndicate for a long time, evolving into anarcho-syndicalists that worked to bring the Syndicate down from within. At some point they discovered this place after stealing a drive and other paraphernalia that were unearthed from a construction site on Foundry. With the Syndicate on its doorstep and difficult access requirements, they saw the potential in this place but needed more manpower to exploit it. To do this, they allied with less peaceful anarchists and pirates. Those less savory types kidnapped researchers and engineers, forcing them to expand the base and devise new weapons or medicines. They eventually inherited control here after the syndicalists were wiped out. Our city also has manufacturing facilities where we created goods the pirates could not easily build in human space, where their facilities are destroyed regularly.`
-			`	"There have been various attempts to take the spaceport and the city by force or by money. Early on, there were attempts by Alpha groups, and then various illegal organizations who tracked this place down from rumors about their rivals. There was even someone from the Syndicate who came with his personal fleet. There are those who have controlled this place by controlling the spaceport and treating with us, and there are those who have tried to force their way in here and bend us to their will. None of them returned home from the latter attempts. Some used chemical or biological weapons, others sent ships. Many offered money or favors. Elenchus has always been an independent country, and with control of our own spaceport, perhaps we always will be.`
-			`	"Now that the pirates are gone, us civilians may govern without fear, and for that you have our gratitude. As expendable upper regions of the spaceport have already been destroyed, we have little to fear from attack by space creatures in the short-term, and soon we'll have our shipyards and facilities at full capacity again, such that we may defend ourselves.`
-			`	"We won't ever join the Republic or any other government beyond the wormhole, but you personally will always be welcome, along with those you trust, for what you have done today. Our research and manufacturing facilities are damaged now, but as they are repaired, we will make them available to you."`
+			`	"这对你们来说一定很奇怪，"人类回答说，"但我要解释。这个地方是一百二十年前由自由殖民地的无政府主义者建立的。他们的社区已经在辛迪加内部工作了很长时间，演变为无政府主义-辛迪加主义者，致力于从内部打倒辛迪加。在某种程度上，他们在偷了一个驱动器和其他从Foundry的建筑工地上出土的用具后发现了这个地方。由于辛迪加就在其门口，而且有困难的访问要求，他们看到了这个地方的潜力，但需要更多的人力来开发它。为了做到这一点，他们与不太和平的无政府主义者和海盗结盟。这些不那么好说话的人绑架了研究人员和工程师，迫使他们扩大基地，设计新的武器或药品。在联合主义者被消灭后，他们最终继承了这里的控制权。我们的城市也有制造设施，我们在那里制造了海盗在人类空间无法轻易制造的货物，他们的设施在那里经常被摧毁。`
+			`	"曾经有各种企图通过武力或金钱来夺取太空港和城市。早期，有阿尔法集团的尝试，然后是各种非法组织，他们从关于对手的传言中追踪到这个地方。甚至有来自辛迪加的人带着他的个人舰队来过。有一些人通过控制太空港和与我们的待遇来控制这个地方，也有一些人试图强行进入这里，使我们屈服于他们的意志。他们中没有一个人从后一种尝试中回国。有些人使用了化学或生物武器，有些人则派出了船只。许多人提供金钱或恩惠。Elenchus一直是一个独立的国家，在控制了我们自己的太空港之后，也许我们将永远是独立的。`
+			`	"现在海盗走了，我们这些平民可以毫无顾虑地管理，为此我们要感谢你。由于太空港的可消耗的上层区域已经被摧毁，我们在短期内几乎不用担心太空生物的攻击，而且很快我们的船厂和设施将再次满负荷运转，这样我们就可以保护自己。`
+			`	"我们永远不会加入共和国或虫洞之外的任何其他政府，但你个人和你信任的人将永远受到欢迎，因为你今天所做的一切。我们的研究和制造设施现在被损坏了，但随着它们的修复，我们将把它们提供给你们。"`
 				goto questions
 			label do
 			action
 				set "Hai Reveal [B13] Freedom: label do"
-			`	"We're scientists, engineers, philosophers, people of learning. Intergenerational traditions of knowledge and scholarship are strong here. There are laboratories and workshops throughout this city where we work on all manner of things. We seek knowledge. This place is far from being a paradise, but it is a community that strives together. Under the pirates we were allowed this freedom, as they realized it was the most effective way to get results that helped them. Now that our most recent abusive masters are gone, we need not have our priorities guided by their violent motives."`
-			`	"Of course, this is also a city. People have lived here for several generations, multiplying fruitfully. We have had to carve out more and more of the moon. There is plenty of space left before our growth will have to stop."`
+			`	"我们是科学家，工程师，哲学家，有学问的人。这里的知识和学术的代际传统很强。这个城市到处都有实验室和车间，我们在那里研究各种事物。我们寻求知识。这个地方远不是一个天堂，但它是一个共同奋斗的社区。在海盗的统治下，我们被允许有这种自由，因为他们意识到这是获得有助于他们的结果的最有效方式。现在，我们最近的虐待主人已经离开了，我们不需要让我们的优先事项受到他们暴力动机的指导。"`
+			`	"当然，这也是一个城市。人们已经在这里生活了几代人，硕果累累地繁殖。我们不得不在月球上划出越来越多的地方。在我们的增长不得不停止之前，还有大量的空间。"`
 				goto questions
 			label space
 			action
 				set "Hai Reveal [B13] Freedom: label space"
-			`	"Very little. The pirates wouldn't let us leave the planet, and jump drives are precious to them. They cannot risk drives on science expeditions. Still, we have managed a few trips under different regimes."`
-			`	"There is no evidence that any civilization has ever reached this region of space until us, and this system is not native to the others around it. It was flung from our galaxy millions of years ago, and is still traveling relatively fast. One day, far from now, this system will pass beyond even this loose collection of systems that it is now close to. There are also many space-faring indigenous creatures that live in gas giants, and sometimes venture beyond. Most are harmless, so long as you leave them alone. There are flocking apex predators who hunt anything that moves.`
-			`	"The planet below is a mystery to us. It has a thousand times the mass it realistically should, and its gravitational field reads as such from a great distance. This tremendous gravitational field sustains the large asteroid belt. Despite its incredible mass, as you approach the surface, the field does not increase at anywhere near the rate that it should. Thus, when you stand upon it, the gravity is only similar to that of Earth. There are many forms of radiation and strange materials inside the planet's caves. We believe it is a relic from a forgotten past, but we have no idea what sort of relic it is. Perhaps, now that we are not developing pirate weapons, we can focus on exploration."`
+			`	"非常少。海盗们不会让我们离开这个星球，而跳跃驱动器对他们来说很珍贵。他们不能让驱动器在科学考察中冒险。不过，在不同的制度下，我们还是设法进行了几次旅行。"`
+			`	"没有证据表明在我们之前有任何文明曾经到达过这个空间区域，而且这个系统不是它周围其他系统的原生地。它在几百万年前被从我们的星系中甩出，并且仍在相对快速地旅行。有一天，离现在很远，这个系统甚至会超越它现在所接近的这个松散的系统集合。也有许多生活在气态巨行星中的太空本土生物，有时会冒险超越。大多数是无害的，只要你不去打扰它们。有一些成群结队的顶级掠食者会猎杀任何移动的东西。`
+			`	"下面的星球对我们来说是个谜。它的质量是它现实中应该有的质量的一千倍，它的引力场从很远的地方就能读到。这个巨大的引力场支撑着大型小行星带。尽管它的质量惊人，但当你接近它的表面时，它的引力场并没有以任何接近它应该有的速度增加。因此，当你站在上面时，重力只与地球相似。在这个星球的洞穴里有许多形式的辐射和奇怪的材料。我们相信这是一个来自被遗忘的过去的遗迹，但我们不知道它是什么样的遗迹。也许，现在我们不开发海盗武器了，我们可以专注于探索。"`
 				goto questions
 			label leave
-			`	There is one last critical matter to be addressed with the three representatives and you raise it with them. "Did we have all of the leaders of this group? Are they all accounted for?"`
-			`	They consult with some of their people who have been scouring the spaceport, helping to account for both the living, and the dead on both sides. At length, just the human comes to you.`
-			`	"Your question was wise. There is one unaccounted for. Before I tell you, though, I think perhaps you should know more than you do." They reach up and push back their hood, revealing a bald head, as they gesture to the city in general. To your surprise you realize for the first time that they are a woman, though that seems like it could be the least important part of their identity.`
+			`	有一个最后的关键问题需要与三位代表解决，你向他们提出。"我们有这个团体的所有领导人吗？他们都有下落吗？"`
+			`	他们与他们的一些人协商，这些人一直在搜查太空港，帮助说明双方的生者和死者。最后，只有人类来找你。`
+			`	"你的问题是明智的。有一个人下落不明。不过，在我告诉你之前，我想也许你应该比你知道得更多。"他们伸手推开头巾，露出一个光头，边说边向整个城市示意。令你惊讶的是，你第一次意识到他们是一个女人，尽管这似乎可能是他们身份中最不重要的部分。`
 			choice
-				`	"What do you wish to tell me?"`
-				`	"I've had enough history lessons for one day. Can you tell me the leader's name?"`
+				`	"你想告诉我什么？"`
+				`	"我今天上的历史课已经够多了。你能告诉我领袖的名字吗？"`
 					goto impatient
-			`	"Many different overlords we have had, and always they have relied on recruits from the city for some capacities while rallying other lesser groups to their banner. As such, ever have there been factions. Some, kinder than others."`
-			`	They look at you meaningfully. "There was a factional shift in progress here before you arrived. A little over a decade ago, for the first time in a century, a new anarcho-syndicalist faction from Freedom took over the control of the spaceport and reclaimed the mantle of our original founders who called themselves 'Base Principles'. While we as a city didn't particularly care, there were some who sympathized with them more than most. As overlords went they were, fair enough. After only a decade, and despite significantly greater access to resources than their predecessors, their control was already slipping. Deviants and extremists who lacked the capacity to subscribe to a nuanced view had supplanted most of their major players. If they did not succeed in their quest imminently, they were already doomed to be replaced. Still, they were nevertheless exploitative overlords, and we don't pity them... but their goals were more noble than most.`
-			`	"I tell you all this because I suspect you must seek out this one leader who is unaccounted for, and you should do so with all the knowledge at your disposal. The one leader who is not here was the last major player from the new 'Base Principles'. I do not know where your loyalties lie, so I ask you: why do you wish to know?"`
+			`	"我们有许多不同的霸主，他们总是依靠城市里的新兵来获得一些能力，同时把其他较小的团体召集到他们的旗帜下。因此，一直都有一些派别。有些人，比其他人更善良。"`
+			`	他们意味深长地看着你。"在你来之前，这里有一个派别的转变。十多年前，一个世纪以来第一次，一个来自自由的新的无政府主义--工会主义派别接管了太空港的控制权，并重新获得了我们最初的创始人的衣钵，他们自称为'基地原则'。虽然我们作为一个城市并不特别关心，但有一些人比大多数人更同情他们。作为霸主，他们是足够公平的。仅仅过了十年，尽管他们比前辈有更多的机会获得资源，但他们的控制力已经在下降。缺乏能力认同细微观点的异类和极端分子已经取代了他们的大多数主要参与者。如果他们的追求没有马上成功，他们已经注定要被取代。尽管如此，他们仍然是剥削性的霸主，我们并不同情他们......但他们的目标比大多数人更高尚。`
+			`	"我告诉你们这些，是因为我怀疑你们必须寻找这个下落不明的领袖，你们应该用你们掌握的所有知识来这样做。这位不在这里的领导人是新的'基地原则'的最后一个主要参与者。我不知道你们的忠诚度在哪里，所以我问你们：你们为什么希望知道？"`
 				goto reason
 			label impatient
-			`	They sigh. "The one leader who is not here was the last major player from the new 'Base Principles'. I do not know where your loyalties lie, so I ask you: why do you wish to know?"`
+			`	他们叹了口气。"不在这里的那位领导人是新'基地原则'的最后一位主要参与者。我不知道你的忠诚度在哪里，所以我问你：你为什么希望知道？"`
 			label reason
 			choice
-				`	"I do not, but I must, out of duty."`
+				`	"我不知道，但出于责任，我必须知道。"`
 					goto knowduty
-				`	"I wish to know, for the Hai."`
+				`	"我希望知道，为了海。"`
 					goto knowhai
-				`	"I wish to know, for the Syndicate."`
+				`	"我想知道，为了辛迪加。"`
 					goto knowsyndi
-				`	"I wish to know, for the people."`
-			`	They regard you thoughtfully. "You are well suited to the neutral ground. It is little wonder you are here as an agent of no single faction. That is appropriate then.`
+				`	"我希望知道，为了人民。"`
+			`	他们深思熟虑地看着你。"你很适合在中立地工作。难怪你在这里不是作为一个单一派别的代理人。那就合适了。`
 				goto finished
 			label knowhai
-			`	They incline their head respectfully. "The Hai are perhaps the greatest valuers of truth among us. If they have set you to this, then they will be honored by your diligence.`
+			`	他们恭敬地歪着头。"海族也许是我们中最重视真理的人。如果他们让你来做这个，那么他们会因为你的勤奋而感到荣幸。`
 				goto finished
 			label knowsyndi
-			`	They focus on you closely. "The Syndicate is perhaps the most impressive machine ever wrought by man. It is worthy of both respect and fear, and will do to people as any machine does to the product of its design. Treat it as such and it will always do precisely what you expect it to; both good and bad.`
+			`	他们密切关注着你。"辛迪加也许是人类有史以来最令人印象深刻的机器。它既值得尊重，也值得恐惧，并且会像任何机器对其设计的产品那样对待人们。像这样对待它，它总是会准确地做你所期望的事情；无论是好的还是坏的。`
 				goto finished
 			label knowduty
-			`	They lift their head and smile. "A promise made is a promise kept. If your word is your bond then it would not do for me to stand in its way.`
+			`	他们抬起头，微笑着。"做出的承诺就是遵守的承诺。如果你的承诺是你的纽带，那么我就不能阻挡它。`
 				goto finished
 			label finished
-			`	"The missing leader you seek is embedded within the Syndicate and is known by the name Terry Adrianopoulos."`
+			`	"你所寻找的失踪领导人被嵌入到辛迪加内部，他的名字叫特里-阿德里安诺普洛斯。"`
 			choice
-				`	"Terry did this!?"`
+				`	"特里干的！？"`
 					goto surprised
-				`	"I suspected as much."`
-			`	Their words scratch an itch of suspicion that you didn't realize had been irritating you until now. They smirk knowingly. "I have merely confirmed that which you already guessed. Very well, I need say no more. This matter is yours to do with as you will." They leave you to ponder your course.`
+				`	"我也这么怀疑。"`
+			`	他们的话搔到了怀疑的痒处，你直到现在才意识到一直在刺激着你。他们有意无意地笑了笑。"我只是证实了你已经猜到的事情。很好，我不需要再多说了。这件事是你的，你想怎么做就怎么做。"他们让你去思考你的方向。`
 				goto done
 			label surprised
-			`	They smile with subtle mirth at your surprise. "I see you know of this person but did not suspect. I think it is to you, and you alone, I shall impart this knowledge. Do with it as you will." They leave you to ponder your course.`
+			`	他们对你的惊讶露出微妙的笑意。"我看你知道这个人，但没有怀疑。我想我应该把这些知识传授给你，而且只传授给你。随你怎么做吧。"他们让你去思考你的路线。`
 			label done
-			`	As you return to your ship, Teeneep interrupts you. "I need you to escort me one last time, Captain <last>. I must return to <planet> to resolve things now that the threat is ended. You will be well-paid, of course."`
-			`	Anticipating your next question, she says, "The ships of the Unfettered Hai will be escorted back with us, since the Elenctics are convinced they are at no risk and still have a ship at their disposal. Some of those who came as crew on the Unfettered vessels have chosen to remain here and join the Elenctics. More than enough bunks have subsequently been freed to return those who have chosen to come home with us. Danforth will come with us, but the other human vessels will make their way home themselves. Now we must rejoin our people on <planet> and set about resolving this matter for good, finally."`
+			`	当你回到你的船上时，蒂尼普打断了你。"我需要你最后一次护送我，船长<last>。既然威胁已经结束，我必须回到<planet>来解决事情。当然，你会得到丰厚的报酬。"`
+			`	预计到你的下一个问题，她说："不受约束的海的船只将与我们一起被护送回去，因为Elenctics确信他们没有任何风险，并且仍然有一艘船可供他们使用。一些作为不受约束的船只上的船员来的人选择留在这里，加入Elenctics。随后有足够多的铺位被释放出来，让那些选择和我们一起回家的人返回。丹佛斯将和我们一起走，但其他人类船只将自己回家。现在，我们必须与我们在<planet>上的人民会合，并着手解决这个问题，最后。`
 				accept
 	on complete
 		payment 1000000
@@ -1492,8 +1492,8 @@ mission "Hai Reveal [B13-G] Elenctic Guard"
 
 mission "Hai Reveal [B14] Journey to Peace"
 	landing
-	name "Take them Home"
-	description "Pick up the Deputy Minister at <stopovers> and escort Teeneep's ship back to <destination>."
+	name "带他们回家"
+	description "在<stopovers>接上副部长，护送Teeneep的飞船回到<destination>。"
 	source "Stormhold"
 	stopover "Mountaintop"
 	destination "Hai-home"
@@ -1502,12 +1502,12 @@ mission "Hai Reveal [B14] Journey to Peace"
 	to offer
 		has "Hai Reveal [B13] Freedom: done"
 	on visit
-		dialog `To finish this mission, you need to wait for Teeneep and Choot'k's ships to arrive and then land again.`
+		dialog `为了完成这个任务，你需要等待Teeneep和Choot'k的飞船到达，然后再次登陆。`
 	on offer
 		conversation
-			`Your arrival on <origin> is met with much fanfare. In your absence the remaining staging ground here was eventually found and purged, and an agreement of sorts has been made between the Republic authorities and the remaining major players here - or at least those whose lists of possible crimes aren't so long and well-evidenced as to be arrested for appearing. The hope is that after such a thorough purge, <origin> will manage to be less of a source of problems for a while, but the expectation is merely that people smuggling will no longer be an industry that is widely tolerated by the local powers that be.`
-			`	The Unfettered are treated as heroes by both their comrades and the other Hai crews as they return to the fold. This causes some, like Remington and Alondo, to share some concerned looks among each other and have a number of surreptitious chats with Danforth and Marshal Kaine, but the distinction between the two groups remains pronounced throughout.`
-			`	Once people have had a chance to get sorted Teeneep approaches you again. "There will be much work in the future, but for now it is time to return to <planet>. I have been too long away, and there are obligations to be discharged. I have returned the borrowed jump drive, so we should pick up the Deputy Minister from Mountaintop on the way."`
+			`你到达<origin>后，受到了很多人的欢迎。在你不在的时候，这里剩余的集结地最终被发现并被清除，共和国当局和这里剩余的主要参与者之间达成了某种协议--或者至少是那些可能的罪行清单还没有长到被逮捕出场的程度的人。希望经过这样一次彻底的清洗，<origin>将设法在一段时间内减少问题的来源，但期望的只是人口走私将不再是一个被当地权力机构广泛容忍的行业。`
+			`	不受约束的人在回归时被他们的战友和其他海员视为英雄。这导致一些人，如雷明顿和阿隆多，彼此之间分享一些关切的眼神，并与丹佛斯和凯恩元帅进行了一些偷偷摸摸的交谈，但两组人之间的区别自始至终都很明显。`
+			`	一旦人们有机会整理好，蒂尼普就会再次接近你。"未来会有很多工作，但现在是时候返回<planet>了。我已经离开太久了，而且还有一些义务需要履行。我已经归还了借来的跳跃驱动器，所以我们应该在路上接回山顶的副部长。"`
 				accept
 	npc save accompany
 		government "Hai (Wormhole Access)"

@@ -15,109 +15,109 @@ phrase "pug"
 	word
 		"Pak"
 		"Mug"
-		"Prot"
+		"证实"
 		"Dor"
 		"Mek"
 		"Cam"
 		"Yot"
-		"Quim"
-		"Tsoop"
-		"Froid"
-		"Groip"
-		"Ploort"
-		"Schmar"
+		"奎姆"
+		"吐鲁番"
+		"弗洛德"
+		"格罗普"
+		"普罗特"
+		"洛克尔"
 		"Klar"
-		"Brek"
+		"布雷克"
 	word
 		" "
-		" Kim "
-		" Wor "
-		" Moof "
-		" Plat "
-		" Del "
-		" Ben "
-		" Gred "
-		" Klort "
-		" Rep "
-		" For "
+		" 金"
+		" 沃"
+		" 摩夫"
+		" 普雷特"
+		" 达尔"
+		" 本"
+		" 谷德"
+		" 克劳特"
+		" 代表"
+		" 征求意见"
 		" a "
-		" io "
-		" el "
+		" io"
+		" el"
 		" "
 		" "
 	word
-		"Glorf"
-		"Florp"
-		"Marg"
+		"格洛夫"
+		"弗洛里普"
+		"冈萨雷斯"
 		"Graw"
 		"Ged"
 		"Peg"
-		"Plog"
-		"Hort"
-		"Noor"
-		"Joop"
-		"Drap"
-		"Loit"
+		"普洛格"
+		"霍特"
+		"诺尔"
+		"乔普"
+		"垂头丧气"
+		"泥土"
 		"Sol"
 		"Wan"
 
 phrase "friendly pug"
 	word
 		"We"
-		"The Pug"
-		"Our mission is to"
-		"Our calling is to"
-		"Our species will"
-		"We intend to"
-		"We only desire to"
+		"巴格犬"
+		"我们的使命是"
+		"我们的使命是"
+		"我们的物种将"
+		"我们打算"
+		"我们只希望"
 	word
 		" "
 	word
-		"bring"
-		"promote"
-		"advance"
-		"ensure"
-		"create"
-		"develop"
-		"stimulate"
-		"support"
-		"uphold"
-		"assist in bringing"
-		"aid the cause of"
-		"work for"
-		"bring about"
+		"带来"
+		"促进"
+		"推进"
+		"确保"
+		"创造"
+		"发展"
+		"刺激"
+		"支持"
+		"维护"
+		"有助于带来"
+		"援助的事业"
+		"为之努力"
+		"带来"
 	word
 		" "
 	word
-		"peace"
-		"healing"
-		"justice"
-		"freedom"
-		"an end of conflict"
-		"an end to violence"
-		"an end to warfare"
-		"prosperity"
-		"reconciliation"
-		"friendship"
-		"unity"
-		"the end of violence"
+		"和平"
+		"愈合"
+		"公正"
+		"自由"
+		"结束冲突"
+		"结束暴力"
+		"结束战争"
+		"繁荣"
+		"和解"
+		"友谊"
+		"团结"
+		"暴力的结束"
 	word
 		"."
-		" in the galaxy."
-		" throughout the universe."
-		" among all sentient beings."
+		" 在银河系。"
+		" 在整个宇宙中。"
+		" 所有有生命的人之间。"
 
 phrase "friendly disabled pug"
 	word
-		"We are only a part of a larger whole"
-		"Our time has come"
-		"We are defeated, but the cause continues"
+		"我们只是一个更大的整体中的一部分"
+		"我们的时代已经到来"
+		"我们被打败了，但事业仍在继续"
 	word
 		"; "
 	word
-		"leave us be to perish"
-		"continue fighting without us"
-		"worry not about us"
+		"任由我们灭亡"
+		"没有我们，继续战斗"
+		"不要为我们担心"
 	word
 		"."
 
@@ -127,44 +127,44 @@ phrase "hostile pug"
 	word
 		" "
 	word
-		"have made"
-		"are making"
-		"have committed"
-		"are guilty of"
-		"are perpetrating"
-		"have chosen"
-		"are acting out"
-		"are perpetuating"
+		"我们已经做了"
+		"正在制造"
+		"犯了"
+		"有罪的"
+		"正在实施"
+		"选择了"
+		"正在行动"
+		"正在实施"
 	word
 		" "
 	word
-		"a regrettable"
-		"an understandable"
-		"an unfortunate"
-		"a serious"
-		"a grave"
-		"an extreme"
-		"an ill-advised"
-		"an absurd"
-		"a foolish"
-		"a stupid"
-		"a crazy"
-		"a preposterous"
-		"an unwise"
-		"a bad"
+		"一个令人遗憾的"
+		"可以理解的"
+		"不幸的"
+		"严重"
+		"严重"
+		"一个极端"
+		"不明智之举"
+		"荒谬的"
+		"愚蠢的"
+		"愚蠢"
+		"疯狂"
+		"荒谬的"
+		"不明智"
+		"一个坏的"
 	word
 		" "
 	word
-		"mistake"
-		"error"
-		"lapse in judgment"
-		"choice"
-		"decision"
-		"blunder"
-		"miscalculation"
-		"misstep"
-		"fault"
-		"misdeed"
+		"错误"
+		"错误"
+		"判断失误"
+		"选择"
+		"决定"
+		"失误"
+		"误判"
+		"错步"
+		"错"
+		"错误"
 	word
 		"."
 
@@ -191,7 +191,7 @@ outfit "Pug Zapper"
 		"firing heat" 1.4
 		"shield damage" 3.7
 		"hull damage" 2.9
-	description "This is a formidable beam weapon, more damaging than even the most advanced energy beams that humanity has developed. Pug ships have integrated power plants that produce the considerable amount of energy that is needed to drive weapons like this one."
+	description "这是一种可怕的光束武器，甚至比人类已经开发的最先进的能量束更具破坏性。帕格舰有集成的发电厂，可以产生驱动像这样的武器所需的相当多的能量。"
 
 outfit "Pug Zapper Turret"
 	category "Turrets"
@@ -219,7 +219,7 @@ outfit "Pug Zapper Turret"
 		"firing heat" 2.8
 		"shield damage" 7.4
 		"hull damage" 5.8
-	description "Mounted on a turret, this Pug weapon becomes even more devastatingly powerful. However, its energy requirements are higher than most human ships can support."
+	description "安装在炮塔上，这种帕格武器变得更加具有破坏性的威力。然而，它的能量需求比大多数人类船只所能支持的要高。"
 
 effect "zapper impact"
 	sprite "effect/zapper impact"
@@ -260,7 +260,7 @@ outfit "Pug Seeker"
 		"hull damage" 13
 		"hit force" 2
 		"missile strength" 40
-	description "You have no idea how this weapon works. It requires no ammunition, but its energy-based projectiles have the ability to home in on a target ship."
+	description "你不知道这种武器是如何工作的。它不需要弹药，但其基于能量的弹丸有能力瞄准目标舰。"
 
 effect "seeker impact"
 	sprite "effect/seeker impact"
@@ -290,7 +290,7 @@ outfit "Pug Anti-Missile"
 		"reload" 2
 		"firing energy" 8
 		"firing heat" 2
-	description "This anti-missile system designed by the Pug draws a lot of energy, but its fast firing rate makes it twice as effective as anything that Lovelace Labs has been able to come up with. A ship with one of these turrets will be very difficult to hit with missiles."
+	description "这种由帕格人设计的反导弹系统需要消耗大量的能量，但其快速的发射速度使其比洛夫拉斯实验室所能想出的任何东西都要有效两倍。一艘拥有这种炮塔的飞船将很难被导弹击中。"
 
 effect "pug anti-missile"
 	sprite "effect/large anti missile"
@@ -319,7 +319,7 @@ outfit "Tier 3 Anti-Missile"
 		"reload" 6
 		"firing energy" 80
 		"firing heat" 10
-	description "This powerful anti-missile turret is capable of destroying even the strongest of missiles."
+	description "这种强大的反导弹炮塔甚至能够摧毁最强的导弹。"
 
 effect "tier 3 anti-missile fire"
 	sprite "effect/anti-missile 3 fire"
@@ -364,7 +364,7 @@ outfit "Pug Gridfire Turret"
 		"hull damage" 600
 		"blast radius" 40
 		"piercing" .3
-	description "No one understands how the Gridfire Turret works, and the Pug aren't interested in explaining."
+	description "没有人了解网格火炮塔是如何工作的，而帕格人也没有兴趣解释。"
 
 effect "gridfire fire"
 	sprite "effect/gridfire fire"
@@ -407,7 +407,7 @@ outfit "Pug Akfar Thruster"
 	"flare sprite" "effect/pug flare/medium"
 		"frame rate" 20
 	"flare sound" "ion medium"
-	description "This is a small thruster designed by the Pug. It is not quite as powerful as a similarly sized atomic engine, but it makes up for that by being almost as energy efficient as ion engines."
+	description "这是一个由帕格人设计的小型推进器。它并不像类似规模的原子引擎那样强大，但它的能量效率几乎与离子引擎一样高，从而弥补了这一点。"
 
 outfit "Pug Akfar Steering"
 	category "Engines"
@@ -422,7 +422,7 @@ outfit "Pug Akfar Steering"
 	"steering flare sprite" "effect/pug flare/medium"
 		"frame rate" 20
 	"steering flare sound" "ion medium"
-	description "This is a small steering system designed by the Pug. It is not quite as powerful as a similarly sized atomic engine, but it makes up for that by being almost as energy efficient as ion engines."
+	description "这是一个由帕格人设计的小型转向系统。它并不像类似规模的原子引擎那样强大，但它通过几乎与离子引擎一样的能源效率来弥补这一点。"
 
 outfit "Pug Cormet Thruster"
 	category "Engines"
@@ -437,7 +437,7 @@ outfit "Pug Cormet Thruster"
 	"flare sprite" "effect/pug flare/large"
 		"frame rate" 22
 	"flare sound" "ion large"
-	description "This is a medium-sized thruster designed by the Pug. It is not quite as powerful as a similarly sized atomic engine, but it makes up for that by being almost as energy efficient as ion engines."
+	description "这是一个由帕格人设计的中型推进器。它并不像类似规模的原子引擎那样强大，但它通过几乎与离子引擎一样的能源效率来弥补这一点。"
 
 outfit "Pug Cormet Steering"
 	category "Engines"
@@ -452,7 +452,7 @@ outfit "Pug Cormet Steering"
 	"steering flare sprite" "effect/pug flare/large"
 		"frame rate" 22
 	"steering flare sound" "ion large"
-	description "This is a medium-sized steering system designed by the Pug. It is not quite as powerful as a similarly sized atomic engine, but it makes up for that by being almost as energy efficient as ion engines."
+	description "这是一个由帕格人设计的中型转向系统。它并不像类似规模的原子引擎那样强大，但它通过几乎与离子引擎一样的能源效率来弥补这一点。"
 
 outfit "Pug Lohmar Thruster"
 	category "Engines"
@@ -467,7 +467,7 @@ outfit "Pug Lohmar Thruster"
 	"flare sprite" "effect/pug flare/huge"
 		"frame rate" 23
 	"flare sound" "ion huge"
-	description "This is a large thruster designed by the Pug. It is not quite as powerful as a similarly sized atomic engine, but it makes up for that by being almost as energy efficient as ion engines."
+	description "这是由帕格设计的一个大型推进器。它并不像类似规模的原子引擎那样强大，但它通过几乎与离子引擎一样的能源效率来弥补这一点。"
 
 outfit "Pug Lohmar Steering"
 	category "Engines"
@@ -482,7 +482,7 @@ outfit "Pug Lohmar Steering"
 	"steering flare sprite" "effect/pug flare/huge"
 		"frame rate" 23
 	"steering flare sound" "ion huge"
-	description "This is a large steering system designed by the Pug. It is not quite as powerful as a similarly sized atomic engine, but it makes up for that by being almost as energy efficient as ion engines."
+	description "这是一个由帕格人设计的大型转向系统。它并不像类似规模的原子引擎那样强大，但它通过几乎与离子引擎一样的能源效率来弥补这一点。"
 
 
 
@@ -493,7 +493,7 @@ outfit "Pug Biodefenses"
 	thumbnail "outfit/pug biodefenses"
 	"capture defense" 250
 	"unplunderable" 1
-	description "This semi-organic defense system is designed to release a highly lethal bioengineered virus capable of rapidly infecting any foreign entities present on the ship that it is installed on while leaving the crew of the ship unharmed. The virus, when combined with the defense system itself, is highly accurate at automatically determining friend from foe."
+	description "这个半有机的防御系统被设计为释放一种高度致命的生物工程病毒，能够迅速感染安装在飞船上的任何外来实体，而使飞船上的船员不受伤害。该病毒与防御系统本身结合在一起，能够高度准确地自动判断敌我双方。"
 
 outfit "Pug Peacekeeping Staff"
 	plural "Pug Peacekeeping Staves"
@@ -503,7 +503,7 @@ outfit "Pug Peacekeeping Staff"
 	"capture attack" 2.3
 	"capture defense" 2.3
 	"unplunderable" 1
-	description "Though designed for planetary population control, the peacekeeping staff also works exceptionally well for ship defense. The staff emits a short-ranged beam that incapacitates anyone it touches by causing them to enter a euphoric and hallucinogenic state, wandering off to somewhere where they won't cause any trouble. Coming down from the state of euphoria is never pleasant."
+	description "虽然是为行星人口控制而设计的，但维和人员也能很好地用于船舶防御。该法杖发射出一种短程光束，使其接触到的任何人进入兴奋和致幻状态而丧失能力，游荡到不会造成任何麻烦的地方。从兴奋状态中下来绝不是一件令人愉快的事。"
 
 
 
@@ -554,7 +554,7 @@ ship "Pug Zibruka"
 	explode "pug medium explosion" 20
 	explode "pug large explosion" 10
 	"final explode" "final explosion small"
-	description `The Zibruka is the smallest Pug warship that you know of. Despite having only two gun ports, its two advanced guns combined with its fast and efficient engine systems make it a fearsome ship to face off against, especially in swarms.`
+	description `齐布鲁卡号是你所知道的最小的帕格战舰。尽管只有两个炮口，但它的两门先进的火炮与它快速高效的引擎系统相结合，使它成为一艘可怕的战舰，尤其是在群战中。`
 
 
 ship "Pug Enfolta"
@@ -609,7 +609,7 @@ ship "Pug Enfolta"
 	explode "pug medium explosion" 25
 	explode "pug large explosion" 15
 	"final explode" "final explosion medium"
-	description `The Enfolta is a medium-sized Pug warship. It has a formidable armament of advanced weaponry supported by powerful integrated energy generation. A single Enfolta can take on multiple smaller human ships.`
+	description `恩福塔号是一艘中型的帕格战舰。它拥有强大的先进武器装备，并有强大的综合能源发电支持。一艘Enfolta可以对付多艘较小的人类船只。`
 
 
 ship "Pug Maboro"
@@ -666,7 +666,7 @@ ship "Pug Maboro"
 	explode "pug large explosion" 20
 	explode "pug huge explosion" 5
 	"final explode" "final explosion large"
-	description `The Maboro appears to be the Pug's capital warship. Its shield matrix and hull are much weaker than human capital ships; however, it is able to regenerate its shields quickly. Its fearsome ordnance and advanced anti-missile defenses make it a ship that only the strongest human capital ships are able to oppose.`
+	description `马博罗号似乎是帕格族的资本战舰。它的护盾矩阵和船体比人类的资本战舰要弱得多；然而，它能够迅速再生其护盾。它可怕的军械和先进的反导弹防御系统使它成为只有最强大的人类资本战舰才能对抗的战舰。`
 
 
 ship "Pug Arfecta"
@@ -727,7 +727,7 @@ ship "Pug Arfecta"
 	explode "pug medium explosion" 30
 	explode "pug large explosion" 10
 	"final explode" "final explosion large"
-	description `This is a Pug "tier 3" warship, intended for use in combat against either a species on par with the Quarg, or a lesser species that has decided to be particularly meddlesome.`
+	description `这是一艘帕格族的 "三级 "战舰，用于对抗与夸格族相当的物种，或者是决定要特别多管闲事的较小的物种。`
 
 
 
@@ -829,9 +829,9 @@ mission "Ruin: Landing"
 	
 	on offer
 		conversation
-			`You scan this planet's surface and pick up only a single, faint energy source. Cautiously, you approach it, and find an abandoned fueling depot: a ring of landing pads around a cluster of tanks of all different shapes and sizes. Some of the tanks must be cryogenic, because they are covered in ice. A few slow-moving insectoid robots are busy clearing off the ice and cleaning the tanks, but they do not appear to be armed and you see no sign of any other creatures or of any defense systems.`
-			`	You land your ship. Your sensors say the air is safe to breathe, but you wear a respirator just in case as you step off your ship and explore the depot. The spider robots pay no attention to you. From the fact that some of the tanks are covered in frost and others are not, you would guess that each one contains a different fuel, and each tank has dozens of different connectors branching off from it. With surprise, you discover that one of those connectors is the style used in human space, and you are able to use it to refuel your ship.`
-			`	Other than the robots and the fog swirling in the valley below you, there is no sign of life or motion here, and the air is uncomfortably moist and cold despite the hot steam rising up from a few nearby vents in the ground.`
+			`你扫描了这个星球的表面，只发现了一个单一的、微弱的能量源。你小心翼翼地接近它，发现了一个废弃的燃料库：一圈登陆台围绕着各种不同形状和大小的坦克群。有些油箱一定是低温的，因为它们被冰覆盖着。几个缓慢移动的昆虫类机器人正忙着清除冰块和清洁油箱，但它们似乎没有武装，你也没有看到任何其他生物或任何防御系统的迹象。`
+			`	你降落你的飞船。你的传感器显示空气是安全的，但你还是戴上了呼吸器，以防万一，你走下飞船，探索仓库。蜘蛛机器人没有注意到你。从一些油箱被冰霜覆盖，而另一些则没有的事实来看，你会猜测每一个油箱都装有不同的燃料，而每一个油箱都有几十个不同的接头从它那里分支出来。你惊讶地发现，其中一个连接器是人类空间中使用的样式，你能够用它来给你的飞船加油。`
+			`	除了机器人和你脚下山谷中的雾气，这里没有任何生命或运动的迹象，尽管附近地面上的几个通风口有热蒸汽升起，但空气还是湿冷得令人不舒服。`
 				decline
 
 mission "Pug Cease Hostilities"
@@ -851,28 +851,28 @@ mission "Pug in Wanderer Space"
 	source "Vara Pug"
 	on offer
 		conversation
-			`This world is populated by the Pug, the same enigmatic species that recently invaded human space - and left without giving you any clear answers about why they did so. Here, they appear peaceful enough, but they are ignoring you completely. Do you want to try to talk to one of them?`
+			`这个世界的居民是帕格人，也就是最近入侵人类空间的那个神秘物种--离开时没有给你任何关于他们为什么这样做的明确答案。在这里，他们看起来很平静，但他们完全无视你。你想尝试和他们中的一个谈谈吗？`
 			choice
-				`	(Yes.)`
-				`	(No, don't risk it.)`
+				`	(是的。)`
+				`	(不，不要冒险）。`
 					goto ship
-			`	You try to talk to several of the Pug who are walking by, but they do not respond or even look at you. If you stand to block their path, they step around you, and you determine by intentionally bumping into one of them that they are real and not just a holographic projection. From the brief eye contact that a few of them make before looking away from you, you get the feeling that they are intentionally ignoring you.`
-			`	The Pug are not terribly strong. You could probably grab one of them and demand that it answer your questions, without much risk of it hurting you.`
+			`	你试着和几个走过的哈巴狗说话，但他们没有反应，甚至不看你。如果你站起来挡住他们的去路，他们就会绕过你，而你通过故意撞到他们中的一个，确定他们是真实的，而不是全息投影。从他们中的几个人在看向你之前的短暂眼神接触中，你会感觉到他们是在故意忽略你。`
+			`	巴哥犬并不十分强壮。你也许可以抓住它们中的一个，要求它回答你的问题，而不会有太大的风险让它伤害你。`
 			choice
-				`	(Grab one of them.)`
-				`	(Give up and leave.)`
+				`	(抓住他们中的一个）。`
+				`	(放弃并离开。)`
 					goto ship
-			`	You grab one of the Pug by the arm. "You need to give me some answers," you say. It begins to babble in a language you do not know, and a crowd of Pug gather around you. Eventually a few more of them arrive holding some sort of staff that they point at you menacingly, while shouting commands at you, again in their own language. It is possible that none of the Pug here actually speak the human language, in which case trying to communicate with them will be fruitless.`
+			`	你抓住其中一只哈巴狗的胳膊。"你需要给我一些答案，"你说。它开始用你不知道的语言咿咿呀呀地说话，一群哈巴狗聚集在你周围。最后，又有几个人来到这里，他们拿着某种法杖，气势汹汹地指着你，同时又用他们自己的语言对你大喊命令。有可能这里的哈巴狗都不会说人类的语言，在这种情况下，试图与他们沟通是没有结果的。`
 			choice
-				`	(Let the Pug go, and walk away.)`
+				`	(让哈巴狗离开，然后走开。）`
 					goto ship
-				`	(Threaten to shoot them.)`
-			`	The moment you reach for your gun, one of the armed Pug fires a burst of light from its staff, and a warm, pleasant feeling washes over you - the most wonderful feeling you have ever experienced. In a daze, you begin to wander back to your ship, stopping occasionally to marvel at the things around you that you had not noticed before: the glittering of sunlight on the water, the sparkling drops of ocean spray hanging from the tips of sea marsh grass, the sky that has the bluest blueness of all the blues you have ever seen. It is all so beautiful that you start to cry. Once you reach your ship, you sit in the cockpit fascinated by the blinking lights on the control panel and unable to remember what any of them are for.`
-			`	A few hours later, the wonderful feeling is replaced by a wave of nausea and a pounding headache.`
+				`	(威胁要向他们开枪。)`
+			`	在你伸手拿枪的那一刻，其中一只武装的哈巴狗从它的法杖中发射出一阵光芒，一种温暖、愉快的感觉涌上你的心头--这是你所经历过的最美妙的感觉。在迷迷糊糊中，你开始漫步回到你的船上，偶尔停下来，惊叹于你周围那些你以前没有注意到的东西：阳光在水面上闪烁，海沼草尖上挂着闪亮的海雾滴，天空是你见过的所有蓝色中最蓝的。这一切是如此美丽，以至于你开始哭泣。一旦你到达你的船，你坐在驾驶舱里，被控制面板上闪烁的灯光所吸引，却无法记住它们的用途。`
+			`	几个小时后，这种美妙的感觉被一阵恶心和头疼所取代。`
 				decline
 			
 			label ship
-			`	You decide to play it safe and return to your ship. The Pug remain as enigmatic as ever.`
+			`	你决定安全起见，返回你的飞船。帕格人仍然像以前一样神秘。`
 				decline
 
 mission "Pug Angry at Being Farmed"

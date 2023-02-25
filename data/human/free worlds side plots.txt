@@ -14,8 +14,8 @@
 
 
 mission "FW Zug Expansion: Assisted"
-	name "Convoy to Zug"
-	description "Escort a convoy of freighters to <destination> for an important project. Expect pirate raids."
+	name "前往楚格的船队"
+	description "为了一个重要的项目，护送一个货运船队前往<destination>。期待海盗的袭击。"
 	source
 		government "Free Worlds"
 		near Zubeneschamali 2 4
@@ -25,26 +25,26 @@ mission "FW Zug Expansion: Assisted"
 		not "FW Diplomacy 1: done"
 	on offer
 		conversation
-			`While returning from a walk around the spaceport of <origin>, you see the quartermaster of the spaceport inspecting your ship. He notices your arrival and comes up to greet you.`
-			`	"You're Captain <first> <last>, yes? We're looking for a good ship that can escort these freighters to <planet>." He points towards five Syndicate Freighters in Free Worlds colors on the landing pads opposite to your ship, some of which have considerable hull damage and are actively being repaired.`
-			`	"Their last escort was just taken out by pirates, and we need someone who is experienced enough to fend off or evade them. You must have a reputation, since some of our militia captains recognized you. This is for quite a significant project on <planet>, so you will be paid <payment>."`
+			`当你从<origin>的太空港散步回来时，你看到太空港的军需官正在检查你的船。他注意到你的到来，并上前问候你。`
+			`	"你是<first><last>船长，是吗？我们正在寻找一艘能护送这些货船到<planet>的好船。"他指着与你的船相对的登陆台上的五艘自由世界颜色的辛迪加货船，其中一些船体有相当大的损坏，正在积极修复中。`
+			`	"他们最后的护卫队刚刚被海盗干掉了，我们需要一个有足够经验的人去抵挡或躲避他们。你一定有名望，因为我们的一些民兵队长认出了你。这是为<planet>上一个相当重要的项目，所以你将得到<payment>。"`
 			choice
-				`	"What is the project? It seems to be a big enterprise."`
-				`	"That's a fair few freighters. Should I be expecting any more pirates?"`
+				`	"这个项目是什么？这似乎是一个大企业。"`
+				`	"那是相当多的货船。我应该期待有更多的海盗吗？"`
 					goto pirates
-				`	"Sorry, I'm not planning on going that way."`
+				`	"对不起，我不打算走那条路。"`
 					decline
-			`	"The freighters are carrying construction materials and specialized shipbuilding equipment for a planned extension to Zug's New Port, which has been a long time coming. It would greatly help the Free Worlds' efforts. I suppose that is why there have been pirates trying to pounce on these ships; the equipment would be a rich prize for them."`
+			`	"这些货船运载的是建筑材料和专门的造船设备，用于计划中的楚格新港的扩建，这已经是很久的事情了。这将大大有助于自由世界的努力。我想这就是为什么一直有海盗试图扑向这些船的原因；这些设备对他们来说将是一个丰富的奖品。"`
 				goto meet
 			label pirates
-			`	"Yes, I would expect more pirate contact, because the movement of so many freighters would be a tempting target for them, and moreover, they are carrying valuable equipment for warship manufacturing. I'd certainly recommend avoiding combat when possible. In these trying times, the loss of these ships would be... not ideal."`
+			`	"是的，我预计会有更多的海盗接触，因为这么多货船的移动对他们来说是一个诱人的目标，此外，他们携带的是战舰制造的宝贵设备。我当然建议尽可能地避免战斗。在这个艰难的时期，这些船只的损失将是......不理想的。"`
 			label meet
-			`	"Well, will you help us escort these freighters?"`
+			`	"好吧，你会帮助我们护送这些货船吗？"`
 			choice
-				`	"Of course, I'll get these freighters to <planet> safely."`
-				`	"No, I won't be able to, sorry."`
+				`	"当然，我会把这些货船安全送到<planet>。"`
+				`	"不，我将无法做到，抱歉。"`
 					decline
-			`	"Wonderful! I expect that these ships will benefit the Free Worlds immensely." With that, he leaves you to meet with the captains of the freighters.`
+			`	"太好了!我期望这些船将使自由世界受益无穷。"就这样，他离开你去见货船的船长。`
 				accept
 	npc accompany save
 		government "Free Worlds"
@@ -80,14 +80,14 @@ mission "FW Zug Expansion: Assisted"
 		system "Izar"
 		fleet "Large Southern Pirates" 2
 	on visit
-		dialog `You have reached <planet>, but you left part of the convoy behind! Better depart and wait for them to arrive in this star system.`
+		dialog `你已经到达<planet>，但你留下了部分车队!最好启程，等待他们到达这个星系。`
 	on complete
 		payment 600000
 		event "fw zug expansion underway"
 		event "fw zug expansion complete" 120
 		conversation
-			`The five freighters have all arrived intact, and you are told to land them beside a large area of land set aside for Zug's long-awaited New Port expansion. Not long after, you are sent <payment> by Zug's port authority.`
-			`	It seems that bringing so many freighters was justified, because the expansion also includes a considerable extension to Southbound's shipbuilding facilities to make them capable of building heavy warships like Tarazed Falcons. However, by the looks of it, all this equipment would be more than enough to build a Navy Cruiser.`
+			`五艘货船都已完好无损地抵达，你被告知将它们降落在为楚格期待已久的新港口扩建预留的一大片土地旁。没过多久，楚格的港口管理部门给你发来了<payment>。`
+			`	看来带这么多货船是有道理的，因为扩建工程还包括对南行的造船设施进行相当大的扩建，使其有能力建造像塔拉兹德猎鹰这样的重型战舰。然而，从外观上看，所有这些设备用来建造一艘海军巡洋舰是绰绰有余的。`
 
 
 
@@ -112,54 +112,54 @@ mission "FW Pirates: Harmony"
 	
 	on offer
 		conversation
-			`As you land on <planet>, you recall that the monks who live here are involved in some sort of outreach to children serving as pirate crew members. They might have something to say about the best way to deal with the pirate threat. Do you want to visit them?`
+			`当你降落在<planet>上时，你想起住在这里的僧侣们参与了某种对充当海盗船员的儿童的宣传活动。他们可能对处理海盗威胁的最佳方式有话要说。你想去拜访他们吗？`
 			choice
-				`	(Yes.)`
-				`	(No.)`
+				`	(是的。)`
+				`	(不。)`
 					decline
-			`	It's a short walk to the monastery from the spaceport. When you arrive there, you run into a monk who is working in the garden. He glances up, and recognizes you. "Welcome back," he says. "You're Katya's friend, right? I'm David. I've forgotten your name."`
-			`	"<first>," you say.`
-			`	He brushes some of the dirt off his hands and then shakes hands with you. "How are you doing?" he asks. "And how is Katya? And Ijs?" You explain to him that you are now an official member of the Free Worlds, and that Katya has been captured by the Republic. He is clearly shocked and saddened by the news. After pressing you for all the details, he asks, "And what about you? What brings you to Harmony?"`
+			`	从太空港走到修道院很短的路程。当你到达那里时，你碰到一个正在花园里工作的和尚。他抬头看了一眼，认出了你。"欢迎回来，"他说。"你是Katya的朋友，对吗？我是大卫。我已经忘了你的名字。"`
+			`	"<first>，"你说。`
+			`	他刷掉手上的一些污垢，然后与你握手。"你还好吗？"他问道。"那卡蒂亚怎么样了？Ijs呢？"你向他解释说，你现在是自由世界的正式成员，而卡蒂亚已经被共和国抓走了。他显然对这个消息感到震惊和悲哀。在向你逼问所有细节后，他问道："那你呢？什么风把你吹来了？"`
 			choice
-				`	"The Free Worlds is hoping to eliminate piracy in this sector, and I was hoping for advice on what targets we should attack."`
-				`	"The Free Worlds is thinking of launching an attack on the pirates, but I've been thinking about what Brother Greg said about the pirate crews being just kids."`
+				`	"自由世界希望消除这个地区的海盗行为，我希望得到我们应该攻击什么目标的建议。"`
+				`	"自由世界正在考虑对海盗发起攻击，但我一直在思考格雷格兄弟所说的海盗船员只是孩子的问题。"`
 					goto kids
-			`	"If you want some military advice," he says, "here's what I can tell you. You cannot create peace using violence. Most people on the pirate worlds are not pirates, just ordinary people unlucky enough to be born there. Or people who feel unwelcome everywhere else."`
+			`	"如果你想要一些军事建议，"他说，"我可以这样告诉你。你不能用暴力创造和平。海盗世界里的大多数人都不是海盗，只是不幸出生在那里的普通人。或者在其他地方感到不受欢迎的人。"`
 				goto advice
 			label kids
-			`	"It's true," he says. "If you fight the pirates, innocent lives will be lost."`
+			`	"这是真的，"他说。"如果你与海盗作战，无辜的生命就会丧失。"`
 			label advice
-			`	"Then what do you suggest we do?" you ask.`
-			`	"Well," he says, "it's worth repeating that most people on the 'pirate' worlds are not pirates. They're just anarchists. As a monk, I feel a sort of kinship with them."`
+			`	"那你建议我们怎么做？"你问。`
+			`	"嗯，"他说，"值得重申的是，'海盗'世界上的大多数人都不是海盗。他们只是无政府主义者。作为一个僧侣，我觉得和他们有一种亲缘关系。"`
 			choice
-				`	"How so?"`
-				`	"Naturally."`
+				`	"怎么说呢？"`
+				`	"自然是这样。"`
 					goto continue
-			`	"For starters, we both wear black all the time," he says, grinning. "And more to the point, we're both seeking to build an alternative community according to our own ideals. Historically, monasticism can actually be seen as a form of utopic anarchism - 'Fear none but God' and all that."`
+			`	"首先，我们都一直穿着黑色的衣服，"他说，咧嘴一笑。"而且更重要的是，我们都在寻求按照我们自己的理想建立一个替代性的社区。从历史上看，僧侣主义实际上可以被视为一种乌托邦式的无政府主义--"除了上帝，谁也不惧怕 "等等。`
 			choice
-				`	"Of course."`
-				`	"That makes absolutely no sense. Are you joking around with me?"`
+				`	"当然可以。"`
+				`	"这完全没有道理。你在和我开玩笑吗？"`
 			label continue
-			`	He grins. "Well, that's a tangent, anyway. My real advice is this: figure out what the people on those pirate worlds want, and how to offer it to them. Freedom from government intervention would be a good start. But that means no annexing their territory for the Free Worlds. Instead, you could offer them some sort of pact: they stop supporting pirate fleets, and you agree to leave their planets in peace."`
+			`	他咧嘴一笑。"好吧，无论如何，那是一个切入点。我真正的建议是：弄清楚那些海盗世界的人想要什么，以及如何向他们提供这些。不受政府干预的自由将是一个好的开始。但这意味着自由世界不能吞并他们的领土。相反，你可以向他们提供某种契约：他们停止支持海盗舰队，而你同意和平地离开他们的星球。"`
 			choice
-				`	"Thanks for the advice. I'll see if we can work out something like that."`
-				`	"No way. We need to speak the language they understand. Overwhelming force."`
+				`	"谢谢你的建议。我看看我们是否能想出这样的办法。"`
+				`	"没门。我们需要说他们理解的语言。压倒性的力量。"`
 					goto force
-			`	He wishes you the best of luck, and you return to the port.`
+			`	他祝你好运，而你则回到了港口。`
 				decline
 			label force
-			`	"It won't end," he says, "not unless you exterminate every last person on those planets. But I can't control what choices you make. Good luck." He returns to gardening, and you walk back to the spaceport.`
+			`	"这不会结束的，"他说，"除非你把那些星球上的每一个人都灭绝了。但我不能控制你做什么选择。祝你好运。"他回到园艺室，而你则走回太空港。`
 				decline
 
 
 
 mission "FW Conservatory 1"
-	name "Take Ijs to <planet>"
-	description "Transport Mr. Eyes and the Andersons to <destination>, where he will be helping to set up a public university."
+	name "把Ijs带到<planet>。"
+	description "把眼睛先生和安徒生夫妇送到<destination>，他将在那里帮助建立一所公立大学。"
 	source "Bourne"
 	destination "Winter"
 	passengers 3
-	blocked "You meet up with Ijs in the spaceport, but he tells you that you will need three bunks for him and some friends. Return here once you have space available."
+	blocked "你在太空港与Ijs会合，但他告诉你，你需要为他和一些朋友提供三张床铺。一旦你有空位就返回这里。"
 	to offer
 		has "FW Senate 1B: done"
 		not "fw conservatory founded"
@@ -170,37 +170,37 @@ mission "FW Conservatory 1"
 			branch introduce
 				not "FW Katya 1: done"
 			
-			`When you meet Ijs in the spaceport, he has Lynn and Henry Anderson with him, the friends of Katya who you transported from Glory back before you joined the Free Worlds. Ijs is beaming - his meeting must have gone really well. "Guess what, Captain?" he says. "We've got a location for the Conservatory! The government of Winter has offered a community center for our use."`
+			`当你在太空港见到Ijs时，他带着Lynn和Henry Anderson，他们是你在加入自由世界之前从Glory运来的Katya的朋友。伊杰斯满面春风--他的会议一定非常顺利。"你猜怎么着，船长？"他说。"我们已经为音乐学院找到了一个地点!温特政府提供了一个社区中心供我们使用。"`
 				goto continue
 			
 			label introduce
-			`When you meet Ijs in the spaceport, he has a man and a woman with him which he introduces as Lynn and Henry Anderson, a top planetary scientist and ex-Navy intel officer who defected from the Republic shortly after the Free Worlds was formed. Ijs is beaming - his meeting must have gone really well. "Guess what, Captain?" he says. "We've got a location for the Conservatory! The government of Winter has offered a community center for our use."`
+			`当你在太空港遇到Ijs时，他身边有一男一女，他介绍说这是Lynn和Henry Anderson，他们是顶级行星科学家和前海军情报人员，在自由世界成立后不久就从共和国叛逃了。Ijs满面春风--他的会议一定非常顺利。"你猜怎么着，船长？"他说。"我们已经为音乐学院找到了地点！"他说。温特政府提供了一个社区中心供我们使用。"`
 			
 			label continue
-			`	"A somewhat run-down community center," adds Henry.`
-			`	Ijs laughs. "True. Anyway, we were hoping you could give us a lift over there, and maybe help out with securing some equipment, too."`
+			`	"一个有点破旧的社区中心，"亨利补充说。`
+			`	Ijs笑了。"没错。总之，我们希望你能送我们过去，也许还能帮我们弄到一些设备。"`
 			choice
-				`	"Sure, I'd definitely like to help make this a reality!"`
+				`	"当然，我绝对愿意帮助实现这一目标！"`
 					accept
-				`	"Sorry, I've got more important business to attend to."`
-			`	Ijs seems really dejected. "Are you sure?" he asks. "This could make a big difference for the Free Worlds, as much as any military victory. We could just tag along with whatever 'more important business' you have until it's convenient for you to drop us off."`
+				`	"对不起，我有更重要的事情要做。"`
+			`	Ijs似乎真的很颓废。"你确定吗？"他问道。"这可以为自由世界带来很大的变化，就像任何军事胜利一样。我们可以跟着你有什么'更重要的事'，直到你方便把我们放下。"`
 			choice
-				`	"Okay, I'll help you."`
+				`	"好吧，我帮你。"`
 					accept
-				`	"Sorry, I'm just not interested."`
+				`	"对不起，我就是不感兴趣。"`
 					decline
 	
 	on visit
-		dialog `You land on <planet>, but you realize that Mr. Eyes and the Andersons are on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你在<planet>上降落，但你意识到眼睛先生和安德森夫妇在你的一个护卫队上，这个护卫队还没有进入这个系统。最好离去，等待它的到来。`
 	on complete
 		payment 50000
-		dialog `Ijs thanks you for the lift and gives you a credit chip for <payment>. He says, "Next we need to pick up some equipment from Tarazed Corporation. Meet me in the spaceport if you're willing to help out as an escort."`
+		dialog `Ijs感谢你的提携，并给你一个<payment>的信用芯片。他说："接下来我们需要从Tarazed公司领取一些设备。如果你愿意帮忙护送，请到太空港来找我。"`
 
 
 
 mission "FW Conservatory 2"
-	name "Escort to <planet>"
-	description "Escort this Free Worlds convoy to <destination>, to trade for terraforming equipment provided by Tarazed and the Syndicate."
+	name "护送至<planet>。"
+	description "护送这个自由世界的车队到<destination>，以换取塔拉泽德公司和辛迪加公司提供的地形改造设备。"
 	source "Winter"
 	destination "Wayfarer"
 	to offer
@@ -211,23 +211,23 @@ mission "FW Conservatory 2"
 		conversation
 			branch deferred
 				has "FW Conservatory 2: deferred"
-			`In the spaceport, it does not take long to locate Ijs; he is supervising a crew that is loading trade goods onto several Free Worlds ships. "Glad to see you, <first>," he says. "These three ships need to get to Tarazed and back without being destroyed by pirates... or by the Republic. They'll be bringing back a selection of terraforming equipment supplied from Tarazed and, if you can believe it, the Syndicate as well! I'm pretty sure they know I'm involved in this, so I wonder if this is just a ploy to keep me out of their hair after the war is over, but I won't be complaining about the help.`
-			`	"Think you can tag along and protect the freighters?"`
+			`在太空港，不需要很长时间就能找到Ijs；他正在监督一个正在将贸易货物装上几艘自由世界的船只的船员。"很高兴见到你，<first>，"他说。"这三艘船需要在不被海盗......或共和国摧毁的情况下到达塔拉泽德并返回。他们将带回一些由塔拉泽德提供的地形改造设备，如果你能相信的话，还有辛迪加！"。我很确定他们知道我参与了这件事，所以我想知道这是否只是一个在战争结束后让我远离他们的伎俩，但我不会抱怨这些帮助。`
+			`	"你认为你能跟上并保护货船吗？"`
 			choice
-				`	"Sure thing!"`
+				`	"当然可以！"`
 					accept
-				`	"I've got another pressing mission. Can I come back and do this later?"`
-			`	"Sure," he says. "But the longer we wait, the longer it will be until the Conservatory is up and running, so come back soon."`
+				`	"我有另一个紧迫的任务。我可以以后再来做这件事吗？"`
+			`	"当然，"他说。"但我们等的时间越长，离音乐学院开始运行的时间就越长，所以要尽快回来。"`
 				defer
 			
 			label deferred
-			`It looks like Ijs is still in need of an escort for the freighters to bring equipment for the Conservatory from <planet> to <origin>. Do you offer to help?`
+			`看起来Ijs仍然需要护送货船，以便将音乐学院的设备从<planet>运到<origin>。你愿意帮忙吗？`
 			choice
-				`	(Yes.)`
-				`	(No, still busy.)`
+				`	(是的。)`
+				`	(不，仍然很忙。)`
 					defer
 			
-			`	You contact Ijs and tell him that you're ready to escort the ships. He shows you the freighters, a collection of three Argosies, and wishes you luck on your journey.`
+			`	你联系Ijs，告诉他你已经准备好护送这些船了。他向你展示了货船，是三艘Argosies的集合体，并祝你在旅途中好运。`
 				accept
 	
 	on defer
@@ -247,16 +247,16 @@ mission "FW Conservatory 2"
 		fleet "Large Southern Pirates"
 	
 	on visit
-		dialog "You have reached <planet>, but you left part of your convoy behind! Better depart and wait for them to arrive in this star system."
+		dialog "你已经到达<planet>，但你留下了你的部分车队!最好出发并等待他们到达这个星系。"
 	on complete
-		dialog `Your three escorts land safely on Tarazed. Their cargo is quickly offloaded and exchanged for the terraforming equipment that the Conservatory needs.`
+		dialog `你的三个护卫队在Tarazed安全着陆。他们的货物很快就被卸下，并换成音乐学院所需的地形改造设备。`
 
 
 
 mission "FW Conservatory 2B"
 	landing
-	name "Escort to <planet>"
-	description "Escort this Free Worlds convoy of terraforming equipment back to <destination>."
+	name "护送至<planet>。"
+	description "护送这个自由世界的地球改造设备车队回到<destination>。"
 	source "Wayfarer"
 	destination "Winter"
 	to offer
@@ -283,32 +283,32 @@ mission "FW Conservatory 2B"
 		fleet "Large Southern Pirates" 2
 	
 	on visit
-		dialog "You have reached <planet>, but you left part of your convoy behind! Better depart and wait for them to arrive in this star system."
+		dialog "你已经到达<planet>，但你留下了你的部分车队!最好出发并等待他们到达这个星系。"
 	on complete
 		payment 300000
 		event "fw conservatory founded" 30
 		log "Helped to transport some items for building a public university and terraforming research center on Winter. Ijs Springborn will be one of the professors. Surprisingly, the Syndicate helped supply some of the equipment for the Conservatory."
 		conversation
-			`Ijs meets your convoy as it lands, and checks off each item on a clipboard as it is unloaded. Lynn is with him, looking over the various machines to make sure they are all in working order. "I hope you didn't have any trouble," says Ijs, as he hands you your payment of <payment>.`
+			`Ijs在你的车队着陆时迎接你，并在卸货时在剪贴板上检查每件物品。琳和他在一起，查看各种机器，确保它们都处于工作状态。"我希望你没有遇到任何麻烦，"Ijs说，因为他把你的<payment>递给你。`
 			choice
-				`	"No, none at all."`
-				`	"A few pirates, nothing I couldn't handle."`
-				`	"Actually, we were lucky to make it back alive."`
+				`	"没有，一点都没有。"`
+				`	"几个海盗，没有什么我搞不定的。"`
+				`	"实际上，我们能活着回来已经很幸运了。"`
 					goto lucky
-			`	"Glad to hear it," he says.`
+			`	"很高兴听到这个消息，"他说。`
 				goto next
 			label lucky
-			`	"That's too bad," he says. "This war must be making the Dirt Belt even more unstable than usual. Hopefully we'll be able to do something about that soon."`
+			`	"那太糟糕了，"他说。"这场战争一定会使泥土地带比平时更不稳定。希望我们很快就能对此有所作为。"`
 			label next
-			`	"Is there anything else you need me to do?" you ask.`
-			`	"Not at the moment," he says. "I'll send you a message when we do. Thanks for your help, and if you hear any more news about Katya, please let me know."`
+			`	"你还有什么需要我做的吗？"你问。`
+			`	"目前没有，"他说。"当我们这样做时，我会给你发信息。谢谢你的帮助，如果你听到任何有关卡蒂亚的更多消息，请告诉我。"`
 
 
 
 mission "FW Flamethrower 1"
 	landing
-	name "Weapon Testing"
-	description "When you have time, report to <destination>, where Barmy Edward has another weapon he would like you to test."
+	name "武器测试"
+	description "当你有时间时，向<destination>报告，巴米-爱德华在那里有另一种武器，他希望你能测试。"
 	source
 		near "Kraz" 1 100
 	destination "Rust"
@@ -318,36 +318,36 @@ mission "FW Flamethrower 1"
 	
 	on offer
 		conversation
-			`A message arrives for you soon after you land. It's from Barmy Edward, the weapons engineer at Kraz Cybernetics. He writes: "Hello again, Captain! I've been working on a new weapon, and for some reason no one else wants to help out with the testing. If you're interested in getting your hands on some hot new technology, drop by Rust and come visit our factory."`
+			`在你降落后不久，就有一条消息给你。这是Kraz Cybernetics的武器工程师Barmy Edward发来的。他写道："又见面了，船长！我一直在研究一种新的武器。我一直在研究一种新的武器，但由于某些原因，没有人愿意帮忙测试。如果你有兴趣得到一些热门的新技术，请到拉斯特来，来参观我们的工厂。"`
 				accept
 
 
 
 mission "FW Flamethrower 2"
 	landing
-	name "Weapon Testing"
-	description "A test ship with new weaponry is in orbit around <planet>. Fight and disable it (but do not board or destroy it!) and then land to give Barmy Edward feedback on its performance."
+	name "武器测试"
+	description "一艘装有新武器的测试船正在<planet>周围的轨道上。与它战斗并使其失效（但不要登上或摧毁它！），然后降落，向巴米-爱德华反馈其性能。"
 	source "Rust"
 	to offer
 		has "FW Flamethrower 1: done"
 	
 	on offer
 		conversation
-			`You received a message recently from Barmy Edward, asking you to stop by the Kraz Cybernetics facility to help test a new weapon. Do you want to visit them now?`
+			`你最近收到了Barmy Edward的信息，要求你去Kraz Cybernetics设施帮助测试一种新武器。你现在想去拜访他们吗？`
 			choice
-				`	(Yes.)`
-				`	(No.)`
+				`	(是的。)`
+				`	(不。)`
 					defer
 			scene "scene/loc5"
-			`	You give your name to the receptionist, and she directs you to the hangar where the weapons group does their design and prototyping. Barmy Edward shakes your hand warmly and says, "Here's the deal. We've got a new weapon, something a little out of the ordinary. We're hoping it will be useful against the pirates, in particular. Interested in helping us?"`
-			`	"Of course," you say.`
-			`	"Great," he says. "I won't share the details, because I want you to get the full effect of the surprise. But, there's a ship in orbit, the Doombat, that has been fitted with a few of these new weapons. Your job will be to fight it and disable it, then tell us what you think of its weapons."`
-			`	He shakes a finger in your face and says, "Now mind you, we just want you to disable the Doombat, not destroy it. We bought it from a scrapyard, so it's barely spaceworthy, but all the same I want to be able to keep using it for future tests. Understood?"`
+			`	你把你的名字告诉了接待员，她把你引到机库，武器组在那里进行设计和原型制作。巴米-爱德华热情地与你握手，并说："事情是这样的。我们有一种新的武器，是一种有点不寻常的东西。我们希望它在对付海盗时能有用武之地，特别是。有兴趣帮助我们吗？"`
+			`	"当然，"你说。`
+			`	"太好了。"他说。"我不会分享细节，因为我希望你能充分感受到惊喜的效果。但是，在轨道上有一艘飞船，Doombat号，它被安装了一些这种新武器。你们的任务是与它作战，使其丧失功能，然后告诉我们你们对其武器的看法。"`
+			`	他朝你摇了摇手指，说："现在请注意，我们只是想让你解除Doombat的功能，而不是摧毁它。我们从一个废品站买来的，所以它几乎没有太空价值，但同样我希望能够继续使用它进行未来的测试。明白了吗？"`
 			choice
-				`	"Okay, I promise not to destroy it or steal it."`
-				`	"Sorry, this sounds a bit too risky. I'd rather not be involved in this sort of testing."`
+				`	"好的，我保证不破坏它，也不偷它。"`
+				`	"对不起，这听起来有点太冒险了。我宁愿不参与这种测试。"`
 					decline
-			`	"Great," he says, rubbing his hands together with a gleeful expression on his face. He's clearly looking forward to hearing what you think of his latest invention.`
+			`	"很好。"他说，双手揉搓着，脸上露出欣喜的表情。他显然期待着听到你对他最新发明的看法。`
 				accept
 	
 	npc save disable
@@ -356,34 +356,34 @@ mission "FW Flamethrower 2"
 		ship "Doombat" "Doombat"
 	
 	on visit
-		dialog `You've landed on <planet>, but you have not disabled the <npc> yet. Disable it and before returning.`
+		dialog `你已经降落在<planet>上，但你还没有禁用<npc>。停用它，在返回之前。`
 	on complete
 		event "flamethrower available" 30
 		log "Assisted Barmy Edward with another weapon test: this time, a flamethrower weapon that works by overheating and disabling its target rather than dealing lots of damage to it. It may or may not be useful in actual combat."
 		conversation
 			scene "outfit/flamethrower"
-			`You head to the hangar to meet up with Barmy Edward, and find him tinkering with a large gun you don't recognize. Presumably, this is the Flamethrower that you were just attacked with in orbit. "It runs on hyperspace fuel, you see," he says. "So, what did you think?"`
+			`你前往机库与巴米-爱德华会合，发现他正在摆弄一把你不认识的大枪。据推测，这就是你刚才在轨道上被攻击的火焰喷射器。"它靠超空间燃料运行，你看，"他说。"那么，你是怎么想的？"`
 			choice
-				`	"It's a terrifying weapon."`
+				`	"这是个可怕的武器。"`
 					goto terrifying
-				`	"It looks impressive, but it didn't do very much damage."`
+				`	"它看起来令人印象深刻，但它并没有造成很大的伤害。"`
 					goto damage
-				`	"Your flamethrower doesn't seem to work very well."`
+				`	"你的火焰喷射器似乎不怎么好用。"`
 					goto bad
 			label terrifying
-			`	"Isn't it?" he says. "Mostly useful against small ships, of course, or ships that are running way too close to their thermal thresholds. Need to be almost on top of your target to get the full effect, too. But the ability to temporarily disable a ship without even dropping its shields first could be quite useful in certain tactical situations."`
-			`	"When will it be available for sale?" you ask.`
+			`	"不是吗？"他说。"当然，主要是对小船有用，或者是对那些跑得太接近热阈值的船有用。也需要几乎在你的目标之上，才能得到充分的效果。但是，在某些战术情况下，不需要先放下护盾就能使一艘船暂时失效的能力可能相当有用。"`
+			`	"它什么时候可以出售？"你问。`
 				goto available
 			label damage
-			`	"No, doing damage isn't the point," he says. "The idea is to heat up the target to the point where it goes into emergency thermal shutdown. Basically a way to temporarily disable even a ship with full shields. Of course, big ships can absorb an awful lot of heat without changing temperature much, so I suspect it will be most useful against smaller targets. You've got to get right up close to them to get the full heating effect, which isn't going to be easy if you're dealing with larger warships like the Navy ones."`
-			`	"That is an interesting idea," you say. "Are they available for sale yet?"`
+			`	"不，造成损害并不是重点，"他说。"我们的想法是把目标加热到它进入紧急热关闭状态的程度。基本上，这是一个让拥有全防护罩的船只暂时丧失能力的方法。当然，大船可以在不改变温度的情况下吸收大量的热量，所以我怀疑它对小目标最有用。你必须靠近它们才能获得全部的加热效果，如果你要对付的是像海军那样的大型战舰，那就不容易了。"`
+			`	"这是个有趣的想法，"你说。"它们可以出售了吗？"`
 				goto available
 			label bad
-			`	"Oh." He seems somewhat dejected. "Well, if you were flying a smaller ship, you might think differently. Or if your ship didn't have adequate cooling. Or maybe the Doombat didn't get close enough to give you the full power of it. My idea was to target pirate ships with those illegal Modified Blasters that run hotter than usual."`
-			`	"I guess that makes sense," you say, "although I wouldn't want to run out of jump fuel by accident. Are you going to be making them available for sale?"`
+			`	"哦。"他似乎有些垂头丧气。"嗯，如果你驾驶的是一艘较小的船，你可能会有不同的想法。或者如果你的飞船没有足够的冷却装置。或者，也许Doombat没有靠近你，没有给你充分的力量。我的想法是针对海盗船，用那些非法的改良型爆破器，比平时运行得更热。"`
+			`	"我想这是有道理的，"你说，"尽管我不希望意外地耗尽跳跃燃料。你打算把它们拿出来卖吗？"`
 				goto available
 			label available
-			`	"Well, I should have an initial model for sale in a month or so," he says. "I'll be interested to see what uses you or anyone else might find for them. Anyway, thanks for your help." You say goodbye and head back to your ship.`
+			`	"嗯，我应该在一个月左右有一个初始模型可以出售，"他说。"我有兴趣看看你或其他人会发现它们有什么用途。总之，谢谢你的帮助。"你说了再见，然后回到了你的船上。`
 
 ship "Fury" "Doombat"
 	add attributes
@@ -402,8 +402,8 @@ ship "Fury" "Doombat"
 
 mission "FW Wolf Pack 1"
 	minor
-	name "Ramscoop Technology"
-	description "Travel to <planet> in the Deep, where Free Worlds sympathizers will share details of a new ramscoop technology. (You may have to bribe planets along the way to get permission to refuel.)"
+	name "拉姆斯库普技术"
+	description "前往深海中的<planet>，那里的自由世界同情者会分享一种新的夯实技术的细节。(你可能需要贿赂沿途的行星，以获得加油的许可）。"
 	source
 		government "Free Worlds"
 	destination "Memory"
@@ -417,34 +417,34 @@ mission "FW Wolf Pack 1"
 	
 	on offer
 		conversation
-			`When you stop by the spaceport bar, a militia officer who you don't recognize gestures for you to join him. "Captain <last>!" he says. "I'd be honored if you'd let me buy you a drink."`
+			`当你在太空港的酒吧停下来时，一个你不认识的民兵军官示意你加入他。"船长<last>！"他说。"如果你能让我请你喝一杯，我将感到非常荣幸。"`
 			choice
-				`	"Thank you!"`
+				`	"谢谢你！"`
 					goto drink
-				`	"Sorry, I don't drink."`
-			`	"Then what are you doing in a bar?" he asks. "Never mind, don't answer that. I assume you're here looking for valuable work to do, and if that's the case, I could really use your help."`
+				`	"对不起，我不喝酒。"`
+			`	"那你在酒吧里做什么？"他问道。"算了，不回答这个问题了。我猜你是来找有价值的工作做的，如果是这样，我真的可以用你的帮助。"`
 				goto mission
 			label drink
-			`	He buys you a drink, and you sit down at his table. After making small talk for a few minutes, he says, "By the way, I could really use your help with a mission for the Free Worlds."`
+			`	他给你买了一杯饮料，你在他的桌子旁坐下。闲聊了几分钟后，他说："顺便说一下，我真的需要你的帮助，为自由世界做一个任务。"`
 			label mission
-			`	"Okay," you say, "tell me more."`
-			`	He says, "You probably know that we have a network of Free Worlds sympathizers throughout much of Republic space. One of our contacts recently sent us word of a new technology that is for sale in the Deep, which could be very useful to us. But they have no way to ship it to us, so I need someone who can travel up to the Deep and retrieve it."`
+			`	"好吧，"你说，"告诉我更多。"`
+			`	他说，"你可能知道，我们有一个自由世界同情者的网络，遍布共和国的大部分空间。我们的一个联系人最近给我们发来消息，说有一项新技术在深海里出售，这对我们可能非常有用。但他们没有办法把它运给我们，所以我需要有人能到深渊去取回它。"`
 			choice
-				`	"Will your contacts also provide me with planets to refuel on along the way?"`
-				`	"The Deep is farther away than my fuel tanks can take me."`
-			`	"You'll have to bribe some Dirt Belt worlds into letting you land, to get there," he says. "Or, you could wait for the next time there's a ceasefire. But here's the great part: if this works, you won't need to pay any bribes on the way back, because the new technology we're after is a super-efficient ramscoop. What do you say?"`
+				`	"你的联系人还能为我提供沿途加油的星球吗？"`
+				`	"深渊比我的油箱能带我去的地方更远。"`
+			`	"你必须贿赂一些泥土带世界让你降落，才能到达那里，"他说。"或者，你可以等待下一次停火的时候。但最重要的是：如果这个计划成功了，你在回来的路上就不需要再行贿了，因为我们所追求的新技术是一种超级高效的夯土机。你怎么说？"`
 			choice
-				`	"Okay, I'll give it a try."`
+				`	"好吧，我试一试。"`
 					accept
-				`	"Sorry, this sounds way too risky to me."`
+				`	"对不起，这对我来说听起来太冒险了。"`
 					decline
 
 
 
 mission "FW Wolf Pack 1B"
 	landing
-	name "Ramscoop Technology"
-	description "Return to Free space with the plans for a new, more efficient ramscoop, and deliver them to Delta V Corporation on <destination>."
+	name "拉姆斯库普技术"
+	description "带着一个新的、更有效的冲压舱的计划回到自由空间，并把它们送到<destination>上的Delta V公司。"
 	destination "Solace"
 	cargo "Ramscoop Data Card" 0
 	to offer
@@ -455,29 +455,29 @@ mission "FW Wolf Pack 1B"
 	
 	on offer
 		conversation
-			`You land your ship by night in a private hangar that you assume is owned by one of the elite families on <origin>. Your contact is wearing a black mask over his face. That seems unnecessary to you, but perhaps he is just really enjoying the thrill of being involved in something illegal. He hands you a data card and says, "This contains all the information you will need to build your own Catalytic Ramscoop. And before you leave, you may also visit our private outfitter and purchase one of your own, if you wish."`
+			`你的飞船在夜间降落在一个私人机库里，你认为这个机库的主人是<origin>上的一个精英家族。你的联系人脸上戴着一个黑色的面具。这对你来说似乎没有必要，但也许他只是非常享受参与非法活动的快感。他递给你一张数据卡，说："这里面包含了你建造自己的催化拉姆斯库的所有信息。在你离开之前，如果你愿意，你也可以访问我们的私人装备店，购买一个你自己的装备。"`
 			choice
-				`	"Thank you."`
+				`	"谢谢你。"`
 					goto leave
-				`	"May I ask who you are and why you sympathize with us?"`
-			`	"You can call me... Agent Falco. As to my true identity, naturally you will understand that I cannot divulge it."`
-			`	"Of course," you say.`
+				`	"请问你是谁，为什么同情我们？"`
+			`	"你可以叫我...法尔科探员。至于我的真实身份，你自然会明白，我不能泄露。"`
+			`	"当然，"你说。`
 			label leave
-			`	"I wish you the best of luck in your struggle against the evil plutocrats," he says. "May we yet live to see the day when all people live in prosperity and freedom. Farewell, brave insurgent." It is an overly dramatic speech, and sounds like he's been rehearsing it for a while. You respond with what you hope is a properly elegant salute, and he leaves.`
+			`	"我祝愿你在与邪恶的财阀的斗争中取得最好的成绩，"他说。"但愿我们还能活着看到所有人民都生活在繁荣和自由中的那一天。再见了，勇敢的叛乱者。"这是一个过于戏剧化的演讲，听起来像是他已经排练了一段时间了。你用你希望的适当的优雅的礼节回应他，然后他离开了。`
 				accept
 	
 	on complete
 		payment 250000
 		event "fw gets catalytic ramscoop" 24
 		log "Helped the Free Worlds gain access to new ramscoop technology that has been developed in the Deep. This should make it significantly easier to travel long distances through unfriendly systems."
-		dialog `You deliver the data card with the details of the Catalytic Ramscoop to the contact you were given in the Delta V corporation. "Excellent," she says. "We have been trying to duplicate their work for months, but this will make it much easier." She hands you a credit chip worth <payment>, and says, "We'll contact you when we've begun mass-producing the new ramscoops. I hope they will be useful in the conflict ahead."`
+		dialog `你把写有 "催化拉姆斯科普 "细节的数据卡交给Delta V公司给你的联系人。她说："很好，"她说。"我们几个月来一直试图复制他们的工作，但这将使它变得更加容易。"她递给你一个价值<payment>的信用芯片，并说："当我们开始大规模生产新的羊肠小道时，我们会联系你。我希望它们在未来的冲突中会很有用。"`
 
 
 
 mission "FW Wolf Pack 2"
 	landing
-	name `"Wolf Pack" Recruiting`
-	description `A group identifying themselves as the "Free Worlds Wolf Pack" has asked you to visit them on <planet> if you want to aid their work against the Republic.`
+	name `"狼群 "招兵买马`
+	description `一个自称是 "自由世界狼群 "的组织要求你去<planet>上拜访他们，如果你想帮助他们对抗共和国。`
 	source
 		government "Free Worlds"
 	destination "Solace"
@@ -490,22 +490,22 @@ mission "FW Wolf Pack 2"
 	
 	on offer
 		conversation
-			`Soon after you land on <origin>, you receive an anonymous message. It reads:`
+			`在你登陆<origin>后不久，你收到一条匿名信息。它写道。`
 			``
-			`Dear Captain <last>,`
-			`	Thanks to your assistance, the Delta V engineers have succeeded in duplicating Deep Sky's new ramscoop technology. The ramscoop is one piece in a larger plan we have to shift the tide of this war in favor of the Free Worlds, and to bring about an end to the conflict more quickly. If you are interested in hearing more, please visit <planet>, and our representatives will contact you promptly.`
-			`	Sincerely,`
-			`		The Free Worlds Wolf Pack`
+			`亲爱的<last>船长。`
+			`	感谢你的帮助，Delta V的工程师们已经成功地复制了Deep Sky的新拉环技术。在一个更大的计划中，冲压舱是其中的一个部分，我们要把这场战争的趋势转移到有利于自由世界的方向，并更快地结束冲突。如果您有兴趣了解更多信息，请访问<planet>，我们的代表将及时与您联系。`
+			`	真诚的。`
+			`		自由世界的狼群`
 			``
-			`You have never heard of this organization before, but you know that "wolf pack" is pirate slang for a temporary alliance formed for the sake of taking on a target larger than any one band of pirates could handle alone.`
+			`你以前从未听说过这个组织，但你知道 "狼群 "是海盗的俚语，指的是为了对付一个比任何一个海盗团伙都要大的目标而组成的临时联盟。`
 				accept
 
 
 
 mission "FW Wolf Pack 2A"
 	landing
-	name "Attack Food Convoy"
-	description "Destroy three Republic freighters in the <waypoints> system that are carrying food, then report back to <planet> for payment."
+	name "攻击食品运输船队"
+	description "在<waypoints>系统中摧毁三艘运送食物的共和国货船，然后向<planet>报告，以获得报酬。"
 	source "Solace"
 	waypoint "Sarin"
 	to offer
@@ -516,33 +516,33 @@ mission "FW Wolf Pack 2A"
 	
 	on offer
 		conversation
-			`Soon after you land, two men in militia uniforms approach your ship, and tell you they represent the "Wolf Pack." They introduce themselves as Rex and Fido; you're pretty sure those are not their real names.`
-			`	Once you are in a private room inside your ship, Rex, who is the younger one, says, "With ramscoop technology, our ships will be able to venture deep into the Dirt Belt. Now, Captain, why do you think the Republic is so determined to hold on to the Dirt Belt, even if it means fighting bloody battles? It's clear that the tax revenue isn't worth it."`
+			`在你登陆后不久，两个穿着民兵制服的人走近你的船，并告诉你他们代表 "狼群"。他们自我介绍说是雷克斯和菲多；你很肯定这不是他们的真名。`
+			`	当你在飞船内的一个私人房间里时，年轻的雷克斯说："有了夯实的技术，我们的飞船将能够深入到泥土带。现在，船长，你认为共和国为什么如此坚决地要守住泥土带，即使这意味着要进行血腥的战斗？很明显，税收并不值得这样做。"`
 			choice
-				`	"Maybe it's just the principle of not ceding territory without a fight."`
-				`	"Maybe they want the resources that the Dirt Belt produces?"`
+				`	"也许这只是不战而屈人之兵的原则。"`
+				`	"也许他们想要的是泥土带生产的资源？"`
 					goto resources
-				`	"Maybe to keep a buffer in between our territory and the worlds that really matter to them, like Earth and the Paradise Planets?"`
-			`	"That might be part of it," says Rex, "but there is a larger reason."`
+				`	"也许是为了在我们的领土和对他们真正重要的世界之间保持一个缓冲区，比如地球和天堂行星？"`
+			`	"这可能是其中的一部分，"雷克斯说，"但还有一个更大的原因。"`
 				goto map
 			label resources
-			`	"Precisely," says Rex, "and one resource in particular is more important to them than all the rest combined."`
+			`	"确切地说，"雷克斯说，"有一种资源对他们来说特别重要，比其他所有的资源加起来还要重要。"`
 			label map
-			`	The man named Fido, who is older and has a thick beard, spreads out a map on the table. You recognize it as a chart of food prices throughout human space. "Food," says Rex. "The Dirt Belt is the breadbasket of the galaxy. And the Republic is full of teeming, overpopulated worlds that could never hope to feed themselves. If we cut off the supply of food, the Republic will be forced to make peace with us."`
-			`	Fido says, "We are proposing a concentrated effort to destroy the freighter convoys that bring food to the richest, most densely populated Republic worlds. When their citizens find themselves lacking basic supplies, they will demand an end to the war."`
+			`	那个叫菲多的人年纪大了，留着浓密的胡子，在桌上摊开一张地图。你认出它是整个人类空间的食品价格图。"食物，"雷克斯说。"泥土带是银河系的粮仓。而共和国充满了大量的、人口过剩的世界，这些世界永远不可能指望养活自己。如果我们切断食物的供应，共和国将被迫与我们媾和。"`
+			`	菲多说："我们建议集中力量摧毁为最富有、人口最密集的共和国世界带来食物的货运船队。当他们的公民发现自己缺乏基本用品时，他们会要求结束战争。"`
 			choice
-				`	"I'd be glad to join you. That does sound like a much quicker solution than our current policies that the Senate and the Council support."`
+				`	"我很乐意加入你们。这听起来确实是一个比我们目前参议院和议会支持的政策要快得多的解决方案。"`
 					goto join
-				`	"You're trying to starve the Republic into submission? Won't that just add more brutality to a war that has already been far too bloody?"`
-			`	"In the short run, perhaps," says Rex. "But think how many lives will be saved - how many bloody battles will be averted - by forcing them to end this war quickly rather than dragging it out across years of time."`
+				`	"你想把共和国饿死，让它屈服？那不就是给一场已经太过血腥的战争增加更多的残酷性吗？"`
+			`	"在短期内，也许，"雷克斯说。"但想想看，通过迫使他们迅速结束这场战争，而不是把它拖过几年的时间，将挽救多少人的生命--将避免多少血腥的战斗。"`
 			choice
-				`	"I don't buy your argument. If we use such reprehensible tactics to build our new society, the society we build will be as corrupt as the old one."`
-				`	"Okay, you've convinced me. What do you want me to do?"`
+				`	"我不相信你的说法。如果我们使用这种应受谴责的策略来建立我们的新社会，我们建立的社会将和旧社会一样腐败。"`
+				`	"好吧，你已经说服了我。你希望我怎么做？"`
 					goto join
-			`	"Very well," says Rex. "Sorry for wasting your time." They leave.`
+			`	"很好。"雷克斯说。"对不起，浪费了你的时间。"他们离开了。`
 				decline
 			label join
-			`	"First, you should buy a ramscoop here, if you haven't got one already," says Rex. "Then, your first target is a convoy of three freighters that will be departing from Big Sky in the Sarin system shortly. There may be escorts, but only the freighters themselves need to be destroyed."`
+			`	"首先，你应该在这里买一个羊肠小道，如果你还没有一个的话，"雷克斯说。"然后，你的第一个目标是一个由三艘货船组成的车队，不久将从沙林系统的大空港出发。可能有护卫队，但只有货船本身需要被摧毁。"`
 				accept
 	
 	npc kill
@@ -552,7 +552,7 @@ mission "FW Wolf Pack 2A"
 		ship "Freighter" "Horn of Plenty"
 		ship "Freighter" "Autumn Twilight"
 		ship "Freighter" "Bounty Harvest"
-		dialog "You have destroyed all the target freighters. Time to report back to the Wolf Pack on Solace."
+		dialog "你已经摧毁了所有的目标货船。是时候向索拉斯的狼群报告了。"
 	npc
 		government "Republic"
 		system "Sarin"
@@ -561,13 +561,13 @@ mission "FW Wolf Pack 2A"
 		ship "Gunboat (Mark II)" "R.N.S. Tyndale"
 	
 	on visit
-		dialog `You've landed on <planet>, but the freighters have not been eliminated yet. Hunt them down in the Sarin system and destroy them before returning.`
+		dialog `你已经降落在<planet>上，但货船还没有被消灭。在沙林系统中追捕他们，并在返回前摧毁他们。`
 	on complete
 		karma --
 		event "wolf pack 3 ready" 10
 		payment 200000
 		log "Destroyed a convoy of Republic freighters that was carrying food from the Dirt Belt. The Paradise Worlds cannot grow all the food that they need to feed their populations, so cutting off the flow of supplies from the Dirt Belt will put pressure on them to make peace with the Free Worlds."
-		dialog `Rex, one of the "Wolf Pack" men you spoke with earlier, meets you in the spaceport and hands you a credit chip for <payment>. "Good work," he says. "We'll contact you when we have another target selected."`
+		dialog `雷克斯，先前与你交谈过的 "狼群 "中的一个人，在太空港与你见面，并递给你一张<payment>的信用芯片。"干得好，"他说。"当我们选定另一个目标时，我们会联系你。"`
 
 
 
@@ -595,8 +595,8 @@ event "wolf pack gacrux end"
 
 mission "FW Wolf Pack 3"
 	landing
-	name "Attack Food Convoy"
-	description "Destroy two Republic bulk freighters in the Gacrux system that are carrying food, then report back to <planet> for payment."
+	name "攻击食品运输船队"
+	description "在Gacrux系统中摧毁两艘运载食物的共和国散装货船，然后向<planet>报告以获得付款。"
 	source
 		government "Free Worlds"
 	destination "Solace"
@@ -610,8 +610,8 @@ mission "FW Wolf Pack 3"
 	
 	on offer
 		dialog
-			`You receive another message from the Wolf Pack: "Great work with those freighters, Captain! We've got another target for you, if you're interested: a pair of bulk freighters, which you ought to be able to intercept in the Gacrux system. It's an uninhabited system, so you shouldn't have much interference from the Navy. As before, you only need to destroy the freighters, not any other ships you encounter."`
-			`	Every one of these missions you complete will create more animosity between the Republic and the Free Worlds. But on the other hand, they may be right that it's the fastest way to bring this war to a close.`
+			`你收到了狼群的另一条信息。"对那些货船做得很好，船长!如果你有兴趣，我们还有一个目标：一对散装货船，你应该能在Gacrux系统中拦截到它们。这是一个无人居住的系统，所以你应该不会有太多来自海军的干扰。和以前一样，你只需要摧毁这些货船，而不是你遇到的任何其他船只。"`
+			`	你完成的每一项任务都会在共和国和自由世界之间制造更多的敌意。但另一方面，他们可能是对的，这是结束这场战争的最快方式。`
 	
 	on accept
 		event "wolf pack gacrux start"
@@ -624,7 +624,7 @@ mission "FW Wolf Pack 3"
 		personality timid staying target
 		ship "Bulk Freighter" "Dew of the Morning"
 		ship "Bulk Freighter" "Heaven's Blessing"
-		dialog "The food convoy has been destroyed. You can now return to Solace."
+		dialog "食品车队已经被摧毁。你现在可以返回索拉斯了。"
 	npc
 		government "Republic"
 		system "Gacrux"
@@ -634,14 +634,14 @@ mission "FW Wolf Pack 3"
 		ship "Protector" "R.N.S. Rampart"
 	
 	on visit
-		dialog `You've landed on <planet>, but the freighters have not been eliminated yet. Hunt them down in the Gacrux system and destroy them before returning.`
+		dialog `你已经降落在<planet>上，但货船还没有被消灭。在Gacrux系统中追捕他们，并在返回前摧毁他们。`
 	on complete
 		karma --
 		event "wolf pack gacrux end"
 		event "wolf pack 4 ready" 20
 		payment 300000
 		log "Destroyed an even larger Republic food convoy. They are probably beginning to feel the pressure now, because they have clearly started to divert warships from the front to defend these convoys."
-		dialog `Once again, Rex from the Wolf Pack meets you soon after your ship lands. This time, he pays you <payment>. "I hope they didn't give you any trouble," he says. "We'll be in touch when there's another target to strike."`
+		dialog `再一次，来自狼群的雷克斯在你的飞船降落后不久就遇到了你。这一次，他给了你<payment>。"我希望他们没有给你带来任何麻烦，"他说。"当有另一个目标需要打击时，我们会与你联系。"`
 
 
 
@@ -667,8 +667,8 @@ event "wolf pack mizar end"
 
 mission "FW Wolf Pack 4"
 	landing
-	name "Attack Food Convoy"
-	description "Destroy a Republic Auxiliary freighter in the <waypoints> system that is carrying food, then report back to <planet> for payment."
+	name "攻击食品运输船队"
+	description "在<waypoints>系统中摧毁一艘运载食物的共和国辅助货船，然后向<planet>报告以获得报酬。"
 	source
 		government "Free Worlds"
 	destination "Solace"
@@ -681,7 +681,7 @@ mission "FW Wolf Pack 4"
 		has "event: fw armistice"
 	
 	on offer
-		dialog `You receive another message from the Wolf Pack: "Hello Captain. If nothing else, we've certainly succeeded in getting some of the Navy's ships diverted from the front, to serve as escorts! Your next target, if you're willing to help us again, will be a bit tougher: an Auxiliary freighter, probably with Navy escorts. The freighter is passing through the <waypoints> system. Interested?"`
+		dialog `你收到狼群的另一条信息。"你好，船长。如果不出意外的话，我们肯定已经成功地让海军的一些船只从前线分流出来，充当护卫队！"。你的下一个目标，如果你愿意再次帮助我们，将是一个更艰难的目标：一艘辅助货船，可能有海军护航。这艘货船正经过<waypoints>系统。有兴趣吗？"`
 	
 	on accept
 		event "wolf pack mizar start"
@@ -693,7 +693,7 @@ mission "FW Wolf Pack 4"
 		system "Mizar"
 		personality timid staying target
 		ship "Auxiliary (Cargo)" "RNS Golden Fleece"
-		dialog "You have eliminated the Auxiliary that was carrying food to the Republic. Time to report back to the Wolf Pack and receive your reward."
+		dialog "你已经消灭了向共和国运送食物的辅助者。是时候向狼群报告并领取你的奖励了。"
 	npc
 		government "Republic"
 		system "Mizar"
@@ -708,21 +708,21 @@ mission "FW Wolf Pack 4"
 				"Combat Drone" 6
 	
 	on visit
-		dialog `You've landed on <planet>, but the freighter has not been eliminated yet. Hunt it down in the Mizar system and destroy it before returning.`
+		dialog `你已经降落在<planet>上，但那艘货船还没有被消灭。在Mizar系统中追捕它，并在返回前摧毁它。`
 	on complete
 		karma --
 		event "wolf pack mizar end"
 		log "Destroyed a third food convoy. These attacks seem to have succeeded in forcing the Navy to assign capital ships to defend their supply convoys."
 		payment 400000
 		dialog
-			`Rex meets up with you and thanks you for your continued service to the Free Worlds. "If we had a dozen captains as brave as you are," he says, "the war would be over tomorrow." He hands you <payment>, and walks away. You still don't know his real name or who the leaders of the Wolf Pack are, but you are glad to have been able to do something extra to assist the war effort.`
+			`雷克斯与你见面，感谢你一直以来对自由世界的服务。"如果我们有一打像你这样勇敢的船长，"他说，"战争明天就会结束。"他递给你<payment>，然后走了。你仍然不知道他的真名，也不知道狼群的领导人是谁，但你很高兴能够为协助战争努力做一些额外的工作。`
 
 
 
 mission "FW Stack Core 1"
 	landing
-	name "Escort convoy from Rand"
-	description "Freya asked you to stop by Rand if you are able, to help escort a freighter convoy carrying vital supplies for building some exciting new equipment."
+	name "护送来自兰特的车队"
+	description "芙蕾雅要求你如果可以的话到兰特去，帮助护送一个货运船队，该船队为建造一些令人兴奋的新设备运送重要物资。"
 	destination "Rand"
 	to offer
 		has "FW Reconciliation Break: offered"
@@ -731,15 +731,15 @@ mission "FW Stack Core 1"
 	
 	on offer
 		conversation
-			`You receive a short, encoded message from Freya: "Hi there, Captain! If you happen to be passing by <planet> any time soon, would you mind swinging by there to help escort a freighter convoy? We're working on the development of some exciting new equipment, and the convoy is carrying the supplies we need to complete the project."`
+			`你收到了Freya发来的简短的加密信息："你好，船长！如果你碰巧路过如果你不久后碰巧路过<planet>，你是否介意去那里帮助护送一个货运船队？我们正在开发一些令人振奋的新设备，而这个船队装载的是我们完成项目所需的物资。"`
 				accept
 
 
 
 mission "FWC Stack Core 1"
 	landing
-	name "Escort convoy from Rand"
-	description "Freya asked you to stop by Rand if you are able, to help escort a freighter convoy carrying vital supplies for building some exciting new equipment."
+	name "护送来自兰特的车队"
+	description "芙蕾雅要求你如果可以的话到兰特去，帮助护送一个货运船队，该船队为建造一些令人兴奋的新设备运送重要物资。"
 	destination "Rand"
 	to offer
 		has "FW Liberate Delta Sagittarii: done"
@@ -753,8 +753,8 @@ mission "FWC Stack Core 1"
 
 mission "FW Stack Core 1B"
 	landing
-	name "Escort convoy from Rand"
-	description "Freya asked you to escort this convoy carrying vital supplies for building some exciting new equipment, to <destination>."
+	name "护送来自兰特的车队"
+	description "芙蕾雅要求你护送这个为建造一些令人兴奋的新设备而运送重要物资的船队，前往<destination>。"
 	source "Rand"
 	destination "Solace"
 	to offer
@@ -762,7 +762,7 @@ mission "FW Stack Core 1B"
 	
 	on offer
 		conversation
-			`Following Freya's instructions, you land on <origin> and tell the spaceport quartermaster that you've been assigned to escort a convoy to <planet>. "Ah yes," he says, "the last of their cargo was just made ready yesterday." He leads you to a cluster of landing pads where three Bulk Freighters are parked. "The pirates have not been much trouble lately," he says, "but the cargo is important enough that they wanted an escort anyway." He leaves before you have a chance to ask any questions about what the freighters are carrying.`
+			`按照芙蕾雅的指示，你降落在<origin>，并告诉太空港的军需官，你被指派护送一个车队到<planet>。"啊，是的，"他说，"他们最后一批货物昨天刚刚准备好。"他把你领到一个降落台群，那里停着三艘散货船。"海盗们最近没有什么麻烦，"他说，"但货物很重要，他们还是希望有护卫队。"他在你有机会问任何关于货船所载货物的问题之前就离开了。`
 				accept
 	
 	npc accompany save
@@ -784,11 +784,11 @@ mission "FW Stack Core 1B"
 				"Gunboat" 2
 	
 	on visit
-		dialog "You have reached <planet>, but you left part of your convoy behind! Better depart and wait for them to arrive in this star system."
+		dialog "你已经到达<planet>，但你留下了你的部分车队!最好出发并等待他们到达这个星系。"
 	on complete
 		event "stack core for sale" 25
 		payment 200000
-		dialog `You have escorted the convoy safely to its destination. The workers begin unloading some very heavy crates, and one of the freighter captains hands you <payment> and thanks you for your protection.`
+		dialog `你已经护送车队安全到达目的地。工人们开始卸下一些很重的箱子，其中一个货船船长把<payment>交给你，并感谢你的保护。`
 
 
 
@@ -804,5 +804,5 @@ mission "FW Stack Core 1C"
 	on offer
 		log "The Free Worlds now has a new reactor core of their own design available for sale, specifically for increasing the Dreadnought's energy performance."
 		conversation
-			`You receive a message from Freya: "Hello again, Captain! Thanks for your help escorting the materials to Solace. Ever since we developed the Dreadnoughts people have been talking about how badly we need a generator that can meet their energy needs, and that's what Delta V Corporation has been working on. So, take a look next time you're on Solace or one of our other major manufacturing centers. Sorry for the mystery surrounding the cargo, but we didn't exactly want to advertise that a huge shipment of fissionable material was headed for Free Worlds space."`
+			`你收到了Freya的信息："又见面了，船长!谢谢你帮助护送材料到索拉斯。自从我们开发出无畏舰后，人们一直在谈论我们多么需要一个能满足他们能源需求的发电机，而这正是Delta V公司一直在研究的东西。所以，下次你在索拉斯或我们其他主要的制造中心时，请看一看。对于货物的神秘性，我们很抱歉，但我们并不想宣传有一大批可裂变材料正被运往自由世界的空间。"`
 				decline

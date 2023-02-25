@@ -84,7 +84,7 @@ ship "Albatross"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large" 1
-	description "Once they left human space, it became apparent to the Remnant that they would need to build their own shipyards in order to defend themselves if they were discovered by the Alphas or any other unfriendly faction. Using new composite materials that they discovered, they built ships very different from anything seen in human space."
+	description "一旦他们离开了人类的空间，对遗民来说，他们显然需要建造自己的船厂，以便在被字母表或任何其他不友好的派别发现时保护自己。利用他们发现的新的复合材料，他们建造了与人类空间中的任何东西都非常不同的飞船。"
 
 ship "Albatross" "Albatross (Sniper)"
 	outfits
@@ -344,9 +344,9 @@ ship "Modified Dromedary"
 	explode "large explosion" 45
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
-	description `The Tycho Crater Cooperative's Dromedary was one of the foremost colonization ships during the early era before piracy became rampant and triggered the necessity for city-ships to be more combat-oriented. These ships incorporate extensive hydroponics, large construction equipment installations, and hundreds of densely packed "dream cells" built to transport people in bulk.`
-	description "	Since the Remnant do not have schematics for the Dromedary, just the highly-modified example of the Shattered Light, this ship is actually a commemorative replica of that specific ship. As such, it combines the original's odd mix of eclectic modifications with new Remnant systems."
-	description "	Unfortunately, since they lack the manufacturing facilities that would normally support a large construction project, it will cost massively more than it would have originally back on Luna."
+	description `泰科火山口合作社的单峰驼是早期最重要的殖民船之一，当时海盗活动猖獗，引发了城市船更注重战斗的必要性。这些船包含了大量的水生植物，大型建筑设备装置，以及数百个密集的 "梦想牢房"，用于大量运送人员。`
+	description `	由于残余者没有单桅帆船的图纸，只有 "破碎之光 "号的高度改良版，这艘船实际上是那艘特定船只的纪念性复制品。因此，它结合了原版的不拘一格的改装和新的遗迹系统。`
+	description "	不幸的是，由于他们缺乏通常支持大型建筑项目的制造设施，它的成本将大大高于当初在月球的成本。"
 
 
 ship "Modified Dromedary" "Modified Dromedary Ghost"
@@ -468,8 +468,8 @@ ship "Modified Dromedary" "Modified Dromedary Wreck"
 	turret "Quad Blaster Turret"
 	turret "Laser Turret"
 	turret "Anti-Missile Turret"
-	description `The Tycho Crater Cooperative's Dromedary was one of the foremost colonization ships during the early era before piracy became rampant and triggered the necessity for city-ships to be more combat-oriented. These ships incorporate extensive hydroponics, large construction equipment installations, and hundreds of densely packed "dream cells" built to transport people in bulk.`
-	description "	This is a wreck. A ship that once might have held hundreds of people has no functional environmental system, the once verdant hydroponics domes are shattered, and much of the ship appears to be destroyed. Burns, strange scrapes, and twists to structural elements abound. Only a smattering of droids persistently continuing their work manage to maintain any degree of functionality."
+	description `泰科火山口合作社的单峰驼是早期最重要的殖民船之一，当时海盗活动猖獗，引发了城市船更注重战斗的必要性。这些船包含了大量的水生植物，大型建筑设备装置，以及数百个密集的 "梦想牢房"，用于大量运送人员。`
+	description "	这是个残骸。一艘曾经可能容纳数百人的飞船没有正常的环境系统，曾经青翠的水培穹顶被打碎了，飞船的大部分似乎都被摧毁了。烧伤、奇怪的刮痕和结构元素的扭曲比比皆是。只有零星的机器人坚持不懈地继续它们的工作，设法维持任何程度的功能。"
 
 
 
@@ -538,9 +538,9 @@ ship "Gull"
 	explode "small explosion" 20
 	explode "medium explosion" 10
 	"final explode" "final explosion small" 1
-	description "While the Starling was the first successful ship to use technology derived from alien ruins, the Gull is the most recent. The current increase in Korath activities has caused foraging for resources to become a risky endeavor, forcing the Remnant to develop a specialized freighter for hauling cargo from remote sites without revealing their presence to hostile aliens."
-	description "	The Gull has quickly proven its worth, allowing the Starling fleets to return to riskier activities while the Gull takes over the hazardous convoy routes. It is now the primary element of the Remnant's extra-territorial resource operations."
-	description "	The cloaking technology is built into the Gull's hull; it cannot be removed or transferred to another ship."
+	description `虽然 "椋鸟 "号是第一艘成功使用来自外星废墟的技术的飞船，但 "海鸥 "号是最近的。目前，Korath活动的增加导致觅取资源成为一项危险的工作，迫使残余者开发出一种专门的货运飞船，用于从偏远地区拖运货物，而不向敌对的外星人透露他们的存在。`
+	description "	海鸥号很快就证明了它的价值，在海鸥号接管危险的护航路线时，允许星际舰队回到更危险的活动中去。它现在是残余者的域外资源行动的主要元素。"
+	description "	隐身技术内置于海鸥号的船体中；它不能被移除或转移到另一艘船上。"
 
 ship "Gull" "Gull (Sniper)"
 	outfits
@@ -794,8 +794,8 @@ ship "Heron"
 	explode "large explosion" 20
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
-	description "The Heron is the Remnant's ultimate last resort: Flight. These mobile starports are built to serve as the core elements of evacuation fleets when the Remnant are ultimately pushed to the brink of destruction in their home systems. These massive ships are capable of lifting enormous amounts of resources and operate both in space and on land, and are continuously updated to make full use of the latest technological innovations."
-	description "	The few Herons in existence are carefully guarded secrets that embody the Remnant's core tactics of speed, stealth, and survival. Given the tiny number that exist, they are never available for discretionary use by Remnant captains and are always operated under the authority and direction of a prefect."
+	description "苍鹭号是残余者的终极最后手段。飞行。这些移动星港的建造是为了在残余者最终被推到其母星系的毁灭边缘时作为疏散舰队的核心要素。这些巨大的飞船能够提升大量的资源，在太空和陆地上运行，并不断地更新以充分利用最新的技术革新。"
+	description "	现存的少数苍鹭号是被精心保护的秘密，体现了遗民的核心战术--速度、隐蔽和生存。由于存在的数量很少，它们从来没有被留守儿童的队长们随意使用过，总是在省长的授权和指导下运行。"
 
 
 
@@ -879,8 +879,8 @@ ship "Ibis"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "The Ibis is a multipurpose carrier that serves as a mobile mining platform, an escort ship for Pelican fleets, and a combat platform using Terns for screening. It is capable of fielding a single wing of support craft, consisting of two Petrels and four Terns."
-	description "	The Ibis was designed shortly after the Albatross as a means of extending the range of resource collection efforts after the Remnant realized that an Alpha invasion might not be as imminent as originally believed."
+	description "Ibis是一艘多用途的航空母舰，可以作为移动采矿平台，为鹈鹕舰队护航，也可以作为使用燕鸥进行筛选的战斗平台。它能够出动一个由两艘海燕和四艘燕鸥组成的单翼支援飞船。"
+	description "	伊比斯号是在信天翁号之后不久设计的，是在遗民意识到阿尔法入侵并不像最初认为的那样迫在眉睫之后，扩大资源收集工作范围的一种手段。"
 
 
 
@@ -960,8 +960,8 @@ ship "Merganser"
 	engine 10 49
 	explode "tiny explosion" 30
 	explode "small explosion" 20
-	description "The Merganser is the first production ship the Remnant deem to be truly alive, and are considered to be equivalent to dolphins in reasoning tests. These interceptors, deemed for short range operations by Remnant standards, are designed to patrol the upper atmosphere of gas giants and use their decisive speed advantage to conduct hit-and-run attacks on threats in nearby systems."
-	description "	The cloaking technology is built into the Merganser's hull; it cannot be removed or transferred to another ship."
+	description "鱼鹰是残余者认为真正有生命力的第一艘生产型飞船，在推理测试中被认为等同于海豚。这些拦截器，按照剩余者的标准被认为是短程行动，被设计为在气态巨行星的高层大气中巡逻，并利用其决定性的速度优势对附近系统的威胁进行打了就跑的攻击。"
+	description "	隐身技术内置于梅甘瑟号的船体中，它不能被移除或转移到另一艘船上。"
 
 
 ship "Merganser" "Merganser (II)"
@@ -1050,7 +1050,7 @@ ship "Pelican"
 	explode "large explosion" 20
 	explode "huge explosion" 5
 	"final explode" "final explosion large" 1
-	description "The Pelican is closely based on the original semi-organic materials the Remnant found in the Ember Waste. While they are not technically alive, their internal mechanisms and method of construction bear such a close resemblance to living organisms that they are often considered as such. One key feature of this living resemblance is the innate sensory capabilities they possess, akin to sensor suites less advanced ships require for detailed scanning. These ships serve as the backbone of Remnant bulk salvage efforts, as well as their fast-logistics distribution network."
+	description "鹈鹕号紧密地基于余生者在微光废料中发现的原始半有机材料。虽然它们在技术上不是活的，但它们的内部机制和构造方法与生物体非常相似，以至于它们经常被认为是生物体。这种生物相似性的一个关键特征是它们所拥有的先天感官能力，类似于不太先进的飞船所需的传感器套件，用于详细扫描。这些战舰是残余者大量打捞工作的骨干，也是他们的快速物流配送网络。"
 
 ship "Pelican" "Pelican (Heavy Lift)"
 	outfits
@@ -1167,8 +1167,8 @@ ship "Penguin"
 	leak "remnant leak sparkle" 30 2
 	explode "tiny explosion" 8
 	explode "small explosion" 7
-	description "Inspired by close contact with void sprites and the reinvigoration of xenobiology, the Penguin is a prototype designed to serve the dual roles of testing new starship technology while exploring hostile planets throughout the Ember Waste. One of this ship's distinguishing features is that it is truly alive and has a mind that approaches self-awareness."
-	description "	The cloaking technology is built into the Penguin's hull; it cannot be removed or transferred to another ship."
+	description "企鹅号的灵感来自于与虚空精灵的亲密接触和异种生物学的复兴，它是一个原型，旨在为测试新的星际飞船技术和探索整个微光废墟的敌对星球提供双重作用。这艘船的一个显著特点是，它是真正有生命的，有一个接近自我意识的头脑。"
+	description "	隐形技术内置于企鹅号的船体中；它不能被移除或转移到另一艘船上。"
 	
 	
 	
@@ -1254,9 +1254,9 @@ ship "Peregrine"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "The Peregrine is the first capital warship designed by Taely using fresh insights garnered from recent experimentation as well as renewed studies of the void sprites. Encompassing over a century of development since the last generation of warships was built, it is the forerunner of a new breed of Remnant ships."
-	description "	The Peregrine was designed along the lines of old-earth's fast-attack cruisers. Drawing on inspiration from its namesake, famed for being the fastest self-propelled lifeform on Earth, it is designed to strike hard and fast. It closes quickly with enemies to unleash devastating barrages in the opening seconds of combat."
-	description "	The cloaking technology is built into the Peregrine's hull; it cannot be removed or transferred to another ship."
+	description "百灵鸟是泰利设计的第一艘资本战舰，它采用了从最近的实验中获得的新见解，以及对虚空精灵的重新研究。涵盖了自上一代战舰建造以来的一个多世纪的发展，它是新品种的遗民舰的先驱。"
+	description "	百灵鸟是按照旧地球上的快速攻击巡洋舰的思路设计的。它的灵感来自于它的名字，因为它是地球上最快的自走式生命体而闻名，它的设计是为了快速而有力的打击。它能迅速接近敌人，在战斗开始的几秒钟内释放出毁灭性的炮火。"
+	description "	隐身技术内置于游隼号的船体中；它不能被移除或转移到另一艘船上。"
 	
 ship "Peregrine" "Peregrine (II)"
 	outfits
@@ -1343,9 +1343,9 @@ ship "Petrel"
 	leak "remnant leak sparkle" 20 3
 	explode "tiny explosion" 30
 	explode "small explosion" 20
-	description "The Petrel is a multi-role mining/wing leader fightercraft designed to provide support for flights of lighter Terns in high-risk environments. The ship's design originated as an urban mobile gun platform that flitted around structures and natural terrain, but proved easy to adapt into a spacecraft."
-	description "	The Remnant are loath to sacrifice pilots and crew from the comparatively small pool they are drawn from. As such, their fighters are equipped with medium-range weaponry designed to strike enemies from afar."
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "海燕是一种多功能的采矿/领航战斗舰，旨在为高风险环境中的轻型海燕飞行提供支持。该船的设计起源于一个城市移动炮台，可以在建筑物和自然地形上飞来飞去，但被证明很容易被改造成航天器。"
+	description "	残余者不愿意从相对较小的队伍中牺牲飞行员和船员。因此，他们的战斗机配备了中程武器，旨在从远处打击敌人。"
+	description "	战斗机不配备超光速引擎。除非你的舰队中有一艘带有战斗机舱的飞船，否则你无法携带战斗机。"
 
 
 
@@ -1398,7 +1398,7 @@ ship "Puffin"
 	leak "remnant leak sparkle" 20 2
 	explode "tiny explosion" 8
 	explode "small explosion" 7
-	description "Centuries ago, the Remnant built these ships in order to explore the upper atmosphere of nearby gas giants. The Archons took issue with the Remnant's research methods, and the studies were unable to be completed. The remaining Puffins have been gathering dust in storage for centuries while the Remnant wait to see if the anger of the Archons will subside."
+	description "几个世纪前，残余者建造这些飞船是为了探索附近气态巨行星的高层大气。大臣们对残余者的研究方法提出了异议，研究也就无法完成。剩余的海雀号已经在仓库里尘封了几个世纪，而余生者则在等待，看大主教的怒火是否会消退。"
 
 
 
@@ -1451,9 +1451,9 @@ ship "Smew"
 	leak "remnant leak sparkle" 22 3
 	explode "tiny explosion" 35
 	explode "small explosion" 24
-	description "The Remnant have long favored turns of action that avoid putting crew directly at risk; though their Terns are a rather effective result of this ideology, the Remnant still had to face the fact that, eventually, one of their manned ships was going to end up too crippled to escape to safety. To that end, the Smew was developed; though quite lightly armed, Smews are capable of carrying a considerable quantity of cargo and passengers for a ship of their size, and are durable enough to absorb some fire from enemies while doing so."
-	description "	Though originally designed as lifeboats, the surprisingly mobile freighter-fighter hybrid has seen a remarkable amount of usage in mining fleets, as a way to supplement the otherwise poor cargo capacity of the Ibis. Because their purpose can vary from fleet to fleet, Smews are traditionally sold with a fair amount of free space: enough for a small weapon, upgraded engines, or additional support systems."
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "长期以来，残余派倾向于采取避免将船员直接置于危险之中的行动方式；尽管他们的燕鸥号是这种思想的一个相当有效的结果，但残余派仍然不得不面对这样一个事实：最终，他们的一艘载人飞船将因残缺而无法逃到安全地带。为此，Smew被开发出来了；虽然武装相当薄弱，但Smew能够携带相当数量的货物和乘客，而且足够耐用，可以在这样做的时候吸收一些敌人的火力。"
+	description "	虽然最初是作为救生艇设计的，但这种移动性惊人的货船-战斗机混合体在采矿船队中的使用量非常大，作为补充Ibis糟糕的货运能力的一种方式。因为它们的用途因舰队而异，所以传统上出售的Smews有相当多的自由空间：足够放置小型武器、升级的引擎或额外的支持系统。"
+	description "	战斗机不配备超光速引擎。除非你的舰队中有一艘带有战斗机舱的飞船，否则你无法携带战斗机。"
 
 ship "Smew" "Smew (Miner)"
 	outfits
@@ -1554,8 +1554,8 @@ ship "Starling"
 	explode "small explosion" 20
 	explode "medium explosion" 10
 	"final explode" "final explosion small" 1
-	description "One of the strangest and most useful things that the Remnant have discovered in the abandoned worlds of the Ember Waste is alien cloaking technology. They have designed their scout ships to cloak when needed in order to explore alien territory without being seen... or to escape in a hurry after stealing something particularly valuable from those aliens."
-	description "	The cloaking technology is built into the Starling's hull; it cannot be removed or transferred to another ship."
+	description "遗族在微光废墟的废弃世界中发现的最奇怪和最有用的东西之一是外星隐形技术。他们把他们的侦察船设计成在需要时可以隐身，以便在不被发现的情况下探索外星领土......或者在从那些外星人那里偷了特别有价值的东西后匆忙逃走。"
+	description "	隐身技术是内置在斯特林号的船体中的；它不能被移除或转移到另一艘船上。"
 
 ship "Starling" "Starling (Heavy)"
 	outfits
@@ -1697,6 +1697,6 @@ ship "Tern"
 	leak "remnant leak sparkle" 30 2
 	explode "tiny explosion" 30
 	explode "small explosion" 20
-	description "The Tern is a small, hardy drone developed to plunge into the atmosphere of nearby gas giants for collecting valuable resources. These thick-shelled craft are also surprisingly effective when pressed into service as screening ships when enemies intrude into Remnant space."
-	description "	Unlike most spacefaring nations, the Remnant do not have enough people to pilot fighter wings in waves likely to sustain significant casualties. As such, they frequently use these hardy drones to fulfill similar screening roles in their home systems, allowing manned craft to focus on more specialized tasks."
-	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+	description "燕鸥号是一种小型的、坚韧的无人机，被开发出来用于进入附近气态巨行星的大气层以收集有价值的资源。这些厚壳飞船在敌人入侵遗迹空间时，作为筛查飞船使用，也是出奇地有效。"
+	description "	与大多数航天国家不同的是，余留国没有足够的人员来驾驶战斗机机群，可能会造成重大伤亡。因此，他们经常使用这些坚韧的无人机在他们的家园系统中履行类似的筛选作用，让有人驾驶的飞船专注于更专业的任务。"
+	description "	无人机并不配备超光速引擎。除非你的舰队里有一艘带有无人机舱的飞船，否则你无法携带无人机。"

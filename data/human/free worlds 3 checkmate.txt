@@ -13,28 +13,28 @@
 
 mission "FWC Scouting 1"
 	landing
-	name "Scout Kaus Borealis"
-	description "Travel through the <waypoints> system to determine how strong the Navy presence is there, while JJ works to gather a fleet to attack it."
+	name "侦察员考斯-伯勒里斯"
+	description "穿过<waypoints>系统，确定海军在那里的存在有多强，而JJ则致力于召集一支舰队来攻击它。"
 	autosave
 	source "New Portland"
 	waypoint "Kaus Borealis"
 	to offer
 		has "FW Liberate Delta Sagittarii: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		log `Drove the Navy out of Delta Sagittarii with the help of the "Wolf Pack," a militia group in favor of more extreme measures who launched a preemptive strike before the main Free Worlds force arrived. The Free Worlds are now committed to fighting the Republic to a standstill rather than proving their innocence; the defector has been recaptured by the Syndicate and whatever information he had to share is now lost.`
 		conversation
-			`It was a close battle, and could have gone very differently if it were not for the Wolf Pack strike that happened before you arrived and that disabled or destroyed the majority of the Navy fleet. You can't help but wonder how the Wolf Pack managed to assemble a large enough fleet to do that sort of damage.`
-			`	"Well," says JJ, "the die is cast. It's too late now to wonder what that business with the Syndicate was about; now we're in a fight to the finish with the Republic. And that means we must strike soon, before they have time to bring in more reinforcements. Captain <last>, I'd like you to perform a scouting mission while I'm working on gathering a new fleet. Our next target has to be the Navy base on New Iceland. If we can drive them out of that system, our position will be much better. So, I'd like you to fly through Kaus Borealis and return here to report on their fleet strength. Understood?"`
+			`这是一场近距离的战斗，如果不是在你到达之前发生的 "狼群 "罢工，使海军舰队的大部分丧失战斗力或被摧毁，情况可能会很不一样。你不禁要问，狼群是如何设法组建一支足够大的舰队来造成那种破坏的。`
+			`	"好吧，"JJ说，"模子已经铸成。现在想知道与辛迪加的那笔生意是怎么回事已经太晚了；现在我们正处于与共和国战斗的最后阶段。这意味着我们必须尽快出击，在他们有时间带来更多援军之前。舰长<last>，我想让你执行一次侦察任务，同时我正在努力召集一支新的舰队。我们的下一个目标必须是新冰岛的海军基地。如果我们能把他们赶出那个系统，我们的处境就会好很多。所以，我希望你能飞过Kaus Borealis，然后回到这里，报告他们的舰队实力。明白了吗？"`
 			choice
-				`	"No problem."`
+				`	"没问题。"`
 					goto freya
-				`	"Sure, but first, can you tell me how the Wolf Pack was able to do so much damage to the Navy?"`
-			`	"As I said," says JJ, "they've gathered a surprising number of bounty hunters and others who operate on the fringes of society, and who are sympathetic to our cause."`
+				`	"当然，但首先，你能告诉我，狼群是如何对海军造成如此大的伤害的？"`
+			`	"正如我所说，"JJ说，"他们聚集了数量惊人的赏金猎人和其他在社会边缘活动的人，他们对我们的事业充满同情。"`
 			label freya
-			`	"One more thing," says Freya, "while you're traveling up North, I wonder if you could help to escort a convoy from the Zeta Aquilae system. There's no huge rush, but they're carrying supplies we need for a new reactor core for the Dreadnoughts, so the sooner you can meet up with them, the sooner the new reactors will be available."`
+			`	"还有一件事，"弗雷亚说，"当你在北方旅行时，我想你是否可以帮助护送一个来自Zeta Aquilae系统的车队。没有什么大的急事，但他们运送的是我们为无畏战舰的新反应堆核心所需要的物资，所以你越早与他们会合，新的反应堆就越早可以使用。"`
 				accept
 	
 	npc
@@ -47,8 +47,8 @@ mission "FWC Scouting 1"
 
 mission "FWC Attack Kaus Borealis"
 	landing
-	name "Attack Kaus Borealis"
-	description "Destroy the Navy fleet defending Kaus Borealis. The Wolf Pack will attack them first to soften them up."
+	name "攻击考斯伯勒里斯"
+	description "摧毁防守Kaus Borealis的海军舰队。狼群会先攻击他们以软化他们。"
 	autosave
 	source "New Portland"
 	destination "New Iceland"
@@ -56,42 +56,42 @@ mission "FWC Attack Kaus Borealis"
 	to offer
 		has "FWC Scouting 1: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		event "fwc attack kaus borealis"
 		conversation
-			`When you return to New Portland, a sizeable Free Worlds fleet is already parked on the landing pads surrounding the spaceport. JJ explains to you, "When the Navy struck and cut our territory in half, a lot of these ships were cut off from their chain of command and just went and sheltered wherever they could. So it took a bit of doing to gather them all together. And now what we need is another stirring victory, or they'll begin to scatter again."`
+			`当你回到新波特兰时，一支规模庞大的自由世界舰队已经停在了太空港周围的登陆场上。JJ向你解释说："当海军袭击并将我们的领土切成两半时，这些船很多都被切断了指挥系统，只是去了他们能躲避的地方。因此，我们花了点功夫才把它们集中起来。而现在我们需要的是另一场轰轰烈烈的胜利，否则他们又会开始分散。"`
 			choice
-				`	"Are you saying we risk having members of our militia desert?"`
+				`	"你是说我们有可能让我们的民兵成员开小差？"`
 					goto desert
-				`	"Well, the fact that they all returned to fight is a good sign."`
+				`	"嗯，他们都回来作战是个好兆头。"`
 					goto fight
 			label desert
-			`	"Yes," says JJ, "some of them already have. Think of it from the perspective of a militia member: you signed up to defend one planet against occasional pirates, not to spend years traveling from system to system battling the Navy. Some people have just had enough. This war needs to end, and end soon."`
+			`	"是的，"JJ说，"他们中的一些人已经有了。从民兵成员的角度来考虑：你报名参加是为了保卫一个星球，对抗偶尔的海盗，而不是花几年时间从一个系统到另一个系统与海军作战。有些人已经受够了。这场战争需要结束，而且要尽快结束。"`
 				goto battle
 			label fight
-			`	"Well," says JJ, "at least some of them returned to fight. But many of them didn't. Think of it from the perspective of a militia member: you signed up to defend one planet against occasional pirates, not to spend years traveling from system to system battling the Navy. Some people have just had enough. This war needs to end, and end soon."`
+			`	"好吧，"JJ说，"至少他们中的一些人回来战斗了。但他们中的许多人并没有。从一个民兵成员的角度来考虑：你报名参加是为了保卫一个星球，对抗偶尔的海盗，而不是花几年时间从一个系统到另一个系统与海军作战。有些人已经受够了。这场战争需要结束，而且要尽快结束。"`
 				goto battle
 			label battle
 			choice
-				`	"Well, we can't exactly conquer the Republic. Shouldn't we try diplomacy?"`
+				`	"好吧，我们不可能完全征服共和国。我们难道不应该尝试外交手段吗？"`
 					goto diplomacy
-				`	"It sounds to me like we need to make a convincing enough show of strength that Parliament will agree to a ceasefire."`
+				`	"在我看来，我们需要做出足够有说服力的实力展示，使议会同意停火。"`
 					goto strength
 			label diplomacy
-			`	"Yes," says JJ, "it will have to be a diplomatic solution in the end. But we must negotiate that solution from a position of strength, not weakness. And that means driving the Navy out of our territory."`
+			`	"是的，"JJ说，"最终将不得不采取外交解决方式。但我们必须从实力而非软弱的立场来谈判这一解决方案。而这意味着将海军赶出我们的领土。"`
 				goto plan
 			label strength
-			`	"Precisely," says JJ, "and the only way to do that is to drive the Navy out of our territory. And if that isn't enough... we have plans for that contingency as well."`
+			`	"确切地说，"JJ说，"而唯一的办法就是把海军赶出我们的领土。如果这还不够......我们也有针对这一突发事件的计划。"`
 				goto plan
 			label plan
-			`	"So, now we attack Kaus Borealis?" you ask.`
-			`	"That's right," he says. "Once again, the Wolf Pack will go in first and soften them up, then you and your ships will clean up. I've already given the Wolf Pack orders to attack, so please head straight to Kaus Borealis so you can join the fray before they have time to recover."`
+			`	"那么，现在我们攻击Kaus Borealis？"你问。`
+			`	"这就对了。"他说。"再一次，狼群将首先进入，软化他们，然后你和你的飞船将进行清理。我已经给狼群下达了进攻的命令，所以请直接前往Kaus Borealis，这样你就可以在他们有时间恢复之前加入战局。"`
 				accept
 	
 	on visit
-		dialog `You've landed on <planet>, but there are still Navy ships circling overhead. You should take off and help finish them off.`
+		dialog `你已经降落在<planet>上，但仍有海军舰艇在头顶上盘旋。你应该起飞并帮助解决他们。`
 	on complete
 		event "fwc capture kaus borealis"
 	
@@ -160,53 +160,53 @@ mission "FWC Attack Kaus Borealis"
 
 mission "FWC Cebalrai 1"
 	landing
-	name "Scout out Cebalrai"
-	description "Scout out the Navy presence in the <waypoints> system, then report back to Tomek on <planet>."
+	name "侦察Cebalrai的情况"
+	description "侦查海军在<waypoints>系统中的存在，然后向<planet>上的托梅克报告。"
 	autosave
 	source "New Iceland"
 	waypoint "Cebalrai"
 	to offer
 		has "FWC Attack Kaus Borealis: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		log "Captured the Kaus Borealis system from the Navy, even though the locals are still loyal to the Republic. Also, learned that the Wolf Pack ships have been using nuclear missiles, and that is why they were so effective in decimating the Navy fleet."
 		conversation
-			`As you bring your ship in for a landing, it occurs to you that this is the first time that you have fought a battle for a Republic star system that had not voluntarily decided to join the Free Worlds, and you are not sure what to do next. Fortunately, soon more Free Worlds ships begin arriving, and one of them is carrying Alondo. Tomek is with him. "Hi there, <first>," says Tomek. "Bet you didn't expect to see me again, huh?"`
-			`	Alondo says, "<first>, I'll leave you and Tomek to catch up. I should go talk to the governor immediately. There's no way the locals will have failed to notice the nuclear explosions happening in space right over their heads."`
+			`当你带着你的飞船登陆时，你想到这是你第一次为一个没有自愿决定加入自由世界的共和国星系打仗，你不确定接下来该怎么做。幸运的是，很快就有更多自由世界的飞船开始抵达，其中一艘载有阿隆多。托梅克和他在一起。"你好，<first>，"托梅克说。"我打赌你没有想到会再次见到我，嗯？"`
+			`	阿隆多说："<first>，我让你和托梅克去追赶。我应该马上去和州长谈谈。当地人不可能没有注意到就在他们头上的太空中发生的核爆炸。"`
 			choice
-				`	"What? We weren't using nukes, just conventional weapons."`
+				`	"什么？我们没有使用核弹，只有常规武器。"`
 					goto conventional
-				`	"Wait, is that what the Wolf Pack was using?"`
+				`	"等等，那是狼群使用的东西吗？"`
 					goto wolf
 			label conventional
-			`	"Yes," says Tomek, "but the Wolf Pack was using nukes." Seeing the incredulous look on your face, he says, "Well, how did you think they were doing all that damage? You thought they had some massive battle fleet hidden somewhere that no one knows about?"`
+			`	"是的，"托梅克说，"但狼群使用的是核弹。"看到你脸上难以置信的表情，他说："好吧，你怎么认为他们在做所有的破坏？你以为他们有一些大规模的战斗舰队隐藏在某个地方，没有人知道？"`
 				goto next
 			label wolf
-			`	"That's right," says Tomek. He doesn't seem terribly happy about it. "How else would they be doing so much damage to the Navy? It's not like they've got a massive battle fleet stashed away somewhere."`
+			`	"是的，"托梅克说。他似乎对此并不十分高兴。"否则他们怎么会对海军造成这么大的破坏？他们又不是在什么地方藏了一支庞大的战斗舰队。"`
 				goto next
 			label next
-			`	Alondo hurries off to the city hall to try to meet with the governor, and Tomek explains, "All the Wolf Pack has is a handful of very fast ships armed with nukes. They jump into the system, unload the missiles at whatever targets they can find, and then hightail it out of there before the Navy has a chance to respond. This is quite a mess you all have gotten into while I was gone, by the way."`
+			`	阿隆多匆匆赶往市政厅，试图与州长会面，托梅克解释说："狼群所拥有的只是少数装备了核弹的非常快速的船只。他们跳入该系统，在他们能找到的任何目标上卸下导弹，然后在海军有机会作出反应之前迅速离开那里。顺便说一句，我不在的时候，你们都陷入了一个相当混乱的局面。"`
 			choice
-				`	"Weren't you under house arrest?"`
-				`	"So, does the fact that you're here mean the Senate pardoned you?"`
-			`	"Yes," he says. "After that incident with the Alphas on Poisonwood, some folks in the Senate started thinking that I was right to view the pirates as a threat. And when the Navy went on the offensive, they decided I was needed for the war effort. So I've been reinstated. Glad to hear you're on Council now too."`
+				`	"你不是被软禁了吗？"`
+				`	"那么，你在这里的事实是否意味着参议院赦免了你？"`
+			`	"是的，"他说。"在毒林号上发生的那起事件之后，参议院的一些人开始认为，我把海盗视为一种威胁是正确的。而当海军发动攻势时，他们决定需要我为战争服务。所以我被恢复了职务。很高兴听到你现在也在理事会了。"`
 			choice
-				`	"So, what's our next step?"`
+				`	"那么，我们的下一步是什么？"`
 					goto end
-				`	"I'm still really confused about why we're using nukes. Or where we got them from."`
-			`	Tomek frowns. "I'm not too happy about that, myself. The Wolf Pack is buying them from a warlord on Greenrock. And the way they're paying him is with uranium, so every nuke he gives to us means another one or two he can build for himself. Not a good situation, if you ask me, but I guess the Wolf Pack thought it was the only way to turn the tide of the war."`
-			`	"So, what do we do now?" you ask.`
+				`	"我仍然非常困惑，为什么我们要使用核弹。或者我们从哪里得到它们。"`
+			`	托梅克皱起了眉头。"我自己也不太高兴。狼群从绿岩岛的一个军阀那里购买了它们。他们付钱给他的方式是用铀，所以他给我们的每一个核弹都意味着他可以为自己再建造一两个。如果你问我，这不是一个好情况，但我猜狼群认为这是扭转战争局势的唯一方法。"`
+			`	"那么，我们现在做什么？"你问。`
 			label end
-			`	"Well," he says, "if we can take Cebalrai, our entire territory will be behind just two choke points, which will allow us to defend ourselves against the Navy without spreading the fleet too thin. So next, I'd like you to go scout out the Cebalrai system and report on the Navy's position there."`
+			`	"好吧，"他说，"如果我们能拿下塞巴莱，我们的整个领土将只在两个咽喉后面，这将使我们能够在不使舰队过于分散的情况下抵御海军。所以接下来，我希望你去侦察一下塞巴莱系统，并报告海军在那里的位置。"`
 				accept
 	on visit
 		dialog phrase "generic waypoint on visit"
 	
 	on enter "Cebalrai"
 		dialog
-			`There are a few Navy ships here, but nowhere near as many as were in the Kaus Borealis system before your last attack. Perhaps the Navy has decided to pull back their forces.`
+			`这里有几艘海军舰艇，但远不及你们上次进攻前在考斯伯勒里斯星系的数量。也许海军已经决定撤回他们的部队了。`
 	
 	npc
 		personality staying heroic
@@ -225,8 +225,8 @@ mission "FWC Cebalrai 1"
 
 mission "FWC Cebalrai 1B"
 	landing
-	name "Capture Cebalrai"
-	description "Lead an attack on the Cebalrai system and drive out or destroy any Navy ships that you find there."
+	name "占领塞巴莱"
+	description "领导对塞巴莱星系的攻击，赶走或摧毁你在那里发现的任何海军船只。"
 	autosave
 	source "New Iceland"
 	destination "Tundra"
@@ -235,20 +235,20 @@ mission "FWC Cebalrai 1B"
 	to offer
 		has "FWC Cebalrai 1: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		event "fwc attack cebalrai"
 		event "fw tarazed republic"
 		conversation
-			`You meet up with Tomek and Alondo and tell them that the defenses in the Cebalrai system did not seem particularly strong. "They must've seen the writing on the wall and pulled back the rest of their fleet," says Alondo.`
-			`	"Either that," says Tomek, "or they're wary of engaging us again now that they know we're willing to use nukes. Which I'm still not happy about, by the way. It's only a matter of time until they respond in kind. But in any case, our next move is clear: bring a fleet to Cebalrai and capture the system. <first>, you'll be in charge of that fleet. Alondo can travel with you to handle the diplomatic aftermath."`
-			`	"Before we go on," Alondo says, "you two should know that I just received word that Tarazed has decided to officially sever ties with us."`
-			`	Tomek looks rather somber before saying, "Bold move for a system we have completely surrounded. They're none of our concern right now. Let's make our way to Cebalrai."`
+			`你与托梅克和阿隆多会合，告诉他们塞巴莱星系的防御似乎不是特别强大。"阿隆多说："他们一定是看到了墙上的字，并撤回了他们舰队的其余部分。`
+			`	"要么是这样，"托梅克说，"要么就是他们现在知道我们愿意使用核弹，所以对再次与我们交战很警惕。顺便说一句，我仍然不高兴。他们迟早会以牙还牙，只是时间问题。但无论如何，我们的下一步行动是明确的：带一支舰队到塞巴莱并占领该系统。<first>，你将负责该舰队。阿隆多可以和你一起去处理外交上的善后事宜。"`
+			`	"在我们继续之前，"阿隆多说，"你们两个应该知道，我刚刚收到消息，塔拉泽德已经决定正式切断与我们的关系。"`
+			`	托梅克看起来相当阴沉，然后说："对于一个我们已经完全包围的系统来说，这是大胆的举动。他们现在不关我们的事。让我们向塞巴莱进发吧。"`
 				accept
 	
 	on visit
-		dialog `You've landed on <planet>, but there are still Navy ships circling overhead. You should take off and help finish them off.`
+		dialog `你已经降落在<planet>上，但仍有海军舰艇在头顶上盘旋。你应该起飞并帮助解决他们。`
 	on complete
 		event "fwc capture cebalrai"
 	
@@ -309,34 +309,34 @@ mission "FWC Cebalrai 1B"
 
 mission "FWC Nuke Supply 1"
 	landing
-	name "Uranium Convoy"
-	description "Travel to Oblivion to escort a freighter that is delivering uranium to a warlord on Greenrock."
+	name "铀矿护卫队"
+	description "前往Oblivion，护送一艘向绿岩岛军阀运送铀的货船。"
 	autosave
 	source Tundra
 	destination Oblivion
 	to offer
 		has "FWC Cebalrai 1B: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
-			`As you are bringing your ship in for a landing, you hear an odd plinking sound from the hull, similar to the sound of flying through a swarm of micrometeorites. After a few seconds, you realize that it's the sound of your ship being hit by small arms fire from the town below. Your hull is far too strong to be damaged by bullets, but the message is clear: you are not welcome here.`
-			`	The spaceport is apparently deserted, and no one seems eager to come out and greet you. A few bullets continue to plink harmlessly off your hull, from snipers in the nearby buildings. "I think it would be best for me to just contact the governor via radio," says Alondo.`
+			`当你带着你的飞船降落时，你听到船体发出奇怪的噗噗声，类似于飞过一群微陨石的声音。几秒钟后，你意识到这是你的船被下面小镇的小武器击中的声音。你的船体太坚固了，不会被子弹损坏，但信息很清楚：这里不欢迎你。`
+			`	航天港显然是荒废的，似乎没有人急于出来迎接你。有几颗子弹继续从你的船体上无害地飞过，来自附近建筑物中的狙击手。"我想我最好是通过无线电联系总督，"阿隆多说。`
 			choice
-				`	"Don't they know our fleet could easily destroy them if we wanted?"`
+				`	"难道他们不知道如果我们愿意，我们的舰队可以轻易地摧毁他们？"`
 					goto destroy
-				`	"Do you think we have any chance at a peace settlement?"`
+				`	"你认为我们有任何和平解决的机会吗？"`
 					goto peace
 			label destroy
-			`	"That would be an awful precedent," says Alondo, "perhaps worse than the fact we're using nukes. If civilian populations become a legitimate target, any of our worlds could be attacked at any time. And it's not like there's any way to defend a world from orbital bombardment. No one would ever be able to feel safe in their own homes again."`
+			`	"那将是一个可怕的先例，"阿隆多说，"也许比我们使用核弹的事实更糟糕。如果平民人口成为合法的目标，我们的任何一个世界都可能在任何时候被攻击。而且，也没有任何方法可以保卫一个世界免受轨道轰炸。没有人会再在自己的家里感到安全。"`
 				goto next
 			label peace
-			`	"I hope so," says Alondo. "We'll let them keep shooting at us for a while, to vent their anger and let them prove their point. Then once they see the Navy isn't going to rescue them, we'll negotiate. That's really our only alternative. I do not want to be the person who authorizes the first attack on civilian targets since the dawn of the Republic."`
+			`	"我希望如此，"阿隆多说。"我们会让他们继续向我们射击一段时间，以发泄他们的愤怒，让他们证明自己的观点。然后一旦他们看到海军不打算救援他们，我们就进行谈判。这确实是我们唯一的选择。我不想成为授权自共和国成立以来第一次攻击平民目标的人。"`
 				goto next
 			label next
-			`	You wait for about an hour. Meanwhile, more Free Worlds ships continue to enter the system, one of which is carrying Tomek. He radios you and says, "I think we've got things under control here, which means there's a new mission for you. You probably aren't going to like this, but we need you to escort a freighter from Oblivion. Part of our ongoing deal with the Devil: a shipment of uranium headed for Greenrock."`
-			`	A Free Worlds ship lands close enough to your own ship that Alondo can transfer over to it without being in sight of the snipers. "Good luck," he says as he departs. "I hope when you return we will have negotiated some sort of meeting with Parliament."`
+			`	你等待了大约一个小时。与此同时，更多的自由世界飞船继续进入该系统，其中一艘载有托梅克。他用无线电对你说："我想我们已经控制了这里的情况，这意味着有一个新的任务要交给你。你可能不会喜欢这个，但我们需要你护送一艘来自遗忘之地的货船。这是我们与魔鬼正在进行的交易的一部分：一批运往绿岩的铀。"`
+			`	一艘自由世界的飞船降落在离你自己的飞船足够近的地方，阿隆多可以在不被狙击手看到的情况下转到它上面。"祝你好运，"他在离开时说。"我希望当你回来的时候，我们已经与议会进行了某种形式的谈判。"`
 				accept
 
 
@@ -379,8 +379,8 @@ mission "FWC Nuke Supply: Enemies"
 
 mission "FWC Nuke Supply 1B"
 	landing
-	name "Uranium Convoy"
-	description "Escort a freighter that is delivering uranium to a warlord on Greenrock."
+	name "铀矿护卫队"
+	description "护送一艘向绿岩岛军阀运送铀的货船。"
 	autosave
 	source Oblivion
 	destination Greenrock
@@ -388,11 +388,11 @@ mission "FWC Nuke Supply 1B"
 	to offer
 		has "FWC Nuke Supply 1: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
-			`You land on <origin> and meet up with the grim-faced captain of a Container Transport named the Blue Yonder. "The cargo is already loaded up," he says, "and I'm ready to go. The sooner we get this stuff out of my cargo bays and I can get back to shipping food and medicine, the better. I really hope you folks on Council know what you're doing."`
+			`你降落在<origin>上，与一艘名为 "Blue Yonder "的集装箱运输船的面无表情的船长碰头。"货物已经装好了，"他说，"我已经准备好出发了。我们越早把这些东西从我的货舱里拿出来，我就越能回去运送食物和药品。我真的希望你们理事会的人知道自己在做什么。"`
 				accept
 	
 	npc accompany save
@@ -401,25 +401,25 @@ mission "FWC Nuke Supply 1B"
 		ship "Container Transport" "F.S. Blue Yonder"
 	
 	on visit
-		dialog "You have reached <planet>, but the Blue Yonder is not here yet! Better depart and wait for them to arrive in this star system."
+		dialog `你已经到达了<planet>，但 "蓝色远方 "号还没有来！"蓝色远方 "号是什么？最好出发，等待他们到达这个星系。`
 
 
 
 mission "FWC Nuke Supply 1C"
 	landing
-	name "Warhead Convoy"
-	description "Escort a freighter carrying nuclear warheads to Solace."
+	name "弹头运输队"
+	description "护送一艘载有核弹头的货船到索拉斯。"
 	source Greenrock
 	destination Solace
 	to offer
 		has "FWC Nuke Supply 1B: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		log "Delivered a load of enriched uranium to a warlord's fortress on Greenrock, in exchange for warheads for the Free Worlds to use against the Navy. Hopefully forming such a friendly relationship with dangerous criminals will not cause trouble for the Free Worlds in the future."
 		conversation
-			`You land at one of the many private fortresses on Greenrock owned by various competing warlords. Some workers unload the cargo from the Blue Yonder, and load it up with some lead-lined, well-padded crates that must contain nuclear warheads. You're not sure you like being a part of this, but it may be true that this is the only way you will stand a chance against the Navy.`
+			`你降落在绿岩星上众多私人堡垒中的一个，这些堡垒由不同的竞争军阀拥有。一些工人从 "蓝洋 "号上卸下货物，并装上一些衬铅的、垫得很好的箱子，里面一定是核弹头。你不确定自己是否喜欢参与其中，但这可能是真的，这是你对抗海军的唯一途径。`
 				accept
 	on visit
 		dialog phrase "generic arrived-without-npc dialog"
@@ -433,45 +433,45 @@ mission "FWC Nuke Supply 1C"
 
 mission "FWC Diplomacy 1"
 	landing
-	name "Let's Try Diplomacy"
-	description "Return to Tundra to meet up with Alondo and take him on another visit to Parliament. Maybe this time they will be willing to negotiate a truce."
+	name "让我们尝试一下外交手段"
+	description "回到Tundra与Alondo会合，带他再次访问议会。也许这次他们会愿意进行休战谈判。"
 	autosave
 	source Solace
 	destination Tundra
 	to offer
 		has "FWC Nuke Supply 1C: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
-			`A member of the Wolf Pack who identifies himself as "Odie" oversees the unloading of the warheads from your ship. "Excellent," he says. "It will take a while to install these in missiles. But once we do, in recognition of how much you have assisted us, Fifi has authorized us to sell them to you if you want."`
+			`一个自称 "奥迪 "的狼群成员监督你船上弹头的卸货工作。"很好，"他说。"将这些东西安装到导弹上需要一段时间。但一旦我们做到了，为了表彰你对我们的帮助，菲菲已经授权我们把它们卖给你，如果你愿意的话。"`
 			choice
-				`	"Great! I think I'd like a dozen of them."`
+				`	"太好了！"。我想我要一打。"`
 					goto yes
-				`	"Sorry, I'm following orders by bringing this convoy here, but I want no part in the use of nuclear weapons, even for the sake of winning this war."`
+				`	"对不起，我是奉命把这个车队带到这里，但我不想参与使用核武器，即使是为了赢得这场战争。"`
 					goto no
-				`	"Wait, 'Fifi'? Is that your leader?"`
+				`	"等等，'菲菲'？那是你的领导吗？"`
 					goto fifi
 			label yes
-			`	He laughs. "I'm afraid that's not possible. Unlike most missile systems, we haven't yet developed any sort of feed system that would let you fire multiple missiles from the same gun port. So, it's a weapon you can only fire once from a given port. But on the plus side, two of them are enough to bring down the shields on even the largest Navy vessel."`
+			`	他哈哈大笑。"恐怕这是不可能的。与大多数导弹系统不同，我们还没有开发出任何一种可以让你从同一个炮口发射多枚导弹的馈电系统。所以，这是一种你只能从一个特定的端口发射一次的武器。但从好的方面看，两枚导弹足以使最大的海军舰艇的护盾失效。"`
 				goto next
 			label no
-			`	"That's understandable," he says. "And also foolish and shortsighted. But, I can understand why some people want to cling to the belief that war is some sort of noble endeavor rather than a no holds barred struggle for survival."`
+			`	"那是可以理解的，"他说。"也是愚蠢和目光短浅的。但是，我可以理解为什么有些人想坚持这样的信念，即战争是某种崇高的努力，而不是一场不留余地的生存斗争。"`
 				goto next
 			label fifi
-			`	"Yes," he says, "Fifi is the leader of the Wolf Pack. And she is an absolutely ferocious individual. I assure you that you do not want to be responsible for crossing her. Not that you'll ever have to, of course, because we're all on the same side here." He grins.`
+			`	"是的，"他说，"菲菲是狼群的领袖。而且她是一个绝对凶残的人。我向你保证，你不会想对越过她负责。当然，并不是说你必须这样做，因为我们在这里都是站在同一边的。"他咧嘴一笑。`
 				goto next
 			label next
-			`	Soon after he is done unloading the cargo, you receive a message from Alondo: "Good news, <first>! The Republic has agreed to allow us to make a diplomatic visit to Parliament. Hurry back here to <planet> before they change their minds."`
+			`	在他卸完货后不久，你就收到了阿隆多的信息："好消息，<first>!共和国已经同意让我们对议会进行外交访问。在他们改变主意之前，赶快回到<planet>这里。"`
 				accept
 
 
 
 mission "FWC Diplomacy 1B"
 	landing
-	name "Let's Try Diplomacy"
-	description "Travel to Earth with Alondo and meet with Parliament to try to negotiate terms of a truce."
+	name "让我们尝试一下外交手段"
+	description "与阿隆多一起前往地球，与议会会面，试图就休战条款进行谈判。"
 	autosave
 	source Tundra
 	destination Earth
@@ -479,31 +479,31 @@ mission "FWC Diplomacy 1B"
 	to offer
 		has "FWC Diplomacy 1: done"
 	passengers 2
-	blocked "You have reached <origin>, but you don't have a bunk free for Alondo! You should return to <origin> once you have freed one up."
+	blocked "你已经到达<origin>，但你没有空铺给阿隆多!你应该在腾出一个铺位后返回<origin>。"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		event "fw safe passage starts"
 		event "fw safe passage ends" 7
 		conversation
-			`When you meet up with Alondo, he seems excited and optimistic. "The Republic has agreed to one week of safe passage," he says, "just enough time to get us to Earth and back. And what's more, I told them that one of our terms would be a mutual release of all prisoners of war, including Katya, and they agreed."`
+			`当你与阿隆多见面时，他似乎很兴奋，很乐观。"共和国已经同意给我们一个星期的安全通道，"他说，"刚好够我们到地球再回来。更重要的是，我告诉他们，我们的条件之一是相互释放所有战俘，包括卡蒂亚，他们同意了。"`
 			choice
-				`	"That's great news! Let's get going!"`
+				`	"那是个好消息！我们走吧！我们快走吧！"`
 					goto escort
-				`	"Wait, isn't this the third time they've promised to give Katya back to us? I'm starting to think she isn't even alive anymore."`
-			`	"Well, I sincerely hope you're wrong," says Alondo. "I miss her. We might never have gotten into such dire straits if she had been leading us."`
+				`	"等等，这不是他们第三次答应把卡佳还给我们了吗？我开始认为她甚至已经不在人世了。"`
+			`	"好吧，我真诚地希望你是错的，"阿隆多说。"我想念她。如果她一直在领导我们，我们可能永远不会陷入如此可怕的困境。"`
 				goto escort
 			label escort
-			`	As you are returning to your ship, Alondo points out an Argosy parked next to you and says, "By the way, this ship will be escorting us on this mission. Providing a bit of extra defense."`
+			`	当你要返回你的飞船时，阿隆多指着停在你旁边的一艘阿戈西号说："顺便说一句，这艘飞船将在这次任务中为我们护航。提供一点额外的防御。"`
 			choice
-				`	"Um, I don't think an Argosy is strong enough to tip the scales in a battle against the Navy."`
-				`	"Please tell me that thing isn't armed with nukes. Because that would cause a major diplomatic incident."`
+				`	"嗯，我不认为一艘阿戈西号足够强大，可以在与海军的战斗中颠覆天平。"`
+				`	"请告诉我那东西没有装备核弹。因为那会引起一场重大的外交事件。"`
 					goto nukes
-			`	Alondo sighs. "Yes, but the Senate thought if we brought anything bigger, it might look like an attack fleet rather than an escort. And of course, it's not carrying nukes, because if the Navy picked those up on their sensors, they'd blast us out of the sky long before we could land on Earth. Anyway, let's get going and hope for the best."`
+			`	阿隆多叹了口气。"是的，但元老院认为如果我们带来任何更大的东西，它可能看起来像一支攻击舰队而不是护卫队。当然，它也没有携带核弹，因为如果海军在他们的传感器上发现了那些东西，他们会在我们登陆地球之前很久就把我们从天空中轰掉。无论如何，让我们出发吧，希望能有最好的结果。"`
 				accept
 			label nukes
-			`	"No, no, of course not," says Alondo. "If the Navy picked those up on their sensors, they'd blast us out of the sky long before we could land on Earth. Anyway, let's get going and hope for the best."`
+			`	"不，不，当然不是，"阿隆多说。"如果海军在他们的传感器上发现了这些东西，他们会在我们登陆地球之前早就把我们从天空中炸掉了。不管怎样，让我们出发吧，希望能有好的结果。"`
 				accept
 	
 	npc accompany save
@@ -512,46 +512,46 @@ mission "FWC Diplomacy 1B"
 		ship "Argosy" "F.S. Big Brother"
 
 	on visit
-		dialog "You have reached <planet>, but the Big Brother is not here yet! Better depart and wait for them to arrive in this star system."
+		dialog `你已经到达<planet>，但老大哥还没来！"。最好启程，等待他们到达这个星系。`
 
 
 
 mission "FWC Diplomacy 1C"
 	landing
-	name "Return to <planet>"
-	description "The peace negotiations with Parliament failed. Return to <planet> without being destroyed by the Navy."
+	name "返回<planet>。"
+	description "与议会的和平谈判失败了。在不被海军摧毁的情况下返回<planet>。"
 	source Earth
 	destination Tundra
 	to offer
 		has "FWC Diplomacy 1B: done"
 	passengers 2
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		log "Visited Earth with Alondo to try to pressure Parliament into agreeing to a peace deal. The negotiations failed. Only escaped the planet safely because a Free Worlds ship in orbit threatened to bombard the Parliament building."
 		log "Rescued Katya from the Republic's custody. She is not happy about the extreme measures the Free Worlds are taking to win this war."
 		event "fw safe passage ends" 1
 		conversation
-			`When you land on Earth, the Big Brother flies down to the spaceport with you to see that you arrive safely, then takes off immediately. You and Alondo are escorted to the House of Parliament. As you wait to be called in to speak to Parliament, Alondo seems very nervous, pacing back and forth and fiddling with his watch every few minutes.`
-			`	Finally you are invited into the Parliament chambers, and Douglas Xao, the Speaker, says, "Representatives of the Free Worlds, we are prepared to hear your demands."`
-			`	Alondo says, "We're not here to make demands. We're here to work together to negotiate a peace settlement. The Free Worlds are prepared to return all our prisoners of war, to cede control of the Cebalrai and Kaus Borealis systems back to the Republic, and to promise not to expand our territory north into the so-called 'breadbasket' worlds, even if those worlds want to join us. All we ask in return is autonomy, and peace, and a return of the prisoners you have taken, including Katya Reynolds."`
-			`	Xao gestures to the guards, and they escort in a third person to stand beside the two of you. It takes you a moment to realize that it's Katya, looking rather worn-out and bedraggled. She whispers to you, "So, you're using nukes now? Whose damn fool idea was that?"`
+			`当你降落在地球上时，大师兄和你一起飞到太空港，看你安全到达，然后立即起飞。你和阿隆多被护送到议会大厦。在你们等待被传唤到议会发言时，阿隆多似乎非常紧张，每隔几分钟就来回踱步并摆弄他的手表。`
+			`	最后你们被请进了议会厅，议长道格拉斯-肖说："自由世界的代表，我们准备听取你们的要求。"`
+			`	阿隆多说，"我们在这里不是为了提出要求。我们在这里是为了共同商讨一个和平解决方案。自由世界准备归还我们所有的战俘，将Cebalrai和Kaus Borealis系统的控制权交还给共和国，并承诺不将我们的领土向北扩展到所谓的'粮仓'世界，即使这些世界想加入我们。我们所要求的回报是自治和和平，以及归还你们抓走的囚犯，包括卡蒂亚-雷诺兹。"`
+			`	夏奥向卫兵做了个手势，他们护送第三个人站在你们两个人身边。你花了点时间才意识到这是卡蒂亚，看起来相当疲惫和憔悴。她低声对你说："那么，你现在要使用核弹了？这是谁的该死的傻瓜主意？"`
 			choice
-				`	"It was the only way we could resist the Navy."`
-				`	"I didn't find out that's what they were doing until afterwards. I don't like it any more than you do."`
-			`	"Fair enough," she says, "but I hope it doesn't wreck our chances at negotiation."`
-			`	Xao addresses the three of you. "We have heard your demands," he says, "and now, here is our response. Katerina Reynolds, Alondo Gruyere, and <first> <last>, you are hereby charged with treason and insurrection. Your trial will begin immediately."`
+				`	"这是我们能抵抗海军的唯一办法。"`
+				`	"我是事后才发现他们是这么做的。我比你更不喜欢它。"`
+			`	"很公平，"她说，"但我希望这不会破坏我们谈判的机会。"`
+			`	夏奥对你们三个人说。"我们已经听到了你们的要求，"他说，"现在，这里是我们的回应。卡特琳娜-雷诺兹，阿隆多-格鲁耶尔，以及<first><last>，你们在此被指控为叛国和叛乱。你们的审判将立即开始。"`
 			choice
-				`	"What? We were guaranteed safe passage!"`
-				`	"You will regret this! If you arrest us, the Free Worlds will retaliate against you."`
-			`	As you try to protest, Alondo speaks up. He is not shouting, but his voice carries over the murmur of other voices. "We have a ship in orbit. If we do not return--"`
-			`	Xao cuts him off. "Your ship is no threat to us. We have already verified that it carries no nuclear weapons, and this building's shielding and anti-missile systems are quite sufficient to defend against conventional weapons. And there is nothing in its cargo hold but ordinary, non-radioactive metals."`
-			`	Alondo says, "That's right. Tungsten, to be exact. Aerodynamic tungsten rods, each the size of a tree trunk, with a simple guidance system on one end. Our ship is in low earth orbit, traveling at a velocity of roughly eight kilometers per second." As he speaks, the Parliament chamber gradually grows very quiet. "So we will be returning to our ship," says Alondo, "with Miss Reynolds. If the ship in orbit does not hear from me every two minutes, it will jettison its cargo, and there will be nothing left of this building but a crater." He points to the watch he is wearing, and you realize that it must be some sort of communicator.`
-			`	After a brief whispered consultation with a few of the other members of Parliament, Xao says, "You will lose this war, and you will pay dearly for it. Guards, let them return to their ship." You hurry back to your ship and take off immediately, aware that as soon as you are out of range of Earth, the Navy will probably be more than willing to attack you.`
+				`	"什么？我们被保证安全通过！"`
+				`	"你会后悔的!如果你逮捕我们，自由世界将对你进行报复。"`
+			`	当你试图抗议时，阿隆多开口了。他没有大喊大叫，但他的声音传遍了其他声音的杂音。"我们有一艘飞船在轨道上。如果我们不返回--"`
+			`	夏奥打断了他的话。"你的飞船对我们没有威胁。我们已经验证了它没有携带核武器，这座建筑的屏蔽和反导弹系统足以抵御常规武器。而且它的货舱里除了普通的、无放射性的金属，什么都没有。"`
+			`	阿隆多说："这就对了。确切地说，是钨。空气动力学的钨棒，每根都有树干那么大，一端有一个简单的引导系统。我们的飞船在低地球轨道上，以大约每秒8公里的速度行驶。"随着他的讲话，议会厅逐渐变得非常安静。"所以我们将返回我们的飞船，"阿隆多说，"和雷诺兹小姐一起。如果轨道上的飞船每隔两分钟没有我的消息，它就会抛弃它的货物，而这栋大楼除了一个弹坑外将什么也不会留下。"他指了指他戴的手表，你意识到这一定是某种通讯器。`
+			`	在与其他几位议员进行了简短的低声磋商后，夏奥说："你们将输掉这场战争，你们将为此付出沉重的代价。卫兵们，让他们回到自己的船上去。"你赶紧回到你的飞船，并立即起飞，意识到只要你离开地球的范围，海军可能会更愿意攻击你。`
 				launch
 	on visit
-		dialog `You land on <planet>, but you realize that Alondo and Katya are on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但你意识到阿隆多和卡蒂亚在你的一个护卫队上，而这个护卫队还没有进入这个系统。最好离开并等待它的到来。`
 	
 	npc
 		government "Escort"
@@ -598,26 +598,26 @@ mission "FWC Diplomacy 1C"
 
 mission "FWC Checkmate 1"
 	landing
-	name "Defend Cebalrai"
-	description "Destroy the Republic ships that are attacking this system, then land and decide what to do next. Free Worlds reinforcements should be on their way."
+	name "保卫塞巴莱"
+	description "摧毁正在攻击这个系统的共和国战舰，然后登陆并决定下一步该怎么做。自由世界的增援部队应该已经在路上了。"
 	autosave
 	source Tundra
 	to offer
 		has "FWC Diplomacy 1C: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		event "fwc defend cebalrai"
 		conversation
-			`When you land on Tundra, Tomek seems glad to see Katya back, but you sense that he's also a little wary of how she will respond to the choices the Free Worlds have been making. "Using nukes, threatening orbital bombardment," says Katya, "treating the Syndicate as an ally. Anything else I missed while I was gone?"`
+			`当你降落在苔原上时，托梅克似乎很高兴看到卡蒂亚回来，但你感觉到他也有点担心她会如何回应自由世界的选择。"使用核弹，威胁要进行轨道轰炸，"卡佳说，"把辛迪加当作盟友。我不在的时候还有什么遗漏吗？"`
 			choice
-				`	"We only want this war to be over as soon as possible."`
-				`	"We've just been trying to avoid being destroyed by the Navy, and things have gotten a bit out of hand."`
-			`	"I see," she says. "Did you have a plan for what comes next, or are we just winging it now?"`
-			`	Alondo says, "Unfortunately, we do have a plan. Our very last contingency plan. We call it the 'checkmate' option. Our fleet will push north--"`
-			`	He is interrupted by one of Tomek's men running into the room. "Sir, we have a major Navy fleet incoming. We need all ships in the air immediately to repulse them. Reinforcements are on their way, but they may not get here for a while."`
-			`	Tomek says, "So, it begins. Captain <last>, get back to your ship and aid in the defense."`
+				`	"我们只希望这场战争能尽快结束。"`
+				`	"我们只是一直在努力避免被海军摧毁，而事情已经有点失控了。"`
+			`	"我明白了。"她说。"你对接下来的事情有计划吗？"还是说我们现在只是随心所欲？`
+			`	阿隆多说："不幸的是，我们确实有一个计划。我们最后的应急计划。我们称它为'将死'方案。我们的舰队将向北推进--"`
+			`	他被跑进房间的托梅克的一个手下打断了。"先生，我们有一支主要的海军舰队来了。我们需要所有的船只立即升空，击退他们。增援部队正在路上，但他们可能一时半会到不了这里。"`
+			`	托梅克说："那么，它开始了。舰长<last>，回到你的船上，协助防御。"`
 				launch
 	
 	npc
@@ -770,23 +770,23 @@ mission "FWC Checkmate 1"
 				"Osprey (Missile)"
 	
 	on visit
-		dialog `You've landed on <planet>, but there are still Navy ships circling overhead. You should take off and help finish them off.`
+		dialog `你已经降落在<planet>上，但仍有海军舰艇在头顶上盘旋。你应该起飞并帮助解决他们。`
 	on complete
 		log "Defended Tundra against a major Navy counter-offensive. From here, the only recourse available to the Free Worlds seems to be to push deep into Republic territory and capture the Sol system, forcing the Navy to surrender. Nuclear weapons are now for sale on Solace to aid in the final assault."
 		event "fwc defended cebalrai"
 		event "fwc solace has nukes"
 		"salary: Free Worlds" = 17000
 		conversation
-			`Tomek and Alondo meet you when you land. Tomek says, "Good work aiding in the defense. Now we need to move before the Navy has time to regroup. And the Senate has decided that you will be in charge of the fleet that makes our counterattack."`
-			`	Alondo says, "They have also approved a salary increase for you, to seventeen thousand credits per diem. I know that's probably still not enough, but we are running a bit low on cash."`
-			`	"One other thing," says Tomek. "I don't know how you'll feel about this, but I received word from Solace that they have nukes for sale if you want any. I'd advise against it, but it's up to you. Also, since you will be the flagship of our assault, you should make any improvements you feel are necessary to your ship. Then meet us back here, in the spaceport. Of course, if you're ready to go immediately that's fine, too."`
+			`托梅克和阿隆多在你登陆时迎接你。托梅克说："协助防御工作做得很好。现在我们需要在海军有时间重组之前行动。而参议院已经决定，你将负责我们的反击舰队。"`
+			`	阿隆多说："他们还批准给你加薪，每天加到一万七千信用点。我知道这可能还是不够的，但我们的现金有点少。"`
+			`	"还有一件事，"托梅克说。"我不知道你会怎么想，但我收到来自索拉斯的消息，他们有核弹出售，如果你想要的话。我建议不要这样做，但这取决于你。另外，由于你将是我们进攻的旗舰，你应该对你的飞船进行任何你认为必要的改进。然后在这里和我们见面，在太空港。当然，如果你准备好立即出发，那也是可以的。"`
 
 
 
 mission "FWC Checkmate 1: Equipment"
 	landing
-	name "Upgrade Your Ship"
-	description "If you want, travel to <destination> to install nuclear missiles in your ship. You may also want to invest in some other upgrades. Then meet Tomek and the others in the spaceport on Tundra."
+	name "升级你的飞船"
+	description "如果你愿意，请前往<destination>，在你的飞船上安装核导弹。你可能还想投资一些其他的升级项目。然后在Tundra的太空港见到Tomek和其他人。"
 	source Tundra
 	destination Solace
 	to offer
@@ -799,8 +799,8 @@ mission "FWC Checkmate 1: Equipment"
 
 mission "FWC Checkmate 1: Equipment 2"
 	landing
-	name "Upgrade Your Ship"
-	description "Make any further upgrades to your ship that you consider necessary. Then meet Tomek and the others in the spaceport on Tundra."
+	name "升级你的飞船"
+	description "对你的飞船进行任何你认为必要的进一步升级。然后在苔原上的太空港与托梅克和其他人会面。"
 	source Solace
 	destination Tundra
 	to offer
@@ -812,8 +812,8 @@ mission "FWC Checkmate 1: Equipment 2"
 
 
 mission "FWC Checkmate 1B"
-	name "Attack Menkent"
-	description "The Wolf Pack has launched an initial attack on the Menkent system. Follow up with your fleet and finish off the Navy defenses. Katya will ride with you."
+	name "攻击Menkent"
+	description "狼群已经对Menkent系统发起了初步攻击。用你的舰队跟进并完成海军的防御工作。卡蒂亚将和你一起行动。"
 	autosave
 	source Tundra
 	destination "New Austria"
@@ -821,25 +821,25 @@ mission "FWC Checkmate 1B"
 	to offer
 		has "FWC Checkmate 1: done"
 	passengers 1
-	blocked "You have returned to <origin>, but you do not have a bunk free for Katya. You should return here once you have a bunk free."
+	blocked "你已经回到了<origin>，但你没有空出一个铺位给Katya。一旦你有了空铺，你应该回到这里。"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		event "fwc attack menkent"
 		conversation
-			`You meet up with Tomek in the spaceport. He is talking with the captain of one of a group of four Clippers that have landed next to each other some distance away from the rest of the Free Worlds fleet. The Clippers appear to have unusually large engines and afterburners, and in place of guns they are each carrying four missiles. Tomek sees you approaching and says, "And here's Captain <last>. Captain, are you ready to lead the attack?"`
+			`你在太空港与托梅克碰面。他正在和四艘快船中的一艘的船长交谈，这四艘快船在离自由世界其他舰队有一段距离的地方相邻着陆。这些快船似乎有异常大的引擎和后燃器，而且它们各自携带了四枚导弹来代替火炮。托梅克看到你走过来，说："这里是船长<last>。舰长，你准备好领导进攻了吗？"`
 			choice
-				`	"Yes, I'm ready."`
+				`	"是的，我准备好了。"`
 					goto ready
-				`	"Are these the Wolf Pack ships?"`
-			`	"Yes indeed," says Tomek. "I know, you probably have mixed feelings about this, but they really are the quickest way to win this war."`
+				`	"这些是狼群的战舰吗？"`
+			`	"确实是的。"托梅克说。"我知道，你可能对此有不同的感受，但他们确实是赢得这场战争的最快方式。"`
 			label ready
-			`	Tomek tells the Wolf Pack captain, "Okay, we're ready to go. Launch immediately, and Captain <last> will follow behind you. <first>, Katya has asked to travel with you; she wants to get back into the action, and I thought she might have the best chance of anyone at dealing with the folks on the ground on <planet>. Once again, you'll need to drive off any Navy ships before landing there. Good luck."`
+			`	托梅克告诉狼群舰长："好，我们准备好了。立即发射，<last>队长会跟在你后面。<first>，卡蒂亚要求与你同行；她想回到行动中去，我认为她可能是所有人中最有机会与<planet>上的人打交道的人。再说一次，你需要在登陆前赶走任何海军船只。祝你好运。"`
 				accept
 	
 	on visit
-		dialog `You've landed on <planet>, but there are still Navy ships circling overhead. You should take off and help finish them off.`
+		dialog `你已经降落在<planet>上，但仍有海军舰艇在头顶上盘旋。你应该起飞并帮助解决他们。`
 	on complete
 		event "fwc capture menkent"
 
@@ -914,8 +914,8 @@ mission "FWC Checkmate 1B"
 
 mission "FWC Checkmate 1C"
 	landing
-	name "Capture <planet>"
-	description "Bring a fleet to <destination>, driving off any Republic ships in the system."
+	name "夺取<planet>"
+	description "带领一支舰队到<destination>，赶走该系统中的任何共和国船只。"
 	autosave
 	source "New Austria"
 	destination "Silver"
@@ -924,28 +924,28 @@ mission "FWC Checkmate 1C"
 		has "FWC Checkmate 1B: done"
 	passengers 1
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		event "fwc attack vega"
 		conversation
-			`As soon as you land, you and Katya contact Tomek and inform him that the system is yours. "Excellent," he says. "Press on with your fleet and take Vega before they have time to regroup. Another Wolf Pack fleet will meet you there for the final assault on the Sol system."`
+			`登陆后，你和卡蒂亚立即联系托梅克，并告知他该系统是你的。"很好，"他说。"带着你的舰队继续前进，在他们有时间重新集结之前拿下织女星。另一支狼群舰队将在那里与你们会合，对索尔系统进行最后的攻击。"`
 			choice
-				`	"Understood. We will depart immediately."`
+				`	"明白了。我们将立即启程。"`
 					accept
-				`	"Are we really sure we want to attack Earth?"`
-			`	"Have they given us any other choice?" asks Tomek. "We tried diplomacy. And we cannot hope to defeat the entire Navy. So, unless we wish to surrender and all be put on trial as war criminals, we need to press on and gain the upper hand in the only way we can. The Senate and the Council are agreed on this." You have no choice but to follow his orders and to begin getting your fleet ready for the next attack.`
+				`	"我们真的确定要攻击地球吗？"`
+			`	"他们给了我们任何其他选择吗？"托梅克问道。"我们尝试过外交手段。而且我们不能指望打败整个海军。所以，除非我们希望投降，并将所有人作为战犯受审，否则我们需要继续前进，并以唯一的方式取得优势。元老院和议会都同意这一点。"你别无选择，只能听从他的命令，开始为下一次进攻准备你的舰队。`
 			``
-			`[Take good care of this fleet, because it will have to last you for the rest of this campaign: if ships are disabled, board them to "repair" them once the battle is over. And, when jumping into battle, remember that you can hold down the jump key to get all your ships ready to jump simultaneously, so no single ship enters the system first and bears the brunt of the enemy fire.]`
+			`[好好照顾这支舰队，因为它必须在这场战役的剩余时间里为你所用：如果船只被打坏了，一旦战斗结束，就登上去 "修理 "它们。而且，在跳入战斗时，记住你可以按住跳跃键，让你的所有战舰同时准备好跳跃，这样就不会有任何一艘战舰先进入系统，承受敌人的炮火。］`
 				accept
 	
 	on visit
-		dialog `You land on <planet>, but you realize that Katya is on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但你意识到卡蒂亚在你的一个护卫舰上，而这个护卫舰还没有进入该系统。最好离去，等待它的到来。`
 	on complete
 		log "The Free Worlds have captured the Vega system, only one hyperjump away from Earth. Nuclear-armed Wolf Pack ships will be arriving shortly to spearhead the assault, but the Navy fleet defending Earth will be massive. Casualties on both sides are likely to be extremely high."
 		conversation
-			`The Vega system is eerily deserted. You suspect that the Navy must have pulled back all available ships to defend Earth, rather than trying to fight you here. You try not to think about how massive the fleet there must be, and how slim your chances are of destroying it.`
-			`	Katya says, "Well, this is it, the final assault. Meet me in the spaceport when you're ready for the attack on Earth."`
+			`织女星系统冷清得可怕。你怀疑海军一定是撤走了所有可用的舰船去保卫地球，而不是试图在这里与你作战。你试着不去想那里的舰队一定有多大规模，以及你摧毁它的机会有多渺茫。`
+			`	卡蒂亚说，"好吧，这就是了，最后的攻击。当你准备好攻击地球的时候，在太空港见我。"`
 
 
 
@@ -991,51 +991,51 @@ mission "FWC Checkmate Escorts"
 
 
 mission "FWC Pug 1"
-	name "Defend <planet>"
-	description "<planet> is under attack by ships of an unknown type. Drive them off, and then return to the planet to figure out what to do next."
+	name "保卫<planet>"
+	description "<planet>正受到未知类型的飞船的攻击。把他们赶走，然后回到星球上想办法，接下来该怎么做。"
 	source "Silver"
 	to offer
 		has "FWC Checkmate 1C: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		event "fwc pug invasion"
 		conversation
-			`Once you have gathered in the spaceport with the captains in charge of your fleet, Katya contacts Tomek and asks for instructions. He says, "A Wolf Pack fleet should arrive there shortly. They're carrying all the nukes we had left. They will go in first and--"`
-			`	Abruptly, his voice cuts off in a burst of static. "What the hell?" says Katya. She tries to reestablish a connection to Tomek, but is unable to. Confused, she says, "What's going on? Is the Navy destroying the hyperspace communications relays, now? Or jamming them somehow?"`
-			`	One of the communications technicians says, "They must've taken out the relays. I can't get a signal from Earth, or Tundra, or Bourne, or, well, anywhere else, for that matter, except the Altair system, right next to this one."`
+			`一旦你和负责你的舰队的舰长们在太空港集合，卡蒂亚就会联系托梅克并请求指示。他说："一支狼群舰队应该很快到达那里。他们携带着我们剩下的所有核弹。他们将首先进入，然后--"`
+			`	突然间，他的声音在一阵静电中中断了。"这到底是怎么回事？"卡蒂亚说。她试图重新建立与托梅克的联系，但却无法做到。她感到困惑，说："发生了什么事？海军现在是在破坏超空间通信中继站吗？或者以某种方式干扰它们？"`
+			`	一位通信技术人员说："他们一定是破坏了中继站。我无法收到来自地球、Tundra、Bourne或其他任何地方的信号，除了Altair系统，就在这个系统的旁边。"`
 			choice
-				`	"How do the hyperspace relays work? Is there any way around them?"`
+				`	"超空间继电器是如何工作的？有什么办法绕过它们吗？"`
 					goto around
-				`	"Are you sure the signal has been cut, and not just jammed?"`
+				`	"你确定信号已经被切断，而不仅仅是被干扰？"`
 					goto jam
 			
 			label around
-			`	"Only if you want to communicate at the speed of light," says the technician, "and in that case you'd need to wait a few years to get a message out to Tomek. So no, there is not any way around the relays. They're essential to the galactic communications network, which is why even at the worst parts of this war we've never seriously considered destroying them."`
+			`	"只有当你想以光速通信时，"技术员说，"在这种情况下，你需要等上几年才能把信息传给托梅克。所以，不，没有任何办法绕过中继器。它们对银河系的通信网络至关重要，这就是为什么即使在这场战争最糟糕的时候，我们也从未认真考虑过毁掉它们。"`
 				goto attack
 			
 			label jam
-			`	"I don't know of any technology that could jam them," says the technician. "It's possible, but I think the more likely explanation is that they've been destroyed. Which is crazy, because the entire galactic communications network depends on them. Even at the worst parts of this war we've never seriously considered destroying them."`
+			`	"我不知道有什么技术可以干扰它们，"技术员说。"有可能，但我认为更有可能的解释是，它们已经被摧毁了。这很疯狂，因为整个银河系的通信网络都依赖于它们。即使在这场战争中最糟糕的部分，我们也从未认真考虑过摧毁它们。"`
 				goto attack
 			
 			label attack
-			`	Just then, another militia officer runs into the room. "We're under attack!" he says. "We need every ship in our fleet in orbit, right now!"`
+			`	就在这时，另一名民兵军官跑进房间。"我们受到了攻击！"他说。"我们需要我们舰队中的每艘船都在轨道上，现在！"`
 			choice
-				`	"Who is attacking us? The Navy?"`
-				`	"Have the Wolf Pack reinforcements arrived yet?"`
+				`	"谁在攻击我们？海军吗？"`
+				`	"狼群的援军到达了吗？"`
 					goto reinforcements
 			
-			`	"No," he says. "I've never seen ships like these before in my life. The Wolf Pack reinforcements just arrived in orbit, and a second later, these ships appeared and started slicing them to ribbons. If you don't get your fleet up there, there won't be anything left of them."`
+			`	"没有，"他说。"我这辈子都没见过这样的船。狼群的增援部队刚刚抵达轨道，一秒钟后，这些战舰就出现了，开始把他们切成丝。如果你不把你的舰队开到那里，他们就什么都不剩了。"`
 				goto end
 			
 			label reinforcements
-			`	"Yes," he says, "and a second after they arrived, this other fleet of ships appeared, unlike any ships I've ever seen before. They're tearing the Wolf Pack fleet to ribbons. If you don't get up there immediately, none of them will be left alive."`
+			`	"是的，"他说，"在他们到达后的一秒钟，另外这支舰队出现了，与我以前见过的任何船只都不同。他们正在把狼群舰队撕成碎片。如果你不马上上去，他们将没有一个人活着。"`
 			label end
-			`	You hurry to your ship and fire it up for a hasty launch...`
+			`	你急忙跑到你的飞船上，点燃了它，准备匆忙发射......`
 				launch
 	on visit
-		dialog `You've landed on <planet>, but there are still alien ships circling overhead. You should take off and help finish them off.`
+		dialog `你已经在<planet>上降落了，但仍有外星飞船在头顶盘旋。你应该起飞并帮助解决他们。`
 	
 	npc
 		personality waiting heroic
@@ -1113,152 +1113,152 @@ mission "FWC Pug 1"
 
 mission "FWC Pug 1B"
 	landing
-	name "Investigate <system>"
-	description "This area of space has somehow been cut off from the rest of the galaxy. Visit <planet> to see if they, too, have been invaded by the aliens."
+	name "调查<system>系统"
+	description "这片空间不知何故与银河系的其他地方隔绝。访问<planet>，看看他们是否也被外星人入侵了。"
 	source "Silver"
 	destination "Shiver"
 	to offer
 		has "FWC Pug 1: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		log "The moment the nuclear-armed Wolf Pack ships arrived in-system to prepare for the assault on Earth, a fleet of alien ships appeared and attacked them. In addition, the aliens somehow cut off the Vega system from the rest of human space."
 		event "fwc pug peaceful"
 		conversation
-			`The spaceport is in chaos. You eventually find Katya and report that the alien invasion fleet has been destroyed, but at a steep cost. "I'm sure we'll come to regret those losses deeply," she says. "The Wolf Pack nukes were all spent to repel that assault. And based on what we've found out here, we aren't going to be receiving reinforcements any time soon. We've somehow been cut off from the rest of human space."`
+			`太空港处于混乱状态。你最终找到了卡蒂亚，并报告说外星人的入侵舰队已经被摧毁，但代价很惨重。"我相信我们会对这些损失深感遗憾，"她说。"狼群的核弹都是用来击退那次攻击的。而且根据我们在这里发现的情况，我们很快就不会收到援军了。我们已经以某种方式被切断了与人类空间的其他部分的联系。"`
 			choice
-				`	"How is that possible?"`
+				`	"这怎么可能呢？"`
 					goto possible
-				`	"Do we have any idea who these aliens are?"`
+				`	"我们知道这些外星人是谁吗？"`
 					goto aliens
 			
 			label possible
-			`	"I have no idea," she says, "but the aliens must have the ability to collapse hyperspace links. That's why our communications were cut. It wasn't the relays that were destroyed, it was the hyperspace pathways themselves. And meanwhile, some new links have appeared, to here." She points on your map to a star that, until now, had been completely inaccessible via hyperspace. "Deneb. That must be where the aliens came from."`
+			`	"我不知道，"她说，"但这些外星人一定有能力使超空间链接崩溃。这就是我们的通信被切断的原因。被破坏的不是继电器，而是超空间通道本身。而与此同时，一些新的链接出现了，到了这里。"她在你的地图上指着一颗恒星，直到现在，它还完全无法通过超空间进入。"Deneb。那一定是外星人来的地方。"`
 				goto next
 			
 			label aliens
-			`	"We have no idea," she says. "But, they appear to have the ability to destroy hyperspace links. That's why our communications went dead; it wasn't the relays we lost, it was the pathways themselves. And, they are apparently able to create new links as well." She points to a galactic map that she had been examining when you came in; several links have been scribbled out and new ones have been drawn in. "This is the star we call Deneb," she says, pointing to a star that, until now, had been inaccessible via hyperspace. "This must be where they came from."`
+			`	"我们不知道，"她说。"但是，他们似乎有能力破坏超空间链接。这就是为什么我们的通信中断了；我们失去的不是中继，而是路径本身。而且，他们显然也能创造新的链接。"她指着一张银河系地图，当你进来时，她一直在检查；几个链接已经被涂掉了，新的链接已经被画了进去。"这是我们称之为Deneb的恒星，"她说，指着一颗直到现在都无法通过超空间进入的恒星。"这一定是他们来的地方。"`
 				goto next
 			
 			label next
-			`	"What do we do now?" you ask.`
-			`	"Well," she says, "to start out with, we need more information. I'm hoping you can somehow get past the aliens and land on <planet>, and see if they were attacked too and if so, whether anyone is still alive there. I'll stay here with the rest of the Wolf Pack in case we need to repel another attack."`
+			`	"我们现在该怎么办？"你问。`
+			`	"嗯，"她说，"首先，我们需要更多信息。我希望你能以某种方式越过外星人，登陆<planet>，看看他们是否也受到了攻击，如果是的话，那里是否还有人活着。我会和狼群的其他成员留在这里，以防我们需要击退另一次攻击。"`
 				accept
 
 
 
 mission "FWC Pug 2"
 	landing
-	name "Report to Katya"
-	description "You met someone on Shiver who was able to give you more information about the aliens and their intentions. Report back to Katya with what you discovered."
+	name "向卡蒂亚报告"
+	description "你在颤抖号上遇到了一个人，他能够给你更多关于外星人和他们的意图的信息。把你发现的情况向卡佳报告。"
 	source "Shiver"
 	destination "Silver"
 	to offer
 		has "FWC Pug 1B: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		log "Found out that the aliens who attacked the Wolf Pack fleet call themselves the Pug. After destroying that fleet, the aliens have not attacked anyone else except a few merchants who tried to resist them. They came from a nearby star system that did not previously have any hyperspace connections to human space, and seem intent on controlling and perhaps enslaving the local human population."
 		conversation
-			`When you land at the spaceport on <origin>, you find no evidence of violent struggle; merchant captains are walking around freely, haggling for commodities, and conversing with each other just like in any other spaceport you have visited. However, the spaceport is also being patrolled by small groups of slender, bipedal, pale-skinned aliens. Each one is holding a metal staff that looks like some sort of weapon, but none of them move to attack you.`
-			`	Soon after you land, you spot a man making his way towards your ship, ducking behind other ships and crates every time a group of aliens looks in his direction. If he is some sort of fugitive from them, it might be unwise to throw your lot in with him. On the other hand, he could have valuable information for you.`
+			`当你降落在<origin>上的太空港时，你没有发现暴力斗争的证据；商人船长们自由走动，为商品讨价还价，相互交谈，就像你访问过的任何其他太空港一样。然而，太空港也被一小群细长的、两足的、白皮肤的外星人巡逻着。每个人都拿着一根金属杖，看起来像某种武器，但他们都没有移动来攻击你。`
+			`	在你着陆后不久，你发现一个人正向你的飞船走来，每当一群外星人看向他的方向时，他就躲到其他飞船和箱子后面。如果他是他们的某种逃亡者，那么把你和他放在一起可能是不明智的。另一方面，他可能有对你有价值的信息。`
 			choice
-				`	(Stay around and talk to him.)`
+				`	(留在周围和他交谈。)`
 					goto board
-				`	(Take off before I draw the aliens' attention.)`
+				`	(在我引起外星人的注意之前起飞。)`
 			
-			`	You start to get ready to take off, but he gestures urgently to you. Reluctantly, you decide to wait and hear what he has to say.`
+			`	你开始准备起飞，但他向你打了个紧急手势。无奈之下，你决定等待，听听他要说什么。`
 			label board
-			`	You open your ship's hatch and allow him to come on board. "What's going on here?" you ask. "Who are these aliens?"`
-			`	"I'm a planet-dweller," he says, "so the first I heard of it was when these ships unlike anything I'd ever seen before came down out of the sky, and hovered over the spaceport. Then they began transmitting radio messages on all frequencies, saying that this world is now a part of the Pug Protectorate, and that we must refrain from violence and give them a portion of the goods our world produces."`
+			`	你打开你的飞船舱门，让他上船来。"这里发生了什么？"你问。"这些外星人是谁？"`
+			`	"我是一个行星居民，"他说，"所以我第一次听说是当这些与我以前见过的任何东西都不同的飞船从天而降，在太空港上空盘旋。然后他们开始在所有频率上传送无线电信息，说这个世界现在是帕格保护国的一部分，我们必须避免暴力，并把我们世界生产的一部分货物给他们。"`
 			choice
-				`	"Did anyone try to resist them?"`
+				`	"有没有人试图抵抗他们？"`
 					goto resist
-				`	"What do you think their intentions are?"`
+				`	"你认为他们的意图是什么？"`
 					goto intentions
-				`	"Did they explain why they cut you off from the rest of the galaxy?"`
+				`	"他们有没有解释为什么要把你们和银河系的其他地方切断？"`
 					goto cut
 			
 			label resist
-			`	"A few. Their ships aren't invulnerable; a merchant in an Argosy managed to take out one of their smaller ships when it was landed with its shields down, before they blew his ship out of the air in retaliation. And those staffs they're carrying shoot some kind of stun ray, but if you cut them, they bleed, same as any other creature." He pauses, then taps the knife that is holstered at his belt and says, "Except, they bleed blue. Pale milky blue."`
+			`	"有几个。他们的飞船并不是无懈可击的；一个开着阿戈西号的商人在他们的一艘小型飞船降落时成功地干掉了它的护盾，然后他们就把他的飞船炸飞了以示报复。他们携带的那些法杖可以发射某种眩晕射线，但如果你切开它们，它们会流血，和其他生物一样。"他停顿了一下，然后拍了拍藏在他腰带上的刀，说："除了，他们的血是蓝色的。淡淡的乳蓝色。"`
 			choice
-				`	"What do you think their intentions are?"`
+				`	"你认为他们的意图是什么？"`
 					goto intentions2
-				`	"Did they explain why they cut you off from the rest of the galaxy?"`
+				`	"他们有没有解释为什么要把你们和银河系的其他地方切断？"`
 					goto cut2
 			
 			label intentions
-			`	"Well, they want our resources, of course. And, they say they have come to bring a new era of peace and an end to all violence and conflict. I don't buy it, though; they saw that humanity was too divided to resist them, and they seized the opportunity to invade and plunder us. It's that simple."`
+			`	"嗯，他们想要我们的资源，当然。而且，他们说他们是来带来一个和平的新时代，结束所有暴力和冲突。不过我不相信；他们看到人类太过分裂，无法抵抗他们，于是他们抓住机会入侵并掠夺我们。就这么简单。"`
 			choice
-				`	"Did anyone try to resist them?"`
+				`	"有没有人试图抵抗他们？"`
 					goto resist2
-				`	"Did they explain why they cut you off from the rest of the galaxy?"`
+				`	"他们有没有解释为什么要把你们和银河系的其他地方切断？"`
 					goto cut2
 			
 			label cut
-			`	"I'd think that would be obvious. With the hyperspace links cut, there's no way for anyone from outside to assist us. And they struck at a part of human space without much in the way of militias or bounty hunters or Navy protection. And the few half-decent warships that happened to be in system when they attacked have already been destroyed trying to fight them."`
+			`	"我认为这很明显。由于超空间链接被切断，外界的人没有办法协助我们。而且他们袭击了人类空间的一部分，没有什么民兵或赏金猎人或海军保护。而在他们攻击时碰巧在系统中的几艘半成品战舰已经在与他们作战时被摧毁了。"`
 			choice
-				`	"Did anyone try to resist them?"`
+				`	"有没有人试图抵抗他们？"`
 					goto resist2
-				`	"What do you think their intentions are?"`
+				`	"你认为他们的意图是什么？"`
 					goto intentions2
 			
 			label resist2
-			`	"A few. Their ships aren't invulnerable; a merchant in an Argosy managed to take out one of their smaller ships when it was landed with its shields down, before they blew his ship out of the air in retaliation. And those staffs they're carrying shoot some kind of stun ray, but if you cut them, they bleed, same as any other creature." He pauses, then taps the knife that is holstered at his belt and says, "Except, they bleed blue. Pale milky blue."`
+			`	"有几个。他们的飞船并不是无懈可击的；一个开着阿戈西号的商人在他们的一艘小型飞船降落时成功地干掉了它的护盾，然后他们就把他的飞船炸飞了以示报复。他们携带的那些法杖可以发射某种眩晕射线，但如果你切开它们，它们会流血，和其他生物一样。"他停顿了一下，然后拍了拍藏在他腰带上的刀，说："除了，他们的血是蓝色的。淡淡的乳蓝色。"`
 				goto end
 			
 			label intentions2
-			`	"Well, they want our resources, of course. And, they say they have come to bring a new era of peace and an end to all violence and conflict. I don't buy it, though; they saw that humanity was too divided to resist them, and they seized the opportunity to invade and plunder us. It's that simple."`
+			`	"嗯，他们想要我们的资源，当然。而且，他们说他们是来带来一个和平的新时代，结束所有暴力和冲突。不过我不相信；他们看到人类太过分裂，无法抵抗他们，于是他们抓住机会入侵并掠夺我们。就这么简单。"`
 				goto end
 			
 			label cut2
-			`	"I'd think that would be obvious. With the hyperspace links cut, there's no way for anyone from outside to assist us. And they struck at a part of human space without much in the way of militias or bounty hunters or Navy protection. And the few half-decent warships that happened to be in system when they attacked have already been destroyed trying to fight them."`
+			`	"我认为这很明显。由于超空间链接被切断，外界的人没有办法协助我们。而且他们袭击了人类空间的一部分，没有什么民兵或赏金猎人或海军保护。而在他们攻击时碰巧在系统中的几艘半成品战舰已经在与他们作战时被摧毁了。"`
 				goto end
 			
 			label end
-			`	You thank him for the information, and prepare to return to the <system> system to talk with Katya. Perhaps the fact that the aliens are no longer attacking you means you can negotiate some sort of truce.`
+			`	你感谢他提供的信息，并准备返回<system>系统与卡蒂亚交谈。也许外星人不再攻击你的事实意味着你可以通过谈判达成某种停战协议。`
 				accept
 
 
 
 mission "FWC Pug 2B"
 	landing
-	name "Visit the Pug"
-	description "Locate the Pug homeworld, which is presumably in the <system> system, and see if you can negotiate with them."
+	name "访问巴格族"
+	description "找到帕格人的家园，估计是在<system>系统中，看看你是否可以和他们谈判。"
 	source "Silver"
 	destination "Pugglemug"
 	clearance
 	to offer
 		has "FWC Pug 2: done"
 	passengers 1
-	blocked "You need to have a bunk free for Katya to continue with the next mission. Complete or abort whatever mission is using up all your passenger space, then return here to <origin>."
+	blocked "你需要为卡蒂亚腾出一个铺位，以便继续执行下一个任务。完成或中止用尽你所有乘客空间的任务，然后回到<origin>这里。"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
-			`You report to Katya that the alien ships did not attack you on your trip to Shiver and back, and that the locals there seem to have consented to be governed by the aliens in exchange for peace. "We haven't had any further attacks here," she says. "Do you think it's safe to try to visit the alien home world?"`
+			`你向Katya报告，在你去往Shiver的路上，外星飞船并没有攻击你，而且那里的当地人似乎已经同意接受外星人的统治，以换取和平。"我们这里没有再受到任何攻击，"她说。"你认为尝试访问外星人的母体世界安全吗？"`
 			choice
-				`	"I think as long as we don't attack them, they won't attack us."`
+				`	"我认为只要我们不攻击他们，他们就不会攻击我们。"`
 					goto yes
-				`	"No, but I do want to get answers from them, and that may be the only way."`
+				`	"不，但我确实想从他们那里得到答案，这可能是唯一的办法。"`
 					goto no
 			
 			label yes
-			`	"I'm not so sure," she says. "After all, they did attack us once before. And from what I hear from the Wolf Pack captains, the aliens were the ones who fired first. On the other hand, I don't think we have much choice, unless we want to settle down and spend the rest of our lives as alien vassals, cut off from all our friends in the rest of the galaxy."`
+			`	"我不太确定，"她说。"毕竟，他们以前确实袭击过我们一次。而且据我从狼群队长那里听说，是外星人先开火的。另一方面，我不认为我们有什么选择，除非我们想安定下来，作为外星人的附庸度过余生，与银河系其他地方的所有朋友断绝联系。"`
 				goto end
 			
 			label no
-			`	"Agreed," she says. "They may choose to destroy us, but it's not like we have any other options. I don't particularly want to settle down and spend the rest of our lives as alien vassals, cut off from all our friends in the rest of the galaxy."`
+			`	"同意，"她说。"他们可能会选择摧毁我们，但我们又没有其他选择。我并不特别想安定下来，作为外星附庸度过我们的余生，与我们在银河系其他地方的所有朋友隔绝。"`
 				goto end
 			
 			label end
-			`	Katya boards your ship, and you get ready for a diplomatic visit to the alien homeworld.`
+			`	卡蒂亚登上你的飞船，你准备对外星人的家园进行一次外交访问。`
 				accept
 	on visit
-		dialog `You land on <planet>, but realize that your escort carrying Katya hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但意识到你的护卫队载着卡蒂亚还没有进入这个系统。最好离开并等待它的到来。`
 
 
 
@@ -1271,14 +1271,14 @@ mission "FWC Pug 2B: Pugglequat"
 	
 	on offer
 		conversation
-			`This planet is clearly one of the native Pug worlds, and not a human world that has been occupied. The architecture is entirely alien, and you see no human ships or people here, only the aliens. But, it appears to be mostly a world for mining and factories; all the aliens are busy with their work, and none seem to speak your language or have any interest in talking with you; instead they gesture towards the sky, perhaps as a way of indicating that you should visit the other Pug planet in this system.`
+			`这个星球显然是土生土长的帕格族世界之一，而不是一个被占领的人类世界。建筑完全是外来的，你在这里没有看到人类的船只或人，只有外星人。但是，它似乎主要是一个采矿和工厂的世界；所有的外星人都在忙于他们的工作，似乎没有人说你的语言，也没有兴趣与你交谈；相反，他们朝天空打手势，也许是为了表示你应该访问这个系统中的另一个帕格星球。`
 				decline
 
 
 
 mission "FWC Pug 2C"
-	name "Visit <planet>"
-	description "Visit <destination>, which was part of Free Worlds territory before the alien invasion, and see if any military equipment is still available there."
+	name "访问<planet>"
+	description "访问<destination>，在外星人入侵之前，它是自由世界领土的一部分，看看那里是否还有任何军事装备。"
 	landing
 	source Pugglemug
 	destination Oblivion
@@ -1286,95 +1286,95 @@ mission "FWC Pug 2C"
 		has "FWC Pug 2B: done"
 	passengers 1
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		log `Visited the homeworld of the Pug, the aliens who have taken over this region of space. They claim that when the Free Worlds fleet was threatening to invade Earth, they had no choice but to interfere to prevent humanity from destroying itself. They say that their plan is to slowly bring more and more human worlds under their "protection," but what they are talking about sounds more like slavery.`
-		log "Factions" "Pug" `The Pug are aliens with barrel-shaped bodies, spindly legs, and milky blue blood. They claim to have intervened in the human civil war purely for the sake of preventing more bloodshed and helping humans to live together in peace.`
+		log "Factions" "Pug" `帕格族是拥有桶状身体、骨瘦如柴的腿和乳蓝色血液的外星人。他们声称介入人类内战，纯粹是为了防止更多的流血事件，帮助人类和平共处。`
 		conversation
-			`This is an entirely alien world. The buildings have strangely flowing, tapered shapes not unlike the Pug starships, and from orbit you count dozens of large cities covering a large portion of the land mass. If this were a human world, you would estimate its population at over a billion. You follow one of the Pug ships that is landing, and discover a large spaceport where a surprising number of human merchant ships are parked, in addition to the aliens.`
-			`	Elsewhere they have mostly ignored you, but here your ship is quickly approached by a small group of the pale-skinned, delicate aliens. The Pug are oddly proportioned, with long arms and legs but short, barrel-shaped torsos and large heads, and although they only have two legs, their gait is vaguely insectoid. "You are the ones who resisted us," one of them says. "You are not pledged to the Protectorate. Do you wish to make your vow of loyalty and peacefulness at this time?"`
+			`这是一个完全陌生的世界。建筑物有着奇怪的流动、锥形的形状，与帕格星舰并不一样，从轨道上看，你可以数出几十个大型城市，覆盖了大部分的陆地。如果这是一个人类世界，你会估计其人口超过10亿。你跟随一艘正在登陆的帕格飞船，发现了一个大型的太空港，除了外星人之外，还有数量惊人的人类商船停在那里。`
+			`	在其他地方，他们大多对你视而不见，但在这里，你的飞船很快就被一小群皮肤苍白、身材娇小的外星人接近了。帕格人的比例很奇怪，手脚很长，但躯干很短，呈桶状，头很大，虽然他们只有两条腿，但他们的步态却隐约像昆虫一样。"你们是抵抗我们的人，"其中一个人说。"你们没有对保护国进行宣誓。你想在这个时候立下忠诚与和平的誓言吗？"`
 			choice
-				`	"No, we are here to find out why you attacked us, and to demand that you leave us alone."`
-				`	"We are willing to make peace, but only if you give us back control of our star systems."`
-			`	"We have no wish to harm you," says the alien. "In time you will come to recognize that. We intervened in your war only to bring peace and to keep your species from doing great harm to itself. And we must maintain control of these systems until we are certain that you will not continue fighting if the links are restored."`
+				`	"不，我们是来了解你们为什么要攻击我们，并要求你们放过我们。"`
+				`	"我们愿意讲和，但前提是你要把我们的恒星系统的控制权还给我们。"`
+			`	"我们不希望伤害你们，"外星人说。"随着时间的推移，你们会认识到这一点。我们干预你们的战争只是为了带来和平，不让你们的物种对自己造成巨大伤害。而且我们必须保持对这些系统的控制，直到我们确信，如果恢复链接，你们就不会继续战斗。"`
 			choice
-				`	"If you wish us no harm, why did you slaughter our fleet?"`
-				`	"You have no business invading our space and interfering in our affairs, regardless of your intentions."`
+				`	"如果你们不希望我们受到伤害，为什么要屠杀我们的舰队？"`
+				`	"你们没有资格入侵我们的空间，干涉我们的事务，不管你们的意图是什么。"`
 					goto interfere
 		
-			`	"The fleet that was carrying nuclear weapons, weapons of genocide? They chose violence, and so they perished by violence. That is justice."`
-			`	Katya says, "I still don't understand what makes you think you have the right to interfere in human affairs."`
+			`	"携带核武器、种族灭绝武器的舰队？他们选择了暴力，所以他们以暴力灭亡。这就是正义。"`
+			`	卡蒂亚说："我还是不明白，是什么让你认为你有权利干涉人类事务。"`
 		
 			label interfere
-			`	"'Interfere'?" says the alien. "We have 'interfered' many times before, and always you have benefited. If you do not believe us, ask those who live in the place you call the Deep. We helped them defeat the twisted half-human beings that you created in your foolish attempts to improve your race's genetic code. We have helped keep those creatures in check in the centuries since then. And we have helped in many other ways."`
+			`	"'干涉'？"外星人说。"我们以前已经'干涉'过很多次了，每次都是你们受益。如果你不相信我们，可以问问那些住在你称之为深渊的地方的人。我们帮助他们打败了扭曲的半人生物，那是你们在改进你们种族的遗传密码的愚蠢尝试中创造出来的。在那之后的几个世纪里，我们帮助控制了那些生物。我们还在许多其他方面提供了帮助。"`
 			choice
-				`	"What do you want from us in return?"`
-				`	"What are you planning to do with these systems you have occupied?"`
-			`	"We have brought peace to this region," says the alien, "and we will continue to spread peace until violence has come to an end throughout human space. That is our only desire. All that we ask in return is a portion of the goods your worlds produce, to help offset the cost of watching over and protecting so many human worlds. And after some time, we will again allow human beings autonomous control of certain parts of your territory, when you show yourselves capable of living peacefully."`
-			`	"By 'spreading peace,' do you mean occupying more systems?" asks Katya.`
-			`	"We mean bringing an end to your war and your divisions," the alien says. "Those of your worlds and your people who have shown themselves unable to live peacefully, we must govern, to teach them peace. Any who attack us, we must destroy, because we are the bringers of peace, and whoever attacks us is not on the side of peace. Now, are you prepared to pledge your loyalty?"`
+				`	"你想从我们这里得到什么回报？"`
+				`	"你们打算对你们所占领的这些系统做什么？"`
+			`	"我们已经给这个地区带来了和平，"外星人说，"我们将继续传播和平，直到暴力在整个人类空间结束。那是我们唯一的愿望。我们所要求的回报是你们世界生产的一部分货物，以帮助抵消监视和保护这么多人类世界的成本。一段时间后，我们将再次允许人类自主控制你们领土的某些部分，当你们显示自己有能力和平地生活时。"`
+			`	"你说的'传播和平'，是指占领更多的系统吗？"卡蒂亚问道。`
+			`	"我们的意思是结束你们的战争和分裂，"外星人说。"你们的世界和你们的人民中那些已经显示出他们不能和平生活的人，我们必须治理，教他们和平。任何攻击我们的人，我们必须摧毁，因为我们是和平的使者，而攻击我们的人并不在和平的一边。现在，你准备好保证你的忠诚了吗？"`
 			choice
-				`	"I'm sorry, but you have no right to govern us."`
+				`	"我很抱歉，但你没有权利管理我们。"`
 					goto no
-				`	"Very well, we pledge our loyalty."`
+				`	"很好，我们保证我们的忠诚。"`
 					goto yes
 			
 			label no
-			`	"Very well, if you are not yet ready to consent to be governed by us, we will give you more time," says the alien. "In the meantime, please do not attack our ships, or we will be forced to destroy you. Which we would regret deeply." It makes an odd gesture similar to a bow, and walks off.`
+			`	"很好，如果你们还没有准备好同意接受我们的管理，我们会给你们更多的时间，"外星人说。"与此同时，请不要攻击我们的飞船，否则我们将被迫摧毁你们。这一点我们会深感遗憾。"它做了一个类似于鞠躬的奇怪手势，然后走了。`
 				goto end
 			
 			label yes
-			`	"I am pleased to hear that," it says. "In time you will come to be thankful that you were present at the beginning of this new era of peace and prosperity for your species. And do not fear for your friends in other parts of human space who are, for a time, cut off from you. You will be reunited soon, under our protection." It makes an odd gesture similar to a bow, and walks off.`
+			`	"我很高兴听到这些，"它说。"随着时间的推移，你会感谢你在这个和平与繁荣的新时代开始时出现在你们的物种中。而且不要为你们在人类空间其他地方的朋友担心，他们暂时与你们隔绝。你们很快就会在我们的保护下团聚。"它做了一个类似于鞠躬的奇怪手势，然后走了。`
 				goto end
 			
 			label end
-			`	"I don't like this at all," says Katya. "Let's head to <planet> and see if any of our equipment is left there from back when it was part of the front in the war against the Republic. Maybe we can find something useful there."`
+			`	"我一点也不喜欢这样，"卡蒂亚说。"让我们前往<planet>，看看是否有我们的设备留在那里，那时它是反共和国战争的前线之一。也许我们能在那里找到有用的东西。"`
 				accept
 	on visit
-		dialog `You land on <planet>, but realize that your escort carrying Katya hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但意识到你的护卫队载着卡蒂亚还没有进入这个系统。最好离开并等待它的到来。`
 
 
 
 mission "FWC Pug 2D"
 	landing
-	name "Escape Pug Space"
-	description "Disable one of the Pug ships, steal its jump drive, and use it to escape from their territory and report to the Free Worlds that an alien invasion is imminent."
+	name "逃离哈巴狗空间"
+	description "停用一艘巴格飞船，偷取它的跳跃驱动器，并利用它逃离他们的领地，向自由世界报告说外星人入侵迫在眉睫。"
 	source "Oblivion"
 	destination "New Iceland"
-	clearance "The locals are terrified by the fact that you have decided to fight the Pug, but eventually they agree to let you land."
+	clearance "当地人被你决定与帕格人作战的事实吓坏了，但最终他们同意让你登陆。"
 		planet Oblivion
 	to offer
 		has "FWC Pug 2C: done"
 	passengers 1
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		event "fwc navy retakes cebalrai"
 		conversation
-			`Just like Shiver, the spaceport on Oblivion is being patrolled by the Pug, and the locals seem to be resigned to their fate. Not surprisingly, you find that there are not many supplies left from when the main Free Worlds fleet was located here for a few days. But, at least the spaceport has a working repair shop and outfitter.`
-			`	While you are exploring the spaceport, a group of men in one of the local pubs see you walking past and gesture to you. "Hey, get in here," whispers one of them. They recognize you as a Council member, and tell you that they are leaders of a local resistance movement, biding their time and waiting for the right moment to strike back against the Pug. "Do you have a plan?" they ask.`
+			`就像 "颤抖 "一样，遗忘岛的太空港也被哈巴狗巡逻，当地人似乎对他们的命运心有余悸。不足为奇的是，你发现自由世界的主要舰队在这里停留了几天后，没有留下多少物资。但是，至少这个太空港有一个可以使用的修理厂和装备店。`
+			`	当你在探索太空港的时候，当地一家酒馆里的一群人看到你走过去，向你打手势。"嘿，进来吧。"其中一个低声说。他们认出你是议会成员，并告诉你，他们是当地抵抗运动的领导人，正在等待时机，对帕格人进行反击。"你有计划吗？"他们问。`
 			choice
-				`	"Sorry, not yet."`
-				`	"We'll let you know when it's time."`
-			`	They seem disappointed that you aren't here to liberate them immediately, but you tell them to wait and not do anything foolish, for now, and they tell you how to contact them when you are ready. Back inside your ship, you and Katya talk. "It sounds like the aliens are planning to invade more systems," she says. "We need to get a warning out somehow. And the only way to do that is with a jump drive. We'll need to disable one of the alien ships, take out its jump drive, and install it on your ship. Then we can take your ship to <planet> and contact the Senate and the rest of the Council."`
+				`	"对不起，还没有。"`
+				`	"我们会让你知道，当它的时间。"`
+			`	他们似乎对你没有立即来解放他们感到失望，但你告诉他们要等待，暂时不要做任何愚蠢的事情，他们也告诉你准备好后如何联系他们。回到你的飞船内，你和卡蒂亚交谈。"听起来外星人正计划入侵更多系统，"她说。"我们需要以某种方式向外发出警告。而唯一的办法就是使用跳跃驱动器。我们需要禁用其中一艘外星飞船，取出它的跳跃驱动器，并把它安装在你的船上。然后我们可以把你的飞船开到<planet>，并与参议院和理事会的其他成员联系。"`
 			choice
-				`	"Sounds risky, but let's give it a try!"`
+				`	"听起来很冒险，但让我们试一试！"`
 					accept
-				`	"Um, do we really want to risk getting the aliens mad at us?"`
+				`	"嗯，我们真的想冒着让外星人对我们生气的风险吗？"`
 			
-			`	"I don't think we have any other choice," she says. "Our friends out there need to know what is happening here. And maybe this, at last, will give the Navy a reason to stop fighting us and to begin working together for peace." Reluctantly, you agree.`
+			`	"我不认为我们有任何其他选择，"她说。"我们在外面的朋友需要知道这里发生了什么。而且，也许这最后会给海军一个理由，让他们停止与我们作战，开始为和平而合作。"不情愿地，你同意了。`
 				accept
 	on visit
-		dialog `You land on <planet>, but realize that your escort carrying Katya hasn't entered the system yet. Better depart and wait for it to arrive. (If your escorts don't have jump drives, try parking them so that Katya will be on your flagship.)`
+		dialog `你在<planet>上降落，但意识到你的护卫队载着卡蒂亚还没有进入该系统。最好离开并等待它的到来。(如果你的护卫队没有跳跃驱动器，试着把它们停在那里，这样卡蒂亚就会在你的旗舰上了）。`
 
 
 
 mission "FWC Pug 3"
 	landing
-	name "Talk to the Navy"
-	description "Freya is on <planet>, presumably in Navy custody. Travel there and see if, given the current circumstances, the Navy is willing to talk with you."
+	name "与海军交谈"
+	description "芙蕾雅在<planet>上，估计是被海军拘留了。前往那里，看看在目前的情况下，海军是否愿意与你交谈。"
 	source "New Iceland"
 	destination "New Austria"
 	clearance
@@ -1382,61 +1382,61 @@ mission "FWC Pug 3"
 		has "FWC Pug 2D: done"
 	passengers 1
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		log "Escaped from the territory captured by the Pug by using a jump drive. Found out that Freya has been captured by the Navy while she was trying to figure out the reason for the hyperspace links disappearing. The Navy thinks that the Free Worlds are behind the hyperspace disruptions. But, making peace with the Navy may be the only way to defeat the Pug."
 		event "fwc peace with the navy"
 		set "event: fw armistice"
 		conversation
-			`Your ship creates quite a stir when it enters the system via jump drive, and the moment you've landed Alondo is waiting outside your hatch to speak with you. "What the heck is going on?" he says. "What happened to your fleet? And how in the world did you get access to a jump drive? We asked the Quarg to sell us one, but they gave us some vague response about 'not meddling in the affairs of other species.'"`
-			`	Katya says, "We were attacked by aliens. They cut the hyperspace links. And they're likely to invade more systems. We need to warn everyone. Including the Republic and the Navy." She explains more of the situation to him, and hands him a copy of your sensor scans of the alien ships.`
-			`	Alondo says, "What do you think we should do next?"`
+			`你的飞船通过跳跃驱动器进入该系统时引起了不小的轰动，在你降落的那一刻，阿隆多就在你的舱门外等着和你说话。"这到底是怎么回事？"他说。"你的舰队发生了什么？你到底是怎么得到跳跃驱动器的？我们要求夸格人卖给我们一个，但他们给了我们一些关于'不干涉其他物种事务'的含糊答复。"`
+			`	卡蒂亚说，"我们被外星人袭击了。他们切断了超空间链接。而且他们可能会入侵更多的系统。我们需要警告所有人。包括共和国和海军。"她向他解释了更多的情况，并递给他一份你对外星人飞船的传感器扫描的副本。`
+			`	阿隆多说："你认为我们接下来应该怎么做？"`
 			choice
-				`	"We should negotiate a ceasefire with the Navy."`
+				`	"我们应该与海军谈判达成停火。"`
 					goto navy
-				`	"We should find a way to restore those hyperspace links."`
+				`	"我们应该想办法恢复那些超空间链接。"`
 					goto links
 			
 			label navy
-			`	Alondo says, "If they believe your story about an alien invasion, that might work. After all, if humanity is threatened by aliens, surely that takes precedence over fighting us. Only trouble is, most of the Republic seems to think that when those systems disappeared, it was some new weapon the Free Worlds had discovered. They're blaming us for it. They just captured Cebalrai and Menkent back from us, and captured Freya in the process."`
-			`	"Freya?" asks Katya. "How did they manage to capture her?"`
-			`	"She was on <planet>," he says, "setting up something she called a 'graviton detector' to analyze the collapsed hyperspace link. When the Navy arrived, we told her to get out of there, but she had just had a breakthrough in her research, and all she said was, 'To hell with your war, this is more important.'" If she's still there, she may be our best hope for figuring this out.`
+			`	阿隆多说，"如果他们相信你关于外星人入侵的故事，这可能会奏效。毕竟，如果人类受到了外星人的威胁，那肯定比与我们作战更重要。唯一的问题是，共和国的大多数人似乎认为，当这些系统消失时，是自由世界发现的一些新武器。他们为此责备我们。他们刚刚从我们手中夺回了塞巴莱和门肯特，并在此过程中俘获了弗莱亚。"`
+			`	"芙蕾雅？"卡蒂亚问道。"他们是怎么抓到她的？"`
+			`	"她当时在<planet>上，"他说，"设置了一个她称之为'引力子探测器'的东西来分析崩溃的超空间链接。当海军到达时，我们让她离开那里，但她的研究刚刚有了突破性进展，她只说了一句话："让你们的战争见鬼去吧，这更重要"。如果她还在那里，她可能是我们弄清此事的最大希望。`
 				goto next
 			
 			label links
-			`	Alondo says, "That's what Freya was working on. As soon as your fleet disappeared, she began investigating, and she went to <planet> to set up something she called a 'graviton detector' pointed towards Vega. Right before that system was taken, she sent us a message that she had found some sort of residual trace of the link, maybe a way to reopen it."`
-			`	"Wait," says Katya, "what do you mean, 'right before the system was taken'? By whom?"`
-			`	"The Navy," says Alondo. "They think the Free Worlds is behind the disappearance of those systems. And with your fleet gone, we didn't have enough ships left to resist them. Freya could have evacuated, but she stayed behind to finish her research. I believe her exact words were, 'To hell with your war, this is more important.'" If she's still there, she may be our best hope for figuring this out.`
+			`	阿隆多说："这就是芙蕾雅正在研究的东西。你们的舰队一消失，她就开始调查，她去了<planet>，建立了一个她称之为'引力子探测器'的东西，指向织女星。就在那个系统被占领之前，她给我们发了一条信息，说她发现了某种链接的残留痕迹，也许是重新打开链接的方法。"`
+			`	"等等，"卡蒂亚说，"你说'就在该系统被占领之前'是什么意思？被谁？"`
+			`	"海军，"阿隆多说。"他们认为自由世界是那些系统消失的幕后黑手。而随着你的舰队的消失，我们没有足够的船只来抵御他们。芙蕾雅本来可以撤离的，但她留下来完成她的研究。我相信她的原话是："让你们的战争见鬼去吧，这个更重要。"如果她还在那里，她可能是我们弄清此事的最大希望。`
 				goto next
 			
 			label next
 			choice
-				`	"Do you think the Navy is letting her continue her research?"`
+				`	"你认为海军会让她继续研究吗？"`
 					goto research
-				`	"Can you contact the Navy and ask them for a ceasefire?"`
+				`	"你能联系海军，要求他们停火吗？"`
 					goto ceasefire
 			
 			label research
-			`	"Or maybe interrogating her," says Alondo, "in which case they've at least discovered that we're as confused as they are about the hyperspace links being cut. I think whatever we do next, we'll need Freya, and we'll need the Navy. I'll contact them and ask them not to fire on your ship. But I can't guarantee they'll let you leave once you're in their control."`
+			`	"或者是审讯她，"阿隆多说，"在这种情况下，他们至少发现我们和他们一样对超空间链接被切断感到困惑。我想无论我们接下来做什么，我们都会需要弗莱亚，我们也会需要海军。我会联系他们，要求他们不要向你的飞船开火。但我不能保证一旦你被他们控制，他们会让你离开。"`
 				goto end
 			
 			label ceasefire
-			`	"I'll contact the Navy and tell them you're coming to negotiate, and to please not fire on your ship. That's the best I can do," says Alondo.`
+			`	"我会联系海军，告诉他们你要来谈判，并请他们不要向你的船开火。这是我能做的最好的了，"阿隆多说。`
 				goto end
 			
 			label end
-			`	You and Katya return to your ship and prepare to make a visit to <planet>. Hopefully Freya will still be there, and the Navy will let you talk to her.`
+			`	你和卡蒂亚回到你的船上，准备对<planet>进行访问。希望芙蕾雅还在那里，海军会让你和她说话。`
 				accept
 
 	on visit
-		dialog `You land on <planet>, but realize that your escort carrying Katya hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但意识到你的护卫队载着卡蒂亚还没有进入这个系统。最好离开并等待它的到来。`
 
 
 mission "FWC Pug 3A"
 	landing
-	name "Bring Freya to <planet>"
-	description "Freya thinks that if she can locate the equipment the Pug used to disrupt the hyperspace links, she may be able to restore them. Take her to <planet>, while Katya stays behind in the Navy's custody."
+	name "将芙蕾雅带到<planet>。"
+	description "芙蕾雅认为，如果她能找到帕格人用来破坏超空间链接的设备，她也许能恢复它们。带她去<planet>，而卡蒂亚则留在海军的监护下。"
 	source "New Austria"
 	destination "Oblivion"
 	clearance
@@ -1444,91 +1444,91 @@ mission "FWC Pug 3A"
 		has "FWC Pug 3: done"
 	passengers 1
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		log "Convinced the Navy that the disappearing hyperspace links really are an alien attack and not some sort of Free Worlds super-weapon. Freya thinks that she might be able to undo the hyperspace disruption and allow the Navy to enter the captured territory and begin to drive the Pug back."
 		conversation
 			branch know
 				has "FW Alphas 1.1: done"
-			`Surprisingly, the Navy lets you land without firing on you; the fact that you entered the system via jump drive probably made a big impression on them. But when your ship lands, it is immediately surrounded by Navy troops. Hesitantly, you and Katya disembark. You are greeted by a Navy admiral who you recognize as William Danforth, the leader of the Navy Oathkeepers. Even among the Free Worlds Danforth is spoken of with respect due to his courage and levelheadedness in battle and his leadership of countless humanitarian missions.`
+			`令人惊讶的是，海军让你降落而没有向你开火；你通过跳跃驱动器进入该系统的事实可能给他们留下了深刻的印象。但当你的飞船着陆后，立即被海军部队包围。犹豫了一下，你和卡蒂亚下了船。迎接你们的是一位海军上将，你认出他是威廉-丹佛斯，海军守誓人的领袖。即使在自由世界中，丹佛斯也被人尊敬，因为他在战斗中的勇气和冷静以及他对无数人道主义任务的领导。`
 				goto introductions
 			label know
-			`Surprisingly, the Navy lets you land without firing on you; the fact that you entered the system via jump drive probably made a big impression on them. But when your ship lands, it is immediately surrounded by Navy troops. Hesitantly, you and Katya disembark. You are greeted by Admiral Danforth, the leader of the Oathkeepers who previously assisted you to drive the Alphas and their mercenary fleet away from Poisonwood.`
+			`令人惊讶的是，海军让你降落而不向你开火；你通过跳跃驱动器进入该系统的事实可能给他们留下了深刻的印象。但当你的飞船着陆后，立即被海军部队包围。迟疑了一下，你和卡蒂亚下了船。迎接你们的是丹佛斯上将，他是守誓人的领袖，之前曾协助你们将字母军团和他们的雇佣军舰队赶出毒木镇。`
 				goto introductions
 			label introductions
-			`	Standing next to Danforth is someone you think might be his bodyguard: a dark-skinned woman dressed entirely in black. Even the whites of her eyes are black: when she gets closer, you can see that it is actually a scleric tattoo, an intricate Celtic knotwork pattern inked into the whites of her eyes. Surprisingly, Katya recognizes her. "Raven!" says Katya. You aren't sure if Katya sounds happy to see her, or scared.`
-			`	"Hello Councilor," says the woman.`
-			`	Danforth says, "We hear you have come from the disconnected territory, and that you bring word of a potential alien invasion. Come with us, please." He ushers you into one of the Navy Cruisers that are parked nearby, and into a room you assume is his private office; the guards check you and Katya for weapons and then leave you alone with Danforth and Raven. "Now," says Danforth, "you will answer our questions."`
-			`	He gestures to Raven, who walks up to you and holds out her hands. "Take my hands, please, Captain," she says.`
+			`	站在丹佛斯旁边的是一个你认为可能是他的保镖的人：一个完全身着黑衣的黑皮肤女人。甚至她的眼白也是黑色的：当她走近时，你可以看到那实际上是一个硬体纹身，一个复杂的凯尔特人的结绳图案被涂在她的眼白上。令人惊讶的是，卡蒂亚认出了她。"乌鸦！"卡提亚说。你不确定卡蒂亚看到她听起来是高兴，还是害怕。`
+			`	"你好，理事长。"那女人说。`
+			`	丹佛斯说，"我们听说你来自断绝联系的地区，你带来了潜在的外星人入侵的消息。请跟我们走一趟。"他把你领到停在附近的一艘海军巡洋舰上，并进入一个你认为是他的私人办公室的房间；警卫检查了你和卡蒂亚的武器，然后让你和丹佛斯及拉文单独相处。"现在，"丹佛斯说，"你要回答我们的问题。"`
+			`	他向拉文做了个手势，拉文走到你面前，伸出了她的双手。"请握住我的手，船长，"她说。`
 			choice
-				`	(Take her hands.)`
+				`	(握住她的手。)`
 					goto hands
-				`	"Um, why? What are you going to do to me?"`
-			`	"She's a Questioner, <first>," says Katya, quietly. "One of the ones who interrogated me when I was their prisoner. Just take her hands, and tell her nothing but the truth."`
+				`	"嗯，为什么？你要对我做什么？"`
+			`	"她是个提问者，<first>，"卡提亚平静地说。"当我是他们的囚犯时，是审讯我的人之一。握住她的手，只告诉她真相。"`
 			label hands
-			`	Reluctantly, you take her hands, and she begins asking you questions about the aliens. You answer as truthfully as you can. Holding hands with a total stranger while she stares unblinkingly into your eyes and questions you is an uncomfortably invasive and intimate experience, heightened by your suspicion that if you tell a lie, she will somehow know. By the time she is done questioning you, you are soaked in sweat and your hands are shaking. Raven turns to Danforth and says, "They're telling the truth."`
-			`	You and Katya both breathe a sigh of relief, and Danforth says, "Very well. Let's take them to see Miss Winters."`
-			`	He leads you back out of his ship and to a warehouse where people in overalls and lab coats are busy working on one of the strangest machines you have ever seen. Freya is one of them. "Katya!" she says. "<first>! Glad you could join us."`
+			`	不情愿地，你握住她的手，她开始问你关于外星人的问题。你尽可能如实回答。与一个完全陌生的人牵手，而她一眨不眨地盯着你的眼睛问你问题，这是一种令人不舒服的侵犯性和亲密的经历，你怀疑如果你说了谎，她会以某种方式知道。当她问完你的时候，你已经汗流浃背，手在发抖。拉文转向丹佛斯，说："他们说的是实话。"`
+			`	你和卡蒂亚都松了一口气，丹佛斯说："很好。我们带他们去见温特斯小姐吧。"`
+			`	他领着你回到他的船上，来到一个仓库，那里穿着工作服和白大褂的人正忙着处理你所见过的最奇怪的机器之一。芙蕾雅是其中之一。"卡蒂亚！"她说。"<first>!很高兴你能加入我们。"`
 			choice
-				`	"Are you working for the Navy now?"`
-				`	"We heard you might have a way to reopen the hyperspace links."`
+				`	"你现在为海军工作吗？"`
+				`	"我们听说你可能有办法重新打开超空间链接。"`
 					goto reopen
 			
-			`	"Well," she says, "technically I'm a prisoner. But they're helping me with my research."`
-			`	Katya asks, "Have you figured out how to restore the hyperspace links?"`
+			`	"嗯，"她说，"严格来说，我是个囚犯。但他们在帮助我做研究。"`
+			`	卡蒂亚问道："你想出了如何恢复超空间链接的方法吗？"`
 			
 			label reopen
-			`	"No," says Freya, "but I at least discovered it might be possible. The links aren't severed completely, you see. There's some sort of distortion signal, actively interfering with them. If we can eliminate the interference, the links might come back. But the interference is coming from the other end."`
-			`	Danforth says, "Captain <last>, we will release Miss Winters to travel with you, provided that Councilor Reynolds remains here in her place. If you succeed in restoring a hyperspace link to the disconnected systems, we will release both of them. Is that an acceptable deal?"`
+			`	"没有，"芙蕾雅说，"但我至少发现这可能是可行的。链接并没有完全被切断，你看。有某种扭曲的信号，积极地干扰着它们。如果我们能消除干扰，链接可能会回来。但干扰来自于另一端。"`
+			`	丹佛斯说："船长<last>，我们将释放温特斯小姐与你一起旅行，前提是雷诺兹理事长留在这里代替她。如果你成功地恢复了与断开的系统的超空间链接，我们将释放他们两个人。这是一个可以接受的交易吗？"`
 			choice
-				`	"Okay, we will agree to that."`
+				`	"好的，我们会同意的。"`
 					goto end
-				`	"What if Freya can't restore the link?"`
+				`	"如果弗雷亚不能恢复链接呢？"`
 			
-			`	"Then Councilor Reynolds will remain here as our prisoner," he says.`
-			`	"Go, <first>," says Katya. "It's our best chance."`
+			`	"那么雷诺兹议员将作为我们的囚犯留在这里，"他说。`
+			`	"走，<first>，"卡蒂亚说。"这是我们最好的机会。"`
 			label end
-			`	You return to your ship with Freya, who is carrying a large collection of sensors and equipment. "Let's try <planet> first," she says, "and see if there's any alien technology there that we can use. I hope you still have some ships left in your battle fleet to help defend us."`
+			`	你和弗雷亚一起回到你的飞船，她带着一大堆传感器和设备。"我们先试试<planet>，"她说，"看看那里是否有我们可以使用的外星技术。我希望你的战斗舰队中还留有一些飞船，以帮助保卫我们。"`
 				accept
 	on visit
-		dialog `You land on <planet>, but realize that your escort carrying Freya hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但意识到你的护卫队载着Freya还没有进入该系统。最好出发并等待它的到来。`
 
 
 
 mission "FWC Pug 3B"
 	landing
-	name "Defend <planet>"
-	description "Freya found a piece of alien technology that she believes can be used to restore the hyperspace link. Hold off the Pug for long enough for her to figure out how it works."
+	name "保卫<planet>"
+	description `芙蕾雅发现了一项外星技术，她认为可以用来恢复超空间链接。拖住 "帕格 "号足够长的时间，让她弄清楚它的工作原理。`
 	source Oblivion
 	destination Oblivion
 	clearance
 	to offer
 		has "FWC Pug 3A: done"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		event "fwc defend oblivion"
 		conversation
-			`Flying low over <planet> and hoping the Pug are not tracking you, you contact the resistance group you met earlier. Meanwhile, Freya says, "I've got an energy signal. Looks like the graviton pulses that are disrupting the hyperspace link." She gives you the coordinates, and you forward them to the resistance group. With some help from your ship's weapons, they are able to eliminate the Pug guards that are nearby.`
-			`	You land your ship, meet up with the resistance fighters, and approach the facility cautiously. "That was way too easy," says Freya. "Maybe they just didn't expect anyone to fight back against them?" The building looks vaguely like a radio transmitter, and as you get closer to it the ground seems to roll and pitch beneath your feet like the deck of a boat. "Graviton waves," says Freya. "This is it, all right. Captain, do you think you can hold off the Pug for long enough for me to figure out how this thing works?"`
+			`在<planet>上空低空飞行，希望哈巴狗没有跟踪你，你与之前遇到的抵抗组织联系。同时，弗雷亚说，"我得到了一个能量信号。看起来像是扰乱超空间链接的引力子脉冲。"她给了你坐标，你把它们转发给抵抗组织。在你船上的武器的帮助下，他们能够消灭附近的巴格人守卫。`
+			`	你降落你的飞船，与抵抗组织的战士会合，并小心翼翼地接近设施。"这太容易了，"弗雷亚说。"也许他们只是没有想到有人会反击他们？"这座建筑看起来依稀像一个无线电发射器，当你靠近它时，地面似乎在你的脚下滚动和倾斜，就像一艘船的甲板。"引力波，"弗雷亚说。"就是它，好的。舰长，你认为你能拖住帕格人足够长的时间，让我弄清楚这东西的工作原理吗？"`
 			choice
-				`	"I'll do my best."`
+				`	"我会尽我所能。"`
 					goto end
-				`	"You aren't afraid that their ground troops will attack you?"`
+				`	"你不怕他们的地面部队会攻击你？"`
 		
-			`	"We can handle them," says one of the men. "As far as we know the only weapon they have is those stun sticks. Hardly a match for real bullets. Their ships are a much bigger threat."`
+			`	"我们可以对付他们，"其中一个人说。"据我们所知，他们唯一的武器是那些电击棒。几乎无法与真正的子弹相比。他们的飞船是一个更大的威胁。"`
 			label end
 			branch alone
 				has "FWC Checkmate Escorts: done"
-			`	The resistance fighters tell you their own fleet will be launching shortly. You return to your ship and fire up the engines. Hopefully the ships that are left over from your attack fleet will be enough to hold off the Pug until Freya finishes her work down here...`
+			`	抵抗军战士告诉你，他们自己的舰队很快就会发射。你回到你的船上，启动了引擎。希望你的攻击舰队剩下的战舰足以抵挡住帕格人，直到弗莱亚完成她在这里的工作......`
 				launch
 			label alone
-			`	The resistance fighters tell you their own fleet will be launching shortly. You return to your ship and fire up the engines, wishing that you had managed to keep some of the ships from your attack fleet alive, and hoping you will be able to hold off the Pug until Freya finishes her work down here...`
+			`	抵抗军战士告诉你他们自己的舰队很快就会发射。你回到你的飞船上，启动了引擎，希望你能设法让你的攻击舰队中的一些飞船活着，并希望你能拖住帕格，直到弗莱亚完成她在这里的工作...。`
 				launch
 	on visit
-		dialog `You've landed on <planet>, but there are still Pug ships circling overhead. You should take off and help finish them off.`
+		dialog `你已经在<planet>上着陆了，但仍有哈巴狗飞船在头顶盘旋。你应该起飞并帮助解决他们。`
 	
 	npc
 		government "Free Worlds"
@@ -1557,50 +1557,50 @@ mission "FWC Pug 3B"
 			variant
 				"Pug Enfolta"
 				"Pug Zibruka" 2
-		dialog `You receive a message from Freya: "Captain, we need you back down here. I think I discovered a way to restore the link, but we're going to have to go back to New Austria to do it, and quickly before the Pug have time to send more ships to this system. And, I hope you have space in your cargo bay for a bunch of equipment."`
+		dialog `你收到了Freya的信息："船长，我们需要你回到这里。我想我发现了一个恢复链接的方法，但我们必须回到新奥地利去做，而且要在帕格人有时间派更多飞船到这个系统之前迅速完成。还有，我希望你的货舱里有空间，可以放一堆设备。"`
 
 
 
 mission "FWC Pug 3C"
 	landing
-	name "Return to <planet>"
-	description `Return to <planet> with Freya, carrying a "graviton reflector" that Freya thinks can be used to restore the hyperspace link.`
+	name "返回<planet>。"
+	description `与弗雷亚一起返回<planet>，携带一个 "引力子反射器"，弗雷亚认为可以用来恢复超空间链接。`
 	source Oblivion
 	destination Tundra
 	on enter Cebalrai
 		dialog
-			"As soon as you reenter human space, you contact the Navy and tell them to send an attack fleet to the Cebalrai system. Then, just for good measure, you contact the Free Worlds and ask them to do the same."
+			"一旦你重新进入人类空间，你就联系海军，告诉他们派一支攻击舰队去塞巴莱系统。然后，为了稳妥起见，你联系自由世界，要求他们也这样做。"
 	to offer
 		has "FWC Pug 3B: done"
 	passengers 1
 	cargo "graviton reflector" 10
-	blocked `As you are landing, Freya contacts you and says, "You're going to need ten tons of cargo space for this next mission, and a bunk for me, as well." That means you have to free up <capacity>.`
+	blocked `在你登陆的时候，芙蕾雅联系你说："你需要10吨的货物空间来完成下一个任务，也需要给我一个铺位。"这意味着你必须腾出<capacity>。`
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
-			`You land near the alien facility, and Freya meets you outside, with a large piece of alien machinery loaded onto a flatbed truck. "I hope you have room for this in your cargo hold," she says. You notice that the ground no longer seems to be rocking irregularly like before, but you still feel slightly dizzy, like the horizon will not quite stay level.`
+			`你在外星设施附近降落，芙蕾雅在外面迎接你，她把一大块外星机械装在一辆平板卡车上。"我希望你的货舱里有空间放这个，"她说。你注意到，地面似乎不再像以前那样不规则地摇晃，但你仍然感到轻微的眩晕，好像地平线不会完全保持水平。`
 			choice
-				`	"What did you figure out?"`
-				`	"Is the link restored yet?"`
+				`	"你搞清楚了什么？"`
+				`	"链接恢复了吗？"`
 			
-			`	She says, "I couldn't figure out exactly how this technology works, but it's some sort of graviton transmitter. I was able to switch it from sending a chaotic signal, to a coherent one. In theory, that will slowly strengthen the link. But it could take years for it to reopen, and we probably only have a few days before the Pug learn what happened here and overrun this system. So, we need to go back to <planet>, the other end of the link, and set up this thing. I think it's some sort of graviton reflector." She points to the alien equipment on the truck. "With it in place, we can set up a harmonic resonance between this star system and <system>, and in theory the link will regenerate much more quickly."`
+			`	她说："我无法弄清楚这项技术的具体运作方式，但它是某种引力子发射器。我能够把它从发送混乱的信号切换到一个连贯的信号。从理论上讲，这将慢慢加强联系。但是它可能需要几年时间才能重新开放，而且在帕格人了解到这里发生的事情并占领这个系统之前，我们可能只有几天时间。所以，我们需要回到<planet>，链接的另一端，并建立这个东西。我想这是某种引力子反射器。"她指着卡车上的外星设备。"有了它，我们可以在这个恒星系统和<system>之间建立一个谐波共振，理论上来说，链接会更快地再生。"`
 			choice
-				`	"Okay, let's give it a try!"`
+				`	"好吧，让我们试一试！"`
 					accept
-				`	"Do you actually have any idea what you're doing?"`
-			`	"None whatsoever," she says. "I'm just making this up as I go along, based on what I know of hyperspace physics. And for all I know the Pug ships carry the same hyperspace disruption capabilities as this facility, and this is all for naught. But let's give it a try, okay?"`
+				`	"你真的知道你在做什么吗？"`
+			`	"什么都不知道，"她说。"我只是根据我对超空间物理学的了解，边做边说的。而且我所知道的是，帕格人的飞船也有和这个设施一样的超空间破坏能力，而这一切都是徒劳的。但我们还是要试一试，好吗？"`
 				accept
 	on visit
-		dialog `You land on <planet>, but realize that your escort carrying Freya and the graviton reflector hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但意识到你的护卫队载着弗雷亚和引力子反射器还没有进入该系统。最好离开并等待它的到来。`
 
 
 
 mission "FWC Pug 3D"
 	landing
-	name "Liberate <system>"
-	description "Travel to the <system> system with a combined fleet of Navy and Free Worlds ships, drive off the Pug, and occupy the system so that the Pug cannot return and sever the hyperspace link again."
+	name "解放<system>系统"
+	description "带着海军和自由世界的联合舰队前往<system>系统，赶走帕格，并占领该系统，使帕格无法返回并再次切断超空间链接。"
 	source Tundra
 	destination Oblivion
 	clearance
@@ -1608,18 +1608,18 @@ mission "FWC Pug 3D"
 		has "FWC Pug 3C: done"
 	passengers 1
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		log "Succeeded in restoring the hyperspace link to the Rasalhague system. With the Navy's help, it might now be possible to turn the tide against the Pug."
 		event "fwc battle for rasalhague"
 		conversation
-			`Although <origin> is now back under Navy control, they gladly allow your ship to land. You help Freya to set up the alien equipment and power it on. Once again you begin to feel dizzy, and the feeling slowly builds in intensity as Freya adjusts the controls. "It's working," she says. "I've got a positive feedback loop. See if you can contact Oblivion."`
-			`	You try to establish a communications link to the resistance fighters, and brief snatches of conversation come through, interspersed with static. After a few minutes the static begins to die down, and you can hear their voices more clearly. "It's working!" says Freya.`
-			`	Meanwhile, Navy and Free Worlds ships have begun pouring into the system. You suspect that the battle ahead will be a fierce one, but with a Navy war fleet on your side, it no longer feels like a hopeless cause. "The link should be strong enough for us to travel through it soon," says Freya. "Time to get back to <system>."`
+			`虽然<origin>现在又回到了海军的控制之下，但他们很乐意让你的飞船降落。你帮助弗莱亚安装好外星设备并接通电源。你又一次开始感到头晕，当芙蕾雅调整控制装置时，这种感觉慢慢增强了。"它正在工作，"她说。"我已经有了一个正反馈回路。看看你是否能联系到湮灭号。"`
+			`	你试图与抵抗军战士建立通信联系，简短的对话片段传来，其中夹杂着静电。几分钟后，静电开始消失，你可以更清楚地听到他们的声音。"它起作用了！"弗雷亚说。`
+			`	与此同时，海军和自由世界的船只已经开始涌入该系统。你怀疑未来的战斗将是一场激烈的战斗，但有一支海军战争舰队在你身边，它不再感觉是一个无望的事业。"链接应该足够强大，我们很快就能通过它。"弗雷亚说。"是时候回到<system>了。"`
 				accept
 	on visit
-		dialog `You've landed on <planet>, but there are still Pug ships circling overhead. You should take off and help finish them off.`
+		dialog `你已经在<planet>上着陆了，但仍有哈巴狗飞船在头顶盘旋。你应该起飞并帮助解决他们。`
 	
 	npc evade
 		personality disables heroic staying
@@ -1711,8 +1711,8 @@ mission "FWC Pug 3D: Reinforcements"
 
 mission "FWC Pug 4"
 	landing
-	name "Defend <system>"
-	description "Drive off the Pug fleet that is invading <system>."
+	name "保卫<system>"
+	description "赶走入侵<system>的帕格舰队。"
 	source Oblivion
 	destination Oblivion
 	clearance
@@ -1720,15 +1720,15 @@ mission "FWC Pug 4"
 		has "FWC Pug 3D: done"
 	passengers 1
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
-			`Your fleet lands on <planet>, and to your surprise the locals say that soon before your fleet arrived, all the Pug who were present on the planet departed; clearly they expected your arrival and had no desire to become your prisoners. You only have a few hours to take stock of the situation before the Navy informs you that they have detected another Pug fleet incoming...`
+			`你的舰队降落在<planet>上，令你惊讶的是，当地人说，在你的舰队到达前不久，所有在这个星球上的巴格人都离开了；显然，他们预料到了你的到来，并不想成为你的囚犯。在海军通知你他们发现另一支巴格族舰队来袭之前，你只有几个小时的时间来评估局势......`
 				launch
 	
 	on visit
-		dialog `You've landed on <planet>, but there are still Pug ships circling overhead. You should take off and help finish them off.`
+		dialog `你已经在<planet>上着陆了，但仍有哈巴狗飞船在头顶盘旋。你应该起飞并帮助解决他们。`
 	on complete
 		event "fwc liberation of rasalhague"
 	
@@ -1795,8 +1795,8 @@ mission "FWC Pug 4"
 
 mission "FWC Pug 4A"
 	landing
-	name "Equipment from <planet>"
-	description "Travel with Freya to pick up the alien equipment that you installed on <planet> and bring it to Arabia to reopen another of the hyperspace links."
+	name "来自<planet>的装备"
+	description "和Freya一起去拿你在<planet>上安装的外星设备，并把它带到阿拉伯，重新打开另一条超空间链接。"
 	autosave
 	source Oblivion
 	destination Tundra
@@ -1804,92 +1804,92 @@ mission "FWC Pug 4A"
 		has "FWC Pug 4: done"
 	passengers 1
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		log "Drove off another Pug attack. Fighting side by side together is beginning to build some camaraderie between the Free Worlds and the Navy, even though they were enemies so recently."
 		conversation
-			`When you land on <origin>, the Navy and Free Worlds crews are congratulating each other on having succeeded in resisting the alien attack. Freya says, "I guess nothing creates camaraderie faster than fighting side by side against a common enemy."`
+			`当你降落在<origin>时，海军和自由世界的船员们正在为成功抵御外星人的攻击而互相祝贺。芙蕾雅说："我想没有什么能比并肩作战对抗共同的敌人更快地创造友情了。"`
 			choice
-				`	"Yes, I hope our people don't get too comfortable viewing the Navy as allies."`
+				`	"是的，我希望我们的人不要太舒服，把海军看成盟友。"`
 					goto negative
-				`	"I don't think we could have won that battle without the Navy's help. Perhaps we were wrong to think we had no need for the Republic at all."`
+				`	"我认为没有海军的帮助，我们不可能赢得那场战斗。也许我们认为我们根本不需要共和国的帮助是错误的。"`
 					goto positive
 			
 			label negative
-			`	"Indeed," she says. "Still, it will be hard going back to fighting them once all this is over."`
+			`	"的确，"她说。"不过，一旦这一切都结束了，再去和他们战斗会很难。"`
 				goto plan
 			
 			label positive
-			`	"You might be right," she says. "I wonder if instead of aiming for complete independence from the Republic, all along we should have tried for something closer to what the Syndicate has: relative autonomy, but within the framework of the Republic."`
+			`	"你可能是对的，"她说。"我在想，我们是不是不应该以完全独立于共和国为目标，而应该一直努力争取更接近辛迪加的东西：相对自治，但在共和国的框架内。"`
 				goto plan
 			
 			label plan
-			`	You meet up with Danforth, and he says, "Well, we have a beachhead now, but it's a fragile one. Miss Winters, do you think you can open up more of the hyperspace links?"`
-			`	Freya says, "Sure, if we retrieve the equipment from Tundra. But, the transmitter station wasn't exactly portable, so if we want to open up other systems not linked to this one, we'll have to find transmitters already installed there, too."`
-			`	Danforth says, "Let's start by trying to reestablish the connection from here to the Ascella system. If that works, I'll send part of my fleet to take Zeta Aquilae and see if they can secure another transmitter station. That would give us two routes into Pug space instead of the single bottleneck we have now. Captain <last>, would you be willing to travel back with Freya to <planet>?"`
+			`	你和丹佛斯碰面，他说："好吧，我们现在有一个滩头堡，但它是一个脆弱的滩头堡。温特斯小姐，你认为你能打开更多的超空间链接吗？"`
+			`	芙蕾雅说："当然，如果我们从Tundra找回设备。但是，发射站并不完全是便携式的，所以如果我们想打开与这个系统没有联系的其他系统，我们也必须找到已经安装在那里的发射器。"`
+			`	丹佛斯说："让我们先尝试重新建立从这里到阿斯克拉系统的连接。如果成功了，我将派一部分舰队去攻占Zeta Aquilae，看看他们是否能确保另一个发射站。这将使我们有两条路线进入帕格空间，而不是现在的单一瓶颈。舰长<last>，你愿意和弗雷亚一起回到<planet>吗？"`
 			choice
-				`	"Sure, we can leave immediately."`
+				`	"当然，我们可以立即离开。"`
 					accept
-				`	"What if the Pug attack here in the meantime?"`
+				`	"如果帕格人在此期间攻击这里怎么办？"`
 					goto defend
-				`	"Shouldn't we just attack the Pug homeworld while we have such a big fleet here?"`
+				`	"我们不应该趁着这里有这么大的舰队，直接攻击帕格人的母星吗？"`
 					goto attack
 			
 			label defend
-			`	"Don't worry," he says, "Navy reinforcements are arriving constantly. Soon our fleet here will be twice as strong as the one we committed to yesterday's attack." Reluctantly, you agree to trust the defenses to him while you bring Freya back into Free space to help open more of the hyperlinks.`
+			`	"别担心，"他说，"海军的增援部队正在不断抵达。很快我们在这里的舰队就会比我们投入到昨天的攻击中的舰队强大一倍。"不情愿地，你同意把防御工作托付给他，同时你把弗雷亚带回自由空间，帮助打开更多的超链接。`
 				accept
 			label attack
-			`	"'Such a big fleet'?" he says. "This is not even a twentieth of the Navy's current fighting power. And I think we'll need many more ships before we're ready to take on the alien homeworld. But don't worry, reinforcements are arriving here constantly. You go do your part, and we'll see to ours."`
+			`	"'这么大的舰队'？"他说。"这甚至不是海军目前战斗力的二十分之一。而且我认为，在我们准备好对付外星人的家园之前，我们还需要更多的船只。但别担心，增援部队会不断抵达这里。你去做你的事，我们会注意我们的事。"`
 				accept
 	on visit
-		dialog `You land on <planet>, but you realize that Freya is on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你在<planet>上降落，但你意识到芙蕾雅在你的一个护卫队上，该护卫队还没有进入该系统。最好出发并等待它的到来。`
 
 
 
 mission "FWC Pug 4B"
 	landing
-	name "Equipment to <planet>"
-	description "Travel with Freya to <planet> to set up the alien equipment and see if you can reopen another one of the disrupted hyperspace links."
+	name "前往<planet>的装备"
+	description "与Freya一起前往<planet>，安装外星设备，并看看是否能重新打开另一条被破坏的超空间链接。"
 	source Tundra
 	destination Arabia
 	to offer
 		has "FWC Pug 4A: done"
 	cargo "graviton reflector" 10
 	passengers 1
-	blocked `When you land on <origin>, Freya says, "Captain, it looks like you're going to need <capacity> to continue with this mission." You should free up more space, then return here.`
+	blocked `当你降落在<origin>时，Freya说："船长，看来你需要<capacity>来继续完成这个任务。"你应该腾出更多空间，然后返回这里。`
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
-			`You land on <origin> and quickly begin packing up the alien equipment that you left here earlier. Quite a few of the locals are watching you from a distance, but they seem friendly despite the fact that their world was so recently occupied by the Free Worlds against their will. Clearly your success in opening a path for the Navy to enter the disconnected region of space has become known.`
-			`	As you are setting up the alien equipment, Freya says, "Doesn't this all seem a little too... neat, to you? I mean, that the aliens close off the hyperlinks but then for some reason leave behind the exact equipment that we need to gradually reopen them? And that the requisite technology is so simple, a transmitter and a reflector? It all fits together way too well."`
+			`你降落在<origin>上，迅速开始收拾你之前留在这里的外星设备。不少当地人在远处看着你，但他们看起来很友好，尽管他们的世界最近被自由世界的人违背他们的意愿占领。显然，你成功地为海军打开了一条进入空间断开区域的道路，这一点已经被人所知。`
+			`	当你在安装外星设备时，芙蕾雅说："对你来说，这一切是不是看起来有点太......整齐了？我的意思是，外星人关闭了超链接，但由于某种原因，又留下了我们需要的确切设备，以逐渐重新打开它们？而且所需的技术是如此简单，一个发射器和一个反射器？这一切都配合得太好。"`
 			choice
-				`	"Are you suggesting that the aliens intended for us to do exactly what we're doing?"`
-				`	"It does all seem odd, that we could have any success at all fighting a species that is apparently so sophisticated."`
-			`	She nods. "I have the uncomfortable feeling that we're caught up in a game we don't understand," she says. "And before we make the next move, we should get more information."`
-			`	"From whom?" you ask.`
-			`	"The Quarg," she says. "We're just a few jumps away from their space, and they claim to know what's going on throughout the galaxy. And when this crisis started and we asked them for a jump drive, they said they didn't want to meddle in the affairs of other species, which means maybe they knew another species was involved here."`
+				`	"你是说，外星人打算让我们做我们正在做的事情？"`
+				`	"这看起来确实很奇怪，我们能在与一个显然如此复杂的物种的战斗中取得任何成功。"`
+			`	她点点头。"我有一种不舒服的感觉，我们陷入了一个我们不了解的游戏中，"她说。"在我们做出下一步行动之前，我们应该获得更多的信息。"`
+			`	"从谁那里？"你问。`
+			`	"夸父，"她说。"我们离他们的空间只有几步之遥，他们声称知道整个银河系发生了什么。而当这场危机开始时，我们向他们要一个跳跃驱动器，他们说他们不想干涉其他物种的事务，这意味着也许他们知道另一个物种在这里被卷入。"`
 			choice
-				`	"Our mission is urgent. We should just continue to Arabia."`
-				`	"Okay, let's take a detour to talk with the Quarg."`
+				`	"我们的任务很紧急。我们应该继续前往阿拉伯。"`
+				`	"好吧，我们绕道去和夸格人谈谈。"`
 					goto detour
 			
-			`	"Well," she says, "you're the captain, I'll leave that choice up to you."`
+			`	"好吧，"她说，"你是舰长，我把这个选择权留给你。"`
 				accept
 			label detour
-			`	"Thanks," she says, "Let's just hope that we can get some real answers."`
+			`	"谢谢，"她说，"让我们希望我们能得到一些真正的答案。"`
 				accept
 	on visit
-		dialog `You land on <planet>, but you realize that Freya and the graviton reflector are on one of your escorts that hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你在<planet>上着陆，但你意识到弗雷亚和引力子反射器在你的一个护卫队上，而这个护卫队还没有进入这个系统。最好离开并等待它的到来。`
 
 
 
 mission "FWC Pug 4B: Quarg"
 	landing
-	name "Visit the Quarg"
-	description "If you want, visit the Quarg to see what they can tell you about the Pug, before you continue fighting them."
+	name "访问夸格星"
+	description "如果你想的话，在你继续与他们战斗之前，拜访一下夸格人，看看他们能告诉你关于帕格人的什么。"
 	source Tundra
 	destination Lagrange
 	to offer
@@ -1900,51 +1900,51 @@ mission "FWC Pug 4B: Quarg"
 	on complete
 		log "Learned from the Quarg that they have long been aware of the presence of the Pug in the Deneb system. Apparently the Pug are from another galaxy and possess such advanced technology that even the Quarg do not dare to interfere with them."
 		log "However, the Pug are known to treat warfare like a game, intentionally using weaker technology when fighting less advanced species in order to give them a fair chance at winning the battle. So, fighting them will not be a lost cause, but the Quarg are unwilling to provide any assistance."
-		log "Factions" "Pug" `The Quarg claim that the Pug treat warfare like a game. When battling another species, the Pug will limit themselves to ships and weapons that are weak enough that the other species has a chance of defeating them.`
+		log "Factions" "Pug" `夸格人声称，巴格人把战争当作一种游戏。在与其他物种作战时，帕格人会限制自己使用足够弱的船只和武器，以便其他物种有机会击败他们。`
 		conversation
-			`You land on the Quarg station, but neither of you knows what to do next. How do you locate a Quarg diplomat? Do they even have such a thing? As you and Freya stand in the hangar looking somewhat lost, one of the Quarg approaches you and says, "These ones have questions?"`
-			`	Freya says, "We've been attacked by aliens who call themselves the Pug. We're wondering what you know about them."`
-			`	Quarg skin is normally entirely gray, as is their clothing, but several patches of skin on the Quarg's face turn red at the word "Pug." You've heard theories that this is a sign of emotion in the Quarg, but no one knows what emotion precisely. Anger? Embarrassment? The Quarg you are speaking with simply says, "Come," and leads you to a nook in one of the main hallways, where another Quarg stands behind a desk. You are struck by how little you know about this species: are you speaking to a tour guide, or to a diplomat? Is this the governor of the station, or just an expert in human languages? The Quarg behind the desk says, "Do you have questions for me?"`
+			`你们登陆了夸父站，但你们都不知道接下来该怎么做。你怎样才能找到夸父的外交官？他们甚至有这样的东西吗？当你和芙蕾雅站在机库里显得有些失落时，一个夸父族人走近你，说："这些人有问题吗？"`
+			`	芙蕾雅说："我们被自称为帕格人的外星人袭击了。我们想知道你对他们了解多少。"`
+			`	夸父的皮肤通常是完全灰色的，他们的衣服也是如此，但夸父脸上的几块皮肤在听到 "帕格 "这个词时变成了红色。你听说过一些理论，说这是夸父的一种情绪表现，但没有人确切知道是什么情绪。愤怒？窘迫？和你说话的夸父只是说："来吧，"然后把你带到主走廊的一个角落，另一个夸父站在一张桌子后面。你对这个物种的了解是如此之少：你是在和一个导游说话，还是和一个外交官说话？这是该站的总督，还是只是一个人类语言的专家？桌子后面的夸父说："你有问题要问我吗？"`
 			choice
-				`	"Can you help us to fight the Pug?"`
-				`	"Can you give us information about the Pug?"`
+				`	"你能帮助我们对抗帕格人吗？"`
+				`	"你能给我们关于帕格的信息吗？"`
 					goto info
 			
-			`	"No," it says. "Long ago we tried to resist the Pug. In retribution, they broke one of our rings." It points out the window of the station at the half-finished ringworld. "This ring is half complete, and it has taken a thousand of your years to build. The rings are our most precious creations, nearly impossible to destroy, but the Pug know how to twist and cut the fabric of space itself."`
-			`	"So you've encountered the Pug before?" asks Freya. "You know about them?"`
+			`	"不，"它说。"很久以前，我们曾试图抵抗巴格人。作为报复，他们打破了我们的一个戒指。"它指着车站窗外的半成品环形世界。"这个环已经完成了一半，它花了你们一千年的时间来建造。环是我们最珍贵的创作，几乎不可能被摧毁，但帕格人知道如何扭曲和切割空间本身的结构。"`
+			`	"所以你以前遇到过帕格人？"弗莱亚问道。"你知道他们吗？"`
 			
 			label info
-			`	"The Pug have meddled with the affairs of many species in this galaxy," it says, "but they are not native to it. They came here through artificial wormholes: a technology that not even the Drak possess. Their actions are unpredictable. They are either entirely illogical, or operating on a logic so far above ours that it appears as nonsense to us. They claim it is the latter: that they operate on some special knowledge of time and future."`
+			`	"帕格人插手了这个星系中许多物种的事务，"它说，"但他们不是这个星系的原住民。他们通过人工虫洞来到这里：一种连德拉克人都不具备的技术。他们的行动是不可预测的。他们要么是完全不符合逻辑，要么是在一种远远高于我们的逻辑上运作，以至于在我们看来是无稽之谈。他们声称是后者：他们是根据一些关于时间和未来的特殊知识运作的。"`
 			choice
-				`	"If they're so advanced, do we have any chance of defeating them?"`
+				`	"如果他们如此先进，我们是否有机会击败他们？"`
 					goto defeat
-				`	"Do you think the Drak would join us in fighting them?"`
+				`	"你认为德拉克人会和我们一起对抗他们吗？"`
 					goto drak
 			
 			label defeat
-			`	"Yes," it says. "In battle the Pug always respond with just enough force that their opponent has a fair chance at victory."`
-			`	Freya is confused. "What do you mean?" she says.`
+			`	"是的，"它说。"在战斗中，帕格人总是用足够的力量来回应，使他们的对手有一个公平的胜利机会。"`
+			`	芙蕾雅很迷惑。"你是什么意思？"她说。`
 				goto balance
 			
 			label drak
-			`	"No," it says. "The Drak do not interfere in a war unless their rules are broken. And, it would not help you anyway; the Pug always adjust the strength of their fleet to give their opponent what they consider to be fair odds."`
-			`	"Wait," says Freya, "you're saying they would intentionally attack us with a weaker force instead of using all their strength and guaranteeing victory?"`
+			`	"不，"它说。"德拉克人不会干涉战争，除非他们的规则被破坏。而且，无论如何也帮不了你；帕格人总是调整他们舰队的实力，给他们的对手以他们认为公平的机会。"`
+			`	"等等，"芙蕾雅说，"你是说他们会故意用较弱的力量攻击我们，而不是使用他们所有的力量，保证胜利？"`
 				goto balance
 			
 			label balance
-			`	"War is a game to the Pug," the Quarg says. "They are a strange species. Even if they start a war, their goal may not be to win it, but to lose in a certain way. We have seen them lose battles against species far less advanced than your own, even though they had weapons that would have guaranteed them victory. If they want war, you must play their game, and if you play their game, they may allow you to win."`
-			`	"That makes no sense," says Freya. "They would die for the sake of a game?"`
-			`	The Quarg pauses for a moment as if struggling for words. "I am myself, and also I am Quarg. You are yourselves, and also you are human. But we think perhaps a Pug is Pug first, and then also itself."`
-			`	"Their identity is communal, rather than individual?" says Freya.`
-			`	"Indeed. And because they are so deeply connected, they perceive all things as being connected to them. At least, that is the best understanding we have been able to gain of their species."`
-			`	You talk for a while longer, but gain no more information of value.`
+			`	"战争对帕格人来说是一场游戏，"夸格人说。"他们是一个奇怪的物种。即使他们发动战争，他们的目标可能不是赢得战争，而是以某种方式失败。我们已经看到他们在与远不如你们先进的物种的战斗中败下阵来，尽管他们拥有可以保证他们胜利的武器。如果他们想要战争，你必须玩他们的游戏，如果你玩他们的游戏，他们可能允许你获胜。"`
+			`	"这没有意义，"芙蕾雅说。"他们会为了一个游戏而死去？"`
+			`	夸父停顿了一会儿，似乎在挣扎着说话。"我是我自己，同时我也是夸父。你们是你们自己，同时也是人类。但我们认为也许巴格犬首先是巴格犬，然后也是它自己。"`
+			`	"他们的身份是共同的，而不是个人的？"弗莱亚说。`
+			`	"的确如此。而且因为他们是如此深刻地联系在一起，他们认为所有的东西都与他们有关。至少，这是我们能够获得的对他们这个物种的最好理解。"`
+			`	你们又谈了一会儿，但没有获得更多有价值的信息。`
 
 
 
 mission "FWC Pug 4C"
 	landing
-	name "Liberate <planet>"
-	description "Travel to the <system> system to assist the Navy in driving out the Pug and reestablishing a direct hyperspace link to the Ascella system."
+	name "解放<planet>"
+	description "前往<system>系统，协助海军赶走帕格人，重新建立与阿斯克拉系统的直接超空间联系。"
 	autosave
 	source Arabia
 	destination Rand
@@ -1953,20 +1953,20 @@ mission "FWC Pug 4C"
 		has "FWC Pug 4B: done"
 	passengers 1
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		event "fwc reconnect ascella"
 		conversation
-			`You help Freya to unload and set up the reflector equipment, then contact the Navy on Oblivion and instruct them to point the transmitter in your direction. A few minutes later Admiral Danforth contacts you. "This link appears to be returning too," he says. "So, let's move on. We're going to make an attack on the <system> system, now, and we would welcome your assistance in this battle." You leave the equipment on <origin> and return to your ship with Freya.`
+			`你帮助Freya卸下并安装好反射器设备，然后与Oblivion上的海军联系，指示他们将发射器指向你的方向。几分钟后，丹佛斯上将与你联系。"这个链接似乎也在恢复，"他说。"所以，让我们继续前进。我们要对<system>系统进行攻击，现在，我们欢迎你在这场战斗中提供援助。"你把设备留在<origin>上，和弗雷亚一起返回你的飞船。`
 				accept
 	
 	on visit
-		dialog `You've landed on <planet>, but there are still Pug ships circling overhead. You should take off and help finish them off.`
+		dialog `你已经在<planet>上着陆了，但仍有哈巴狗飞船在头顶盘旋。你应该起飞并帮助解决他们。`
 	on complete
 		log "Succeeded in restoring a few more hyperspace connections, and in driving back the Pug (with the help of the Navy). But, Freya thinks it is way too coincidental that the aliens have left behind the exact technology needed to fix the hyperspace disruptions; it feels like the Pug are playing a game rather than fighting a serious war."
 		event "fwc reconnect zeta aquilae"
-		dialog `After a few minutes of scanning the surface of <planet>, Freya locates another transmitter station that matches the one you found on Oblivion. You contact Admiral Danforth to tell him its location, and he dispatches a crew to take control of it. He also reports to you that once again, apparently all the Pug left the planet during the course of the battle. "A pity," he says. "If we had taken prisoners, maybe we could have gotten some answers from them. Anyway, meet me in the spaceport whenever you're ready to help with our next mission."`
+		dialog `在扫描<planet>表面几分钟后，Freya找到了另一个与你在Oblivion发现的发射站相匹配的发射站。你与丹佛斯上将联系，告诉他它的位置，他派出了一个船员来控制它。他还向你报告说，在战斗过程中，显然所有的帕格族人又一次离开了这个星球。"很遗憾，"他说。"如果我们抓了俘虏，也许我们可以从他们那里得到一些答案。无论如何，只要你准备好帮助我们完成下一个任务，就到太空港来找我。"`
 	
 	npc evade
 		personality disables heroic staying
@@ -2018,8 +2018,8 @@ mission "FWC Pug 4C"
 
 
 mission "FWC Pug 5"
-	name "Liberate <system>"
-	description "Some of the Navy ships have been outfitted with jump drives. Travel with them to the <system> system, avoiding the main Pug fleet in their home system, and reclaim control of the planet."
+	name "解放<system>系统"
+	description "一些海军舰艇已经装备了跳跃驱动器。和他们一起前往<system>系统，避开帕格人主系统的主力舰队，夺回对该星球的控制。"
 	autosave
 	source Rand
 	destination Silver
@@ -2028,31 +2028,31 @@ mission "FWC Pug 5"
 		has "FWC Pug 4C: done"
 	passengers 1
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		conversation
-			`You find Admiral Danforth supervising the repairs of the damaged Navy ships. "Glad you survived that battle!" he says. "These alien ships are much more advanced than ours, but we outnumber them, so now that we've established a strong beachhead I think we actually have a chance at defeating them. The only problem is, the majority of our fleet is still up north. With the Vega system cut off, our supply lines are having to go all the way around through the dirt belt. So I'd like to propose liberating Vega next."`
+			`你发现丹佛斯上将正在监督受损的海军舰艇的维修工作。"很高兴你在那场战斗中幸存下来！"他说。"这些外星飞船比我们的先进得多，但我们的数量超过他们，所以现在我们已经建立了一个强大的滩头，我想我们实际上有机会打败他们。唯一的问题是，我们的大部分舰队仍然在北方。由于织女星系统被切断，我们的补给线不得不通过泥土带一路绕行。所以我想提议接下来解放织女星。"`
 			choice
-				`	"That does sound like a good strategic choice."`
-				`	"How will your fleet get to Vega without traveling through the Pug home system? That system is swarming with their ships."`
-			`	Danforth says, "During the battle, we managed to salvage jump drives from a few of the Pug ships. We've installed them in three of our Carriers. Hopefully, with your help, that will be enough to overcome any resistance in the Vega system. Then Miss Winters can work her magic with the hyperlinks again, and we'll be able to bring a massive reinforcement fleet from Sol."`
-			`	"Sounds good to me," says Freya. "I wish more of our own ships had jump drives, so we could assist you."`
-			`	"Indeed," says Danforth. "That's why it's so important for Captain <last>'s ship to be part of this battle. When it's all over, I want to be able to tell Parliament that this war was won by the Free Worlds and the Navy fighting side by side every step of the way. And I hope you will be able to tell your Senate the same thing, so that they will be more amenable to a compromise between us."`
+				`	"这听起来确实是个不错的战略选择。"`
+				`	"你的舰队不经过帕格族的母星系统，怎么去织女星？那个系统里到处都是他们的飞船。"`
+			`	丹佛斯说："在战斗中，我们设法从几艘帕格飞船上抢救出跳跃驱动器。我们已经把它们安装在我们的三艘航母上。希望在你的帮助下，这将足以克服织女星系的任何阻力。然后温特斯小姐可以再次施展她的超链接魔法，我们就能从太阳城带来一支大规模的增援舰队。"`
+			`	"对我来说听起来不错。"弗莱亚说。"我希望我们自己的飞船有更多的跳跃驱动器，这样我们就可以协助你们。"`
+			`	"的确，"丹佛斯说。"这就是为什么<last>号船长的飞船参与这场战斗是如此重要。当一切都结束时，我希望能够告诉议会，这场战争是由自由世界和海军并肩作战的每一步赢得的。我希望你也能告诉你的参议院同样的事情，这样他们就会对我们之间的妥协更有好感。"`
 			choice
-				`	"I'm glad to hear you say that. Your fleet is so much stronger than ours that you could easily take all the credit."`
+				`	"我很高兴听到你这么说。你们的舰队比我们的强大得多，你们可以很容易地把所有的功劳都揽到自己身上。"`
 					goto navy
-				`	"We were the ones who discovered the aliens and the way to restore the hyperspace links. The Free Worlds deserve the real credit here."`
+				`	"是我们发现了外星人和恢复超空间链接的方法。自由世界在这里应该得到真正的荣誉。"`
 					goto free
 			label navy
-			`	"I don't want the credit," he says, "I want peace." He wishes you the best of luck in your attack on Vega, and says to contact him as soon as the link is restored and the reinforcements are ready.`
+			`	"我不想要功劳，"他说，"我想要和平。"他祝愿你在攻击织女星的过程中好运，并说一旦链接恢复，增援部队准备好了，就立即与他联系。`
 				accept
 			label free
-			`	"Captain," he says, "the point isn't who deserves more credit. The point is, how do we tell this story in a way that makes people on my side and on yours more willing to make peace with each other? That's all I care about." He wishes you the best of luck in your attack on Vega, and says to contact him as soon as the link is restored and the reinforcements are ready.`
+			`	"船长，"他说，"问题的关键不是谁更值得称赞。关键是，我们如何以一种方式讲述这个故事，让我这边的人和你这边的人更愿意与对方和平相处？这就是我所关心的。"他祝愿你在进攻织女星的过程中好运，并说一旦链接恢复，援军准备好了，就立即与他联系。`
 				accept
 	
 	on visit
-		dialog `You've landed on <planet>, but there are still Pug ships circling overhead. You should take off and help finish them off.`
+		dialog `你已经在<planet>上着陆了，但仍有哈巴狗飞船在头顶盘旋。你应该起飞并帮助解决他们。`
 	on complete
 		event "fwc liberation of vega"
 	
@@ -2086,8 +2086,8 @@ mission "FWC Pug 5"
 
 mission "FWC Pug 5B"
 	landing
-	name "Travel to <planet>"
-	description `Travel with Freya to <planet>, where you can set up the "graviton reflector" to restore the hyperspace link from Sol to the Pug territory. (She thinks Mars is a better option than a heavily populated planet like Earth.)`
+	name "到<planet>旅行"
+	description `与Freya一起前往<planet>，在那里你可以设置 "引力子反射器"，以恢复从太阳到帕格领地的超空间链接。(她认为火星是一个更好的选择，而不是像地球这样人口众多的星球）。`
 	autosave
 	source Silver
 	destination Mars
@@ -2095,27 +2095,27 @@ mission "FWC Pug 5B"
 		has "FWC Pug 5: done"
 	passengers 1
 	cargo "graviton reflector" 10
-	blocked `When you land on <origin>, Freya says, "Captain, it looks like you're going to need <capacity> to continue with this mission." You should free up more space, then return here.`
+	blocked `当你降落在<origin>时，Freya说："船长，看来你需要<capacity>来继续完成这个任务。"你应该腾出更多空间，然后返回这里。`
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		log "Drove the Pug out of the Vega system with the help of some Navy ships equipped with jump drives. Once again, the Pug somehow managed to evacuate all their people from the planet before the Navy arrived, as if they were already expecting to lose this system."
 		conversation
-			`Once again, the Pug seem to have anticipated your attack and evacuated all their personnel from the planet before your arrival. It's a little disconcerting that they seem to have planned for events to unfold in exactly this way. Once again, you find one of the transmitter stations, abandoned on <origin> but still in working order, and inside the station Freya locates another one of the "reflectors" that she needs in order to complete the link. "I don't get it," she says. "They should've destroyed all this before they left."`
+			`再一次，帕格人似乎已经预见到了你的攻击，并在你到来之前将他们所有的人员撤离了星球。让人有点不安的是，他们似乎已经计划好了事件以这种方式展开。你再次找到了其中一个发射站，它被遗弃在<origin>上，但仍处于工作状态，在发射站内，芙蕾雅找到了另一个 "反射器"，她需要它来完成链接。"我不明白，"她说。"他们应该在离开之前把这些东西都毁掉。"`
 			choice
-				`	"Yes, I hope we're not playing into some sort of trap."`
+				`	"是的，我希望我们不是在玩弄某种陷阱。"`
 					goto trap
-				`	"Well, let's just be thankful they didn't."`
-			`	"I suppose," she says. "I just don't like not understanding things, and I do not understand these aliens at all."`
+				`	"好吧，让我们庆幸他们没有这样做。"`
+			`	"我想，"她说。"我只是不喜欢不了解的事情，而我根本不了解这些外星人。"`
 				goto next
 			label trap
-			`	"Indeed," she says. "It's hard to imagine that a species so advanced could be making so many tactical errors."`
+			`	"的确，"她说。"很难想象一个如此先进的物种会犯这么多战术错误。"`
 			label next
-			`	You load the equipment onto your ship, and Freya says, "Let's set it up on <planet>, rather than Earth. I don't think the graviton radiation is harmful to human beings, but there's no point in placing it on such a densely populated planet."`
+			`	你把设备装上你的飞船，芙蕾雅说："让我们把它设置在<planet>上，而不是地球。我不认为引力子辐射对人类有害，但把它放在这样一个人口稠密的星球上没有意义。"`
 				accept
 	on visit
-		dialog `You land on <planet>, but realize that your escort carrying Freya and the graviton reflector hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但意识到你的护卫队载着弗雷亚和引力子反射器还没有进入该系统。最好离开并等待它的到来。`
 	
 	npc
 		government Republic
@@ -2138,8 +2138,8 @@ mission "FWC Pug 5B"
 
 mission "FWC Pug 5C"
 	landing
-	name "Return to <planet>"
-	description "Return to <planet>, and join the Navy fleet in preparing for an attack on the Pug home system. A Free Worlds fleet will be attacking from the south at the same time."
+	name "返回<planet>。"
+	description "返回<planet>，加入海军舰队，准备对帕格族的母星系统进行攻击。一支自由世界的舰队将同时从南方发动攻击。"
 	autosave
 	source Mars
 	destination Silver
@@ -2147,17 +2147,17 @@ mission "FWC Pug 5C"
 		has "FWC Pug 5B: done"
 	passengers 1
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		event "fwc reconnect vega"
 		conversation
-			`As soon as Freya has set up her equipment and verified that it is working, you contact Admiral Danforth. "We're on Mars," you tell him, "and we should have the hyperspace link to Vega restored soon."`
-			`	"Excellent," he says. "Please contact your Council and arrange for your fleet to strike from the south at the same time as the fleet from Vega jumps in from the north."`
-			`	You contact Tomek and tell him the Navy is ready for a final assault, and he agrees to send as many ships as he can spare to join you. Now it's time to return to <planet> and await the attack signal.`
+			`一旦芙蕾雅设置好她的设备并验证其正常工作，你就联系丹佛斯上将。"我们在火星上，"你告诉他，"我们应该很快就能恢复与织女星的超空间联系。"`
+			`	"很好，"他说。"请联系你们的理事会，安排你们的舰队在织女星的舰队从北面跳入的同时从南面出击。"`
+			`	你联系托梅克，告诉他海军已经准备好进行最后的攻击，他同意派出尽可能多的船只与你会合。现在是时候返回<planet>并等待攻击信号了。`
 				accept
 	on visit
-		dialog `You land on <planet>, but realize that your escort carrying Freya hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但意识到你的护卫队载着Freya还没有进入该系统。最好出发并等待它的到来。`
 	
 	npc
 		government Republic
@@ -2180,8 +2180,8 @@ mission "FWC Pug 5C"
 
 mission "FWC Pug 6"
 	landing
-	name "Defeat the Pug"
-	description "Join the Navy fleet in attacking the Pug home system. Once their fleet is eliminated, land on their home world of <planet> to attempt to negotiate for peace."
+	name "打败帕格"
+	description "加入海军舰队，攻击帕格族的母星系统。一旦他们的舰队被消灭，就在他们的母星<planet>上登陆，试图进行和平谈判。"
 	autosave
 	source Silver
 	destination Pugglemug
@@ -2189,26 +2189,26 @@ mission "FWC Pug 6"
 	to offer
 		has "FWC Pug 5C: done"
 	passengers 1
-	blocked "You need at least one bunk free for Freya in order to continue this mission."
+	blocked "你需要至少为弗雷亚腾出一个铺位，以便继续执行这项任务。"
 	on enter Deneb
 		dialog
-			`You enter the Deneb system expecting a massive Pug battle fleet to be waiting for you. Instead, it is entirely deserted. Also, your sensors are picking up some sort of anomaly outside the orbit of the outermost planet.`
+			`你进入Deneb系统，以为会有一支庞大的帕格战斗舰队在等你。相反，这里完全是一片荒芜。而且，你的传感器在最外层行星的轨道外发现了某种异常情况。`
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		log "Preparing for the final assault on the Pug homeworld. There seems to be no other option but to force them to surrender, but with the help of the Navy that no longer seems like an impossible task."
 		event "pug flee"
 		conversation
-			`The tiny spaceport on Silver is packed with people as more and more Navy ships come in for a landing. The Navy admirals have decided that there is no sense in delaying: you will be launching an attack on the Pug homeworld in the morning. Despite your success so far in battling the Pug, you know that if their entire fleet opposes you, even the Navy may not be strong enough to defeat them. This may be the last time you see many of these officers and crew members alive.`
-			`	Everyone prepares for death in different ways. The spaceport's pub is packed, with the crowd spilling out into the hallway and loud music blasting. The chapel is equally full, and the sound of whispered prayers and chanting clashes with the dance music from the pub. Through the doorway of the chapel you see some people sitting cross-legged on the floor and others kneeling on prayer rugs, as the various cultures that make up the Republic do their best to share the space.`
-			`	You find Freya sitting in a secluded nook on the upper floor of the spaceport building, watching the stars and the drifting sand out the window. "Ready for the last battle, Captain?" she asks.`
+			`随着越来越多的海军舰艇前来登陆，银色星球上小小的太空港挤满了人。海军将领们已经决定，拖延是没有意义的：你们将在明天早上对帕格人的家园发动攻击。尽管到目前为止你们在与巴格人的战斗中取得了成功，但你们知道，如果他们的整个舰队都反对你们，即使是海军也可能不够强大，无法打败他们。这可能是你最后一次见到这些军官和船员中的许多人活着。`
+			`	每个人都以不同的方式为死亡做准备。航天港的酒馆里挤满了人，人群涌向走廊，响亮的音乐响起。礼拜堂里同样坐满了人，低声的祈祷和诵经声与酒馆里的舞曲相冲突。透过小教堂的门口，你看到一些人盘腿坐在地板上，另一些人跪在祈祷毯上，因为构成共和国的各种文化都在尽力分享这个空间。`
+			`	你发现芙蕾雅坐在太空港大楼上层的一个僻静的角落里，看着窗外的星星和漂流的沙子。"准备好参加最后的战斗了吗，船长？"她问道。`
 			choice
-				`	"Sure, with the Navy at our backs I think we've got a good chance."`
-				`	"As ready as I'll ever be, I guess."`
-			`	She laughs. "I suppose that's the best we can hope for. Do you mind if I ride in your ship tomorrow, rather than one of the others? If this is the end, I'd rather face it with people I know." You agree. She turns back to look out the window.`
-			`	Since Freya seems to want to be alone, you return downstairs, and discover that a sizeable Oathkeeper fleet has arrived. In the main vestibule of the spaceport, an Oathkeeper officer is leading a group in qigong meditation. And surprisingly, you spot Admiral Danforth sitting with the Muslim prayer group and chanting in fluent Arabic. Meanwhile, the party outside the pub continues.`
-			`	Eventually morning comes, and you prepare your ship for the assault on the Pug homeworld...`
+				`	"当然，有海军在背后支持我们，我想我们有很大的机会。"`
+				`	"我想，我已经准备好了。"`
+			`	她笑着说。"我想这是我们能期望的最好结果。你介意我明天乘坐你的船，而不是其他人的船吗？如果这就是结局，我宁愿和我认识的人一起面对它。"你同意了。她回头看向窗外。`
+			`	由于芙蕾雅似乎想独处，你回到楼下，发现一支规模庞大的守誓者舰队已经抵达。在太空港的主前庭，一名守誓人官员正在带领一群人进行气功冥想。而令人惊讶的是，你发现丹佛斯上将与穆斯林祈祷团坐在一起，用流利的阿拉伯语诵读。与此同时，酒馆外的聚会仍在继续。`
+			`	最终天亮了，你准备好你的飞船，准备袭击帕格人的家园......`
 				accept
 	
 	npc
@@ -2278,98 +2278,98 @@ mission "FWC Pug 6"
 				"Argosy (Turret)"
 	
 	on visit
-		dialog `You land on <planet>, but realize that your escort carrying Freya hasn't entered the system yet. Better depart and wait for it to arrive.`
+		dialog `你降落在<planet>上，但意识到你的护卫队载着Freya还没有进入该系统。最好出发并等待它的到来。`
 	on complete
 		log `The Pug have fled, apparently traveling through an artificial wormhole back to whatever galaxy they came from. And, it turns out that many of their cities on "Pugglemug" were only for show: buildings with no inhabitants, and with holograms creating the appearance of a heavily populated world. They left no advanced technology behind, and no sign of what their true intentions were, but it turns out that the fake cities here were designed for human habitation. They must have been planning this departure for a very long time.`
 		log `Now that the Pug are gone, the Navy will be able to use the "graviton reflectors" to repair the broken hyperspace links and to reconnect all of human space.`
-		log "Factions" "Pug" `The Pug disappeared from human space, and left behind more questions than answers. It is possible that the true purpose of their attack was to give human beings a common enemy that would force them to band together and forget their internal struggles.`
+		log "Factions" "Pug" `帕格人从人类空间消失了，留下的问题比答案多。他们攻击的真正目的可能是给人类一个共同的敌人，迫使他们团结起来，忘记他们内部的斗争。`
 		event "fwc pug defeated"
 		event "fwc link restoration 1" 10
 		event "fwc link restoration 2" 18
 		event "fwc link restoration 3" 29
 		conversation
-			`As you bring your fleet in for a landing, you find that the main Pug spaceport is surprisingly empty. However, a group of Pug children are gathered in a loose circle on one of the landing pads. They appear to be playing some sort of game; they ignore your fleet overhead.`
+			`当你带着你的舰队登陆时，你发现帕格人的主要太空港出奇地空旷。然而，一群巴格人的孩子们正围成一个松散的圆圈，聚集在其中一个着陆点上。他们似乎在玩某种游戏；他们无视你头顶的舰队。`
 			choice
-				`	(Attack them.)`
-				`	(Avoid harming them and land.)`
+				`	(攻击他们。)`
+				`	(避免伤害他们，然后降落）。`
 					goto avoid
 			
-			`	You fire a single shot into the center of the circle, leaving a dark scar on the landing pad and sending a plume of dust and smoke into the air. The children continue their game, as if nothing has happened.`
+			`	你向圆圈的中心开了一枪，在着陆场上留下一道黑疤，并向空中发出一缕灰尘和烟雾。孩子们继续他们的游戏，仿佛什么都没有发生。`
 			label avoid
-			`	You land your ship near the circle of Pug children. They are bouncing a ball back and forth between them, and studiously ignoring your presence. Aside from the sound of the ball striking the pavement, the entire city is eerily quiet. "This is really weird," says Freya.`
+			`	你的飞船降落在帕格族孩子的圈子附近。他们正在来回弹跳一个球，并刻意忽略了你的存在。除了球撞击路面的声音外，整个城市安静得可怕。"这真的很奇怪，"弗雷亚说。`
 			choice
-				`	(Explore the city.)`
+				`	(探索城市。)`
 					goto city
-				`	(Join the game.)`
+				`	(加入游戏。)`
 					goto join
 			
 			label join
-			`	You step into the circle and make a grab for the ball, but it passes straight through your fingers. Freya reaches out to touch one of the children, and her hand, too, passes through them. "Some sort of holographic projection," she says.`
-			`	The Navy ships are beginning to land and send crew out to explore. You and Freya walk into the city, passing by a pair of adult Pug who sit at a table outside what looks like some sort of cafe, playing a board game with black and white stones on a hexagonal grid. You check and find that they, too, are a holographic illusion.`
+			`	你走进圆圈，抓起球，但球直接从你的手指间穿过。芙蕾雅伸出手去触摸其中一个孩子，她的手也穿过了他们。她说："某种全息投影"。`
+			`	海军舰艇开始登陆，并派船员出去探索。你和弗莱亚走进城市，路过一对成年的帕格犬，他们坐在看起来像某种咖啡馆的桌子旁，在玩一种六边形网格上的黑白石头的棋盘游戏。你检查后发现，他们也是全息幻觉。`
 				goto house
 			
 			label city
-			`	The Navy ships are beginning to land and send crew out to explore. You and Freya walk into the city. The streets are mostly deserted, but on one of them you pass by a pair of adult Pug who sit at a table outside what looks like some sort of cafe, playing a board game with black and white stones on a hexagonal grid.`
+			`	海军舰艇开始登陆，并派船员出去探索。你和芙蕾雅走入城市。街道上大部分都很冷清，但在其中一条街道上，你路过一对成年的帕格犬，他们坐在看起来像某种咖啡馆的桌子旁，在玩一种六角形网格上的黑白石头的棋盘游戏。`
 			choice
-				`	(Attack them.)`
+				`	(攻击他们。)`
 					goto attack
-				`	(Try to talk to them.)`
+				`	(试着和他们交谈。）`
 					goto talk
 			
 			label attack
-			`	You throw a punch at one of the Pug at the table, but your fist passes right through its head as if nothing is there. Surprised, Freya reaches out to touch the other one, and again her hand passes through them. "Some sort of holographic projection," she says. You continue exploring.`
+			`	你向桌子上的一只哈巴狗挥了一拳，但是你的拳头直接穿过它的头，好像什么都没有。惊讶之余，芙蕾雅伸手去摸另一只，她的手再次穿过它们。"某种全息投影，"她说。你继续探索。`
 				goto house
 			
 			label talk
-			`	You try to talk to the Pug, but they, like the children, are ignoring you completely; they do not even seem to be aware of your existence. Finally, Freya reaches out to shake one of them by the shoulder, and her hand passes straight through it. Surprised, she waves her hands back and forth through both of them. "Some sort of holographic projection," she says.`
+			`	你试图与哈巴狗交谈，但它们和孩子们一样，完全无视你；它们似乎甚至没有意识到你的存在。最后，芙蕾雅伸出手去摇晃其中一个人的肩膀，她的手直接穿过了它。惊讶之余，她的手在两个人身上来回挥动。"某种全息投影，"她说。`
 				goto house
 			
 			label house
-			`	You continue to explore for a while. Aside from the illusions, the city seems to be deserted. "Let's check inside one of the houses," Freya says at last. You climb up the steps to what looks like an apartment building and find that all the doors are unlocked. Inside one of the living spaces, you explore the different rooms and find that the water fixtures and electricity are working, but a thick layer of dust covers everything. Freya, meanwhile, is staring at one of the electrical outlets. "<first>," she says, "do you see anything odd about this?"`
+			`	你继续探索了一阵子。除了幻觉之外，这个城市似乎已经荒废了。"让我们到其中一所房子里去看看。"弗莱亚最后说。你爬上台阶，来到一个看起来像公寓楼的地方，发现所有的门都没有上锁。在其中一个生活空间里，你探索了不同的房间，发现水装置和电都在工作，但一层厚厚的灰尘覆盖了一切。与此同时，弗雷亚正盯着其中一个电源插座。"<first>，"她说，"你看到这个有什么奇怪的地方吗？"`
 			choice
-				`	"No, it's just an ordinary electric outlet."`
-				`	"Everything here is odd. The city, the holograms, all of it."`
-			`	She says, "It's an ordinary, human style electrical outlet. Human. In an alien city. And the steps we came up to get here: the Pug have legs half again as long as ours. But the tread spacing was at the normal human height. This building wasn't made for the Pug. It was made for us."`
-			`	Reports begin coming in as the Navy explores the rest of the planet, and they are all finding the same thing: the cities are abandoned, many of them with signs that they were never inhabited in the first place. The first time you visited this planet, you thought it must have a billion inhabitants, but now it seems that its true population was less than a million - all of whom have apparently departed to somewhere beyond the wormhole.`
-			`	Freya says, "Let's get back to the spaceport and meet up with the admirals."`
+				`	"没有，这只是一个普通的电插座。"`
+				`	"这里的一切都很奇怪。这座城市，全息图，所有的一切。"`
+			`	她说，"这是一个普通的、人类风格的电源插座。人类。在一个外星城市。还有我们来到这里的台阶：帕格犬的腿又比我们的长一半。但踏板的间距是正常人类的高度。这座建筑不是为巴哥犬建造的。它是为我们造的。"`
+			`	随着海军探索这个星球的其余部分，报告开始传来，他们都发现了同样的事情：城市被遗弃了，其中许多城市有迹象表明它们一开始就没有人居住过。你第一次访问这个星球时，认为它肯定有十亿居民，但现在看来，它的真实人口不到一百万--显然他们都已经离开了，去了虫洞之外的某个地方。`
+			`	芙蕾雅说："让我们回到太空港，与海军将领们会合。"`
 
 
 
 mission "FWC End"
-	name "Talk to Parliament"
-	description "Travel to Earth for another meeting with Parliament. Alondo and Katya will meet you there. (Hopefully it will go better than your last visit.)"
+	name "与议会交谈"
+	description "前往地球，再次与议会会面。阿隆多和卡蒂亚将在那里与你会面。(希望它能比你上次的访问更顺利。)"
 	autosave
 	source Pugglemug
 	destination Earth
 	to offer
 		has "FWC Pug 6: done"
 	passengers 1
-	blocked "You need at least one bunk free for Freya in order to continue this mission."
+	blocked "你需要至少为弗雷亚腾出一个铺位，以便继续执行这项任务。"
 	on fail
-		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+		dialog `你没有完成自由世界的一项重要任务。如果你想完成故事线，请恢复到自动保存或其他较早的游戏快照。`
 	
 	on offer
 		"reputation: Republic" += 20
 		conversation
-			`You find Admiral Danforth inspecting the Pug spaceport. "This is all very odd," he says. "I'm glad the aliens appear to have left, but I wish we knew where they came from and whether they're likely to return."`
-			`	Freya says, "What should we do now?"`
-			`	"I've contacted New Austria and told them that Councilor Reynolds is free to leave," he says. "She told me that your Senate has agreed to the Free Worlds being a semi-autonomous district of the Republic, similar to the Syndicate systems. She also asked that you and Captain <last> meet up with her and Alondo Gruyere on Earth, where they will be meeting with Parliament. I sent a report to Earth that places a very heavy emphasis on the role that the Free Worlds played in this victory, so Parliament ought to be quite willing to negotiate with you."`
+			`你发现丹佛斯上将正在视察帕格太空港。"这一切都很奇怪，"他说。"我很高兴那些外星人似乎已经离开了，但我希望我们知道他们从哪里来，以及他们是否有可能回来。"`
+			`	弗莱亚说："我们现在应该怎么做？"`
+			`	"我已经联系了新奥地利，告诉他们雷诺兹议员可以自由离开，"他说。"她告诉我，你们的参议院已经同意自由世界成为共和国的一个半自治地区，类似于辛迪加系统。她还要求你和<last>上尉与她和阿隆多-格鲁耶尔在地球上碰头，他们将在那里与议会会面。我向地球发送了一份报告，其中非常强调自由世界在这次胜利中发挥的作用，所以议会应该很愿意与你谈判。"`
 			choice
-				`	"Thank you. It's been an honor to fight alongside you."`
+				`	"谢谢你。能与你并肩作战是我的荣幸。"`
 					goto honor
-				`	"Last time we visited Parliament, they violated our safe passage agreement and put us on trial."`
+				`	"上次我们访问议会时，他们违反了我们的安全通道协议，把我们送上了法庭。"`
 					goto trial
 			label honor
-			`	"No, the honor has been mine," he says. "Feel free to drop by and visit me on Farpoint any time you're in the area."`
+			`	"不，荣誉是我的，"他说。"只要你在这个地区，随时都可以顺便来看看我在远点的情况。"`
 				accept
 			label trial
-			`	"Trust me," he says, "you won't need to worry about that this time around. Having an alien attack so close to Earth be thwarted through the assistance of the Free Worlds has put Parliament in a very... receptive mood. Good luck, Captain <last>, and I hope our paths will cross again."`
+			`	"相信我，"他说，"这次你不需要担心这个问题了。通过自由世界的协助，在离地球这么近的地方挫败了一次外星人的攻击，这让议会处于一种非常......接受的情绪。祝你好运，<last>船长，我希望我们的道路会再次交叉。"`
 				accept
 	
 	on complete
 		log "Parliament has agreed to a peace treaty, because the threat of alien invasion now seems much more pressing than the civil war with the Free Worlds. Whatever the true intention of the Pug was, the result of their interference is that humanity is at peace once more. There has been great loss of life, but nothing compared to what would have happened if the Free Worlds had tried to conquer Earth."
 		log "It may be a while before members of the Free Worlds manage to re-earn the trust of the rest of humanity, however."
-		log "Factions" "Free Worlds" `Tensions between the Free Worlds and the Republic mounted when additional systems decided to leave the Republic and join the Free Worlds culminating in a series of military confrontations, that ended when the Pug invaded human space. After humanity united to drive out the Pug invaders, the Republic officially granted the Free Worlds autonomy.`
+		log "Factions" "Free Worlds" `当更多的系统决定离开共和国并加入自由世界时，自由世界和共和国之间的紧张关系加剧，最终导致了一系列的军事对抗，最终在帕格族入侵人类空间时结束。在人类联合起来赶走帕格族的入侵者后，共和国正式授予自由世界自治权。`
 		event "deep sky tech available"
 		event "syndicate tech available"
 		"salary: Free Worlds" = 8900
@@ -2378,15 +2378,15 @@ mission "FWC End"
 		set "free worlds checkmate"
 		event "stack core for sale"
 		conversation
-			`You arrive in the Parliament building just as Alondo and Katya have finished meeting with them. "Good news," says Katya. "We're all officially pardoned. And you, Captain <last>, have become something of a hero."`
-			`	"Better yet," says Alondo, "the war with the Republic is over. We agreed to limiting our territory to its current size, and to a very minor tax to cover the cost of Navy protection if the aliens attack again or some other major catastrophe strikes. In return, the Free Worlds have been granted autonomy from the Republic."`
-			`	"Also," says Katya, "as their own expression of gratitude, the Syndicate members of Parliament have offered to make some of their new technology, developed during the war, available to us at an affordable price."`
+			`你到达议会大厦时，阿隆多和卡蒂亚刚刚结束与他们的会面。"好消息，"卡蒂亚说。"我们都被正式赦免了。而你，<last>上尉，已经成为了某种意义上的英雄。"`
+			`	"更好的是，"阿隆多说，"与共和国的战争已经结束。我们同意将我们的领土限制在目前的规模，并同意在外星人再次袭击或其他重大灾难发生时，征收非常小的税款来支付海军的保护费用。作为回报，自由世界获得了来自共和国的自治权。"`
+			`	"另外，"卡蒂亚说，"作为他们自己的感激之情，议会中的辛迪加成员提出以一个可承受的价格向我们提供他们在战争期间开发的一些新技术。"`
 			choice
-				`	"That's very generous of them."`
-				`	"I wonder if that's their way of buying our support and keeping us quiet about the supposed defector."`
-			`	"Maybe so," says Alondo. "The CEO of the Syndicate, Alastair Korban, is also resigning. Perhaps the events are related. In other news, now that the war has ended, and the Pug have been defeated, the Senate has voted to dissolve the Council, leaving us free to return to civilian life. However, they've also agreed to pay you, <first>, a reduced salary in honor of your service. So, what do you think you will do next?"`
+				`	"他们真是太慷慨了。"`
+				`	"我想知道这是否是他们收买我们支持的方式，让我们对所谓的叛逃者保持沉默。"`
+			`	"也许是这样。"阿隆多说。"辛迪加的首席执行官Alastair Korban也在辞职。也许这些事件是相关的。在其他新闻中，现在战争已经结束，帕格人已经被打败，参议院已经投票解散理事会，让我们自由地回到平民生活。然而，他们也同意支付给你，<first>，减少工资以纪念你的服务。那么，你认为你接下来会做什么？"`
 			choice
-				`	"Build a merchant fleet and live a safe, quiet life."`
-				`	"See if folks in the fringe worlds need any help against the pirates."`
-				`	"Use my jump drive to explore beyond human space."`
-			`	"Well, we all wish you the best of luck," says Freya. "We would never have won this war without you. Be sure to stay in touch." You hug each of them goodbye, and return to your ship. What you do next is up to you...`
+				`	"建立一支商船队，过一种安全、安静的生活。"`
+				`	"看看边缘世界的人们是否需要任何帮助来对抗海盗。"`
+				`	"用我的跳跃驱动器去探索人类空间以外的地方。"`
+			`	"好吧，我们都希望你有最好的运气，"弗雷亚说。"没有你，我们永远不会赢得这场战争。一定要保持联系。"你与他们每个人拥抱告别，然后回到你的飞船。你接下来要做什么，取决于你自己...`

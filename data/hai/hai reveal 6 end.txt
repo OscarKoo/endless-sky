@@ -15,12 +15,12 @@
 
 mission "Hai Reveal [C01] Cleanup"
 	landing
-	name "Hai Diplomacy"
-	description "With the crisis now averted, all that remains is to go to Mountaintop for the formalities."
+	name "海上外交"
+	description "现在危机解除了，剩下的就是去山顶办理手续了。"
 	source "Hai-home"
 	destination "Mountaintop"
 	passengers 4
-	blocked "You need <bunks> passenger spaces to transport Xilin, Alondo, Sayari and Teeneep."
+	blocked "你需要<bunks>乘客空间来运送Xilin、Alondo、Sayari和Teeneep。"
 	to offer
 		has "Hai Reveal [B13] Freedom: done"
 	on offer
@@ -28,16 +28,16 @@ mission "Hai Reveal [C01] Cleanup"
 		fail "Hai Reveal [B12-A] Devil-Hide Fleet"
 		log `Returned the Hai to their own space to bring an end to the missing Hai saga. Choot'k tried, unsuccessfully, to recruit Teeneep to the Unfettered. They spoke of a future peaceful unification of the Hai, though differ on the specifics despite their closeness. There is one last trip to do for official matters.`
 		conversation
-			`When you land, you, Teeneep, and the Unfettered Hai are greeted as heroes. Word has traveled ahead of you through the new message links, and you are greeted by a hastily planned celebration in the capitol. After a few hours involving a brief formal parade, a great deal of cheering, some minor speeches with Xilin and Alondo trotted out to reassure everyone that there would be no conflict, and finally some more discrete parties outside the public eye, General Choot'k comes to you and Teeneep to bid his farewell.`
-			`	He shakes your hand and says, "You're a fine warrior, Captain <last>. You are as much a True Hai as any human can be, and it was an honor to fight alongside you in battle."`
-			`	Then he turns to Teeneep and tells her, "You're the future leader of all our people, Teeneep. Come back with me to Darkcloak. Join the True Hai and lead us to victory."`
-			`	Teeneep smiles and says, "My fight is here general. I fight for the hearts and minds of our Fettered brethren that we may find a true path. One day again we will be one people."`
-			`	Teeneep is quiet for a while after he departs, but soon enough the statesperson in her has walked you back into the celebrations, making sure to leave you with Sayari so she can keep you from embarrassing yourself.`
-			`	You're nursing the warmth of a beverage after breakfast the next morning on far too little sleep when your communicator pings. When it turns out to be Sayari, you take a moment to thank your body clock for ensuring you were already dressed and decent today, despite the suffering over it.`
-			`	"So glad to see that you've pulled up alright this morning," she says. "As one final thing, we all need to go and meet the human leaders on Mountaintop and finally close the book on this chapter. We could take any ship at this point, but I cannot overstate how much you've helped us. I thought you might like to see it through to the end."`
-			`	"We'll be ready to go in a couple of hours. What do you say?"`
+			`当你着陆时，你、蒂尼普和不羁海被当作英雄来迎接。消息已经通过新的信息链接传到了你们前面，迎接你们的是在国会大厦举行的匆忙的庆祝活动。经过几个小时的时间，包括简短的正式游行，大量的欢呼声，一些小的演讲，西林和阿隆多出面向大家保证不会有冲突，最后还有一些在公众视线之外的不连续的聚会，乔特克将军来到你和蒂尼普面前告别。`
+			`	他握着你的手说："你是一个优秀的战士，队长<last>。你和任何人类一样都是真正的海族，能在战斗中与你并肩作战是我的荣幸。"`
+			`	然后他转向提尼普，告诉她："你是我们所有民族的未来领袖，提尼普。和我一起回到黑暗克洛尔。加入真海，带领我们走向胜利。"`
+			`	蒂尼普微笑着说："我的战斗在这里，将军。我为我们被禁锢的兄弟们的心和思想而战，以便我们能找到一条真正的道路。有一天，我们将再次成为一个民族。"`
+			`	蒂尼普在他离开后沉默了一会儿，但很快她心中的政治家就把你送回了庆典现场，并确保把你留给萨亚里，这样她就能避免你出丑。`
+			`	第二天早上，当你的通讯器响起时，你正睡得太少，在早餐后享受着饮料带来的温暖。当它变成萨亚里时，你花了点时间感谢你的身体时钟，因为它确保了你今天已经穿戴整齐，而且很体面，尽管你为此感到痛苦。`
+			`	她说："很高兴看到你今天早上已经准备好了，"她说。"作为最后一件事，我们都需要去见山顶上的人类领袖，并最终结束这一章。在这一点上，我们可以乘坐任何船只，但我不能夸大你对我们的帮助有多大。我想你可能愿意看到它结束。"`
+			`	"我们几个小时后就可以出发了。你怎么说？"`
 			choice
-				`	"Seems silly not to come on the final trip. Of course I'll take you."`
+				`	"不参加最后的旅行似乎很傻。我当然会带你走。"`
 					accept
 		# Taking the diplomats (all) and Teeneep to Mountaintop; for the public resolution, spirit of this was already drafted in the days while you returned.
 		# This treaty is essentially a 'resolution' to commit to a broader and more detailed treaty to be negotiated in full.
@@ -48,43 +48,43 @@ mission "Hai Reveal [C01] Cleanup"
 		log `The Free Worlds, Republic, and Hai Elders have signed a resolution to ensure safe passage for Hai in human space, on the condition that they register with a customs authority on Mountaintop. Any Hai sent against their will into human space will be recovered alive if possible, regardless of the risk to human soldiers. However, human authorities will not change their approach towards regular human pirates and slavery, citing "unsustainable loss of life."`
 		log `Have learned that during the crisis a single ship loaded with kidnapped Hai was misplaced and abandoned. They require rescue and may indicate the presence of a loose end.`
 		conversation
-			`Arriving on Mountaintop, you see the station has seen serious renovations including a grand ballroom, all manner of diplomatic suites, and a notable lack of movie props. Rather than actors and stage crew, you see many familiar and unfamiliar people in full diplomatic regalia, and dress uniforms laden with medals abound on all sides. The Chancellor of the Free Worlds and President of the Republic are in their most respectable suits, while Alondo and Xilin have the traditional symbols of office (though Alondo's looks like the Free Worlds have perhaps not finalized their design just yet). You appear to be a guest of honor, occasionally being called upon to answer idle queries from people seeking clarity on one point or another but otherwise left to yourself. As you mingle with those taking a break from their duties throughout these preliminary meetings, you notice Remington and Terry are conspicuously absent.`
+			`到达山顶，你看到该站已经进行了认真的装修，包括一个大宴会厅，各种形式的外交套房，以及明显缺乏的电影道具。你看到的不是演员和舞台工作人员，而是许多熟悉的和不熟悉的人，他们穿着全套的外交礼服，四面八方都是挂满奖章的礼服。自由世界的总理和共和国总统穿着他们最体面的西装，而阿隆多和锡林则有传统的办公室标志（尽管阿隆多的看起来自由世界也许还没有最终确定他们的设计）。你似乎是一位贵宾，偶尔会被要求回答人们在某一点上寻求澄清的闲暇询问，但除此之外就只能靠自己了。当你在这些初步会议中与那些休息的人打成一片时，你注意到雷明顿和泰瑞明显地缺席。`
 			choice
-				`	(Ask Xilin about it.)`
-				`	(Ignore it.)`
+				`	(问西林吧。)`
+				`	(不予理会）。`
 					goto publicbroadcast
 			branch presaside
 				has patronizedthepresident
-			`	Between scheduled sessions, Xilin explains the Syndicate's absence. "The Syndicate is technically part of the Republic and awarded no special diplomatic status. Besides, Terry seems to have disappeared from Syndicate communications, though I won't hazard a guess as to their internal politics."`
+			`	在预定的会议间隙，锡林解释了辛迪加的缺席。"辛迪加在技术上是共和国的一部分，没有获得特殊的外交地位。此外，特里似乎已经从辛迪加的通信中消失了，尽管我不会冒险猜测他们的内部政治。"`
 				goto publicbroadcast
 			label presaside
-			`	At one quiet point between structured meetings, during which the peripheral conversations are more focused on the particulars of the Free World's position, you manage to get a hold of Xilin to ask about it. He explains the Syndicate's absence. "The Syndicate is technically part of the Republic and awarded no special diplomatic status. Besides, Terry seems to have disappeared from Syndicate communications, though I won't hazard a guess as to their internal politics."`
-			`	Perhaps seizing on the opportunity to get a momentary reprieve from more official business, the President himself steps in to fill the gap as soon as Xilin departs. It seems that you acquire a bubble of space around you whenever anyone of note stands next to you, and the President exploits this. "You know," he says quietly, while staring out at the many people hustling about at their business, "it's not very often that someone has the gall to patronize me to my face... I usually have to pay people to do that, or at least, to do it constructively anyway."`
-			`	The pause he leaves between sentences is just slightly too short to invite a response. "If you ever decide on a career change, that might be an option for you."`
-			`	He exhales through his nose as if chuckling at something humorous. "Fly safe Captain, a lot of people know who you are now."`
-			`	With that he steps away directly to meet an aide who had been hurrying towards you both, intent on ignoring the bubble. From across the room you catch Xilin with his eyebrows raised, giving you a curious look despite being engaged in his own conversation. Neither of them speak to you again for the remainder of the meetings.`
+			`	在结构化会议之间的一个安静点上，在这期间，外围的谈话更多集中在自由世界立场的细节上，你设法联系到锡林问起这件事。他解释了辛迪加的缺席。"辛迪加在技术上是共和国的一部分，没有获得特殊的外交地位。此外，特里似乎已经从辛迪加的通信中消失了，尽管我不会冒险猜测他们的内部政治。"`
+			`	也许是抓住了从更多官方事务中获得片刻缓和的机会，西林一离开，总统就亲自出马，填补了这个空白。似乎每当有值得注意的人站在你身边时，你周围就会获得一个空间泡泡，而总统则利用了这一点。"你知道，"他静静地说，同时盯着许多人在他们的生意上忙忙碌碌，"很少有人有胆量当面光顾我......。我通常要花钱请人做这些事，或者至少，要建设性地做这些事。"`
+			`	他在句子之间留下的停顿只是稍稍太短，没有邀请他做出回应。"如果你决定改变职业，这可能是你的一个选择。"`
+			`	他从鼻子里呼出一口气，好像在笑什么幽默。"安全飞行吧，船长，现在很多人都知道你是谁。"`
+			`	说完这句话，他直接走开，去见一个助手，后者一直在匆匆忙忙地走向你们俩，打算无视这个泡沫。在房间的另一边，你看到西林挑着眉毛，给你一个好奇的眼神，尽管他正在进行自己的谈话。在余下的会议中，他们都没有再跟你说话。`
 			label publicbroadcast
-			`	Eventually you follow the diplomats to a room called the Grand Borealis Chamber, "Where Mountains Touch The Sky," as Teeneep makes the first publicly broadcast speech from the Hai to humanity. The three heads of state announce a resolution granting safe passage to all Hai in human space, as long as they register with customs on Mountaintop before entering, and Teeneep expresses similar sentiments for humans visiting Hai space. It is announced that extensive surveillance fleets will be posted on both sides of the wormhole to ensure safety. This meeting will now turn into a multi-day summit to discuss the creation of a formal treaty.`
-			`	As you leave the summit for lunch, Xilin and Sayari intercept you.`
-			`	"Trouble. We need to talk," says Xilin. You follow them to a private meeting room.`
+			`	最终，你跟随外交官们来到一个叫做大北极厅的房间，"山峰触及天空的地方"，蒂尼普在这里向人类发表了第一次公开广播的演讲。三位国家元首宣布了一项决议，给予所有在人类空间的海族安全通道，只要他们在进入山顶的海关登记即可。会议宣布将在虫洞两边派驻广泛的监视舰队以确保安全。这次会议现在将变成一个为期多天的峰会，讨论建立一个正式的条约。`
+			`	当你离开峰会去吃午饭时，西林和萨亚里拦住了你。`
+			`	"麻烦了。我们需要谈谈，"锡林说。你跟着他们来到一个私人会议室。`
 			choice
-				`	"What's wrong?"`
+				`	"怎么了？"`
 					goto whut
-				`	"Really? I thought we had figured everything out."`
+				`	"真的吗？我以为我们已经弄清楚了一切。"`
 					goto need2talk
-				`	"Hey, don't worry. Whatever it is, I'm sure we've been through worse."`
-			`	Sayari rolls her eyes and says, "Don't relax yet, Captain <last>. There is one more minor disaster to be averted."`
+				`	"嘿，别担心。不管它是什么，我相信我们已经经历了更糟糕的情况。"`
+			`	萨亚里翻了个白眼，说："先别放松，船长<last>。还有一个小灾难要避免。"`
 				goto whut
 			label need2talk
-			`	Sayari says, "It would have been too easy if it was all over. We have one more minor disaster to avert first."`
+			`	萨亚里说，"如果一切都结束了，那就太容易了。我们还有一个小灾难要先避开。"`
 			label whut
-			`	Xilin begins. "It seems that somewhere along the way, a shipload of kidnapped Hai didn't make it to a processing area. The Hai were left on Sunracer, and the ship appears to have disappeared."`
-			`	"For the moment," says Sayari, "We're the only ones who know about it. The Hai are in hiding but have tapped into a communication grid. I intercepted their transmission as it was routed through this station directly."`
-			`	Xilin looks at you pointedly. "We need you to go pick them up and bring them here. While you're at it make sure there aren't any loose ends. If it's not, this resolution may not happen, despite everything we've achieved."`
+			`	西林开始了。"似乎在途中的某个地方，一船被绑架的海族没有到达处理区。这些海族被留在Sunracer上，而这艘船似乎已经消失了。"`
+			`	"就目前而言，"萨亚里说，"我们是唯一知道此事的人。海族人躲藏起来，但已经接入了一个通信网。我截获了他们的传输，因为它是直接通过这个站台传输的。"`
+			`	西林尖锐地看着你。"我们需要你去接他们，把他们带到这里。在你去的时候要确保没有任何遗漏。如果没有，这个决议可能不会发生，尽管我们已经取得了一切。"`
 			choice
-				`	"Of course. I'll take care of it."`
-				`	"You deal with the diplomacy, and leave the heroism to me."`
-			`	The two look considerably less worried as you leave to solve this one last problem.`
+				`	"当然。我会处理好的。"`
+				`	"你来处理外交事务，把英雄主义留给我。"`
+			`	当你离开去解决这最后一个问题时，这两个人看起来大大地减少了担忧。`
 
 event "mountaintop ascendant"
 	system "Ultima Thule"
@@ -103,59 +103,59 @@ event "mountaintop ascendant"
 		government "Hai"
 		attributes hai "hai tourism"
 		landscape land/station0
-		description `This brand new station is built with wide, spacious interiors to accommodate the Hai's preferred geometric development pattern and long-term perspectives. The powerful holoprojection system, which once projected an "anomaly" into space to cover the wormhole, is now inactive. Now that the Hai are entering public relations with human governments, this station has come into its own. A wide concourse facilitates social and business exchanges, as well as parades and demonstrations. The two uppermost decks handle state functions and diplomatic services, including the now famed Borealis Chamber, formally referred to as "Where Mountains Touch The Sky," where the public acknowledgment of the Hai was first given, and where the two species committed a formal resolution to define a treaty of cooperation.`
-		spaceport `The spaceport is a spacious docking assembly sheltered under broad, carapace-like structures which are arrayed around the lower decks like petals. It is designed to look impressive, and still has that shiny look and freshly oiled smell of a newly minted construction, though it has only basic facilities and services.`
+		description `这座全新的空间站建有宽大宽敞的内部空间，以适应海族喜欢的几何发展模式和长期的视角。强大的整体投影系统，曾经将一个 "异常点 "投射到太空中，以覆盖虫洞，现在已经停止使用。现在，海族正在进入与人类政府的公共关系，这个车站已经进入了自己的状态。一个宽阔的大厅为社会和商业交流，以及游行和示威提供了便利。最上面的两层甲板处理国家职能和外交服务，包括现在著名的博莱利斯厅，正式称为 "山与天空接触的地方"，在那里第一次公开承认海族，并在那里两个物种承诺正式决议，确定合作条约。`
+		spaceport `航天港是一个宽敞的对接组件，它被宽大的、类似于护罩的结构所遮蔽，这些结构像花瓣一样排列在下层甲板上。它的设计让人印象深刻，而且仍然有新造建筑的那种闪亮的外观和新油的味道，尽管它只有基本的设施和服务。`
 		security 1
 	
 mission "Hai Reveal [C02] Cleanup"
 	landing
-	name "Hai Diplomacy"
-	description "Pick up a misplaced group of kidnapped Hai and find out what happened."
+	name "海上外交"
+	description "接走一群被绑架的海族人，并找出发生了什么。"
 	source "Mountaintop"
 	stopover "Sunracer"
 	destination "Mountaintop"
 	passengers 23
-	blocked "You need <bunks> passenger spaces to pick up the misplaced Hai; make sure you have that, and then return here."
+	blocked "你需要<bunks>乘客空间来接回被绑架的海族；确保你有这个空间，然后回到这里。"
 	to offer
 		has "Hai Reveal [C01] Cleanup: done"
 	on stopover
 		conversation
-			`Arriving on Sunracer, you follow the coded coordinates you were given to avoid drawing unnecessary attention. With the Hai's first public appearance only just days past and still dominating the news cycle, you've been instructed to keep this as low-profile as possible. Fortunately, a glance at the feeds your ship picks up seems to indicate that the government response has taken the wind out of the more sensationalist talking heads - or at least the ones with notable followings.`
-			`	The coordinates turn out to lead to a lean-to town built around a Star Barge. The Hai here were unable to all fit on the ship and appear to have built shelters out of local flora to keep out the weather. The communicator on the barge must be what was used to send a message. You find a clear space to land not too far away and make your way over.`
-			`	One of the Hai approaches you. "Are you Captain <last>?"`
+			`抵达Sunracer，你按照给你的编码坐标，避免引起不必要的注意。由于 "海 "的首次公开露面刚刚过去几天，并且仍在主导新闻周期，你被指示尽可能地保持低调。幸运的是，你的飞船接收到的信息似乎表明，政府的反应已经让那些耸人听闻的谈话者失去了兴趣--或者至少是那些有明显追随者的人。`
+			`	座标指向一个围绕星际驳船建造的简易城镇。这里的海族人无法全部上船，他们似乎用当地的植物搭建了庇护所来抵御天气。驳船上的通讯器一定是用来发送信息的。你在不远处找到一个空地，可以降落，然后走过去。`
+			`	一个海族人向你走来。"你是<last>船长吗？"`
 			choice
-				`	"Yes, that is me."`
-			`	He appears visibly relieved. "Oh good. We've been very concerned since we were dropped here. It's all very strange... we've no idea what's going on anymore."`
+				`	"是的，那是我。"`
+			`	他似乎明显地松了一口气。"哦，太好了。自从我们被丢在这里，我们一直很担心。这一切都很奇怪......我们不知道发生了什么事了。"`
 			label responses
 			choice
-				`	"The Hai are no longer a secret in human space, but they are concerned how you ended up here."`
+				`	"海族在人类空间不再是一个秘密，但他们担心你们怎么会在这里。"`
 					goto revealed
 					to display
 						not "Hai Reveal [C02] Cleanup: label revealed"
-				`	"What happened to the ship that brought you here?"`
+				`	"把你带到这里的飞船发生了什么？"`
 					goto kidnappers
 					to display
 						not "Hai Reveal [C02] Cleanup: label kidnappers"
-				`	"Well, let's get you home before anything else happens."`
+				`	"好吧，在发生其他事情之前，让我们带你回家吧。"`
 					goto depart
 			label revealed
 			action
 				set "Hai Reveal [C02] Cleanup: label revealed"
-			`	"Ah, we thought we saw something about that, but our comms are spotty, so we didn't rely on it. We all actually signed up to go to Mountaintop to take part in the facade, so it seemed especially suspicious."`
-			`	He shrugs. "An abundance of caution seemed warranted; we were kidnapped, after all."`
+			`	"啊，我们以为我们看到了有关的东西，但我们的通讯器很不稳定，所以我们没有依靠它。实际上我们都报名去山顶参加了门面，所以看起来特别可疑。"`
+			`	他耸耸肩。"谨慎行事似乎是有道理的；毕竟我们被绑架了。"`
 				goto responses
 			label kidnappers
 			action
 				set "Hai Reveal [C02] Cleanup: label kidnappers"
-			`	"We were en route to somewhere after the ship left Hai space. We don't really know what happened, but they received some kind of message that left them very concerned. They said something about hiding somewhere safe and landed here."`
-			`	At this point, he twists his face in a non-human manner you recognize as a Hai frown. "We were set down here for days and days. Our kidnappers couldn't seem to work out what they should do. Eventually, a woman landed next to us in this ship here," he explains, gesturing at the Star Barge. "She had them ferry us and all our stuff out to this ship, and then she took charge and flew off with them. That was when we sent the message. We were partly afraid it was some kind of elaborate trap when we saw that we could communicate to a Hai address directly. We never used to be able to communicate between human space and ours like that. I guess we were lucky this time."`
+			`	"在飞船离开海空间后，我们正在前往某地的途中。我们真的不知道发生了什么，但他们收到了某种信息，让他们非常担心。他们说了一些关于藏在安全的地方，然后在这里降落。"`
+			`	在这一点上，他以一种非人类的方式扭曲他的脸，你可以认出是海族的皱纹。"我们被定在这里好几天了。绑架我们的人似乎无法想出他们应该做什么。最后，一个女人在这艘船上降落在我们旁边，"他解释说，指了指星际驳船。"她让他们把我们和我们所有的东西渡到这艘船上，然后她负责和他们一起飞走。那就是我们发出信息的时候。当我们看到我们可以直接与海的地址沟通时，我们部分地担心这是某种精心设计的陷阱。我们以前从来没有能够在人类空间和我们的空间之间进行这样的沟通。我想这次我们很幸运。"`
 			choice
-				`	"Do you know where they went?"`
-				`	"What did this woman look like?"`
-			`	"The woman was very fierce and very strict about what people said aloud. She disciplined a number of our kidnappers in front of us for opening their mouths at the wrong time. We have no idea where they went, but we did hear one of them say that they were afraid they wouldn't be welcome there. It sounded like it was out of the way somewhere, wherever it was."`
+				`	"你知道他们去哪里了吗？"`
+				`	"这个女人是什么样子的？"`
+			`	"这个女人非常凶悍，对人们大声说话的要求非常严格。她当着我们的面惩戒了好几个绑匪，因为他们在错误的时间张嘴说话。我们不知道他们去了哪里，但我们确实听到其中一个人说，他们害怕在那里不受欢迎。听起来好像是在某个偏僻的地方，不管是在哪里。"`
 				goto responses
 			label depart
-			`	The Hai sincerely thanks you, and they load their meager possessions and board your ship in less than twenty minutes. The Star Barge isn't in good shape after being lived in instead of flown, so you leave it behind. The woman they described is almost undoubtedly Terry.`
+			`	海族人真诚地感谢你，他们在不到二十分钟的时间里装好了他们微薄的财产，登上了你的船。星际驳船在被居住而不是飞行之后，状态并不好，所以你把它留下了。他们描述的那个女人几乎毫无疑问是特瑞。`
 
 
 mission "Hai Reveal [C02A] Cleanup"
@@ -165,14 +165,14 @@ mission "Hai Reveal [C02A] Cleanup"
 	to offer
 		has "Hai Reveal [C02] Cleanup: active"
 	on enter Mirfak
-		dialog "A message from Stephen Moray pops up before you can depart Mirfak. 'Hey, Captain. It seems Terry has gone missing; if you see her, let her know she will lose her position if she doesn't return to her duties soon.'"
+		dialog "在你离开米尔法克之前，一条来自斯蒂芬-莫雷的信息突然出现。'嘿，船长。看来特里已经失踪了；如果你看到她，让她知道如果她不尽快返回岗位，她将失去她的职位。"
 		fail
 
 
 mission "Hai Reveal [C03] Cleanup"
 	landing
-	name "Loose Ends"
-	description "See if you can find Terry. She might have been involved in the kidnappings."
+	name "松散的结局"
+	description "看看你是否能找到泰瑞。她可能参与了绑架案。"
 	source "Mountaintop"
 	destination "Freedom"
 	to offer
@@ -180,20 +180,20 @@ mission "Hai Reveal [C03] Cleanup"
 	on offer
 		log `Recovered Hai after mysterious circumstances left them on Sunracer. Heading to Freedom to follow up on a hunch about this loose end. Will hopefully find answers there.`
 		conversation
-			`	When you return to Mountaintop, an all-Hai greeting party is waiting to provide aid and coordinate the safe return of those you've rescued from Sunracer. It appears to have avoided media attention, and the summit is progressing toward a resolution at an acceptable rate. It's been slow going: the Hai and human legal systems are so different that establishing common legal terms of reference has been a long-winded exercise.`
-			`	You've had a couple of days to contemplate the turn of events that led to you hauling a group of spontaneously abandoned Hai out of Syndicate space. The timing seems suspect, the individual seems familiar, and there's just something about what the Philosophers said that you just can't shake.`
-			`	While your passengers are quietly loaded onto a handful of transports to be taken home, Sayari and Xilin find you somewhere quiet. "Thank you, <last>. You had all the necessary discretion at this sensitive time," says Sayari.`
-			`	Xilin is more direct, "I'll certainly thank you for saving me from another headache. Was there anything else you found? It seems so odd."`
+			`	当你回到山顶时，一个全海族的迎接队伍正等待着提供援助，并协调你从Sunracer救出的人的安全返回。这似乎避免了媒体的关注，峰会正以可接受的速度向解决的方向发展。进展缓慢：海族和人类的法律体系是如此不同，以至于建立共同的法律职权范围一直是一项冗长的工作。`
+			`	你有几天时间来考虑导致你把一群自发遗弃的海族人拖出辛迪加空间的事件转变。时机似乎很可疑，这个人似乎很熟悉，而且哲学家们说的一些话让你无法动摇。`
+			`	当你的乘客被悄悄地装上少数几艘运输船被带回家时，萨亚里和西林在一个安静的地方找到了你。"谢谢你，<last>。在这个敏感时期，你有所有必要的谨慎，"萨亚里说。`
+			`	西林更直接，"我当然会感谢你，因为你让我免于再次头痛。你还有什么发现吗？这看起来很奇怪。"`
 			choice
-				`	"There is something, but I should deal with it myself."`
-			`	They both frown and huddle in closer. "Do you think some of the kidnappers escaped? Do you think they'll continue?" asks Sayari.`
+				`	"是有一些，但我应该自己处理。"`
+			`	他们俩都皱起眉头，蜷缩在一起。"你认为有些绑匪逃脱了吗？你认为他们会继续吗？"萨亚里问道。`
 			choice
-				`	"No, but I think there's one thing I should check out."`
-			`	Xilin raises an eyebrow. "Is this something I'm going to have to report?"`
+				`	"不，但我认为有一件事我应该去看看。"`
+			`	西林挑了挑眉毛。"这是我必须要报告的事情吗？"`
 			choice
-				`	"Not if I can help it."`
-				`	"Hopefully not, but we'll see."`
-			`	You leave them with only guesses. You're not entirely sure yourself what's going on, but you do know one thing: you have to go to Freedom, where this all began.`
+				`	"如果我能帮助它，就不会。"`
+				`	"希望不会，但我们会看到。"`
+			`	你留给他们的只有猜测。你自己也不完全确定发生了什么，但你知道一件事：你必须去自由，这一切的开始。`
 				accept
 
 # These don't have to be here, but this is where they used to be defined by event, and these are the systems used for this going forward.
@@ -246,53 +246,53 @@ system "Al Hurr"
 planet Aspiration
 	attributes pirate
 	landscape land/sea17-harro
-	description `The world of Aspiration appears to be a mild, habitable world, but one currently in an advanced ice age now slowly retreating. The equatorial region of the planet is warm and comfortable, a cool temperate at the present time. The native biosphere seems to be mostly grasses and something resembling pine trees. In a few thousand years, it might look similar to Earth before it was paved over. For now, it's a sparse world with a single major town built on a promontory, overlooking a wide river mouth which carries runoff from continental scale glaciers to the sea.`
-	spaceport `The spaceport on Aspiration is a spaceport in the same way that an airport at a regional town is an airport. It has the most minimal facilities to handle a ship landing without disturbance to the nearby town, and that is it. There are no shops or stalls. Aspiration is not on any trade routes and it does not expect visitors. A lone freighter is parked permanently on the outskirts.`
+	description `愿望的世界似乎是一个温和的、可居住的世界，但目前处于高级冰期，现在正在缓慢退缩。这个星球的赤道地区是温暖舒适的，目前是凉爽的温带。当地的生物圈似乎主要是草和类似于松树的东西。几千年后，它可能看起来类似于地球被铺设前的样子。目前，它是一个稀疏的世界，只有一个主要城镇建在海角上，俯瞰一个宽阔的河口，将大陆规模的冰川的径流带到海上。`
+	spaceport `愿望号上的太空港是一个太空港，就像一个地区城镇的机场是一个机场一样。它有最起码的设施来处理船只的降落，而不干扰附近的城镇，仅此而已。这里没有商店或摊位。愿望镇不在任何贸易路线上，也不期待游客。一艘孤独的货船长期停在郊区。`
 
 
 
 mission "Hai Reveal [C04] Cleanup"
 	landing
-	name "Loose Ends"
-	description "Find Aspiration in the Al Hurr system. It wasn't on the maps before, but it's supposed to be close by."
+	name "松散的结局"
+	description "在Al Hurr系统中找到Aspiration。它以前不在地图上，但它应该就在附近。"
 	source "Freedom"
 	destination "Aspiration"
 	clearance
 	to offer
 		has "Hai Reveal [C03] Cleanup: done"
 	on enter Almaaz
-		dialog `As you depart the planet, you notice a new system has appeared on your scanners to the southwest. You should adjust your destination accordingly.`
+		dialog `当你离开这个星球时，你注意到在你的扫描器上出现了一个新的系统，在西南方。你应该相应地调整你的目的地。`
 	on offer
 		event "lofty goals"
 		log `Confirmed the loose end is Terry. Discovered the existence of another system in the Far North only accessible via jump drive.`
 		conversation
-			`	When you land on Freedom, the spaceport is busy as ever, but as you go around asking if anyone has seen a woman matching Terry's description, people start acting unusually toward you. You wouldn't describe it as frosty: no one actually seems to know anything, and they remain as friendly and helpful as you'd expect a bunch of anarchists to be. Yet, the more you ask around, the more it seems that people are following you around and whispering to each other. You wonder just who Terry really is, and just how deeply involved she was. She seems to have been one step ahead all the way.`
-			`	As you go down a short, wide alley flanked by tall buildings, you hear the creak of hinges behind you and turn around to see a great wooden gate being closed. The same happens in front of you at the other end of the alley, and the people in the alley suddenly disappear through doorways. As you're looking around, you realize nearly a dozen plasma rifles are pointing at you from windows in upper floors.`
+			`	当你在自由号上降落时，太空港一如既往地繁忙，但当你四处询问是否有人见过符合特里描述的女人时，人们开始对你表现得很不寻常。你不会把它描述为冷漠：实际上没有人似乎知道什么，他们仍然像你所期望的一群无政府主义者那样友好和乐于助人。然而，你越是四处打听，就越觉得人们在跟踪你，并相互窃窃私语。你想知道泰瑞到底是谁，以及她的参与程度有多深。她似乎一直都在领先一步。`
+			`	当你走过一条短而宽的小巷，两边是高大的建筑物，你听到身后铰链的吱吱声，转过身来，看到一扇大木门正在关闭。同样的情况也发生在你面前的小巷另一端，小巷里的人突然从门缝中消失。当你环顾四周时，你发现有近十支等离子步枪正从高层的窗户指向你。`
 			choice
-				`	(Shout.)`
-				`	(Draw your weapon.)`
-				`	(Raise your hands.)`
+				`	(喊话。)`
+				`	(拔出你的武器。)`
+				`	(举起你的手。)`
 					goto surrender
-			`	The people in the windows don't take very kindly to your decision, and very quickly make sure it's your last.`
+			`	窗户里的人对你的决定不以为然，并很快确定这是你的最后一次。`
 				die
 			label surrender
-			`	An elderly woman arises from her seat in a deep-set alcove and shuffles out in front of you with a gnarled, wooden walking stick. Despite her weathered skin and obvious age, her eyes are clear as she looks at you with veiled judgment. "You are a long way from home, Captain <last>."`
+			`	一个老妇人从她在一个深凹处的座位上站起来，拿着一根参差不齐的木制手杖在你面前晃来晃去。尽管她的皮肤饱经风霜，年龄明显偏大，但她的眼睛却很清澈，她带着隐晦的判断力看着你。"你离家很远，船长<last>。"`
 			choice
-				`	"I suppose that is true."`
-			`	She chuckles. "Now, what would bring the infamous war hero all the way to my humble abode?"`
-			`	"I'm looking for Terry Adrianopolous, I believe she might have come here," you answer.`
-			`	"Oh, I know very well who you're looking for, Captain," she says. "My question has more to do with the why."`
+				`	"我想这是真的。"`
+			`	她笑着说。"现在，是什么让这位臭名昭著的战争英雄大老远地来到我的寒舍？"`
+			`	"我在找特里-阿德里安-波洛斯，我相信她可能来过这里，"你回答。`
+			`	"哦，我很清楚你要找的是谁，上尉，"她说。"我的问题更多的是关于为什么。"`
 			choice
-				`	"I need to tie up some loose ends."`
-				`	"I need to know the answer to a question."`
+				`	"我需要把一些未了结的事情解决。"`
+				`	"我需要知道一个问题的答案。"`
 					goto question
-			`	She shakes her head, "The only loose end here is you."`
-			`	The people in the windows open fire.`
+			`	她摇摇头，"这里唯一的枝节是你。"`
+			`	窗户里的人开了火。`
 				die
 			label question
-			`	She stares into your eyes for a few long seconds, and then she bows her head. You think you catch sight of a tear glistening as she turns away. "If you have the means, point your scanners towards Mebsuta from here. Seek out Aspiration."`
-			`	Her voice catches at the end, and she looks back at you from the corner of her eye. "If you have it in your heart to do so, please, do not harm my great-granddaughter."`
-			`	She steps to a doorway and vanishes inside. Within seconds, the windows are closed, the gates are open, and you are left alone in the alley with the bustle of the spaceport beyond.`
+			`	她盯着你的眼睛看了几秒钟之久，然后她低下了头。你觉得你看到了她转身离开时闪烁的泪光。"如果你有办法，从这里把你的扫描器指向梅布苏塔。寻找Aspiration。"`
+			`	她的声音在结尾处戛然而止，她从眼角的余光中回望着你。"如果你有心要这么做，请不要伤害我的曾孙女。"`
+			`	她走到一个门口，消失在里面。几秒钟内，窗户关闭了，大门打开了，你被单独留在巷子里，外面是熙熙攘攘的太空港。`
 				accept
 	# This is a gamble. If you indicate in any way that you are overtly hostile, she'll kill you and deal with the consequences later.
 	# She also knows that if you go missing, someone else will come looking. Someone will eventually find her great-granddaughter, and she can't intercept everyone.
@@ -306,8 +306,8 @@ event "lofty goals"
 
 mission "Hai Reveal [C05] Cleanup"
 	landing
-	name "Loose Ends"
-	description "Return to the summit and assure Sayari and Xilin that there will be no further problems."
+	name "松散的结局"
+	description "回到山顶，向萨亚里和西林保证不会有进一步的问题。"
 	source "Aspiration"
 	destination "Mountaintop"
 	clearance
@@ -315,120 +315,120 @@ mission "Hai Reveal [C05] Cleanup"
 		has "Hai Reveal [C04] Cleanup: done"
 	on offer
 		conversation
-			`	Your arrival is unobstructed as you land on this mild, habitable world that appears to be in an advanced, but retreating, ice age. No one comes to greet you at the spaceport, either. As you wander into the single major town, built on a promontory overlooking a wide river mouth, you notice that the people here seem to be happy and the town appears to be remarkably modern. This place has been looked after by someone who knew how to source the necessary import goods to support it on this sparse world of grasses and something resembling pine trees - someone who was Chief of Operations of the Syndicate, for example...`
-			`	You spend about fifteen minutes looking around before a young boy walks up and addresses you. "Hey, stranger sir. I've been asked to tell you that Terry is out on the bluff waiting for you."`
+			`	当你降落在这个温和的、适合居住的世界上时，你的到来没有任何阻碍，这个世界似乎处于先进的、但正在退却的冰河时代。在太空港也没有人前来迎接你。当你漫步进入唯一的主要城镇时，它建在一个俯瞰宽阔河口的海角上，你注意到这里的人们似乎很高兴，而且这个城镇似乎非常现代化。这个地方已经被某个知道如何在这个只有草和类似松树的稀疏世界上采购必要的进口货物来支持它的人照顾着--比如说，某个曾是辛迪加的运营主管的人......`
+			`	你花了大约15分钟四处张望，然后一个小男孩走了过来，对你说。"嘿，陌生的先生。有人让我告诉你，特瑞在悬崖上等着你。"`
 			choice
-				`	"Who are you?"`
-				`	"How do you know Terry?"`
-				`	"What is this place?"`
-			`	Before you can respond, he's dashed away.`
-			`	When you get out to the bluff, there is a single individual standing on a level section with scrubby grass tufting between bare rock. The city is obscured from here, and you could believe you were isolated from all of civilization. As you approach, it becomes clear the individual is indeed Terry. The wind whips her hair around her constantly, and there is a chill here that is only partly the fault of the wind. Could this one young woman really have been behind all of this trouble, all of this death and suffering, everything that was risked between the Hai and humanity?`
-			`	As you approach, she turns, and you can see she has been crying. "You know you ruined everything," she says. "We were so close." The wind almost steals her last word and you unconsciously step closer to hear her better, causing her to tense.`
+				`	"你是谁？"`
+				`	"你怎么认识泰瑞的？"`
+				`	"这是什么地方？"`
+			`	你还没来得及回答，他就冲了出去。`
+			`	当你走到悬崖边时，有一个人站在一个平坦的地段上，光秃秃的岩石之间长满了灌木丛生的草。城市从这里被遮住了，你可以相信你是与所有的文明隔绝的。当你走近时，你会发现这个人确实是泰瑞。风不断地吹拂着她的头发，这里有一种寒意，这只是风的部分原因。这个年轻的女人是否真的是所有这些麻烦、所有这些死亡和痛苦、海和人类之间的一切风险的幕后推手？`
+			`	当你接近时，她转过身来，你可以看到她一直在哭。"你知道你毁了一切，"她说。"我们是如此接近。"风几乎偷走了她的最后一个字，你不自觉地走近，以便更好地听她说话，导致她紧张起来。`
 			choice
-				`	"So close to what?"`
-			`	"To changing everything, to remaking the Syndicate, to creating a whole new political order."`
-			`	She wipes away a tear and visibly steels herself to speak, "I was Alastair's chosen successor, I had already dealt with the competition, a few more years and I'd have been a hero!"`
-			`	She turns slightly and gestures at the sea. "Instead now I'm here, and you get to be the hero, a dumb war hero," her voice rises in pitch and volume, "Never mind a brighter future for humanity!"`
-			`	Her expression seems to be wrestling between fury and despair at this point, "So now what? You here to kill me then?!"`
+				`	"如此接近什么？"`
+			`	"为了改变一切，为了重塑辛迪加，为了创造一个全新的政治秩序。"`
+			`	她擦去一滴眼泪，明显地加强了自己的说话能力。"我是阿拉斯泰尔选定的继任者，我已经处理好了竞争，再过几年，我就会成为一个英雄！"`
+			`	她微微转身，对着大海做了个手势。"相反，现在我在这里，而你却成了英雄，一个愚蠢的战争英雄，"她的声音提高了音调和音量，"别忘了人类的美好未来！"`
+			`	她的表情此时似乎在愤怒和绝望之间徘徊。"那么现在呢？那你是来杀我的吗？"`
 			choice
-				`	"You kidnapped thousands of people. How is that a brighter future?"`
-			`	"Of course you have no idea!" she throws up her hands and expresses a noise of frustration.`
-			`	Her voice drops to a more reasonable level. "I never wanted to kidnap people," Terry says, then lowers her voice even more. "I inherited that legacy..."`
-			`	"You still profited off it, did nothing to stop it," you point out.`
-			`	Your tone had not been accusatory, but merely matter of fact, and yet they seem to have struck her like a sack of bricks. Her composure shatters, and she begins to sob, sinking to her knees and shielding her face from the wind.`
-			`	"It was never meant to be like this," she forces out between sobs. "But the Philosophers were our only resource, and we weren't in control anymore.`
-			`	"We wanted to reform the government, make it better, make it work for the people instead of against them. We dealt with the devil to keep that dream alive. I guess I should have expected it to get us burnt eventually."`
+				`	"你绑架了成千上万的人。这怎么是一个光明的未来？"`
+			`	"你当然不知道！"她举起双手，表示出一种沮丧的声音。`
+			`	她的声音降到了一个更合理的水平。"我从未想过要绑架人，"特里说，然后把声音压得更低。"我继承了这个遗产......"`
+			`	"你仍然从中获利，没有做任何事情来阻止它，"你指出。`
+			`	你的语气不是指责，而只是就事论事，但这些话似乎像一袋砖头一样砸在她身上。她的镇静被打破了，她开始啜泣，跪在地上，用脸挡住风。`
+			`	"事情本来不应该是这样的，"她在啜泣之间强行说出。"但哲学家们是我们唯一的资源，而我们已经无法控制了。`
+			`	"我们想改革政府，让它变得更好，让它为人民工作而不是反对他们。我们与魔鬼打交道以保持这个梦想。我想我应该想到它最终会让我们被烧死。"`
 			choice
-				`	"Who is 'us?'"`
-			`	She sighs. "My father and I, and a couple of the old survivors of the purge. It's only me left now though, just one Base Principle."`
-			`	You shake your head and ask, "Do you realize you nearly started a war that would have killed millions? Possibly ended human government entirely?"`
-			`	"I know," she says, calm now. "Obviously not my intent, but maybe that would have been better in the long run than the Republic and its corruption. There's no apology appropriate for it, and I can't pretend it would be totally sincere on that front. War changes things; sometimes some pain in the short term is needed for a better future.`
-			`	"The Free Worlds were almost the perfect catalyst, but none of us could have predicted the Pug. Still, that nearly forced Alastair into retirement; it was almost enough. Were it not for the Pug, I would already be running the Syndicate, and there would have been no further risk with the Hai. None of this would have ever happened."`
-			`	Her expression is defiant. "No one would have cared about a few missing people in the world I would have built! It's a necessary sacrifice in the name of progress, and I would've shut down the pirates myself!"`
+				`	"谁是'我们'？"`
+			`	她叹了口气。"我的父亲和我，还有几个清洗行动的老幸存者。不过现在只剩下我了，只有一个基地原则。"`
+			`	你摇摇头，问道："你是否意识到你几乎发动了一场会杀死数百万人的战争？可能会完全结束人类政府？"`
+			`	"我知道，"她说，现在很平静。"显然不是我的本意，但也许从长远来看，那会比共和国和它的腐败更好。没有合适的道歉，我也不能假装在这方面会完全真诚。战争会改变一切；有时为了更好的未来，短期内需要一些痛苦。`
+			`	"自由世界 "几乎是完美的催化剂，但我们中没有人能够预测到帕格。尽管如此，这几乎迫使阿拉斯泰尔退休；这几乎已经足够了。如果不是 "帕格"，我已经在管理集团了，而且 "海 "也不会有进一步的风险。这一切都不会发生。"`
+			`	她的表情是挑衅的。"在我建立的世界里，没有人会关心几个失踪的人！"。这是以进步的名义作出的必要牺牲，而且我本来会亲自关闭海盗！"`
 			choice
-				`	"It's always fine to say as much about plans that were never fulfilled."`
-				`	"People would have always had a problem with kidnappings."`
-			`	She gives you a hard stare, but her resolve isn't up to the task for more than a couple seconds. She looks away, and you can see her blinking away more tears. "Is this to be my end, then?" she asks. "Is this the price I pay for my efforts?"`
+				`	"对于那些从未实现的计划，说这么多总是好的。"`
+				`	"人们对绑架总是会有意见的。"`
+			`	她狠狠地瞪了你一眼，但她的决心并没有超过几秒钟的时间。她望着远方，你可以看到她眨着眼睛带走更多的眼泪。"那这就是我的结局吗？"她问道。"这就是我为我的努力付出的代价吗？"`
 			label decide
 			choice
 				# First option is to ask for clarification:
-				`	"Am I to be judge, jury, and executioner?"`
+				`	"我将成为法官、陪审团和刽子手吗？"`
 					goto judge
 					to display
 						not "Hai Reveal [C05] Cleanup: label judge"
 
 				# Next two are the silent endings, which are available regardless:
-				`	(Spare her silently.)`
+				`	(默默地放过她。）`
 					goto spare
-				`	(End her wordlessly.)`
+				`	(无言地结束她。)`
 					goto end
 
 				# Justifications are only available after asking for clarification:
-				`	(Spare her.) "There is no other home for you now. Let that be your justice."`
+				`	(饶恕她。) "现在你没有别的家了。让这成为你的正义。"`
 					goto spare
 					to display
 						has "Hai Reveal [C05] Cleanup: label judge"
-				`	(End her.) "Justice is the price you pay."`
+				`	(结束她。) "正义是你付出的代价。"`
 					goto end
 					to display
 						has "Hai Reveal [C05] Cleanup: label judge"
-				`	(Spare her.) "I've sinned more than you. If people like us decided what is right or wrong, the galaxy would be in cinders."`
+				`	(饶了她吧。) "我的罪过比你还大。如果像我们这样的人决定什么是对的或错的，银河系会变成焦炭。"`
 					goto spare
 					to display
 						has "Hai Reveal [C05] Cleanup: label judge"
 
 				# The callous option is available regardless, but it's after the "I thought about it" options:
-				`	(End her.) "This is for all the trouble you've caused me."`
+				`	(结束她。) "这是为你给我带来的所有麻烦。"`
 					goto end
 
 				# Joke options are only available if you don't care enough to ask for clarification:
-				`	(Spare her.) "Consider this my movie review."`
+				`	(饶了她吧。"就当这是我的影评吧。"`
 					goto spare
 					to display
 						not "Hai Reveal [C05] Cleanup: label judge"
-				`	(End her.) "Consider this my movie review."`
+				`	(结束她。) "就当这是我的影评。"`
 					goto end
 					to display
 						not "Hai Reveal [C05] Cleanup: label judge"
 
 			label spare
-			`	You draw your weapon and point it at her, your thumb on the safety. When you look inside yourself, though, you cannot bring yourself to be her executioner.`
+			`	你拔出你的武器，对准她，你的拇指放在保险上。但是，当你审视自己的内心时，你无法让自己成为她的刽子手。`
 			action
 				set "spared terry"
 				log `Hunted down Terry on Aspiration and confronted her about the events that led you there. The remnants of the anarcho-syndicalist, anti-Syndicate organization called Base Principles were associated with this planet. There are no other actual individuals here that were involved (at least, not anymore), but this community was built in isolation with people who believed in the principles of anarcho-syndicalism. Allowed her to live, but nevertheless this loose end is thoroughly tied up.`
 				log "People" "Terry Adrianopoulos" `During the Hai-human crisis, Terry was arrested when it seemed like war might break out, but was released when the threat of conflict ended. She immediately vanished and was later identified in association with some lingering kidnappers. It is unclear what happened to them, but it is implied that she dealt with them in some way. It turned out that she had been a lone operative infiltrating the Syndicate for many years, with the goal of seizing control and rebuilding the government to be less corrupt, but she condoned kidnapping and exploitation to achieve it. With her life in ruins, she continues to live on the world of Aspiration, far from civilization.`
-			`	The holster clicks as you put the weapon away.`
+			`	当你收起武器时，皮套发出咔哒声。`
 				goto return
 			label end
-			`	You draw your weapon and point it at her, your thumb on the safety. Some prices are too high to pay for a better future.`
+			`	你拔出你的武器，对准她，你的拇指放在保险上。为了一个更好的未来，有些代价太高了。`
 			action
 				set "ended terry"
 				log `Hunted down Terry on Aspiration and confronted her about the events that led you there. The remnants of the anarcho-syndicalist, anti-Syndicate organization called Base Principles were associated with this planet. There are no other actual individuals here that were involved (at least, not anymore), but this community was built in isolation with people who believed in the principles of anarcho-syndicalism. Chose to end her life. This loose end is thoroughly tied up.`
 				log "People" "Terry Adrianopoulos" `During the Hai-human crisis, Terry was arrested when it seemed like war might break out, but was released when the threat of conflict ended. She immediately vanished and was later identified in association with some lingering kidnappers. It is unclear what happened to them, but it is implied that she dealt with them in some way. It turned out that she had been a lone operative infiltrating the Syndicate for many years, with the goal of seizing control and rebuilding the government to be less corrupt, but she condoned kidnapping and exploitation to achieve it. Her story ended on the bluffs of Aspiration, though no one may ever know it.`
-			`	The retort of the weapon is taken away on the wind.`
+			`	武器的反击声被风带走了。`
 				goto return
 			label judge
 			action
 				set "Hai Reveal [C05] Cleanup: label judge"
-			`	"You'd better be," she says. "You and I both know that this can't become public. If you take me to the Syndicate they will do away with me if they find out, and I doubt they could manage to not."`
-			`	"Oh, Moray told me to say you're fired if you don't get back quickly... that was over a week ago now," you tell her.`
-			`	She rolls her eyes. "Of course, this is exactly the sort of callous governance I expect of them.`
-			`	"Don't distract from the point though. I can never go back. You're the only one who knows everything, and no one else can know it all. Taking me back is a guarantee that I'll be 'disappeared' - you might as well pull the trigger yourself. You must decide here, now, how this ends.`
-			`	"You are the judge, whether you like it or not, and no one else will carry out your judgment."`
+			`	"你最好是这样，"她说。"你我都知道，这不能公开。如果你把我带到辛迪加，如果他们发现，他们会把我做掉，我怀疑他们能不能设法不。"`
+			`	"哦，莫雷让我说，如果你不赶快回来，你就被解雇了......那是一个多星期前的事了，"你告诉她。`
+			`	她揉了揉眼睛。"当然，这正是我所期望的那种无情的治理。`
+			`	"不过，不要偏离重点。我再也不能回去了。你是唯一知道一切的人，没有人能够知道这一切。带我回去就是保证我'消失'--你还不如自己扣下扳机。你必须在这里决定，现在，这一切如何结束。`
+			`	"你是法官，无论你喜欢与否，没有其他人会执行你的判决。"`
 				goto decide
 			label return
-			`	You return to your ship. You're done here.`
+			`	你回到了你的船上。你在这里结束了。`
 				accept
 	on complete
 		event "hai-human resolution announced"
 		fail "Hai Reveal [A11-A] Permanent Fleets"
 		fail "Hai Reveal [B02-A] The Blockade Goes Up"
 		conversation
-			`When you return to <planet>, you reassure Sayari and Xilin that there is nothing more to do. The danger is over, for good.`
-			`	As it happens, the summit has functionally concluded by the time you return. In fact, diplomats had been running interference to prolong things, knowing that your return could potentially have critical consequences. Now that you're here, the remaining agenda items miraculously get resolved within hours, and late in the day, you find yourself once again "Where Mountains Touch The Sky," as the successful resolution is announced.`
-			`	The historic moment lays the groundwork for a future official treaty framework and governmental cooperation, as well as establishing <planet> as the principle diplomatic embassy for both peoples. Less publicly, extensive surveillance fleets are posted on both sides of the wormhole to detect any kidnappings or other illegal travel. Now, the only way for illicit transfers to happen is if a government employee is involved, but all three countries have quietly agreed to watch for that behavior and punish it severely.`
-			`	At last, it really is over, and you can get back to your own life.`
-			`	Maybe you'll have to find out who the Unfettered were stealing their other technologies from. They mentioned another group: the "Wanderers."`
+			`当你回到<planet>时，你让萨亚里和西林放心，没有什么可做的了。危险已经结束了，永远的结束了。`
+			`	碰巧的是，在你回来的时候，峰会已经在功能上结束了。事实上，外交官们一直在进行干扰，以延长事情的时间，因为他们知道你的返回有可能产生关键的后果。现在你在这里，剩余的议程项目在几个小时内奇迹般地得到了解决，而在当天晚些时候，你发现自己再次成为 "山脉触及天空的地方"，因为成功的决议被宣布。`
+			`	这一历史性时刻为未来的官方条约框架和政府合作奠定了基础，并将<planet>确立为两国人民的主要外交使馆。不太公开的是，在虫洞的两边都有广泛的监视舰队，以检测任何绑架或其他非法旅行。现在，非法转移发生的唯一途径是政府雇员参与其中，但所有三个国家都悄悄地同意观察这种行为，并对其进行严厉的惩罚。`
+			`	最后，事情真的结束了，你可以回到你自己的生活。`
+			`	也许你得找出 "不受约束者 "是在向谁偷取他们的其他技术。他们提到了另一个团体："流浪者"。`
 
 
 
@@ -644,4 +644,3 @@ event "hai-human resolution announced"
 		remove fleet "Smuggler (Hai Traffickers)"
 	system "Almach"
 		remove fleet "Smuggler (Hai Traffickers)"
-

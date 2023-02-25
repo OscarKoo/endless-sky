@@ -13,14 +13,14 @@
 
 mission "First Contact: Bunrodea (Hostile)"
 	landing
-	name "An Intriguing Invitation"
-	description "You have received an invitation, or summons, to the marked system by some mantis-like aliens who seem to have been following you around human space."
+	name "一个有趣的邀请"
+	description "你收到了一个邀请，或者说是传票，被一些像螳螂一样的外星人带到了有标记的系统，他们似乎一直在人类的空间里跟着你。"
 	source
 		near "Sol" 0 100
 		not attributes "urban" "station"
 		attributes "spaceport"
 	destination "Erabuthro"
-	clearance "After hailing the planet the map pointed you towards, you hear an alien voice respond. Before you can think of what to say, the small device that the aliens threw at you on <origin> responds for you. The voice on the other end says something short, then cuts the feed. It seems like you've been cleared to land."
+	clearance "在呼唤地图指向的星球后，你听到一个外星人的声音回应。在你能想到说什么之前，外星人在<origin>上扔给你的那个小装置为你做出了回应。另一端的声音说了一些简短的话，然后切断了信号。看来你已经被允许着陆了。"
 	to offer
 		random < 10
 		or
@@ -35,21 +35,21 @@ mission "First Contact: Bunrodea (Hostile)"
 		"bunrodea: erabu rep" = "reputation: Bunrodea (Erabu)"
 		"bunrodea: normal rep" = "reputation: Bunrodea"
 		conversation
-			`When you depart your ship, you're startled by a small alien ship uncloaking right in front of you. Two elegant mantis-like creatures step off it, each holding a strange looking weapon pointed directly at you. They have four long insectoid legs and two arms. Although their arms end in what look like hands, they also have strange claw-like features that partially enclose them, extending outward from their forearms to grasp their weapons. You look around to see if there's anyone else witnessing this, but you've landed at <origin>'s main spaceport in the middle of the night, leaving you as the only human in sight.`
-			`	The aliens begin speaking to you in a language you don't understand, their words interspersed with clicking noises. As one of them speaks, they sound almost robotic, as if they are speaking through a synthesizer. Taking a closer look, you spot what you can only guess are cybernetic modifications to parts of the alien's body; the alien's throat and one of its eyes look non-organic, as well as the joints of its legs. The other one has no such visible modifications, though.`
+			`当你离开你的飞船时，你被一艘在你面前展开的小型外星飞船惊呆了。两个优雅的螳螂一样的生物从船上走下来，每个人都拿着一个看起来很奇怪的武器，直接对准你。它们有四条长长的昆虫般的腿和两条胳膊。虽然它们的手臂末端看起来像手，但它们也有奇怪的爪子状特征，部分包围着它们，从它们的前臂向外延伸以抓住它们的武器。你环顾四周，想看看是否有其他人目睹了这一切，但你在半夜降落在<origin>的主要太空港，使你成为唯一看到的人类。`
+			`	外星人开始用你不懂的语言和你说话，他们的话中夹杂着咔嚓咔嚓的声音。当他们中的一个人说话时，他们的声音几乎是机器人的声音，好像他们是通过合成器说话。仔细一看，你发现你只能猜测是外星人身体部分的控制论修改；外星人的喉咙和它的一只眼睛看起来是非有机的，还有它的腿的关节也是如此。另一个则没有这种明显的修饰，不过。`
 			choice
-				`	"Do you come in peace?"`
-				`	"I don't understand a word you're saying."`
-				`	"Don't shoot! I'll take you to my leader."`
-			`	The aliens look at each other and say a few words. One of them grabs a small device from a belt and throws it on the ground in front of you.`
+				`	"你是为了和平而来吗？"`
+				`	"我不明白你在说什么。"`
+				`	"别开枪!我会带你们去见我的领袖。"`
+			`	外星人互相看了看，说了几句话。其中一个人从腰带上抓起一个小装置，扔在你面前的地上。`
 			choice
-				`	(Pick it up.)`
-				`	(Dodge for cover.)`
+				`	(捡起它。)`
+				`	(躲避掩护。)`
 					goto dodge
-			`	You pick up the device and look at it. It springs open in your hand, causing you to drop it. After it falls to the ground, it begins projecting a holographic star map. You recognize some of the systems on the map as those where you fought an alien fleet, made up of ships similar to the one in front of you. A single system within that region is highlighted. The aliens return to their ship, which becomes invisible again, and although you can't see it, you hear it take off and fly away.`
+			`	你捡起这个装置，看着它。它在你手中弹开，导致你掉落。在它掉到地上后，它开始投射出一个全息星图。你认出地图上的一些系统是你与一支外星舰队交战的地方，由类似于你面前的这艘船组成。该区域内的一个单一系统被突出显示。外星人回到他们的飞船上，飞船又变得看不见了，虽然你看不到它，但你听到它起飞飞走了。`
 				accept
 			label dodge
-			`	You dodge for cover behind your ship. After a few seconds, you hear a springing sound. When you look back out from behind your ship, the aliens are gone, and the device they threw at you is now projecting a holographic star map. You recognize some of the systems on the map as those where you fought an alien fleet, made up of ships similar to the one in front of you. A single system within that region is highlighted. The alien ship becomes invisible once again, and although you can't see it, you hear it take off and fly away.`
+			`	你躲在你的飞船后面做掩护。几秒钟后，你听到一阵弹跳声。当你从飞船后面回头看时，外星人已经不见了，他们扔给你的设备现在正投射出一幅全息星图。你认出地图上的一些系统是你与一支外星舰队交战的地方，由类似于你面前的这艘船组成。该区域内的一个单一系统被突出显示。外星飞船再次变得不可见，虽然你看不到它，但你听到它起飞并飞走了。`
 				accept
 	
 	on accept
@@ -61,160 +61,160 @@ mission "First Contact: Bunrodea (Hostile)"
 	on complete
 		"reputation: Bunrodea" = 10
 		conversation
-			`As you enter the atmosphere, you're flanked by two large alien ships which guide you to the surface, leading you to a particular landing zone. When you leave your ship, you're met by two aliens that look similar to the ones that startled you on <origin>, including having the same weaponry.`
-			`	As you take a moment to look around, you find yourself in the middle of a massive metropolis. Skyscrapers taller than anything you've ever seen in human space cover the horizon, although most of the buildings around you appear far more elegant in architecture. Directly ahead is a large palace-like building with a considerable number of steps leading up to the front doors.`
-			`	You take a step forward, but one of the aliens says something while waving its weapon around, and you take the hint that you shouldn't be moving right now. The other says something into a communication device, then sits down on the ground and gestures for you to do the same. You suspect that you might be waiting here for a while.`
+			`当你进入大气层时，你的侧面有两艘大型外星飞船，它们引导你到表面，把你带到一个特定的着陆区。当你离开你的飞船时，你遇到了两个外星人，它们看起来和在<origin>上吓到你的外星人相似，包括拥有相同的武器装备。`
+			`	当你花点时间环顾四周时，你发现自己处在一个巨大的大都市中。比你在人类空间所见过的任何东西都要高的摩天大楼覆盖了整个地平线，尽管你周围的大多数建筑物在建筑上看起来要优雅得多。正前方是一座大型宫殿式建筑，有相当多的台阶通向前门。`
+			`	你向前走了一步，但其中一个外星人一边说着什么，一边挥舞着它的武器，你接受了暗示，你现在不应该移动。另一个对着一个通讯设备说了些什么，然后在地上坐下来，并示意你也这样做。你怀疑你可能要在这里等上一段时间。`
 			choice
-				`	(Sit down.)`
+				`	(坐下。)`
 					goto sit
-				`	(Turn around and re-enter my ship.)`
-			`	You reenter your ship, and the aliens don't move to stop you. You decide to turn your ship back on and attempt to take off, but just as you try to activate the repulsor engines, you hear a loud buzzing sound coming from outside. You look out the nearest window, and see that the aliens have moved some sort of vehicle near your ship, buzzing with energy. You attempt to take off, but your ship's repulsor engines aren't moving you anywhere. The vehicle seems like it is deactivating any nearby repulsors.`
+				`	(转身，重新进入我的飞船）。`
+			`	你重新进入你的飞船，外星人没有移动来阻止你。你决定重新开启你的飞船并试图起飞，但就在你试图启动反作用力引擎时，你听到外面传来巨大的嗡嗡声。你从最近的窗户往外看，看到外星人在你的飞船附近移动了某种车辆，并发出嗡嗡的能量。你试图起飞，但你的飞船的反冲器引擎并没有让你移动到任何地方。这辆车似乎正在停用附近的排斥器。`
 			choice
-				`	(Blast the vehicle with a turret.)`
+				`	(用炮塔轰击该车辆。)`
 					to display
-						"flagship base attribute: turret mounts" > "flagship attribute: turret mounts"
-				`	(Leave my ship and sit down with the aliens.)`
+						"旗舰基础属性：炮塔坐骑" > "flagship attribute: turret mounts"
+				`	(离开我的飞船，和外星人一起坐下来。)`
 					goto leave
 			action
-				"reputation: Bunrodea" = -10
-				"reputation: Bunrodea (Guard)" = -10
-				"reputation: Bunrodea (Megasa)" = -10
-				"reputation: Bunrodea (Erabu)" = -10
-			`	You turn one of your turrets toward the vehicle and fire, then immediately try to pull up. It looks like your shot either destroyed the vehicle or disrupted it enough for you to escape its influence as your ship rapidly rises into the atmosphere. It looks like the aliens didn't take too kindly to your action, though, as you begin seeing ships targeting you on your radar.`
+				"声望。布罗迪亚" = -10
+				"声望：Bunrodea布罗迪亚(警卫)" = -10
+				"声誉。布罗迪亚(Megasa)" = -10
+				"声誉。布罗迪亚(Erabu)公司" = -10
+			`	你把你的一个炮塔转向车辆并开火，然后立即试图拉起。看起来你的射击要么是摧毁了车辆，要么是扰乱了它，足以让你逃离它的影响，因为你的飞船迅速升入大气层。不过，看起来外星人对你的行动并不感冒，因为你开始在雷达上看到针对你的飞船。`
 				flee
 			label leave
-			`	You exit your ship and sit down on the boarding ramp. The aliens that are watching you don't seem to care that you just tried to leave.`
+			`	你离开你的飞船，在登机坡道上坐下来。监视你的外星人似乎并不在意你刚刚试图离开。`
 				goto intro
 			label sit
-			`	You sit down on the boarding ramp of your ship and gaze at the scenery while you wait.`
+			`	你坐在你的飞船的登机坡道上，一边等待一边凝视着风景。`
 			label intro
-			`	After some time, you look up to the palace steps and notice a six-limbed creature unlike the mantis-like aliens watching over you. As it slowly makes its way downward and gets to the last few steps, the aliens guarding you stand to attention. You wonder if this entire time you've just been waiting for this alien to reach the bottom of the stairs.`
-			`	The creature approaches you on all six limbs, but stands up on its hind two legs once it is only a few paces away from you. It is rather small, hardly reaching your chin while it stands at full height, with big round eyes and a large, bulbous nose. It extends its four arms outward, revealing the palms of its hands. Except for its face and palms, it is covered in a thin layer of golden brown fur. It begins speaking. You can't understand what it's saying, but it seems to be cycling through various different languages and pausing after each line, as each sentence sounds wildly different from the last. You're suddenly startled when it says perfectly, "Hello."`
+			`	一段时间后，你抬头看向宫殿的台阶，注意到一个六肢生物，与监视你的螳螂般的外星人不同。当它慢慢往下走，走到最后几级台阶时，看守你的外星人站到了原地。你想知道这段时间你是否只是在等待这个外星人到达楼梯的底部。`
+			`	这个生物用六条腿向你走来，但在离你只有几步远的时候用后两条腿站了起来。它相当小，当它完全站立时，几乎达不到你的下巴，有一双大圆眼睛和一个大而鼓的鼻子。它将四只手臂向外伸展，露出手掌。除了脸和手掌，它身上覆盖着一层薄薄的金棕色毛皮。它开始说话。你听不懂它在说什么，但它似乎在循环使用各种不同的语言，并在每一句话后停顿，因为每一句话听起来都与上一句话大不相同。当它完美地说出 "你好 "时，你突然吓了一跳。`
 			choice
-				`	"Hello?"`
-				`	"Wait, say that again."`
+				`	"喂？"`
+				`	"等等，再说一遍。"`
 			label loop
-			`	"Hello," the creature repeats itself. "Hello. Hello. Hello," it continues to say.`
+			`	"你好。"这个生物重复自己的话。"你好。你好。你好。"它继续说。`
 			choice
-				`	"Can you say anything else?"`
-				`	"How do you know my language?"`
+				`	"你还能说什么吗？"`
+				`	"你怎么知道我的语言？"`
 					goto language
-				`	"Hello."`
+				`	"你好。"`
 					goto loop
-			`	"Can you say anything else?" it repeats back to you.`
+			`	"你还能说点什么吗？"它又重复问你。`
 				goto human
 			label language
-			`	"How do you know my language?" it repeats back to you.`
+			`	"你怎么知道我的语言？"它又重复问你。`
 			label human
-			`	"Human?" it asks.`
+			`	"人类？"它问道。`
 			choice
-				`	"Yes, I am a human."`
-				`	"What even are you?"`
-			`	"Human," it says to itself confidently. "Human. Human. Human," it repeats, looking around as if it is searching for something in its mind. "One... hundred years ago. Human," it says.`
+				`	"是的，我是一个人类。"`
+				`	"你到底是什么？"`
+			`	"人类，"它自信地对自己说。"人类。人类。人类，"它重复道，环顾四周，似乎在脑海中寻找什么。"一......百年前。人类，"它说。`
 			choice
-				`	"I'm not the first human here?"`
-				`	"What do you mean one hundred years ago?"`
-			`	"Human visitors, many years ago," it says. "Not important. The Queen desires yours presence." It then says something in a language that the mantis-like aliens understand, and they motion for you to follow as the small alien begins making its way back to the steps of the palace. You have a feeling you're going to dread the next half hour.`
-			`	You finally reach the top of the palace stairs completely exhausted, although the aliens with you look entirely unphased.`
-			`	The aliens lead you into the palace and through various elegant hallways. The walls are lined with marble statues and paintings that seem to be depicting historical figures and events for this alien race, although you're not allowed to linger long enough to get a good look at any of them.`
-			`	You eventually approach a large ornate doorway that the aliens push open, revealing what must be the Queen's throne room. It is a long, narrow room lined with stained glass windows with what you guess is a throne chair where the alien Queen sits. The Queen is part of the mantis-like species and considerably larger in appearance than the ones guarding you.`
-			`	The small creature says something to the Queen as you approach, and the Queen responds. The creature turns to you to translate.`
+				`	"我不是这里的第一个人类吗？"`
+				`	"你说一百年前是什么意思？"`
+			`	"人类访客，许多年前，"它说。"不重要。女王希望你在场。"然后它用螳螂一样的外星人听得懂的语言说了些什么，他们示意你跟着，这个小外星人开始回到宫殿的台阶上。你有一种感觉，你将会害怕接下来的半个小时。`
+			`	你终于到达了宫殿台阶的顶端，完全筋疲力尽，尽管和你在一起的外星人看起来完全不受影响。`
+			`	外星人带领你进入宫殿，穿过各种优雅的走廊。墙上挂着大理石雕像和绘画，似乎在描绘这个外星种族的历史人物和事件，尽管你不被允许在其中逗留足够长的时间来好好看看它们。`
+			`	你最终走到了一个大型装饰门前，外星人推开了这个门，露出了一定是女王的宝座室。这是一个狭长的房间，两边都是彩色玻璃窗，你猜是一张王座椅，外星女王就坐在那里。女王属于类似螳螂的物种，外观上比看守你的人要大得多。`
+			`	当你走近时，这个小生物对女王说了些什么，女王也做出了回应。该生物转向你，让你翻译。`
 			branch royalty
 				"bunrodea: erabu rep" < 1
 			branch guard
-				"bunrodea: guard rep" < -1
+				"bunrodea: 守卫代表" < -1
 			branch civi
-				"bunrodea: normal rep" < 1
-			`	"I hear that you have attacked one of my Megasa."`
+				"BUNRODEA: normal rep" < 1
+			`	"我听说你袭击了我的一个Megasa。"`
 			choice
-				`	"Your what?"`
+				`	"你的什么？"`
 					goto megasa
-				`	"I was only defending myself."`
+				`	"我只是在自卫。"`
 					goto lie
-				`	"I have, and for that I apologize."`
+				`	"我有，为此我道歉。"`
 					goto apologize
-				`	"Okay, and?"`
+				`	"好吧，然后呢？"`
 					goto and
 			
 			label civi
-			`	"I hear that you have attacked one of my civilians."`
+			`	"我听说你攻击了我的一个平民。"`
 			choice
-				`	"I was only defending myself."`
+				`	"我只是在自卫。"`
 					goto lie
-				`	"I have, and for that I apologize."`
+				`	"我有，为此我道歉。"`
 					goto apologize
-				`	"Okay, and?"`
+				`	"好吧，然后呢？"`
 					goto and
 			
 			label guard
-			`	"I hear that you have fought a member of my guard."`
+			`	"我听说你和我的一个卫队成员打了一架。"`
 			choice
-				`	"I was only defending myself."`
+				`	"我只是在自卫。"`
 					goto defending
-				`	"Hey, they deserved it. They attacked me first."`
+				`	"嘿，他们活该。他们先攻击了我。"`
 					goto attacked
-				`	"I have, and for that I apologize."`
+				`	"我有，为此我道歉。"`
 					goto apologize
-				`	"Okay, and?"`
+				`	"好吧，然后呢？"`
 					goto and
 			
 			label royalty
-			`	"I hear that you have attacked one of my Erabu."`
+			`	"我听说你袭击了我的一个埃拉布。"`
 			choice
-				`	"Your what?"`
+				`	"你的什么？"`
 					goto erabu
-				`	"I was only defending myself."`
+				`	"我只是在自卫。"`
 					goto lie
-				`	"I have, and for that I apologize."`
+				`	"我有，为此我道歉。"`
 					goto apologize
-				`	"Okay, and?"`
+				`	"好吧，然后呢？"`
 					goto and
 			
 			
 			label erabu
-			`	As the small creature translates for you, the Queen seems to laugh in a strange chittering way. "The Erabu are the aristocrats of my land. Attacking them is a grave offense," the creature translates for the Queen. "What do you say for yourself?"`
+			`	当这个小生物为你翻译时，女王似乎以一种奇怪的颤音方式笑了。"埃拉布人是我的土地上的贵族。攻击他们是一种严重的违法行为。"这个生物为女王翻译道。"你自己怎么说？"`
 				goto rechoice
 			
 			label megasa
-			`	As the small creature translates for you, the Queen seems to laugh in a strange chittering way. "The Megasa are the lowest of my people, but still my people to defend," the creature translates for the Queen. "What do you say for yourself?"`
+			`	当这个小生物为你翻译时，女王似乎以一种奇怪的颤抖方式笑了起来。"梅加萨人是我的人民中最低级的，但仍然是我的人民，要保卫他们。"这个生物为女王翻译道。"你自己怎么说？"`
 			
 			label rechoice
 			choice
-				`	"Whoever I attacked, I was only defending myself."`
+				`	"不管我攻击的是谁，我只是在保护自己。"`
 					goto lie
-				`	"Well, then for that I apologize."`
+				`	"好吧，那么为此我道歉。"`
 					goto apologize
-				`	"Okay, and?"`
+				`	"好吧，然后呢？"`
 					goto and
 			
 			label defending
-			`	As the small creature translates for you, the Queen seems to laugh in a strange chittering way. "Yes, my royal guards are rather... eager to defend, and for that I apologize," the creature translates as the Queen speaks. "But would my royal guard truly be doing its duty if it were not defending my lands from unknown threats? Although, perhaps they could be more patient in assessing true threats. I might punish those responsible, but it would seem that you have already dealt with those who have slighted you."`
+			`	当这个小生物为你翻译时，女王似乎以一种奇怪的颤音方式笑了起来。"是的，我的皇家卫队相当......急于防卫，为此我道歉。"在女王说话时，该生物翻译道。"但是，如果我的皇家卫队不是在保卫我的土地免受未知的威胁，他们会真正履行职责吗？虽然，也许他们在评估真正的威胁时可以更有耐心。我可能会惩罚那些负有责任的人，但看来你已经处理了那些轻视你的人。"`
 				goto slighted
 			
 			label attacked
-			`	As the small creature translates for you, the Queen seems to laugh in a strange chittering way. "Deserved, you say?" the creature translates as the Queen speaks. "Would my royal guard truly be doing its duty if it were not defending my lands from unknown threats? Although, perhaps they could be more patient in assessing true threats. I might punish those responsible, but it would seem that you have already dealt with those who have slighted you."`
+			`	当这个小生物为你翻译时，女王似乎以一种奇怪的颤抖方式笑了。"活该，你说？"在女王说话的时候，那个生物翻译道。"如果我的皇家卫队不是在保卫我的土地免受未知的威胁，它真的会履行职责吗？虽然，也许他们在评估真正的威胁时可以更有耐心。我可能会惩罚那些负有责任的人，但看来你已经处理了那些轻视你的人。"`
 				goto slighted
 			
 			label lie
-			`	As the small creature translates for you, the Queen steps off of her throne and approaches you. She extends her legs so that she towers over you to at least twice your height. She speaks, and the creature translates. "How flippant you are, to lie like that in front of the highest royalty. You're either extremely brave, or extremely stupid." The Queen turns around and returns to her throne. "I will show mercy, just this once. But you will not be so fortunate the next time."`
+			`	当这个小生物为你翻译时，女王从她的宝座上走下来，走近你。她伸出双腿，使她的身高至少是你的两倍。她说话了，那个生物翻译了。"你太轻率了，在最高的皇室成员面前这样撒谎。你要么非常勇敢，要么非常愚蠢。"女王转过身来，回到她的宝座上。"我将手下留情，就这一次。但下次你就不会这么幸运了。"`
 				goto threatened
 			
 			label and
-			`	As the small creature translates for you, the Queen steps off of her throne and approaches you. She extends her legs so that she towers over you to at least twice your height. She speaks, and the creature translates. "How flippant you are, to speak like that in front of the highest royalty. You're either extremely brave, or extremely stupid." The Queen turns around and returns to her throne. "I will show mercy, just this once. But you will not be so fortunate the next time."`
+			`	当这个小生物为你翻译时，女王走下她的王座，走近你。她伸出双腿，使她的身高至少是你的两倍。她说话了，那个生物翻译了。"你太轻率了，在最高的皇室成员面前这样说话。你要么非常勇敢，要么非常愚蠢。"女王转过身来，回到她的宝座上。"我将手下留情，就这一次。但下次你就不会这么幸运了。"`
 				goto threatened
 			
 			label apologize
-			`	As the small creature translates for you, the Queen looks as if she is smiling. "An apology. Such an... unexpected response," the creature continues to translate for the Queen. "Normally, those who have offended the Queen attempt to make excuses for themselves. Your apology is accepted."`
-			`	The Queen motions to one of the guards and says something to it that the creature does not translate. She then speaks to you, and the creature translates: "Since you have apologized, you will be allowed to live. My guards have been ordered to leave you be, and you may come and go on a small number of our worlds. But this is only so that you do not cause further trouble, and to allow you to refuel if you are passing through my systems. Your presence will only be tolerated, not welcomed. Now please leave my court."`
+			`	当这个小生物为你翻译时，女王看起来好像在笑。"一个道歉。这样一个......出乎意料的反应，"生物继续为女王翻译着。"通常，那些冒犯了女王的人都试图为自己找借口。我们接受你的道歉。"`
+			`	女王向其中一个卫兵示意，并对它说了些什么，这个生物没有翻译出来。然后她对你说话，那个生物也翻译了。"既然你已经道歉了，你将被允许活下去。我的守卫已经被命令让你离开，你可以在我们的少数世界中来回走动。但这只是为了让你不引起进一步的麻烦，并且如果你经过我的系统，允许你加油。你们的存在只会被容忍，而不是被欢迎。现在请离开我的法庭。"`
 				goto end
 			
 			label threatened
-			`	The Queen motions to one of the guards and says something to it that the creature does not translate. She then speaks to you, and the creature translates: "Since I have shown you mercy, you will be allowed to live. My guards have been ordered to leave you be, and you may come and go on a small number of our worlds. But this is only so that you do not cause further trouble, and to allow you to refuel if you are passing through my systems. Your presence will only be tolerated, not welcomed. Now please leave my court."`
+			`	女王向其中一个卫兵示意，并对它说了些什么，这个生物并没有翻译出来。然后她对你说话，那个生物也翻译了。"由于我对你表示了怜悯，你将被允许活着。我的守卫已经被命令让你离开，你可以在我们的少数世界中来回走动。但这只是为了让你不引起进一步的麻烦，并且如果你经过我的系统，允许你加油。你们的存在只会被容忍，而不是被欢迎。现在请离开我的法庭。"`
 				goto end
 			
 			label slighted
-			`	The Queen motions to one of the guards and says something to it that the creature does not translate. She then speaks to you, and the creature translates: "Since it is my guards that have shown you disrespect, you will be allowed to live. My guards have been ordered to leave you be, and you may come and go on a small number of our worlds. But this is only so that you do not cause further trouble, and to allow you to refuel if you are passing through my systems. Your presence will only be tolerated, not welcomed. Now please leave my court."`
+			`	女王向其中一个卫兵示意，并对它说了些什么，这个生物并没有翻译出来。然后她对你说话，那个生物也翻译了。"由于是我的卫兵对你不敬，所以你将被允许活着。我的守卫已经被命令让你离开，你可以在我们的少数世界中来回走动。但这只是为了让你们不造成进一步的麻烦，并允许你们在经过我的系统时补充燃料。你们的存在只会被容忍，而不会被欢迎。现在请离开我的法庭。"`
 			
 			label end
-			`	You're escorted out of the throne room and told by the small creature to leave as soon as you reach your ship. You exit the palace, and realize that you must once again face the stairs. You take a deep breath, and prepare yourself for the long journey down.`
+			`	你被护送出了王室，并被那个小生物告知，一旦你到达你的飞船，就立即离开。你走出宫殿，意识到你必须再一次面对楼梯。你深吸一口气，为漫长的下山之路做好准备。`
 				launch

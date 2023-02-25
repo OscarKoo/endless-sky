@@ -19,38 +19,38 @@ mission "FW Epilogue: Ijs and Katya"
 	
 	on offer
 		conversation
-			`You are on <origin>, home to the Free Worlds Conservatory where Ijs is on faculty as a professor. Would you like to visit him and see how he is doing?`
+			`你们在<origin>上，这里是自由世界音乐学院的所在地，Ijs在这里担任教授。你想去拜访他，看看他的情况吗？`
 			choice
-				`	(Yes.)`
-				`	(Not right now.)`
+				`	(是的。)`
+				`	(现在不行。)`
 					defer
-			`	While looking Ijs up in the campus directory, you notice something else: Katya is listed in the directory too, as "Visiting Professor of Civics and Economics." You give Ijs a call and ask if he and Katya would like to meet up with you for dinner, and they readily agree.`
-			`	When you join them at the restaurant, Katya says, "It's really great to see you again, <first>."`
-			`	"Not to mention," says Ijs, "it's great to have an excuse to eat somewhere other than the student center for once. How has life been treating you, <first>?"`
+			`	当你在校园目录中查找Ijs时，你注意到了另一件事：Katya也被列在目录中，是 "公民和经济学的客座教授"。你给伊杰斯打了个电话，问他和卡佳是否愿意和你一起吃饭，他们欣然同意。`
+			`	当你在餐厅加入他们时，卡佳说："真的很高兴再次见到你，<first>。"`
+			`	"更不用说，"Ijs说，"能有一次借口在学生中心以外的地方吃饭，真是太好了。你的生活过得怎么样，<first>？"`
 			choice
-				`	"I miss the excitement of the work we did together, but other than that life is great."`
+				`	"我怀念我们一起工作时的兴奋，但除此之外，生活很好。"`
 					goto excitement
-				`	"It's kind of hard to adjust to civilian life."`
+				`	"要适应平民生活有点难。"`
 					goto adjust
-				`	"I want to explore the rest of the galaxy, but apparently that part of the game hasn't been implemented yet."`
+				`	"我想探索银河系的其他地方，但显然游戏的这一部分还没有实现。"`
 					goto game
 			
 			label excitement
-			`	"I understand that feeling," says Katya. "But, just remind yourself, this is what we fought for. For peace. For a world where no one has to fear for their lives."`
+			`	"我理解这种感觉，"卡蒂亚说。"但是，只要提醒自己，这就是我们为之奋斗的目标。为了和平。为了一个没有人需要担心自己生命的世界。"`
 				goto end
 			
 			label adjust
-			`	"Tell me about it," laughs Katya. "I can hardly believe I'm now a professor. Or at least, acting as one. But after so much fighting, and so much time alone and imprisoned, for me it feels good to finally be able to relax, to let go of the idea that the galaxy will fall apart without me."`
+			`	"告诉我吧，"卡佳笑道。"我很难相信我现在是个教授。或者至少是以教授的身份行事。但经过这么多的战斗，这么多的孤独和囚禁，对我来说，终于能够放松，放下银河系没有我就会崩溃的想法，这感觉很好。"`
 				goto end
 			
 			label game
-			`	"Whoops," says Ijs, "now you've done it, there goes the fourth wall."`
-			`	Katya laughs. "If you're so eager to explore the rest of the galaxy, <first>, maybe you should volunteer to help out with creating the stories to populate it. This is an open source game after all, and it would be a sad thing for it to remain the product of only one person's imagination."`
+			`	"哎呀，"伊杰斯说，"现在你已经做到了，第四面墙就在那里。"`
+			`	卡蒂亚笑了。"如果你如此渴望探索银河系的其余部分，<first>，也许你应该自愿帮助创造故事来填充它。这毕竟是一个开源的游戏，如果它仍然只是一个人的想象力的产物，那将是一件可悲的事情。"`
 				goto end
 			
 			label end
-			`	Your dinner arrives, and you spend a pleasant evening eating together and reminiscing about old times. Back in the days of the civil war, neither Katya nor Ijs were people who smiled or laughed easily. Now, however, they have an entirely different air about them, peaceful and contented. It's heartening to see that they, at least, have found a happy ending together after all the chaos you lived through.`
-			`	Suddenly you realize that around you, the restaurant workers are sweeping the floors and putting chairs up on tables: it's closing time, and you are the last ones there. "Well <first>," says Ijs, "it was good of you to stop by, and I wish you the best in your journeys among the stars. Give our regards to the others if you see them." You wish them well, and return to your ship.`
+			`	你们的晚餐到了，你们度过了一个愉快的夜晚，一起吃饭，回忆过去的时光。在内战时期，卡蒂亚和Ijs都不是容易笑的人。然而，现在，他们身上有一种完全不同的气息，平和而满足。看到他们在经历了所有的混乱之后，至少在一起找到了一个幸福的结局，这令人振奋。`
+			`	突然，你意识到，在你周围，餐厅的工人正在扫地，把椅子放在桌子上：现在是关门时间，而你们是最后一批人了。"好吧，<first>，"Ijs说，"你能来这里真是太好了，我祝你在星际间的旅程中一切顺利。如果你看到其他人，请向他们问好。"你祝福他们，然后回到你的船上。`
 				decline
 
 
@@ -66,31 +66,31 @@ mission "FW Epilogue: Alondo"
 	
 	on offer
 		conversation
-			`As you're coming in for a landing on Bourne, you receive a message from Alondo. "<first>!" he says. "I just heard that you were in system. Want to meet up for a drink and talk about old times?"`
+			`当你要在伯恩岛登陆时，你收到了阿隆多的信息。"<first>！"他说。"我刚刚听说你在系统中。想不想见面喝一杯，谈谈以前的事？"`
 			choice
-				`	"Sure, I'd be glad to."`
-				`	"Sorry, I'm busy right now."`
+				`	"当然，我很乐意。"`
+				`	"对不起，我现在很忙。"`
 					defer
-			`	You meet up with Alondo at a local pub. He tells you that his life has continued to be quite full since the war ended and the Council was dissolved: he's been placed in charge of the Free Worlds diplomatic corps, whose main job appears to be to make sure all the individual planets feel like their concerns are being listened to. "It means lots of travel," he says, "and lots of fine meals with important people. And they're always interested to hear my stories from the war times."`
-			`	You tell Alondo a bit about what you've been doing since the war ended. "Of course," he says, "you're traveling the galaxy. I knew from the start you weren't the kind who would quickly put down roots on a single planet."`
-			`	Alondo goes on to describe some of the inner workings of the Free Worlds Senate, and the mutual defense arrangement that forms the backbone of the government. "For a while there," he says, "it felt like there was so much bureaucracy that we couldn't get anything done, but now it's finally starting to function in the way all of us imagined. Quite an honor to have had a hand in the birth of a new government."`
+			`	你和阿隆多在当地的一家酒馆见面了。他告诉你，自从战争结束和理事会解散后，他的生活一直很充实：他被安排负责自由世界的外交使团，其主要工作似乎是确保所有个别星球感到他们的关切被听取了。"这意味着大量的旅行，"他说，"以及与重要人物进行大量的美食。而且他们总是有兴趣听我讲战争时期的故事。"`
+			`	你告诉阿隆多一些关于你在战争结束后的工作。"当然，"他说，"你在银河系旅行。我从一开始就知道你不是那种会很快在一个星球上扎根的人。"`
+			`	阿隆多继续描述了自由世界参议院的一些内部运作，以及构成政府骨干的相互防御安排。"有一段时间，"他说，"感觉有太多的官僚主义，我们无法完成任何事情，但现在它终于开始以我们所有人想象的方式运作。能够参与一个新政府的诞生，相当荣幸。"`
 			choice
-				`	"Spoken like a true bureaucrat."`
+				`	"说得像个真正的官僚。"`
 					goto bureaucrat
-				`	"I really do hope the Free Worlds can live up to our original vision of justice and equality."`
+				`	"我真的希望自由世界能够实现我们最初对正义和平等的设想。"`
 					goto vision
 			
 			label bureaucrat
-			`	"Fair enough," he says, "but I really do believe we've created a government here that is less prone to the inequalities that they're still struggling with in the Republic."`
+			`	"很公平，"他说，"但我真的相信我们在这里创建了一个政府，不容易出现他们在共和国仍在挣扎的不平等现象。"`
 				goto end
 			
 			label vision
-			`	"Me too," he says. "We've got a good start, but then again, so did the Republic, back in the day."`
+			`	"我也是，"他说。"我们已经有了一个良好的开端，但话说回来，共和国也是如此，在过去的日子里。"`
 				goto end
 			
 			label end
-			`	He is quiet for a moment, and then says, "I guess that's why I'm still here in the thick of things, instead of just settling down somewhere and leaving public life behind. I don't believe society or government just naturally becomes good or stays good without effort. So I'm here to speak up when we start to stray from our original vision."`
-			`	You sit and talk with each other for quite a while longer, reminiscing about old times. Then, you wish him well in his work, and he tells you to stop by and say hello any time you're in the area. You head back to your ship.`
+			`	他沉默了一会儿，然后说："我想这就是为什么我还在这里忙忙碌碌，而不是在某个地方安顿下来，把公共生活抛在脑后。我不相信社会或政府会不费吹灰之力就自然而然地变得良好或保持良好。因此，当我们开始偏离我们最初的愿景时，我就在这里大声疾呼。"`
+			`	你们坐在一起，又聊了好一会儿，回忆起了以前的时光。然后，你祝他工作顺利，他告诉你，如果你在这一地区，可以顺便过来打个招呼。你回到了你的船上。`
 				decline
 
 
@@ -103,45 +103,45 @@ mission "FW Epilogue: Freya"
 	
 	on offer
 		conversation
-			`When you land on <origin>, you head into the city to explore a bit and to find out if the Navy and the others who have come here after them have had any luck in unlocking the secrets of this place. Already, it appears that some of the empty apartments have become actual living quarters for people, and there are even a handful of shops opening up on the main street.`
-			`	In one of those shops, you run into Freya. "<first>!" she says. "It's good to see you again. I hear that Parliament named you an official war hero or something. Much better than being a wanted fugitive, huh?"`
+			`当你在<origin>登陆时，你进入城市探索一番，看看海军和其他在他们之后来到这里的人在解开这个地方的秘密方面是否有什么收获。看起来，一些空荡荡的公寓已经成为人们真正的生活区，甚至有一些商店在主要街道上开张了。`
+			`	在其中一家商店里，你碰到了芙蕾雅。"<first>！"她说。"很高兴再次见到你。我听说议会任命你为官方战争英雄或什么的。比当通缉犯好多了，是吧？"`
 			choice
-				`	"Yes, it's quite an honor."`
+				`	"是的，这是个相当大的荣誉。"`
 					goto honor
-				`	"Yes, it's hard to know what to do with myself now that no one wants to kill me."`
+				`	"是的，现在没有人想杀我了，我很难知道该怎么处理自己。"`
 					goto kill
 			
 			label honor
-			`	"Right. Just remember, none of it would have happened without me, okay? Not that I have any desire to be a hero; that sort of public attention would be pretty much my worst nightmare."`
+			`	"对。只要记住，没有我，这一切都不会发生，好吗？并不是说我有任何成为英雄的愿望；那种公众的关注几乎是我最糟糕的噩梦。"`
 				goto next
 			
 			label kill
-			`	"Well, I'm sure you can find something interesting to do," she says. "Go fight some pirates. Or become a business mogul and get filthy rich. Whatever floats your boat."`
+			`	"好吧，我相信你能找到一些有趣的事情做，"她说。"去打一些海盗。或者成为一个商业大亨，获得巨额财富。无论你想做什么。"`
 				goto next
 			
 			label next
-			`	"What have you found out about the Pug?" you ask.`
-			`	"Not much," she says. "The wormhole doesn't seem to lead to their real home; it's just another red herring. The real breakthrough, of course, would be if we could find some hints in the stuff they left behind about how to build more jump drives of our own. But so far, we can't even figure out how to create new hyperspace links where there wasn't one originally. I'm starting to think that those graviton transmitters we used were just one more game - a toy, not the real thing. Not what created the links in the first place, I mean, unless they were created by someone with the patience to wait a million years for them to work."`
+			`	"你对帕格犬有什么发现？"你问。`
+			`	"不多，"她说。"虫洞似乎并不通往他们真正的家；这只是另一个红鲱鱼。当然，真正的突破是如果我们能在他们留下的东西中找到一些关于如何建造更多我们自己的跳跃驱动器的提示。但到目前为止，我们甚至无法弄清楚如何在原本没有超空间链接的地方创造新的超空间链接。我开始认为，我们使用的那些引力子发射器只是一个游戏--一个玩具，不是真正的东西。我的意思是，并不是一开始就创造了这些链接，除非它们是由有耐心等待一百万年的人创造的。"`
 			choice
-				`	"Have you found any other interesting technology?"`
+				`	"你有没有发现任何其他有趣的技术？"`
 					goto technology
-				`	"Any more hints about who the Pug were and what they wanted?"`
+				`	"有没有关于帕格人是谁以及他们想要什么的更多提示？"`
 					goto pug
 			
 			label technology
-			`	"Some," she says. "Everything they left behind is like, well... an educational toy. Like some absent parent left behind a super-advanced chemistry set for their kids to play with. That's how all the artifacts we find here feel - not like the real thing that the Pug would have used, but like a simplified model that they gave us to help us figure it out. Everything they left behind, I'm convinced they left intentionally, because it could teach us something they wanted us to know, while keeping all their true secrets secret. The rest of you moved on, and I'm still here playing their game."`
+			`	"一些，"她说。"他们留下的一切就像，嗯......一个教育玩具。就像一些缺席的父母留下了一个超级先进的化学装置给他们的孩子玩。这就是我们在这里发现的所有文物的感觉--不像是帕格人会使用的真实东西，而像是他们给我们的简化模型，帮助我们弄清楚。他们留下的一切，我确信他们是故意留下的，因为它可以教给我们一些他们想让我们知道的东西，同时对他们所有真正的秘密保密。你们其他人继续前进，而我还在这里玩他们的游戏。"`
 				goto end
 			
 			label pug
-			`	"Not much," she says. "This world - it feels like when you're visiting a friend's house, and they spent the whole day cleaning up for you. It's not like a person's home is when you drop by unannounced. Nothing's out of place. Everything that's lying out somewhere, is something they wanted you to see. There's some weird technology they left behind, but all of it is like toys, puzzles... I don't know, like an educational game they designed for us to play. The rest of you moved on, and I'm still here playing their game."`
+			`	"不多，"她说。"这个世界--感觉就像你去朋友家做客时，他们花了一整天时间为你打扫。它不像一个人的家，当你不请自来的时候。没有什么东西是不合适的。所有躺在外面的东西，都是他们想让你看到的。有一些奇怪的技术是他们留下的，但所有的东西都像玩具，拼图...我不知道，就像他们设计给我们玩的教育游戏。你们其他人继续前进，而我还在这里玩他们的游戏。"`
 				goto end
 			
 			label end
 			choice
-				`	"You sound frustrated."`
-				`	"You know, the war is over, you can relax if you want to."`
-			`	"I know, I know," she says. "I complain, but really there's nowhere else I would rather be. Even if everything we're discovering here is nothing more than what they intended for us to discover, it's still the most interesting work I could possibly be doing right now. So, don't feel sorry for me. Really."`
-			`	You talk for a while longer, and she tells you she'll be sure to be in touch if they ever get to the root of the Pug's motivation. "Until then," she says, "good luck in your travels. I hope the galaxy never runs out of ways to surprise you."`
+				`	"你听起来很沮丧。"`
+				`	"你知道，战争已经结束了，如果你愿意，你可以放松。"`
+			`	"我知道，我知道，"她说。"我抱怨，但真的没有什么地方是我愿意去的。即使我们在这里发现的一切只不过是他们想让我们发现的东西，这仍然是我现在可能做的最有趣的工作。所以，不要为我感到遗憾。真的。"`
+			`	你们又聊了一会儿，她告诉你，如果他们找到了帕格犬的动机根源，她一定会和你联系。"在那之前，"她说，"祝你在旅行中好运。我希望银河系永远不会没有办法给你带来惊喜。"`
 				decline
 
 
@@ -155,57 +155,57 @@ mission "FW Epilogue: Danforth"
 	
 	on offer
 		conversation
-			`Would you like to stop by and see how Admiral Danforth is doing?`
+			`你想停下来看看丹佛斯上将怎么样了吗？`
 			choice
-				`	(Yes.)`
-				`	(Not right now.)`
+				`	(是的。)`
+				`	(现在不行。)`
 					defer
 			
 			branch checkmate1
 				has "free worlds checkmate"
-			`	Danforth is quite excited to see you. "Captain <last>!" he says. "So good to see you back up here in my neck of the woods again. It's funny, you'd think that with the war over they'd just dissolve the Oathkeepers, since the whole Republic is at peace with the Free Worlds and there's no longer any oath left for us to keep. But, the Oathkeepers became so well known for our role against the Pug and the Syndicate that now everyone wants to join our division."`
+			`	丹佛斯见到你相当兴奋。"船长<last>！"他说。"很高兴看到你再次回到我的林子里来。有趣的是，你会认为随着战争的结束，他们会直接解散守誓人，因为整个共和国已经与自由世界和平共处，不再有任何誓言需要我们遵守。但是，守誓人因为我们在对抗帕格和辛迪加的作用而变得非常有名，现在每个人都想加入我们的部门。"`
 				goto choice
 			
 			label checkmate1
-			`	Danforth is quite excited to see you. "Captain <last>!" he says. "So good to see you back up here in my neck of the woods again. It's funny, you'd think that with the war over they'd just dissolve the Oathkeepers, since the whole Republic is at peace with the Free Worlds and there's no longer any oath left for us to keep. But, the Oathkeepers became so well known for our role against the Pug that now everyone wants to join our division."`
+			`	丹佛斯见到你相当兴奋。"队长<last>！"他说。"很高兴看到你再次回到我的林子里来。有趣的是，你会认为随着战争的结束，他们会直接解散守誓人，因为整个共和国已经与自由世界和平共处，不再有任何誓言需要我们遵守。但是，守誓人因为我们在对抗帕格人方面的作用而变得非常有名，现在每个人都想加入我们的部门。"`
 			
 			label choice
 			choice
-				`	"Glad to see you're still in the thick of things, sir!"`
+				`	"很高兴看到你还在忙活，先生！"`
 					goto thick
-				`	"What sort of work is the Navy doing now that we're at peace?"`
+				`	"现在我们和平了，海军在做什么样的工作？"`
 					goto work
 			
 			label thick
-			`	"Oh, you bet I am," he says. "I'll never retire from the Navy, you know. I plan to still be serving on the day I die."`
+			`	"哦，你肯定是的，"他说。"我永远不会从海军退休，你知道。我计划在我死的那一天仍然在服役。"`
 				goto next
 			
 			label work
-			`	"Just the sort of work we all signed up for in the first place," he says. "Defending the defenseless, keeping the peace, helping silly novice pilots who run out of fuel."`
+			`	"这正是我们当初报名参加的那种工作，"他说。"保卫手无寸铁的人，维护和平，帮助那些没油的愚蠢的新手飞行员。"`
 				goto next
 			
 			label next
-			`	"Are the pirates giving you any trouble?" you ask.`
-			`	"A bit," he says. "We still have far too many pirates in this sector, in part due to the Free Worlds driving them out of the South. The pirates grew stronger and more bold as the war dragged on, when all our fleets were busy elsewhere, but now we're beginning to get them under control again."`
+			`	"海盗给你带来什么麻烦了吗？"你问。`
+			`	"有一点，"他说。"我们在这个区域仍然有太多的海盗，部分原因是自由世界将他们赶出了南部。随着战争的拖延，当我们所有的舰队都忙于其他地方时，海盗变得更加强大和大胆，但现在我们又开始控制他们了。"`
 			
 			branch checkmate2
 				has "free worlds checkmate"
-			`	Then he leans forward and says, more quietly, "Of course, you and I both know the pirates aren't the main threat. Raven is off infiltrating Syndicate worlds even as we speak, and several of my other best intelligence officers, too. The Syndicate wants us to believe that they've weeded out all the rotten apples from their ranks, but we're keeping an eye on them, all the same."`
+			`	然后他俯身向前，更小声地说："当然，你和我都知道海盗不是主要的威胁。甚至在我们说话的时候，乌鸦就已经潜入了辛迪加的世界，还有我其他几个最好的情报人员也是如此。辛迪加想让我们相信，他们已经从他们的队伍中剔除了所有的烂苹果，但我们一直在关注着他们，所有这些。`
 				goto end
 			
 			label checkmate2
-			`	Then he leans forward and says, more quietly, "Just a heads-up that the Navy has their eye on the Free Worlds still. Just because a peace treaty was made doesn't mean you can keep your nukes forever."`
+			`	然后他俯身向前，更小声地说："只是提醒一下，海军仍然盯着自由世界。和平条约的签订并不意味着你可以永远保留你的核弹。"`
 			
 			label end
-			`	After you talk for a while longer, Danforth wishes you luck and sends you on your way. "I'll be in touch if we ever need your assistance in the future," he says.`
+			`	在你们又谈了一会儿后，丹佛斯祝你们好运，并送你们上路。"如果我们将来需要你的帮助，我会和你联系的。"他说。`
 				decline
 
 
 
 mission "FW Epilogue: Edward"
 	landing
-	name `Weapon Testing`
-	description `A test ship with new weaponry is in orbit around <planet>. Fight and disable it (but do not board or destroy it!) and then land to give Barmy Edward feedback on its performance.`
+	name `武器测试`
+	description `一艘装有新武器的测试船正在<planet>周围的轨道上。与它战斗并使其失效（但不要登上或摧毁它！），然后降落，向巴米-爱德华反馈其性能。`
 	source "Rust"
 	to offer
 		has "free worlds plot completed"
@@ -229,68 +229,68 @@ mission "FW Epilogue: Edward"
 conversation "edward epilogue"
 	branch completed
 		has "FW Epilogue: Edward: done"
-	`As you complete your landing procedure, you recall having come here to assist in some testing for new weapons, back in the thick of the war. Do you want to check in on Barmy Edwards, the lead engineer?`
+	`当你完成你的登陆程序时，你会想起在战争激烈的时候，你曾来这里协助进行一些新武器的测试。你想去看看首席工程师Barmy Edwards吗？`
 	choice
-		`	(Yes.)`
-		`	(No.)`
+		`	(是的。)`
+		`	(不。)`
 			defer
 	scene "scene/loc0"
-	`	You give your name to the receptionist, and she directs you to a hangar where you find Barmy Edward, who is working on a weapon that looks like a modified Plasma Cannon. When he notices you, he gets up from his work and shakes your hand warmly. "Ah, <last>. It's been too long! How fortunate for me! I'm actually just putting the finishing touches on a new prototype. You wouldn't be too busy to assist me in some practical testing, would you?"`
+	`	你把你的名字告诉了接待员，她把你带到了一个机库，在那里你找到了巴米-爱德华，他正在研究一种看起来像改良过的等离子炮的武器。当他注意到你时，他从他的工作中站起来，热情地与你握手。"啊，<last>。太久没见了!对我来说是多么幸运啊!其实我只是在为一个新的原型做最后的润色。你不会忙着协助我进行一些实际测试吧？"`
 	choice
-		`	"I'm not sure about this. What would you have me do?"`
-		`	"Being a target for experimental weapons? Just tell me what you need!"`
-	`	"Not much out of the ordinary from our tests in the past," he replies. "You'll find a ship of ours in orbit that goes by <npc>. It's been fitted with a few of these new weapons. Your job will be to fight and disable it, tell us what you think of its combat capabilities, and transfer your ship's logs so we can analyze the fight."`
+		`	"我不确定这一点。你会让我做什么？"`
+		`	"成为实验性武器的目标？只要告诉我你需要什么！"`
+	`	"从我们过去的测试来看，没有什么出格的东西，"他回答说。"你会发现我们的一艘飞船在轨道上，它的名字是<npc>。它被安装了一些这样的新武器。你的任务是与它战斗并使其失效，告诉我们你对其战斗能力的看法，并传输你的飞船日志，以便我们分析战斗情况。"`
 	choice
-		`	"Alright, I suppose for old times' sake I can help out."`
-		`	"Sorry, I just wanted to check in and see how you were doing."`
+		`	"好吧，我想看在过去的份上，我可以帮忙。"`
+		`	"对不起，我只是想来看看你怎么样了。"`
 			goto catchup
-	`	He turns to you and smirks. "We've recommissioned the ship from retirement, so it's not top of the line, but try to keep it in one piece for future use. Understand?"`
+	`	他转向你，笑了笑。"我们把这艘船从退役中重新投入使用，所以它不是最顶级的，但要尽量保持它的完整，以便将来使用。明白吗？"`
 	choice
-		`	"Of course! I'll take care of it."`
-	`	"Great," he says, rubbing his hands together with a gleeful expression on his face. He's clearly looking forward to hearing what you think of his latest invention.`
+		`	"当然!我会照顾好它的。"`
+	`	"很好。"他说，双手揉搓着，脸上露出欣喜的表情。他显然期待着听到你对他最新发明的看法。`
 		accept
 	label catchup
-	`	"I see. Well, I'm sure we can find someone else up to the task. Regardless, Captain <last>, I assure you this new weapon vastly improves on the outdated Plasma Cannon. This'll put Kraz Cybernetics in the big leagues!"`
-	`	"How about we get out of here, <first>? My work is done for today, and I know a homely little bar that's only a short walk."`
+	`	"我明白了。好吧，我相信我们可以找到其他人来完成这个任务。不管怎么说，队长<last>，我向你保证，这种新武器在过时的等离子炮的基础上有很大的改进。这将使克拉兹网络技术公司进入大联盟！"`
+	`	"我们离开这里怎么样，<first>？我今天的工作已经完成了，我知道一个家庭式的小酒吧，只需走一小段路。"`
 	choice
-		`	"Of course. It's not like there's a war to worry about anymore."`
-	`	"Ha! Well, of course, the war kept all of us plenty busy." He leads you out of the facility while telling an anecdote that must be humor for an engineer.`
+		`	"当然了。又不是有战争要担心了。"`
+	`	"哈！嗯，当然，战争让我们所有人都很忙。"他领着你走出设施，同时讲了一段轶事，这对一个工程师来说一定是幽默。`
 		goto combined
 	
 	label completed
 	scene "scene/plasma scene"
-	`You head to the hangar to meet up with Barmy Edward, and find him tinkering with the modified Plasma Cannon you saw when you first entered. "It runs much hotter, you see," he explains. "But the results are impressive."`
+	`你前往机库与巴米-爱德华会合，发现他正在摆弄你第一次进入时看到的改良型等离子炮。"它运行得更热，你看，"他解释说。"但结果是令人印象深刻的。"`
 	choice
-		`	"Was that a plasma cannon? Or something else?"`
+		`	"那是一门等离子炮吗？还是别的什么？"`
 			goto what
-		`	"It's not winning any damage records, that's for sure."`
+		`	"它没有赢得任何损害记录，这是肯定的。"`
 			goto damage
 	label what
-	`	"Heh, it's been a while since we've seen a good upgrade to the cannon," he says. "That was the Plasma Repeater. Of course, it wasn't easy to make a better iteration of something that countless fools have failed to improve on."`
-	`	"When will it be available for sale?" you ask.`
+	`	"呵，我们已经有一段时间没有看到大炮的良好升级了，"他说。"那是等离子中继器。当然，要把无数傻瓜都没能改进的东西做出更好的迭代，并不容易。"`
+	`	"它什么时候可以出售？"你问。`
 		goto available
 	label damage
-	`	"Well, you are one of the revered captains that drove off the Pug," he says. "The idea is that by shrinking the bolts of superheated plasma, we can offload many more bursts onto a target. The effects on said target result in faster buildup of heat and, of course, damage. Big ships will usually ward off these effects much longer than a smaller ship would, but that's always been a notable issue with the original design. Besides, the repeater is a hell of a lot more impressive."`
-	`	"That's a unique direction," you reply. "Are they available for sale yet?"`
+	`	"好吧，你是赶走帕格号的受人尊敬的船长之一，"他说。"这个想法是，通过缩小过热等离子体的螺栓，我们可以在一个目标上卸下更多的爆裂物。对所述目标的影响导致更快的热量积聚，当然还有损害。大船通常会比小船更长时间地抵御这些影响，但这一直是原始设计中的一个明显问题。此外，中继器也是一个令人印象深刻的地狱。"`
+	`	"那是一个独特的方向，"你回答。"它们可以出售了吗？"`
 	label available
-	`	"Thanks to you, it should be in stock in a few months," he answers. "I'm sure you're past the point where our weapons are useful, but then again, not everybody has a jump drive." He grins. "How about we celebrate with some drinks? I know a quaint little bar not far from here."`
+	`	"多亏了你，几个月后应该会有货，"他回答。"我相信你已经过了我们的武器有用的时候，但话说回来，不是每个人都有跳跃驱动器。"他咧嘴一笑。"我们用一些饮料来庆祝如何？我知道离这里不远的一个古朴的小酒吧。"`
 	choice
-		`	"I have time; let's celebrate!"`
-		`	"I'll pass on that, but it was good checking in on you."`
+		`	"我有时间；让我们庆祝一下！"`
+		`	"这个我就不说了，不过，看看你的情况还是不错的。"`
 			decline
 	
 	label combined
-	`	You follow Barmy into the bar. Even with the smear of grease still on his face, he fits in with the crowd. You both stand at the bar and order your drinks. Barmy's order catches you off guard, and he notices your expression. "What? A man who works with his hands can't enjoy a drink with some age?" You chuckle, and you both tell stories of your early lives. He tells how he had some exciting adventures in his youth among the stars, but found his passion tinkering and finding ways to improve on outdated equipment.`
-	`	He's shocked to discover your origins on New Boston. "You're really from that backwater planet? I'm surprised you were able to escape the racket they have going on there. I was lucky to get out myself!"`
+	`	你跟着巴米走进酒吧。即使他脸上还有一抹油污，他还是融入了人群。你们都站在吧台前，点了饮料。巴米的命令让你措手不及，他注意到你的表情。"什么？一个用手工作的人不能享受有一定年龄的饮料？"你笑了笑，你们俩都讲述了你们早期生活的故事。他讲述了他年轻时如何在星际间进行了一些令人兴奋的冒险，但发现他的激情在于修补和寻找改进过时设备的方法。`
+	`	他对发现你在新波士顿的身世感到震惊。"你真的来自那个落后的星球？我很惊讶你能逃离他们在那里的喧嚣。我自己能逃出来已经很幸运了！"`
 	choice
-		`	"Wait, you're from New Boston too?"`
-		`	"It wasn't perfect there, but at least it wasn't quite so noisy down on the ground."`
+		`	"等等，你也是来自新波士顿？"`
+		`	"那里并不完美，但至少在地面上没有那么嘈杂。"`
 			goto end
-		`	"Nothing like it is now. I've got the whole universe ahead of me!"`
+		`	"完全不像现在这样。我有整个宇宙在等着我！"`
 			goto end
-	`	"You wouldn't think to have met someone from your very own birth planet, eh?" He chuckles. "Small galaxy, I suppose."`
+	`	"你不会想到会遇到一个来自你自己出生的星球的人，嗯？"他笑着说。"小星系，我想。"`
 	label end
-	`	You both have a great time hearing of each other's early lives, but you eventually wrap up your visit after a long night of bouncing stories back and forth. You say your goodbyes and head back to your ship.`
+	`	你们俩都很高兴听到对方早年的生活，但在一个漫长的夜晚，你们最终结束了你们的访问，把故事来回播放。你们说了再见，然后回到了自己的船上。`
 		decline
 
 event "plasma repeater advanced"

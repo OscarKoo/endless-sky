@@ -14,8 +14,8 @@
 
 mission "First Contact: Gegno Vi"
 	landing
-	name `<Alien> Transport`
-	description `Transport the <alien> you assisted on <origin> to the location designated on the map.`
+	name `<Alien>运输`
+	description `将你在<alien>上协助的<origin>运送到地图上指定的地点。`
 	substitutions
 		"<alien>" "alien"
 		"<alien>" "Gegno"
@@ -36,135 +36,135 @@ mission "First Contact: Gegno Vi"
 			branch "return encounter"
 				has "First Contact: Gegno Vi: deferred"
 			
-			`As you descend towards the surface of this seemingly uninhabited world, you activate your ship's radar system to scan the surface for anything of interest. While waiting for something to appear, you look up and catch a glimpse of a cloud of dust bursting from the ground far off to your right. Peering back down to your radar, you check the surface scans of that direction, but nothing appears. As you continue your flight, another sudden dust cloud appears several minutes later, but still nothing on the radar. You decide to keep your ship a few thousand meters above the surface and take the time to carefully look around, but there still doesn't seem to be anything of note besides the cracked rock formations and valleys of sand.`
-			`	Suddenly, your radar system picks up a larger signal on the horizon, and you see a bulky, rock-like structure. Once you get close enough, the structure begins to resemble a ship like ones you've seen flying around in the nearby systems, although it is half sunken into the sand.`
+			`当你向这个似乎无人居住的世界的表面降落时，你启动你的飞船的雷达系统，扫描表面的任何感兴趣的东西。在等待什么东西出现的时候，你抬起头，瞥见一团尘埃从你右边很远的地方迸发出来。俯视你的雷达，你检查了那个方向的表面扫描，但什么也没有出现。当你继续飞行时，几分钟后，另一个突然出现的尘埃云，但雷达上仍然没有任何东西。你决定让你的飞船保持在离地表几千米的高度，并花时间仔细观察周围，但除了裂开的岩层和沙谷，似乎仍然没有任何值得注意的东西。`
+			`	突然，你的雷达系统在地平线上捕捉到一个较大的信号，你看到一个笨重的、类似岩石的结构。一旦你走得足够近，这个结构就开始像你在附近的系统中看到的那些飞来飞去的飞船，尽管它有一半沉入了沙地。`
 			choice
-				`	(Land near the ship and investigate.)`
-				`	(Continue to search the surface.)`
+				`	(在飞船附近降落并进行调查。)`
+				`	(继续搜索表面。)`
 					goto search
-			`	You carefully land your ship nearby, exiting your ship in an environment suit with your sidearm on hand and walk towards the alien spacecraft. The ship appears a bit larger than you thought - around the size of a Firebird. The dark-brown hull appears to be made from an unknown material, and has several metallic-looking parts both hatched in crevices and protruding outward. Oddly enough, the warship seems perfectly intact, but the way it is angled into the sand suggests that the ship has been there for some time. There doesn't seem to be any activity around it either. You decide to head back to your ship and take another look around the area.`
-			`	As you fly onward, an erratic signature on the surface appears on the edge of your radar. A large arch-like structure becomes visible in the distance, but disappears shortly after. You set your ship down close to the location and exit to investigate.`
+			`	你小心翼翼地在附近降落你的飞船，穿着环境防护服离开你的飞船，手上拿着副武器，向外星飞船走去。这艘飞船看起来比你想象的要大一些--大约有火鸟的大小。黑褐色的船体似乎是由一种未知的材料制成的，并且有几个金属外观的部件既孵化在缝隙中，又向外突出。奇怪的是，这艘军舰似乎完好无损，但它在沙地上的倾斜方式表明，这艘船已经在那里呆了一段时间了。它周围似乎也没有任何活动。你决定回到你的船上，再去看看这个地区。`
+			`	当你继续往前飞时，在你的雷达边缘出现了一个不稳定的表面特征。一个巨大的拱形结构在远处变得清晰可见，但不久后就消失了。你把你的飞船停在靠近该地点的地方，然后退出来调查。`
 				goto skip
 			label search
-			`	As you fly onward, an erratic signature on the surface appears on the edge of your radar. A large arch-like structure becomes visible in the distance, but disappears shortly after. You set your ship down close to the location and exit to investigate, making sure to equip an environment suit and holster your sidearm.`
+			`	当你继续飞行时，在你的雷达边缘出现了一个不稳定的表面特征。一个巨大的拱形结构在远处变得清晰可见，但不久之后就消失了。你把你的飞船停在靠近该地点的地方，然后退出去调查，确保装备好环境防护服，并把你的副手枪套上。`
 			label skip
-			`	Much to your surprise, there is a large humanoid figure standing where the signature originated from. Your radar showed something much less defined than a humanoid, but standing in front of you is a large, bulky being cladded in what looks like a form of metallic armor, wielding a spear-like weapon. The figure moves around attentively as if it is focused on its surroundings, but appears to take no interest in your presence. The encounter feels very odd in that there is no immediate interaction or acknowledgment of your existence.`
+			`	令你惊讶的是，在信号来源的地方站着一个巨大的人形。你的雷达显示了一个比人形更不明确的东西，但站在你面前的是一个大而笨重的人，身上穿着看起来像金属盔甲的东西，挥舞着一个长矛般的武器。这个身影专心致志地走来走去，好像它在关注周围的环境，但似乎对你的存在没有兴趣。这次相遇感觉非常奇怪，因为它没有立即进行互动，也没有承认你的存在。`
 			choice
-				`	(Approach the alien.)`
-				`	(Turn back to my ship.)`
-			`	Suddenly, the ground starts to vibrate intensely. You take out your sidearm in a panic, but as you look back up at the alien figure, you notice that they too enter a defensive stance - but not towards you. A large maw bursts open in the sand to your left, and out of it comes a massive creature hundreds of times your size, covered in spikes and scales. You barely have time to react as it plummets onto the sand to your right, but you get a glimpse of the alien creature riding the beast as they impale it with their weapon.`
+				`	(走近外星人。)`
+				`	(转回我的飞船。)`
+			`	突然，地面开始剧烈震动。你惊慌失措地拿出你的手枪，但当你回过头来看那个外星人的身影时，你注意到他们也进入了防御状态--但不是朝你。一张大嘴在你左边的沙地上突然张开，从里面钻出一个体型是你几百倍的巨大生物，浑身长满尖刺和鳞片。当它坠落到你右边的沙地上时，你几乎没有时间做出反应，但你却瞥见了骑着这只野兽的外星生物，他们用武器刺穿了它。`
 			choice
-				`	(Leave the planet immediately.)`
+				`	(立即离开这个星球。)`
 					goto leave
-				`	(Distance myself from the site but continue to watch.)`
+				`	(与现场保持距离，但继续观察。)`
 					goto watch
-				`	(Try to help the alien defeat the beast.)`
+				`	(试着帮助外星人打败野兽。)`
 			label help
-			`	You aim your sidearm at the beast, preparing to fire. Instead of digging back under the surface, the beast continues to thrash about where it is while the alien batters it down with their spear weapon. Making sure you don't accidentally hit them, you hold your breath and wait until the right moment comes, aiming for the creature's head. The flailing creature begins to gets closer, and your pulse begins to race. A gust of sand blasts directly towards you, and once it clears you fire your weapon. A laser shot flies directly into the face of the beast.`
-			`	Much to your dismay, the shot almost immediately ricochets off of it. You watch as the massive monster tumbles over you, just barely leaping into the air above. The monster plunges into the earth behind you, and you fall to your back with the wind knocked out of you. You raise your sidearm once more. The creature explodes out of the ground with its gaping mouth pointed upward to the sky. With shaking hands, you take aim once again and pull the trigger.`
-			`	A loud, cannon-like bang follows, but it most certainly did not come from your weapon. The beast before you falls downward in a cloud of black smoke, blasting sand and rubble everywhere with a thud. Once you come to your senses, you see the alien marching out of the creature's mouth.`
+			`	你把你的副手枪对准野兽，准备开火。野兽没有挖回地表下，而是继续在原地打转，而外星人则用他们的长矛武器将其击倒。确保你不会意外地击中它们，你屏住呼吸，等待合适的时机到来，瞄准怪物的头部。挥舞的生物开始变得越来越近，你的脉搏也开始加速。一阵沙子直接吹向你，一旦沙子被吹散，你就发射你的武器。一束激光直接飞向那只野兽的脸。`
+			`	令你沮丧的是，这一枪几乎立即弹开了它。你看着这个巨大的怪物从你身上翻滚而过，只是勉强跃上了空中。那只怪物坠入你身后的大地，而你则倒在地上，风被吹走了。你再一次举起你的副手枪。那怪物从地面上爆发出来，它那张大的嘴巴向上指着天空。你用颤抖的手，再次瞄准并扣动了扳机。`
+			`	一声类似大炮的巨响随之而来，但它肯定不是来自你的武器。你面前的野兽在一团黑烟中向下坠落，砰的一声把沙子和瓦砾炸得到处都是。一旦你回过神来，你就会看到外星人正从那怪物的嘴里走出来。`
 			choice
-				`	(Stand up and approach the alien.)`
-				`	(Get up and run to your ship.)`
-			`	Before you can collect yourself, you realize the alien is now much closer to you. Within a matter of moments, the alien stands before you, giving you a much better look at them. They are much taller than you, extremely bulky, and slightly hunched over. Heavy-looking metal surrounds their body, and in any exposed areas are rough-looking patches of skin and hair. Thick facial hair covers their face, and above their human-like eyes are a pair of horns curved inward towards you.`
-			`	Awkward silence ensues, and the alien looks you up and down in an unenthused way. They emit a very deep grumble, and with a loud snort, reach into a crevice in their armor to grab something. Pulling out what looks to be some sort of star map, they point to a location on it, gesture to themselves, then lower the device slowly to you. It seems they want to be taken to one of their species' planets.`
+				`	(站起来，接近外星人。)`
+				`	(站起来，跑向你的飞船。)`
+			`	在你能收拾好自己之前，你发现外星人现在离你更近了。顷刻间，外星人站在你面前，让你更清楚地看到他们。他们比你高得多，非常笨重，而且略微驼背。沉重的金属围绕着他们的身体，在任何暴露的地方都有粗糙的皮肤和头发。浓密的面部毛发覆盖着他们的脸，在他们像人类一样的眼睛上方有一对向内弯曲的角，朝着你。`
+			`	随之而来的是尴尬的沉默，外星人以一种不怀好意的方式上下打量你。他们发出非常低沉的咕哝声，并伴随着一声响亮的鼻息，将手伸进他们盔甲的缝隙中抓东西。他们掏出看起来像是某种星图的东西，指着上面的一个位置，对自己做了个手势，然后把设备慢慢地放到你面前。看来他们想被带到他们物种的一个星球上。`
 			choice
-				`	(Accept their request).`
-				`	(Ask about their request.)`
+				`	(接受他们的请求)。`
+				`	(询问他们的请求。)`
 					goto about
-				`	(Reject their request.)`
+				`	(拒绝他们的请求。)`
 					goto deny
-			`	You hesitantly take the device and turn to make your way to your ship. Before leaving, you take one last glimpse of the enormous creature in the background. Its head is very reptilian, close to dragon-like, with numerous eyes and a mane of spikes. A few small appendages are on either end of it, almost like a scaly salamander. The various signatures on your radar earlier must have been others of their kind. Glaring at you, then at the creature, the Vi warrior utters a single intelligible word in a very deep voice:`
-			`	"Voordt."`
+			`	你犹豫地接过设备，转身向你的飞船走去。在离开之前，你最后看了一眼背景中的巨大生物。它的头很像爬行动物，接近于龙的样子，有许多眼睛和尖刺的鬃毛。它的两端有一些小的附属物，几乎像一只有鳞的蝾螈。你早先雷达上的各种信号一定是它们的同类。瞪着你，然后又瞪着那个生物，维族战士用非常低沉的声音说出了一个可以理解的词。`
+			`	"Voordt"。`
 				accept
 			label about
-			`	You try to ask the alien about the trip, but they simply give you a blank stare for a few seconds before shoving the star map into your chest, letting go of it. You reactively catch it, almost falling over yourself, and then take one last glance at the enormous creature in the background. Its head is very reptilian, close to dragon-like, with numerous eyes and a mane of spikes. A few small appendages are on either end of it, almost like a scaly salamander. Turning around, you see that the alien is already far ahead of you, and you rush after so they aren't first to your ship.`
+			`	你试着问外星人关于这次旅行的情况，但他们只是白了你一眼，然后把星图塞进你的胸口，放开了它。你反应性地接住它，自己差点摔倒，然后最后看了一眼背景中的巨大生物。它的头很像爬行动物，接近龙的样子，有许多眼睛和尖刺的鬃毛。它的两端有一些小的附属物，几乎像一只有鳞的蝾螈。转过身来，你看到那个外星人已经远远地走在你前面了，你赶紧追上去，这样他们就不会先到你的船上。`
 				accept
 			label deny
-			`	You shake your head and decline the request of the alien after having dealt with everything that's happened. Turning back towards your ship to leave, you suddenly find yourself face-first in the ground, coughing up sand and dust, and hear the device hit the ground beside you. In frustration, you quickly get up and look for the alien, who is already marching towards your ship in the distance. Perhaps it wasn't the best idea to decline the request and turn your back on a being several times larger than you, who just took down a beast hundreds of times the size of them. You turn to look at the huge creature one last time. Its head is very reptilian, close to dragon-like, with numerous eyes and a mane of spikes. Definitely something more dangerous than you could ever be on foot.`
+			`	你摇摇头，在处理完所发生的一切后，拒绝了外星人的请求。转身向你的飞船走去，你突然发现自己脸朝下躺在地上，咳出了沙子和灰尘，并听到设备撞在你身边的地面上。沮丧之余，你迅速站起身来，寻找那个外星人，他已经在远处向你的飞船行进。也许拒绝请求并背对着一个比你大几倍的生物并不是最好的主意，他们刚刚干掉了一个比他们大几百倍的野兽。你转身最后一次看了看这个巨大的生物。它的头很像爬行动物，接近龙的样子，有许多眼睛和尖刺的鬃毛。肯定是比你步行更危险的东西。`
 				accept
 			
 			label watch
-			`	Cautiously retreating towards your ship, you keep your eyes and ears peeled for the creature, wondering if and where it might appear again. As if to answer your inquiry, the ground begins to rumble, and off to your left, sand and rubble erupt into the air as the beast twists and turns across the surface. Following a loud bellow, the creature screeches in short bursts, almost like chirps, except much deeper than that of a bird. As some of the dust clears, you see the alien figure breathing intensely as they continue to battle the beast.`
+			`	你小心翼翼地退向你的船，你的眼睛和耳朵都在注意这个生物，想知道它是否会再次出现以及在哪里出现。仿佛是为了回答你的问题，地面开始隆隆作响，在你的左边，沙子和瓦砾在空中喷涌而出，野兽在地面上扭来扭去。在一声大吼之后，这个生物发出短促的尖叫声，几乎就像鸣叫一样，只不过比鸟的声音要深得多。随着一些灰尘的散去，你看到外星人的身影正在激烈地呼吸，他们继续与野兽战斗。`
 			choice
-				`	(Help the alien.)`
+				`	(帮助外星人。)`
 					goto help
-				`	(Leave.)`
+				`	(离开。)`
 					goto leave
 			label leave
-			`	With the situation beginning to spin out of your control, you quickly turn around and make for your ship, taking off as soon as you can. You wonder what will become of the alien figure as while they are most certainly a member of the species inhabiting the nearby systems, it doesn't seem like any help will be sent for them anytime soon.`
+			`	随着局势开始脱离你的控制，你迅速转身，向你的飞船走去，尽快起飞。你想知道那个外星人会变成什么样子，因为他们肯定是居住在附近系统中的一个物种的成员，但似乎很快就不会有人来帮助他们。`
 				depart
 			
 			label "second encounter"
-			`As you descend towards the surface of this seemingly uninhabited world, you activate your ship's radar system to scan the surface for anything of interest. While waiting for something to appear, you look up and catch a glimpse of a cloud of dust bursting from the ground far off to your right. Peering back down to your radar, you check the surface scans of that direction, but nothing appears. As you continue your flight, another sudden dust cloud appears several minutes later, but still nothing on the radar. You decide to keep your ship a few thousand meters above the surface and take the time to carefully look around, but there still doesn't seem to be anything of note besides the cracked rock formations and valleys of sand.`
-			`	Suddenly, your radar systems pick up a larger signal on the horizon, and you see a bulky, rock-like structure. Once you get close enough, you recognize it as one of the Gegno's warships, although it is half sunken into the sand.`
+			`当你向这个似乎无人居住的世界的表面降落时，你启动你的飞船的雷达系统，扫描表面的任何感兴趣的东西。在等待什么东西出现的时候，你抬起头，瞥见一团尘埃从你右边很远的地方迸发出来。俯视你的雷达，你检查了那个方向的表面扫描，但什么也没有出现。当你继续飞行时，几分钟后，另一个突然出现的尘埃云，但雷达上仍然没有任何东西。你决定让你的飞船保持在离地表几千米的高度，并花时间仔细观察周围，但除了裂开的岩层和沙谷，似乎仍然没有任何值得注意的东西。`
+			`	突然，你的雷达系统在地平线上接收到一个更大的信号，你看到一个笨重的、类似岩石的结构。一旦你足够接近，你就能认出它是盖格诺的一艘战舰，尽管它有一半沉入了沙地。`
 			choice
-				`	(Investigate the Gegno ship.)`
+				`	(调查Gegno的船。)`
 					goto investigate
-				`	(Resume your search of the surface.)`
+				`	(继续搜索表面。)`
 					goto resume
 			label investigate
-			`	You carefully land your ship nearby. Most of the faint radar signatures from earlier have disappeared out of range. Exiting your ship in an environment suit and your sidearm on hand, you walk towards the Gegno ship.`
-			`	The ship appears a bit larger than you thought - around the size of a Firebird. The dark-brown hull appears to be made from an unknown material, and has several metallic-looking parts both hatched in crevices and protruding outward, indicative of the Gegno Vi's brutish aesthetics. Oddly enough, the warship seems perfectly intact, but the way it is angled into the sand suggests that the ship has been here for some time. There doesn't seem to be any activity around it, and you aren't picking up any nearby signs of life. You decide to head back to your ship and take another look around the area.`
+			`	你小心翼翼地在附近降落你的飞船。先前的大部分微弱的雷达信号已经消失在范围之外了。穿着环境防护服离开你的飞船，手上拿着手枪，你走向Gegno飞船。`
+			`	这艘船看起来比你想象的要大一些--大约有火鸟的大小。黑褐色的船体似乎是由一种未知的材料制成的，并且有几个金属外观的部件，既孵化在缝隙中，又向外突出，表明了Gegno Vi的粗暴美学。奇怪的是，这艘军舰似乎完好无损，但它倾斜在沙地上的方式表明，这艘船在这里已经有一段时间了。它周围似乎没有任何活动，你也没有发现附近有任何生命迹象。你决定回到你的飞船上，再去看看这个地区。`
 			label resume
-			`	As you fly onward, an erratic signature appears on the edge of your radar. A large arch-like structure becomes visible in the distance, but disappears shortly after. You set your ship down close where it originated from and exit to investigate, donning your environment suit with your sidearm at hand.`
-			`	Much to your surprise, there is a large humanoid figure standing in front of you. It looks nothing like the Gegno you've seen on the nearby Quarg ringworld; it is large, bulky, and clad in metallic armor. In one of its hands is a spear-like weapon; you guess that they are a Gegno Vi based on their appearance. The Vi moves around attentively, focused on its surroundings, but appears to take no interest in your presence.`
+			`	当你继续飞行时，一个不稳定的信号出现在你的雷达边缘。一个巨大的拱形结构在远处变得清晰可见，但不久后就消失了。你把你的飞船放在靠近它起源的地方，然后离开去调查，穿上你的环境服，手拿着你的手枪。`
+			`	令你惊讶的是，有一个巨大的人形物体站在你面前。它看起来一点也不像你在附近的Quarg环形世界看到的Gegno；它很大，很笨重，身穿金属盔甲。它的一只手握着一把类似长矛的武器；根据他们的外表，你猜他们是Gegno Vi。维族人专心致志地走来走去，专注于周围的环境，但似乎对你的存在不感兴趣。`
 			choice
-				`	(Approach the Vi warrior.)`
-				`	(Turn back to my ship.)`
-			`	Suddenly, the ground starts to vibrate intensity. You take out your sidearm in a panic, but as you look back up at the Vi, you notice that they too enter a defensive stance - but not towards you. A large maw bursts open in the sand to your left, and out of it comes a massive creature hundreds of times the size of you, covered in spikes and scales. You barely have time to react as it plummets onto the sand to your right, but you get a glimpse of the Vi riding the beast as they impale it with their weapon.`
+				`	(走近维族战士）。`
+				`	(转回我的飞船。)`
+			`	突然间，地面开始强烈震动。你惊慌失措地拿出你的手枪，但当你回头看维族人时，你注意到他们也进入了防御状态--但不是朝着你。一张大嘴在你左边的沙地上突然张开，从里面钻出一个体型是你几百倍的巨大生物，浑身长满了尖刺和鳞片。当它坠落到你右边的沙地上时，你几乎没有时间做出反应，但你看到了骑着这只野兽的维族人用他们的武器刺穿了它。`
 			choice
-				`	(Observe the situation from a distance.)`
+				`	(从远处观察情况）。`
 					goto observe
-				`	(Assist the Vi in defeating the beast.)`
+				`	(协助维族人打败野兽。)`
 			label assist
-			`	You bring your sidearm up to a firing position and wait for the beast. Once again, it jumps out of the sand in an incredible display, but instead of digging back under the surface, the beast continues to thrash about where it is while the Vi batters it down with their spear weapon. Making sure you don't accidentally hit them, you hold your breath and wait until the right moment comes, aiming for the creature's head. The flailing creature begins to gets closer, and your pulse begins to race. A gust of sand blasts directly towards you, and once it clears you fire your weapon. A laser shot flies directly into the face of the beast.`
-			`	Much to your dismay, the shot almost immediately ricochets off of it. You watch as the massive monster tumbles over you, just barely leaping into the air above. The monster plunges into the earth behind you, and you fall to your back with the wind knocked out of you. You raise your sidearm once more. The creature explodes out of the ground with its gaping mouth pointed upward to the sky. With shaking hands, you take aim once again and pull the trigger.`
-			`	A loud, cannon-like bang follows, but it most certainly did not come from your weapon. The beast before you falls downward in a cloud of black smoke, blasting sand and rubble everywhere with a thud. Once you come to your senses, you see the Vi marching out of the creature's mouth.`
+			`	你把你的手枪举到射击位置，等待野兽的到来。它又一次跳出了沙地，表现得令人难以置信，但它并没有钻回水面下，而是继续在原地打转，而维族人则用他们的长矛武器将其击倒。为了确保不误伤它们，你屏住呼吸，等待合适的时机到来，瞄准怪物的头部。挥舞的生物开始变得越来越近，你的脉搏也开始加速。一阵沙子直接吹向你，一旦沙子被吹散，你就发射你的武器。一束激光直接飞向野兽的脸。`
+			`	令你沮丧的是，这一枪几乎立即弹开了它。你看着这个巨大的怪物从你身上翻滚而过，只是勉强跃上了空中。那只怪物坠入你身后的大地，而你则倒在地上，风被吹走了。你再一次举起你的副手枪。那怪物从地面上爆发出来，它那张大的嘴巴向上指着天空。你用颤抖的手，再次瞄准并扣动了扳机。`
+			`	一声响亮的、类似大炮的巨响随之而来，但它肯定不是来自你的武器。你面前的野兽在一团黑烟中向下坠落，砰的一声把沙子和瓦砾炸得到处都是。一旦你回过神来，你就会看到维从怪物的嘴里走出来。`
 			choice
-				`	(Stand up and approach the alien.)`
-				`	(Get up and run to your ship.)`
-			`	Before you can collect yourself, you realize the Vi warrior is now much closer to you. Within a matter of moments, the alien stands before you, giving you a much better look at them. They are much taller than both you and the other Gegno you've seen, extremely bulky, and slightly hunched over. Heavy-looking metal surround their body, and in any exposed areas are rough-looking patches of skin and hair. Thick facial hair covers their face, and above their human-like eyes are a pair of horns curved inward towards you.`
-			`	While the Gegno are known to dislike outsiders, this particular Gegno seems to at the very least acknowledge you. After a period of awkward and what seems to be judgmental silence, the Vi looks you up and down in an unenthused manner. They emit a very deep grumble, and with a loud snort, reach into a crevice in their armor to grab something. Pulling out what looks to be some sort of star map, they point to a location on it, gesture to themselves, then lower the device slowly to you. It seems they want to be taken to one of the Gegno's planets.`
+				`	(站起来，接近外星人。)`
+				`	(站起来，跑向你的飞船。)`
+			`	在你能收拾好自己之前，你发现维族战士现在离你更近了。不一会儿，这个外星人就站在你面前，让你更清楚地看到他们。他们比你和你见过的其他Gegno人都要高得多，非常笨重，而且略微驼背。沉重的金属围绕着他们的身体，在任何暴露的地方都有粗糙的皮肤和毛发斑块。浓密的面部毛发覆盖着他们的脸，在他们类似人类的眼睛上方有一对向你弯曲的角。`
+			`	虽然众所周知盖格诺人不喜欢外人，但这个特别的盖格诺人似乎至少承认了你。在一段尴尬的、似乎是评判性的沉默之后，维氏以一种不感兴趣的方式上下打量你。他们发出一声非常低沉的咕哝，并发出一声响亮的鼻息，把手伸进他们盔甲的缝隙里抓东西。他们掏出看起来像是某种星图的东西，指着上面的一个位置，对自己做了个手势，然后把设备慢慢地放在你面前。看来他们想被带到盖格诺的一个星球上。`
 			choice
-				`	(Accept their request).`
-				`	(Ask about their request.)`
+				`	(接受他们的请求)。`
+				`	(询问他们的请求。)`
 					goto ask
-				`	(Reject their request.)`
+				`	(拒绝他们的请求。)`
 					goto reject
-			`	You hesitantly take the device and turn to make your way to your ship. Before leaving, you take one last glimpse of the enormous creature in the background. Its head is very reptilian, close to dragon-like, with numerous eyes and a mane of spikes. A few small appendages are on either end of it, almost like a scaly salamander. The various signatures on your radar earlier must have been others of their kind. Glaring at you, then at the creature, the Vi warrior utters a single intelligible word in a very deep voice:`
-			`	"Voordt."`
+			`	你犹豫地接过设备，转身向你的飞船走去。在离开之前，你最后看了一眼背景中的巨大生物。它的头很像爬行动物，接近于龙的样子，有许多眼睛和尖刺的鬃毛。它的两端有一些小的附属物，几乎像一只有鳞的蝾螈。你早先雷达上的各种信号一定是它们的同类。瞪着你，然后又瞪着那个生物，维族战士用非常低沉的声音说出了一个可以理解的词。`
+			`	"Voordt"。`
 				accept
 			label ask
-			`	You try to ask the Gegno about the trip, but they simply give you a blank stare for a few seconds before shoving the star map into your chest, letting go of it. You reactively catch it, almost falling over yourself, and then take one last glance at the enormous creature in the background. Its head is very reptilian, close to dragon-like, with numerous eyes and a mane of spikes. A few small appendages are on either end of it, almost like a scaly salamander. Turning around, you see that the Gegno is already far ahead of you, and you rush after so they aren't first to your ship.`
+			`	你试图询问盖格诺人的行程，但他们只是白了你一眼，然后把星图塞进你的胸口，放开了。你反应性地接住它，自己差点摔倒，然后最后看了一眼背景中的巨大生物。它的头很像爬行动物，接近龙的样子，有许多眼睛和尖刺的鬃毛。它的两端有一些小的附属物，几乎像一只有鳞的蝾螈。转过身来，你看到盖格诺号已经远远地走在你的前面，你赶紧追上去，这样他们就不会先到你的船上。`
 				accept
 			label reject
-			`	You shake your head and decline the request of the Gegno after having dealt with everything that's happened. Turning back towards your ship to leave, you suddenly find yourself face-first in the ground, coughing up sand and dust, and hear the device hit the ground beside you. In frustration, you quickly get up and look for the Gegno, who is already marching towards your ship in the distance. Perhaps it wasn't the best idea to decline the request and turn your back on a being several times larger than you who just took down a beast hundreds of times the size of them. You turn to look at the huge creature one last time. Its head is very reptilian, close to dragon-like, with numerous eyes and a mane of spikes. Definitely something more dangerous than you could ever be on foot.`
+			`	你摇摇头，在处理完所发生的一切后，拒绝了盖格诺的请求。转身向你的飞船走去，你突然发现自己脸朝下躺在地上，咳出了沙子和灰尘，并听到设备撞到了你身边的地面。沮丧之余，你迅速起身寻找盖格诺，他已经在远处向你的飞船行进。也许拒绝请求并背对着一个比你大几倍的生物并不是最好的主意，这个生物刚刚干掉了一个比他们大几百倍的野兽。你转身最后一次看了看这个巨大的生物。它的头很像爬行动物，接近龙的样子，有许多眼睛和尖刺的鬃毛。肯定是比你步行更危险的东西。`
 				accept
 			
 			label observe
-			`	Cautiously retreating to a safer distance, you keep your eyes and ears peeled for the creature, wondering if and where it might appear again. As if to answer your inquiry, the ground begins to rumble, and off to your left, sand and rubble erupt into the air as the beast twists and turns across the surface. Following a loud bellow, the creature screeches in short bursts, almost like chirps, except much more deeper than that of a bird. As some of the dust clears, you see the Vi breathing intensely as they continue to battle the beast.`
+			`	你小心翼翼地退到一个更安全的距离，你的眼睛和耳朵都在注意这个生物，想知道它是否会再次出现以及在哪里出现。仿佛是为了回答你的问题，地面开始隆隆作响，在你的左边，沙子和瓦砾随着野兽在地面上的扭动而喷涌到空中。在一声大吼之后，这个生物发出短促的尖叫声，几乎就像鸣叫一样，只不过比鸟的叫声要深沉得多。随着一些灰尘的散去，你看到维族人正在激烈地呼吸，他们继续与野兽战斗。`
 			choice
-				`	(Assist the Vi.)`
+				`	(协助维族人）。`
 					goto assist
 			
 			label "return encounter"
-			`You find yourself approaching this desert world once again, wondering what happened to the alien figure you previously encountered. Knowing the world is home to a dangerous indigenous species, you are hesitant on landing, making sure to stay clear of any signs of creatures like the one from before.`
+			`你发现自己再次走近这个沙漠世界，想知道你之前遇到的那个异形发生了什么。你知道这个世界是一个危险的本土物种的家园，所以你对登陆犹豫不决，确保远离任何像之前那个生物的迹象。`
 			choice
-				`	(Go search for the alien.)`
+				`	(去寻找那个外星人。)`
 					goto "search again"
-				`	(Carry on.)`
+				`	(继续。)`
 					defer
 			
 			label "search again"
-			`	With the coordinates of the alien vessel still in the history of your ship's computer, you set off to find it again. On your flight there, your radar suddenly picks up another ship approaching, and you look up to see the same type of ship you saw before flying at a higher altitude over you in the opposite direction. It must be another pilot belonging to the alien species.`
+			`	由于外星飞船的坐标仍在你的飞船电脑的历史记录中，你再次出发去寻找它。在你飞往那里的过程中，你的雷达突然发现另一艘飞船正在接近，你抬头一看，看到与你之前看到的同一类型的飞船正以更高的高度向相反的方向飞过你。这一定是另一个属于外星物种的飞行员。`
 			choice
-				`	(Attempt to contact the ship.)`
-				`	(Evade the ship.)`
-			`	The ship continues to fly off behind you until it disappears. It seems that whoever is piloting it isn't concerned with helping the alien on the surface. Eventually, the familiar sunken vessel appears on the horizon and you begin to fly around the area in search for signs of life, hoping that the alien is still alive. Nothing comes up besides the faint blips of the sand creatures at the edges of your radar and you decide to follow them instead.`
-			`	The signals keep randomly disappearing and reappearing elsewhere, and appear to lead to only empty space. After checking a few of them, an erratic movement appears on the edge of your radar, similar to the one during your first visit. Approaching the location, you recognize the beast that is swinging about on the surface, and catch glimpses of the alien from before continuing to fight it.`
+				`	(尝试联系该飞船。)`
+				`	(躲避该飞船。)`
+			`	这艘飞船继续在你身后飞走，直到消失。看来不管是谁在驾驶它，都不关心帮助地面上的外星人。最终，那艘熟悉的沉船出现在地平线上，你开始绕着这个区域飞行，寻找生命的迹象，希望那个外星人还活着。除了在你的雷达边缘出现沙地生物的微弱闪光外，什么都没有出现，你决定跟随它们。`
+			`	这些信号不断地随机消失，又重新出现在其他地方，似乎只通向空旷的空间。在检查了其中几个信号后，你的雷达边缘出现了一个不稳定的运动，与你第一次访问时的运动相似。走近该地点，你认出了在表面上晃动的野兽，并从继续与它战斗前瞥见了外星人。`
 			choice
-				`	(Assist the alien in defeating the creature.)`
+				`	(协助外星人击败该生物)。`
 					goto help
 	
 	on defer
@@ -175,17 +175,17 @@ mission "First Contact: Gegno Vi"
 
 	on fail
 		conversation
-			`Despite knowing you are transporting one of them, you made the conscious decision to fire upon <alien> ships, and the rest of your trip to this world was extremely awkward. Rather than settle in a bunk, the <alien> passenger stood close behind you in your cockpit the entire time. You occasionally turned to observe their behavior and even made attempts to communicate, but they wouldn't so much as look in your direction.`
-			`	Strangely, they didn't seem to be upset at all, at least in a way you could tell. Regardless, the tension became extremely uncomfortable, but now that you've landed your ship, perhaps you could address it.`
+			`尽管知道你是在运送他们中的一员，但你还是有意识地决定向<alien>飞船开火，接下来你在这个世界上的旅行是极其尴尬的。那位<alien>乘客没有在铺位上安顿下来，而是在你的驾驶舱里一直紧紧站在你身后。你偶尔转过身来观察他们的行为，甚至试图进行交流，但他们连看都不看你的方向。`
+			`	奇怪的是，他们似乎一点也不生气，至少在你能看出的方面。不管怎么说，这种紧张关系变得非常令人不舒服，但现在你的船已经着陆了，也许你可以解决这个问题。`
 			choice
-				`	(Try to communicate with the <alien>.)`
-			`	Before you could turn to speak to them, you feel an immense force go straight through your torso, and your body slowly starts to lift up. You try to speak, but nothing comes out, and struggling your head, you turn to see that the <alien> has pierced you through your chest with their spear weapon. As your vision slowly fades, the last glimpse you could see of them wasn't a look of hatred, but one of disappointment.`
+				`	(试着与<alien>沟通。)`
+			`	在你转身和他们说话之前，你感觉到一股巨大的力量直接穿过你的躯干，你的身体开始慢慢抬起来。你试图说话，但什么也说不出来。你挣扎着转过头，看到<alien>已经用他们的长矛武器刺穿了你的胸膛。当你的视线慢慢消失时，你能看到的他们的最后一瞥不是仇恨的眼神，而是失望的眼神。`
 				die
 
 mission "Visit Quarg in Gegno Space"
 	landing
-	name `Travel to <designated system>`
-	description `Travel to the <designated system> as instructed.`
+	name `到<designated system>旅行`
+	description `按照指示前往<designated system>。`
 	substitutions
 		"<alien>" "alien"
 		"<alien>" "Gegno"
@@ -206,19 +206,19 @@ mission "Visit Quarg in Gegno Space"
 		not "First Contact: Gegno Vi: failed"
 	on offer
 		conversation
-			`Your trip here was full of tension and anything but pleasant. Rather than find a seat normally, the <alien> stood close behind you in your cockpit with their arms crossed during most of the ride, almost as if they were an immovable boulder. Occasionally, you made attempts to communicate with them again to break the pressure, but the most they would give you is a slight glance or low grunt.`
-			`	As you descend into the atmosphere, you watch as layers of dark smog quickly reveal massive cities glittered with various lights towering into the sky. The ships here are of different shades than the ones you previously saw, being more tan than dark brown, and are in a much larger quantity. The intensity of traffic, combined with the overwhelming mass of infrastructure, suggests that this is the homeworld of the <alien>. Before getting lost in the fantastical sight in front you, the <alien> marches up next to you and raises one arm, gesturing to an enormous factory-like structure in the distance that stands out from other towers. You carefully guide your ship to the building and with the help of the <alien> find a suitable docking port to land on.`
-			`	After you touch down, several <aliens> that are of a similar appearance to the one next to you begin to line up in a formation towards your ship, all carrying various types of staff-like weaponry. However, they don't show any signs of aggression and simply hold their position in a coordinated display of might. The <alien> beside you gestures for their compass device they gave you earlier.`
+			`你在这里的旅行充满了紧张，而且并不愉快。在大部分的旅程中，<alien>没有正常地找到一个座位，而是紧紧地站在你的驾驶舱后面，双手交叉，几乎就像一块不可移动的巨石。偶尔，你又做出尝试与他们沟通，以打破压力，但他们最多只能给你一个轻微的眼神或低声的咕哝。`
+			`	当你下降到大气层时，你看着一层层的黑烟很快就露出了闪烁着各种灯光的巨大城市，耸立在天空中。这里的船只与你之前看到的不同，更多的是棕褐色而不是深褐色，而且数量更多。交通的强度，加上压倒性的大量基础设施，表明这里是<alien>的家园。在迷失在你面前的奇幻景象之前，<alien>走到你旁边，举起一只手臂，向远处一个巨大的类似工厂的结构示意，这个结构在其他塔楼中很突出。你小心翼翼地引导你的飞船前往该建筑，并在<alien>的帮助下找到一个合适的停靠港口降落。`
+			`	在你着陆后，几个与你旁边的那个外表相似的<aliens>开始排队向你的飞船走来，他们都带着各种类型的类似于杖的武器装备。然而，他们没有表现出任何攻击性的迹象，只是在协调显示力量的过程中保持他们的位置。你身边的<alien>打着手势要拿他们之前给你的罗盘装置。`
 			choice
-				`	(Hand them the device.)`
+				`	(把装置递给他们）。`
 				
 			branch "has met quarg"
 				has "Giaru Gegno: Quarg Contact: offered"
-			`	After fiddling with it, the <alien> marks a new location and presents it to you. "Oukeug," they say, and gesture you to depart in a fashion of urgency. They then leave your ship, walk towards the others, and have a brief discussion. A few moments later, another smaller group of <aliens> arrive with what looks to be some type of fueling device, and after a minute or so of fidgeting with it, they manage to hook it up to your ship. These <aliens> look shorter and thinner than the others, and wear more leather-like garments than heavy metal ones - but their demeanor is just as rigid. Once your ship's fuel has been filled, the <alien> that has been guiding you gestures towards the sky. It seems your visit to the mysterious <alien> homeworld will have to be cut short.`
+			`	在摆弄了一下之后，<alien>标记了一个新的位置，并把它交给了你。"Oukeug，"他们说，并示意你以一种紧急的方式离开。然后他们离开你的飞船，走向其他人，并进行了简短的讨论。片刻之后，另一个较小的<aliens>小组带着看起来是某种类型的加油装置来到这里，经过一分钟左右的摆弄，他们设法把它连接到你的船上。这些<aliens>看起来比其他的人更矮更瘦，穿着更多类似皮革的服装，而不是重金属服装--但他们的举止也同样僵硬。一旦你的飞船燃料被填满，一直在引导你的<alien>向天空打手势。看来你对神秘的<alien>家园的访问将不得不缩短了。`
 				launch
 			
 			label "has met quarg"
-			`	After fiddling with it, the Vi marks a new location and presents it to you. "Oukeug," they say, and gesture you to depart in a fashion of urgency. You look at the location and notice that it's the Quarg ringworld you've previously visited. They then leave your ship, walk towards the others, and have a brief discussion. A few moments later, another smaller group of Gegno arrive with what looks to be some type of fueling device, and after a minute or so of fidgeting with it, they manage to hook it up to your ship. These Gegno look shorter and thinner than the others, and wear more leather-like garments than heavy metal ones - but their demenaor is just as rigid. Once your ship's fuel has been filled, the Gegno Vi that has been guiding you gestures towards the sky. It seems your visit to the mysterious Gegno homeworld will have to be cut short.`
+			`	在摆弄了一下之后，维族人标记了一个新的位置，并把它呈现给你。"Oukeug"，他们说，并示意你以一种紧急的方式出发。你看了看这个地点，注意到它是你以前访问过的夸格环形世界。然后他们离开你的飞船，走向其他人，并进行了简短的讨论。片刻之后，另一个较小的Gegno小组带着看起来是某种类型的加油装置来到这里，在摆弄了一分钟左右之后，他们设法将其与你的飞船连接起来。这些Gegno看起来比其他的人更矮更瘦，穿的衣服更像皮革，而不是重金属衣服--但他们的手势同样僵硬。一旦你的船的燃料被填满，一直在引导你的Gegno Vi向天空打手势。看来你对神秘的Gegno家园的访问将不得不缩短了。`
 				launch
 	
 	npc
@@ -269,103 +269,103 @@ mission "Giaru Gegno: Quarg Contact"
 		has "First Contact: Quarg: offered"
 		not "Gegno Genocide Defense: offered"
 	on offer
-		log "Factions" "Gegno" `The Gegno are a humanoid species to the galactic east of the core, split amongst themselves into branches. One branch is the Gegno Vi, who are spoken of to be strong and forceful brutes. The other is the Gegno Scin, mentioned to be progressers of research and technology. Apart from them, a majority of the Gegno's population consists of complacent civilians.`
+		log "Factions" "Gegno" `盖格诺人是银河系核心以东的一个类人物种，他们之间分成几个分支。一个分支是Gegno Vi，他们被说成是强壮有力的野蛮人。另一个分支是Gegno Scin，被提到是研究和技术的进步者。除了他们之外，Gegno的大部分人口都是自满的平民。`
 		log `Learned from the Quarg that the Gegno are not interested in interaction with outsider species.`
 		event "gegno space label"
 		conversation
 			branch "has met gegno"
 				has "Visit Quarg in Gegno Space: offered"
 				
-			"After jumping through several systems of many alien ships, a Quarg ring world is a surprisingly familiar sight to you. From the looks of it, this is a fully complete ringworld, a true sight to behold. Trillions of Quarg probably inhabit this ring, but what's more interesting to your eye is that some other aliens are also present. They too are humanoid, and the most common figures you come across are either slightly above or below an average human's height. Their skin is a smooth, light gray, and adorned with different sorts of leather that remind you of medieval human clothing."
-			`	The mood here is eerie as the Quarg here move in an unusually quiet manner. They are dismissive of the other species walking about, who are equally as dismissive of you. The strange atmosphere around you is finally broken when a few Quarg start to advance towards you, moving much quicker than the rest. After some unidentifiable discussion and gestures between themselves, one of them motions you to follow them.`
+			"在跳过许多外星飞船的几个系统后，一个夸格环形世界对你来说是一个令人惊讶的熟悉景象。从外观上看，这是一个完全完整的环形世界，是一个真正的景观。数以万亿计的Quarg人可能居住在这个环形世界中，但对你来说更有趣的是，一些其他的外星人也在这里。他们也是人形，你所遇到的最常见的人物，要么略高于或低于普通人的身高。他们的皮肤是光滑的浅灰色，并装饰着不同种类的皮革，让你想起中世纪的人类服装。"
+			`	这里的气氛是阴森的，因为这里的夸格人以一种异常安静的方式行动。他们对走动的其他物种不屑一顾，而其他物种对你也同样不屑一顾。当几个夸父开始向你走来时，你周围的奇怪气氛终于被打破了，他们的行动比其他人快得多。在他们之间进行了一些无法识别的讨论和手势后，其中一个人示意你跟着他们。`
 				goto "walking"
 			
 			label "has met gegno"
 			action
 				set "gegno: met gegno before quarg"
-			`The visual of a complete Quarg Ringworld is drastically different than the Gegno homeworld you were on before. Such a pristine, advanced structure is quite the opposite of the disorderly industry of Gegno civilisation. The population of Quarg here must be at least around the trillions, many times more than the population of the Gegno homeworld. What's even more interesting is there are other aliens of the kind you met before here on the ring too. The Quarg must have some kind of relations with them, perhaps through trade, maintenance, or other services. Despite them being present, the Quarg seem to be very dismissive of them. However, a few of the aliens occasionally glance over at you with hints of interest.`
-			`	Soon enough, a few Quarg start to rush towards you much faster than the others and begin a conversation between themselves. You aren't sure what language they are speaking, but judging by the tones and pronunciations, it sounds similar to the one you've heard the aliens speaking before. After a moment or so, one of them motions you to follow them.`
+			`一个完整的夸父环形世界的视觉效果与你之前所在的盖格诺家园截然不同。这样一个原始的、先进的结构与Gegno文明的无序工业截然不同。这里的夸格人口至少要有几万亿左右，比盖格诺家园的人口多出许多倍。更有趣的是，这里还有你之前遇到的那种外星人，在戒指上也有。夸格人一定与他们有某种关系，也许是通过贸易、维修或其他服务。尽管他们在这里，但夸格人似乎对他们很不屑一顾。然而，有几个外星人偶尔会瞥一眼你，暗示你有兴趣。`
+			`	很快，几个夸父族人开始冲向你，比其他人快得多，并开始了他们之间的对话。你不确定他们说的是什么语言，但从音调和发音来看，它听起来与你以前听到的外星人说的语言相似。过了一会儿，他们中的一个人示意你跟着他们。`
 			
 			label "walking"
-			`	You walk with the Quarg, occasionally having trouble keeping pace with their silent yet brisk steps, as you head towards an area that appears devoid of the other aliens. Eventually, you are led to a smaller room with two more Quarg in waiting, silently sitting at the end of it. They talk, but this time you can hear a few familiar sounding terms, one being "Huema". Despite speaking to each other for several minutes, the Quarg still look at each other in what you assume is something like bewilderment.`
-			`	One of the Quarg waiting in the room finally turns towards you and motions you to take a seat. Its look of confusion disappears when they turn their gaze back upon you. Meanwhile, the other Quarg that was seated has left the room, along with the ones that first brought you here.`
+			`	你和夸父走在一起，偶尔难以跟上他们沉默而轻快的步伐，你走向一个似乎没有其他外星人的区域。最终，你被带到了一个较小的房间，还有两个夸父在等待，静静地坐在房间的尽头。他们在交谈，但这次你可以听到一些听起来很熟悉的术语，其中一个是 "Huema"。尽管彼此交谈了几分钟，但夸父们仍然互相看着对方，你认为他们是在困惑。`
+			`	在房间里等待的夸父之一终于转向你，示意你坐下来。当他们把目光转回到你身上时，其困惑的表情消失了。与此同时，另一个坐着的夸父已经离开了房间，和那些第一次带你来的人一起。`
 			choice
-				`	"Is there a problem?"`
-			`	The Quarg continues to look at you and bows its head slightly in an apologetic manner, as it seems neither it, nor any other Quarg on this ringworld, can speak your language. You continue to patiently wait in the uneasy silence, withholding your curiosities as almost half an hour goes by.`
-			`	Finally, the silence is broken when the second Quarg from earlier enters the room again. This time, it glares at you much more energetically, and you begin to wonder if your presence really is an issue.`
+				`	"有什么问题吗？"`
+			`	夸父继续看着你，并略带歉意地低下头，因为似乎它和这个环形世界的其他夸父都不会说你的语言。你继续在不安的沉默中耐心等待，在近半个小时的时间里忍住了你的好奇心。`
+			`	最后，当先前的第二个夸父再次进入房间时，寂静被打破了。这一次，它更加精力充沛地瞪着你，你开始怀疑你的存在是否真的是一个问题。`
 			
 			branch "intrigued quarg"
 				has "Visit Quarg in Gegno Space: offered"
 			
-			`	You preemptively begin to stand up, but you are cut short when you see the second Quarg raise its arms outward in a gesture you never thought you'd see from a Quarg. "This must be for you an exhilarating day, young traverser. I strongly imagine this is a first for both of us." It is now obvious that this Quarg is not the same one from earlier, and you begin to see a few differences in its attire and figure. The upbeat rhythm to their speech is not something you would expect of a Quarg.`
+			`	你先发制人地开始站起来，但当你看到第二个夸父向外举起手臂，做出你从未想过的夸父的姿态时，你被打断了。"这对你来说一定是令人振奋的一天，年轻的穿越者。我强烈地想象这对我们两个人来说都是第一次。"现在很明显，这个夸父不是先前的那个，你开始看到它的服装和身材有一些不同。他们说话的节奏感很强，这不是你所期望的夸父的样子。`
 			choice
-				`	"Where am I?"`
-			`	The Quarg sits down across from you, still gesturing its arms about in a strange manner, albeit slower this time. "You have found yourself in the dwelling of the mighty Gegno, who have rooted their hardy empire here in the great galactic east."`
+				`	"我在哪里？"`
+			`	夸父在你对面坐下，仍然以一种奇怪的方式比划着手臂，尽管这次慢了下来。"你已经发现自己在强大的盖格诺的住所，他们在伟大的银河系东部扎下了坚韧的帝国。"`
 				goto "the gegno"
 			
 			label "intrigued quarg"
-			`	"You have astonishingly achieved a wondrous feat, brave traverser," the Quarg says, placing its hands together. It seems that the Quarg are already aware of your encounter on the alien homeworld. In fact, thinking back to it, the looks of interest earlier by other aliens suggests that the word got spread quickly. It then sits down across from you, then raises its arms outward in a gesture you never thought you'd see from a Quarg. "Not significantly often it is that the mighty Gegno interact with daring outsiders."`
+			`	"勇敢的穿越者，你已经取得了惊人的成就。"夸父说，把它的手放在一起。看来夸格人已经知道你在异星家园的遭遇了。事实上，回过头来想想，其他外星人早些时候的兴趣表情表明，这个消息很快就传开了。然后它在你对面坐下，然后向外举起双臂，做了一个你从未想过的夸父的手势。"强大的Gegno与大胆的外来者互动的情况并不常见。"`
 			
 			label "the gegno"
 			choice
-				`	"The Gegno?"`
+				`	"盖格诺人？"`
 					goto gegno
-				`	"Do the ships I've seen around belong to these Gegno?"`
+				`	"我在周围看到的那些船是属于这些Gegno的吗？"`
 					goto ships
 			label gegno
-			`	"Yes, the imperious Gegno. A juvenile race, they are, many decades younger than that of you humans. They do not find themselves in the struggle of leadership the same way as others do. Rather, they glorify their pursuit of guidance between one another to share a noble future." You wonder if the Quarg's use of boastful adjectives is because of gaps in his translations, or if they are intentionally speaking that way. Its voice still comes from the lower tones of Quarg speech, clashing with the excited pace it is speaking at.`
+			`	"是的，势力庞大的Gegno。他们是一个年轻的种族，比你们人类年轻好几十年。他们并不像其他人那样在领导权的争夺中发现自己。相反，他们以追求彼此之间的指导为荣，以分享一个崇高的未来。"你不知道夸父使用夸张的形容词是因为他的翻译有漏洞，还是他们故意这样说话。它的声音仍然来自夸父说话的低沉音调，与它兴奋的说话节奏相冲突。`
 			choice
-				`	"What is this guidance they pursue?"`
+				`	"他们追求的这种指导是什么？"`
 					goto guidance
 			label ships
-			`	"Indeed, the vessels of such stature represent the robust Gegno. Not in sorrow, but greatness do they pursue their future, bearing the fruit of sacrifice as a trophy to their name." The Quarg now shifts facial expressions in such a way to suggest a small hint of frustration.`
+			`	"的确，这种身材的船只代表着健壮的格格诺。他们不是在悲伤中，而是在伟大中追求他们的未来，将牺牲的果实作为他们名字的战利品。"夸父现在转移了面部表情，暗示了一丝挫折感。`
 			choice
-				`	"Do the Gegno upset you in some way?"`
+				`	"Gegno人在某些方面让你感到不安吗？"`
 					goto sacrifice
 			label guidance
-			`	The Quarg now shifts facial expressions in such a way to suggest a small hint of frustration. "The Gegno believe it to be necessary to overwhelmingly sacrifice whatever must be, in order to imagine a grand future for themselves. Thus, they have separated into two different branches. One brandishes themselves as the honorable Vi - mightiest of warriors, toughest of kin. They are brutes that see proof of strength being the one and only variable in determining their path. That of the Scin, the more technologically able, believe that only through progression of sciences and discovery will the Gegno prosper."`
+			`	夸父现在转移了面部表情，暗示了一丝挫折感。"盖格诺人认为有必要压倒性地牺牲任何必须的东西，以便为自己想象一个宏伟的未来。因此，他们分成了两个不同的分支。一个将自己打造成光荣的维--最强大的战士，最强悍的亲属。他们是野蛮人，认为力量的证明是决定他们道路的唯一变量。斯金人，在技术上更有能力，相信只有通过科学和发现的进步，盖格诺人才会繁荣。"`
 				goto next
 			label sacrifice
-			`	"The Gegno believe it to be necessary to sacrifice whatever must be, in order to imagine a future for themselves. Thus, they have separated into two different branches. One brandishes themselves as the honorable Vi - mightiest of warriors, toughest of kin. They are brutes that see proof of strength being the one and only variable in determining their path. That of the Scin, the more technologically able, believe that only through progression of sciences and discovery will the Gegno prosper."`
+			`	"盖格诺人认为有必要牺牲任何必须的东西，以便为自己设想一个未来。因此，他们分成了两个不同的分支。一个将自己打造成光荣的维--最强大的战士，最强悍的亲属。他们是野蛮人，认为力量的证明是决定他们道路的唯一变量。斯金人，技术能力更强的人，相信只有通过科学和发现的进步，盖格诺人才会繁荣。"`
 			label next
 			choice
-				`	"The Vi are right, the strength to survive is more important than anything else."`
+				`	"维族是对的，生存的力量比什么都重要。"`
 					goto vi
-				`	"The Scin are right, technological advancement opens up so many possibilities."`
+				`	"斯金人是对的，技术的进步开辟了许多可能性。"`
 					goto scin
-				`	"Why do they not combine their efforts to better their future together?"`
+				`	"为什么他们不把他们的努力结合起来，共同改善他们的未来？"`
 					goto together
 			label vi
-			`	"While it is characteristic, such a tremendous proposition is rather dull for a marvelously growing species. Be that as it may, you humans follow this harsh doctrine, though to a much lesser degree than that of the Vi."`
+			`	"虽然它是有特点的，但这样一个巨大的命题对于一个奇妙的成长中的物种来说是相当沉闷的。尽管如此，你们人类也遵循这种严酷的教义，虽然程度上比维族要小得多。"`
 				goto "wrap up"
 			label scin
-			`	The Quarg now shifts facial expressions in such a way to suggest a small hint of disappointment. "The pursuit of technology leaves behind many values important to a glorious species' growth, that of which we have seen plentifully."`
+			`	夸格人现在转移面部表情，暗示出一丝失望的情绪。"对技术的追求留下了许多对一个光荣的物种的成长很重要的价值，这一点我们已经看到了很多。"`
 				goto "wrap up"
 			label together
-			`	"Regrettably, most Gegno do not have a drive to pursue their principal future, diluting themselves far into their stagnant present. Segregation of followings was one of few ways to seek motivation beyond the fact."`
+			`	"遗憾的是，大多数盖格诺人没有追求其主要未来的动力，把自己远远地稀释在其停滞不前的现在。隔离追随者是寻求超越事实的动力的少数方法之一。"`
 			label "wrap up"
 			choice
-				`	"Thank you for the information."`
+				`	"谢谢你提供的信息。"`
 					goto end
-				`	"It seems that you do not like the paths they've chosen."`
-			`	The Quarg stands up, darting its gaze off to the side. The energy it exhibited earlier is gone. "It is not in our prosperous grasp to persuade the Gegno, as once we did attempt to. They would ensure conflict with us should we interfere, and we have no desire to witness an imperiled uprising of such a sort once more." It pauses, then gestures you to stand up as well.`
+				`	"看来你并不喜欢他们选择的道路。"`
+			`	夸父站了起来，把目光投向一边。它之前表现出来的能量已经消失了。"劝说盖格诺人不在我们繁荣的掌握之中，因为曾经我们确实试图过。如果我们干涉，他们会确保与我们发生冲突，而我们也不想再一次目睹这种危险的起义了。"它停顿了一下，然后示意你也站起来。`
 			
 			branch "interacted with outsider"
 				has "Visit Quarg in Gegno Space: offered"
 			
-			`	"Similarly, the Gegno do not wish to interact with audacious outsiders. Unfortunately, only a brief history of them we can tell. We cannot advocate virtuous pleasantries between you and them, though you are welcome at this ring should you find yourself here again. Please keep encounters with the Gegno minimal."`
+			`	"同样，盖格诺人也不希望与大胆的外来者交往。不幸的是，我们只能说出他们的简史。我们不能主张在你和他们之间进行良性的寒暄，尽管如果你再次发现自己在这里，我们欢迎你在这个戒指里。请尽量减少与Gegno人的接触。"`
 				goto end
 			
 			label "interacted with outsider"
-			`	"However, it is still quite staggering that the Gegno interacted with an audacious outsider such as yourself." The Quarg pauses for a moment and takes a longer breath than usual. "Please do be distinctly cautious in encounters with the Gegno. Unfortunately, we cannot advocate virtuous pleasantries between you and them. Only a brief history of them can we tell. Although, you are appreciably welcome at this ring should you find yourself here again."`
+			`	"然而，Gegno与像你这样大胆的外来者进行互动，这还是很令人吃惊的。"夸格人停顿了一会儿，并比往常多吸了一口气。"请你在与盖格诺人相遇时明显谨慎。不幸的是，我们不能主张在你和他们之间进行良性的寒暄。我们只能讲述他们的简史。不过，如果你再发现自己在这里，我们会非常欢迎你来这个戒指。"`
 			
 			label end
-			`	The Quarg motions a bow to you, and the first one from earlier escorts you out of the room. It seems associating with these so-called "Gegno" is very unlikely for you, and you will have to deal with their xenophobia for the foreseeable future.`
+			`	夸格人向你鞠了一躬，先前的第一个人把你送出了房间。看来，与这些所谓的 "Gegno "交往对你来说是非常不可能的，在可预见的未来，你将不得不面对他们的仇外心理。`
 				decline
 
 
 mission "Gegno Quarg Direction to Ringworld"
-	name `Visit Quarg Ringworld`
+	name `访问夸格环形世界`
 	landing
 	source
 		near "Aleit" 1 2
@@ -375,11 +375,11 @@ mission "Gegno Quarg Direction to Ringworld"
 		not "Giaru Gegno: Quarg Contact: offered"
 	on offer
 		conversation
-			`As soon as you land on this Quarg world, a few Quarg swiftly make their way to your ship. One of them stands in front of the rest and beckons you over while the others quietly speak to themselves in a language you've not heard before. The Quarg bows down slightly to speak to you, and judging by the look in its eyes, they seem rather perplexed. "Sdii veebyi keies Gegnion?" it asks, which seems to be the language the others were speaking in. Afterwords, it patiently waits for your response.`
+			`你一登陆这个夸格世界，就有几个夸格人迅速地来到你的船上。其中一个人站在其余的人面前，向你招手，而其他的人则悄悄地用一种你以前没有听到的语言自言自语。夸格人微微低头与你说话，从它的眼神来看，它们似乎相当困惑。"Sdii veebyi keies Gegnion？"它问道，这似乎是其他人所说的语言。之后，它耐心地等待着你的回答。`
 			choice
-				`	(Try to speak to the Quarg.)`
-			`	You introduce yourself to the Quarg and then explain that you don't understand their language. It lifts itself back up slowly, seemingly pondering the situation before turning back to the others. After a few more exchanged words, one of the other Quarg walk off and fetch some sort of device, bringing it back to you. It appears to be some type of holographic map. The Quarg gestures to a system nearby, which then reveals a hologram of a Quarg Ringworld. "Ehsveet Duebyuarr Giaru, Aechman," it says, and then bows before you.`
-			`	You should probably go pay the ringworld a visit.`
+				`	(试着和夸父说话）。`
+			`	你向夸父介绍自己，然后解释说你不懂他们的语言。它慢慢地抬起身子，似乎在思考这个问题，然后转身回到其他人身边。在又交流了几句之后，其他夸父族人中的一个走了出去，取来了某种装置，把它带回给你。这似乎是某种类型的全息地图。夸格人向附近的一个系统打手势，然后显示出一个夸格环形世界的全息图。"Ehsveet Duebyuarr Giaru，Aechman，"它说，然后在你面前鞠躬。`
+			`	你也许应该去拜访一下这个环形世界。`
 				accept
 
 
@@ -393,16 +393,16 @@ mission "Giaru Gegno: Revisit"
 		not "gegno: met gegno before quarg"
 	on offer
 		conversation
-			`You arrive once more at Giaru Gegno, hoping to find another Quarg that speaks your language. This time, however, you notice that a few of the Gegno on this ringworld occasionally give you a look of interest as they walk by. After about a minute of this a pair of Quarg approach you, motioning you to follow them. Led back to the familiar room from before, the Quarg you previously spoke with is already calmly sitting at the other end of the table.`
-			`	"You have astonishingly achieved a wonderous feat, brave traverser," the Quarg says, placing its hands together. It seems the Quarg are already aware of your encounter on the alien homeworld. In fact, thinking back to it, the looks of interest you received earlier suggests that the word spread quickly. "Not significantly often it is the mighty Gegno interact with daring outsiders."`
+			`你再次来到Giaru Gegno，希望能找到另一个会说你的语言的Quarg。然而这一次，你注意到这个环形世界的一些格格诺人在走过时偶尔会对你投以感兴趣的目光。大约一分钟后，一对夸父接近你，示意你跟随他们。被带回到之前熟悉的房间，之前与你交谈的夸格人已经平静地坐在桌子的另一端。`
+			`	"勇敢的穿越者，你已经取得了惊人的成就。"夸父说，把它的手放在一起。看来夸父已经知道了你在外星家园的遭遇。事实上，回过头来想一想，你之前收到的感兴趣的眼神表明，这个消息传得很快。"不大经常是强大的盖格诺与大胆的外来者互动。"`
 			choice
-				`	"It was a coincidence."`
-				`	"They seemed in trouble when I found them, so I helped them."`
+				`	"这是个巧合。"`
+				`	"我发现他们时，他们似乎遇到了麻烦，所以我帮助他们。"`
 					goto "trouble"
-			`	"Indeed yes, strange coincidences do curiously happen. Many coincidences are as mere fleeting moments of subtle peculiarity." The Quarg then displays a soft grimace. "Sometimes, one may be grand and powerful, in addition to having potent consequences. The Gegno have learned this a great number of times.`
+			`	"的确是的，奇怪的巧合确实奇怪地发生了。许多巧合仅仅是微妙奇特的转瞬即逝的时刻。"夸父随后露出一个柔和的苦笑。"有时，一个人可能是宏大而强大的，除了有强大的后果外。盖格诺人已经多次领教过这一点。`
 			label "trouble"
-			`	"Quite a brave one you indeed are. Most would think to not leap into the daunting face of uncertainty as you have." The Quarg momentarily meditates on its next thought. "Though, as the Gegno have throughout their history, some may make monumentous jumps undeterred by any amount of hesitance."`
-			`	The Quarg raises from its seat, and you act in accordance. "Please do be distinctly cautious in your encounters with the Gegno. Always feel gracious to visit here once more, should you mindfully chose to do so." As you are directed out of the room, you turn back to see the Quarg bowing. You can't help but wonder what was on their mind during the conversation, but it might be for the best you are more careful from now on.`
+			`	"你确实是个相当勇敢的人。大多数人会认为，不要像你一样跳进令人生畏的不确定性的脸。"夸父瞬间沉思着下一个想法。"虽然，正如盖格诺人在整个历史上所做的那样，有些人可能会做出不朽的跳跃，而不会被任何的犹豫所吓倒。"`
+			`	夸父从它的座位上站起来，你也照做。"在与盖格诺人相遇时，请务必小心谨慎。如果你有意识地选择再来这里，请随时感到亲切。"当你被引导出房间时，你回头看到夸父在鞠躬。你不禁想知道他们在谈话期间在想什么，但从现在开始，你最好能更小心一些。`
 				decline
 
 
@@ -467,20 +467,20 @@ mission "Gegno Genocide Defense"
 		"reputation: Gegno Scin" = -100
 		event "gegno: unified defense"
 		conversation
-			`As soon as you land your ship, you receive an incoming hail from a Quarg that sounds very displeased. "It was incredibly unwise to engage in the unnecessary destruction of noncombatants belonging to a species not of your own. A species that is still learning from themselves is vulnerable to outside influence, and your aggressive actions against civilians of the Gegno have resulted in needless events."`
+			`你的飞船一着陆，你就收到了来自夸格人的呼唤，听起来非常不高兴。"参与不必要的破坏属于不属于你们的物种的非战斗人员是非常不明智的。一个仍在向自己学习的物种很容易受到外界的影响，而你对盖格诺的平民采取的侵略性行动导致了不必要的事件。"`
 			choice
-				`	"It was an accident!"`
-				`	"What are you talking about?"`
+				`	"那是个意外！"`
+				`	"你在说什么？"`
 					goto "what"
-				`	"I do not care."`
+				`	"我并不关心。"`
 					goto "care"
-			`	"It is greatly unlikely for violence upon unarmed victims to be accidental. Regardless of the cause, the effect has already occurred. The Gegno have banded together under one flag in an effort to deter any more outside interference. You are no longer welcome in their space, and you are advised not to visit again, lest the Gegno show you the same belligerent behavior you have exhibited to their citizens."`
+			`	"对手无寸铁的受害者施暴，大大不可能是偶然的。不管是什么原因，结果已经发生了。盖格诺人已经在一面旗帜下联合起来，努力阻止任何更多的外来干涉。他们的空间不再欢迎你，建议你不要再来，以免盖格诺人对他们的公民表现出同样的好战行为。"`
 				accept
 			label "what"
-			`	"Your behavior has caused the Gegno to unite their fleets and deter any more presence from outsiders. It is a great shame. The time they would use to resolve their inner conflicts is now wasted upon hostility towards strangers due to your naivety. You are no longer welcome in Gegno space, and if you dare visit again, the Gegno will demonstrate the same treatment you gave their citizens."`
+			`	"你的行为导致了盖格诺人联合他们的舰队，并阻止了任何外来者的存在。这是一个巨大的耻辱。由于你的天真，他们用来解决内部冲突的时间现在被浪费在了对陌生人的敌意上。盖格诺空间不再欢迎你，如果你敢再次访问，盖格诺人将展示你给他们公民的同样待遇。"`
 				accept
 			label "care"
-			`	The Quarg makes an unpleasant sound - one you have not heard from any Quarg before. "Should you be seen in Gegno space once more, expect the same sentiment."`
+			`	夸父发出一种令人不快的声音--你以前从未从任何夸父那里听到过这种声音。"如果你再一次出现在盖格诺空间，请期待同样的情绪。"`
 				accept
 	npc
 		government "Gegno Vi"
@@ -582,7 +582,7 @@ mission "Gegno Vi Duels"
 
 conversation "interfered with duel"
 	action
-		"reputation: Gegno Vi" -= 1
-		"reputation: Gegno Vi (Duelist A)" -= 0.1
-		"reputation: Gegno Vi (Duelist B)" -= 0.1
-	`You begin to receive numerous hails from Gegno Vi ships that are very aggravated in tone. It seems you've interrupted a tradition rather important to them, considering their ships are now appearing hostile on your radar.`
+		"声誉。Gegno Vi" -= 1
+		"声望。名誉: Gegno Vi (Duelist A)" -= 0.1
+		"声望：Gegno Vi (Duelist B)Gegno Vi (决斗者B)" -= 0.1
+	`你开始收到许多来自Gegno Vi船只的呼唤，这些呼唤的语气非常激动。看来你打断了一个对他们来说相当重要的传统，考虑到他们的船只现在在你的雷达上出现了敌意。`

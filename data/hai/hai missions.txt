@@ -20,76 +20,76 @@ mission "First Contact: Hai"
 		conversation
 			branch unfettered
 				has "First Contact: Unfettered: offered"
-			`This planet is populated by an alien species that resemble giant, intelligent squirrels. However, the most surprising aspect of the spaceport is not the aliens, but the fact that human merchants and other civilians are walking among them and are clearly at home here. Would you like to find someone who can tell you what is going on here?`
+			`这个星球上居住着一种外星物种，它们类似于巨大的智能松鼠。然而，这个太空港最令人惊讶的地方不是外星人，而是人类商人和其他平民走在他们中间，显然在这里是自在的。你想找一个能告诉你这里发生了什么的人吗？`
 			choice
-				`	(Sure.)`
-				`	(Not right now.)`
+				`	(当然。)`
+				`	(现在不行。)`
 					defer
 			
-			`	You walk up to a human merchant who is busy haggling with one of the aliens. They interrupt their conversation when they see you approaching, and the human gestures for you to join them. "You look totally lost," he says. "First time down the rabbit hole?"`
-			`	You nod. The alien reaches out a paw to shake hands with you. "Welcome to Hai space," it says. "We are people of peace, and you are free to visit us or even live among us. Our worlds provide enough bounty for all."`
+			`	你走到一个人类商人面前，他正忙着和其中一个外星人讨价还价。当他们看到你走过来时，他们中断了谈话，那个人类打手势让你加入他们。他说："你看起来完全迷失了，"他说。"第一次进入兔子洞？"`
+			`	你点点头。外星人伸出一只爪子与你握手。"欢迎来到海洋空间，"它说。"我们是和平的人，你可以自由地访问我们，甚至住在我们中间。我们的世界为所有人提供足够的赏赐。"`
 				goto next
 			
 			label unfettered
-			`The Hai here seem more friendly and approachable than those you met earlier. Even more surprising though is the fact that human merchants and other civilians are walking among them and are clearly at home here. Would you like to find someone who can tell you what is going on here?`
+			`这里的海族人似乎比你之前遇到的那些人更友好、更容易接近。但更令人惊讶的是，人类商人和其他平民正走在他们中间，显然在这里是自在的。你想找一个能告诉你这里发生了什么的人吗？`
 			choice
-				`	(Sure.)`
-				`	(Not right now.)`
+				`	(当然。)`
+				`	(现在不行。)`
 					defer
 			
-			`	You walk up to a human merchant who is busy haggling with one of the Hai. They interrupt their conversation when they see you approaching, and the human gestures for you to join them. "You look lost," he says. "First time down the rabbit hole?"`
-			`	"No, I've actually met with the Hai up north," you respond. The merchant looks slightly concerned with this, but the Hai only seems to sigh.`
-			`	"Ah, you have met our wayward sisters and brothers. I hope that they did not cause you too much trouble, for they are misled in their ways," it says. "Welcome to Hai space. Unlike those that you met before, the rest of us are a people of peace, and you are free to visit us or even live among us. Our worlds provide enough bounty for all."`
+			`	你走到一个人类商人面前，他正忙着和其中一个海族人讨价还价。当他们看到你走过来时，他们的谈话中断了，那个人类打手势让你加入他们。"他说："你看起来迷路了。"第一次进入兔子洞？"`
+			`	"不，我实际上是在北方与海族人会面，"你回答。商人看起来对此略感关切，但海族似乎只是叹息。`
+			`	"啊，你见过我们不听话的姐妹和兄弟。我希望他们没有给你带来太多麻烦，因为他们的方式被误导了，"它说。"欢迎来到海空间。与你之前遇到的那些人不同，我们其他人是一个和平的民族，你可以自由地访问我们，甚至住在我们中间。我们的世界为所有人提供足够的赏赐。"`
 			
 			label next
-			`	You glance quickly at the human merchant to see his expression, wondering if these aliens can indeed be so benign, but his expression is calm and untroubled. "It's true," he says, "look around you. These buildings have stood for thousands of years. Hai society is so advanced, they need almost no resources to maintain it."`
+			`	你迅速瞥了一眼那个人类商人，想看看他的表情，想知道这些外星人是否真的能如此仁慈，但他的表情很平静，没有任何不安。"这是真的，"他说，"看看你周围。这些建筑已经矗立了几千年了。海社会是如此先进，他们几乎不需要资源来维持。"`
 			branch wormhole
 				has "wormhole alpha found"
 			choice
-				`	"How did humanity reach this place? Did they use jump drives?"`
-			`	The human merchant raises an eyebrow. "Can't say I'm familiar with what a jump drive is. In case you aren't in the know, though, there's a wormhole in Hai space that connects back to a secluded part of human space. Don't bother trying to figure out why and how it's there, because not even the Hai know."`
+				`	"人类是如何到达这个地方的？他们使用跳跃驱动器吗？"`
+			`	人类商人挑了挑眉毛。"不能说我对跳跃驱动器是什么很熟悉。不过，如果你不知道的话，在海氏空间有一个虫洞，连接到人类空间的一个隐蔽部分。不要费心去弄清楚它为什么在那里，怎么在那里，因为连海族都不知道。"`
 			label wormhole
 			choice
-				`	"Why do you allow humans to settle here?"`
-				`	"What do you ask for in return for letting humans settle here?"`
+				`	"为什么你们允许人类在这里定居？"`
+				`	"你们让人类在这里定居，有什么要求？"`
 			
-			`	"Humans are a young species," the Hai says, "full of energy, full of new ideas. And the Hai are old, and everything we do is what we have done before. When humans go on vacation, they travel to a world with perfect weather, sunny every day. When Hai go on vacation, we visit the stormiest world, to find unpredictability and change. Humans are so strange, that to speak with a human is like a small vacation." It smiles, and you catch a glimpse of its massive incisors. Based on your knowledge of xenobiology you would guess that the Hai are herbivores, but you can't be certain.`
+			`	"人类是一个年轻的物种，"海族说，"充满了活力，充满了新思想。而海族是古老的，我们所做的一切都是我们以前做过的。当人类去度假时，他们会去一个有着完美天气的世界，每天都阳光灿烂。当海族人去度假时，我们会去最暴风雨的世界，去寻找不可预知性和变化。人类是如此奇怪，以至于与人类交谈就像一个小假期。"它微笑着，你瞥见了它巨大的门牙。根据你的异种生物学知识，你会猜测海族是食草动物，但你不能确定。`
 			branch hostile
 				has "First Contact: Unfettered: offered"
 			choice
-				`	"So I'm allowed to travel throughout your territory if I want?"`
+				`	"那么，如果我想的话，我可以在你们的领土上旅行？"`
 					goto travel
-				`	"How come people back in human space don't know that you are here?"`
+				`	"为什么回到人类空间的人不知道你在这里？"`
 					goto human
 			
 			label hostile
 			choice
-				`	"If your people are peaceful then why are the Hai from the north so hostile?"`
+				`	"如果你的人民是和平的，那么为什么来自北方的海族人如此有敌意？"`
 					goto why
-				`	"How come people back in human space don't know that you are here?"`
+				`	"为什么回到人类空间的人不知道你在这里？"`
 			
 			label human
-			`	The human merchant laughs. "Probably because most of us came here to escape from the chaos and fighting in human space. The last thing we want is for it to follow us here. Not that I'm saying you can't tell anyone about the wormhole, but if I were you I wouldn't go spreading the news too widely either. And take a look around Hai space before you leave; you'll find that we could learn a lot from them."`
+			`	人类商人笑了。"可能是因为我们大多数人来到这里是为了逃避人类空间的混乱和战斗。我们最不希望的就是它跟着我们来到这里。我不是说你不能告诉任何人关于虫洞的事，但如果我是你，我也不会去把这个消息传得太广。而且在你离开之前，看看海空间，你会发现我们可以从他们身上学到很多东西。"`
 			branch question
 				has "First Contact: Unfettered: offered"
-			`	"So I can travel anywhere I want in your territory?" you ask the Hai.`
+			`	"所以我可以在你们的领土上想去哪就去哪？"你问海族。`
 			
 			label travel
-			`	"Yes," it says, "but be careful. The north is the territory of some renegade Hai who are misled in their ways: bandits and pirates, living off what they steal from the rest of us. If you travel among them, you will not be safe."`
-			`	"Also," the human adds, "I've heard rumors that the 'Unfettered' Hai are trying to get human captains who land on their worlds to do some tasks for them. I'm not particularly interested in finding out what those tasks are, but if you see something suspicious happening, that might be it."`
+			`	"是的，"它说，"但要小心。北部是一些叛逆的海族人的领地，他们被误导了：土匪和海盗，靠从我们其他人那里偷来的东西生活。如果你在他们中间旅行，你将不会安全。"`
+			`	"另外，"人类补充道，"我听说有传言说，'不受约束'的海族正试图让登陆他们世界的人类船长为他们做一些任务。我不是特别想知道那些任务是什么，但如果你看到有可疑的事情发生，那可能就是了。"`
 				goto end
 			
 			label question
-			`	"If your people are peaceful then why are the Hai from the north so hostile?" you ask the Hai.`
+			`	"如果你的人民是和平的，那么为什么来自北方的海族人如此有敌意？"你问海族人。`
 			
 			label why
-			`	"I am young, and the origins of our 'Unfettered' brethren are before my time," it responds. "If you want to know more, it might be wise to find someone much older than myself to ask."`
+			`	"我很年轻，我们'不受约束'的兄弟们的起源在我的时代之前。"它回答道。"如果你想知道更多，找一个比我年长得多的人来问可能是明智的。`
 			
 			label end
-			`	You talk for a while longer, but do not gain much additional information except that several of their worlds are willing to sell Hai technology even to human beings. You thank them both for stopping to talk with you, and the Hai responds, "We are always glad to welcome new friends. May peace dwell in your heart until we meet again."`
+			`	你们又谈了一会儿，但没有获得更多的信息，只是知道他们的几个世界甚至愿意向人类出售海技术。你感谢他们俩停下来与你交谈，海族人回应说："我们总是很高兴欢迎新朋友。愿和平在你的心中停留，直到我们再次见面。"`
 				decline
 	on decline
-		log "Factions" "Hai" `The Hai are a species of giant, intelligent rodents, who live to the north of human space. They allow any humans who discover their territory to live alongside them, and to trade with them and purchase their technology.`
+		log "Factions" "Hai" `海族是一种巨大的、聪明的啮齿动物，他们生活在人类空间的北部。他们允许任何发现他们领土的人类与他们一起生活，并与他们进行贸易和购买他们的技术。`
 
 mission "Discovered Hai Space"
 	landing
@@ -126,7 +126,7 @@ mission "Assisting Hai"
 	on offer
 		payment 30000
 		conversation
-			`Knowing you risked your life to save the <origin>, the captain gives you <payment>.`
+			`知道你冒着生命危险拯救了<origin>，船长给了你<payment>。`
 				decline
 	destination "Hai-home"
 
@@ -142,48 +142,48 @@ mission "Ask the Hai about the Unfettered"
 		has "First Contact: Unfettered: offered"
 	on offer
 		conversation
-			`The Unfettered Hai say that they are the "true Hai," and seem to think that the other Hai are oppressing them, but another Hai that you spoke to said that the Unfettered Hai are simply misled. Would you like to look for someone here who can tell you more of the story?`
+			`不受约束的海族说他们是 "真正的海族"，似乎认为其他海族在压迫他们，但与你交谈的另一个海族说，不受约束的海族只是被误导了。你想在这里找一个能告诉你更多故事的人吗？`
 			choice
-				`	(Yes.)`
-				`	(No.)`
+				`	(是的。)`
+				`	(不。)`
 					decline
-			`	You find an elderly-looking Hai who is sitting on a bench watching the starships land and take off. As you approach, he says, "Hello human."`
+			`	你找到一个年长的海族人，他正坐在长椅上观看星舰的起降。当你走近时，他说："你好，人类。"`
 			choice
-				`	"Hello. I've met some of the Unfettered Hai. What can you tell me about them?"`
-				`	"Hello. Can you tell me why you are at war with the other Hai who live to the north?"`
+				`	"你好。我见过一些不受约束的海族人。你能告诉我关于他们的什么？"`
+				`	"你好。你能告诉我为什么你们与住在北方的其他海族开战吗？"`
 					goto war
-			`	He says, "Ah, our wayward sisters and brothers to the north. You have surely seen what our society is like: safe, stable, predictable, deliberate. It suits most of us well. But there are those..."`
+			`	他说："啊，我们在北方的落魄姐妹和兄弟。你肯定已经看到了我们的社会是什么样的：安全、稳定、可预测、慎重。它很适合我们大多数人。但也有一些......"`
 				goto raids
 			label war
-			`	He says, "I would not call it war. We launch no raids on them. We only defend when they attack. And, we supply them with food and other things needful for life. They are not our enemies, they are just those who do not fit in. You have surely seen what our society is like: safe, stable, predictable, deliberate. It suits most of us well. But there are those..."`
+			`	他说，"我不会把它称为战争。我们没有对他们发动突袭。我们只在他们攻击时进行防御。而且，我们向他们提供食物和其他生活所需的东西。他们不是我们的敌人，他们只是那些不适应的人。你肯定已经看到了我们的社会是什么样的：安全、稳定、可预测、谨慎。它很适合我们大多数人。但也有那些......"`
 			label raids
-			`	He pauses. "No, I am telling this unfairly. I will start again. Hundreds of years ago, when I was young, our territory was raided by aliens from the east, who came in massive warships and plundered our worlds. In those days there were some Hai who were brave enough to risk their lives to defend us. The raids lasted for decades, then abruptly stopped.`
-			`	"Most of those who had fought the invaders were glad to return to ordinary life, but there were some for whom life now seemed bland and meaningless without the excitement and chaos of war. They started colonies in the systems to the north, and fought amongst themselves, and mismanaged the land, and grew in numbers. And now their worlds cannot feed them all, and they invade us and tell stories to put blame on us for their failures."`
+			`	他停顿了一下。"不，我说的这些不公平。我将重新开始。几百年前，当我还年轻的时候，我们的领土被来自东方的外星人袭击了，他们乘着巨大的战舰来掠夺我们的世界。在那些日子里，有一些海族人勇敢地冒着生命危险来保卫我们。这些袭击持续了几十年，然后突然停止。`
+			`	"大多数与侵略者作战的人都很高兴回到普通人的生活中，但也有一些人在没有战争的刺激和混乱的情况下，生活显得平淡而无意义。他们在北方的系统中建立了殖民地，相互争斗，对土地管理不善，人数越来越多。而现在他们的世界无法养活他们所有人，他们入侵我们，讲故事，把他们的失败归咎于我们。"`
 			choice
-				`	"Shouldn't they be treated with gratitude for defending you against the raiders?"`
-				`	"They said the Drak altered the Hai to make them less aggressive. Is that true?"`
+				`	"难道不应该以感恩的心对待他们，因为他们保卫了你们的突袭者？"`
+				`	"他们说德拉克人改变了海族，使他们不那么具有侵略性。那是真的吗？"`
 					goto drak
-				`	"That's all I wanted to know. Thanks."`
+				`	"这就是我想知道的。谢谢。"`
 					decline
-			`	"They were, and still should be. There will always be times when our society needs them. Only at this time, the need is not so great. There is no new frontier for them to explore, no worthy challenges for them to face. And we fear what would happen if they ventured south and gained access to the wormhole, so we must force them to stay where they are."`
+			`	"他们曾经是，现在也应该是。我们的社会总会有需要他们的时候。只是在这个时候，需求不是那么大。没有新的领域让他们去探索，没有值得他们去面对的挑战。而且我们担心如果他们向南冒险，获得进入虫洞的机会会发生什么，所以我们必须强迫他们留在原地。"`
 			choice
-				`	"They said the Drak altered the Hai to make them less aggressive. Is that true?"`
-				`	"That's all I wanted to know. Thanks."`
+				`	"他们说德拉克人改变了海族，使他们不那么具有侵略性。那是真的吗？"`
+				`	"这就是我想知道的。谢谢。"`
 					decline
 			label drak
-			`	"No," he says, "it is a story they invented, that the Hai were destined to be masters of the galaxy but the Drak and the Quarg prevented us. The story is not true. Our civilization beyond the wormhole was brought down by infighting and unwise governance. Amid the wreckage we studied and thought and argued and came to believe that we could rule a small territory with stability and peace, or hold more worlds but with constant turmoil. We chose stability, and relinquished those worlds."`
+			`	"不，"他说，"这是他们编造的一个故事，海族注定要成为银河系的主人，但德拉克人和夸格人阻止了我们。这个故事不是真的。我们在虫洞之外的文明被内讧和不明智的管理搞垮了。在残垣断壁中，我们研究、思考和争论，并开始相信我们可以在稳定与和平的情况下统治一小块领土，或者拥有更多的世界，但持续的动荡。我们选择了稳定，并放弃了那些世界。"`
 			choice
-				`	"So you don't think the Drak are keeping us all in cages?"`
-				`	"That's all I wanted to know. Thanks."`
+				`	"所以你不认为德拉克人把我们都关在笼子里？"`
+				`	"这就是我想知道的。谢谢。"`
 					decline
-			`	He thinks about the question for a while, then says, "Sometimes we make a fire for cooking food. The fire consumes much wood, and the flames are tall, too wild and hot to cook food well. Then the wood becomes coals that burn slowly with no flames or smoke, and when you gather them they are good for roasting meat or even baking bread. Perhaps each species must consume many worlds and many resources before learning to burn slowly, and the wisdom of the Drak is to allow them to do so. But when they find balance, as we did, they no longer need so much space."`
-			`	You thank him for taking time to speak with you, and say goodbye.`
+			`	他思考了一会儿这个问题，然后说："有时我们生火做饭。这场火消耗了很多木材，火焰很高，太过狂热，无法很好地烹饪食物。然后木头变成煤，慢慢燃烧，没有火焰或烟雾，当你收集它们时，它们适合烤肉，甚至烤面包。也许每个物种在学会缓慢燃烧之前必须消耗许多世界和许多资源，而德拉克人的智慧就是允许他们这样做。但当他们像我们一样找到平衡时，他们就不再需要那么多空间了。"`
+			`	你感谢他抽出时间与你交谈，然后说再见。`
 				decline
 
 
 
 mission "Returning Home"
-	description "Bring Elliot home to his family on <destination>. Elliot ran away from his family as a teenager and hasn't seen them in almost six years."
+	description "将艾略特带回家与他的家人团聚在<destination>。艾略特在十几岁的时候就离开了他的家人，已经有将近六年没有见到他们了。"
 	minor
 	source
 		government "Hai"
@@ -197,70 +197,70 @@ mission "Returning Home"
 		random < 40
 	on offer
 		conversation
-			`You are stopped by a human in the <origin> marketplace. He takes off his hat and asks, "You're from the outside, aren't you?"`
+			`你在<origin>的集市上被一个人类拦住。他摘下帽子，问道："你是从外面来的，对吗？"`
 			choice
-				`	"Yes, I am."`
+				`	"是的，我是。"`
 					goto outsider
-				`	"What do you mean 'the outside?'"`
+				`	"你说'外面'是什么意思？"`
 			
-			`	"Outside of Hai space. You don't look quite like most humans who live here, unless there's some new fashion trend going on that I don't know about."`
+			`	"海空间的外面。你看起来不太像住在这里的大多数人类，除非有一些我不知道的新的时尚趋势。"`
 			choice
-				`	"Oh, yes. I do come from outside."`
+				`	"哦，是的。我确实来自外面。"`
 			
 			label outsider
-			`	"Good. My name is Elliot." You introduce yourself to Elliot and shake hands.`
-			`	"Can you take me to <destination>?" Elliot asks.`
-			`	"That's all the way in the Dirt Belt," you say. "Why do you want to go that far?"`
-			`	Elliot looks down at the ground for a second and takes a deep breath while gripping his hat in his hands. "You see, I haven't lived here all my life. I was born on <planet> to a poor farming family. Most of my days were spent working on the farm, which I hated with a passion. One day I just got fed up with things and I ran away.`
-			`	"I ran away from home to the spaceport city and snuck my way into the cargo hold of a freighter. The captain didn't open the cargo hold for three weeks while I stayed in it. Lucky for me the freighter was transporting food, so I had plenty to eat.`
-			`	"When the cargo hold doors finally opened, I ran out as fast as I could, only to run back in at the sight of a group of Hai. I had no idea where I was at the time, but I've been living here ever since. That was when I was thirteen, nearly five years ago now."`
-			`	Elliot looks down at the ground again and wipes a tear from the corner of his eye.`
+			`	"很好。我的名字是埃利奥特。"你向埃利奥特介绍自己并握手。`
+			`	"你能带我去<destination>吗？"艾略特问道。`
+			`	"那是在泥土地带的所有路段，"你说。"你为什么要走那么远？"`
+			`	艾略特低头看了一下地面，深吸了一口气，同时用手抓紧了帽子。"你看，我并没有在这里生活一辈子。我出生在<planet>上的一个贫穷的农业家庭。我的大部分时间都是在农场工作，我对农场恨之入骨。有一天，我只是厌倦了事情，我就跑了出来。`
+			`	"我从家里跑到太空港市，偷偷溜进一艘货船的货舱。船长在三个星期内没有打开货舱，而我则呆在里面。我很幸运，这艘货轮正在运输食物，所以我有很多东西吃。`
+			`	"当货舱的门终于打开时，我以最快的速度跑了出去，只是在看到一群海的时候又跑了回来。当时我不知道自己身在何处，但从那时起我就一直生活在这里。那是我十三岁的时候，现在差不多五年了。"`
+			`	艾略特又低头看了看地面，从眼角抹了一把泪。`
 			choice
-				`	"Alright, I'll take you to <planet>."`
+				`	"好吧，我带你到<planet>。"`
 					goto accept
-				`	"And you finally want to go back home?"`
-				`	"Sorry, but I'm not able to take you that far."`
+				`	"那你终于想回家了？"`
+				`	"对不起，我没办法带你走那么远。"`
 					goto decline
 			
-			`	"Yes. I've thought a lot about it lately. I want to see my family again."`
+			`	"是的，我最近想了很多。我想再次见到我的家人。"`
 			choice
-				`	"Alright, I'll take you to <planet>."`
+				`	"好吧，我带你到<planet>。"`
 					goto accept
-				`	"Sorry, but I'm not able to take you that far."`
+				`	"对不起，我没办法带你走那么远。"`
 			
 			label decline
-			`	"I understand," Elliot says. "I'll just try and find someone else to help me. Goodbye, <first>."`
+			`	"我理解，"艾略特说。"我就试着找别人来帮我吧。再见，<first>。"`
 				decline
 			
 			label accept
-			`	You lead Elliot to your ship and show him to a bunk room. After leaving Elliot there, you wonder if his family is still even on <planet> anymore.`
+			`	你把艾略特领到你的船上，带他到一个铺位房间。把艾略特留在那里后，你想知道他的家人是否还在<planet>上。`
 				accept
 			
 	on visit
-		dialog `You look for Elliot, but realize that he took a ride on one of your escorts! Better depart and wait for your escorts to arrive in this star system.`
+		dialog `你寻找艾略特，但发现他搭上了你的一个护卫队！你最好离开并等待你的护卫队。最好离开并等待你的护卫队到达这个星系。`
 	on complete
 		payment 45000
 		conversation
-			`Elliot thanks you for bringing him to <planet> and hands you <payment>. He flags down a taxi just outside the spaceport, but before entering the taxi he turns back to you.`
-			`	"Do you want to come with me? I'd love for you to meet my family. They'll want to meet you when I tell them how I got back."`
+			`艾略特感谢你把他带到<planet>，并交给你<payment>。他在太空港外的一辆出租车上打出旗号，但在进入出租车之前，他回头看了看你。`
+			`	"你想和我一起去吗？我很想让你见见我的家人。当我告诉他们我是如何回来的时候，他们会想见见你。"`
 			choice
-				`	"Sorry, I have other places to be. Good luck."`
-				`	"Sure. I've come with you this far."`
+				`	"对不起，我还有其他地方要去。祝你好运。"`
+				`	"当然，我已经和你走了这么远。"`
 					goto sure
 			
-			`	"I understand. Thanks again, <first>. I'll always owe you."`
-			`	Elliot gets into the taxi, which drives off toward the seemingly endless farmlands outside of the spaceport city.`
+			`	"我明白。再次感谢你，<first>。我永远欠你的。"`
+			`	艾略特上了出租车，出租车向太空港城市外看似无尽的农田驶去。`
 				decline
 			
 			label sure
-			`	The view for nearly the entire three hour drive is of hills and farmland with the occasional building or wild animal. Elliot shakes as the taxi approaches the house from the driveway. "I'm wondering if they still even live here," he says nervously.`
-			`	No one comes out of the house when the taxi stops. You walk up to the front door with Elliot and a middle-aged woman answers the door with a mug of coffee and a bewildered look on her face.`
-			`	"Can I help you?" the woman asks.`
-			`	Elliot looks over at you with a big smile on his face. "Yes you can, mom," he says to her. The woman's face lights up with joy and she begins jumping up and down, spilling coffee from her mug.`
-			`	"Oh Elliot, I can't believe it!" Elliot's mom puts down her mug and leaps out the door to hug him. "Jackson! Sarah! Abby! Sean! Victor! Elliot is here!" Elliot's entire family comes out from the house and greets him, asking dozens of questions about where and how he's been and why he left.`
-			`	Elliot introduces you to his family, who thank you for bringing Elliot home. Victor, who was only seven years old when Elliot left and is now twelve, asks you question after question about being a pilot, sometimes asking new questions before you can even answer the old one.`
-			`	"Are you going back to the spaceport, <first>?" the taxi driver yells from the driveway. "I need to get back to the city as soon as I can."`
-			`	You say goodbye to Elliot and to his family. "Thanks again, <first>," Elliot says. "I'll always owe you."`
+			`	几乎在整个三小时的车程中，视野都是丘陵和农田，偶尔有建筑物或野生动物。当出租车从车道上接近房子时，艾略特摇了摇头。"我在想他们是否还住在这里，"他紧张地说道。`
+			`	出租车停下时，没有人从房子里出来。你和埃利奥特走到前门，一个中年妇女拿着一杯咖啡应门，脸上带着困惑的表情。`
+			`	"我能帮你吗？"女人问道。`
+			`	艾略特看了看你，脸上带着灿烂的笑容。"是的，你可以，妈妈，"他对她说。那位女士的脸上露出了喜悦的表情，她开始上蹿下跳，咖啡从她的杯子里洒了出来。`
+			`	"哦，艾略特，我真不敢相信！"艾略特的妈妈放下杯子，跃出门外拥抱他。"杰克逊!莎拉!艾比!肖恩!维克多!艾略特来了！"艾略特的整个家庭从房子里出来，迎接他，问了几十个问题，关于他去了哪里，怎么去的，为什么离开。`
+			`	艾略特把你介绍给他的家人，他们感谢你把艾略特带回家。埃利奥特离开时，维克多只有七岁，现在已经十二岁了，他问了你一个又一个关于当飞行员的问题，有时在你还没来得及回答旧问题时，又问了新问题。`
+			`	"你要回太空港吗，<first>？"出租车司机在车道上喊道。"我需要尽快回城。"`
+			`	你向艾略特和他的家人告别。"再次感谢你，<first>，"艾略特说。"我永远欠你的。"`
 
 
 
@@ -282,7 +282,7 @@ event "hai in cargo"
 mission "Unwanted Cargo"
 	minor
 	landing
-	description "Bring a Hai child who hid in your cargo hold back to <destination>."
+	description "把一个躲在你货舱里的海孩子带回<destination>。"
 	source
 		not government "Hai" "Hai (Unfettered)"
 		not near "Heia Due" 0 100
@@ -292,50 +292,50 @@ mission "Unwanted Cargo"
 		not "event: hai secret leaks"
 	on offer
 		conversation
-			`The "Check Cargo" light for your ship begins blinking when you land, meaning that a cargo crate may have come loose in flight. You shut off the ship's engines and walk to the cargo hold.`
-			`	You check every cargo crate in the hold, but can't find anything wrong. Right as you decide to leave, one of the smaller crates begins rocking back and forth.`
+			`当你着陆时，你船上的 "检查货物 "指示灯开始闪烁，这意味着一个货箱可能在飞行中松动了。你关闭了飞船的引擎，走到货舱。`
+			`	你检查了货舱里的每个货箱，但没有发现任何问题。就在你决定离开时，其中一个较小的箱子开始来回摇晃。`
 			branch translator
 				has "language: Hai"
 				
-			`	You hear a voice come from the crate, but it is not a language you understand. The voice continues to speak, and you recognize it as the Hai language.`
+			`	你听到一个声音从箱子里传出来，但它不是你能理解的语言。这个声音继续说话，你认出它是海语。`
 			choice
-				`	(Open the crate.)`
-			`	You open the crate and are met face to face with a Hai child. You aren't sure how old it is, but it looks to be about the size of a one-year-old human child. It tries to communicate with you, but begins to cry when it sees the confused look on your face.`
+				`	(打开板条箱。)`
+			`	你打开箱子，面对面地看到一个海族小孩。你不确定它有多大，但它看起来和一个一岁的人类孩子差不多大。它试图与你交流，但当它看到你脸上困惑的表情时开始哭了。`
 			choice
-				`	"Don't cry, little guy."`
+				`	"别哭了，小家伙。"`
 					goto cry
-				`	(Pick up the Hai.)`
+				`	(拿起海。)`
 				
-			`	The child waves its hands around when you try to pick it up, making it impossible to grab on to. After waiting for a few minutes, the child finally calms down, eventually going to sleep in the crate.`
+			`	当你试图把它抱起来时，孩子的手挥来挥去，使你无法抓到它。等了几分钟后，孩子终于平静下来，最终在箱子里睡觉。`
 				goto end
 			
 			label cry
-			`	The child begins to cry even louder than before. After waiting for a few minutes, the child finally calms down, eventually going to sleep in the crate.`
+			`	孩子开始哭得比以前更大声了。等了几分钟后，孩子终于平静下来，最终在板条箱里睡着了。`
 				goto end
 			
 			label translator
-			`	You hear a voice come from the crate, and surprisingly your Hai translator begins speaking. "Let me out! I want to go home!"`
+			`	你听到箱子里传来一个声音，令人惊讶的是你的海氏翻译开始说话了。"让我出去!我想回家！"`
 			choice
-				`	(Open the crate.)`
-			`	You open the crate and are met eye to eye with a Hai child. You aren't sure how old it is, but it looks to be about the size of a one-year-old human child. "I want my mommy!" it says as its eyes begin to tear up.`
+				`	(打开板条箱。)`
+			`	你打开板条箱，与一个海族小孩对视。你不确定它有多大，但它看起来和一个一岁的人类孩子差不多大。"我想要我的妈妈！"它一边说一边眼睛开始流泪。`
 			choice
-				`	"Where's your mommy?"`
-				`	"Don't cry, little guy."`
-			`	The child looks surprised when your translation device speaks to it in Hai. "Take me home!" it yells back at you. You attempt to find out where the child's home is, but it continues to cry for its mother without giving any important information.`
+				`	"你的妈妈在哪里？"`
+				`	"别哭了，小家伙。"`
+			`	当你的翻译设备用海语对它说话时，这个孩子看起来很惊讶。"带我回家！"它对你喊道。你试图找出这个孩子的家在哪里，但它继续哭着找妈妈，却没有提供任何重要信息。`
 			
 			label end
-			`	This child must have somehow gotten into your cargo hold while you were in Hai space. Leaving a Hai child on this world would be an extremely bad idea. Perhaps someone on <destination> will be able to bring the child back to its family.`
+			`	这个孩子一定是在你在海族空间时以某种方式进入了你的货舱。把一个海族孩子留在这个世界上是一个非常糟糕的主意。也许<destination>上的人能够把孩子带回它的家人身边。`
 				accept
 			
 	on complete
 		payment 50000
-		dialog `You contact the spaceport authorities of <planet> and ask them if they are looking for a lost Hai child. It turns out that the family was so worried that they put up a <payment> reward for finding their son. A Hai spaceport worker takes the child from your ship and thanks you for finding him for the family.`
+		dialog `你联系<planet>的太空港当局，问他们是否在寻找一个丢失的海族孩子。结果发现，这个家庭非常担心，他们为找到他们的儿子而悬赏<payment>。一个海族太空港的工作人员从你的船上接过孩子，并感谢你为这个家庭找到他。`
 
 
 
 mission "Expanding Business [1]"
-	name "An Interesting Proposition"
-	description "Travel with businessman David Turner to <destination> where a convoy of freighters are awaiting escort."
+	name "一个有趣的提议"
+	description "与商人大卫-特纳一起前往<destination>，那里有一个货运船队正在等待护送。"
 	minor
 	source "Greenwater"
 	destination "Allhome"
@@ -343,53 +343,53 @@ mission "Expanding Business [1]"
 		has "event: hai-human resolution announced"
 	on offer
 		conversation
-			`Walking through the <origin> spaceport, you notice that almost half of the people you see are humans, unlike other Hai worlds where the Hai outnumber humans by a sizable degree. A human dressed in a business suit shouts your name from across the street and approaches you.`
-			`	"Captain <last>, fantastic to see you again! I noticed you right away when I laid my eyes upon you and I must say, I'd like to thank you again for what you've done."`
-			`	The man is David Turner, who was involved in the movie production during the Hai crisis. Almost reflexively he goes to grab a business card from his pocket but then seems to remember and puts it back away. Seems to be exactly the same card as last time though.`
-			`	"Now Captain, if you have a moment, I'd like to make a proposition to you." Turner turns around and waves his arm across the crowd of people in the spaceport. "You see all the humans here? About one out of every four of these people only arrived here after war broke out through the wormhole. Captains who knew of the Hai came flocking here in droves after the Navy entered Kornephoros, hoping to avoid any troubles that the war would bring. Some captains returned after the war ended, but most stayed, and I see a massive market opportunity in that."`
+			`走过<origin>太空港，你注意到几乎一半的人都是人类，不像其他海族世界，海族的人数比人类多得多。一个身着商务套装的人类在街对面喊着你的名字，向你走来。`
+			`	"船长<last>，很高兴再次见到你！我一开始就注意到了你。我一看到你就注意到你了，我必须说，我想再次感谢你所做的一切。"`
+			`	这个人就是大卫-特纳，他在海氏危机期间参与了电影制作。他几乎是反射性地去抓口袋里的一张名片，但后来似乎想起来了，又把它放了回去。不过似乎和上次的名片一模一样。`
+			`	"现在船长，如果你有时间，我想向你提出一个建议。"特纳转过身，在太空港的人群中挥动手臂。"你看到这里的所有人类了吗？这些人中大约有四分之一是在战争通过虫洞爆发后才来到这里。知道海的船长们在海军进入科尼普洛斯后成群结队地来到这里，希望避免战争带来的任何麻烦。一些船长在战争结束后返回，但大多数人都留下来了，我从中看到了巨大的市场机会。"`
 			branch rich
-				"net worth" >= 4000000000
+				"净资产" >= 4000000000
 			
 			choice
-				`	"What kind of market opportunity?"`
+				`	"什么样的市场机会？"`
 					goto opportunity
-				`	"Sorry, but I don't have the time to talk about this."`
+				`	"对不起，但我没有时间谈这个。"`
 					goto walk
 			
 			label rich
 			choice
-				`	"What kind of market opportunity?"`
+				`	"什么样的市场机会？"`
 					goto opportunity
-				`	"You're only worth three billion credits? Why shouldn't I pursue your opportunity on my own?"`
-				`	"Sorry, but I don't have the time to talk about this."`
+				`	"你只值30亿信用点？为什么我不应该自己去追求你的机会？"`
+				`	"对不起，但我没有时间谈这个。"`
 					goto walk
 			
-			`	"Of course you're worth more than me, Captain <last>, but you are no business owner. I have the connections and skills, but a name like yours will always help.`
+			`	"你当然比我值钱，<last>船长，但你不是企业主。我有关系和技能，但像你这样的名字总是会有帮助。`
 				goto opportunity
 			
 			label walk
-			`	You try to walk away, but Turner stops you by grabbing your arm and continues to talk.`
+			`	你试图走开，但特纳抓住你的胳膊阻止了你，并继续说话。`
 			
 			label opportunity
-			`	"Allow me to explain. The journey to the Hai can be a dangerous one, even with the new commitment to safety made by both governments. I heard many stories during the war of merchants trying to reach the Hai, but thanks to the Navy being distracted, those merchants fell victim to pirates patrolling the systems of the Far North. Even now, those pirates roam almost unchallenged, and many merchants are trapped here without the means to safely return. They expended most, if not all, of their ammunition trying to get here, and now they have none to defend them on their way back. Human ammunition has become a scarce commodity among human captains in this region of space, leaving open a market that's just waiting to be cornered.`
-			`	"I'd like you, Captain <last>, hero of humanity, to help me set up an outfitter here on <origin>, an outfitter that would supply these desperate merchants with relief by supplying them with the ammunition they need, along with outfits they might want to buy for their old ships. I've already received approval from the Hai government for the construction of an outfitter, and with a name like yours backing up this business, the profits are sure to be phenomenal, profits that you would be sharing in by being a founding member of this outfitter."`
+			`	"请允许我解释一下。到海的旅程可能是一个危险的旅程，即使是在两国政府对安全作出新的承诺的情况下。在战争期间，我听到了许多商人试图到达海的故事，但由于海军分心，这些商人成了在极北地区的系统中巡逻的海盗的受害者。即使是现在，这些海盗几乎没有受到挑战，许多商人被困在这里，没有办法安全返回。他们为了来到这里，消耗了大部分，甚至全部的弹药，现在他们没有任何弹药来保护他们回去的路。在这一地区的人类船长中，人类的弹药已经成为一种稀缺商品，留下了一个正等待被占领的市场。`
+			`	"我希望你，<last>船长，人类的英雄，帮助我在<origin>这里建立一个装备店，这个装备店将为这些绝望的商人提供救济，为他们提供他们需要的弹药，以及他们可能想要为他们的旧船购买的装备。我已经得到了海国政府的批准，可以建造一个装备厂，有你这样的名字支持这项业务，利润肯定是惊人的，你将通过成为这个装备厂的创始成员而分享利润。"`
 			label choices
 			choice
-				`	"This sounds like a good idea to me. What do you need me to do?"`
+				`	"这对我来说听起来是个好主意。你需要我做什么？"`
 					goto interested
-				`	"Sorry, but I'm not interested in your proposition."`
+				`	"对不起，但我对你的提议不感兴趣。"`
 			
-			`	"Nonsense, Captain! All you'd need to do is help escort a few freighters from <planet> to Follower and back to here, and for so simple a job you could be receiving enough money to not work another day in your life, or perhaps even support a massive fleet."`
+			`	"胡说八道，船长！你只需要做一件事。你需要做的就是帮助护送几艘货船从<planet>到Follower再回到这里，就这么简单的工作，你可以得到足够的钱，让你这辈子不再工作，甚至可能支持一个庞大的舰队。"`
 			choice
-				`	"Again, I'm not interested. Goodbye."`
-				`	"Alright, you have my attention."`
+				`	"再说一遍，我不感兴趣。再见。"`
+				`	"好吧，我注意到你了。"`
 					goto interested
 			
-			`	"Well, I tried, Captain," Turner says with a smirk. "I'll just have to travel back to the Paradise Worlds and make my money in other areas of business, then." He hands you another business card and winks. "Goodbye, Captain <last>. You should know where to find me if you need me. Perhaps we can pursue this venture together in the future."`
+			`	"好吧，我试过了，船长。"特纳笑着说。"那我就只能回到天堂世界，在其他领域的业务中赚钱了。"他又递给你一张名片，并眨了眨眼。"再见，船长<last>。如果你需要我，你应该知道在哪里可以找到我。也许我们将来可以一起进行这项冒险。"`
 				decline
 			
 			label interested
-			`	"Excellent, Captain! I'll be making myself comfy on my own ship. A convoy of freighters is waiting for us on <destination>. From there, we're off to Follower to pick up supplies."`
+			`	"很好，船长！"。我会在我自己的船上让自己舒服一点。一个货运船队正在<destination>上等着我们。从那里，我们要去Follower领取物资。"`
 				accept
 				
 	npc accompany save
@@ -398,17 +398,17 @@ mission "Expanding Business [1]"
 		ship "Star Queen (Hai)" "Chryso Vasilia"
 	
 	on visit
-		dialog `You've reached <planet>, but you've left Turner behind. Wait for Turner's ship to arrive before landing.`
+		dialog `你已经到达<planet>，但你把特纳留在了后面。等到特纳的飞船到达后再登陆。`
 	
 	on complete
-		dialog `The freighters are ready to launch by the time you get to <planet>. "Now we just need to escort these freighters to Follower in the Alphard system and back in one piece," Turner exclaims, hopping back on to his Star Queen.`
+		dialog `当你到达<planet>时，货船已经准备好发射。"现在我们只需要护送这些货船到Alphard系统的Follower，然后再完整地回来。"特纳感叹道，跳回他的星际皇后号。`
 
 
 
 mission "Expanding Business [2]"
 	landing
-	name "An Interesting Proposition"
-	description "Escort the freighters to <destination> where they will pick up supplies for the Greenwater outfitter."
+	name "一个有趣的提议"
+	description "护送货船到<destination>，在那里他们将为绿水镇的装备者领取物资。"
 	destination "Follower"
 	to offer
 		has "Expanding Business [1]: done"
@@ -442,23 +442,23 @@ mission "Expanding Business [2]"
 		fleet "Large Northern Pirates"
 	
 	on visit
-		dialog `You've reached <planet>, but you've left one of the ships you're supposed to be escorting behind. Wait for Turner's ship and all the Bulk Freighters to arrive before landing.`
+		dialog `你已经到达<planet>，但你把你应该护送的一艘船落下了。等到特纳的船和所有的散装货船都到达后再登陆。`
 
 
 
 mission "Expanding Business [3]"
 	landing
-	name "An Interesting Proposition"
-	description "Escort Turner's ship to <destination> so that he can speak with an old friend."
+	name "一个有趣的提议"
+	description "护送特纳的飞船到<destination>，以便他能与一位老朋友交谈。"
 	destination "Rust"
 	to offer
 		has "Expanding Business [2]: done"
 	on offer
 		conversation
-			`Turner jumps off of his Star Queen before the boarding ramp fully reaches the ground, clearly eager to get moving with this project.`
-			`	Turner swears under his breath when he walks up to you. "Low life pirates giving us trouble on the way here. That's the kind of trouble I'm talking about that an outfitter in Hai space would help with. There's no telling what would have happened had my Bulk Freighters not had their missiles. Or if you were not there to protect them, of course."`
-			`	Turner has a talk with the spaceport authorities, and within a short amount of time the necessary cargo is loaded on to the freighters. When the freighters are fully loaded, they take off without even giving you time to get to your ship.`
-			`	"With their ammunition restocked they can get back to Greenwater on their own," Turner says from behind you as you watch the freighters fly off. "I told them to leave as soon as they could. As for you and me, I need an escort to <destination>. I received a message from an old friend there who would like to have a chat with me."`
+			`特纳在登船坡道完全到达地面之前就跳下了他的 "星际皇后 "号，显然他急于推动这个项目的进行。`
+			`	当特纳走到你面前时，他暗暗发誓。"低级别的海盗在来的路上给我们制造麻烦。这就是我说的那种麻烦，海空间的装备者会帮助解决。如果我的散货船没有导弹，不知道会发生什么。当然，如果你不在那里保护他们的话。"`
+			`	特纳与太空港当局进行了会谈，在很短的时间内，必要的货物被装上了货船。当货船装满后，他们就起飞了，甚至不给你时间去找你的船。`
+			`	"随着他们的弹药补充，他们可以自己回到绿水镇。"当你看着货船飞走时，特纳从你身后说道。"我告诉他们，只要他们能离开就好。至于你和我，我需要有人护送到<destination>。我收到了那里一位老朋友的信息，他想和我聊一聊。"`
 				accept
 				
 	npc accompany save
@@ -467,21 +467,21 @@ mission "Expanding Business [3]"
 		ship "Star Queen (Hai)" "Chryso Vasilia"
 		
 	on visit
-		dialog `You've reached <planet>, but you've left Turner behind. Wait for Turner's ship to arrive before landing.`
+		dialog `你已经到达<planet>，但你把特纳留在了后面。等到特纳的飞船到达后再登陆。`
 
 
 
 mission "Expanding Business [4]"
 	landing
-	name "An Interesting Proposition"
-	description "Escort Turner back to <destination> to oversee the construction of the outfitter."
+	name "一个有趣的提议"
+	description "护送特纳回到<destination>，监督舾装厂的建设。"
 	destination "Greenwater"
 	to offer
 		has "Expanding Business [3]: done"
 	on offer
 		conversation
-			`Turner lands his ship outside of the Kraz Cybernetics building. "Wait here while I have a talk with my friend, Edward. This should only take a few minutes."`
-			`	A few hours later, Turner returns carrying a black suitcase. "Sorry, that took longer than I expected. Now, let's get back to <destination>."`
+			`特纳将他的飞船降落在克拉兹网络技术大楼外。"在这里等着，我和我的朋友爱德华谈一谈。这应该只需要几分钟的时间。"`
+			`	几个小时后，特纳拎着一个黑色的手提箱回来了。"对不起，这比我预期的时间要长。现在，让我们回到<destination>。"`
 				accept
 	
 	npc accompany save
@@ -490,15 +490,15 @@ mission "Expanding Business [4]"
 		ship "Star Queen (Hai)" "Chryso Vasilia"
 	
 	on visit
-		dialog `You've reached <planet>, but you've left Turner behind. Wait for Turner's ship to arrive before landing.`
+		dialog `你已经到达<planet>，但你把特纳留在了后面。等到特纳的飞船到达后再登陆。`
 	
 	on complete
 		event "outfitter on greenwater" 95
-		log "People" "David Turner" `Now apparently a frequenter of Hai space, he was instrumental in the creation of a human outfitter in Hai space, allowing merchants to arm themselves for the dangerous trip back to human space.`
+		log "People" "David Turner" `现在显然是海氏空间的常客，他在海氏空间创建人类装备店方面发挥了重要作用，使商人们能够武装自己，迎接返回人类空间的危险旅程。`
 		conversation
-			`By the time you finally reach <planet>, construction on the outfitter is already underway. The construction workers have laid the foundation of the outfitter close to the spaceport, taking up a good portion of a park.`
-			`	"I had to pay a pretty penny to get the outfitter this close to the spaceport," Turner says to you, "but it'll all be worth it in the end. The outfitter should be done in three months or so. You'll know it's done once you find an extra two thousand credits in your pocket every day."`
-			`	Turner pats you on the back. "Have fun until then, Captain <last>. Keep yourself busy saving the galaxy."`
+			`当你最终到达<planet>时，装备店的建设已经开始了。建筑工人已经在靠近太空港的地方打下了舾装厂的地基，占据了一个公园的很大一部分。`
+			`	"特纳对你说："我必须付出相当大的代价，才能让装备厂离太空港这么近，但最终这一切都是值得的。野营公司应该在三个月左右完成。一旦你发现你的口袋里每天多了两千信用点，你就会知道它完成了。"`
+			`	特纳拍拍你的背。"在那之前玩得开心点，船长<last>。让自己忙着拯救银河系吧。"`
 
 event "outfitter on greenwater"
 	planet "Greenwater"
@@ -522,68 +522,68 @@ event "request for a shipyard"
 
 mission "Expanding Business [5]"
 	landing
-	name "A New Proposition"
-	description "Meet with David Turner on <destination> to talk about a new proposition."
+	name "一个新的提议"
+	description "在<destination>与大卫-特纳会面，谈论一个新的提议。"
 	source
 		government "Hai"
 	destination "Greenwater"
 	to offer
 		has "event: request for a shipyard"
 	on offer
-		dialog `You receive a message from David Turner when you land. "Hello, Captain. I hope you've been enjoying your share in the outfitter. I have a new proposition for you, as I've bought out the rest of the park around the outfitter. Meet me on <destination> if you'd like to hear about it."`
+		dialog `当你降落时，你会收到来自大卫-特纳的信息。"你好，船长。我希望你一直在享受你在舾装厂的份额。我有一个新的建议给你，因为我已经买下了户外用品商店周围的其他公园。如果你想听的话，请在<destination>与我见面。"`
 
 
 
 mission "Expanding Business [6]"
 	landing
-	name "A New Proposition"
-	description "Escort the freighters to <destination> in order to pick up the supplies for the shipyard."
+	name "一个新的提议"
+	description "护送货船到<destination>，以便为船厂拿取物资。"
 	destination "Sunracer"
 	to offer
 		has "Expanding Business [5]: done"
 	on offer
 		conversation
-			`Turner meets you in a high-end human-owned restaurant in the richer part of the city, very much reminiscent of something you would find on a Paradise Planet. "It's been quite some time since we last spoke, Captain <last>. Over a year now," he says. "Have you been enjoying the extra cash in your pocket every day, Captain <last>?"`
+			`特纳在城市富人区的一家人类拥有的高端餐厅与你见面，很容易让人联想到天堂星球上的东西。"距离我们上次谈话已经有一段时间了，船长<last>。一年多了，"他说。"你每天都在享受你口袋里的额外现金吗，<last>船长？"`
 			choice
-				`	"Yes. It's been a huge help paying crew salaries."`
+				`	"是的，这对支付船员工资有很大帮助。"`
 					goto salaries
-				`	"Two thousand credits each day isn't much for me."`
+				`	"每天两千信用点对我来说并不算多。"`
 			
-			`	"I suppose two thousand credits every day wouldn't be much to a hero such as yourself. Spaceships are expensive, after all. How does four thousand credits every day sound to you?"`
+			`	"我想每天两千信用点对像你这样的英雄来说不算什么。飞船毕竟是昂贵的。每天四千信用点对你来说怎么样？"`
 				goto choice
 			
 			label salaries
-			`	"I'm glad to hear that, Captain <last>. I spent my early years as a captain myself, and I didn't much enjoy having to worry about crew salaries every day. Perhaps doubling that amount will help even more."`
+			`	"我很高兴听到这个消息，船长<last>。我自己早年也当过船长，我不太喜欢每天为船员工资发愁。也许把这个数额翻倍会有更大的帮助。"`
 			
 			label choice
 			choice
-				`	"Am I getting a raise?"`
-				`	"Is this part of your new proposition?"`
+				`	"我是不是要加薪了？"`
+				`	"这是你新主张的一部分吗？"`
 					goto proposition
 			
-			`	"You could call it that," Turner says after sipping from his glass of wine.`
+			`	"你可以这么说，"特纳喝了一口杯中的酒后说。`
 			
 			label proposition
-			`	"Building an outfitter selling human goods here on <origin> has had to be the best idea I've ever had, Captain <last>, but recently I thought of an even better idea. You see, most of the humans you see flying around in Hai space are flying decades-old ships. Hai ships are prohibitively expensive for humans. The Hai sell the Aphid for nearly one and a half million credits! This means that demand for ships is extremely high among humans, Captain <last>. Do you see where I'm going with this? You look at something we humans sell like a Star Barge, which is hardly worse than an Aphid for only a quarter of the price, and you start to see the problem."`
+			`	"在<origin>这里建立一个销售人类商品的装备店，不得不说是我有过的最好的想法，<last>船长，但最近我想到了一个更好的想法。你看，你所看到的大多数在海洋空间飞行的人类都驾驶着几十年前的飞船。海族的飞船对人类来说是非常昂贵的。海族人把蚜虫号卖到了将近150万信用点！这意味着对飞船的需求量非常大。这意味着，人类对飞船的需求非常高，船长<last>。你知道我在说什么吗？你看看我们人类卖的东西，比如星际驳船，它几乎不比蚜虫差，价格只有四分之一，你就开始看到问题了。"`
 			choice
-				`	"You need me to help you escort freighters again?"`
-				`	"Do you want to build a shipyard selling human ships?"`
+				`	"你又需要我帮你护送货船？"`
+				`	"你想建一个出售人类船只的船厂吗？"`
 			
-			`	"Yes, Captain. Right now, the only realistic way that a human born here can get a ship is if they know a captain willing to retire. Even then, prices for a human ship can be more than twice what they are across the wormhole. You'd think they could just get passage and buy a human ship over there, but those banks just don't recognize credit histories from this side. It's preposterous, Captain <last>!`
-			`	"I've already made arrangements with the local Hai government. The rest of the park next to the outfitter is now my property, and I intend to use it to build the shipyard. I've also contacted Megaparsec and bought a license to build their ships and some of the outfits they sell on <planet>. My freighters are at the ready in the spaceport right now. All I need you to do is escort them to <destination> and back, and in six to seven months' time when the shipyard is done, you'll reap the rewards. What do you say, Captain <last>? Do you want to be a hero to millions once again?"`
+			`	"是的，船长。现在，在这里出生的人类唯一现实的方法是，如果他们认识一个愿意退休的船长，就可以得到一艘船。即便如此，人类船只的价格也可能是虫洞对面的两倍以上。你会认为他们可以直接通过并在那边买一艘人类的船，但那些银行不承认这边的信用记录。这是荒谬的，船长<last>!`
+			`	"我已经和当地的海政府做了安排。舾装厂旁边的公园的其余部分现在是我的财产，我打算用它来建造船厂。我还联系了Megaparsec，买了一个许可证，可以建造他们的船和他们在<planet>上出售的一些装备。我的货船现在就在太空港里准备好了。我需要你做的就是护送他们到<destination>并返回，在六到七个月后，当船厂完成后，你将获得回报。你怎么说，<last>船长？你想再一次成为数百万人的英雄吗？"`
 			choice
-				`	"Sure, this sounds like a great idea."`
+				`	"当然，这听起来是个好主意。"`
 					goto accept
-				`	"I'm not interested in working with you anymore, Turner."`
+				`	"我没有兴趣再和你一起工作了，特纳。"`
 			
-			`	Turner smirks at your response. "Understood, Captain <last>. I'll just save myself two thousand credits a day from now on by rescinding your salary. I'll be seeing myself out now."`
+			`	特纳对你的回答嗤之以鼻。"明白了，队长<last>。从现在开始，我就每天为自己节省两千信用点，取消你的工资。我现在就送自己出去。"`
 			choice
-				`	"Goodbye."`
+				`	"再见。"`
 					decline
-				`	"Wait! I changed my mind. I'll help you."`
+				`	"等等！我改变主意了。我会帮助你的。"`
 			
 			label accept
-			`	"Excellent decision, Captain <last>. I'll meet you outside to send the ships off."`
+			`	"很好的决定，船长<last>。我在外面等你，把船送走。"`
 				accept
 			
 	on decline
@@ -618,17 +618,17 @@ mission "Expanding Business [6]"
 		fleet "Large Northern Pirates"
 		
 	on visit
-		dialog `You've reached <planet>, but you've left one of the ships you're supposed to be escorting behind. Wait for Turner's ship and all the Bulk Freighters to arrive before landing.`
+		dialog `你已经到达<planet>，但你把你应该护送的一艘船落下了。等到特纳的船和所有的散装货船都到达后再登陆。`
 
 	on complete
-		dialog `The Bulk Freighters are loaded with supplies without any problem. When one of the spaceport workers asks Turner where the supplies are going, he replies, "These are just to expand a business venture of mine on, uh, Glory."`
+		dialog `散装货船顺利地装上了物资。当一个太空港的工人问特纳这些物资要去哪里时，他回答说："这些只是为了扩大我在，呃，荣耀号上的一个商业项目。"`
 
 
 
 mission "Expanding Business [7]"
 	landing
-	name "A New Proposition"
-	description "Escort the freighters back to <destination> to begin construction on the shipyard."
+	name "一个新的提议"
+	description "护送货船回到<destination>，开始建造船厂。"
 	destination "Greenwater"
 	to offer
 		has "Expanding Business [6]: done"
@@ -657,13 +657,13 @@ mission "Expanding Business [7]"
 		fleet "Large Northern Pirates"
 		
 	on visit
-		dialog `You've reached <planet>, but you've left one of the ships you're supposed to be escorting behind. Wait for Turner's ship and all the Bulk Freighters to arrive before landing.`
+		dialog `你已经到达<planet>，但你把你应该护送的一艘船落下了。等到特纳的船和所有的散装货船都到达后再登陆。`
 
 	on complete
 		event "shipyard on greenwater" 180
 		conversation
-			`	Construction on the shipyard begins almost immediately after the supplies are unloaded from the freighters, starting with the demolition of the rest of the park. A downtrodden-looking crowd gathers to watch the demolition, but Turner assures you that there are plenty of other parks in the city for them to go to.`
-			`	"Something big is going to come of this, Captain <last>," Turner says. "Just know that you were all part of it. You'll know the shipyard is done when you find an extra four thousand credits in your pocket each day. Goodbye until then, Captain <last>."`
+			`	从货船上卸下物资后，船厂的建设几乎立即开始，首先是拆除公园的其他部分。一群看起来很沮丧的人聚集在一起观看拆迁，但特纳保证说，城市里还有很多其他的公园可以让他们去。`
+			`	特纳说："会有大事发生的，队长<last>，"。"只要知道你们都是其中的一部分。当你发现你的口袋里每天多出四千信用点时，你就知道船厂已经完成了。在那之前，再见了，<last>船长。"`
 
 event "shipyard on greenwater"
 	planet "Greenwater"
@@ -720,13 +720,13 @@ mission "Expanding Business: shipyard complete"
 		has "event: shipyard on greenwater"
 	on offer
 		"salary: Turner Incorporated" = 4000
-		dialog "On receipt of a new and unexpected deposit, you realize that the shipyard on Greenwater must now be operational."
+		dialog "在收到新的和意外的存款时，你意识到绿水城的船厂现在必须投入使用。"
 		fail
 
 
 
 mission "Hiding in Plain Sight"
-	description "Bring Arthur and his Hai friend Kiru to <destination> for a gaming convention by <date>"
+	description "在<destination>之前将亚瑟和他的海族朋友基鲁带到<date>参加一个游戏大会"
 	minor
 	source
 		government "Hai"
@@ -742,36 +742,36 @@ mission "Hiding in Plain Sight"
 			has "event: hai-human resolution announced"
 	on offer
 		conversation
-			`While eating in a spaceport cafeteria that serves both Hai and human cuisine, you are approached by a teenage human and Hai. "Hello. Do you know how to get to <destination>?" the Hai asks.`
+			`当你在一个同时提供海族和人类食物的太空港食堂吃饭时，一个十几岁的人类和海族走到你面前。"你好。你知道怎么去<destination>吗？"Hai问道。`
 			choice
-				`	"I do. Why do you want to go there?"`
-				`	"I don't. You'll have to ask someone else."`
+				`	"我知道。你为什么想去那里？"`
+				`	"我不知道。你必须问别人。"`
 					decline
 			branch public
 				has "event: hai-human resolution announced"
-			`	The human responds, "There's a massive convention on <planet> for a game called 'Boundless Frontiers.' The convention has a huge cosplaying scene, and I think Kiru would fit right in."`
+			`	人类回答说："在<planet>上有一个大规模的会议，是为了一个叫'无界边境'的游戏。大会有一个巨大的cosplay场景，我想Kiru会很适合。"`
 				goto return
 			label public
-			`	The human responds, "There's a massive convention on <planet> for a game called 'Boundless Frontiers.' Now that Kiru doesn't have to worry about pretending to be a cosplayer the whole time, we're really keen to go."`
+			`	人类回答说："在<planet>上有一个大规模的会议，是为了一个叫'无边疆'的游戏。现在，基鲁不必担心一直假装成一个cosplayer，我们真的很想去。"`
 			label return
-			`	"Arthur and I have <payment> to give you if you bring us to the <planet>," Kiru says. "We can find our own way back to the Hai space, as well."`
+			`	"如果你把我们带到<payment>，亚瑟和我有<planet>可以给你，"基鲁说。"我们也可以自己找到回海空间的路。"`
 			choice
-				`	"Alright, I can take you there."`
+				`	"好吧，我可以带你们去。"`
 					accept
-				`	"Sorry, you'll have to find someone else to bring you."`
+				`	"对不起，你得找别人带你。"`
 					decline
 					
 	on visit
-		dialog `You look for Arthur and Kiru, but realize that they took a ride on one of your escorts! Better depart and wait for your escorts to arrive in this star system.`
+		dialog `你寻找亚瑟和基鲁，但发现他们搭上了你的一个护卫队！你最好离开，等待你的护卫队。最好出发，等待你的护卫队到达这个星系。`
 	on complete
 		payment 75000
-		dialog `Arthur and Kiru pay you <payment> before running off to the convention center. As they run away, you notice that Kiru is drawing a number of eyes from the crowd, but no one seems to suspect that he is an actual alien.`
-		log "Minor People" "Arthur and Kiru" `Human and Hai respectively, both attended the Vinci cosplay convention without a costume, gaining much attention.`
+		dialog `亚瑟和基鲁在跑向会议中心前向你支付了<payment>。当他们跑开时，你注意到基鲁正吸引着人群中的一些目光，但似乎没有人怀疑他是一个真正的外星人。`
+		log "Minor People" "Arthur and Kiru" `人和海分别参加了文氏cosplay大会，没有穿上服装，获得了很多关注。`
 
 
 
 mission "Hai Honeymoon"
-	description "Bring Anaya and Touhar to <destination> for their honeymoon."
+	description "把阿纳亚和图哈带到<destination>去度蜜月。"
 	minor
 	source "Skyfarm"
 	destination "Featherweight"
@@ -781,55 +781,55 @@ mission "Hai Honeymoon"
 		has "First Contact: Hai: offered"
 	on offer
 		conversation
-			`You hop around the spaceport of <origin>, trying to adjust to the low gravity of this moon, when you are approached by a toweringly tall human woman and an equally tall Hai male who are clearly having no trouble with <origin>'s gravity.`
-			`	"You look like you need help there, Captain," the woman says with a chuckle.`
+			`你在<origin>的太空港跳来跳去，试图适应这个月球的低重力，这时一个高大的人类女性和一个同样高大的海族男性向你走来，他们显然对<origin>的重力没有异议。`
+			`	"你看起来需要帮助，船长，"那个女人笑着说。`
 			choice
-				`	"Don't worry. I almost have the hang of it."`
-				`	"Maybe a little bit."`
-			`	"It's always fun watching captains when they step off the comfort of their ship," the Hai says.`
-			`	"At least they're trying, Touhar," the woman says.`
+				`	"别担心。我几乎已经掌握了它的窍门。"`
+				`	"也许有一点。"`
+			`	"当船长离开他们舒适的船时，看着他们总是很有趣，"海说。`
+			`	"至少他们在努力，图哈，"那女人说。`
 			choice
-				`	"Can I help you two with something?"`
-				`	"Is there something I can help you with, or are you just going to watch me?"`
-			`	"Actually, there is something," the woman says. "My name is Anaya, and this is my husband, Touhar. And you are?"`
+				`	"我可以帮你们两个做什么吗？"`
+				`	"有什么我可以帮你的吗？"还是你只是要看着我？`
+			`	"事实上，有件事，"那女人说。"我叫阿纳亚，这是我的丈夫，图哈。你是？"`
 			choice
-				`	"My name is <first> <last>."`
-				`	"Wait, your husband?"`
+				`	"我的名字是<first><last>。"`
+				`	"等等，你的丈夫？"`
 					goto husband
 			
-			`	"Very nice to meet you, Captain <last>," Touhar says to you.`
+			`	"非常高兴见到你，<last>队长。"图哈对你说。`
 				goto next
 			
 			label husband
-			`	"What, you've never seen an interspecies couple before?" Touhar asks with a hint of sarcasm in his voice.`
+			`	"怎么，你以前从未见过跨物种的夫妇？"图哈问道，声音中带有一丝嘲讽。`
 			
 			label next
 			branch public
 				has "event: hai-human resolution announced"
-			`	"We got married last week, and we were hoping to travel to <destination> for our honeymoon. I know it's risky to bring Touhar into human space, but <planet> is a sparsely inhabited world, and I have a friend who owns a house in the mountains far from anyone who could see him."`
+			`	"我们上周结婚了，我们希望到<destination>去度蜜月。我知道把图哈带入人类空间是有风险的，但<planet>是一个人烟稀少的世界，我有个朋友在山里拥有一栋房子，远离任何能看到他的人。"`
 				goto return
 			label public
-			`	"We got married last week, and we were hoping to travel to <destination> for our honeymoon. Some people still tell us it's risky to bring Touhar into human space, especially to such a sparsely inhabited world as <planet>, but I have a friend who owns a house in the mountains, and it just seems like everything is working out so well right now."`
+			`	"我们上周结婚了，我们希望能到<destination>去度蜜月。有些人还告诉我们，把图哈带入人类空间是有风险的，尤其是到<planet>这样一个人烟稀少的世界，但我有个朋友在山上拥有一栋房子，而且现在看来一切都很顺利。"`
 			label return
-			`	"Said friend will be able to arrange for our return to <origin> as well," Touhar adds. "Will you take us?"`
+			`	"所说的朋友也能安排我们返回<origin>，"图哈补充道。"你会带我们去吗？"`
 			choice
-				`	"Sure."`
+				`	"当然。"`
 					accept
-				`	"Sorry, I can't travel that far from here."`
+				`	"对不起，我不能从这里走那么远。"`
 					decline
 					
 	on visit
-		dialog `You look for Anaya and Touhar, but realize that they took a ride on one of your escorts! Better depart and wait for your escorts to arrive in this star system.`
+		dialog `你寻找阿纳亚和图哈，但发现他们搭上了你的一个护卫队！你最好离开，等待你的护卫队。最好出发，等待你的护卫队到达这个星系。`
 	on complete
 		payment 100000
-		dialog `Instead of landing in the spaceport where they can be seen, you drop Anaya and Touhar off as close as you can to where they will be staying. The house is a few kilometers away, but they assure you that they can make it on their own. They pay you <payment> and thank you for bringing them this far.`
-		log "Minor People" "Anaya and Touhar" `A Hai-human interspecies couple that you transported to their secluded honeymoon on Featherweight in human space.`
+		dialog `你没有在可以看到他们的太空港降落，而是把阿纳亚和图哈送到离他们将住的地方越近越好。房子离这里有几公里远，但他们向你保证，他们可以自己赶到。他们付给你<payment>，并感谢你把他们带到这么远的地方。`
+		log "Minor People" "Anaya and Touhar" `一对海族和人类的跨物种夫妇，你把他们送到了人类空间的Featherweight上的隐蔽的蜜月。`
 
 
 
 mission "Nanachi 1"
-	name "Escort Nanachi to <planet>"
-	description "Help Nanachi, a Hai who just bought her first ship, make a simple delivery to <destination> by <date>."
+	name "护送Nanachi到<planet>。"
+	description "帮助Nanachi，一个刚买了她的第一艘船的海族，在<destination>之前完成一个简单的运送到<date>。"
 	minor
 	source "Giverstone"
 	destination "Cloudfire"
@@ -844,56 +844,56 @@ mission "Nanachi 1"
 			has "event: hai-human resolution announced"
 	on offer
 		conversation
-			`As you are making your way through the spaceport you notice a worried-looking Hai staring at the local job board and back at some sort of document they are holding.`
+			`当你穿过太空港时，你注意到一个面带忧虑的海族人正盯着当地的招聘栏，并回头看他们手中的某种文件。`
 			choice
-				`	(Approach the Hai.)`
-				`	(Leave them alone.)`
+				`	(走近海族。）`
+				`	(不要打扰他们。）`
 					decline
-			`	The Hai is a bit startled, but quickly calms down. "Sorry, you caught me by surprise. I've just bought my first ship and need to find some jobs to do, but nobody I've talked to wants to trust a beginner captain. I just don't know what to do anymore, I've been working for so long to qualify for this loan, but I'm running out of time and I'll never be able to pay it like this."`
-			`	Turns out the documents she is holding are the bank papers for the loan, somewhat similar to the one you took when you bought your first ship. You've come a long way since your days as a beginner, and know how hard it is to be starting out as a starship captain; you could probably convince someone here to offer a simple cargo job to this young Hai.`
+			`	海族有点惊愕，但很快就平静下来。"对不起，你让我大吃一惊。我刚刚买了我的第一艘船，需要找一些工作来做，但我所谈的没有人愿意信任一个新手船长。我只是不知道该怎么办了，我工作了这么久才有资格获得这笔贷款，但我的时间不多了，这样下去我永远也还不上。"`
+			`	原来她手上的文件是银行的贷款文件，有点类似于你买第一艘船时的贷款。从你当初学者的时候起，你已经走过了很长的路，知道作为一个星际飞船的船长起步有多难；你也许可以说服这里的人给这个年轻的海提供一份简单的货运工作。`
 			choice
-				`	"If you're interested, I could try to help you find a job."`
+				`	"如果你有兴趣，我可以试着帮你找一份工作。"`
 					goto "positive1"
-				`	"I've been there before; trust me, it gets better. I wish you the best of luck on finding a job."`
-			`	She nods in sad understanding, and continues to swap focus from the job board to the papers in her hand.`
+				`	"我以前也经历过；相信我，会好起来的。我希望你能找到工作，祝你好运。"`
+			`	她无奈地点点头，表示理解，并继续将注意力从招聘栏换到她手中的文件上。`
 			choice
-				`	(Help her out anyway.)`
+				`	(无论如何要帮助她。)`
 					goto "positive1"
-				`	(Leave her alone and continue on.)`
+				`	(别管她，继续前进。)`
 					decline
 			label "positive1"
-			`	Her ears twitch a bit, and her previously crestfallen eyes light up as she nearly jumps in joy at your offer. "Thank you so much Captain! My name is Nanachi, I promise I won't cause any trouble at all, just a few quick jobs and I'm sure I'll be fine by myself!"`
-			`	You introduce yourself to Nanachi and shake her paw. "Can you show me your ship so I can look for jobs it's best suited for?" you ask.`
-			`	She hesitates a bit, but leads you to her ship. You were expecting a small Hai ship, but to your surprise she shows you a rather beat-up Heavy Shuttle docked near your own ship.`
-			`	"You took a loan to buy a human ship?" you ask.`
-			`	She looks at the ground, as if ashamed of it. "It'd take way too long for me to qualify for a loan for even an Aphid, but I recently met a human merchant who wanted to sell his old ship; it was difficult, but I managed to convince him to sell it to me instead of going to the shipyard office. I paid him its full price, but even for this one I had to take out the biggest loan I could. Its cargo hold isn't very impressive but it has more bunks than our smallest ships, if that helps."`
+			`	她的耳朵抽动了一下，之前沮丧的眼睛亮了起来，听到你的提议，她几乎高兴地跳了起来。"太感谢你了，队长！我的名字叫纳纳奇，我保证。我的名字叫纳纳奇，我保证我根本不会造成任何麻烦，只是一些简单的工作，我相信我自己会没事的！"`
+			`	你向纳纳奇介绍自己，并与她的爪子相握。"你能带我看看你的船吗，我可以找找它最适合的工作？"你问。`
+			`	她犹豫了一下，但还是带你到她的船上。你以为是一艘小海船，但令你惊讶的是，她给你看了一艘相当破旧的重型航天飞机，就停在你自己的船附近。`
+			`	"你贷款买了一艘人类的船？"你问。`
+			`	她看了看地面，好像很惭愧的样子。"即使是蚜虫，我也要花很长时间才有资格贷款，但我最近遇到一个想卖掉他的旧船的人类商人；这很困难，但我设法说服他把它卖给我，而不是去船厂办公室。我付给他全价，但即使是为了这艘船，我也不得不拿出最大的贷款。它的货舱并不十分引人注目，但它的铺位比我们最小的船还要多，如果这有帮助的话。"`
 			choice
-				`	"Let's see if anyone in the spaceport needs a lift off the planet."`
-				`	"Let's take another look at the job board, maybe a smaller job will pop up."`
-			`	Turns out this isn't as easy as you thought it'd be. The spaceport is almost empty, save for the occasional worker or drunken crewmember, and the job board is filled with massive hauls of minerals, aside from a few small but dangerous jobs to human space. Eventually, as you two begin scouting the edge of the docking area, you spot a troubled human merchant near several crates. You approach him and he explains that his ship had some malfunctions and he cannot deliver his cargo of advanced surgical equipment to <destination>. "This is the worst! One jump away from the planet and the navigation system suddenly decides to go on strike! There's no way I can make it before the deadline!"`
-			`	"My friend Nanachi here could deliver it for you. We were heading there anyway; a few extra crates won't make a difference," you say, trying to sound as convincing as possible.`
-			`	At first, he seems delighted that you two want to help him, but when Nanachi mentions that she's flying a Heavy Shuttle, he frowns, and looks back at the cargo. "Unfettered attacks make it so they need tons of medical supplies on <planet>, and quite frankly I'm not comfortable letting such a fragile ship go into dangerous territory carrying this equipment when it could be blasted to bits in an instant," he says. The captain glances around the deserted spaceport for a while, as if trying to find some other captain, before finally turning to Nanachi and saying, "but I guess beggars can't be choosers. Fine, I'll let you take the cargo there, but please be very careful."`
+				`	"让我们看看太空港里是否有人需要搭乘飞机离开这个星球。"`
+				`	"让我们再看一下招聘栏，也许会有一个较小的工作出现。"`
+			`	结果发现这并不像你想象的那么容易。航天港几乎是空的，除了偶尔的工人或醉酒的船员，而工作牌上除了一些到人类空间的小而危险的工作外，都是大量的矿物。最后，当你们两个开始侦察停靠区的边缘时，你们在几个板条箱附近发现了一个麻烦的人类商人。你走近他，他解释说他的飞船出现了一些故障，他无法将他的先进外科设备的货物送到<destination>。"这是最糟糕的!离星球只有一跳之遥，导航系统却突然决定罢工了！我没有办法让自己的船到达目的地。我不可能在最后期限前赶到！"`
+			`	"我的朋友纳纳奇可以为你送去。我们反正也是要去那里的；多装几箱也不会有什么影响。"你说，尽量让自己听起来更有说服力。`
+			`	起初，他似乎很高兴你们两个想帮助他，但当纳纳奇提到她在驾驶重型航天飞机时，他皱起眉头，回头看了看货物。"不受约束的攻击使他们在<planet>上需要成吨的医疗用品，坦率地说，我不放心让这样一艘脆弱的船带着这些设备进入危险地带，而它可能在瞬间被炸成碎片，"他说。舰长在荒废的太空港周围扫视了一会儿，似乎想找到其他的舰长，最后转向纳纳奇说，"但我想乞丐是不能选择的。好吧，我让你把货物带到那里，但请你非常小心。"`
 				accept
 	npc accompany save
 		personality escort timid
 		government "Hai"
 		ship "Heavy Shuttle" "Acorn Chaser"
 	on visit
-		dialog `You have reached <planet>, but you left Nanachi's ship behind! Better depart and wait for her to arrive in this star system.`
+		dialog `你已经到达了<planet>，但你把纳纳奇的船落在了后面！你最好离开并等待她的到来。最好出发，等待她到达这个星系。`
 	on complete
 		conversation
-			`Shortly after her ship lands, you meet up with Nanachi, who is doing her best to hide her excitement at being on another planet for the first time, and is gawking at some Hai military ships in particular. "So, how did you like your first time doing a hyperspace jump?" you ask, to try and snap her out of it.`
-			`	"Oh um, I don't think I'll get used to the feeling anytime soon. I threw up a lot so I'm glad this wasn't a job with passengers. I've always dreamt of being on other worlds, exploring and learning everything about them. I'm glad I'm finally able to do it."`
-			`	You help her get the crates out of the cargo hold and contact the client. Nanachi's share of the payment is small, as the client transfers most of the money to the merchant she got the job from, but that doesn't make her any less excited about getting her first paycheck.`
-			`	"So, want to go to the spaceport and try to get a job on your own? I'll help you again in case you can't do it yet." you say.`
-			`	"Just give me an hour or two to explore. Back home our shipyard is kind of small. I've never really gotten a chance to see a Shield Beetle up close, and there are many undergoing repairs here. I'll just go get a better look at them, I swear I'll be quick."`
-			`	You two agree to meet in the spaceport in a few hours; maybe this time she will do fine on her own.`
+			`在她的飞船着陆后不久，你见到了娜娜琪，她正尽力掩饰她第一次来到另一个星球的兴奋，特别是对一些海族军舰目不转睛。"那么，你喜欢你第一次做超空间跳跃吗？"你问道，试图让她摆脱这种状态。`
+			`	"哦，嗯，我不认为我很快就会习惯这种感觉。我吐了很多次，所以我很高兴这不是一个有乘客的工作。我一直梦想着能在其他世界上，探索和了解他们的一切。我很高兴我最终能够做到这一点。"`
+			`	你帮她把板条箱从货舱里拿出来，然后联系客户。纳纳奇分到的钱不多，因为客户把大部分钱转给了她找的那个商人，但这并没有让她对拿到第一份薪水的兴奋感减少。`
+			`	"那么，想去太空港，试着自己找份工作吗？万一你还做不到，我再帮你。"你说。`
+			`	"只要给我一两个小时的时间去探索。在家里，我们的船厂有点小。我从来没有真正有机会近距离看到盾牌甲虫，这里有很多正在维修的。我就去好好看看它们吧，我发誓我会很快的。"`
+			`	你们俩同意几小时后在太空港见面；也许这次她自己会做得很好。`
 
 
 
 mission "Nanachi 2"
-	name "Escort Nanachi to <planet>"
-	description "Bring Nanachi and her passengers to <destination>."
+	name "护送Nanachi到<planet>。"
+	description "把纳纳奇和她的乘客带到<destination>。"
 	source "Cloudfire"
 	destination "Hai-home"
 	clearance
@@ -901,32 +901,32 @@ mission "Nanachi 2"
 		has "Nanachi 1: done"
 	on offer
 		conversation
-			`You meet up with Nanachi in the spaceport, give her some tips to try and persuade someone into hiring her, and tell her you'll be nearby if she still has trouble getting a job. You watch her go around the spaceport and approach some groups of humans and even other Hai to no avail. Maybe since this is a world seeing combat often, they're too busy with military related activities to help a new pilot. She manages to grab the attention of a Hai family leaving a restaurant carrying way too much luggage, most likely tourists looking for a ride back home. Everything seems to be going well until the parents start to look worried. It seems as if they might go away if you don't step in.`
-			`	You walk over to the group to help her, and get a better look at the family: a Hai couple carrying a baby, and three older children who aren't doing much to help their father carry their ludicrous number of bags.`
+			`你和纳纳奇在太空港见面，给她一些建议，试图说服别人雇用她，并告诉她如果她还是找不到工作，你就在附近。你看着她在太空港周围走来走去，接近一些人类团体，甚至其他海族，但都没有结果。也许因为这是一个经常发生战斗的世界，他们太忙于与军事有关的活动，没有时间帮助一个新的飞行员。她设法吸引了一个海族家庭的注意，他们带着太多的行李离开餐馆，很可能是想搭车回家的游客。一切似乎都很顺利，直到父母开始看起来很担心。如果你不插手，他们似乎会离开。`
+			`	你走过去帮助她，并更清楚地看到这一家人：一对海族夫妇抱着一个婴儿，还有三个大一点的孩子，他们没有做什么来帮助他们的父亲搬运他们可笑数量的行李。`
 			choice
-				`	"Hey, what's going on?"`
-				`	"Can I be of assistance?"`
-			`	You introduce yourself and the parents tell you that they've been on vacation here and need transport back to <destination>. "Don't take this the wrong way, but Captain Nanachi told us her ship is one of your human ships, a Heavy Shuttle was it? It has enough bunks for us but our sons already caused a ruckus on the way here in a Hai ship, we're worried that since they aren't used to the accommodations, they might end up giving her too much trouble."`
-			`	You reassure them that the trip will be very quick, and that the ship's interior is somewhat similar to that of Hai ships, until they finally agree on traveling with her. They settle on the pay and the two of you help the Hai get their baggage to Nanachi's ship. When the family is focused on a conversation, you quietly ask Nanachi what the issue she was having with the other people she encountered.`
-			`	"They all seemed willing to give me a job, but I ended up blowing it when I asked for more money. I just really need to get out of debt so I guess I went a bit overboard." She tries to play it cool, but it's clear that she is embarrassed about losing so many potential jobs. When you reach her ship, you take a look at the prices for commodities in <system>. You decide to tell Nanachi to stock up on heavy metals to sell there, to help her make a bit more profit.`
+				`	"嘿，发生什么事了？"`
+				`	"我能提供帮助吗？"`
+			`	你介绍了自己，父母告诉你，他们在这里度假，需要交通工具返回<destination>。"不要想歪了，但是纳纳奇船长告诉我们，她的船是你们人类的船之一，是一艘重型穿梭机吗？它有足够的铺位给我们，但我们的儿子在来的路上已经在海船上引起了骚动，我们担心由于他们不习惯这里的住宿条件，最终会给她带来太多的麻烦。"`
+			`	你向他们保证，这次旅行会非常快，而且这艘船的内部结构与海船有些相似，直到他们最终同意与她一起旅行。他们确定了报酬，你们两个人帮助海族人把他们的行李送到纳纳奇的船上。当这家人专注于谈话时，你悄悄地问纳纳奇，她与其他遇到的人有什么问题。`
+			`	"他们似乎都愿意给我一份工作，但当我要求更多的钱时，我最后还是吹了。我只是真的需要摆脱债务，所以我想我有点过分了。"她试图装得很酷，但很明显，她对失去这么多潜在的工作感到很尴尬。当你到达她的船上时，你看了一下<system>中商品的价格。你决定告诉纳纳奇囤积重金属在那里出售，以帮助她赚取更多的利润。`
 				accept
 	npc accompany save
 		personality escort timid
 		government "Hai"
 		ship "Heavy Shuttle" "Acorn Chaser"
 	on visit
-		dialog `You have reached <planet>, but you left Nanachi's ship behind! Better depart and wait for her to arrive in this star system.`
+		dialog `你已经到达了<planet>，但你把纳纳奇的船落在了后面！你最好离开并等待她的到来。最好出发，等待她到达这个星系。`
 	on complete
 		conversation
-			`You help the family gather all their luggage and bid them farewell, but right as they disappear into a hallway Nanachi lets out a heavy sigh. "I bit off more than I could chew. Those kids kept wanting to play with the ship's controls, and one of them tried to go up the air vent in a game of hide-and-seek. I couldn't get any rest since I had to keep making sure they weren't about to dump their own bags into the void by accident."`
-			`	"Do you want to get some sleep before trying to find another mission?" you ask, hoping she won't try to overwork herself.`
-			`	"Yes, I could really use that. Sorry to make you wait again Captain <last>. I'll rest a bit, see if I can't find a spot nearby to relax, and meet up with you in the spaceport after a while."`
+			`你帮助他们一家人收集所有的行李并向他们告别，但就在他们消失在走廊里的时候，纳纳奇发出了一声沉重的叹息。"我咬的东西比我能咬的要多。那些孩子一直想玩飞船的控制装置，其中一个还想从通风口上去玩捉迷藏的游戏。我无法得到任何休息，因为我不得不一直确保他们不会不小心把自己的袋子倒进虚空。"`
+			`	"你想在试图寻找另一个任务之前睡一觉吗？"你问道，希望她不要试图过度劳累。`
+			`	"是的，我真的可以用这个。对不起，让你再次等待，队长<last>。我先休息一下，看看能不能在附近找个地方放松一下，过段时间在太空港和你会合。"`
 
 
 
 mission "Nanachi 3"
-	name "Deliver spices with Nanachi"
-	description "Accompany Nanachi to <stopovers> to pick up some Quarg spices for a festival on <destination> by <date>."
+	name "与纳纳奇一起运送香料"
+	description "陪同纳纳奇到<stopovers>去为<destination>上的节日挑选一些夸格香料，时间是<date>。"
 	source "Hai-home"
 	stopover "Alta Hai"
 	destination "Allhome"
@@ -935,81 +935,81 @@ mission "Nanachi 3"
 		has "Nanachi 2: done"
 	on offer
 		conversation
-			`You send a message to Nanachi and you two meet up in the spaceport. You're still walking toward the job board, when she asks: "Back home I heard stories about how humans have a much larger population than the Hai, and that their home planet has even more people than Hai-home. Is it true that there are many other human worlds with spaceports this large?" You name her a few human planets that are extremely populous, and how even some planets with fewer people than this world have incredibly large spaceports.`
+			`你给Nanachi发了一条信息，你们俩在太空港碰头。你还在向招聘栏走去，她问道。"在家乡，我听说了一些故事，说人类的人口比海族多得多，他们的母星比海-家的人口还要多。是否真的有许多其他人类世界有这么大的太空港？"你告诉她几个人口极多的人类星球，以及即使一些比这个世界人口少的星球也有令人难以置信的大型太空港。`
 			branch public
 				has "event: hai-human resolution announced"
-			`	While you tell her stories of many different planets you've visited, she seems to be particularly interested in Earth. "I've seen a bit of human architecture in videos of planets like Allhome, but I can't even imagine what your capital must look like. Tens of thousands of years of another species' history, it sounds even more exciting than what I heard about our landmarks on Hai-home. Captain, do you think that someday, when we no longer need to be kept hidden from humanity, that I'll be able to visit Earth, and see the beauty of your capital?" Seeing how little she knows about humanity, it's not surprising that she is unaware of the state that Earth is in.`
+			`	当你告诉她你访问过的许多不同星球的故事时，她似乎对地球特别感兴趣。"我在Allhome等星球的视频中看到过一些人类建筑，但我甚至无法想象你们的首都一定是什么样子的。另一个物种数万年的历史，这听起来甚至比我听到的关于我们在Hai-home的地标性建筑更令人兴奋。船长，你认为有一天，当我们不再需要对人类隐瞒时，我是否能够访问地球，看到你们首都的美丽？"看到她对人类的了解如此之少，她不知道地球所处的状态也就不奇怪了。`
 				goto return
 			label public
-			`	While you tell her stories of many different planets you've visited, she seems to be particularly interested in Earth. "I've seen a bit of human architecture in videos of planets like Allhome, but I can't even imagine what your capital must look like. Tens of thousands of years of another species' history, it sounds even more exciting than what I heard about our landmarks on Hai-home. Captain, do you think that someday, when I have a bigger ship or when the routes are safer, that I'll be able to visit Earth, and see the beauty of your capital?" Seeing how little she knows about humanity, it's not surprising that she is unaware of the state that Earth is in.`
+			`	虽然你向她讲述了你访问过的许多不同星球的故事，但她似乎对地球特别感兴趣。"我在Allhome等星球的视频中看到过一点人类的建筑，但我甚至无法想象你们的首都应该是什么样子。另一个物种数万年的历史，这听起来甚至比我听到的关于我们在Hai-home的地标性建筑更令人兴奋。船长，你认为有一天，当我有一艘更大的船，或者当航线更安全时，我是否能够访问地球，看到你们首都的美丽？"看到她对人类的了解如此之少，她不知道地球所处的状态也就不奇怪了。`
 			label return
 			choice
-				`	"I've never actually been to Earth before, so I couldn't tell you what it's like."`
+				`	"我以前从未真正去过地球，所以我无法告诉你它是什么样的。"`
 					goto avoid
-				`	"Earth is a beautiful place, so it would be nice if you could see it."`
+				`	"地球是一个美丽的地方，所以如果你能看到它就好了。"`
 					goto fake
-				`	"Earth isn't actually that great a place to visit. Most of its inhabitants would take any chance they're given to leave it."`
+				`	"其实地球并不是一个很好的地方，可以参观。它的大多数居民会抓住任何机会离开它。"`
 					goto truth
 			label avoid
-			`	"Oh, sorry about that, shouldn't have assumed you knew everything, you're a starship captain after all, not a historian, I'll just ask someone else when I get the chance," says Nanachi.`
+			`	"哦，对不起，不该以为你什么都知道，你毕竟是个星舰舰长，不是历史学家，有机会我再问问别人吧。"纳奇说。`
 				goto board
 			label fake
 			branch public2
 				has "event: hai-human resolution announced"
-			`	You start making up stories about how beautiful the skies of Earth are. You describe forests teeming with life, and do your best to remember ancient civilizations and their monuments. From the looks of it she believes you, and your lie seems to have sated her curiosity for now. If the day where the Hai are allowed to move around human space ever comes, though, she will no doubt be extremely disappointed.`
+			`	你开始编造故事，说地球的天空是多么美丽。你描述了充满生命力的森林，并尽力回忆古代文明和他们的纪念碑。从外观上看，她相信你，你的谎言似乎暂时满足了她的好奇心。不过，如果有一天，海族被允许在人类空间里活动，她无疑会非常失望。`
 				goto board
 			label public2
-			`	You start making up stories about how beautiful the skies of Earth are. You describe forests teeming with life, and do your best to remember ancient civilizations and their monuments. From the looks of it she believes you, and your lie seems to have sated her curiosity for now. If she does manage to be successful enough to fly to Earth one day, though, she will no doubt be extremely disappointed.`
+			`	你开始编造故事，说地球的天空有多美。你描述了充满生命力的森林，并尽力回忆古代文明和他们的纪念碑。从外观上看，她相信你，而且你的谎言似乎暂时满足了她的好奇心。不过，如果有一天她真的能成功地飞到地球，她无疑会非常失望。`
 				goto board
 			label truth
-			`	She looks at you in confusion, as if trying to understand what you mean, so you explain it to her. "Despite how much humanity has advanced in the past centuries, Earth has been largely neglected. Most of the land has been turned into cities, which have over the years decayed into slums. If you ever managed to visit you'd be better off going to museums or monuments, but even then there are many thieves roaming the streets and it is very dangerous to be out at night. Lots of folks born there just think about how to get out."`
-			`	You keep telling her about the issues facing humanity's birthplace, and her previous eagerness to learn about the planet fades. "How could your ancestors let their own home become like this?"`
+			`	她疑惑地看着你，似乎想明白你的意思，于是你向她解释。"尽管人类在过去几个世纪里取得了多大的进步，但地球在很大程度上被忽视了。大部分的土地都变成了城市，多年来腐烂成了贫民窟。如果你曾经设法去参观，你最好去博物馆或纪念碑，但即使这样，也有许多小偷在街上游荡，晚上出来是非常危险的。很多在那里出生的人只想着怎么出去。"`
+			`	你不断地告诉她人类的发源地所面临的问题，而她之前对了解这个星球的热忱也逐渐消失。"你的祖先怎么能让自己的家园变成这样？"`
 			branch unfettered
 				has "Ask the Hai about the Unfettered: offered"
 			choice
-				`	"Long-term planning has never been a strong trait of humanity as a whole."`
+				`	"长期规划从来都不是整个人类的强大特征。"`
 					goto end
 			
 			label unfettered
 			choice
-				`	"I guess it isn't too unlike how the Unfettered have treated their worlds."`
-			`	Nanachi looks confused, so you continue to elaborate on that idea. "They're expecting to be able to have new worlds soon, so they consider the decay of their current ones as acceptable losses. Humans have also had issues with long-term planning and preparing for adverse events."`
+				`	"我想这与不羁者对待他们的世界的方式并无太大不同。"`
+			`	纳纳奇看起来很困惑，所以你继续阐述这个想法。"他们期待着能很快拥有新的世界，所以他们认为现有世界的衰败是可以接受的损失。人类在长期规划和准备应对不利事件方面也有问题。"`
 				goto end
 			label end
-			`	"I see..." She says. "I just thought it would be fun to hear about another large planet like Hai-Home. Sorry for asking about it, Captain, I'm sure having to speak of it wasn't a pleasant feeling."`
-			`	Although you're sure that even in Hai space there is social inequality, she probably can't fathom that the home planet of a species could be in such bad shape, considering the Hai even go as far as to send aid to the Unfettered on a regular basis.`
+			`	"我明白了......"她说。"我只是觉得听到另一个像海之家这样的大星球会很有趣。抱歉问起它，船长，我相信不得不说起它的感觉并不愉快。"`
+			`	虽然你确信即使在海族的空间里也有社会不平等，但她可能无法想象一个物种的母星会处于如此糟糕的状态，考虑到海族甚至定期向不羁者提供援助。`
 				goto board
 			label board
-			`	You two reach the job board and decide to start looking for jobs suited for Nanachi's ship.`
+			`	你们两个到达了招聘栏，决定开始寻找适合纳纳奇飞船的工作。`
 			choice
-				`	"So, do you mind if I help out? I know the job board can be confusing the first few times you check it."`
-				`	"Do you think you need me to help out this time?"`
-			`	"Thanks, but I have to do this on my own. I promise I won't mess this up by getting greedy again," She approaches the board on her own, and it becomes clear that it's much easier to get a job here; she's barely started talking to one of the desk workers before receiving a long list of jobs for smaller ships. She is certainly still very tired, but this seems to have cheered her up a bit; it is the first time she can get a job without your help after all.`
-			`	While you thought she would've picked one or two jobs quickly and headed back to her ship, she keeps going through them and double checking the information for each one, as if something about them bothers her.`
-			`	"What's wrong? Are you struggling to pick between two different jobs?" you ask.`
-			`	"These all seem very easy and I could even accept many at a time, but the problem is their pay isn't very good." She grabs some worn papers from her pocket, and shows it to you: they're the documents for her loan. "The bank back home would only give me enough for the ship if I agreed on a short-term loan. I lost two days before you came along to help me, and if I don't get some better paying job soon, I won't even be able to pay the interest."`
-			`	As you're trying to figure out a way to get the most out of the available missions, you feel a tap on your shoulder, and turn to see a Hai standing beside a human couple. The couple introduce themselves as Xavier and Vanessa, who are here with their Hai friend Narancia. "We overheard your conversation and are willing to pay a little extra for a job. We're part of a group organizing a big festival in Allhome to celebrate the friendship between humans and Hai, and we just got a last-minute idea: we'd like to get our hands on some Quarg spices."`
-			`	Nanachi perks up during their conversation. "I'm sure I can get the spices to <planet> within two weeks. I won't let you down!"`
-			`	"That's wonderful," Narancia says. They tell Nanachi that they won't be going along; they already have a transport to Allhome, and will stay here a bit longer to try and advertise the event. "Just come to Allhome after you've picked up the spices. Safe travels!"`
+				`	"那么，你介意我帮忙吗？我知道前几次你查看招聘栏时可能会感到困惑。"`
+				`	"你认为你这次需要我帮忙吗？"`
+			`	"谢谢，但我必须自己来做这件事。我保证不会因为再次贪婪而搞砸。"她独自走近招聘栏，很明显，在这里找工作要容易得多；她几乎没有开始与其中一个服务台工作人员交谈，就收到了一长串小型船只的工作清单。她当然还是很累，但这似乎让她有点振奋；毕竟这是她第一次不用你帮忙就能找到工作。`
+			`	虽然你认为她会很快选好一两份工作，然后回到她的船上，但她却一直在翻阅这些工作，仔细检查每一份工作的信息，似乎这些工作有什么地方让她感到困扰。`
+			`	"怎么了？你在两个不同的工作中艰难地挑选吗？"你问。`
+			`	"这些看起来都很容易，我甚至可以一次接受很多，但问题是他们的工资不是很高。"她从口袋里抓出一些破旧的文件，给你看：那是她贷款的文件。"如果我同意短期贷款，家乡的银行才会给我足够的船款。在你来帮助我之前，我输了两天，如果我不尽快找到一些收入更好的工作，我甚至无法支付利息。"`
+			`	就在你试图想出一个办法来从现有的任务中获得最大的收益时，你感到有人拍了拍你的肩膀，转过身来看到一个海族人站在一对人类夫妇身边。这对夫妇自我介绍说，他们是泽维尔和瓦内萨，和他们的海族朋友纳兰西娅一起来的。"我们无意中听到了你们的谈话，愿意为一份工作支付一点额外的费用。我们是一个团体的一部分，在Allhome组织一个大型节日，庆祝人类和海族之间的友谊，我们刚刚得到一个最后的想法：我们想得到一些夸父的香料。"`
+			`	纳纳奇在他们的谈话中振奋起来。"我肯定能在两个星期内把香料送到<planet>。我不会让你失望的！"`
+			`	"那太好了。"纳兰西娅说。他们告诉纳兰奇，他们不会一起去；他们已经有了去Allhome的交通工具，并且会在这里多呆一会儿，试图为这个活动做宣传。"等你拿完香料后再来Allhome吧。一路平安！"`
 				accept
 	on stopover
 		dialog
-			`A spaceport worker contacted Nanachi shortly before you two landed and made sure the spices were ready to be loaded in her ship. You help the workers and Nanachi make sure everything is in order, and prepare for your trip to Allhome.`
+			`在你们两个着陆前不久，一个太空港的工人联系了纳纳奇，确保香料已经准备好装入她的飞船。你帮助工人和纳纳奇确保一切正常，并准备前往Allhome。`
 	npc accompany save
 		personality escort timid
 		government "Hai"
 		ship "Heavy Shuttle" "Acorn Chaser"
 	on visit
-		dialog `You have reached <planet>, but you haven't finished the mission yet! Either you left Nanachi's ship behind or you haven't visited <stopovers>.`
+		dialog `你已经到达了<planet>，但你还没有完成任务！？要么你把Nanachi的船落下了，要么你还没有去<stopovers>。`
 	on complete
 		conversation
-			`Allhome's docking area shows much more traffic than usual. Many captains here are helping workers open cargo containers full of food, clothes, books, movies and even some mounted animals from human space. You finally meet up with the festival's organizers, who seem very excited to have acquired the exotic condiments, and have invited you two to a bar in the spaceport for a drink.`
+			`Allhome的停靠区显示出比平时多得多的交通。这里的许多船长正在帮助工人打开装满食物、衣服、书籍、电影的货物集装箱，甚至还有一些来自人类空间的骑乘动物。你终于见到了节日的组织者，他们似乎对获得异国的调味品非常兴奋，并邀请你俩去太空港的一个酒吧喝酒。`
 
 
 
 mission "Nanachi 4"
-	name "Protect Nanachi"
-	description "Bring Nanachi's ship to <stopovers>, keeping her safe from a pirate fleet that attacked a convoy heading to Hai space, then head back to <destination> by <date>."
+	name "保护纳纳奇"
+	description "把纳纳奇的飞船带到<stopovers>，保护她不被袭击前往海氏空间的船队的海盗舰队袭击，然后在<destination>前回到<date>。"
 	source "Allhome"
 	stopover "Prime"
 	deadline 17
@@ -1017,45 +1017,45 @@ mission "Nanachi 4"
 		has "Nanachi 3: done"
 	on offer
 		conversation
-			`The bar is just as busy as the docks. Many captains here must have transported something for the festival. "Captain <last>, Captain Nanachi!" shouts Narancia, beckoning the two of you to join her and the others at their table. You learn that they were inspired by the Hai's own March festival, and wanted to bring small parts of human culture to Hai space.`
+			`酒吧和码头一样繁忙。这里的许多船长肯定为节日运送了一些东西。"<last>船长，Nanachi船长！"Narancia喊道，招手让你们两个人加入她和其他人的桌子。你了解到，他们受到海族自己的三月节的启发，想把人类文化的一小部分带到海族的空间。`
 			branch public
 				has "event: hai-human resolution announced"
-			`	"They can't go to our planets and experience it for themselves yet, so we thought about bringing it to them!" Vanessa says.`
+			`	"他们还不能去我们的星球上亲自体验，所以我们想把它带给他们！"瓦妮莎说。`
 				goto return
 			label public
-			`	"It's still quite an expensive ordeal to go to our planets and experience it for themselves, so we thought about bringing it to them!" Vanessa says.`
+			`	"要去我们的星球上亲自体验，还是相当昂贵的折磨，所以我们想到把它带给他们！"瓦妮莎说。`
 			label return
-			`	"It was very hard to get enough sponsors for this, but after years of hard work we even managed to have famous art pieces be brought here, some of which date back to the European Renaissance!" Xavier adds.`
-			`	Afterwards the conversation topic shifts to you as a captain, as you describe your journey after buying your first ship, and how you met Nanachi. You're about to order another drink for the group when a grizzled old man barges into the bar, and starts shouting: "The art convoy has been attacked! The freighter managed to escape but they're stranded on Prime now, and the pirates are still out there, patrolling the route to the wormhole!"`
-			`	Xavier stands up with a shocked expression. "How? We had a Leviathan escorting them!"`
-			`	After catching his breath, the man at the door responds. "The pirates must have been stealing Hai tech from ships going back home. The freighter's captain said they shredded the escort!" Chaos spreads amongst the other captains, and the group sitting with you is in anguish.`
+			`	"要想为此获得足够的赞助是非常困难的，但经过多年的努力，我们甚至设法让著名的艺术品被带到这里，其中一些可以追溯到欧洲文艺复兴时期！"泽维尔补充道。`
+			`	之后，谈话的话题转移到你这个船长身上，你描述了你购买第一艘船后的旅程，以及你是如何遇到纳纳奇的。你正准备为大家再点一杯饮料时，一个灰头土脸的老头闯进了酒吧，开始大喊大叫。"艺术船队遭到了攻击！"。货船成功逃脱，但他们现在被困在擎天柱上，海盗还在外面，在通往虫洞的路线上巡逻！"`
+			`	泽维尔带着震惊的表情站了起来。"怎么会，我们有一艘利维坦护送他们！"`
+			`	喘了口气后，门外的人回应道。"海盗们一定是在偷窃回家的船上的海技术。那艘货船的船长说他们撕碎了护卫队！"混乱在其他船长中蔓延开来，和你坐在一起的那群人陷入苦恼。`
 			choice
-				`	"Are those art pieces really that valuable?"`
-				`	"Can't you just postpone the festival until the pirates are taken care of?"`
+				`	"那些艺术品真的那么值钱吗？"`
+				`	"你就不能把庆典推迟到海盗被解决掉吗？"`
 			branch public2
 				has "event: hai-human resolution announced"
-			`	Xavier collapses back to the table, holding his head in both hands. "Those paintings and sculptures were our main attraction! They're worth tens of billions! It'll take months before the Navy ever notices the pirates there and makes it safe for the convoy to come here. The art exhibition is scheduled three weeks from now!"`
-			`	As they try to figure out what to do, Nanachi speaks up. "I'll go there. I pilot a human ship and if we just need to transfer cargo from one ship to the other, I could get out of there quickly. Nobody would notice that a Hai ever went there."`
+			`	泽维尔倒在桌子上，两手抱头。"那些画作和雕塑是我们的主要景点!它们价值几百亿!要花几个月的时间，海军才会注意到那里的海盗，并使船队安全地来到这里。艺术展览定在三周后！"`
+			`	当他们试图想办法的时候，纳纳奇开口了。"我去那里。我驾驶一艘人类的船，如果我们只是需要把货物从一艘船转移到另一艘船，我可以迅速离开那里。没有人会注意到一个海曾经去过那里。"`
 				goto return2
 			label public2
-			`	Xavier collapses back to the table, holding his head in both hands. "Those paintings and sculptures were our main attraction! They're worth tens of billions! Even if we contact the Navy it will take weeks before they can mobilize to hunt them down and guarantee that they've made it safe for the convoy to come here, and the hazard pay to request a carrier escort is frankly ridiculous. The art exhibition is scheduled for only three weeks from now!"`
-			`	Some of them eye you as they try to figure out what to do, but Nanachi speaks up before any well-formed ideas are reached, "I'll go there. I pilot a human ship and if we just need to transfer cargo from one ship to the other, I could get out of there quickly. It's not an impressive ship either, so it's much more likely to go unnoticed or uncared for."`
+			`	泽维尔倒在桌子上，两手抱头。"那些画和雕塑是我们的主要景点！"。它们价值几百亿!即使我们与海军联系，他们也需要几周时间才能动员起来追捕他们，并保证他们让车队安全地来到这里，而要求航母护航的危险报酬坦率地说是很可笑的。艺术展览定在离现在只有三周的时间！"`
+			`	他们中的一些人目不转睛地看着你，试图想出办法，但纳纳奇在达成任何完善的想法之前就开口了，"我去那里。我驾驶一艘人类的船，如果我们只是需要把货物从一艘船转移到另一艘船，我可以迅速离开那里。这也不是一艘令人印象深刻的船，所以它更有可能不被注意或不被关心。"`
 			label return2
-			`	"Are you insane?" Vanessa says, "If they managed to take down that Leviathan, you wouldn't last a second! Besides, our convoy was extremely fast. If even they were caught, your chances of outrunning the pirates are next to nothing!"`
-			`	"Captain <last>," Nanachi turns to you. "I know you already helped me way more than anyone would ever be willing to, and I'm really grateful for that, but would you be willing to help me one last time, to get to that planet, and travel back here?"`
-			`	It's certain that for a pirate fleet to take down a Leviathan so easily they must be incredibly powerful, and this could be extremely dangerous. You're sure that if Nanachi tries to get to Prime by herself she'll just get herself killed.`
+			`	"你疯了吗？"瓦妮莎说，"如果他们设法打下那艘利维坦，你一秒钟都坚持不了！"。此外，我们的车队速度极快。如果连他们都被抓住了，你跑过海盗的机会几乎为零！"`
+			`	"船长<last>，"纳纳奇转向你。"我知道你已经帮了我很多，比任何人都要多，我真的很感激你，但你愿意最后再帮我一次，让我去那个星球，然后回到这里吗？"`
+			`	可以肯定的是，对于一支海盗舰队来说，能够如此轻易地拿下利维坦，他们一定是非常强大的，而这可能是非常危险的。你肯定，如果纳纳奇试图自己去找总理，她只会让自己死掉。`
 			choice
-				`	"Alright, I'll make sure we reach Prime and get back here safely."`
-				`	"No, I agreed to help you find and deal with some simple jobs, but I can't risk fighting such a fleet by myself."`
+				`	"好吧，我会确保我们到达擎天柱并安全返回这里。"`
+				`	"不，我同意帮你寻找和处理一些简单的工作，但我不能冒险独自与这样一支舰队作战。"`
 					decline
-			`	She thanks you profusely, and promises that she'll pay you for everything as soon as she can. The organizers are a bit hesitant, but seeing as no other captain here has decided to offer them help, they agree to let the two of you go to Prime and retrieve the cargo.`
-			`	Vanessa grabs ahold of Nanachi's arm before she can run off to the spaceport. "Just remember, if you can't get back here by <day>, don't worry about it; we'll understand. I'm sure we can come up with some alternative to have the festival without our main attractions."`
+			`	她深深地感谢你，并承诺她会尽快为你支付一切费用。组织者有点犹豫，但看到这里没有其他船长决定向他们提供帮助，他们同意让你们两个人去总理府取回货物。`
+			`	瓦妮莎在纳纳奇跑去太空港之前抓住了她的手臂。"只要记住，如果你不能在<day>前回到这里，不要担心，我们会理解的。我相信我们可以想出一些替代方案，在没有我们主要景点的情况下举办节日。"`
 			branch public3
 				has "event: hai-human resolution announced"
-			`	As you're leaving the bar, Xavier pulls you aside, speaking very quietly, "<last>, I know you're just trying to help this girl, but don't get killed over this. If you run into those pirates don't try to fight them, just rush to Prime."`
+			`	当你要离开酒吧时，泽维尔把你拉到一边，非常小声地说："<last>，我知道你只是想帮助这个女孩，但不要因为这个而被杀。如果你遇到那些海盗，不要试图与他们战斗，只管冲向总理。"`
 				accept
 			label public3
-			`	As you're leaving the bar, Xavier pulls you aside, speaking very quietly. "<last>, I know you're no stranger to combat and danger, but don't get killed over this. The girl won't know what's sensible for her if it gets hairy, and she shouldn't have to get killed over this. If you run into those pirates don't try to fight them, just rush her through. I have faith in a person such as yourself."`
+			`	当你要离开酒吧时，泽维尔把你拉到一边，非常小声地说话。"<last>，我知道你对战斗和危险并不陌生，但不要因为这个而被杀。如果事情闹大了，那个女孩不会知道什么是明智的，她也不应该因为这个而被杀。如果你遇到那些海盗，不要试图与他们战斗，只要让她通过。我对你这样的人有信心。"`
 				accept
 	npc
 		personality nemesis waiting
@@ -1070,16 +1070,16 @@ mission "Nanachi 4"
 		government "Hai (Wormhole Access)"
 		ship "Heavy Shuttle" "Acorn Chaser"
 	on visit
-		dialog `You have reached <planet>, but you haven't finished the mission yet! Either you left Nanachi's ship behind or you haven't visited <stopovers>.`
+		dialog `你已经到达了<planet>，但你还没有完成任务！？要么你把Nanachi的船落下了，要么你还没有去<stopovers>。`
 	on stopover
 		conversation
-			`The convoy's captain messaged you as you entered the system and told you to land on a remote, hidden area of Prime, where they have already prepared for all the cargo to be transferred. They refuel your ships and urge you two to go back. "Captain Nanachi can stay hidden with us here if you need supplies or anything from the outfitter, but please don't take too long."`
+			`当你进入系统时，护卫队的队长给你发了消息，告诉你在Prime的一个偏远的隐蔽区域降落，他们已经准备好了所有货物的转运。他们给你们的飞船加油，并催促你们两个回去。"纳纳奇船长可以和我们一起隐藏在这里，如果你需要补给或来自舾装厂的任何东西，但请不要花太长时间。"`
 	on complete
 		event "Nanachi: payment" 180
-		log "Minor People" "Nanachi" `A young Hai merchant captain who struggled in the beginning of her career. Her fortune turned when she was able, against difficult circumstances, to deliver a valuable collection of human arts on time to the organizers of a Hai festival.`
+		log "Minor People" "Nanachi" `一个年轻的海商船长，在事业的初期挣扎着。当她能够在困难的情况下，按时向海族节日的组织者运送一批宝贵的人类艺术藏品时，她的命运发生了变化。`
 		conversation
-			`Landing back on Allhome, the festival group gives you and Nanachi a warm hug. "We sold tens of thousands of tickets for the festival by promising to host a great art exhibition with pieces from all over human space. Without them it'd be a complete failure, and we'd be in serious trouble with our sponsors," Narancia explains.`
-			`	As the cargo is rushed to the exhibition site, Nanachi shows you the chip she got as payment, and the balance of her bank account: this last payment allowed her to fully pay off her loan. "Captain," she speaks with some difficulty, and tries to hide her face, as if to wipe away some tears. "I'll never be able to thank you properly, if not for you I'd still be lost in that spaceport, and would eventually have to go back to my mining job. I'll work hard now; I'll save up and pay you for everything!" She hugs you and bows to you in a way you'd see in movies, as if trying to imitate the gesture. You two finally say goodbye, and head back to your ships.`
+			`回到Allhome后，节日组给了你和Nanachi一个热情的拥抱。"我们通过承诺举办一个伟大的艺术展览，其中有来自人类空间各地的作品，卖出了数以万计的节日门票。如果没有他们，这将是一个彻底的失败，我们会在赞助商那里遇到严重的麻烦，"纳兰西亚解释说。`
+			`	当货物被赶到展览现场时，纳兰奇向你展示了她得到的作为付款的芯片，以及她银行账户的余额：这最后一笔付款让她完全还清了贷款。"船长，"她说得有些困难，并试图掩饰她的脸，似乎要擦掉一些眼泪。"我永远无法正确地感谢你，如果不是你，我还会迷失在那个太空港，最终不得不回到我的采矿工作。我现在会努力工作；我会存钱，把一切都付给你！"她抱着你，以你在电影中看到的方式向你鞠躬，似乎想模仿这种姿态。你们两个终于说了再见，然后回到了你们的船上。`
 
 event "Nanachi: payment"
 
@@ -1096,7 +1096,7 @@ mission "Nanachi: Payment"
 		payment 700000
 		event "Nanachi: Update" 720
 		conversation
-			`Shortly after you land, you get a message from Nanachi, the young Hai pilot who you helped start out. "Dear Captain <last>, I hope you're doing well! As I promised, ever since we parted ways, I've been working towards getting enough money to pay you for being so kind to help me. I've sent you <payment>. I'm deeply grateful to you for helping make my dream come true."`
+			`在你们着陆后不久，你们收到了来自纳纳奇的信息，他是那个你们帮助起步的年轻海族飞行员。"亲爱的船长<last>，我希望你过得很好!正如我所承诺的，自从我们分道扬镳后，我一直在努力获得足够的钱来支付你对我的帮助。我已经给你发了<payment>。我深深感谢你帮助我实现了梦想。"`
 				decline
 
 event "Nanachi: Update"
@@ -1114,20 +1114,20 @@ mission "Nanachi Meeting"
 	on offer
 		outfit "Shield Beetle Pendant"
 		conversation
-			`After you leave your ship and start making your way through the docking area, you notice a Hai running towards you and waving. As they get closer, you realize that it's Nanachi, the Hai pilot who you helped out years ago.`
-			`	"I was just about to go back to my crew when I saw you coming out of your ship. I know a nice snack bar here, let's go there!" Before you can even say hello, she's dragged you to the bar, and ordered some drinks for the two of you. She tells you about her last few years as a captain. She has long since sold her old ship, and now pilots a Geocoris, transporting large amounts of cargo across Hai space. You also tell her about how your life has been ever since you last met, of your adventures and how far you've come. You keep swapping stories for hours, until the bar is ready to close.`
-			`	You thank her for the drinks, and get ready to say your goodbyes.`
-			`	"Oh wait, before you go Captain, let me give you something," she says, right as you're about to head to your ship. She grabs a small pendant from her pocket.`
+			`在你离开你的船并开始在码头区走动后，你注意到一个海朝你跑来并挥手。随着他们越来越近，你意识到这是纳纳奇，多年前你帮助过的那个海族飞行员。`
+			`	"当我看到你从你的船上出来时，我正准备回到我的船员那里去。我知道这里有一家不错的小吃店，我们去那里吧！"你还没来得及打招呼，她就把你拉到了酒吧，并为你们俩点了一些饮料。她向你讲述了她过去几年作为船长的经历。她早已卖掉了她的旧船，现在驾驶着一艘Geocoris，在海空间运输大量的货物。你也告诉她，自从你们上次见面后，你的生活如何，你的冒险和你走了多远。你们的故事一直持续了几个小时，直到酒吧准备关门。`
+			`	你感谢她的饮料，并准备向她道别。`
+			`	"哦，等等，在你走之前，船长，让我给你一些东西，"她说，就在你要去你的船上时。她从口袋里抓出一个小吊坠。`
 			scene `outfit/crystal pendant`
-			`	"Back home in Giverstone, when I had some free time from the mining works, I took a hobby of sculpting some small stones into ship miniatures. I thought it'd be nice to make one for you, in case I ever saw you again. I made it from the same stones we use as good luck charms on our ships." She gives you the pendant, which has been sculpted into a Hai Shield Beetle. It is extremely well made, with different surface textures representing the different parts of the Shield Beetle. "I wanted it to be something to make your travels easier, the way you helped with starting mine. Thanks again, Captain!" You two part ways, and head back to your ships.`
+			`	"在吉弗斯通的家里，当我从采矿工程中获得一些空闲时间时，我有一个爱好，就是把一些小石头雕刻成船的迷你模型。我想，如果我再见到你，为你做一个也不错。我用我们船上用作吉祥物的石头做的。"她把吊坠给你，它被雕刻成一只海盾甲虫。它做得非常好，不同的表面纹理代表了盾甲虫的不同部分。"我想让它成为让你的旅行更容易的东西，就像你帮助开始我的旅行一样。再次感谢你，队长！"你们俩分道扬镳，回到了自己的船上。`
 				decline
 
 
 
 mission "Strider Alt Start"
 	landing
-	name "New Unfettered ships"
-	description "Ambassador Sayari has informed the council of elders of the development of the Solifuge. The council is interested in meeting with you on <destination> to hear more."
+	name "新的不受约束的船只"
+	description "萨亚里大使已经向长老会通报了太阳神号的开发情况。理事会有兴趣在<destination>上与你会面，以听取更多信息。"
 	source
 		government "Hai"
 		not planet "Hai-home"
@@ -1141,7 +1141,7 @@ mission "Strider Alt Start"
 			has "Wanderers Solifuge Recon 2: done"
 			has "Wanderers Pond Strider Recon 2: done"
 	on offer
-		dialog `After you finish landing, you're approached by a Hai in a formal uniform. "Greetings, Captain <last>. Ambassador Sayari has sent word to the council of elders that our Unfettered brethren have created a new ship of great strength. The council has requested your presence on <planet>; Sayari said you have been in combat with these ships, and the elders are interested in your expertise."`
+		dialog `在你完成着陆后，一个穿着正式制服的海员走到你面前。"你好，船长<last>。萨亚里大使向长老会传话说，我们的不受约束的兄弟们已经创造了一艘实力强大的新船。理事会要求你到<planet>来；萨亚里说你曾与这些飞船作战，长老们对你的专业知识感兴趣。"`
 	on complete
 		conversation "solifuge conversation"
 
@@ -1149,8 +1149,8 @@ mission "Strider Alt Start"
 
 mission "Strider 0"
 	landing
-	name "Hull Repair Technology"
-	description "The Hai are working on a drone carrier to counter the Unfettered Solifuge, but the creator of the ship is still developing hull repair to make it more effective in combat. Visit <planet> to help the Hai with this technology when you are able."
+	name "船体修复技术"
+	description "海族人正在研究无人机航母，以对抗不受约束的索利弗格，但该船的创造者仍在开发船体维修，以使其在战斗中更有效。当你有能力时，请访问<planet>以帮助海族人掌握这项技术。"
 	destination "Hai-home"
 	clearance
 	to offer
@@ -1166,8 +1166,8 @@ mission "Strider 0"
 
 mission "Strider 1"
 	landing
-	name "Hull Repair Technology"
-	description "The Hai are working on a drone carrier to counter the Unfettered Solifuge, but the creator of the ship is still developing hull repair to make it more effective in combat. Travel to <planet> to meet the delegation tasked with negotiating for this technology."
+	name "船体修复技术"
+	description "海族正在研究无人机航母，以对抗不受约束的太阳神，但该船的创造者仍在开发船体维修，使其在战斗中更有效。前往<planet>，会见负责谈判这项技术的代表团。"
 	source "Hai-home"
 	destination "Allhome"
 	to offer
@@ -1184,34 +1184,34 @@ mission "Strider 1"
 			branch "know remnant"
 				has "license: Remnant"
 			
-			`You've returned to <origin>, but you don't have access to any hull repair technology. Explore the galaxy and earn the trust of an alien faction that has hull repair technology before returning.`
+			`你已经回到了<origin>，但你没有机会获得任何船体修复技术。探索银河系，在返回之前赢得拥有船体修复技术的外星派系的信任。`
 				defer
 			
 			label "know both"
-			`You've returned to <origin> to help the Hai develop hull repair technology. Osen's father asked if you knew of any aliens with hull repair technology, and you have met the Coalition, who have outfits capable of repairing hulls, and the Remnant, who have ships that repair themselves. Would you like to tell the elders about one of these groups?`
+			`你已经回到<origin>，帮助海族开发船体修复技术。奥森的父亲问你是否知道有任何拥有船体修复技术的外星人，你已经见到了联盟，他们有能够修复船体的装备，还有残余者，他们的飞船能够自我修复。你愿意向长老们介绍一下这些团体中的一个吗？`
 			choice
-				`	(Yes.)`
+				`	(是的。)`
 					goto start
-				`	(Not right now.)`
+				`	(现在不行。)`
 					defer
 			
 			label "know coalition"
-			`You've returned to <origin> to help the Hai develop hull repair technology. Osen's father asked if you knew of any aliens with hull repair technology, and you have met the Coalition, who have outfits capable of repairing hulls. Would you like to tell the elders about the Coalition?`
+			`你已经回到了<origin>，帮助海族开发船体修复技术。奥森的父亲问你是否知道有任何拥有船体修复技术的外星人，你已经遇到了联盟，他们有能够修复船体的装备。你愿意向长老们介绍一下联盟的情况吗？`
 			choice
-				`	(Yes.)`
+				`	(是的。)`
 					goto start
-				`	(Not right now.)`
+				`	(现在不行。)`
 					defer
 			
 			label "know remnant"
-			`You've returned to <origin> to help the Hai develop hull repair technology. Osen's father asked if you knew of any aliens with hull repair technology, and you have met the Remnant, who have ships that repair themselves. Would you like to tell the elders about the Remnant?`
+			`你已经回到了<origin>，帮助海族开发船体修复技术。奥森的父亲问你是否知道有任何拥有船体修复技术的外星人，你已经遇到了残余者，他们的船可以自我修复。你愿意告诉长老们关于余党的情况吗？`
 			choice
-				`	(Yes.)`
-				`	(Not right now.)`
+				`	(是的。)`
+				`	(现在不行。)`
 					defer
 			
 			label start
-			`	You inform the elders that you have discovered a group that could help them with creating hull repair technology, and they invite you to the council chamber. "Greetings, Captain <last>," one of the elders says to you upon entering the chamber. "What news do you have to bring us on your search for hull repair technology?"`
+			`	你告诉长老们，你发现了一个可以帮助他们创造船体修复技术的团体，他们邀请你去议事厅。"你好，船长<last>，"其中一位长老在进入会议厅后对你说。"你在寻找船体修复技术方面有什么消息要带给我们？"`
 			branch "tell both"
 				has "license: Remnant"
 				has "license: Coalition"
@@ -1224,216 +1224,216 @@ mission "Strider 1"
 			
 			label "tell both"
 			choice
-				`	"There is a group of three alien species far from here known as the Coalition that have outfits able to repair a ship in flight."`
+				`	"有一群离这里很远的三个外星物种，被称为联盟，他们已经有了能够修复一艘飞行中的飞船的装备。"`
 					goto coalition
-				`	"There is a group of humans far from here known as the Remnant who have ships that can repair themselves."`
+				`	"有一群离这里很远的人类，被称为 "遗民"，他们有能够自我修复的船只。"`
 					goto remnant
 			
 			label "tell remnant"
 			choice
-				`	"There is a group of humans far from here known as the Remnant who have ships that can repair themselves."`
+				`	"有一群离这里很远的人类，被称为 "遗民"，他们有能够自我修复的船只。"`
 					goto remnant
 			
 			label "tell coalition"
 			choice
-				`	"There is a group of three alien species far from here known as the Coalition that have outfits able to repair a ship in flight."`
+				`	"有一群离这里很远的三个外星物种，被称为联盟，他们已经有了能够修复一艘飞行中的飞船的装备。"`
 					goto coalition
 			
 			label remnant
 			action
 				set "strider: remnant"
-			`	"A group of humans with hull repair technology?" one of the elders asks with a puzzled look. "I am surprised that we have not heard of these humans before. Are they well known among the Republic?"`
-			`	"No," you explain. "They are a reclusive group unknown to most of humanity. They likely wouldn't take kindly to being visited by aliens."`
+			`	"一群拥有船体修复技术的人类？"其中一位长老带着疑惑的眼神问道。"我很惊讶，我们以前没有听说过这些人类。他们在共和国中很出名吗？"`
+			`	"不，"你解释道。"他们是一个不为大多数人类所知的隐居群体。他们很可能不会对被外星人访问感到高兴。"`
 				goto end
 			
 			label coalition
 			action
 				set "strider: coalition"
-			`	"A group of three aliens?" one of the elders asks with a puzzled look. "It is not often in the galaxy that such groups appear."`
+			`	"一个由三个外星人组成的团体？"其中一个长老带着疑惑的眼神问道。"在银河系，这样的团体并不经常出现。"`
 			
 			label end
-			`	"We will put together a delegation for you to transport to these people you mention. They will be waiting for you on <destination>," another elder says. "You may lead them to make contact with this group how you see fit. We trust that you will be capable in doing so."`
+			`	"我们会组建一个代表团，让你运送给你提到的这些人。他们会在<destination>上等你。"另一位长老说。"你可以带领他们以你认为合适的方式与这个团体进行接触。我们相信你会有能力这样做。"`
 				accept
 
 
 
 mission "Strider: Remnant 1"
 	landing
-	name "Contact the Remnant"
-	description "Take a message from the Hai to <stopovers> to set up a meeting between the Remnant and the Hai, then return to <destination>."
+	name "联系残余的人"
+	description "带着海族的信息到<stopovers>，安排余民和海族的会面，然后回到<destination>。"
 	source "Allhome"
 	stopover "Viminal"
 	to offer
 		has "strider: remnant"
 	on offer
 		conversation
-			`You find the Hai delegation meant to travel to the Remnant to negotiate for the hull repair technology waiting for you in the spaceport. The leader of the delegation introduces herself as Ambassador Yashili. "I heard that we will be traveling a great distance across the galaxy. May we have a safe journey."`
-			`	The delegation begins making their way to your ship, but you stop them.`
+			`你发现海族代表团打算前往遗族谈判，以获得船体修复技术，并在太空港等待你。代表团的领队自我介绍说是亚希里大使。"我听说我们将在银河系中长途跋涉。愿我们有一个安全的旅程。"`
+			`	代表团开始走向你的飞船，但你阻止了他们。`
 			choice
-				`	"Wait a minute! This group doesn't react well to strangers. How about I set up a meeting first?"`
-				`	"Not so fast. The Remnant value their secrecy, and I haven't spoken to them about this situation. Let me set up a meeting first."`
-			`	The Hai look at each other and chatter quietly among themselves, then Ambassador Yashili speaks up. "You know this group, and how to make the best impression on them." She pauses to whisper to another Hai, who runs off. The Ambassador turns back to you. "I will provide you with a letter that will include a brief introduction of the Hai, an explanation of why we would like to meet them, and an invitation to establish diplomatic relations."`
-			`	Moments later, the Hai who ran off returns carrying a sealed envelope and hands it to the Ambassador. She turns to you. "Here it is. Please take this to these reclusive humans for us. We will be waiting here for your return."`
-			`	"Will do," you respond after taking the envelope. The delegation says its goodbyes, wishing you safe travels, before leaving.`
+				`	"等一下!这群人对陌生人的反应不大。我先安排一次会面如何？"`
+				`	"没那么快。遗族人重视他们的保密工作，我还没有和他们谈过这个情况。让我先安排一次会面。"`
+			`	海族人互相看了看，彼此间小声地聊了起来，然后雅士利大使开口了。"你了解这群人，以及如何给他们留下最好的印象。"她停顿了一下，对另一个海族低声说，后者跑开了。大使回头对你说。"我将为你提供一封信，其中包括对海族的简要介绍，解释我们为什么要见他们，以及建立外交关系的邀请。"`
+			`	几分钟后，跑开的海族人拿着一个密封的信封回来，递给大使。她转身对你说。"就在这里。请替我们把这个带给这些隐居的人类。我们将在这里等你回来。"`
+			`	"会的。"你接过信封后回答。代表团在离开前向你告别，祝你一路顺风。`
 				accept
 	on stopover
 		conversation
-			`Looking around the spaceport, you are not sure who to talk to about such a diplomatic request. Eventually, you go to the starport information desk to ask them. You hand the letter to the person at the desk, and after reading it, they invite you to wait in the cafeteria while they look for someone who can fulfill the request from the Hai.`
-			`	After an hour of watching Remnant eating and gesturing to each other, an androgynous Remnant approaches your table. You try to guess what age they are, but while they do not seem young, neither do they seem particularly old.`
-			`	"Greetings, Captain <first>," The stranger signs. "My name is Rayn, and my colleague said you had a request from another faction. It is my understanding that they desire the means to repair the hull of a ship in flight. Is this correct?"`
+			`环顾太空港，你不确定该和谁谈这样一个外交请求。最终，你去了星港信息台问他们。你把信交给服务台的人，看完后，他们邀请你在食堂等待，同时寻找能满足海的要求的人。`
+			`	经过一个小时的观察，一个雌雄同体的留守儿童走到你的桌前，互相打手势。你试着猜测他们的年龄，虽然他们看起来并不年轻，但也不显得特别老。`
+			`	"你好，<first>号船长。"陌生人示意。"我叫雷恩，我的同事说你有一个来自另一派系的请求。据我所知，他们希望有办法修复飞行中的船体。这是正确的吗？"`
 			choice
-				`	"Yes. The Hai are hoping to be able to improve a new carrier they are developing to repair its drones."`
-				`	"Yes. The Hai want to be able to repair the hulls of their ships to gain an edge against their enemies."`
-			`	"So the Hai want to improve their military technology? I presume this is in response to their long-standing war against the Unfettered?"`
+				`	"是的，海族人希望能够改进他们正在开发的新航母，以修复其无人机。"`
+				`	"是的，海族希望能够修复他们的船体，以获得对抗敌人的优势。"`
+			`	"所以海族人想改进他们的军事技术？我想这是为了应对他们与不羁人的长期战争？"`
 			choice
-				`	"Yes, although they don't think of it as such."`
-				`	"It isn't a war; it's a defensive action."`
-			`	Rayn looks amused. "It does not matter what they call it. A war by any name is just as bloody. But that aside, how do they know about us to make such a request?"`
+				`	"是的，尽管他们并不这样认为。"`
+				`	"这不是一场战争，这是一种防御性行动。"`
+			`	雷恩看起来很高兴。"他们怎么称呼它并不重要。任何名字的战争都一样血腥。但撇开这一点不谈，他们怎么知道我们的情况而提出这样的要求？"`
 			choice
-				`	"They were looking for someone who had repair technology, and I said I could find someone."`
-				`	"They asked if I knew anyone who had in-flight repair technology, and I said I knew a group of human researchers."`
-			`	"So they do not actually know about us. That is good." Rayn looks thoughtful and closes their eyes for a moment, then continues. "Pick up the Hai diplomats, but do not tell them where you are going. Take them to these coordinates on Covert in the Gienah system. It is a location in an uninhabited area where we will be able to talk. We will be waiting with something that might be able to help them - if they can meet our price."`
+				`	"他们在寻找拥有维修技术的人，而我说我能找到人。"`
+				`	"他们问我是否知道谁有飞行中的修复技术，我说我知道一群人类研究人员。"`
+			`	"所以他们实际上并不了解我们。这很好。"雷恩看起来若有所思，闭上他们的眼睛一会儿，然后继续。"接上海族外交官，但不要告诉他们你要去哪里。带他们去吉纳系统中盖特的这些坐标。这是一个无人区的位置，在那里我们将能够进行交谈。我们将带着可能能够帮助他们的东西在那里等待--如果他们能够满足我们的价格。"`
 
 
 
 mission "Strider: Remnant 2"
 	landing
-	name "Meet with the Remnant"
-	description "Transport Ambassador Yashili and her delegation to <destination> to attempt to obtain hull repair technology from the Remnant."
+	name "与遗族会面"
+	description "将Yashili大使和她的代表团运送到<destination>，试图从遗民那里获得船体修复技术。"
 	source "Allhome"
 	destination "Covert"
 	infiltrating
 	passengers 3
-	blocked "The Hai delegation to meet the Remnant requires 3 bunks for the trip, but you don't have enough available space! Return when you have room for the delegation."
+	blocked "海族代表团去见遗族需要3个铺位，但你没有足够的可用空间！你可以在有空间的情况下返回。当你有足够的空间给代表团时再回来。"
 	to offer
 		has "Strider: Remnant 1: done"
 	on offer
 		conversation
-			`You message Ambassador Yashili and tell her that you have arranged a meeting with the Remnant. "This is good news. We will be meeting with you in the spaceport shortly."`
-			`	Some time later the delegation arrives at your ship. "Before we leave, is there anything we need to know about this group before we meet them?" Yashili asks.`
+			`你给Yashili大使发信息，告诉她你已经安排了与遗族的会面。"这是个好消息。我们很快就会在太空港与你见面。"`
+			`	一段时间后，代表团到达了你的飞船。"在我们离开之前，在我们与他们见面之前，有什么关于这群人的事情需要了解吗？"雅士利问道。`
 			choice
-				`	"The Remnant are a group of humans, so there isn't anything special you should need to know."`
+				`	"余党是一群人类，所以没有什么特别的事情你应该知道。"`
 					goto end
-				`	"The Remnant agreed to meet you on <planet>, a dangerous pirate world, so don't stray too far from the ship."`
-			`	"Oh," Yashili exclaims with a surprised look. "Are these Remnant also dangerous people?"`
-			`	"No, they're friendly people," you reassure her. "They just don't want to meet in their own territory."`
+				`	"Remnant同意在<planet>上与你见面，这是一个危险的海盗世界，所以不要离船太远。"`
+			`	"哦，"雅士利以惊讶的表情感叹道。"这些遗民也是危险的人吗？"`
+			`	"不，他们是友好的人，"你向她保证。"他们只是不想在自己的领土上见面。"`
 			label end
-			`	The delegation thanks you for this information and boards your ship. You plot a course for <destination>. Hopefully, the Remnant will be willing to share with an alien species they just met.`
+			`	代表团感谢你提供的这些信息，并登上了你的飞船。你制定了一条前往<destination>的航线。希望遗族会愿意与他们刚认识的外星物种分享。`
 				accept
 	on visit
-		dialog `It appears that the delegation is bunked on escorts that have not arrived in this system yet. Take off and wait for them.`
+		dialog `看来代表团是在还没有到达这个系统的护卫队上铺的。起飞并等待他们。`
 
 
 
 mission "Strider: Remnant 3"
 	landing
-	name "Technology Obtained"
-	description "The delegation has successfully obtained hull repair technology from the Remnant. Return to <destination> so that the Hai can begin developing this technology for their new ship."
+	name "获得的技术"
+	description "代表团已经成功地从遗民那里获得了船体修复技术。返回<destination>，以便海族人可以开始为他们的新船开发这项技术。"
 	source "Covert"
 	destination "Hai-home"
 	clearance
 	passengers 3
 	cargo "repair technology" 12
-	blocked "You need <capacity> in order to return the Hai delegation and the repair technology back to <planet>."
+	blocked "你需要<capacity>，以便将海族代表团和修复技术送回<planet>。"
 	to offer
 		has "Strider: Remnant 2: done"
 	on offer
 		log `Helped the Hai get in contact with the Remnant in order to learn how to create in-flight hull repair technology. The Hai obtained a copy of the Remnant's research on Korath systems cores, along with a number of samples.`
 		conversation
-			`At the designated coordinates, there is a small encampment set up that looks vaguely reminiscent of a desert trader outpost. Aside from a few camels tied near a water trough, the place looks abandoned. When you touch down next to it, the delegation steps out cautiously. "Is this the right place?" one of the Hai asks somewhat worriedly.`
-			`	Before you can answer, a number of Remnant emerge from the tents, and you notice that Rayn is among them. "Welcome to our encampment, representatives," Rayn chants. "Captain <first> brought us your missive, and we asked them to bring you here. Would you care to come inside?" They gesture toward the largest of the tents. While obviously surprised, Ambassador Yashili acquiesces, and the Hai step inside. Rayn gestures for you to follow. The remaining Remnant begin patrolling around the camp.`
-			`	Rayn offers food and water to the Hai and then takes a seat on a cushion on the ground. The Hai politely refuse the food before joining Rayn on the cushions. Ambassador Yashili begins. "We come representing the Hai people, who live far from here. Some of our brothers and sisters have turned violent toward us, and have recently created a new ship that may cause us trouble. We have created a ship of our own in retaliation, but we are still in need of technology capable of repairing the hull of a ship while in flight so that we may have an advantage. Captain <last> has told us that you have such technology, with ship hulls that repair themselves."`
-			`	"It is true that our ships self repair," Rayn responds. "But this is not technology that we are able to share. The property is intrinsic to the metals that we build our ships with - metals which are in low supply." Yashili looks concerned with this development; perhaps this journey was a worthless one.`
+			`在指定的坐标上，有一个小营地，看起来隐约让人联想到沙漠中的商人前哨。除了几只骆驼拴在一个水槽附近，这个地方看起来被遗弃了。当你在它旁边着陆时，代表团小心翼翼地走出来。"是这个地方吗？"一个海族人有些担心地问道。`
+			`	在你回答之前，一些遗民从帐篷里走出来，你注意到雷恩也在其中。"欢迎来到我们的营地，代表们，"雷恩吟唱道。"船长<first>给我们带来了你的信，我们要求他们把你带到这里。你愿意进来吗？"他们向最大的帐篷做了个手势。虽然明显感到惊讶，但亚希里大使还是默许了，海族人走了进去。雷恩打手势让你跟上。剩下的残余人员开始在营地周围巡逻。`
+			`	雷恩向海族提供食物和水，然后在地上的一个垫子上坐下。海族人礼貌地拒绝了食物，然后和雷恩一起坐在垫子上。亚希里大使开始了。"我们代表海族而来，他们住在远离这里的地方。我们的一些兄弟姐妹对我们变得很暴力，最近还创造了一艘新的飞船，可能会给我们带来麻烦。我们已经创造了一艘我们自己的飞船作为报复，但我们仍然需要能够在飞行中修复船体的技术，这样我们才可能有优势。<last>船长告诉我们，你们有这样的技术，船体可以自我修复。"`
+			`	"我们的飞船确实可以自我修复，"雷恩回应道。"但这不是我们能够分享的技术。这种特性是我们建造船只的金属所固有的--这些金属的供应量很低。"雅士利看起来对这一发展感到担忧；也许这次旅行是一次毫无价值的旅行。`
 			choice
-				`	"So is there no way that you can help them?"`
-				`	"There must be something we could do."`
-			`	"Do not fear, for we have something else. For many decades, we have been fighting and plundering Korath raiders from the Core. Their ships contain outfits capable of hull repair through the use of small robots. We have been unable to reproduce these robots with ease, but we may be able to provide for you our research and a number of samples that you may use."`
-			`	"We too have encountered these Korath," Yashili says in response. "Although, we had not taken their technology. This may be of great use to us."`
-			`	"We would like to ask something in trade, however: a copy of your astronomical records. The history of the galaxy itself is a mystery to us, and we would like to learn more about it."`
-			`	Ambassador Yashili looks thoughtful, then nods. "Historical astronomical data is scientifically valuable, as is learning how to repair our ships in flight. This seems a fair trade. We should be able to have the data for you shortly. We only need use of Captain <first>'s ship to access the hyperspace communication relays." Yashili nods to another member of the delegation, who then scurries off to your ship.`
-			`	"I imagine there will be a large amount of data to transfer," Rayn says. "Let us pass the time."`
-			`	Ambassador Yashili and Rayn settle into diplomatic small talk. The conversational dance between a group of professional diplomats and a secretive group that are currently playing the role of nomadic desert traders is an odd one.`
-			`	"While we wait, I am curious how you met these Remnant, Captain," Yashili says.`
+				`	"那么，你就没有办法帮助他们吗？"`
+				`	"一定有我们能做的事情。"`
+			`	"不要害怕，因为我们还有别的办法。几十年来，我们一直在与来自核心区的Korath突袭者作战和掠夺。他们的船只含有能够通过使用小型机器人来修复船体的装备。我们无法轻松地复制这些机器人，但我们也许能为你提供我们的研究和一些你可以使用的样本。"`
+			`	"我们也遇到过这些Korath，"Yashili回应说。"虽然，我们没有采取他们的技术。这可能对我们有很大的用处。"`
+			`	"不过，我们想要求一些交易：你们的天文记录的副本。银河系的历史本身对我们来说是个谜，我们想了解更多。"`
+			`	雅士利大使看起来若有所思，然后点点头。"历史上的天文数据在科学上是有价值的，学习如何在飞行中修复我们的飞船也是如此。这似乎是一个公平的交易。我们应该很快就能为你准备好这些数据。我们只需要使用<first>号船长的飞船来访问超空间通信中继站。"雅士利向代表团的另一名成员点了点头，后者随即窜到了你的船上。`
+			`	"我想象会有大量的数据需要传输，"雷恩说。"让我们来打发时间。"`
+			`	亚希里大使和雷恩进入了外交上的闲谈。一群专业的外交官和一个目前正在扮演沙漠游牧商人角色的秘密团体之间的对话舞蹈是一个奇怪的现象。`
+			`	"在我们等待的时候，我很好奇你是如何遇到这些遗民的，船长，"雅士利说。`
 			choice
-				`	"I spend much of my time exploring the galaxy. Sometimes you stumble upon interesting things."`
-				`	"Well, the same way I'd imagine most people found you - by just wandering aimlessly."`
-			`	Yashili nods. "This is an understandable situation."`
+				`	"我的大部分时间都在探索银河系。有时你会偶然发现有趣的事情。"`
+				`	"嗯，就像我想象中大多数人找到你的方式一样--通过漫无目的地游荡。"`
+			`	雅士利点点头。"这是一个可以理解的情况。"`
 			``
-			`	An hour of conversation later, the Ambassador's assistant returns with a large data drive and hands it to her. The Remnant pull out a data chip of their own, and the two groups formally exchange the data. In response to an unseen signal, another Remnant pulls back one side of the tent, and a team carries in a segment from a systems core with several of the small robots. "There are more of these waiting outside, but here is a sample for you to inspect. Using the instructions we have provided, you should have no problem making use of this technology." They poke at the console, and the robots promptly spring to life and assemble a small pile of parts into a model ship.`
-			`	"Thank you for doing business with us," says Ambassador Yashili. "You have a friend in the Hai." She bows and the Remnant return the bow with fluid grace before quickly shouldering the Korath equipment. They load everything onto the <ship> as the delegation boards, and you set out to return to <planet>.`
-			`	As you take off, a final glance at your exterior cameras shows the Remnant have already almost finished packing up their encampment onto the camels. As one tent comes down, it reveals an anti-aircraft artillery cannon installed on a sled. Despite the rustic appearance they portrayed, the Remnant certainly took their security seriously. There is still no ship visible, but you suspect that a Starling or Gull is undoubtedly hiding nearby.`
+			`	一个小时的谈话后，大使的助手带着一个大的数据驱动器回来，并把它递给她。遗族人掏出他们自己的数据芯片，两组人正式交换数据。作为对一个看不见的信号的回应，另一个残余者拉开了帐篷的一侧，一个小组从一个系统核心中抬进了一段，里面有几个小机器人。"外面还有更多这样的东西在等着，但这里有一个样品供你检查。使用我们提供的说明，你应该没有问题，可以利用这项技术。"他们捅了捅控制台，机器人迅速跳动起来，将一小堆零件组装成一艘模型船。`
+			`	"感谢你们与我们做生意，"亚希里大使说。"你们在海氏有一个朋友。"她鞠了一躬，"遗民 "以流畅的姿态回了一躬，然后迅速扛起Korath设备。当代表团登上<ship>时，他们把所有的东西都装上了飞船，而你们则开始返回<planet>。`
+			`	当你起飞时，最后看了一眼你的外部摄像机，发现余党已经几乎完成了将他们的营地打包到骆驼上的工作。随着一顶帐篷的落下，露出了安装在雪橇上的一门高射炮。尽管他们描绘的是质朴的外表，但余党肯定认真对待他们的安全。仍然看不到飞船，但你怀疑有一只椋鸟或海鸥无疑就藏在附近。`
 				accept
 
 
 
 mission "Strider: Coalition 1"
 	landing
-	name "Contact the Coalition"
-	description "Transport Ambassador Yashili and her delegation to <destination> to attempt to obtain hull repair technology from the Coalition."
+	name "联系联盟"
+	description "运送亚希里大使和她的代表团到<destination>，试图从联盟那里获得船体修复技术。"
 	source "Allhome"
 	destination "Ring of Friendship"
 	passengers 3
-	blocked "The Hai delegation to meet the Coalition requires 3 bunks for the trip, but you don't have enough available space! Return when you have room for the delegation."
+	blocked "迎接联盟的海族代表团需要3个铺位的行程，但你没有足够的可用空间!当你有足够的空间给代表团时再返回。"
 	to offer
 		has "strider: coalition"
 	on offer
 		conversation
-			`You find the Hai delegation meant to travel to the Coalition to negotiate for the hull repair technology waiting for you in the spaceport. The leader of the delegation introduces herself as Ambassador Yashili. "I heard that we will be traveling a great distance across the galaxy. May we have a safe journey."`
-			`	"Is there anything that we should know about this Coalition before meeting them?" another member of the delegation asks.`
+			`你发现打算前往联盟商谈船体维修技术的海族代表团在太空港等你。代表团的领队自我介绍说是亚希里大使。"我听说我们将在银河系中长途跋涉。愿我们有一个安全的旅程。"`
+			`	"在见到这个联盟之前，我们有什么需要了解的吗？"代表团的另一名成员问道。`
 			choice
-				`	"The Coalition are a group of three species that live in harmony, just like the humans and Hai here. They should enjoy meeting new aliens."`
+				`	"联盟是一个由三个物种组成的团体，他们和谐相处，就像这里的人类和海一样。他们应该很喜欢认识新的外星人。"`
 					goto normal
-				`	"The Coalition hate the Quarg and went to war with them many millennia ago in order to drive them out of their space."`
-			`	"That is most concerning," Yashili says with nods of agreement from the other two members of the delegation. "Hopefully the presence of the Quarg in Hai space will be of no issue to them." Yashili thinks for a moment. "Or perhaps we could use this information to our advantage."`
+				`	"联盟憎恨夸格人，许多千年前就与他们开战，以便把他们赶出他们的空间。"`
+			`	"这是最令人担忧的。"雅士利说，代表团的另外两名成员也点头表示同意。"希望夸格人在海族空间的存在对他们来说没有问题。"雅士利思考了一会儿。"或者，我们可以利用这些信息对我们有利。"`
 			label normal
-			`	The delegation gathers their things and boards your ship, and you plot a course for <destination>. Hopefully the Coalition will be willing to share with an alien species they just met.`
+			`	代表团收拾好东西，登上你的飞船，你为<destination>规划了一条路线。希望联盟会愿意与他们刚认识的外星物种分享。`
 				accept
 	on visit
-		dialog `It appears that the delegation is bunked on escorts that have not arrived in this system yet. Take off and wait for them.`
+		dialog `看来代表团是在还没有到达这个系统的护卫队上铺的。起飞并等待他们。`
 
 
 
 mission "Strider: Coalition 2"
 	landing
-	name "Technology Obtained"
-	description "The delegation has successfully obtained hull repair technology from the Coalition. Return to <destination> so that the Hai can begin developing this technology for their new ship."
+	name "获得的技术"
+	description "代表团已经成功地从联盟那里获得了船体修复技术。返回<destination>，以便海族可以开始为他们的新船开发这项技术。"
 	source "Ring of Friendship"
 	destination "Hai-home"
 	clearance
 	passengers 3
 	cargo "repair technology" 12
-	blocked "You need <capacity> in order to return the Hai delegation and the repair technology back to <planet>."
+	blocked "你需要<capacity>，以便将海族代表团和修复技术送回<planet>。"
 	to offer
 		has "Strider: Coalition 1: done"
 	on offer
 		log `Helped the Hai get in contact with the Coalition in order to learn how to create in-flight hull repair technology. The Hai obtained a schematic of the Coalition's repair modules, along with a number of samples.`
 		conversation
-			`Before landing, you notify the Heliarch that you're bringing alien ambassadors to meet with them, and sure enough a Heliarch delegation is waiting for you when you land. They briefly salute you, but appear to be much more interested in the strange new beings you've brought to their center of government.`
-			`	The Hai delegation is momentarily confused by the unusual speech pattern the Coalition species have, but snap out of it shortly. The Heliarch then start explaining their story to the Hai, the same they told you when you first met them, including their warning about the Quarg. While both delegations are engaged in conversation, a Heliarch agent approaches you, asking, "To this precious encounter, with what purpose have you brought these people, Captain?"`
+			`降落前，你通知海族长，你要带着外星大使来见他们，果然，当你降落时，一个海族长代表团正在等你。他们简短地向你致敬，但似乎对你带到他们政府中心的陌生新生物更感兴趣。`
+			`	海族代表团对联盟物种不寻常的语言模式感到困惑，但很快就释然了。然后，海族人开始向海族人解释他们的故事，和你第一次见到他们时说的一样，包括他们对夸父的警告。当两个代表团都在交谈的时候，一个Heliarch的代理人走近你，问道："为了这次珍贵的相遇，你带这些人有什么目的，船长？"`
 			choice
-				`	"They're in need of your help."`
-				`	"They come seeking technology."`
-			`	You start talking to them about the Hai and their conflict with the Unfettered, but as you're explaining you hear a loud collective gasp coming from the Heliarchs that are conversing with the Hai. A member of the Heliarch delegation approaches you. "Captain <last>, kindly telling us about their territory and society, your friend Yashili has. Truthful, is it, that close to the Hai planets, a ringworld the Quarg have constructed?"`
-			`	The others seem to be in an excited conversation of their own, after changing their translation devices to no longer speak human. Yashili and the other Hai also turn to you, looking somewhat confused, waiting for you to respond for them.`
+				`	"他们需要你的帮助。"`
+				`	"他们来寻求技术。"`
+			`	你开始和他们谈论海族以及他们与不受约束者的冲突，但在你解释的时候，你听到正在与海族对话的太阳神们发出了一声巨大的集体喘息。海族长代表团的一名成员向你走来。"船长<last>，好心地告诉我们他们的领土和社会，你的朋友亚希利有。真实的，是吗？"在靠近海族星球的地方，夸格人建造了一个环形世界。`
+			`	其他人似乎在改变他们的翻译设备，不再说人话后，自己也在兴奋地谈话。雅士利和其他海族人也转向你，看起来有些疑惑，等待你为他们做出回应。`
 			choice
-				`	"The Quarg are indeed there, but they stay out of Hai business, and the Hai stay out of theirs."`
+				`	"夸格人确实在那里，但他们不插手海族的事，海族也不插手他们的事。"`
 					goto business
-				`	"Yes, the Quarg have a single system there with a complete ringworld, where many Hai and even some humans also live."`
-			`	The Heliarchs speak among themselves at a rapid pace, and before you know it several dozen other agents are around. One of them, an older Saryd with a golden circlet, says, "Tell us more about this ringworld, you must, Hai friends. Accompany us, would you?"`
-			`	Without waiting for the Hai delegation to answer, they practically drag them to a restricted section of the ringworld without you. About an hour later, the Hai are brought back, most with tired expressions.`
-			`	"Had I known we would be interrogated on the engineering aspects and the inner workings of a ringworld, I would have had an engineer come with us," Yashili whispers to you.`
+				`	"是的，夸格人在那里有一个单一的系统，有一个完整的环形世界，许多海族甚至一些人类也生活在那里。"`
+			`	Heliarchs之间说话的速度很快，不知不觉中，其他几十名特工都围了上来。其中一个戴着金色圆环的年长的萨里德说："告诉我们更多关于这个环形世界的情况，你必须，海族朋友。陪伴我们，你愿意吗？"`
+			`	不等海族代表团回答，他们几乎是在没有你的情况下把他们拖到环形世界的一个限制区。大约一个小时后，海族人被带了回来，大多数人都露出了疲惫的表情。`
+			`	"如果我知道我们会被审问工程方面和环形世界的内部运作，我就会让一个工程师和我们一起去。"雅士利对你轻声说。`
 			
 			label business
-			`	The Heliarchs once again warn the Hai to be careful with the Quarg before finally letting the Hai explain the reason for their trip here.`
-			`	The delegation still looks a bit overwhelmed, as if still processing all the history the Heliarch just told them, but Yashili has kept her composure and begins speaking. "We come representing the Hai people, who live far from here. Some of our brothers and sisters have turned violent toward us, and have recently created a new ship that may cause us trouble. We have created a ship of our own in retaliation, but we are still in need of technology capable of repairing the hull of a ship while in flight so that we may have an advantage. Captain <last> has told us that you possess such technology."`
-			`	"Developed such technology, indeed we have," an Arach agent responds. "Composed of several dozens of small repair bots, and their center of command, such outfits are."`
+			`	Heliarchs再次警告海族人要小心对待Quarg，最后让海族人解释他们来这里的原因。`
+			`	代表团看起来仍然有点不知所措，似乎还在处理太阳神刚刚告诉他们的所有历史，但雅希莉保持了镇定，开始说话。"我们代表海族而来，他们住在离这里很远的地方。我们的一些兄弟姐妹对我们变得很暴力，最近还创造了一艘新的飞船，可能会给我们带来麻烦。我们已经创造了一艘我们自己的飞船作为报复，但我们仍然需要能够在飞行中修复船体的技术，这样我们才可能有优势。舰长<last>告诉我们，你们拥有这样的技术。"`
+			`	"开发了这样的技术，确实是我们开发的。"一名Arach特工回应道。"由几十个小型维修机器人组成，以及它们的指挥中心，这样的装备是。"`
 			choice
-				`	"So are you willing to give or sell one of those outfits to the Hai?"`
-				`	"Would you share the way of mass producing those outfits with the Hai?"`
-			`	"Much involved in projecting our repair modules, House Chamgar is," the same Arach says. "Contact their representatives in this ring, we will."`
-			`	"Do you desire anything in return?" Yashili asks the agent.`
-			`	"In return, we ask nothing. Helping you extend beyond the limits placed upon you by the Quarg, enough of a reward is," the Arach responds. Yashili looks somewhat puzzled, but does not press the issue any further.`
-			`	A short time later, a group of Arachi representing House Chamgar arrive. They have the Hai describe their ships, using this information to optimize the repair module for Hai ships. They then prepare a copy of the blueprints, handing a data chip containing the schematics for the hull repair modules and their hull-walking robots to the Hai. Some workers then load a crate with two small modules onto your ship for the Hai to use as examples. Yashili thanks the Coalition for their generosity and boards your ship, ready to return to <destination>.`
+				`	"那么，你们愿意把这些装备中的一个送给或卖给海族吗？"`
+				`	"你愿意与海族分享大量生产这些装备的方法吗？"`
+			`	"多参与投射我们的维修模块，Chamgar家族是，"同一个Arach说。"联系他们在这个戒指中的代表，我们会的。"`
+			`	"你希望得到什么回报吗？"亚希利问代理人。`
+			`	"作为回报，我们不要求什么。帮助你扩展到夸格人对你的限制之外，足够的回报就是了。"阿拉奇回应道。亚希利看起来有些疑惑，但没有进一步追问。`
+			`	过了不久，一群代表Chamgar家族的Arachi到达。他们让海族描述他们的船只，利用这些信息来优化海族船只的维修模块。然后，他们准备了一份蓝图，将包含船体维修模块和船体行走机器人原理图的数据芯片交给了海族人。然后，一些工人将一个装有两个小模块的箱子装到你的船上，供海族人作为例子使用。亚希利感谢联盟的慷慨，然后登上你的船，准备返回<destination>。`
 				accept
 
 
@@ -1462,12 +1462,12 @@ event "pond strider mass production v2"
 		"Railgun"
 		"Railgun Slug"
 		"Railgun Slug Rack"
-		`"Baellie" Atomic Engines`
+		`"Baellie "原子发动机`
 	outfitter "Hai Advanced"
 		"Railgun"
 		"Railgun Slug"
 		"Railgun Slug Rack"
-		`"Baellie" Atomic Engines`
+		`"Baellie "原子发动机`
 	fleet "Large Hai"
 		add variant 1
 			"Geocoris"
@@ -1506,41 +1506,41 @@ mission "Strider 3"
 	on offer
 		event "pond strider mass production v2" 30 90
 		conversation
-			`Yashili contacts the elders as you land, informing them that you have obtained the hull repair technology. They agree to meet you in the spaceport along with Osen. A group of spaceport workers begins unloading the samples from your cargo bay after you land.`
-			`	As you depart your ship, you spot the Hai elders and Osen approaching. Ambassador Yashili and the Hai delegation step forward to meet them.`
+			`当你登陆时，雅士利联系了长老们，告诉他们你已经获得了船体修复技术。他们同意和奥森一起在太空港见你。在你着陆后，一群太空港的工人开始从你的货舱卸下样品。`
+			`	当你离开你的飞船时，你发现海族长老和奥森正在接近。亚希里大使和海族代表团上前迎接他们。`
 			branch coalition
 				has "Strider: Coalition 2: done"
 			
-			`	"I hope the Remnant treated you well," one of the elders says.`
-			`	"They were an interesting group. Very reclusive, and not willing to share much of their people, but they were more than willing to help after we provided them with a copy of our historical astronomical data."`
+			`	"我希望遗民对你很好，"其中一位长老说。`
+			`	"他们是一个有趣的群体。非常隐蔽，不愿意分享他们的人民，但在我们向他们提供了一份我们的历史天文数据后，他们更愿意提供帮助。"`
 				goto next
 			
 			label coalition
-			`	"I hope the Coalition treated you well," one of the elders says.`
-			`	"They were an interesting group. Very enthusiastic about meeting new people, although very touchy on the subject of the Quarg."`
+			`	"我希望联盟对你很好，"其中一位长者说。`
+			`	"他们是一个有趣的团体。对认识新朋友非常热心，尽管在夸父的问题上非常敏感。"`
 			
 			label next
-			`	Yashili then hands the copy of the data to Osen. "You'll be needing this," she says.`
-			`	"And I'll certainly love it," Osen responds. "The spaceport workers have already sent the cargo en route to my shipyard. I'll begin working on implementing it into the Pond Strider immediately."`
+			`	雅士利然后把数据的副本递给奥森。"你会需要这个，"她说。`
+			`	"我当然也会喜欢它，"奥森回应道。"太空港的工人已经把货物送到了我的船厂途中。我将立即开始工作，把它落实到池塘黾勉号上。"`
 			choice
-				`	"Pond Strider?"`
-				`	"I hope you have fun with that."`
+				`	"池塘怪客？"`
+				`	"我希望你能从中得到乐趣。"`
 					goto fun
 			
-			`	"Yes. That is the name that we settled on for the ship, and its drones will be named the Flea."`
-			`	"I'm getting itchy just thinking about it," one of the elders jokes.`
+			`	"是的，这是我们为这艘船确定的名字，它的无人机将被命名为跳蚤。"`
+			`	"我光是想想就觉得痒了，"其中一位长者开玩笑说。`
 				goto end
 			
 			label fun
-			`	"It's hard not to have fun when you love doing your job."`
+			`	"当你喜欢做你的工作时，很难不感到快乐。"`
 			
 			label end
-			`	Osen is about to run off, but one of the elders stops him. "Can you give us any estimate on how long it will take to make use of this data?"`
-			`	"Oh, yes," Osen says. "It may take us a few months to get everything working. A single month at the least if we are lucky."`
-			`	"This is good to know. The sooner we have these ships functional, the better."`
-			`	Osen once again gets ready to run off, but this time stops himself and turns to you. "Thank you Captain. Without this information, it could have taken me years to finish this project." You nod in response, and Osen finally runs off to his shipyard.`
-			`	"I would like to thank you as well," Yashili says. "It has been some time since I have had the chance to leave our space. It is always exciting to go to new places and meet new people." Yashili bows to you, and you return a bow of your own.`
-			`	"And we also need to express our gratitude," one of the elders says. "It is good to have you as a friend of the Hai. We shall keep you no longer, though. May you stay safe on your adventures."`
+			`	奥森正准备跑开，但其中一位长者阻止了他。"你能给我们估计一下，利用这些数据需要多长时间？"`
+			`	"哦，可以。"奥森说。"我们可能需要几个月的时间才能让一切正常运转。如果我们幸运的话，至少要花一个月的时间。"`
+			`	"这是很好的消息。我们越早让这些飞船发挥作用越好。"`
+			`	奥森再次准备跑开，但这次他自己停下脚步，转向你。"谢谢你，船长。如果没有这些信息，我可能要花几年时间才能完成这个项目。"你点头回应，而奥森终于跑去他的船厂。`
+			`	"我也要感谢你，"雅士利说。"我已经有一段时间没有机会离开我们的空间了。去新的地方，认识新的人，总是令人激动。"雅士利向你鞠躬，你也回敬一躬。`
+			`	"我们也需要表达我们的感激之情，"其中一位长者说。"有你作为海族的朋友是件好事。不过，我们将不再保留你。愿你在冒险中保持安全。"`
 				decline
 
 
@@ -1555,5 +1555,5 @@ mission "Strider notification"
 	on offer
 		conversation
 			scene `thumbnail/hai pond strider`
-			`Upon landing on <planet>, you receive a message from Osen. "Hello Captain <last>! I hope this message finds you well. I would like to once again thank you for your help on the Pond Strider, and would like to inform you that we have finished implementing the hull repair technology that you have provided us into the Pond Strider design and have now begun producing the ship on a mass scale. You'll also be interested to find that we have developed new weaponry for the Pond Strider's drone, the Flea. I won't spoil the surprise for you though. Check the shipyard on Hai-home the next time you stop by to take a look at it."`
+			`在登陆<planet>后，你收到了来自奥森的信息。"你好，船长<last>!我希望这条消息能让你感觉良好。我想再次感谢你在池塘黾勉号上的帮助，并想告诉你，我们已经完成了将你提供给我们的船体修复技术应用于池塘黾勉号的设计，现在已经开始大规模生产该船。你也会有兴趣发现，我们已经为池塘怪客的无人机--跳蚤--开发了新的武器装备。不过我不会破坏你的惊喜。下次你停下来看看海之家的船厂，就知道了。"`
 				decline

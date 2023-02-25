@@ -20,7 +20,7 @@ outfit "Shield Relay Booster"
 	"shield generation" 0.4
 	"shield energy" 1.2
 	"relay upgrades" -1
-	description "The Shield Relay Booster is a component that can be installed into a Bunrodean shield relay in order to modify its effectiveness. Boosters increase the shield generation strength of a relay, but at the cost of reduced energy efficiency."
+	description "盾牌中继器助推器是一种可以安装到布诺德盾牌中继器中的组件，以改变其有效性。助推器可以增加中继器的护盾生成强度，但其代价是降低能源效率。"
 
 outfit "Shield Relay Limiter"
 	category "Systems"
@@ -31,7 +31,7 @@ outfit "Shield Relay Limiter"
 	"shield generation" -0.02
 	"shield energy" -0.1
 	"relay upgrades" -1
-	description "The Shield Relay Limiter is a component that can be installed into a Bunrodean shield relay in order to modify its effectiveness. Limiters increase the energy efficiency of a relay, but at the cost of reducing the strength of its shield generation."
+	description "盾牌继电器限制器是一个可以安装到Bunrodean盾牌继电器的组件，以修改其有效性。限制器提高了继电器的能源效率，但代价是降低了其屏蔽生成的强度。"
 
 outfit "Small Shield Relay"
 	category "Systems"
@@ -45,8 +45,8 @@ outfit "Small Shield Relay"
 # Giving an outfit "ammo" like this means that selling this outfit sells the "ammo," which is better UX for selling these outfits without having to sell the upgrades first, but this also makes it so that if you have space for upgrades, entering the outfitter asks you if you want to "buy ammo," which is not good UX. We either need a way to decouple those two mechanics (only ask to buy ammo if the "ammo" is actually in the ammo category?), or come up with a new keyword that only provides the "selling this sells that" behavior.
 #	ammo "Shield Relay Booster"
 #	ammo "Shield Relay Limiter"
-	description "Bunrodean shield relays are impressively efficient; while a similarly sized shield generator from another faction might be capable of providing more shield generation, Bunrodean shield relays provide a modest amount of shield generation for only a small amount of energy."
-	description "	Shield relays are able to be upgraded by installing shield boosters or limiters, which alter the performance of the shield relay. Each relay only has a limited number of slots for these upgrades, though."
+	description "布诺迪恩盾牌中继器的效率令人印象深刻；虽然其他派别类似规模的盾牌发生器可能能够提供更多的盾牌生成，但布诺迪恩盾牌中继器只需少量的能量就能提供适量的盾牌生成。"
+	description "	盾牌继电器能够通过安装盾牌助推器或限制器进行升级，从而改变盾牌继电器的性能。不过，每个中继器只有有限的槽位用于这些升级。"
 
 outfit "Large Shield Relay"
 	category "Systems"
@@ -59,8 +59,8 @@ outfit "Large Shield Relay"
 	"relay upgrades" 16
 #	ammo "Shield Relay Booster"
 #	ammo "Shield Relay Limiter"
-	description "Some Bunrodean military captains argued that trading shield generation for energy efficiency is a foolish trade, while merchant captains looking to get the most out of their reactors argued that they could be more energy efficient. As such, shield relays are able to be customized to the owner's liking using external components."
-	description "	Shield relays are able to be upgraded by installing shield boosters or limiters, which alter the performance of the shield relay. Each relay only has a limited number of slots for these upgrades, though."
+	description "一些布诺德军方的船长认为，用护盾发电来换取能源效率是一个愚蠢的交易，而希望从他们的反应堆中获得最大利益的商人船长则认为，他们可以更加节能。因此，盾牌继电器能够使用外部组件按照主人的喜好进行定制。"
+	description "	盾牌继电器能够通过安装盾牌助推器或限制器进行升级，从而改变盾牌继电器的性能。不过，每个中继器只有有限的槽位用于这些升级。"
 
 
 
@@ -73,7 +73,7 @@ outfit "Nanite Enhancer"
 	"hull repair rate" 0.25
 	"hull energy" 0.75
 	"nanite upgrades" -2
-	description "The Nanite Enhancer is a component that can be installed into a Bunrodean nanite fabricator in order to modify its effectiveness. Enhancers increase the strength of the hull repair of an fabricator, but at the cost of reduced energy efficiency."
+	description "纳米特增强器是一种可以安装到布诺德纳米特制造器中的部件，以修改其有效性。增强器可以增加制造者的船体修复强度，但其代价是降低能源效率。"
 
 outfit "Nanite Limiter"
 	category "Systems"
@@ -84,7 +84,7 @@ outfit "Nanite Limiter"
 	"hull repair rate" -0.025
 	"hull energy" -0.2
 	"nanite upgrades" -1
-	description "The Nanite Limiter is a component that can be installed into a Bunrodean nanite fabricator in order to modify its effectiveness. Limiters increase the energy and heat efficiency of a fabricator, but at the cost of reducing the strength of its hull repair."
+	description "奈米限制器是一个可以安装到布恩罗迪安奈米制造机的组件，以修改其有效性。限制器提高了制造者的能量和热效率，但代价是降低了其船体修复的强度。"
 
 outfit "Small Nanite Fabricator"
 	category "Systems"
@@ -97,8 +97,8 @@ outfit "Small Nanite Fabricator"
 	"nanite upgrades" 4
 #	ammo "Nanite Enhancer"
 #	ammo "Nanite Limiter"
-	description "Although Bunrodea ships tend to rely on their shields for defense, some pilots will opt to install a nanite fabricator. These fabricators produce a steady stream of nanites that travel across the hull of the ship and repair any damage that they find."
-	description "	Nanite fabricators are able to be upgraded by installing nanite enhancers or limiters, which alter the performance of the fabricator. Each fabricator only has a limited number of slots for these upgrades, though."
+	description "虽然布诺迪亚船倾向于依靠他们的盾牌进行防御，但一些飞行员会选择安装一个纳米晶石制造机。这些制造者产生源源不断的纳米虫，穿过船体，修复它们发现的任何损坏。"
+	description "	奈米制造机可以通过安装奈米增强器或限制器进行升级，从而改变制造机的性能。不过每台制造机只有有限的槽位用于这些升级。"
 
 outfit "Large Nanite Fabricator"
 	category "Systems"
@@ -111,8 +111,8 @@ outfit "Large Nanite Fabricator"
 	"nanite upgrades" 10
 #	ammo "Nanite Enhancer"
 #	ammo "Nanite Limiter"
-	description "The creation of nanite fabricators was spurred on by early contact between the Bunrodea and Korath. The hull-walking microbots of Korath System Cores allowed Korath ships to make repairs without the need of a spaceport, a trait that the Bunrodea favored for use in their scout vessels."
-	description "	Nanite fabricators are able to be upgraded by installing nanite enhancers or limiters, which alter the performance of the fabricator. Each fabricator only has a limited number of slots for these upgrades, however."
+	description "纳米制造机的创造是由布诺迪亚人和科拉斯人之间的早期接触所刺激的。科拉斯系统核心的船体行走微型机器人允许科拉斯飞船在不需要太空港的情况下进行维修，这也是布诺迪亚人喜欢在他们的侦察舰上使用的特点。"
+	description "	纳米制造机可以通过安装纳米增强器或限制器进行升级，从而改变制造机的性能。然而，每个制造者只有有限的槽位用于这些升级。"
 
 
 
@@ -126,7 +126,7 @@ outfit "Solar Battery"
 	"energy capacity" 6000
 	"solar cell" 36
 #	ammo "Solar Cell"
-	description "Bunrodean solar batteries are required for the installation of solar cells, but solar batteries are perfectly capable of going without solar cells. Many captains will install batteries to store energy gained from normal reactors without ever installing solar cells."
+	description "安装太阳能电池需要布诺迪恩的太阳能电池，但太阳能电池完全可以不用太阳能电池。许多舰长会安装电池来储存从普通反应堆获得的能量，而不安装太阳能电池。"
 
 outfit "Solar Cell"
 	category "Power"
@@ -137,8 +137,8 @@ outfit "Solar Cell"
 	"solar collection" 0.145
 	"solar heat" 0.07
 	"solar cell" -1
-	description "Bunrodean solar panels are extremely efficient, and are even capable of powering smaller or less powerful warships. But be warned: while these solar cells can provide significant energy, that is not without the drawback of also generating waste heat that scales with the energy generated, which can be especially hazardous when near bright stars."
-	description "	These cells must be installed on the mounting platform that comes with a solar battery to be used."
+	description "布诺迪恩的太阳能电池板效率极高，甚至能够为较小或不太强大的战舰提供动力。但要注意的是：虽然这些太阳能电池可以提供大量的能量，但这并不是没有缺点，那就是也会产生与所产生的能量成比例的废热，当靠近明亮的星星时，这可能特别危险。"
+	description "	这些电池必须安装在太阳能电池附带的安装平台上才能使用。"
 
 
 
@@ -151,7 +151,7 @@ outfit "Reactor Overclocker"
 	"energy generation" 0.9
 	"heat generation" 3.15
 	"reactor upgrades" -3
-	description "The Reactor Overclocker is a component that can be installed into a Bunrodea reactor in order to modify its effectiveness. Overclockers increase the strength of the energy generation of a reactor, but at the cost of reduced heat efficiency."
+	description "反应器超频器是一个可以安装到Bunrodea反应器中的组件，以修改其有效性。超频器可以增加反应堆的能量生成强度，但代价是降低热效率。"
 
 outfit "Reactor Limiter"
 	category "Power"
@@ -162,7 +162,7 @@ outfit "Reactor Limiter"
 	"energy generation" -0.55
 	"heat generation" -6.6
 	"reactor upgrades" -2
-	description "The Reactor Limiter is a component that can be installed into a Bunrodea reactor in order to modify its effectiveness. Limiters increase the heat efficiency of a reactor, but at the cost of reducing the strength of its energy generation."
+	description "反应堆限制器是一个可以安装到Bunrodea反应堆的组件，以修改其有效性。限制器增加了反应堆的热效率，但代价是降低了其能量生成的强度。"
 
 outfit "Quark Reactor"
 	category "Power"
@@ -175,8 +175,8 @@ outfit "Quark Reactor"
 	"reactor upgrades" 6
 #	ammo "Reactor Overclocker"
 #	ammo "Reactor Limiter"
-	description "Bunrodean reactors appear to be named after types of exotic stars that either once were or still are considered theoretical to humanity. A quark star was first discovered by humanity near the Shangri-La system during the 28th century, a star with core temperatures and pressures so extreme that quark matter is produced."
-	description "	Bunrodean reactors are able to be upgraded by installing Reactor Overclockers or Limiters, which alter the performance of the reactor. Each reactor only has a limited number of slots for these upgrades, though."
+	description "布诺迪亚反应堆似乎是以曾经或仍然被认为是人类理论上的奇异恒星的类型命名的。夸克星是人类在28世纪在香格里拉系统附近首次发现的，这种恒星的核心温度和压力如此之高，以至于产生了夸克物质。"
+	description "	Bunrodean反应堆能够通过安装反应堆超频器或限制器进行升级，从而改变反应堆的性能。不过，每个反应堆只有有限的槽位用于这些升级。"
 
 outfit "Electroweak Reactor"
 	category "Power"
@@ -189,8 +189,8 @@ outfit "Electroweak Reactor"
 	"reactor upgrades" 18
 #	ammo "Reactor Overclocker"
 #	ammo "Reactor Limiter"
-	description "The existence of the exotic stars that this Bunrodean reactor bears the name of is still unknown to humanity. An electroweak star is an exotic star that would be prevented from collapsing by the electroweak force as quarks are converted to leptons in the star's core."
-	description "	Bunrodean reactors are able to be upgraded by installing Reactor Overclockers or Limiters, which alter the performance of the reactor. Each reactor only has a limited number of slots for these upgrades, though."
+	description "这个Bunrodean反应堆以其名字命名的奇异恒星的存在对人类来说仍然是未知的。电弱星是一种异国情调的恒星，由于夸克在恒星的核心中被转化为轻子，它将被电弱力阻止坍塌。"
+	description "	Bunrodean反应堆能够通过安装反应堆超频器或限制器进行升级，从而改变反应堆的性能。不过，每个反应堆只有有限的槽位用于这些升级。"
 
 outfit "Dark Reactor"
 	category "Power"
@@ -203,8 +203,8 @@ outfit "Dark Reactor"
 	"reactor upgrades" 30
 #	ammo "Reactor Overclocker"
 #	ammo "Reactor Limiter"
-	description `The term "dark star" can have different meanings, but one definition of it is a star whose core is formed around a large amount of dark matter. Such exotic stars are theorized by humanity to have possibly existed among the first generations of stars in the universe, with concentrations of dark matter acting as nucleation sites.`
-	description "	Bunrodean reactors are able to be upgraded by installing Reactor Overclockers or Limiters, which alter the performance of the reactor. Each reactor only has a limited number of slots for these upgrades, though."
+	description `暗星 "一词可以有不同的含义，但它的一个定义是，其核心是围绕大量暗物质形成的恒星。人类理论上认为，这种奇异的恒星可能存在于宇宙中的第一代恒星中，暗物质的集中地充当了成核点。`
+	description "	Bunrodean反应堆能够通过安装反应堆超频器或限制器进行升级，从而改变反应堆的性能。不过，每个反应堆只有有限的槽位用于这些升级。"
 
 
 
@@ -214,7 +214,7 @@ outfit "Lasher Pistol"
 	thumbnail "outfit/lasher pistol"
 	"capture attack" 2.6
 	"capture defense" 1.4
-	description "During their wars with the Korath, it was not uncommon for Bunrodean vessels to be boarded by Korath raiders looking for technology and supplies to steal. As such, effective small arms weapons became an essential part of every Bunrodean crew that may need to fight off any boarding parties."
+	description "在与Korath的战争中，Bunrodean的船只被Korath的袭击者登上，寻找技术和物资进行偷窃的情况并不少见。因此，有效的小型武器成为每个布诺德人船员的重要组成部分，他们可能需要击退任何登船队伍。"
 
 
 
@@ -233,7 +233,7 @@ outfit "Chiisana Rift Thruster"
 		"rewind"
 		"scale" 0.3
 	"flare sound" "ion tiny"
-	description "While the Korath favor raw power in their engines, the Bunrodea favor efficiency, opting to make use of engines that produce less thrust for significantly less heat produced."
+	description "当Korath人在他们的引擎中倾向于原始动力时，Bunrodea人则倾向于效率，选择使用产生较少推力的引擎，而产生的热量则大大减少。"
 
 outfit "Nami Rift Thruster"
 	category "Engines"
@@ -250,7 +250,7 @@ outfit "Nami Rift Thruster"
 		"rewind"
 		"scale" 0.6
 	"flare sound" "ion small"
-	description "Although rift engines are extremely heat efficient, their energy requirement is rather high compared to the thrust they produce, even next to terribly inefficient Korath engines."
+	description "虽然裂缝引擎的热效率极高，但与它们产生的推力相比，它们的能量需求相当高，甚至与效率极低的科拉斯引擎相比也是如此。"
 
 outfit "Ookii Rift Thruster"
 	category "Engines"
@@ -267,7 +267,7 @@ outfit "Ookii Rift Thruster"
 		"rewind"
 		"scale" 0.8
 	"flare sound" "ion medium"
-	description "Even though the energy drawn per unit thrust of rift engines is poorer than that of Korath engines, the overall energy requirement of rift engines is still far lesser by comparison."
+	description "即使裂隙发动机的每单位推力所汲取的能量比Korath发动机的要差，但相比之下，裂隙发动机的总体能量需求仍然要小得多。"
 
 outfit "Subarashii Rift Thruster"
 	category "Engines"
@@ -283,7 +283,7 @@ outfit "Subarashii Rift Thruster"
 		"frame rate" 1
 		"rewind"
 	"flare sound" "ion large"
-	description "Given the lower size and thrust of rift engines, Bunrodean ships aren't well known for their pursuit capabilities. But there are rumors among some Bunrodea of an ancient cache of engines, more powerful than even those of the Korath, that would allow any ship to zip across the stars like a comet and chase down any potential target."
+	description "鉴于裂缝引擎的尺寸和推力较小，布诺德人的船只并不以其追击能力而闻名。但在一些布诺迪亚人中，有传言说有一个古老的引擎库，甚至比Korath的引擎更强大，可以让任何飞船像彗星一样在星空中飞驰，追击任何潜在目标。"
 
 outfit "Chiisana Rift Steering"
 	category "Engines"
@@ -295,7 +295,7 @@ outfit "Chiisana Rift Steering"
 	"turn" 539
 	"turning energy" 2.6
 	"turning heat" 1
-	description "Given that Bunrodean ships are typically focused on making heavy use of their forward facing guns, the Bunrodea favor high turn rates much more than high speeds. As such, rift steering systems are larger than the respective thruster systems of the same size category."
+	description "鉴于布诺迪亚人的战舰通常专注于大量使用他们的前向火炮，布诺迪亚人更喜欢高转弯率而不是高速度。因此，裂缝转向系统要比相同大小的推进器系统大。"
 
 outfit "Nami Rift Steering"
 	category "Engines"
@@ -307,7 +307,7 @@ outfit "Nami Rift Steering"
 	"turn" 1137
 	"turning energy" 5.3
 	"turning heat" 2.1
-	description "As with many Bunrodean systems, rift engines produce very little heat. This allows their ships to forgo the use of any significant cooling systems, leaving more room for other systems, be they defensive or offensive."
+	description "与许多布恩罗迪亚人的系统一样，裂缝引擎产生的热量非常少。这使得他们的船只可以放弃使用任何重要的冷却系统，为其他系统留下更多的空间，无论是防御性还是进攻性。"
 
 outfit "Ookii Rift Steering"
 	category "Engines"
@@ -319,7 +319,7 @@ outfit "Ookii Rift Steering"
 	"turn" 2099
 	"turning energy" 9.2
 	"turning heat" 3.65
-	description "Although the focus on steering over thrust makes Bunrodean ships easy targets to track, the power of their weapons systems would leave anyone foolish to believe that they are sitting ducks."
+	description "尽管注重转向而不是推力使布诺德人的船只容易被追踪，但他们的武器系统的威力会让任何人愚蠢地认为他们是坐以待毙的。"
 
 outfit "Subarashii Rift Steering"
 	category "Engines"
@@ -331,4 +331,4 @@ outfit "Subarashii Rift Steering"
 	"turn" 3900
 	"turning energy" 17.1
 	"turning heat" 6.5
-	description "The largest of the rift steering systems, these engines are what allow the Bunrodea's heavy gunships to bear their many guns toward their unfortunate target."
+	description "这些引擎是最大的裂缝转向系统，它使布诺迪亚的重型炮艇能够将它们的许多枪支指向它们不幸的目标。"

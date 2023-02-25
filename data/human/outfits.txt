@@ -19,7 +19,7 @@ outfit "Cooling Ducts"
 	"mass" 5
 	"outfit space" -5
 	"cooling" 5
-	description "When trying to cram as many high-powered outfits as possible into a ship, occasionally you reach the point where it is sporadically overheating and shutting down. In that case, you may need to install one of these."
+	description "当试图把尽可能多的高功率装备塞进一艘飞船时，偶尔你会达到它零星过热和关闭的程度。在这种情况下，你可能需要安装一个这样的系统。"
 
 outfit "Water Coolant System"
 	category "Systems"
@@ -28,7 +28,7 @@ outfit "Water Coolant System"
 	"mass" 10
 	"outfit space" -10
 	"cooling" 12
-	description "This system is a step up from ordinary Cooling Ducts; it circulates water in between an external radiator and your ship's hottest internal components to keep them from overheating."
+	description "这个系统是普通冷却管道的升级版；它在外部散热器和你船上最热的内部组件之间进行水循环，以防止它们过热。"
 
 outfit "Liquid Nitrogen Cooler"
 	category "Systems"
@@ -37,7 +37,7 @@ outfit "Liquid Nitrogen Cooler"
 	"mass" 20
 	"outfit space" -20
 	"cooling" 29
-	description "For ships with extreme cooling needs, liquid nitrogen is the answer. One of these coolers will dissipate the heat produced by anything but the heaviest of armaments."
+	description "对于有极端冷却需求的船只，液氮是答案。一个这样的冷却器可以驱散任何东西产生的热量，除了最重的武器装备。"
 
 outfit "Liquid Helium Cooler"
 	category "Systems"
@@ -46,7 +46,7 @@ outfit "Liquid Helium Cooler"
 	"mass" 40
 	"outfit space" -40
 	"cooling" 69
-	description "Liquid helium is the ultimate in cooling technology. Given how much space this cooling system takes up, you may be better off just installing more efficient, low-heat components instead, but where that is not an option, this cooler can handle almost anything you throw at it."
+	description "液氦是冷却技术的极致。考虑到这种冷却系统所占用的空间，你可能最好只安装更有效的低热组件，但如果这不是一种选择，这种冷却器几乎可以处理任何你扔给它的东西。"
 
 
 outfit "D14-RN Shield Generator"
@@ -57,7 +57,7 @@ outfit "D14-RN Shield Generator"
 	"outfit space" -15
 	"shield generation" .2
 	"shield energy" .2
-	description "This is the standard shield generator for fighters and interceptors, as well as for many non-combat starships. Although it is possible for a ship to have no shield generator at all, recharging its shield matrix only when landed in a hospitable spaceport, life in deep space is unpredictable enough that most pilots find shield generators to be well worth the space they take up."
+	description "这是战斗机和拦截机的标准护盾发生器，也是许多非战斗星舰的护盾发生器。虽然一艘飞船有可能根本没有护盾发生器，只有在降落在一个好客的太空港时才会为它的护盾矩阵充电，但深空的生活是不可预测的，大多数飞行员认为护盾发生器非常值得它们占用的空间。"
 
 outfit "D23-QP Shield Generator"
 	category "Systems"
@@ -67,7 +67,7 @@ outfit "D23-QP Shield Generator"
 	"outfit space" -22
 	"shield generation" .32
 	"shield energy" .32
-	description "This is a slightly more powerful shield generator than the standard model installed in most small ships. If combat lasts long enough, the increased recharge rate is enough to give you an edge, but recharging your shields completely will still take a long time."
+	description "这是一个比安装在大多数小型舰艇上的标准型号稍微强大的护盾发生器。如果战斗持续足够长的时间，增加的充能率足以让你获得优势，但完全充能你的护盾仍然需要很长的时间。"
 
 outfit "D41-HY Shield Generator"
 	category "Systems"
@@ -77,7 +77,7 @@ outfit "D41-HY Shield Generator"
 	"outfit space" -30
 	"shield generation" .51
 	"shield energy" .51
-	description "This is a more powerful shield generator designed for ships that are likely to see frequent combat, or that have such a large shield capacity that recharging them would take a long time with a smaller generator."
+	description "这是一个更强大的护盾发生器，是为那些可能经常看到战斗的船只设计的，或者是那些有如此大的护盾容量，用较小的发生器为它们充电需要很长时间。"
 
 outfit "D67-TM Shield Generator"
 	category "Systems"
@@ -87,7 +87,7 @@ outfit "D67-TM Shield Generator"
 	"outfit space" -45
 	"shield generation" .82
 	"shield energy" .82
-	description "This shield generator is powerful enough that in combat against some particularly weak ships, they may not even be capable of depleting your shields as fast as they recharge."
+	description "这种护盾发生器足够强大，在与一些特别弱小的战舰作战时，它们甚至不可能像充能一样快速耗尽你的护盾。"
 
 outfit "D94-YV Shield Generator"
 	category "Systems"
@@ -97,7 +97,7 @@ outfit "D94-YV Shield Generator"
 	"outfit space" -60
 	"shield generation" 1.31
 	"shield energy" 1.31
-	description "This is the most powerful shield generator available in human space. Because of their large size, D94-YV Shield Generators are mostly used in large warships, but you can fit one in a smaller ship if you are willing to sacrifice engine power or weaponry to make space for it."
+	description "这是人类空间中最强大的护盾发生器。由于体积庞大，D94-YV护盾发生器多用于大型战舰，但如果你愿意牺牲发动机功率或武器装备来腾出空间，也可以在小型战舰上安装一台。"
 
 outfit "S-270 Regenerator"
 	category "Systems"
@@ -109,7 +109,7 @@ outfit "S-270 Regenerator"
 	"shield energy" .6
 	"energy consumption" .3
 	"heat generation" 2
-	description "A shield regenerator works by subtly modifying the geometry of your shield matrix in order to make your shields more malleable and therefore much easier to recharge. Unfortunately, this causes your shields to also become less efficient, which draws energy away from your other systems, even when not charging shields, and creates heat."
+	description "护盾再生器的工作原理是巧妙地修改你的护盾矩阵的几何形状，以使你的护盾更具延展性，因此更容易充电。不幸的是，这导致你的护盾也变得不那么有效，这从你的其他系统中吸取能量，即使在不给护盾充电的情况下，也会产生热量。"
 
 outfit "S-970 Regenerator"
 	category "Systems"
@@ -121,7 +121,7 @@ outfit "S-970 Regenerator"
 	"shield energy" 2.3
 	"energy consumption" .9
 	"heat generation" 6
-	description "The S-970 Shield Regenerator is an advanced type of shield recharging technology. Unfortunately, its power needs are rather high, and the shifts it makes in your shield configuration also result in some feedback that causes heat to build up in the regenerator, even when your shields are at full strength."
+	description "S-970防护罩再生器是一种先进的防护罩充电技术。不幸的是，它的功率需求相当高，而且它在你的护盾配置中的转变也会导致一些反馈，使热量在再生器中积聚，即使你的护盾处于全功率状态。"
 
 
 outfit "Small Radar Jammer"
@@ -131,7 +131,7 @@ outfit "Small Radar Jammer"
 	"mass" 4
 	"outfit space" -4
 	"radar jamming" 2
-	description "This radar jammer is designed to interfere with Sidewinders and any other missiles that rely on radar for tracking their targets. Jamming will occasionally cause missiles to lose their target locks."
+	description "这个雷达干扰器是用来干扰侧卫和任何其他依靠雷达追踪目标的导弹的。干扰偶尔会导致导弹失去目标锁定。"
 
 outfit "Large Radar Jammer"
 	category "Systems"
@@ -140,7 +140,7 @@ outfit "Large Radar Jammer"
 	"mass" 14
 	"outfit space" -14
 	"radar jamming" 10
-	description "This high-power radar jammer will make it much more difficult for missiles that rely on radar to track you. It will not affect missiles that track you optically or that look for your ship's heat signature."
+	description "这种高功率的雷达干扰器将使依赖雷达的导弹更难追踪到你。它不会影响以光学方式追踪你的导弹，也不会影响寻找你的飞船的热信号的导弹。"
 
 
 outfit "Ramscoop"
@@ -150,8 +150,8 @@ outfit "Ramscoop"
 	"mass" 10
 	"outfit space" -10
 	"ramscoop" 1
-	description "In the early days of space exploration, when ships could travel through half a dozen systems before encountering an established colony where they could refuel, ramscoops were an essential piece of equipment, harvesting plasma from the solar wind to refill your hyperspace fuel tanks. Although you can install more than one ramscoop, additional ramscoops on a single ship are not as effective as the first."
-	description "	Different kinds of stars will generate varying levels of fuel in the solar wind, but in all cases the closer you are to the star, the faster fuel will accumulate. As a safety measure, all ships are able to harvest tiny amounts of fuel by flying close to a star, but this outfit allows you to accumulate fuel much more quickly."
+	description "在太空探索的早期，当飞船在遇到可以加油的成熟殖民地之前可以穿越半打系统时，冲压引擎是必不可少的设备，它从太阳风中收集等离子体来补充你的超空间燃料罐。虽然你可以安装一个以上的冲压舱，但一艘飞船上的额外冲压舱并不像第一个那样有效。"
+	description "	不同种类的恒星会在太阳风中产生不同程度的燃料，但在所有情况下，你离恒星越近，燃料的积累就越快。作为一项安全措施，所有飞船都能通过靠近恒星飞行来收获极少量的燃料，但这种装备能让你更快地积累燃料。"
 
 outfit "Catalytic Ramscoop"
 	category "Systems"
@@ -160,7 +160,7 @@ outfit "Catalytic Ramscoop"
 	"mass" 16
 	"outfit space" -16
 	"ramscoop" 7
-	description "Ramscoop technology has been almost unchanged for centuries, because with nearly every system in human space settled there has not been a pressing need for ships to generate their own fuel. But with the Free Worlds war making travel once again more difficult, some engineers in the Deep recently invented a much-improved ramscoop for use in their merchant fleets."
+	description "拉姆斯科普技术几个世纪以来几乎没有变化，因为人类太空中几乎所有的系统都已解决，对飞船产生自己的燃料没有迫切的需求。但是，随着自由世界的战争使旅行再次变得更加困难，深海中的一些工程师最近发明了一种大大改进的冲压舱，供他们的商船队使用。"
 
 outfit "Hyperdrive"
 	category "Systems"
@@ -171,8 +171,8 @@ outfit "Hyperdrive"
 	"jump speed" .2
 	"jump fuel" 100
 	"hyperdrive" 1
-	description "This mysterious box sits quietly at the heart of your ship, thinking its own inscrutable thoughts. When it comes time to travel between the stars it sets off a nuclear fusion reaction powerful enough to level an entire city, and then somehow tucks the resulting explosion in between the folds of regular space-time like a wasp stinging an oak leaf to lay her eggs inside. Your ship rides the resulting ripple in the fabric of space."
-	description "	They say that fewer than a dozen human beings alive today understand the inner workings of the hyperdrive."
+	description "这个神秘的盒子静静地坐在你的船的中心，思考它自己不可捉摸的想法。当它要在星际间旅行时，它就会引发核聚变反应，其威力足以夷平整个城市，然后以某种方式将产生的爆炸塞进常规时空的褶皱之间，就像黄蜂蜇了一片橡树叶，在里面产卵。你的飞船乘着空间结构中产生的涟漪。"
+	description "	他们说，今天活着的人中只有不到一打的人了解超速驱动器的内部工作原理。"
 
 outfit "Scram Drive"
 	category "Systems"
@@ -183,7 +183,7 @@ outfit "Scram Drive"
 	"scram drive" .2
 	"jump fuel" 150
 	"hyperdrive" 1
-	description "A scram drive is a specially designed hyperdrive that works even if your ship is traveling at a much higher speed, at the expense of using more fuel. If you are being pursued by pirates (or just want to get somewhere in a hurry) that extra bit of speed can make a big difference."
+	description "超光速驱动器是一种特殊设计的超光速驱动器，即使你的飞船以更高的速度行驶也能工作，代价是使用更多燃料。如果你被海盗追捕（或只是想急着去某个地方），额外的一点速度可以带来很大的不同。"
 
 outfit "Jump Drive"
 	category "Systems"
@@ -194,7 +194,7 @@ outfit "Jump Drive"
 	"jump speed" .3
 	"jump fuel" 200
 	"jump drive" 1
-	description "The workings of the jump drive are a total mystery. The best that human scientists have been able to find out is that this device is a containment field for matter in a state that cannot normally exist in this universe; if the drive is opened up, the field collapses and its contents disappear. Therefore, even though a few jump drives have been captured over the years, it has so far proved impossible to reverse engineer them."
+	description "跳跃驱动器的工作原理是一个完全的谜。人类科学家所能发现的最好的情况是，这个装置是一个容纳物质的场，其状态在这个宇宙中通常是不存在的；如果驱动器被打开，这个场就会崩溃，其内容就会消失。因此，尽管多年来已经捕获了一些跳跃驱动器，但迄今为止证明不可能对它们进行反向工程。"
 
 outfit "Jump Drive (Broken)"
 	plural "Jump Drives (Broken)"
@@ -203,7 +203,7 @@ outfit "Jump Drive (Broken)"
 	thumbnail "outfit/jump drive (broken)"
 	"mass" 20
 	"outfit space" -20
-	description "The workings of the jump drive are a total mystery, especially now that this drive seems completely mangled. It is no longer functional in any way. It may, however, still hold some research potential."
+	description "跳跃驱动器的工作原理完全是个谜，尤其是现在这个驱动器似乎完全被打乱了。它在任何方面都不再起作用。不过，它可能仍有一些研究潜力。"
 
 
 outfit "Cargo Scanner"
@@ -214,7 +214,7 @@ outfit "Cargo Scanner"
 	"outfit space" -1
 	"cargo scan power" 9
 	"cargo scan efficiency" 5
-	description "This scanner allows you to scan the cargo holds of the ship you are currently targeting, as long as you are flying close enough to it. Patrol craft use cargo scanners to detect illegal contraband. Installing more than one increases the scan range and speed."
+	description "这个扫描器可以让你扫描你目前所瞄准的飞船的货舱，只要你飞得足够接近它。巡逻艇使用货物扫描器来检测非法违禁品。安装一个以上的扫描仪可以增加扫描范围和速度。"
 
 outfit "Outfit Scanner"
 	category "Systems"
@@ -224,7 +224,7 @@ outfit "Outfit Scanner"
 	"outfit space" -2
 	"outfit scan power" 25
 	"outfit scan efficiency" 15
-	description "This scanner allows you to determine what outfits are installed in the ship you are currently targeting, if you are willing to risk flying close enough to it to get a reading! The Republic Navy uses these scanners to detect when ships are equipped with illegal weaponry. Installing more than one increases the scan range and speed."
+	description "如果你愿意冒险飞到足够近的地方获得读数，这种扫描仪可以让你确定你当前目标的飞船上安装了什么装备!共和国海军使用这些扫描器来检测船只是否装备了非法武器。安装一个以上的扫描器可以增加扫描范围和速度。"
 
 outfit "Asteroid Scanner"
 	category "Systems"
@@ -233,7 +233,7 @@ outfit "Asteroid Scanner"
 	"mass" 6
 	"outfit space" -6
 	"asteroid scan power" 40
-	description "This highly specialized scanning system can analyze the mineral composition of nearby asteroids and identify the ones that contain valuable materials."
+	description "这种高度专业化的扫描系统可以分析附近小行星的矿物成分，并识别出含有宝贵材料的小行星。"
 
 outfit "Tactical Scanner"
 	category "Systems"
@@ -242,7 +242,7 @@ outfit "Tactical Scanner"
 	"mass" 4
 	"outfit space" -4
 	"tactical scan power" 32
-	description "A tactical scanner allows your ship to determine the fuel, energy, heat, and crew complement of nearby targets. For centuries tactical scanners were only employed by the Navy, but recently Kraz Cybernetics has begun manufacturing them for use by militia ships."
+	description "战术扫描仪可以让你的飞船确定附近目标的燃料、能量、热量和船员的补充情况。几个世纪以来，战术扫描仪只被海军使用，但最近克拉兹网络技术公司开始制造它们，供民兵船只使用。"
 
 outfit "Surveillance Pod"
 	category "Systems"
@@ -256,7 +256,7 @@ outfit "Surveillance Pod"
 	"cargo scan efficiency" 10
 	"atmosphere scan" 100
 	"tactical scan power" 9
-	description "This is Navy technology, a collection of scanners designed to fit perfectly inside one of their surveillance drones. Since the outputs are fairly standard, you could connect it to your own ship's systems if you want. Installing more than one increases the scan range and speed."
+	description "这是海军的技术，一组扫描仪被设计成可以完美地安装在他们的监视无人机中。由于输出相当标准，如果你愿意，你可以把它连接到你自己的船舶系统。安装多个扫描器可以增加扫描范围和速度。"
 
 
 outfit "Cloaking Device"
@@ -268,7 +268,7 @@ outfit "Cloaking Device"
 	"cloaking energy" 1
 	"cloaking fuel" .2
 	"unplunderable" 1
-	description "You're sure the cloaking device is here somewhere, but you can't see it."
+	description "你肯定隐身装置就在这里的某个地方，但你看不到它。"
 
 
 outfit "Outfits Expansion"
@@ -281,8 +281,8 @@ outfit "Outfits Expansion"
 	"cooling inefficiency" 1
 	"heat dissipation" -.01
 	"unplunderable" 1
-	description "This expansion allows you to sacrifice some cargo space in order to make room for more outfits, in situations where you need just a bit more space to install a particular system. It does not increase your weapon or engine space."
-	description "	Unfortunately, rearranging the interior of your ship in such a fundamental way tends to interfere with its cooling systems."
+	description "这种扩展允许你牺牲一些货物空间，以便为更多的装备腾出空间，在这种情况下，你只需要多一点空间来安装一个特定的系统。它并不增加你的武器或引擎空间。"
+	description "	不幸的是，以这种基本方式重新安排你的飞船内部往往会干扰其冷却系统。"
 
 outfit "Cargo Expansion"
 	category "Systems"
@@ -292,7 +292,7 @@ outfit "Cargo Expansion"
 	"cargo space" 15
 	"outfit space" -20
 	"unplunderable" 1
-	description "If being able to carry more cargo is more important to you than having advanced weapons or other systems, a cargo expansion will significantly increase the size of your cargo hold."
+	description "如果对你来说，能够运载更多的货物比拥有先进的武器或其他系统更重要，那么货物扩展将大大增加你的货舱的大小。"
 
 outfit "Bunk Room"
 	category "Systems"
@@ -302,7 +302,7 @@ outfit "Bunk Room"
 	"bunks" 4
 	"outfit space" -20
 	"unplunderable" 1
-	description "If you really want to make space for a few more passengers (or crew members, if you're trying to capture other ships), you can expand the living space of your ship into the area usually reserved for outfits."
+	description "如果你真的想为更多的乘客（或船员，如果你想捕获其他船只）腾出空间，你可以将你的船的生活空间扩展到通常为外装保留的区域。"
 
 outfit "Small Bunk Room"
 	category "Systems"
@@ -312,7 +312,7 @@ outfit "Small Bunk Room"
 	"bunks" 2
 	"outfit space" -12
 	"unplunderable" 1
-	description "Captains who do not care particularly much about the comfort of their passengers or crew can usually find a way to shove a bunk bed in behind the power generator or to hang a few hammocks from the engines as a makeshift way to make space for more people."
+	description "那些对乘客或船员的舒适度不是特别在意的船长，通常可以想办法在发电机后面塞进一张双层床，或者在发动机上挂几张吊床，作为一种临时的方式来为更多的人腾出空间。"
 
 outfit "Brig"
 	category "Systems"
@@ -321,7 +321,7 @@ outfit "Brig"
 	"mass" 3
 	"outfit space" -3
 	"unplunderable" 1
-	description "With the addition of some reinforced doors, locks, and security systems, any ship's passenger compartment can be turned into a brig. This makes it suitable for transporting criminals and prisoners, or participating in the highly illegal galactic slave trade. These cells are often found on ships owned by bounty hunters, pirates, and of course, the Republic's interstellar law enforcement."
+	description "只要加上一些强化的门、锁和安全系统，任何船只的乘客舱都可以变成一个旅店。这使得它适用于运送罪犯和囚犯，或参与高度非法的银河系奴隶贸易。这些牢房经常出现在赏金猎人、海盗，当然还有共和国的星际执法部门所拥有的船上。"
 
 outfit "Luxury Accommodations"
 	plural "Luxury Accommodations"
@@ -332,7 +332,7 @@ outfit "Luxury Accommodations"
 	"outfit space" -10
 	"required crew" 2
 	"unplunderable" 1
-	description "Most deep space voyages involve a certain amount of passenger discomfort. With the addition of a few extra fresh water tanks, private bathrooms, wooden fixtures, and some hospitality staff, any ship can be made attractive to a significantly higher - and better paying - class of passenger."
+	description "大多数深空航行都会有一定程度的乘客不适感。通过增加一些额外的淡水箱、私人浴室、木制装置和一些接待人员，任何船只都可以对明显更高的--和更好的--乘客阶层有吸引力。"
 
 outfit "Fuel Pod"
 	category "Systems"
@@ -341,7 +341,7 @@ outfit "Fuel Pod"
 	"mass" 8
 	"outfit space" -8
 	"fuel capacity" 100
-	description "A fuel pod increases your fuel capacity, allowing your ship to make one additional hyperspace jump before it needs to land and refuel."
+	description "一个燃料舱可以增加你的燃料容量，让你的飞船在需要降落和加油之前多进行一次超空间跳跃。"
 
 outfit "Interference Plating"
 	category "Systems"
@@ -350,7 +350,7 @@ outfit "Interference Plating"
 	"mass" 4
 	"outfit space" -4
 	"scan interference" .5
-	description "If you're in the habit of carrying illegal cargo or outfits, this plating increases the odds that a scan of your ship will fail to detect it. The more of these you install, the better your chances of evading detection. It even helps against scans at spaceports, so you can more reliably land to refuel without getting caught."
+	description "如果你有携带非法货物或装备的习惯，这种镀层会增加对你的飞船进行扫描时无法发现的几率。你安装的这些东西越多，你逃避检测的机会就越大。它甚至有助于抵御太空港的扫描，因此你可以更可靠地登陆加油而不被发现。"
 
 
 outfit "Laser Rifle"
@@ -360,7 +360,7 @@ outfit "Laser Rifle"
 	"capture attack" .6
 	"capture defense" .8
 	"unplunderable" 1
-	description "A laser rifle is a step up from the sidearms that crew members typically carry for defense against pirates: more powerful, and more accurate as well. For each of these rifles that one of your crew is wielding, your odds of capturing another ship or defending your own ship from boarders are increased substantially."
+	description "激光步枪比船员们通常携带的用于防御海盗的副武器更上一层楼：威力更大，也更准确。你的船员每挥舞一把这样的步枪，你捕获另一艘船或保卫自己的船免遭海盗袭击的几率就会大大增加。"
 
 outfit "Fragmentation Grenades"
 	plural "Fragmentation Grenades"
@@ -370,7 +370,7 @@ outfit "Fragmentation Grenades"
 	"capture attack" 1.3
 	"capture defense" .3
 	"unplunderable" 1
-	description "Fragmentation grenades are an only marginally legal weapon for hand-to-hand combat when boarding a ship, useful for flushing out defenders who are hunkered down in defensible choke points inside their own ship. They are much less useful as a defensive weapon, but still better than nothing."
+	description "碎裂手榴弹是一种在登船时用于徒手搏斗的合法武器，对于冲出蜷缩在自己船内可防御的咽喉部位的防御者很有用。作为一种防御性武器，它们的作用要小得多，但仍然聊胜于无。"
 
 outfit "Security Station"
 	category "Hand to Hand"
@@ -380,7 +380,7 @@ outfit "Security Station"
 	"outfit space" -2
 	"capture defense" 3.4
 	"unplunderable" 1
-	description "This is a specially designed barricade, which can be installed in the hallways of your ship as a powerful defense against anyone who boards you in an attempt to take over your ship."
+	description "这是一个特别设计的路障，可以安装在你的飞船的走廊上，作为一个强大的防御手段，防止任何人登上你的飞船，试图接管你的飞船。"
 
 outfit "Nerve Gas"
 	plural "Nerve Gas"
@@ -392,20 +392,20 @@ outfit "Nerve Gas"
 	"scan brightness" 1
 	"illegal" 1000000
 	"unplunderable" 1
-	description "This is a highly illegal weapon for hand-to-hand combat when boarding an enemy ship. Because chemical weapons are banned by interstellar law, you can be severely fined for getting caught in possession of nerve gas canisters. But, they do clear out an enemy ship quicker than just about anything else..."
+	description "这是一种高度非法的武器，用于登临敌舰时的徒手搏斗。因为星际法律禁止化学武器，如果你被发现拥有神经毒气罐，你会被严重罚款。但是，它们确实比其他任何东西都更快地清除了敌人的飞船......"
 
 
-outfit `"Puny"`
+outfit `"小不点"`
 	category "Unique"
 	thumbnail "outfit/unknown"
-	description `A poodle you rescued from a dubious racing complex on Freedom. She appears to have formed a strong bond with you, willing to stick by your side.`
-	description `	Her history matches with Pookie's, but Pookie's owner claimed that Puny was not hers. Puny is also vastly less urine-prone; you suspect that the race organizers may have toilet-trained her.`
+	description `你从自由号上一个可疑的赛马场救出的一只狮子狗。她似乎已经与你形成了强烈的联系，愿意坚持在你身边。`
+	description `	她的历史与Pookie的一致，但Pookie的主人声称Puny不是她的。普尼的尿量也大为减少；你怀疑比赛组织者可能已经对她进行了厕所训练。`
 
 outfit "Tear of Skade"
 	category "Unique"
 	thumbnail "outfit/skadetear"
 	"cooling" 4
-	description "A strange glowing stone gifted to you by the Skadenga. It lacks any power source, yet is quite cold."
+	description "Skadenga赠送给你的一块奇怪的发光石头。它缺乏任何动力源，但却相当冷。"
 
 
 outfit "Local Map"
@@ -413,41 +413,41 @@ outfit "Local Map"
 	cost 1000
 	thumbnail "outfit/map"
 	"map" 12
-	description "This data chip contains complete information on the twelve star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
+	description "这个数据芯片包含了离这个星系最近的12个星系的完整信息：行星、港口、政府、贸易价格、可用服务等。你可以通过自己探索这些系统来获得所有相同的信息，但如果你想通过新的领域来快速到达某个系统，拥有一张地图可以使你避免走错路。"
 
 
 outfit "Pilot's License"
 	category "Licenses"
 	cost 50000
 	thumbnail "outfit/license"
-	description "For much of the Republic's nearly three century long history, being able to pilot your own starship was limited only by your ability to purchase one. But at the turn of the millennium in an attempt to increase tax revenue, the Republic Parliament passed a law requiring that all ship captains purchase a pilot's license, and for no small fee at that. Needless to say, this policy is not terribly popular with freelance merchant captains."
+	description "在共和国近三个世纪的大部分历史中，能够驾驶自己的星际飞船只受限于你购买飞船的能力。但在千禧年之交，为了增加税收，共和国议会通过了一项法律，要求所有的舰长都要购买飞行员执照，而且要支付不小的费用。不用说，这项政策在自由商船船长中并不是很受欢迎。"
 
 outfit "Navy License"
 	category "Licenses"
 	thumbnail "outfit/navy license"
-	description "It is unusual, but not unheard of, for private citizens to be given the right to purchase Navy ships for their own private use. Recently, certain rich worlds have also begun petitioning Parliament for special permission to purchase Navy warships for their private security forces."
+	description "私人公民被赋予购买海军舰艇供自己私人使用的权利是不寻常的，但并非闻所未闻。最近，某些富裕的世界也开始向议会申请特别许可，为其私人安全部队购买海军战舰。"
 
 outfit "Navy Auxiliary License"
 	category "Licenses"
 	thumbnail "outfit/auxiliary license"
-	description "It is a particularly rare occurrence for a Navy Auxiliary, of any kind, to be owned for private use."
+	description "为私人使用而拥有海军的任何种类的辅助舰艇是特别罕见的事情。"
 
 outfit "Navy Cruiser License"
 	category "Licenses"
 	thumbnail "outfit/navy cruiser license"
-	description "It is a very rare privilege to be permitted to purchase a Navy capital ship for private use - not just because of a Cruiser's firepower, but because it is a potent symbol of the Republic's strength."
+	description "被允许购买一艘海军首舰供私人使用是一种非常罕见的特权--不仅仅是因为巡洋舰的火力，还因为它是共和国力量的有力象征。"
 
 outfit "Navy Carrier License"
 	category "Licenses"
 	thumbnail "outfit/navy carrier license"
-	description "Only a handful of people in the past century have been given permission to purchase a Navy Carrier, even a decommissioned one, for private use."
+	description "在过去的一个世纪里，只有少数人被允许购买海军航母，甚至是退役的航母，供私人使用。"
 
 outfit "Militia License"
 	category "Licenses"
 	thumbnail "outfit/militia license"
-	description "This is the standard issue license for all pilots that have enlisted in a local militia, but with the formation of the Free Worlds it has also become a license given to all those that fight for the Free Worlds cause, allowing pilots to fly the colors of the Free Worlds and purchase unique ships that the fledgling government has developed."
+	description "这是所有在当地民兵中入伍的飞行员的标准发证，但随着自由世界的形成，它也成为给予所有为自由世界事业而战的人的许可证，允许飞行员悬挂自由世界的颜色，并购买新生政府开发的独特战舰。"
 
 outfit "City-Ship License"
 	category "Licenses"
 	thumbnail "outfit/city-ship license"
-	description "You look closely at the silhouette of the ship on the license, but you can't make out what model of ship it is. Perhaps it is an older city-ship, one of the first that carried humanity to greatness among the stars."
+	description "你仔细观察许可证上的飞船轮廓，但你无法弄清它是什么型号的飞船。也许它是一艘更古老的城市飞船，是最早将人类带入星际的伟大时代的飞船之一。"

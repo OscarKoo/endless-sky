@@ -194,7 +194,7 @@ phrase "bunrodea"
 	phrase
 		"bunrodea short"
 	word
-		" vo "
+		" 声音"
 	phrase
 		"bunrodea title"
 
@@ -202,7 +202,7 @@ phrase "bunrodea (erabu)"
 	phrase
 		"bunrodea title"
 	word
-		" xx "
+		" xx"
 	phrase
 		"bunrodea short"
 	replace
@@ -213,15 +213,15 @@ phrase "bunrodea title"
 	word
 		"Era"
 		"Eru"
-		"Erga"
-		"Ergu"
-		"Jentila"
-		"Jentlu"
-		"Thshyba"
+		"埃尔加"
+		"埃尔古"
+		"珍蒂拉"
+		"扬特鲁"
+		"瑟希巴"
 		"Thshu"
-		"Bosuna"
-		"Bosunu"
-		"Shina"
+		"博苏纳"
+		"波苏努"
+		"诗纳"
 		"Shinu"
 
 phrase "bunrodea short"
@@ -251,4 +251,4 @@ phrase "bunrodea end"
 		"iko"
 		"eka"
 		"uzi"
-		"talo"
+		"塔罗"

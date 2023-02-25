@@ -12,10 +12,10 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 mission "Drought Relief"
-	name `Drought relief to <planet>`
+	name `向<planet>提供抗旱援助`
 	job
 	repeat
-	description `The farming world of <destination> is currently experiencing a drought. Deliver <cargo> to the planet by <date> for <payment>.`
+	description `<destination>的农业世界目前正在经历一场干旱。在<cargo>之前将<date>运送到该星球，以获得<payment>。`
 	cargo "drought relief supplies" 25 2 .05
 	deadline
 	to offer
@@ -31,14 +31,14 @@ mission "Drought Relief"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 10000 160
-		dialog "You drop off your cargo of <commodity> and collect your payment of <payment>. A group of <planet> citizens thank you and bid you farewell."
+		dialog "你放下你的<commodity>货物，并收取你的<payment>款项。一群<planet>公民感谢你并向你告别。"
 
 
 mission "To Remembrance Day celebration [0]"
-	name `Remembrance Day celebration`
+	name `纪念日庆祝活动`
 	job
 	repeat
-	description `Bring <fare> to <destination> by <date> for the Remembrance Day celebration on February 19th. Payment is <payment>.`
+	description `在<fare>之前将<destination>送到<date>，参加2月19日的纪念日庆祝活动。付款方式为<payment>。`
 	passengers 4 4 .5
 	deadline
 	to offer
@@ -66,14 +66,14 @@ mission "To Remembrance Day celebration [0]"
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 1000 180
-		dialog "You wish your <passengers> the best of luck on <planet>. The children run off your ship in green face paint, and the parents pay you <payment>."
+		dialog "你祝你的<passengers>在<planet>上好运。孩子们涂着绿色的脸蛋跑下你的船，家长们向你支付<payment>。"
 
 
 mission "To Remembrance Day celebration [1]"
-	name `Remembrance Day celebration`
+	name `纪念日庆祝活动`
 	job
 	repeat
-	description `Deliver <cargo> to <destination> by <date> in preparation for the Remembrance Day celebration on February 19th. Payment is <payment>.`
+	description `在<cargo>之前将<destination>运送到<date>，为2月19日的纪念日庆祝活动做准备。付款方式为<payment>。`
 	cargo random 5 2 .1
 	deadline
 	to offer
@@ -101,13 +101,13 @@ mission "To Remembrance Day celebration [1]"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 1000 180
-		dialog `Spaceport workers already festively dressed for Remembrance Day remove the cargo of <commodity> from your ship and hand you your payment of <payment>.`
+		dialog `已经为纪念日穿戴整齐的太空港工人从你的船上卸下<commodity>的货物，并将你的报酬<payment>交给你。`
 
 mission "To Remembrance Day celebration [2]"
-	name `Remembrance Day celebration`
+	name `纪念日庆祝活动`
 	job
 	repeat
-	description `Deliver <cargo> to <destination> by <date> in preparation for the Remembrance Day celebration on February 19th. Payment is <payment>.`
+	description `在<cargo>之前将<destination>运送到<date>，为2月19日的纪念日庆祝活动做准备。付款方式为<payment>。`
 	cargo random 5 2 .1
 	deadline
 	to offer
@@ -135,14 +135,14 @@ mission "To Remembrance Day celebration [2]"
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 1000 180
-		dialog `Spaceport workers already festively dressed for Remembrance Day remove the cargo of <commodity> from your ship and hand you your payment of <payment>.`
+		dialog `已经为纪念日穿戴整齐的太空港工人从你的船上卸下<commodity>的货物，并将你的报酬<payment>交给你。`
 
 
 mission "From Remembrance Day celebration [0]"
-	name `Return from Remembrance Day`
+	name `从纪念日返回`
 	job
 	repeat
-	description `Bring <fare> home to <destination> after the Remembrance Day celebration. Payment is <payment>.`
+	description `在纪念日庆祝活动结束后，将<fare>带回<destination>。付款为<payment>。`
 	passengers 4 4 .5
 	to offer
 		or
@@ -167,14 +167,14 @@ mission "From Remembrance Day celebration [0]"
 	on complete
 		payment
 		payment 1000
-		dialog `Your passengers thank you for returning them to <planet>, and you collect your payment of <payment>.`
+		dialog `你的乘客感谢你将他们送回<planet>，你收取了你的报酬<payment>。`
 
 
 mission "From Remembrance Day celebration [1]"
-	name `Return from Remembrance Day`
+	name `从纪念日返回`
 	job
 	repeat
-	description `Bring <fare> home to <destination> after the Remembrance Day celebration. Payment is <payment>.`
+	description `在纪念日庆祝活动结束后，将<fare>带回<destination>。付款为<payment>。`
 	passengers 4 4 .3
 	to offer
 		or
@@ -199,15 +199,15 @@ mission "From Remembrance Day celebration [1]"
 	on complete
 		payment
 		payment 1000
-		dialog `Your passengers thank you for returning them to <planet>, and you collect your payment of <payment>.`
+		dialog `你的乘客感谢你将他们送回<planet>，你收取了你的报酬<payment>。`
 
 
 mission "Food Convoy [0]"
-	name `Food convoy to <planet>`
+	name `前往<planet>的食品车队`
 	job
 	repeat
 	deadline
-	description `The captain of the <npc>, leading a small convoy of ships carrying food, will pay you <payment> to escort them to <destination> by <date>.`
+	description `<npc>的船长带领一支运送食物的小型船队，将支付你<payment>，在<destination>之前护送他们到<date>。`
 	to offer
 		random < 30
 		"combat rating" > 30
@@ -250,17 +250,17 @@ mission "Food Convoy [0]"
 				"Freighter" 3
 	on complete
 		payment 100000
-		dialog "The captain of the <npc> thanks you for escorting their ships safely, and pays you <payment>."
+		dialog "<npc>的船长感谢你安全护送他们的船只，并付给你<payment>。"
 	on visit
 		dialog phrase "generic arrived-without-npc dialog"
 
 
 mission "Food Convoy [1]"
-	name `Food convoy to <planet>`
+	name `前往<planet>的食品车队`
 	job
 	repeat
 	deadline
-	description `The captain of the <npc>, leading a convoy of ships carrying food, will pay you <payment> to escort them to <destination> by <date>.`
+	description `<npc>的船长带领一支运送食物的船队，将支付给你<payment>，让你在<destination>之前护送他们到<date>。`
 	to offer
 		random < 25
 		"combat rating" > 60
@@ -295,17 +295,17 @@ mission "Food Convoy [1]"
 				"Freighter" 2
 	on complete
 		payment 160000
-		dialog "The captain of the <npc> thanks you for escorting their ships safely, and pays you <payment>."
+		dialog "<npc>的船长感谢你安全护送他们的船只，并付给你<payment>。"
 	on visit
 		dialog phrase "generic arrived-without-npc dialog"
 
 
 mission "Food Convoy [2]"
-	name `Food convoy to <planet>`
+	name `前往<planet>的食品车队`
 	job
 	repeat
 	deadline
-	description `The captain of the <npc>, leading a large convoy of ships carrying food, will pay you <payment> to escort them to <destination> by <date>.`
+	description `<npc>的船长带领一支运送食物的大型船队，将支付给你<payment>，以护送他们在<destination>前到达<date>。`
 	to offer
 		random < 15
 		"combat rating" > 90
@@ -341,6 +341,6 @@ mission "Food Convoy [2]"
 				"Behemoth" 2
 	on complete
 		payment 220000
-		dialog "The captain of the <npc> thanks you for escorting their ships safely, and pays you <payment>."
+		dialog "<npc>的船长感谢你安全护送他们的船只，并付给你<payment>。"
 	on visit
 		dialog phrase "generic arrived-without-npc dialog"

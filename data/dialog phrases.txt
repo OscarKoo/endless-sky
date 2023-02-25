@@ -13,121 +13,121 @@
 
 phrase "generic arrived-without-npc dialog"
 	word
-		`You have reached <planet>, but you left the <npc> behind! Better depart and wait for them to arrive in this star system.`
+		`你已经到达了<planet>，但你把<npc>落在了后面！你最好离开，等待他们到达这个星系。最好离开并等待他们到达这个星系。`
 phrase "generic safe escort completion dialog"
 	word
-		`The captain of the <npc> thanks you for escorting them safely, and pays you <payment>.`
+		`<npc>的船长感谢你安全护送他们，并付给你<payment>。`
 
 phrase "generic pirate attack payment dialog"
 	word
-		`The government of <planet>`
+		`<planet>的政府`
 	word
 		` `
-		` gratefully `
+		` 感激地`
 	word
-		`pays you <payment> for helping to`
+		`付给你<payment>，感谢你帮助`
 	word
-		` drive off `
-		` defeat `
+		` 赶走了`
+		` 打败`
 	word
-		`the `
+		`的人质。`
 	word
-		`pirates.`
-		`raiders.`
-		`attackers.`
+		`海盗。`
+		`突袭者。`
+		`攻击者。`
 
 phrase "generic cargo delivery payment"
 	word
-		`You drop off your cargo of <commodity> and collect your payment of <payment>.`
+		`你放下了你的<commodity>的货物，并收取了你的<payment>的款项。`
 phrase "generic cargo on visit"
 	word
-		`You have reached <planet>, but not all of the cargo is in the system! Better depart and wait for your escorts to arrive in this star system.`
+		`你已经到达<planet>，但并不是所有的货物都在这个系统中！你最好离开，等待你的护卫队到达这个星系。最好离开并等待你的护卫队到达这个星系。`
 
 phrase "generic passenger dropoff payment"
 	word
-		`You wish your <passengers> the best of luck on <planet>, and collect your payment of <payment>.`
-		`You say farewell to your <passengers> on <planet>, and collect your payment of <payment>.`
+		`你祝你的<passengers>在<planet>上好运，并收取你的<payment>。`
+		`您在<passengers>上与您的<planet>告别，并收取您的<payment>。`
 phrase "generic passenger on visit"
 	word
-		`You have reached <planet>, but not all of the passengers are in the system! Better depart and wait for your escorts to arrive in this star system.`
+		`您已经到达<planet>，但不是所有的乘客都在系统中！您最好离开并等待您的护送者。最好离开并等待你的护卫队到达这个星系。`
 
 phrase "generic cargo and passenger on visit"
 	word
-		`You have reached <planet>, but not all of the cargo and passengers are in the system! Better depart and wait for your escorts to arrive in this star system.`
+		`你已经到达<planet>，但不是所有的货物和乘客都在该系统中！最好离开并等待你的护卫队到达该星系。最好离开并等待你的护卫队到达这个星系。`
 
 phrase "generic missing stopover or cargo and passengers"
 	word
-		`You have reached <planet>, but you're missing something! Either you haven't visited <stopovers>, or not all the cargo and passengers are in the system.`
+		`你已经到达了<planet>，但你错过了一些东西!要么你没有访问<stopovers>，要么不是所有的货物和乘客都在这个系统中。`
 phrase "generic missing stopover or passengers"
 	word
-		`You have reached <planet>, but you're missing something! Either you haven't visited <stopovers>, or not all the passengers are in the system.`
+		`你已经到达<planet>，但你错过了一些东西!要么你没有访问过<stopovers>，要么不是所有的乘客都在这个系统中。`
 phrase "generic missing stopover or cargo"
 	word
-		`You have reached <planet>, but you're missing something! Either you haven't visited <stopovers>, or not all the cargo is in the system.`
+		`你已经到达<planet>，但你错过了一些东西!要么你没有访问过<stopovers>，要么不是所有的货物都在系统中。`
 phrase "generic missing stopover or escort"
 	word
-		`You have reached <planet>, but you're missing something! Either you haven't visited <stopovers>, or you left the <npc> behind.`
+		`你已经到达<planet>，但你错过了一些东西!要么你没有访问过<stopovers>，要么你把<npc>留下了。`
 phrase "generic missing waypoint or cargo and passengers"
 	word
-		`You have reached <planet>, but you're missing something! Either you haven't passed through <waypoints>, or not all the cargo and passengers are in the system.`
+		`你已经到达<planet>，但你错过了一些东西!要么你没有经过<waypoints>，要么不是所有的货物和乘客都在这个系统中。`
 phrase "generic missing waypoint or passengers"
 	word
-		`You have reached <planet>, but you're missing something! Either you haven't passed through <waypoints>, or not all the passengers are in the system.`
+		`你已经到达<planet>，但你错过了一些东西!要么你没有通过<waypoints>，要么不是所有的乘客都在这个系统中。`
 phrase "generic missing waypoint or cargo"
 	word
-		`You have reached <planet>, but you're missing something! Either you haven't passed through <waypoints>, or not all the cargo is in the system.`
+		`你已经到达<planet>，但你错过了一些东西!要么你没有通过<waypoints>，要么不是所有的货物都在这个系统中。`
 
 phrase "generic stopover on visit"
 	word
-		`You have reached <planet>, but you haven't visited all the planets yet! Better depart and make sure you visit <stopovers>.`
+		`你已经到达了<planet>，但你还没有访问所有的行星！你最好离开并确保你访问了所有的行星。最好出发并确保你访问了<stopovers>。`
 phrase "generic waypoint on visit"
 	word
-		`You have reached <planet>, but you haven't visited all the systems yet! Better depart and make sure you visit <waypoints>.`
+		`你已经到达<planet>，但你还没有访问过所有的系统!最好离开并确保你访问了<waypoints>。`
 
 
 phrase "generic hunted bounty eliminated dialog"
 	word
-		`The <npc> has been eliminated. You can claim the bounty payment by returning to <destination>.`
+		`<npc>已经被消灭了。你可以通过返回<destination>来索取赏金。`
 phrase "generic bounty hunting payment dialog"
 	word
-		`The government of <planet> gratefully pays you <payment> for eliminating the <npc>.`
+		`<planet>的政府感谢你为消灭<payment>而支付<npc>。`
 phrase "generic bounty hunting on visit"
 	word
-		`You've landed on <planet>, but the <npc> has not been eliminated yet. Hunt it down and destroy it before returning.`
+		`你已经降落在<planet>上，但是<npc>还没有被消灭。猎杀它并在返回前消灭它。`
 phrase "generic bounty hunting boarding on visit"
 	word
-		`You've landed on <planet>, but you have not boarded the <npc> yet. Hunt it down and board it before returning.`
+		`你已经降落在<planet>上，但你还没有登上<npc>。猎杀它并在返回前登上它。`
 
 phrase "generic hunted bounty fleet eliminated dialog"
 	word
-		`The <npc> and their fleet have been eliminated. You can claim the bounty payment by returning to <destination>.`
+		`<npc>和他们的舰队已经被消灭了。你可以通过返回<destination>来索取赏金。`
 phrase "generic fleet bounty hunting payment dialog"
 	word
-		`The government of <planet> gratefully pays you <payment> for eliminating the <npc> and their fleet.`
+		`<planet>的政府感谢你为消灭<payment>和他们的舰队而支付<npc>。`
 phrase "generic fleet bounty hunting on visit"
 	word
-		`You've landed on <planet>, but the <npc> and its fleet has not been eliminated yet. Hunt it down and destroy it before returning.`
+		`你已经降落在<planet>上，但<npc>及其舰队还没有被消灭。猎杀它并在返回前消灭它。`
 
 phrase "generic pirate fleet battle on visit"
 	word
-		`You've landed on <planet>, but there are still pirates circling overhead. You should take off and help finish them off.`
+		`你已经降落在<planet>上，但仍有海盗在上空盘旋。你应该起飞并帮助解决他们。`
 
 phrase "generic completed pirate cargo mission"
 	word
-		`You find the contact at the edge of the spaceport. Your cargo of <commodity> is removed from your ship, and you collect your payment of <payment>.`
+		`你在太空港的边缘找到了联系人。你的<commodity>货物被从你的船上移走，你收到了<payment>的付款。`
 
 phrase "generic completed highly illegal pirate cargo mission"
 	word
-		`You find the contact outside of the main city. Your cargo of <commodity> is removed from your ship, and you collect your payment of <payment>.`
+		`你在主城外找到了联系人。你的<commodity>货物被从你的船上移走，你收到了<payment>的付款。`
 
 phrase "generic aborted pirate passenger mission"
 	word
-		`Your passenger never arrived at <destination>. This doesn't help to establish your reputation as reliable, no-questions-asked transporter.`
+		`你的乘客从未到达过<destination>。这无助于建立你作为可靠的、没有问题的运输商的声誉。`
 
 phrase "generic aborted pirate cargo mission"
 	word
-		`Your cargo of <commodity> never arrived at its destination. The pirates won't be happy to hear about this.`
+		`你的<commodity>的货物从未抵达目的地。海盗们听到这个消息会很不高兴。`
 
 phrase "generic completed pirate slave mission"
 	word
-		`After landing on <planet>, the pirates move the <bunks> slaves from your ship and pay you <payment>.`
+		`在<planet>上登陆后，海盗们从你的船上搬走了<bunks>奴隶，并向你支付<payment>。`

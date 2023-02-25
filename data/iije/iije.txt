@@ -63,7 +63,7 @@ ship "Jje"
 	engine 0 0
 	"steering engine" 0 0
 	"final explode" "jje boom"
-	description "This is an adolescent form of the Iije, having recently consumed quanities of stellar dust, matter, and energy. They are attracted to light in the dim space of the Umbral Reach, and are occasionally seen flying in groups."
+	description "这是一个青春期形态的Iije，最近吞噬了定量的恒星尘埃、物质和能量。它们在保护圈的昏暗空间中被光所吸引，偶尔会看到它们成群结队地飞行。"
 
 ship "Ayym"
 	plural "Ayym"
@@ -151,7 +151,7 @@ ship "Ayym"
 		over
 		angle -53
 	"final explode" "ayym boom"
-	description "This is an adult form of the Iije, having grown enormous from consuming stellar matter over hundreds of thousands of years. They can be seen carrying the smaller Jje around the Umbral Reach, but the exact purpose of this activity is unknown."
+	description "这是一个成年形式的Iije，由于消耗了数十万年的恒星物质而变得巨大。可以看到它们带着较小的Jje在Umbral Reach周围飞行，但这种活动的确切目的不详。"
 
 # Effects:
 
@@ -303,4 +303,3 @@ fleet "Iije (Surveillance)"
 		"Ayym"
 		"Jje" 9
 		
-

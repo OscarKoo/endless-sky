@@ -29,7 +29,7 @@ outfit "Drak Distancer"
 		"firing energy" 15
 		"firing heat" 10
 		"firing force" 75
-	description "This is a thruster that can produce force in any direction, allowing a Drak ship to keep a safe distance away from its target."
+	description "这是一个推进器，可以在任何方向上产生力量，让德拉克飞船与目标保持安全距离。"
 
 effect "distancer flare"
 	sprite "effect/distancer"
@@ -65,7 +65,7 @@ outfit "Drak Draining Field"
 		"scrambling damage" .5
 		"disruption damage" 1
 		"safe"
-	description "This device is the Archon's primary defensive tool: Not only does it disrupt the shields and energy supplies of all hostile ships within it, it also exerts a powerful repelling force that keeps ships from closing in with the Archon."
+	description "这个装置是Archon的主要防御工具。它不仅能破坏其中所有敌对舰艇的护盾和能量供应，还能施加强大的排斥力，使舰艇无法向大帝号靠拢。"
 
 
 outfit "Drak Draining Field (Augmented)"
@@ -96,8 +96,8 @@ outfit "Drak Draining Field (Augmented)"
 		"scrambling damage" 1
 		"disruption damage" 2
 		"safe"
-	description "This device is the Archon's primary defensive tool: Not only does it disrupt the shields and energy supplies of all hostile ships within it, it also exerts a powerful repelling force that keeps ships from closing in with the Archon."
-	description "	While normally kept at minimal strength, the Archons have demonstrated the ability to ramp up the field to be vastly stronger when faced with a serious threat."
+	description "这个装置是Archon的主要防御工具。它不仅能破坏其中所有敌对舰艇的护盾和能量供应，还能施加强大的排斥力，使舰艇无法向大帝号靠拢。"
+	description "	虽然通常保持最小的强度，但大主教已经证明有能力在面临严重威胁时将该领域的强度提高到极大。"
 
 
 outfit "Drak Anti-Missile Field"
@@ -116,7 +116,7 @@ outfit "Drak Anti-Missile Field"
 		"firing energy" 10
 		"firing heat" 1
 		"anti-missile" 100
-	description "This device produces a field that destroys any missiles that come within it."
+	description "这个装置产生的磁场可以摧毁任何进入它的导弹。"
 
 
 outfit "Drak Anti-Missile Field (Augmented)"
@@ -136,8 +136,8 @@ outfit "Drak Anti-Missile Field (Augmented)"
 		"firing energy" 10
 		"firing heat" 1
 		"anti-missile" 500
-	description "This device produces a field that destroys any missiles that come within it."
-	description "	This level of anti-missile effectiveness is required only when dealing with the most powerful of threats."
+	description "这个装置产生的磁场可以摧毁任何进入它的导弹。"
+	description "	只有在应对最强大的威胁时，才需要这种水平的反导弹效力。"
 
 
 outfit "Drak Turret"
@@ -164,7 +164,7 @@ outfit "Drak Turret"
 		"shield damage" 256
 		"hull damage" 256
 		"hit force" 120
-	description "This is a turret based cannon with significant range and accuracy."
+	description "这是一种基于炮塔的大炮，具有很大的射程和精度。"
 
 
 outfit "Drak Turret (Augmented)"
@@ -192,8 +192,8 @@ outfit "Drak Turret (Augmented)"
 		"shield damage" 2560
 		"hull damage" 2560
 		"hit force" 120
-	description "This is a turret based cannon with significant range and accuracy."
-	description "	Against most threats, Archons respond with their weapons set to very low levels. They are, however, more than capable of dealing much more damage when the situation requires it."
+	description "这是一种基于炮塔的大炮，具有很大的射程和精度。"
+	description "	对付大多数威胁，Archons用他们的武器设置到非常低的水平来应对。然而，当情况需要时，他们更有能力造成更大的伤害。"
 
 effect "drak bolt impact"
 	sprite "effect/drak bolt impact"
@@ -229,7 +229,7 @@ outfit "Drak Antimatter Cannon"
 		"firing heat" 1870
 		"blast radius" 100
 		"hit force" 1000
-	description "This is the most powerful weapon that the Archons deign to utilize in the presence of the younger races."
+	description "这是Archons在年轻种族面前使用的最强大的武器。"
 
 
 outfit "Drak Antimatter Cannon (Augmented)"
@@ -256,7 +256,7 @@ outfit "Drak Antimatter Cannon (Augmented)"
 		"firing heat" 1870
 		"blast radius" 250
 		"hit force" 1000
-	description "This is the most powerful weapon that the Archons deign to utilize in the presence of the younger races. Hitherto unknown as Archons are rarely pushed to the point of needing to use more than their minimum abilities, the Antimatter Cannon is capable of far more damage than originally thought."
+	description "这是Archons在年轻种族面前所使用的最强大的武器。迄今为止，由于大弓箭手很少被逼到需要使用超过其最低能力的地步，因此反物质炮的破坏力远远超过了原先的想象。"
 
 
 outfit "Drak Antimatter Fragment"
@@ -316,4 +316,3 @@ effect "antimatter dust"
 	"random spin" 50
 	"random velocity" 12
 	"velocity scale" .1
-

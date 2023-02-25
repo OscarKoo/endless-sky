@@ -213,8 +213,8 @@ event "remnant: pantica void sprites"
 		government "Remnant"
 		add attributes remnant
 		remove attributes uninhabited
-		description `While Esquiline used to be simply another planet the Remnant harvested valuable resources from, the introduction of void sprites and the activation of their station has turned this world into a hidden research lab: The first human astrobiology station studying void sprites.`
-		add spaceport `Although the facilities here are basic, the Remnant cafeteria boasts a food dispenser that is available at any time, along with a mesmerizing view of the clouds outside. Occasionally a void sprite will pass in front of the window, much to the delight of everyone.`
+		description `虽然埃斯奎林曾经只是残存者收获宝贵资源的另一个星球，但虚空精灵的引入和他们的站台的激活已经把这个世界变成了一个隐藏的研究实验室。第一个研究虚空精灵的人类天体生物学站。`
+		add spaceport `虽然这里的设施很简陋，但遗迹食堂拥有一个随时可以使用的食物分配器，同时还可以看到外面令人着迷的云层。偶尔会有一个虚空精灵从窗前经过，让大家都很高兴。`
 
 
 
@@ -285,9 +285,9 @@ event "remnant: ssil vida inhabited"
 	planet "Ssil Vida"
 		attributes emitter sheragi remnant
 		landscape land/station0
-		description `The silence of this station rings in your ears, and as you explore you are increasingly surprised that it even has an atmosphere. It is obviously ancient, and patches of ambiguous green and purple material resembling fungus grow through the walls. Whoever built this station designed it for beings much larger than you - either that, or they liked spacious environments. Even the shortest doorway you pass through is easily double your height. They are always wider than they are tall.`
-		description `	Exploring beyond the docks reveals that most of this facility is infrastructure for some type of massive emitter. It is not clear exactly what it's supposed to be emitting, but it might have something to do with how this system appeared in the first place.`
-		spaceport `The Remnant have set up a fully self-contained base of operations in this part of the station. Independent life support, its own power system, and controls tapping into the rest of station occupy much of the space, while a Research Laboratory and additional equipment fill up the rest. A rudimentary cafeteria, communication links, basic repair equipment, and sleeping quarters round out the amenities of this research camp.`
+		description `这个车站的寂静在你的耳边响起，随着你的探索，你越来越惊讶，它甚至有一种气氛。它显然是古老的，墙壁上长出了一些类似于真菌的模糊的绿色和紫色材料的斑块。建造这个站的人是为比你大得多的生物设计的--要么就是，他们喜欢宽敞的环境。即使是你经过的最短的门洞，也很容易是你身高的两倍。他们总是比他们的身高更宽。`
+		description `	在码头外探索发现，这个设施的大部分都是某种类型的大型发射器的基础设施。目前还不清楚它到底应该发射什么，但它可能与这个系统最初出现的方式有关。`
+		spaceport `残余者在空间站的这一部分建立了一个完全独立的行动基地。独立的生命支持系统、自己的电力系统和与空间站其他部分连接的控制装置占据了大部分空间，而一个研究实验室和额外的设备则填满了其余的空间。一个简陋的食堂、通讯连接、基本的维修设备和睡眠区完善了这个研究营地的设施。`
 		bribe 0
 		government Remnant
 
@@ -346,8 +346,8 @@ event "remnant: ssil vida activation"
 	planet Fertriery
 		attributes "requires: gaslining" uninhabited
 		landscape land/nasa8
-		description `You are not quite sure what Fetriery is. It lacks cohesive edges, and yet it has sufficient atmospheric pressure to threaten the hull integrity of ships not designed for high pressure environments. Despite such density, which would indicate a strong gravitational presence, your sensors are unable to find any kind of core.`
-		spaceport `Delving further into the clouds, it becomes obvious that the entire planet appears to be a mix of gases, aerosols, and suspended particles. Despite this, or perhaps because of it, void sprites appear to thrive in its depths, where they can be seen dancing among energy currents reminiscent of the ion storms.`
+		description `你并不十分确定 "胎教 "是什么。它缺乏凝聚力的边缘，然而它有足够的大气压力，威胁到不是为高压环境设计的船只的船体完整性。尽管这样的密度表明有强大的引力存在，但你的传感器却无法找到任何类型的核心。`
+		spaceport `进一步深入云层，很明显，整个星球似乎是气体、气溶胶和悬浮颗粒的混合物。尽管如此，或者也许正因为如此，虚空精灵似乎在其深处茁壮成长，在那里可以看到它们在让人想起离子风暴的能量流中跳舞。`
 		government "Ember Waste"
 		bribe 0
 		security 0
@@ -824,7 +824,7 @@ event "remnant: ssil vida deactivation"
 	planet Fertriery
 		attributes "requires: gaslining" uninhabited
 		landscape land/nasa8
-		description `Fertriery is a fairly typical world with a particularly dense atmosphere that includes significant levels of chlorine and fluorine. The only unusual factor is the above-average temperatures, likely due to the decreased energy loss into the surrounding space.`
+		description `Fertriery是一个相当典型的世界，气氛特别浓郁，包括大量的氯和氟。唯一不寻常的因素是高于平均水平的温度，可能是由于进入周围空间的能量损失减少。`
 		remove spaceport
 		government Uninhabited
 		bribe 0

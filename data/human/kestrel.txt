@@ -12,8 +12,8 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 mission "Kestrel Testing"
-	name "Warship Testing"
-	description "Travel to the <waypoints> system to fight and disable a prototype warship that Tarazed Corporation is testing. Do not destroy the ship, or you will lose your payment and your opportunity to buy one."
+	name "军舰测试"
+	description "前往<waypoints>系统，与Tarazed公司正在测试的一艘原型战舰作战并使其失效。不要摧毁这艘船，否则你将失去你的付款和购买的机会。"
 	source "Wayfarer"
 	waypoint "Umbral"
 	to offer
@@ -21,35 +21,35 @@ mission "Kestrel Testing"
 	
 	on offer
 		conversation
-			`As you are visiting one of the spaceport bars, a man recognizes you. "<first> <last>!" he says. "It's an honor to meet you. Your exploits in battle are well known." He picks up his drink and walks over to sit next to you. "My name is Charles Atinoda," he says, "the chief starship designer for Tarazed Corporation. Say, would you be willing to help us test out a new warship?"`
+			`当你正在参观太空港的一个酒吧时，一个人认出了你。"<first><last>！"他说。"很荣幸见到你。你在战斗中的功绩是众所周知的。"他拿起他的饮料，走过去坐在你旁边。"我叫查尔斯-阿蒂诺达，"他说，"塔拉兹德公司的首席星舰设计师。我说，你是否愿意帮助我们测试一艘新的战舰？"`
 			choice
-				`	"Tell me more."`
-				`	"Sorry, I don't have time right now."`
+				`	"告诉我更多。"`
+				`	"对不起，我现在没有时间。"`
 					defer
-			`	"Well," he says, "here's the story. Seven years ago, in a time of deep personal crisis, I left my job at Tarazed to wander the galaxy with nothing in my backpack but a change of clothes, a canteen of water, and a few boxes of emergency rations. An anarchist commune on one of the fringe worlds took me in. After I had been there for a month, the village elder, sensing my inner turmoil, invited me to a vision quest in their sweat lodge. I fell into a trance and my consciousness journeyed through many universes, where I saw strange things. I saw a sword made of light. I saw a blue sun. I saw..." He pauses for a moment. "... a Welsh Corgi hacking into a computer? Some of it was hard to understand."`
+			`	"好吧，"他说，"故事是这样的。七年前，在一次深刻的个人危机中，我离开了塔拉兹德的工作，在银河系中游荡，背包里除了一件换洗的衣服、一壶水和几箱紧急口粮，什么都没有。一个边缘世界的无政府主义公社接纳了我。我在那里呆了一个月后，村里的长老感觉到我内心的动荡，邀请我到他们的汗屋里进行异象探索。我陷入了恍惚，我的意识穿越了许多宇宙，在那里我看到了奇怪的东西。我看到一把由光组成的剑。我看到了一个蓝色的太阳。我看到了......"他停顿了一会儿。"......一只威尔士柯基犬在入侵一台电脑？有些东西是很难理解的。"`
 			choice
-				`	"Fascinating."`
+				`	"很吸引人。"`
 					goto continue
-				`	"Were there illicit substances involved in this vision quest?"`
-			`	He ignores your question. "But then I saw one more thing," he says.`
+				`	"在这次视觉探索中是否涉及非法物质？"`
+			`	他不理会你的问题。"但后来我又看到一件事，"他说。`
 				goto kestrel
 			label continue
-			`	"But then I saw one more thing," he says.`
+			`	"但后来我又看到了一件事，"他说。`
 			label kestrel
-			`	He is silent for a long moment, then says, "I saw a dark ship, more graceful and elegant than any I had ever designed, battling an alien vessel with a mottled red hull. And when I saw that ship, I knew that I must build one like it. I hitched a ride back to Wayfarer, begged for my old job back, and got to work. Seven years later, the ship is nearly done. It has passed all our non-destructive testing with flying colors, which leaves only the combat test remaining. And who better to battle it than the renowned warrior, <first> <last>?"`
+			`	他沉默了很久，然后说："我看到了一艘黑暗的飞船，比我设计的任何飞船都要优雅，与一艘有着斑驳的红色船体的外星飞船进行战斗。当我看到那艘船时，我知道我必须建造一艘像它一样的船。我搭上了回Wayfarer的顺风车，求得了我的旧工作，然后开始工作。七年后，这艘船几乎完成了。它以优异的成绩通过了我们所有的非破坏性测试，只剩下了战斗测试。还有谁比著名的战士<first><last>更适合与它作战？"`
 			choice
-				`	"I would be glad to."`
+				`	"我很乐意。"`
 					goto test
-				`	"What will I receive in return?"`
-			`	"A generous payment," he says, "and the right to purchase one of the very first units off the production line, if you wish."`
-			`	"Sounds fair," you say.`
+				`	"我将得到什么回报？"`
+			`	"一笔丰厚的报酬，"他说，"如果你愿意，还可以购买生产线上第一批设备中的一个。"`
+			`	"听起来很公平，"你说。`
 			label test
-			`	"Excellent," he says. "I'll need your signature on a few forms. Waivers of liability in case you die, permission to use your name and likeness in certain promotional materials. You know, the usual legal stuff."`
+			`	"很好。"他说。"我需要你在一些表格上签字。如果你死了，就放弃责任，允许在某些宣传材料中使用你的名字和肖像。你知道，通常的法律事务。"`
 			choice
-				`	"No problem. Where will I battle this ship?"`
-				`	"Sorry, I don't think I can agree to that."`
+				`	"没问题。我将在哪里与这艘船作战？"`
+				`	"对不起，我想我不能同意。"`
 					decline
-			`	"We do most of our starship testing in the <waypoints> system," he says. "The test ship is unmistakable. Journey there, disable it without destroying it, then return here and we'll ask you about any weaknesses you found or improvements you would make. And if you destroy the ship or steal it, naturally you will forfeit your payment."`
+			`	"我们的大部分星舰测试都是在<waypoints>系统进行的，"他说。"这艘测试船是无误的。到那里去，在不破坏它的情况下使它失效，然后回到这里，我们会问你发现的任何弱点或你要做的改进。而如果你破坏了这艘船或偷了它，自然会没收你的报酬。"`
 				accept
 	
 	npc disable save
@@ -61,91 +61,91 @@ mission "Kestrel Testing"
 	on complete
 		payment 2000000
 		conversation
-			`Atinoda meets up with you soon after you land. "I see that you survived," he says. "Was it a difficult fight?"`
+			`阿蒂诺达在你登陆后不久就与你见面了。"我看到你活下来了，"他说。"这是一场艰难的战斗吗？"`
 			choice
-				`	"Yes, you have built an impressive ship."`
+				`	"是的，你建造了一艘令人印象深刻的船。"`
 					goto yes
-				`	"No, I'm afraid I made short work of it."`
+				`	"不，恐怕我做的很短。"`
 					goto no
 			
 			label yes
-			`	"Glad to hear it," he says. "Now, we have the opportunity to make a few tweaks before we start mass-producing this ship. What changes would you recommend?"`
+			`	"很高兴听到这个消息，"他说。"现在，我们有机会在开始大规模生产这艘船之前做一些调整。你有什么改动建议？"`
 				goto changes
 			
 			label no
-			`	"Oh well," he says, "you are the infamous <first> <last>, after all, so I suppose any single warship will be little threat to you. Now, we have the opportunity to make a few tweaks before we start mass-producing this ship. What changes would you recommend?"`
+			`	"哦，好吧，"他说，"你毕竟是臭名昭著的<first><last>，所以我想任何一艘战舰对你都不会有什么威胁。现在，我们有机会在开始大规模生产这艘船之前做一些调整。你有什么改动建议？"`
 				goto changes
 			
 			label changes
 			choice
-				`	"Lots of weapon space is always my first priority."`
+				`	"大量的武器空间始终是我的首要任务。"`
 					goto weapons
-				`	"You should make sure it has enough space for any engine."`
+				`	"你应该确保它有足够的空间用于任何引擎。"`
 					goto engines
-				`	"Maybe you should work on improving the shields and hull."`
+				`	"也许你应该努力改进护盾和船体。"`
 					goto shields
 			
 			label weapons
 			action
 				set "kestrel: more weapons"
-			`	"Very well," he says, "we'll see if we can expand the weapon capacity so that even the biggest weapons will fit."`
+			`	"很好，"他说，"我们将看看能否扩大武器容量，使最大的武器也能装下。"`
 				goto name
 			
 			label engines
 			action
 				set "kestrel: more engines"
-			`	"Very well," he says, "we'll see if we can expand the engine capacity enough that even the biggest engines will fit."`
+			`	"很好，"他说，"我们将看看我们是否能扩大引擎容量，使最大的引擎也能装下。"`
 				goto name
 			
 			label shields
 			action
 				set "kestrel: more shields"
-			`	"Okay," he says, "we'll focus on strengthening the hull and the shield matrix."`
+			`	"好的，"他说，"我们将重点加强船体和护盾矩阵。"`
 				goto name
 			
 			label name
-			`	"Does the ship model have a name yet?" you ask.`
-			`	"Not yet," he says. "Do you have a suggestion?"`
+			`	"这艘船的模型有名字了吗？"你问。`
+			`	"还没有，"他说。"你有什么建议吗？"`
 			choice
-				`	"The Wraith."`
+				`	"Wraith"。`
 					goto wraith
-				`	"The Grey Goose."`
+				`	"灰雁号。"`
 					goto goose
 			
 			label wraith
-			`	"Not a bad name, I suppose," he says, "but at Tarazed we usually name our ships after animals. Any other ideas?"`
+			`	"我想这不是一个坏名字，"他说，"但在塔拉兹德，我们通常用动物来命名我们的船。有其他想法吗？"`
 			choice
-				`	"The Dire Wolf."`
+				`	"恶狼号。"`
 					goto wolf
-				`	"The Kestrel."`
+				`	"红隼号。"`
 					goto kestrel
 			
 			label goose
-			`	"I suppose it does sort of look like a goose in flight," he says, "but that's hardly an intimidating name. Do you have any scarier ideas?"`
+			`	"我想它确实有点像一只飞行中的鹅，"他说，"但这并不是一个令人畏惧的名字。你有什么更可怕的想法吗？"`
 			choice
-				`	"The Reaper."`
+				`	"死神"。`
 					goto reaper
-				`	"The Kestrel."`
+				`	"红隼号。"`
 					goto kestrel
 			
 			label wolf
-			`	"Not bad," he says, "but all our other ships - the Falcon, the Osprey, the Hawk - they're all birds. Maybe a bird name?"`
+			`	"不错，"他说，"但我们所有的其他船只--猎鹰、鹗、鹰--它们都是鸟。也许一个鸟的名字？"`
 			choice
-				`	"The Grey Goose."`
+				`	"灰雁号。"`
 					goto goose
-				`	"The Kestrel."`
+				`	"红隼号。"`
 					goto kestrel
 			
 			label reaper
-			`	"I don't know," he says, "that sounds a little bit over the top. Any other suggestions?"`
+			`	"我不知道，"他说，"这听起来有点夸张。有其他建议吗？"`
 			choice
-				`	"The Wraith."`
+				`	"Wraith"。`
 					goto wraith
-				`	"The Kestrel."`
+				`	"红隼号。"`
 					goto kestrel
 			
 			label kestrel
-			`	When you say the word 'Kestrel' he jerks as if he's just been electrocuted. "Yes," he says, "that's it! That's the name we'll go with. Thank you, Captain. I will let you know as soon as the Kestrel is available for sale, and we will take your recommendations into account when making our final modifications to the design." He pays you two million credits and wishes you the best of luck in your future endeavors.`
+			`	当你说到'红隼'这个词时，他就像刚被电击过一样抽搐了一下。"是的，"他说，"就是它！这就是我们的名字。这就是我们要用的名字。谢谢你，队长。一旦 "红隼 "号可以出售，我会立即通知你，在对设计进行最后修改时，我们会考虑到你的建议。他付给你200万信用点，并祝你在今后的工作中好运。`
 
 
 
@@ -213,7 +213,7 @@ mission "Kestrel Available"
 			scene "thumbnail/kestrels"
 			``
 			label message
-			`You receive a message from Charles Atinoda, the ship designer at Tarazed Corporation: "Captain <last>, we are pleased to inform you that our latest warship is now available for sale here on Wayfarer. We've taken all your feedback into account in the final design. Thank you again!"`
+			`你收到了来自塔拉兹德公司的飞船设计师查尔斯-阿蒂诺达的信息。"船长<last>，我们很高兴地通知你，我们最新的战舰现在可以在Wayfarer上出售。我们在最后的设计中已经考虑到了你所有的反馈。再次感谢您！"`
 				decline
 
 
@@ -348,7 +348,7 @@ ship "Kestrel"
 	explode "large explosion" 45
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
-	description "Several years ago, while visiting a sweat lodge in search of spiritual renewal, Tarazed's chief ship designer fell into a trance and journeyed to a reality separate from our own. There he saw visions of a strange and elegant starship. Returning to his work with renewed purpose, he spent the next seven years making the Kestrel a reality."
+	description `几年前，塔拉兹德的首席飞船设计师在参观一个汗蒸房以寻求精神上的更新时，陷入了恍惚，并来到了一个与我们自己的现实分离的地方。在那里，他看到了一个奇怪而优雅的星船的幻象。带着新的目标回到他的工作中，他花了七年时间使 "红隼号 "成为现实。`
 
 
 ship "Kestrel" "Kestrel (More Engines)"

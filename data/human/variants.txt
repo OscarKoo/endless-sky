@@ -91,8 +91,8 @@ ship "Arrow" "Arrow (Hai)"
 		"Supercapacitor" 2
 		"D14-RN Shield Generator"
 		"Luxury Accommodations"
-		`"Benga" Atomic Thruster`
-		`"Biroo" Atomic Steering`
+		`"Benga "原子推进器`
+		`"Biroo "原子转向器`
 		"Hyperdrive"
 
 
@@ -152,8 +152,8 @@ ship "Bactrian" "Bactrian (Hai Engines)"
 		"Ramscoop"
 		"Pulse Rifle" 12
 		"Outfits Expansion" 2
-		`"Bufaer" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
+		`"布法尔 "原子推进器`
+		`"布法尔 "原子转向器`
 		"Hyperdrive"
 
 
@@ -213,11 +213,11 @@ ship "Bactrian" "Bactrian (Troop Jump)"
 		"Catalytic Ramscoop"
 		"Hai Tracker Pod" 4
 		"Hai Tracker" 224
-		`"Bufaer" Atomic Thruster`
+		`"布法尔 "原子推进器`
 		"Jump Drive"
 		"Outfits Expansion"
 		"Boulder Reactor" 2
-		`"Bufaer" Atomic Steering`
+		`"布法尔 "原子转向器`
 		"Pulse Rifle" 247
 		"Bullfrog Anti-Missile" 4
 		"Hai Diamond Regenerator" 2
@@ -338,9 +338,9 @@ ship "Behemoth" "Behemoth (Hai)"
 		"Pulse Rifle" 2
 		"Liquid Nitrogen Cooler"
 		"Outfits Expansion" 6
-		`"Benga" Atomic Thruster`
-		`"Biroo" Atomic Steering`
-		`"Benga" Atomic Steering`
+		`"Benga "原子推进器`
+		`"Biroo "原子转向器`
+		`"本加 "原子转向器`
 		"Hyperdrive"
 
 
@@ -467,11 +467,11 @@ ship "Blackbird" "Blackbird (Hai Trafficker)"
 		"hull energy" 0.4
 		"hull heat" 0.6
 	outfits
-		`"Bondir" Atomic Thruster`
+		`"邦迪尔 "原子推进器`
 		"Pulse Rifle" 12
 		Brig
 		"Fuel Pod" 2
-		`"Benga" Atomic Steering`
+		`"本加 "原子转向器`
 		"Scram Drive"
 		"Chameleon Anti-Missile"
 		Ramscoop
@@ -543,8 +543,8 @@ ship "Bulk Freighter" "Bulk Freighter (Hai)"
 		"D23-QP Shield Generator"
 		"Pulse Rifle" 4
 		"X3700 Ion Thruster"
-		`"Benga" Atomic Steering`
-		`"Basrem" Atomic Steering`
+		`"本加 "原子转向器`
+		`"巴斯雷姆 "原子转向器`
 		"Scram Drive"
 	turret "Pulse Turret"
 	turret "Chameleon Anti-Missile"
@@ -826,8 +826,8 @@ ship "Container Transport" "Container Transport (Hai)"
 		"Hai Ravine Batteries"
 		"D23-QP Shield Generator"
 		"Pulse Rifle" 2
-		`"Benga" Atomic Thruster`
-		`"Biroo" Atomic Steering`
+		`"Benga "原子推进器`
+		`"Biroo "原子转向器`
 		"Scram Drive"
 	turret "Chameleon Anti-Missile"
 	turret "Pulse Turret"
@@ -916,8 +916,8 @@ ship "Corvette" "Corvette (Hai)"
 		"Cooling Ducts"
 		"Cargo Expansion"
 		"Pulse Rifle" 3
-		`"Biroo" Atomic Thruster`
-		`"Bondir" Atomic Steering`
+		`"Biroo "原子推进器`
+		`"邦迪尔 "原子转向器`
 		"Hyperdrive"
 
 
@@ -989,8 +989,8 @@ ship "Corvette" "Corvette (Hai Trafficker)"
 		"hull energy" 0.4
 		"hull heat" 0.6
 	outfits
-		`"Bondir" Atomic Thruster`
-		`"Biroo" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"Biroo "原子转向器`
 		"Pulse Rifle" 16
 		Brig
 		"Fuel Pod" 4
@@ -1488,8 +1488,8 @@ ship "Flivver" "Flivver (Hai)"
 		"RT-I Radiothermal"
 		"D14-RN Shield Generator"
 		"Hai Williwaw Cooling"
-		`"Basrem" Atomic Thruster`
-		`"Benga" Atomic Steering`
+		`"Basrem "原子推进器`
+		`"本加 "原子转向器`
 		"Hyperdrive"
 
 
@@ -1599,7 +1599,7 @@ ship "Freighter" "Freighter (Hai Trafficker)"
 		"Pulse Rifle" 3
 		Brig
 		"Fuel Pod" 2
-		`"Biroo" Atomic Thruster`
+		`"Biroo "原子推进器`
 		"A255 Atomic Steering"
 		Hyperdrive
 		"Bullfrog Anti-Missile"
@@ -1981,8 +1981,8 @@ ship "Leviathan" "Leviathan (Hai Engines)"
 		"D67-TM Shield Generator"
 		"Liquid Helium Cooler"
 		"Pulse Rifle" 13
-		`"Bondir" Atomic Thruster`
-		`"Bondir" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"邦迪尔 "原子转向器`
 		"Hyperdrive"
 
 
@@ -2171,8 +2171,8 @@ ship "Marauder Bounder" "Marauder Bounder (Hai)"
 		"Outfits Expansion"
 		"Laser Rifle" 18
 		"Security Station"
-		`"Biroo" Atomic Thruster`
-		`"Biroo" Atomic Steering`
+		`"Biroo "原子推进器`
+		`"Biroo "原子转向器`
 		"Hyperdrive"
 
 
@@ -2187,9 +2187,9 @@ ship "Marauder Firebird" "Marauder Firebird (Hai)"
 		"Fuel Pod" 5
 		"Outfits Expansion"
 		"Laser Rifle" 25
-		`"Biroo" Atomic Thruster`
-		`"Basrem" Atomic Steering`
-		`"Bondir" Atomic Steering`
+		`"Biroo "原子推进器`
+		`"巴斯雷姆 "原子转向器`
+		`"邦迪尔 "原子转向器`
 		"Hyperdrive"
 
 
@@ -2210,8 +2210,8 @@ ship "Marauder Splinter" "Marauder Splinter (Hai)"
 		"Outfits Expansion" 2
 		"Laser Rifle" 22
 		"Security Station" 4
-		`"Biroo" Atomic Thruster`
-		`"Bondir" Atomic Steering`
+		`"Biroo "原子推进器`
+		`"邦迪尔 "原子转向器`
 		"Hyperdrive"
 
 
@@ -2227,8 +2227,8 @@ ship "Marauder Quicksilver" "Marauder Quicksilver (Hai)"
 		"Fuel Pod" 5
 		"Laser Rifle" 4
 		"Security Station" 2
-		`"Benga" Atomic Thruster`
-		`"Biroo" Atomic Steering`
+		`"Benga "原子推进器`
+		`"Biroo "原子转向器`
 		"Hyperdrive"
 
 
@@ -2318,8 +2318,8 @@ ship "Mule" "Mule (Hai Engines)"
 		"Outfits Expansion"
 		"Ramscoop"
 		"Pulse Rifle"
-		`"Bondir" Atomic Thruster`
-		`"Biroo" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"Biroo "原子转向器`
 		"Hyperdrive"
 
 
@@ -2430,8 +2430,8 @@ ship "Osprey" "Osprey (Alien Weapons)"
 		"Hai Corundum Regenerator"
 		"Liquid Nitrogen Cooler"
 		"Pulse Rifle" 3
-		`"Bondir" Atomic Thruster`
-		`"Bondir" Atomic Steering`
+		`"邦迪尔 "原子推进器`
+		`"邦迪尔 "原子转向器`
 		Hyperdrive
 
 

@@ -14,25 +14,25 @@
 # Conversations shown when launching from a planet with insufficiently equipped ships.
 conversation "flight check: no energy!"
 	scene "scene/engine2"
-	`You've heard enough horror stories about the sort of accidents that happen when starship systems malfunction to be completely convinced of the necessity of a pre-flight safety check. As you listen to the complex symphony of hums, rattles, and clicks of the <ship> warming up, you run through a mental checklist. Computers: check. Life support: check.`
-	`	It is all going smoothly until it comes time to fire up your systems for a test run... and you discover that your generator does not produce enough power to power them. You'll have to either install some batteries, or switch to a more powerful generator.`
+	`你已经听过足够多的关于星舰系统故障时发生的那种事故的恐怖故事，以至于完全相信飞行前安全检查的必要性。当你听着<ship>热身时发出的复杂的嗡嗡声、嘎吱声和咔嚓声时，你在心里列了一个检查表。计算机：检查。生命支持：检查。`
+	`	一切都很顺利，直到到了启动你的系统进行试运行的时候......你发现你的发电机不能产生足够的能量来驱动它们。你将不得不安装一些电池，或切换到一个更强大的发电机。`
 	
 conversation "flight check: no thruster!"
 	scene "scene/engine2"
-	`You've heard enough horror stories about the sort of accidents that happen when starship systems malfunction to be completely convinced of the necessity of a pre-flight safety check. As you listen to the complex symphony of hums, rattles, and clicks of the <ship> warming up, you run through a mental checklist. Computers: check. Life support: check.`
-	`	It is all going smoothly until it comes time to fire up the thrusters for a test run... and you realize, much to your embarrassment, that you do not have any thrusters installed. Time to head back to the outfitter and fix that!`
+	`你已经听过足够多的关于星舰系统故障时发生的那种事故的恐怖故事，以至于完全相信飞行前安全检查的必要性。当你听着<ship>热身时发出的复杂的嗡嗡声、嘎吱声和咔嚓声时，你在心里列了一个检查表。计算机：检查。生命支持：检查。`
+	`	一切都很顺利，直到到了启动推进器进行试运行的时候......你意识到，令你尴尬的是，你并没有安装任何推进器。是时候回到舾装厂去解决这个问题了。`
 
 conversation "flight check: no steering!"
 	scene "scene/engine"
-	`You've heard enough horror stories about the sort of accidents that happen when starship systems malfunction to be completely convinced of the necessity of a pre-flight safety check. As you listen to the complex symphony of hums, rattles, and clicks of the <ship> warming up, you run through a mental checklist. Computers: check. Life support: check.`
-	`	It is all going smoothly until it comes time to fire up the steering engines for a test run... and you realize, much to your embarrassment, that you do not have any steering installed. Time to head back to the outfitter and fix that!`
+	`你已经听过足够多的关于星舰系统故障时发生的那种事故的恐怖故事，以至于完全相信飞行前安全检查的必要性。当你听着<ship>热身时发出的复杂的嗡嗡声、嘎吱声和咔嚓声时，你在心里列了一个检查表。计算机：检查。生命支持：检查。`
+	`	一切都很顺利，直到到了启动转向引擎进行试运行的时候......你意识到，令你尴尬的是，你并没有安装任何转向装置。是时候回到舾装厂去解决这个问题了!`
 	
 conversation "flight check: overheating!"
 	scene "scene/engine"
-	`You've heard enough horror stories about the sort of accidents that happen when starship systems malfunction to be completely convinced of the necessity of a pre-flight safety check. As you listen to the complex symphony of hums, rattles, and clicks of the <ship> warming up, you run through a mental checklist. Computers: check. Life support: check.`
-	`	By the time you reach the end of the checklist, it has grown uncomfortably warm. The air smells like ozone and hot metal, and your cameras are showing a plume of steam or smoke escaping from the hull near the engines. If your systems are running this hot while still in the atmosphere, they're likely to overheat the moment you hit hard vacuum. You are going to have to either install cooling systems, or trade out some components for lower-heat alternatives.`
+	`你已经听过足够多的关于星舰系统故障时发生的那种事故的恐怖故事，以至于完全相信飞行前安全检查的必要性。当你听着<ship>热身时发出的复杂的嗡嗡声、嘎吱声和咔嚓声时，你在心里列了一个检查表。计算机：检查。生命支持：检查。`
+	`	当你到达检查清单的末尾时，天气已经变得令人不舒服了。空气中弥漫着臭氧和热金属的味道，你的摄像机显示有一缕蒸汽或烟雾从引擎附近的船体中逸出。如果你的系统还在大气层中就运行得这么热，那么在你达到硬真空的那一刻，它们很可能会过热。你将不得不安装冷却系统，或者把一些部件换成低热的替代品。`
 
 conversation "flight check: insufficient bunks!"
 	scene "scene/engine"
-	`You've heard enough horror stories about the sort of accidents that happen when starship systems malfunction to be completely convinced of the necessity of a pre-flight safety check. As you listen to the complex symphony of hums, rattles, and clicks of the <ship> warming up, you run through a mental checklist. Computers: check. Life support: check.`
-	`	But when you reach the end of the checklist, although nothing appears wrong, you have a sneaking suspicion that something isn't right. You go through the checklist again, but the suspicion only grows. You decide to check the specifications of the ship and each of the outfits you have installed and finally find the issue that was scratching at the back of your mind: you've somehow managed to outfit the <ship> to require more crew than it has space for. You are going to have to either install more bunk rooms, or trade out some components that require extra crew, lest the ship come crashing down during takeoff as a result of not having enough crew to man all the necessary systems.`
+	`你已经听过足够多的关于星舰系统故障时发生的那种事故的恐怖故事，以至于完全相信飞行前安全检查的必要性。当你听着<ship>热身时发出的复杂的嗡嗡声、嘎吱声和咔嚓声时，你在心里列了一个检查表。计算机：检查。生命支持：检查。`
+	`	但是，当你到达检查表的末尾时，虽然没有出现任何问题，但你却隐隐约约地怀疑有什么地方不对。你再次查看检查表，但这种怀疑只会越来越大。你决定检查这艘船的规格和你所安装的每一件装备，并最终发现了在你脑海中挠痒痒的问题：你以某种方式设法装备了<ship>，使其需要的船员数量超过了它的空间。你将不得不安装更多的铺位，或者换掉一些需要额外船员的部件，以免飞船在起飞时由于没有足够的船员来操作所有必要的系统而坠毁。`

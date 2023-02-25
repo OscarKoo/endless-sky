@@ -12,10 +12,10 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 mission "Pirate Occupation [0]"
-	name `Pirates occupying <system>`
+	name `占领<system>的海盗`
 	minor
 	repeat
-	description `A small band of pirates have been occupying <system>, and the local government has asked for help. Defeat the pirates in the system and land on <planet> when done. Payment is <payment>.`
+	description `一小群海盗占领了<system>，当地政府请求帮助。击败该系统中的海盗，完成后登陆<planet>。付款方式为<payment>。`
 	to offer
 		random < 5
 		"combat rating" > 100
@@ -49,10 +49,10 @@ mission "Pirate Occupation [0]"
 		dialog phrase "generic pirate attack payment dialog"
 
 mission "Pirate Occupation [1]"
-	name `Pirates occupying <system>`
+	name `占领<system>的海盗`
 	minor
 	repeat
-	description `A gang of pirates have been occupying <system>, and the local government has asked for help. Defeat the pirates in the system and land on <planet> when done. Payment is <payment>.`
+	description `一群海盗占领了<system>，当地政府请求帮助。打败该系统中的海盗，完成后登陆<planet>。付款方式为<payment>。`
 	to offer
 		random < 5
 		"combat rating" > 200
@@ -87,10 +87,10 @@ mission "Pirate Occupation [1]"
 		dialog phrase "generic pirate attack payment dialog"
 
 mission "Pirate Occupation [2]"
-	name `Pirates occupying <system>`
+	name `占领<system>的海盗`
 	minor
 	repeat
-	description `A large gang of pirates have been occupying <system>, and the local government has asked for help. Defeat the pirates in the system and land on <planet> when done. Payment is <payment>.`
+	description `一大群海盗占领了<system>，当地政府请求帮助。击败该系统中的海盗，完成后登陆<planet>。付款方式为<payment>。`
 	to offer
 		random < 5
 		"combat rating" > 300
@@ -125,21 +125,21 @@ mission "Pirate Occupation [2]"
 		dialog phrase "generic pirate attack payment dialog"
 
 conversation "pirate occupation"
-	`Suddenly you hear raised voices and shouting outside as pilots run for their ships: "<destination> is being occupied by a pirate fleet! They are requesting help from any combat-worthy ship in the region to join the defenses!" The authorities of <planet> will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+	`突然间，你听到外面传来高声的呼喊，飞行员们纷纷跑向自己的船只。"<destination>正被一支海盗舰队占领!他们请求本地区任何有战斗力的船只加入防御的行列！"如果你协助他们，<planet>的当局可能会给你相当高的报酬，但这也可能是一个让你自己被杀的简单方法。`
 	choice
-		`	(Don't join the fight.)`
+		`	(不要加入战斗。)`
 			decline
-		`	(Join the defense fleet.)`
-	`A few militia pilots have gathered to help repel the pirate attack. You join them, and prepare your ship for the upcoming battle...`
+		`	(加入防御舰队。)`
+	`一些民兵飞行员已经聚集起来，帮助击退海盗的攻击。你加入他们，并为即将到来的战斗准备你的飞船...`
 		accept
 
 
 
 mission "Sketchy Cargo [0]"
-	name "Delivery to <planet>"
+	name "运送到<planet>的货物"
 	job
 	repeat
-	description "Deliver <tons> of cargo to <destination>. Payment is <payment>."
+	description "将<tons>的货物运送到<destination>。付款方式为<payment>。"
 	cargo "unlabeled cargo" 5 2 .1
 	to offer
 		random < 15
@@ -149,18 +149,18 @@ mission "Sketchy Cargo [0]"
 		distance 2 10
 		attributes "south"
 	on accept
-		dialog `You follow the directions specified in the job to an abandoned-looking warehouse and find your cargo in unlabeled crates. As you load it onto your ship, you get the feeling that you are being watched.`
+		dialog `你按照工作中指定的方向来到一个看起来很废弃的仓库，在没有标签的箱子里找到你的货物。当你把货物装到你的船上时，你感觉到你被监视了。`
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 0 160
-		dialog "You drop off the unlabeled cargo in a warehouse not too dissimilar to the one you picked it up in. A man dressed in a cloak hands you <payment> after the last crate is removed from your ship."
+		dialog "你把没有标签的货物放在一个与你取货时不太一样的仓库里。从你的船上卸下最后一个箱子后，一个穿着斗篷的人递给你<payment>。"
 
 mission "Sketchy Cargo [1]"
-	name "Delivery to <planet>"
+	name "运送到<planet>的货物"
 	job
 	repeat
-	description "Deliver <tons> of cargo to <destination>. Payment is <payment>."
+	description "将<tons>的货物运送到<destination>。付款方式为<payment>。"
 	cargo "unlabeled cargo" 25 2 .05
 	to offer
 		random < 10
@@ -170,20 +170,20 @@ mission "Sketchy Cargo [1]"
 		distance 2 10
 		attributes "south"
 	on accept
-		dialog `You follow the directions specified in the job to an abandoned-looking warehouse and find your cargo in unlabeled crates. As you load it onto your ship, you get the feeling that you are being watched.`
+		dialog `你按照工作中指定的方向来到一个看起来很废弃的仓库，在没有标签的箱子里找到你的货物。当你把货物装到你的船上时，你感觉到你被监视了。`
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment 0 160
-		dialog "You drop off the unlabeled cargo in a warehouse not too dissimilar to the one you picked it up in. A man dressed in a cloak hands you <payment> after the last crate is removed from your ship."
+		dialog "你把没有标签的货物放在一个与你取货时不太一样的仓库里。从你的船上卸下最后一个箱子后，一个穿着斗篷的人递给你<payment>。"
 
 
 
 mission "Sketchy Passenger [0]"
-	name "Passenger transport to <planet>"
+	name "前往<planet>的旅客运输"
 	job
 	repeat
-	description "Bring <fare> to <destination>. Payment is <payment>."
+	description "将<fare>带到<destination>。付款方式为<payment>。"
 	passengers 2 10 .9
 	to offer
 		random < 15
@@ -193,18 +193,18 @@ mission "Sketchy Passenger [0]"
 		distance 2 10
 		attributes "south"
 	on accept
-		dialog `You have some difficulty finding your passengers, but after almost an hour of searching you finally find them. As they follow you back to your ship, you hear them whispering to each other, but you can't make out what they're saying.`
+		dialog `你很难找到你的乘客，但经过近一个小时的搜寻，你终于找到了他们。当他们跟着你回到你的船上时，你听到他们在互相说悄悄话，但你无法听清他们在说什么。`
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 2000 160
-		dialog "Your passengers ask that you land away from the busy spaceport center. They hand you <payment> and rush out of your ship and away from the spaceport with considerable speed."
+		dialog "你的乘客要求你在远离繁忙的太空港中心降落。他们把<payment>交给你，然后冲出你的飞船，以相当快的速度离开了太空港。"
 
 mission "Sketchy Passenger [1]"
-	name "Passenger transport to <planet>"
+	name "前往<planet>的旅客运输"
 	job
 	repeat
-	description "Bring <fare> to <destination>. Payment is <payment>."
+	description "将<fare>带到<destination>。付款方式为<payment>。"
 	passengers 2 10 .7
 	to offer
 		random < 10
@@ -214,9 +214,9 @@ mission "Sketchy Passenger [1]"
 		distance 2 10
 		attributes "south"
 	on accept
-		dialog `You have some difficulty finding your passengers, but after almost an hour of searching you finally find them. As they follow you back to your ship, you hear them whispering to each other, but you can't make out what they're saying.`
+		dialog `你很难找到你的乘客，但经过近一个小时的搜寻，你终于找到了他们。当他们跟着你回到你的船上时，你听到他们在互相说悄悄话，但你无法听清他们在说什么。`
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
 		payment 2000 160
-		dialog "Your passengers ask that you land away from the busy spaceport center. They hand you <payment> and rush out of your ship and away from the spaceport with considerable speed."
+		dialog "你的乘客要求你在远离繁忙的太空港中心降落。他们把<payment>交给你，然后冲出你的飞船，以相当快的速度离开了太空港。"

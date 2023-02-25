@@ -21,8 +21,8 @@ mission "Sad Gamblers - Republic"
 		random < 1
 	on offer
 		conversation
-			`Passing through the spaceport you see a sizable group of people waiting on a lottery draw. You hear a whoop of success, and your attention is drawn as one of them wins a moderate sum in a 12th division win. It's one or two day's worth of standard pay.`
-			`	It's difficult not to pity them as they immediately buy more tickets with the whole value.`
+			`经过太空港时，你看到有一大群人在等待抽奖。你听到一阵成功的呼声，你的注意力被吸引了，因为他们中的一个人在第12部门的胜利中赢得了一笔适度的奖金。这相当于一两天的标准工资。`
+			`	你很难不同情他们，因为他们立即用全部价值购买更多的彩票。`
 				decline
 
 mission "Sad Gamblers - Syndicate"
@@ -34,8 +34,8 @@ mission "Sad Gamblers - Syndicate"
 		random < 1
 	on offer
 		conversation
-			`Passing through the spaceport you see a sizable group of people waiting on a lottery draw. You hear a whoop of success, and your attention is drawn as one of them wins a moderate sum in a 12th division win. It's one or two day's worth of standard pay.`
-			`	It's difficult not to pity them as they immediately buy more tickets with the whole value.`
+			`经过太空港时，你看到有一大群人在等待抽奖。你听到一阵成功的呼声，你的注意力被吸引了，因为他们中的一个人在第12部门的胜利中赢得了一笔适度的奖金。这相当于一两天的标准工资。`
+			`	你很难不同情他们，因为他们立即用全部价值购买更多的彩票。`
 				decline
 
 
@@ -49,8 +49,8 @@ mission "Foiled Kidnapping Witnessed"
 		random < 1
 	on offer
 		conversation
-			`A roadblock interrupts your path as you make your way towards the city, forcing you to slow down as you pass by, able to see what the commotion is about. Police wave past car after car coming from the other direction, looking into the vehicles until one gets pulled over to the side, causing police to briefly halt all traffic movements. The driver seems distressed, refusing to open the back even when he is being detained; his face goes pale when a little girl is found inside.`
-			`	You're not sure how to feel about this when the police wave you off, blocking your view from the scene.`
+			`当你向城市前进时，一个路障打断了你的道路，迫使你在经过时放慢速度，能够看到骚动是怎么回事。警察从一辆又一辆从另一个方向驶来的汽车前挥手，看着这些车辆，直到一辆车被拉到一边，导致警察短暂地停止了所有交通活动。司机似乎很苦恼，即使被扣留也拒绝打开后备箱；当发现里面有一个小女孩时，他的脸色变得苍白。`
+			`	当警察挥手让你离开时，你不知道该作何感想，挡住了你在现场的视线。`
 				decline
 
 
@@ -65,27 +65,27 @@ mission "Gift Store Interaction"
 		random < 1
 	on offer
 		conversation
-			`As you wander the spaceport with a snack, waiting for your ship to be refueled, you pass a local souvenir shop and poke your head in to kill a little time. You see a decent looking mug with the text "<origin>" printed underneath an attractive, stylized representation of the spaceport you are presently standing in and pick it up to see how it feels. The handle is solid, not too small for your fingers, and the lip of it looks like it would be comfortable to drink out of.`
-			`	Two young adults wander into the aisle just a couple of meters away, conversing in a language that you don't understand, one that is perhaps local to the Deep. They're cooing over an item they've found, but when one flips it over to look at the price tag, there is an immediate exchange of looks and expressions that does not require translation. The item ends up back on the shelf with a giggle and a head-shake.`
+			`当你带着点心在太空港徘徊，等待飞船加油时，你经过一家当地的纪念品商店，探出头来打发一点时间。你看到一个看起来还不错的杯子，上面印着"<origin>"的字样，下面是你现在所站的这个太空港的迷人风格，你拿起来看看感觉如何。手柄很结实，对你的手指来说不算太小，而且杯口看起来喝起来也很舒服。`
+			`	两个年轻的成年人在几米外的过道上徘徊，用一种你不懂的语言交谈，这种语言也许是深海的当地语言。他们正在为他们发现的一件物品欢呼，但是当其中一个人翻开它看价格标签时，双方立即交换了眼神和表情，不需要翻译。最后，这个东西又回到了货架上，并发出了咯咯的笑声和摇头声。`
 			branch broke
 				credits < 50
-			`	Curious, you turn over your own mug and see that it is indeed at least five times what you would expect to pay for a mug, even a good one: 50 credits. Still, it is certainly a novelty...`
+			`	你好奇地翻开自己的杯子，看到它确实是你期望为一个杯子支付的至少五倍，甚至是一个好杯子。50个信用点。不过，这的确是一个新奇的东西......`
 			choice
-				`	(Buy the mug.)`
+				`	(买下这只杯子。）`
 					goto buy
-				`	(Put it back.)`
-			`	You roll your eyes and put it back. Some experiences really are universal.`
+				`	(把它放回去）。`
+			`	你揉揉眼睛，把它放回去。有些经验真的很普遍。`
 				decline
 			
 			label buy
 			action
 				payment -50
 				outfit "Mug"
-			`	You purchase the mug on an impulse. At least you can ditch your other one with a chip in it.`
+			`	你在冲动之下购买了这个杯子。至少你可以把你的另一个有芯片的杯子扔掉。`
 				decline
 			
 			label broke
-			`	Curious, you turn over your own mug, and when you spot the 50 credit price tag your heart sinks. You could never afford such an expensive mug. You put it back and walk away while pondering your financial situation.`
+			`	你好奇地翻开自己的杯子，当你发现50元的价格标签时，你的心沉了下去。你永远买不起这么贵的杯子。你把它放回去，然后走开，同时思考你的财务状况。`
 				decline
 
 outfit "Mug"
@@ -94,7 +94,7 @@ outfit "Mug"
 	thumbnail "outfit/unknown"
 	"capture attack" .1
 	"unplunderable" 1
-	description "You can throw it in a pinch, you guess."
+	description "你可以在关键时刻扔掉它，你猜。"
 
 
 
@@ -105,8 +105,8 @@ mission "New China Mourners"
 		random < 1
 	on offer
 		conversation
-			`The skies pour down onto the world below, weeping together with the crowds as a plain but stately coffin is carried slowly from a void deck. Rhythmic wailing blends with the susurrant rain, filling the air as the coffin is followed closely by procession of mourners that look to be an extensive gathering of family. Even as it is placed into the van they do not leave the departed, a number of their hands placed on it as if pushing the person toward their final resting place. The two foremost mourners, a woman and a young man, climb in and take their seats next to it. Somewhere nearby, music begins to play as the vehicle slowly moves off.`
-			`	You wonder how well known the person was before they died as those remaining finally turn away from the van receding into the distance and begin to file past some discreet attendants you hadn't noticed at first, accepting slippers for their bare feet before boarding the buses waiting to take them after the van.`
+			`天空向下面的世界倾泻而下，当一具朴素而庄重的棺材从空旷的甲板上缓缓抬出时，与人群一起哭了起来。有节奏的哀号声与雨声交织在一起，空气中弥漫着棺材被送葬者的队伍紧紧跟随，看起来是一个广泛的家庭聚会。即使当棺材被放进货车时，他们也没有离开死者，他们的一些手放在棺材上，仿佛在把人推向他们最后的安息之地。两个最重要的哀悼者，一个女人和一个年轻人，爬上了车，在车旁坐下。在附近的某个地方，当车辆慢慢驶离时，音乐开始响起。`
+			`	你想知道这个人在死前有多出名，因为剩下的人终于转身离开了退到远处的面包车，并开始排队经过一些你一开始没有注意到的谨慎的服务员，在登上等着把他们送到面包车后面的公共汽车之前，他们接受了光脚的拖鞋。`
 				decline
 
 
@@ -118,23 +118,23 @@ mission "New Holland Foibles"
 		random < 1
 	on offer
 		conversation
-			`The smell of burning metal fills the air as you walk down the uncrowded streets of the factory town near the spaceport, keeping away from the arterial supply route directly feeding the port and its hangars.`
-			`	Despite the distance and absent traffic though, it is far from quiet. Several factory buildings make discernible thrumming noises, and grinders echo amidst the silence as you investigate. Turning a corner, you come across an alley running along a lengthy chain link fence line. Beyond it, you can see a throng of men cutting away at a spaceship. Parts regularly fall to the floor, the workers apparently heedless of those below.`
-			`	Even as you watch you see a hull plate swinging dangerously above a workers head.`
+			`当你走在太空港附近的工厂镇上，远离直接供应港口和机库的干线，没有人烟的街道上，空气中充满了金属燃烧的味道。`
+			`	尽管距离很远，交通也不发达，但这里却远非宁静。几座工厂大楼发出明显的颤动声，当你调查时，磨床在寂静中回响。转过一个拐角，你遇到了一条小巷，沿着一条长长的铁丝网线运行。在它的后面，你可以看到一群人正在切割一艘宇宙飞船。零件经常掉到地上，工人们显然没有注意到下面的人。`
+			`	甚至在你观看的时候，你看到一块船体板在一个工人的头上危险地摆动。`
 			choice
-				`	(Call out a warning.)`
-				`	(Leave them be.)`
+				`	(喊出警告。)`
+				`	(别管他们。）`
 					goto leave
-			`	You call out a warning and most of the men pause to look at you, the hull plate swinging gently as the holder of the offending grinder squints in your direction. One of the older men, who you now realize was at least somewhat overseeing the activity, steps forward and flicks his hands at you in a shooing motion. "Oi you, piss off. We've got our safety supervisor, we don't need your nose in our business."`
+			`	你喊出了警告，大多数人都停下来看着你，船体板在轻轻地摇晃，持有违规磨床的人向你的方向眯起眼睛。其中一个年长的人，你现在意识到他至少在某种程度上是在监督这项活动，他走上前去，朝你挥了挥手，做了一个驱赶的动作。"哎，你，滚开。我们有我们的安全监督员，我们不需要你的鼻子在我们的业务。"`
 			choice
-				`	(Challenge the claim.)`
-				`	(Leave them be.)`
+				`	(质疑这一说法。)`
+				`	(别管他们。）`
 					goto leave
-			`	You point out that what you were seeing did not look at all safe, supervised or not, and the man glances around briefly before huffily making his way over to stand opposite you behind the fence. "Look stranger," he says, "work here is hard to find. For those working here, we don't have the time to spare. But the pay is good and we can at least feed our kids. Sure, some people get a few scrapes and bruises, but no one has died on my watch, and Rik only lost his smallest finger. If you feel the need to watch then fine, stand around, but leave us be, okay? There ain't no one around here that'll care what you have to say anyway."`
-			`	He looks you dead in the eyes, and once he is sure you understand his message he stomps back over to his crew, who continue their work. You watch them cut the dead ship apart until its pieces completely fill the trailer they have with them, before they proceed to haul the parts away to a factory in the distance.`
+			`	你指出，你看到的东西看起来一点也不安全，不管有没有人监督，那个人简短地扫视了一下四周，然后生气地走过来，站在你对面的栅栏后面。"看，陌生人，"他说，"这里的工作很难找。对于在这里工作的人来说，我们没有时间。但工资很高，我们至少可以养活我们的孩子。当然，有些人得到一些擦伤和瘀伤，但没有人在我的手表上死亡，里克只失去了他最小的手指。如果你觉得有必要观看，那么很好，站在旁边，但不要管我们，好吗？反正这里也没有人关心你要说什么。"`
+			`	他死死地盯着你的眼睛，一旦他确定你理解了他的信息，他就跺着脚回到他的船员那里，他们继续工作。你看着他们把这艘死船切开，直到它的碎片完全填满了他们的拖车，然后他们开始把这些零件拖到远处的工厂。`
 				decline
 			label leave
-			`	You turn and depart. A moment later you hear a clatter and a shout, but when you look back no one appears to have been injured.`
+			`	你转身离开了。片刻之后，你听到一阵哗啦啦的叫声，但当你回头看时，似乎没有人受伤。`
 				decline
 
 
@@ -150,15 +150,15 @@ mission "Trash Fire Crops"
 	on offer
 		"bumper crop year" = "year"
 		conversation
-			`As you move about the spaceport, you can't avoid the terrible smell. It's like a trash fire, but you can't see any sort of smoke.`
+			`当你在太空港移动时，你无法避免可怕的气味。这就像一场垃圾火灾，但你看不到任何种类的烟。`
 			choice
-				`	(Ignore it.)`
+				`	(不予理会）。`
 					goto ignore
-				`	(Ask around.)`
-			`	You ask one of the locals who doesn't look too busy. They sadly inform you that there's been a bumper banana crop, but unfortunately other wealthier worlds had a bumper crop at the same time, and there's nowhere to either sell or store a significant excess. Distressed farmers are burning the excess fruit to make fertilizer for the next season, the wind has carried the smell all over town.`
+				`	(四处打听）。`
+			`	你问一个看起来不太忙的当地人。他们悲伤地告诉你，这里的香蕉大丰收，但不幸的是，其他更富裕的世界也同时大丰收，没有地方可以出售或储存大量多余的香蕉。苦恼的农民正在焚烧多余的水果，为下一季做肥料，风把气味吹到了整个城市。`
 				decline
 			label ignore
-			`	You leave the mysterious smell to the locals and continue on your business.`
+			`	你把神秘的气味留给当地人，继续做你的生意。`
 				decline
 
 
@@ -173,21 +173,21 @@ mission "Worker's Occasion"
 		random < 1
 	on offer
 		conversation
-			`Pausing to consider a restaurant for your dinner, you notice a local worker with a small handful of credits eagerly eyeing the menu. His clothes are neatly worn and look freshly brushed, but it's impossible not to notice the dirty marks and stains that haven't washed out. The man undeniably seems nervous, and he looks at the formal dining layout with an obvious lack of familiarity. Looking at the menu yourself, you realize that while the prices are very affordable for you, they would've been unreachable before your career change.`
+			`当你考虑找一家餐馆吃晚饭时，你注意到一个当地工人拿着一小撮钱，急切地盯着菜单。他的衣服穿得很整齐，看起来刚刷过，但不可能不注意到那些没有洗掉的肮脏痕迹和污渍。不可否认的是，这个人看起来很紧张，他看着正式的餐饮布局，明显缺乏熟悉感。自己看了看菜单，你意识到，虽然价格对你来说非常实惠，但在你的职业变化之前，它们是无法达到的。`
 			choice
-				`	(Offer to pay for the man's dinner.)`
+				`	(提议为这个人的晚餐买单。)`
 					goto aid
-				`	(Silently pity the man.)`
+				`	(默默地同情这个男人。)`
 					goto pity
-				`	(Smile at the man.)`
-			`	You smile at the man and reflect on the value of small achievements. He catches your smile out of the corner of his eye and gives you a hesitant but friendly wave back before you go about your business.`
+				`	(对该男子微笑。)`
+			`	你对这个人微笑，反思小成就的价值。他从眼角看到了你的微笑，在你去做你的事情之前，向你挥了挥手，虽然犹豫但很友好。`
 				decline
 			label aid
-			`	You enter the restaurant and catch the man's attention, offering to pay for his meal.`
-			`	He recognizes you as a pilot and frowns, before telling you where you can stick that offer in colorful terms. As you walk away, you think about what your reaction would be if a much wealthier individual pitied you by paying for your dinner.`
+			`	你进入餐厅，吸引了那人的注意，主动为他的饭菜买单。`
+			`	他认出你是个飞行员，皱了皱眉头，然后用丰富多彩的语言告诉你，你可以把这个提议贴在哪里。当你走开时，你想如果一个更富有的人通过支付你的晚餐来可怜你，你会有什么反应。`
 				decline
 			label pity
-			`	You pity the man who has to work a full month to afford this and continue on your way.`
+			`	你可怜那个要工作一整个月才能负担得起的人，继续上路。`
 				decline
 
 
@@ -202,9 +202,9 @@ mission "Paradise Cleaner Incident"
 		random < 1
 	on offer
 		conversation
-			`Visiting the Paradise spaceports is always an interesting experience for someone from abroad. Nowhere else is class such an ingrained component of daily life. You find yourself noticing people who seem to be invisible to most of those going about their business, but they never catch your eye. They always appear to be doing their utmost to avoid notice.`
-			`	You haven't noticed children that look poor here in the past, but on this occasion you spot one as he knocks over a mop and bucket... right in front of a businessman and his family rolling their bags through the spaceport. You've never seen someone go so deathly pale as the cleaner, the boy's mother, who scurries to fix things before the man even draws a breath.`
-			`	A pair of security officers appear almost immediately, before you could intercede one way or the other, as the man and his family begin to complain. One officer provides assurances as the other supervises the cleaner, who quickly hurries her child out of harm's way.`
+			`对于来自国外的人来说，参观天堂太空港总是一种有趣的经历。在其他地方，阶级是日常生活中如此根深蒂固的组成部分。你会发现自己注意到那些对大多数人来说似乎看不见的人在做他们的事情，但他们从未吸引你的注意。他们似乎总是尽最大努力避免被注意。`
+			`	过去你没有注意到这里的孩子看起来很可怜，但这次你发现了一个孩子，他打翻了一个拖把和水桶......就在一个商人和他的家人滚着行李穿过太空港的前面。你从未见过有人像那个清洁工，也就是那个男孩的母亲那样脸色苍白，在那个男人还没喘过气来时就急忙去修理东西。`
+			`	一对安全官员几乎立即出现，在你能以这种或那种方式进行干预之前，该男子和他的家人开始抱怨。一名警官提供保证，另一名警官监督清洁工，清洁工迅速将她的孩子从危险的地方赶走。`
 				decline
 
 
@@ -219,19 +219,19 @@ mission "Curious Waiter"
 		random < 1
 	on offer
 		conversation
-			`On a whim, you decide to dine in at a restaurant well clear of the busy spaceport. You swiftly find yourself searching up a list of delicacies on a physical menu as people stream past the window by your booth, each looking drained from the long work day. Meal soon ordered, you continue watching the crowd until it arrives, a local version of a katsu don and dig in.`
-			`	The place is quiet, perhaps a little early for the dinner rush yet, and you are halfway through your meal when a waiter stops beside you, coughing to catch your attention.`
+			`一时兴起，你决定在一家远离繁忙的太空港的餐厅里用餐。你很快就发现自己在实体菜单上搜索了一份美食清单，因为人们从你的摊位旁的窗口流过，每个人都因为漫长的工作而显得疲惫不堪。餐点很快就点好了，你继续观察人群，直到它到来，一个当地版本的炸猪排，然后开始吃。`
+			`	这个地方很安静，也许离晚餐高峰期还有点早，你吃到一半的时候，一个服务员停在你身边，咳嗽着引起你的注意。`
 			choice
-				`	"May I help you?"`
-				`	"Yes?"`
-				`	"What do you want?"`
-			`	"Sorry," he says, grabbing the edges of his shirt. "But... may I ask... what's it like to see the stars? To visit other worlds?"`
+				`	"我可以帮你吗？"`
+				`	"是吗？"`
+				`	"你想要什么？"`
+			`	"对不起，"他说，抓着衣服的边缘。"但是......我可以问一下......看星星是什么感觉？参观其他世界？"`
 			choice
-				`	"Most worlds are the same or worse than here."`
-				`	"The stars are prettier under an atmosphere."`
-				`	"It's an adventure, but not for the faint of heart."`
-			`	"Oh... I've never seen any pilots, so I never got to ask," he says, slightly dejected. "Thank you very much for telling me though!"`
-			`	He goes back to his work, with a thoughtful expression of neutral satisfaction on his face.`
+				`	"大多数世界都和这里一样，或者比这里更糟糕。"`
+				`	"有大气层的星星更漂亮。"`
+				`	"这是一次冒险，但不适合胆小的人。"`
+			`	"哦......我从未见过任何飞行员，所以我一直没机会问。"他说，略显沮丧。"不过非常感谢你告诉我！"`
+			`	他回到自己的工作岗位上，脸上带着中性满意的深思表情。`
 				decline
 
 
@@ -246,8 +246,8 @@ mission "Syndicate Security Troops"
 		random < 1
 	on offer
 		conversation
-			`The low rumble of "Tonners," heavy trucks for moving troops and supplies, rolling down the street causes heads to turn and look at the blocky yet imposing vehicles slowing to a stop. The driver and the commander of the foremost vehicle have their eyes on the road, watching out for any traffic hazards that might pose a risk to either the vehicle or their support.`
-			`	The troops within the back of each tonner, on the other hand, are making small talk, the camo on their face smearing off in the heat. One of them points at you, saying something that garners him a groan from his peers, and you decided that you probably don't want to know what he said.`
+			`运送部队和物资的重型卡车 "Tonners "的低沉隆隆声在街上滚动，使人们转过头来，看着这些块状但气派的车辆缓缓停了下来。最前面的车辆的司机和指挥官盯着道路，注意任何可能对车辆或他们的支持构成风险的交通危险。`
+			`	另一方面，每辆吨位车后面的部队都在闲聊，他们脸上的迷彩在高温下被涂掉了。其中一个人指着你，说了一些话，引起了他的同伴们的不满，你决定，你可能不想知道他说了什么。`
 				decline
 
 
@@ -261,7 +261,7 @@ mission "Class Trip to Port"
 		random < 1
 	on offer
 		conversation
-			`A group of children waves at you as you step off your ship, marveling at the spacecraft on display as their teachers try and fail to hold their attention. You can see the fading of their uniform colors from afar as their group walks past, yet none of them look one bit displeased. While you make your way into the spaceport itself, you wonder how many of them may eventually own their own spaceship and fly across the stars.`
+			`当你走下飞船时，一群孩子向你挥手，他们惊叹于展示的航天器，因为他们的老师试图吸引他们的注意力，但没有成功。当他们一行人走过时，你可以从远处看到他们制服颜色的褪色，然而他们没有一个人看起来有一点不高兴。当你进入太空港时，你想知道他们中有多少人最终会拥有自己的宇宙飞船，飞越星空。`
 				decline
 
 
@@ -275,8 +275,8 @@ mission "Old Defense Turrets"
 		random < 1
 	on offer
 		conversation
-			`With an annoyingly long stopover having encouraged you to do a little exploring, you rent a car for a short drive around the immediate area. Later, as you pull the car into the designated return parking lot, the unexpected sound of large hydraulic motors draws your attention. You watch as a massive turret lifts up from behind a nearby barricade and turns toward the sky, its single cannon poised to fire at seemingly nothing.`
-			`	Looking around for some form of explanation you find a plaque placed conveniently nearby dedicating the turret, and five others like it, offering protection and discouraging piracy until relatively recent years. You can't help but wonder how well the turrets would do if they were to be actually used again.`
+			`恼人的长时间停留鼓励你做一点探索，你租了一辆车在附近地区开了一会儿。后来，当你把车开进指定的返回停车场时，大型液压马达的意外声音引起了你的注意。你看着一个巨大的炮塔从附近的路障后面升起，转向天空，它的一门大炮正准备向似乎什么都没有的地方开火。`
+			`	环顾四周，你发现附近有一块牌子，上面写着这个炮塔和其他五个类似的炮塔，提供保护并阻止海盗行为，直到最近几年。你不禁要问，如果这些炮塔真的再次被使用，它们会有多大的作用。`
 				decline
 
 
@@ -294,17 +294,17 @@ mission "Blind Landing"
 		has "Trash Fire Crops: declined"
 	on offer
 		conversation
-			`Smog fills your windscreen as you make your descent, trying and failing to see anything more than a few meters in front of you. The autopilot systems show solid green across the full range of indicators though, and traffic control has confirmed a lock.`
+			`在你下降的过程中，烟雾充斥着你的挡风玻璃，你试图看到你面前几米以外的东西，但都失败了。虽然自动驾驶系统的所有指标都显示为绿色，而且交通控制部门已经确认锁定。`
 			choice
-				`	(Land on autopilot.)`
-				`	(Return to orbit.)`
+				`	(在自动驾驶仪上降落。)`
+				`	(返回轨道。)`
 					goto orbit
-			`	You let the craft perform the landing, staring blankly at the haze until it clears.`
-			`	On the ground, you see the cause, fields upon fields of plantations burning. You see a crowd of mostly farmers blocking off a smaller group of firefighters, arguing and trying to stop them from putting out the flames as planes fly overhead, dropping water and retardants wherever necessary.`
-			`	You recall seeing something like this years ago, of farmers burning their crops to make the land fertile, and how bad the air was for months.`
+			`	你让飞船进行着陆，茫然地盯着雾霾，直到它消失。`
+			`	在地面上，你看到了原因，一片又一片的种植园在燃烧。你看到一群主要是农民的人挡住了一小部分消防员，争吵并试图阻止他们扑灭火焰，飞机从头顶飞过，在必要的地方投下水和阻燃剂。`
+			`	你记得几年前看到过类似的情况，农民为了使土地肥沃而焚烧庄稼，几个月来空气都很糟糕。`
 				decline
 			label orbit
-			`	Unwilling to trust landing blind into an unknown situation, you return to orbit and rejoin the spaceport processing queue. One day of delay is a worthwhile price to pay for surety.`
+			`	你不愿意相信在一个未知的情况下盲目着陆，你返回轨道，重新加入太空港的处理队列。耽搁一天是为确保安全而付出的值得的代价。`
 				flee
 
 
@@ -319,24 +319,24 @@ mission "Forest Fire"
 		random < 1
 	on offer
 		conversation
-			`The smell of burning smoke permeates the air as you step off your craft, causing you to rush towards the nearest shelter, coughing along the way. Once there, you find people shouting and rushing about to get tape plastered onto the windows. No one seems to have noticed your arrival and none give an explanation.`
+			`当你走下飞船时，空气中弥漫着烧焦的烟味，使你不得不冲向最近的避难所，一路上咳嗽不止。一旦到了那里，你发现人们在大喊大叫，急忙在窗户上贴上胶带。似乎没有人注意到你的到来，也没有人给出解释。`
 			choice
-				`	"Hey! What's happening? I can help!"`
+				`	"嘿！发生了什么事？我可以帮忙！"`
 					goto help
-				`	(Look for someone not in motion.)`
-			`	You seek out a pregnant lady sitting on a chair, a mask worn as she explains: "A large fire has sprung up nearby, and the wind is fanning it towards the spaceport. Might have been some fool playing with fire, or some pirate sending a message to a local. We don't know, could be anything around here really. We're hunkering down and hoping it'll burn out before it does too much damage."`
+				`	(寻找没有运动的人。)`
+			`	你找到了一个坐在椅子上的孕妇，她戴着口罩在解释。"附近出现了一场大火，风把它吹向太空港。可能是某个傻瓜在玩火，或者是某个海盗在给当地人发信息。我们不知道，可能是这里的任何东西，真的。我们正在躲藏起来，希望它在造成太多损失之前烧掉。"`
 			choice
-				`	"I have a ship out there. Let me help."`
-			`	Her eyes widen and she looks around, sharply catching the attention of one of the many people hurrying about.`
+				`	"我有一艘船在那里。让我来帮忙。"`
+			`	她的眼睛睁大了，环顾四周，敏锐地吸引了许多人中一个匆匆忙忙的人的注意。`
 				goto fight
 			label help
-			`	A young man who looks suspiciously like he might've been air traffic control twenty minutes ago glances at you and skids to a stop. "Oh, you're a pilot! Can your ship help?"`
+			`	一个看起来很可疑的年轻人，他可能在20分钟前还是空中交通管制员，他瞥了你一眼，然后滑到了一个地方。"哦，你是个飞行员！你的船能帮忙吗？你的船能帮忙吗？"`
 			choice
-				`	"Yes."`
+				`	"是的。"`
 			label fight
-			`	The dock-hands scramble to get the firefighting equipment onto your ship after your proclamation, instructing you to drop the retardants onto the perimeter of the fire. You barely manage to remember what every button does before the Air Traffic Controller clears you to depart, navigating your craft towards the fire.`
-			`	The raging fire flares like an inferno, throwing up black smoke in deep billowing waves as you approach. As you drop the retardants, making sure to keep your speed low, animals scramble towards safer grounds. You try to make sure you've not emptied right on top of them each time as you go back for another batch.`
-			`	Hours later, you look at your handiwork, a long line of red keeping back the flames as the fire starts to smother out. You radio your progress and receive a cheery response, thanking you for your help.`
+			`	在你宣布之后，码头工人争先恐后地把消防设备搬到你的船上，指示你把阻燃剂扔到火场的周边。在空中交通管制员允许你出发之前，你几乎没有记住每个按钮的作用，而是将你的飞船引向火场。`
+			`	汹涌的大火像地狱一样燃烧着，当你接近时，黑色的烟雾在深深的波浪中飘散。当你投下阻燃剂时，确保保持低速，动物们争先恐后地跑向更安全的地方。你试图确保你每次都没有倒在它们的上面，因为你又回去拿了一批。`
+			`	几个小时后，你看着你的手艺，当火势开始熄灭时，一条长长的红线挡住了火焰。你用无线电报告了你的进展，并收到一个愉快的回应，感谢你的帮助。`
 				decline
 
 
@@ -351,8 +351,8 @@ mission "Local Politics"
 		random < 1
 	on offer
 		conversation
-			`As you land on the pad, you note a general lack of presence around the spaceport. No one has scrambled to hook up your ship, nor has anybody else acknowledged your arrival. Instead, when you leave your ship, all you find is a note within the spaceport detailing where their "overlords" can find their yearly tribute.`
-			`	You decide against finding out where the inhabitants went.`
+			`当你降落在停机坪上时，你注意到太空港周围普遍缺乏人影。没有人争先恐后地接上你的飞船，也没有人承认你的到来。相反，当你离开你的飞船时，你发现太空港内只有一张纸条，详细说明了他们的 "统治者 "可以在哪里找到他们每年的贡品。`
+			`	你决定不查出居民的去向。`
 				decline
 
 
@@ -367,9 +367,9 @@ mission "Military Response Test"
 		random < 1
 	on offer
 		conversation
-			`In a strange set of instructions, the Air Traffic Controller has you punch in a set of coordinates, taking you close to a massive military base on the way to the landing zone. You let the autopilot take over as you watch the view off the cockpit window, hoping the turrets in the base won't shoot you out of the sky.`
-			`	From where you are watching, you see a single woman standing within the parade square, a hand raised like she's looking at her watch. Seconds pass before she raises her other hand and gives a thumbs up to whoever's looking at her. Suddenly, a loud siren sounds out across the base that is audible even in your ship as it passes by at reasonable height. You watch as soldiers drop everything they're doing, some rushing into buildings while others run toward armored vehicles. Within minutes, the base's vehicles are rolling towards the parade square whilst soldiers in full gear run to assemble within the square in neat rows.`
-			`	You aren't sure whether what they were doing was scheduled, or if it was in response to your flight.`
+			`在一套奇怪的指令中，空中交通管制员让你输入一组坐标，在去往着陆区的路上，把你带到一个巨大的军事基地附近。你让自动驾驶仪接管，同时看着驾驶舱窗外的风景，希望基地里的炮塔不会把你从天上射下来。`
+			`	从你观察的地方，你看到一个女人站在阅兵广场内，一只手举起，像是在看表。几秒钟过去了，她举起另一只手，向看着她的人竖起了大拇指。突然，一声响亮的警报声响彻整个基地，即使在你的船上也能听到，因为它以合理的高度经过。你看着士兵们放下手中的一切，一些人冲进建筑物，另一些人则跑向装甲车。几分钟内，基地的车辆就向阅兵广场滚去，而穿着全套装备的士兵则整齐地跑到广场内集合。`
+			`	你不确定他们所做的事情是预定的，还是为了应对你的飞行。`
 				decline
 
 
@@ -383,8 +383,8 @@ mission "Missed Mugging"
 		random < 1
 	on offer
 		conversation
-			`The sun has already set when you walk out of the spaceport, trying to find a nearby restaurant to sample their wares. Looking around, the only source of light comes from the building you just exited, a beacon within the sea of darkness.`
-			`	Choosing a random direction, you decide to walk down the quiet street, taking in the sights. You are interrupted as two men rush from an alley, pushing past you as they go. Before you can respond, you see a woman run out, clothes in disarray as she gives chase to the two men to no avail. Belatedly, you realize that they were holding a purse, long after they've disappeared, melting into the blackness beyond.`
+			`当你走出太空港时，太阳已经落山了，你想找一家附近的餐馆品尝他们的产品。环顾四周，唯一的光源来自于你刚刚离开的那座建筑，是黑暗之海中的一座灯塔。`
+			`	你随机选择了一个方向，决定走在安静的街道上，欣赏风景。你被打断了，因为有两个人从一条小巷里冲出来，边走边从你身边挤过去。在你做出反应之前，你看到一个女人跑了出来，衣服乱糟糟的，她追赶那两个男人，但没有结果。你迟钝地意识到，他们拿着一个钱包，在他们消失后很久，融进了外面的黑夜。`
 				decline
 
 
@@ -399,7 +399,7 @@ mission "Sojourn Sunday Sales"
 		random < 1
 	on offer
 		conversation
-			`You blink in surprise as you enter the spaceport, watching throngs of people pushing their way through the human chains of queues wrapped around the commercial area. You scan your surroundings and notice advertisements upon advertisements of vacation locations, all at an absurdly high discount. Yet despite their vastly reduced prices, the advertised holidays still cost such large sums that a younger you could never have justified such expense.`
+			`当你进入太空港时，你惊讶地眨了眨眼，看着成群结队的人在商业区周围的人链中挤来挤去。你扫视了一下周围的环境，注意到一个又一个度假地点的广告，都是以荒谬的高折扣。然而，尽管价格大幅降低，广告中的假期仍然花费巨大，年轻时的你根本无法证明这样的花费是合理的。`
 				decline
 
 
@@ -412,49 +412,49 @@ mission "Tarazed Ship Christening"
 		has "main plot completed"
 	on offer
 		conversation
-			`As you walk past a number of ships and crew going about their work in the spaceport, a small gathering in front of a Shuttle catches your attention. A young woman wearing a rather cheesy pilot uniform is in the midst of a little group of people all celebrating together. As you pass by them, a man standing on the top of a ladder breaks a bottle of Champagne on the (clearly not new) ship's hull. A loud cheer erupts from the group, earning an embarrassed blush from the young woman.`
+			`当你走过一些在太空港工作的船只和船员时，在一架航天飞机前的一个小聚会引起了你的注意。一个穿着相当俗气的飞行员制服的年轻女人正处在一小群人中间，他们在一起庆祝。当你从他们身边经过时，一个站在梯子上的男人将一瓶香槟酒打在（显然不是新的）飞船的船体上。这群人中爆发出热烈的欢呼声，赢得了年轻女子尴尬的脸红。`
 			choice
-				`	(Take a closer look.)`
+				`	(仔细看看。)`
 					goto investigate
-				`	(Shout well wishes as I pass by)`
+				`	(当我经过时喊出祝福的声音)`
 					goto passby
-				`	(Ignore them, I have more important things to do.)`
-			`	You hurry past the rowdy group, annoyed by the disturbance.`
+				`	(别理他们，我有更重要的事情要做。）`
+			`	你匆匆走过那群人，对他们的骚扰感到恼火。`
 				decline
 			label passby
-			`	You hurry past the group as they quiet down. Taking advantage of the momentary lull, you shout "Good luck! You've got this!" toward them. They let out another cheer in response, with the exception of the young woman who buries her face in her hands.`
+			`	当他们安静下来时，你匆匆走过这群人。趁着暂时的平静，你大喊："祝你好运！你能行的！"朝着他们喊道。你能行的！"朝他们喊。他们再次发出欢呼声作为回应，只有那个把脸埋在手心里的年轻女人例外。`
 				decline
 			label investigate
-			`	You approach the group as they quiet down, noticing a hint of anxiety in the air.`
-			`	"Nothing quite like buying your very first starship," you say over their chatter. The celebration goes quiet as they turn to see who interrupted their little party.`
-			`	"It's certainly been an... experience," the young woman replies once you are in comfortable talking distance.`
+			`	当他们安静下来时，你走近这群人，注意到空气中的一丝焦虑。`
+			`	"没有什么比买下你的第一艘星船更重要的了，"你在他们的交谈声中说道。当他们转过身去看是谁打断了他们的小聚会时，庆祝会就安静了。`
+			`	"这确实是一次......经历，"一旦你在舒适的谈话距离内，这位年轻女子回答说。`
 			choice
-				`	"Have you got any big plans with it?"`
+				`	"你对它有什么大计划吗？"`
 					goto plans
-				`	(Give some advice.)`
+				`	(给予一些建议）。`
 					goto advice
-				`	"So, who's the lucky pilot?"`
-			`	You gesture to the Shuttle and look around as if it should be anyone else.`
-			`	"Uhh... that would be me," the woman says, glancing around awkwardly.`
+				`	"那么，谁是那个幸运的飞行员？"`
+			`	你向航天飞机打了个手势，然后环顾四周，好像应该是其他任何人。`
+			`	"呃......那就是我。"那个女人说，尴尬地瞥了一眼周围。`
 			choice
-				`	(Try to salvage the awkward situation.)`
-				`	(Get out while I can.)`
+				`	(试着挽回尴尬的局面。)`
+				`	(趁着我还能走出去。)`
 					goto getout
-			`	"I'm just messing with you, my psychiatrist doesn't think it's very funny when I do it to him either."`
-			`	"Oh," the woman says quietly, "that's... nice, I guess."`
+			`	"我只是在跟你开玩笑，我的心理医生也不认为我对他这样做很有趣。"`
+			`	"哦，"女人静静地说，"那是......不错，我想。"`
 			label getout
-			`	You realize that you have made this random young lady quite uncomfortable by barging in with your input.`
-			`	"Well, good luck!" you say with a wave as you hurry away. You barely hear the quiet "thank you" over the burning in your ears.`
+			`	你意识到，你闯入的意见让这位随机的年轻女士相当不舒服。`
+			`	"好吧，祝你好运！"你边说边挥手，匆匆离开。你几乎听不到在你耳边燃烧的 "谢谢 "的声音。`
 				decline
 			label plans
-			`	"Right now," she says with a sigh, "the only plan I have is to get rid of the massive debt that I'm in because of it."`
+			`	"现在，"她叹了口气说，"我唯一的计划是摆脱我因此而欠下的巨额债务。"`
 			label advice
-			`	"The mortgage isn't so bad as long as you're willing to work hard," you say with a smile, "and there is no shortage of people in need of a ship and a good pilot."`
-			`	"I knew you could make a decent living with one, but is it really that easy?" she asks.`
-			`	"The work isn't easy, but finding a job is the least of your worries. I'm sure that you'll have this ship paid off in no time."`
-			`	You stay around and talk with the aspiring pilot for a few minutes, giving her tips and advice before stating that you have work to do. As you turn to leave, an older man places his hand on your arm, stopping you.`
-			`	"Before you go," the man says, "we weren't very sure about this whole 'pilot' thing at first, but it's good to hear that my little girl has made the right decision. Thank you for that."`
-			`	"It's the least I could do," you say before walking away.`
+			`	"只要你愿意努力工作，抵押贷款也不是那么糟糕，"你笑着说，"而且不乏需要一艘船和一个好飞行员的人。"`
+			`	"我知道你可以用一艘船过上体面的生活，但它真的那么容易吗？"她问道。`
+			`	"工作并不容易，但找工作是你最不担心的事。我相信，你很快就会把这艘船付清。"`
+			`	你留在身边，与这位有抱负的飞行员交谈了几分钟，给她提示和建议，然后说你还有工作要做。当你转身离开时，一个年长的人把手放在你的手臂上，阻止了你。`
+			`	"在你走之前，"那人说，"我们一开始对'飞行员'这件事不是很确定，但很高兴听到我的小女儿做出了正确的决定。谢谢你的帮助。"`
+			`	"这是我至少能做的，"你说，然后就走了。`
 				decline
 
 
@@ -468,8 +468,8 @@ mission "Masquerade Hanging"
 		random < 1
 	on offer
 		conversation
-			`The smell of burning gunpowder wafts about in the air as you enter a town square, watching as a body is rolled off of a raised platform. Cries and screams fill the air as a masked man drags a lady across the platform and onto the central dias, an old-fashioned pistol to her head as he asks her something you can't make out. Thankfully, the man doesn't shoot, taking his gun off her temple before subsequently knocking her out with his weapon.`
-			`	Moments later the small crowd allows him to depart opposite your viewpoint, without incident and without explanation. You aren't quite sure what to make of this scene as the bodies are swiftly dragged away.`
+			`当你进入一个城镇广场时，空气中飘荡着火药燃烧的气味，看着一具尸体从一个高台上滚下来。哭声和尖叫声充斥着空气，一个蒙面人把一位女士拖过平台，拖到中央的平台上，用一把老式手枪指着她的头，问她一些你听不懂的话。值得庆幸的是，这名男子没有开枪，他把枪从她的太阳穴上拿下来，然后用他的武器把她打晕了。`
+			`	几分钟后，小群人允许他在你的观点对面离开，没有发生任何事件，也没有解释。当尸体被迅速拖走时，你不太确定该如何理解这一幕。`
 				decline
 
 mission "News Reporter - Paradise"
@@ -484,48 +484,48 @@ mission "News Reporter - Paradise"
 		not "event: joined the free worlds"
 	on offer
 		conversation
-			`You are passing through the spaceport when you see a young woman walking in your direction. Trailing behind her is a multitude of camera drones, each one marked with a logo consisting of two curves pointing inwards.`
+			`当你经过太空港时，你看到一个年轻女人朝你的方向走来。跟在她身后的是许多摄像无人机，每一架都有一个标志，由两个朝内的曲线组成。`
 			choice
-				`	(Wait for her to approach.)`
+				`	(等待她走近。)`
 					goto walk
-				`	(Hope she doesn't notice me.)`
+				`	(希望她不要注意到我。)`
 					goto notice
-				`	(Try to avoid her.)`
-			`	You take a hallway off to the side to evade her. Just as you think you've gotten out of sight, you hear a voice. "Excuse me!" You turn to see the reporter following you.`
+				`	(尽量避开她。)`
+			`	你走了一条偏向一侧的走廊来躲避她。就在你认为你已经离开了视线的时候，你听到一个声音。"打扰一下！"你转过身来，看到那个记者在跟着你。`
 				goto walk
 			label notice
-			`	As you continue walking, you hear her call out, "Excuse me!" Suppressing a sigh, you turn to face the reporter.`
+			`	当你继续走时，你听到她叫道："对不起！"压抑着一声叹息，你转身面对记者。`
 			label walk
-			`	As she gets closer to you, she smiles. "Hello Captain! Would you be willing to answer a few questions for our viewers?"`
+			`	当她离你越来越近时，她笑了。"你好，队长！"。你愿意为我们的观众回答几个问题吗？"`
 			choice
-				`	"Sure, I wouldn't mind."`
+				`	"当然，我不会介意。"`
 					goto questions
-				`	"No, I'd rather not."`
+				`	"不，我还是不要了。"`
 					decline
 			label questions
-			`	The camera drones circle around you as she prepares for the interview. After a few seconds, she smiles at one of the drones and begins.`
-			`	"Welcome back. I'm here on <origin> reporting on the situation with the Free Worlds. I'm joined by a merchant captain currently between trips. Captain, what do you think of the ultimatum sent to Parliament?"`
+			`	当她准备接受采访时，摄像机的无人机围着你转了一圈。几秒钟后，她对其中一个无人机笑了笑，然后开始。`
+			`	"欢迎回来。我在<origin>上报道自由世界的情况。和我一起的还有一位目前正在旅行之间的商船船长。船长，你对发给议会的最后通牒有什么看法？"`
 			choice
-				`	"I think Parliament should reconsider and give the situation some thought."`
-				`	"Parliament made the right decision by refusing the demands."`
+				`	"我认为议会应该重新考虑，对局势进行一番思考。"`
+				`	"议会做出了正确的决定，拒绝了这些要求。"`
 					goto right
-			`	The reporter frowns. "Can you explain your answer for our viewers?"`
+			`	记者皱起了眉头。"你能为我们的观众解释你的答案吗？"`
 			choice
-				`	"The interests of every world should be considered, whether we agree or not."`
-				`	"The Free Worlds aren't represented well enough to gain traction through normal channels."`
-				`	"The Navy is hardly defending that territory, so taxes shouldn't be as much."`
-				`	"I would prefer to not answer."`
-			`	"I'm not sure that Parliament would agree with you, but I want to thank you for your answers, and for taking the time to do this interview!" she says.`
-			`	The drones dart back to follow her as she continues through the spaceport.`
+				`	"应该考虑每个世界的利益，无论我们同意与否。"`
+				`	"自由世界没有足够的代表性，无法通过正常渠道获得牵引力。"`
+				`	"海军很难保卫那片领土，所以税收不应该那么多。"`
+				`	"我宁愿不回答。"`
+			`	"我不确定议会是否会同意你的观点，但我要感谢你的回答，感谢你抽出时间来做这次采访！"她说。`
+			`	当她继续穿过太空港时，无人机又飞快地跟着她。`
 				decline
 			label right
-			`	The reporter smiles. "Can you explain that answer for our viewers?"`
+			`	记者笑了笑。"你能为我们的观众解释一下这个答案吗？"`
 			choice
-				`	"There are proper channels for presenting grievances, and this isn't one of them."`
-				`	"It's a very ungrateful thing to do when Parliament is the one protecting them."`
-				`	"I would prefer to not answer."`
-			`	"We are fortunate that many people feel this way! Thank you for your answers, and for taking the time to do this interview!" she says.`
-			`	The drones dart back to follow her as she continues through the spaceport.`
+				`	"有适当的渠道来提出申诉，而这不是其中之一。"`
+				`	"当议会是保护他们的人时，这是一件非常不感恩的事情。"`
+				`	"我宁愿不回答。"`
+			`	"我们很幸运，很多人都有这种感觉！"。谢谢你的回答，谢谢你抽出时间来做这个采访！"她说。`
+			`	当她继续穿过太空港时，无人机又飞快地跟着她。`
 				decline
 
 mission "Scientists at the Pub after a Conference"
@@ -538,52 +538,52 @@ mission "Scientists at the Pub after a Conference"
 		random < 1
 	on offer
 		conversation
-			`As you take a break after a long journey and a longer-feeling landing procedure, you notice a group of people enter the pub where you're sitting, streaming in from the conference complex across the street. They vary in age, dress, and accent, but most have an identical badge dangling from a lanyard around their necks. You notice one badge that's been dropped on the floor, reading "Attendee - 35th Annual Pan-galactic Conference on Interstellar Microbial Genomics and Population Dynamics." The group takes their seats at a long table near to you.`
+			`当你在经历了漫长的旅程和感觉更久的着陆程序后休息时，你注意到一群人进入了你所坐的酒馆，他们从街对面的会议大楼涌入。他们的年龄、穿着和口音各不相同，但大多数人的脖子上都挂着一个相同的徽章。你注意到有一个徽章掉在地上，上面写着 "与会者--第35届泛银河系星际微生物基因组学和人口动力学年会"。这群人在靠近你的一张长桌上就座。`
 			choice
-				`	(Order a meal and listen in to their conversation.)`
+				`	(点个餐，听听他们的谈话。)`
 					goto "overheard scientists 1"
-				`	(Find somewhere quieter to relax.)`
+				`	(找一个更安静的地方来放松。)`
 					decline
 			label "overheard scientists 1"
-			`	Fragments of conversation make their way to you through the din of the pub.`
+			`	谈话的片段通过酒馆的喧嚣传到了你的耳中。`
 			` `
-			`	Two of the younger attendees are looking a bit nervous. "I'm so glad to have my presentation over with. I was so worried about having to present on the first day, but now I can finally just relax and actually listen to the other talks!"`
-			`	"Oh definitely! I probably shouldn't even be here - I should really be rehearsing... Oh! Waiter, another beer, please!"`
-			`	"Got your slide deck ready for tomorrow?"`
-			`	"Yeah, but I'm still terrified. I hate public speaking."`
-			`	"Don't worry, you know more about your particular area of expertise than they do. You'll be fine once you're on stage! And besides, graduate school is one giant exercise in public speaking. Comfort comes with practice."`
+			`	两个年轻的与会者看起来有点紧张。"我很高兴能结束我的演讲。我很担心必须在第一天做演讲，但现在我终于可以放松下来，真正听其他的演讲了！"`
+			`	"哦，当然！我可能甚至不应该在这里。我也许根本不应该来这里--我真的应该排练......"。哦！服务员，再来一杯啤酒，谢谢！"`
+			`	"准备好明天的幻灯片了吗？"`
+			`	"是的，但我还是很害怕。我讨厌公开演讲。"`
+			`	"别担心，你对你的特定专业领域比他们了解得多。一旦你上了台，你就会好起来的！""别担心，你比他们更了解你的特定专业领域。此外，研究生院就是一个巨大的公众演讲练习。舒适感来自于练习。"`
 			` `
-			`	Another scientist is rolling his eyes after a post-mortem of the day's events. "Is there some law I don't know about that requires every 'question' to start with 'I guess this isn't so much a question as a comment...'?"`
+			`	另一位科学家在对一天的活动进行事后总结后，正在揉眼睛。"是不是有什么我不知道的法律，要求每个'问题'都以'我想这并不是一个问题，而是一个评论......'开头？"`
 			` `
-			`	An exasperated academic is speaking emphatically to her friend about what you infer to be a presentation they both heard earlier. "I don't think the nucleotide evidence supports their hypothesis at all! Like, I know the proteomic data could be used to support their conclusion, but they're ignoring synonymous mutations!"`
+			`	一位气急败坏的学者正对她的朋友强调说，你推断他们之前都听到了一个演讲。"我认为核苷酸的证据根本不支持他们的假设！"。比如，我知道蛋白质组的数据可以用来支持他们的结论，但是他们忽略了同义突变！"`
 			choice
-				`	(Order another beverage and continue listening.)`
+				`	(再点一杯饮料，继续听。)`
 					goto "overheard scientists 2"
-				`	(Finish my meal and leave.)`
+				`	(吃完饭，离开。)`
 					decline
 			label "overheard scientists 2"
-			`	The group's conversation grows louder by virtue of both passion for the subject as well as the influence of a few drinks.`
-			`	"Look, the analysis might be fine, but if they can't even be bothered to provide the version numbers for their analytical software, then it isn't reproducible and that's an automatic 'reject' from me."`
+			`	由于对这个话题的热情以及几杯酒的影响，这群人的谈话声越来越大。`
+			`	"听着，分析可能是好的，但如果他们连分析软件的版本号都懒得提供，那就不能重现了，那我就自动'拒绝'。"`
 			` `
-			`	One person is looking slightly shell-shocked after considering what might have been. "Can you believe my computer crashed right before I had to present? Good thing I had backups. Two is one and one is none."`
+			`	一个人在考虑了可能发生的事情后，看起来有点惊慌失措。"你能相信我的电脑在我要做报告之前就崩溃了吗？幸亏我有备份。两个就是一个，一个就是没有。"`
 			` `
-			`	A group seem to be discussing some other colleagues in the field who are, presumably, not present this evening. "Singh and Esterhazy are such arrogant jerks. Their work is okay, I guess, but not enough to justify their wannabe rockstar personalities!"`
-			`	"Sure, but they aren't just arrogant jerks, they're charismatic arrogant jerks. Charisma attracts good grad students to their lab, who produce good papers, who they put their name on. It's a positive feedback loop."`
+			`	一群人似乎在讨论该领域的其他一些同事，据推测，他们今天晚上没有出席。"辛格和埃斯特哈兹是如此傲慢的混蛋。他们的工作还可以，我想，但还不足以证明他们想当摇滚明星的个性！"`
+			`	"当然，但他们不仅仅是傲慢的混蛋，他们是有魅力的傲慢的混蛋。魅力吸引了优秀的研究生到他们的实验室，他们发表了好的论文，他们把自己的名字写在上面。这是一个正反馈循环。"`
 			` `
-			`	Grant applications seem to be a common subject. "The Republic Medical Research Agency said my work is too theoretical, but the University of Chiron Department of Microbiology says it's too applied!"`
-			`	"That's a conundrum, alright. Maybe you could find some funding from industry? The Syndicate might be interested in your work."`
-			`	"Yeah, but I'm not sure yet if I'm willing to give up my academic freedom."`
+			`	资助申请似乎是一个常见的话题。"共和国医学研究机构说我的工作太过理论化，但赤龙大学微生物系说它太过应用化！"`
+			`	"这是个难题，好吧。也许你可以从工业界找到一些资金？辛迪加可能对你的工作感兴趣。"`
+			`	"是的，但我还不确定我是否愿意放弃我的学术自由。"`
 			choice
-				`	(Finish up at my own pace.)`
+				`	(按照我自己的节奏完成。)`
 					goto "overheard scientists 3"
-				`	(Settle my bill as quickly as possible and leave.)`
+				`	(尽快结清我的账单，然后离开。）`
 					decline
 			label "overheard scientists 3"
-			`	Two attendees compare gripes about job demands. "Teaching sucks. Between class hours, office hours, and preparing lectures, there's hardly any time left for research."`
-			`	"That's funny! Teaching undergrads is my one respite from grant-writing!"`
+			`	两位与会者比较了对工作要求的不满。"教学很糟糕。在上课时间、办公时间和准备讲座之间，几乎没有时间进行研究。"`
+			`	"这很有趣!教导本科生是我在写基金的时候唯一的喘息机会！"`
 			` `
-			`	A sociable but exhausted-looking man is sitting back in his chair. "These conferences only last three or four days, but it always feels like it ages you a year."`
-			`	You leave after finishing your meal, reflecting on having overheard a slice of a life very different from your own.`
+			`	一个善于交际但看起来很疲惫的人正坐回他的椅子上。"这些会议只持续三四天，但总感觉它让你老了一年。"`
+			`	你吃完饭就离开了，反思自己无意中听到的与自己的生活截然不同的片断。`
 				decline
 
 
@@ -595,21 +595,21 @@ mission "Sol-Bound Shuttle"
 		random < 1
 	on offer
 		conversation
-			`	Upon entering the sprawling spaceport, you notice that a group of factory workers are talking to a captain. As you get closer, you see that the captain's flagship, a Shuttle that has seen better days, lacks a hyperdrive.`
+			`	在进入广阔的太空港时，你注意到一群工厂工人正在与一名船长交谈。当你走近时，你看到船长的旗舰，一艘日子过得比较好的航天飞机，缺少一个超级驱动器。`
 			choice
-				`	"Where's your hyperdrive?"`
-				`	"How are you going to travel anywhere with that ship?"`
-				`	(Go back to your ship.)`
+				`	"你的超级驱动器在哪里？"`
+				`	"你怎么能用那艘船去旅行？"`
+				`	(回到你的船上去。)`
 					decline
-			`	The captain laughs. "Most pilots are the adventurous type. Not me. I make a pretty decent haul just flying people from Earth to Mars and back. Occasionally I do trips to the Moon for tourists." You notice that she uses the archaic term for Luna. Must be a local expression.`
+			`	船长笑了。"大多数飞行员都是冒险的类型。我不是。我只是把人从地球飞到火星，然后再回来，就能赚到相当可观的收入。偶尔我也为游客做去月球的旅行。"你注意到她使用了月球这个古老的术语。这一定是当地的一种说法。`
 			choice
-				`	"Doesn't that get boring?"`
+				`	"那不会变得很无聊吗？"`
 					goto boring
-				`	"Is there really enough travel within Sol that you can make a living off of it?"`
-			`	"You'd be surprised. There's a lot of people in this system after all, and a lot of those people have enough money to leave Earth but not enough to leave Sol. It's a nice niche I've carved out for myself."`
+				`	"在太阳城内真的有足够的旅行，你可以以此为生吗？"`
+			`	"你会惊讶的。毕竟这个系统里有很多人，而其中很多人有足够的钱离开地球，但却没有足够的钱离开太阳。这是我为自己开辟的一个不错的小天地。"`
 				goto end
 			label boring
-			`	"For you, maybe. I can tell by your accent that you've done a bit of travelling from your home planet. I like staying closer to home, though. With all the instability in the galaxy - pirates, aliens, and who knows what else - staying in Sol keeps me safe. Call me paranoid, but being in a place where I don't have to worry about that is something I value." She eyes a ship to the side that's having its hull repaired. The damage appears to have been inflicted by a beam weapon.`
+			`	"对你来说，也许。我可以从你的口音中看出，你已经从你的母星做了一些旅行。不过，我喜欢呆在离家近的地方。银河系中的所有不稳定因素--海盗、外星人，以及谁知道还有什么--留在索尔让我感到安全。你可以说我偏执，但在一个我不必担心的地方，我很看重。"她看着一旁正在修理船体的飞船。损害似乎是由光束武器造成的。`
 			label end
-			`	You say your goodbyes as you board your ships. Although you are both captains, the trajectory of your lives have taken very different courses.`
+			`	当你们登上你们的船时，你们说了再见。虽然你们都是船长，但你们的生活轨迹却大相径庭。`
 				decline

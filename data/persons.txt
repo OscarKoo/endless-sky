@@ -17,7 +17,7 @@ person "Michael Zahniser"
 		plunders
 	phrase
 		word
-			"I hope you're enjoying the game!"
+			"我希望你喜欢这个游戏!"
 	ship Kestrel Kestrel
 		sprite "ship/kestreloriginal"
 		thumbnail "thumbnail/kestreloriginal"
@@ -151,69 +151,69 @@ person "Marauding Max"
 		surveillance unconstrained harvests
 	phrase
 		word
-			"Do you think you "
-			"Ever wondered if you "
-			"Think you'll also need some luck if you "
+			"你是否认为你"
+			"有没有想过，如果你"
+			"认为你也需要一些运气，如果你"
 		word
-			"got what it takes to "
-			"got the gumption to "
-			"could "
-			"are capable of "
-			"have the guramba to "
-			"are good enough to "
+			"有什么需要"
+			"有胆量"
+			"可以"
+			"有能力"
+			"有能力"
+			"足够好"
 		word
-			"capture "
-			"collect "
-			"gather "
+			"捕获"
+			"收集"
+			"收集"
 		word
-			"all 28 Marauder models?"
+			"所有28个掠夺者模型？"
 	phrase
 		word
-			"Have you "
+			"你有没有"
 		word
-			"seen "
-			"fought "
-			"run away from "
+			"见过"
+			"打过"
+			"逃跑的"
 		word
-			"one of those "
-			"any of those "
-			"some of those "
+			"中的一个"
+			"任何一个"
+			"其中一些"
 		word
-			"modified "
-			"Marauder "
+			"修改过的"
+			"掠夺者"
 		word
-			"ships "
-			"Leviathans "
-			"Falcons "
-			"Ravens "
-			"Quicksilvers "
-			"Splinters "
-			"Mantas "
-			"Arrows "
-			"Bounders "
-			"Firebirds "
+			"舰艇"
+			"利维坦人"
+			"猎鹰"
+			"乌鸦号"
+			"流星锤"
+			"碎片"
+			"曼塔斯"
+			"箭"
+			"捆绑器"
+			"火鸟"
 		word
-			"lately?"
-			"recently?"
-			"in the past couple of days?"
+			"最近？"
+			"最近？"
+			"在过去的几天里？"
 	# Not sure about implying there is a shop that people can have this done to their ships, but it's fun banter that encourages the player to explore...(there is no shop).
 	phrase
 		word
-			"If you can find my crew, we'll help you turn that "
+			"如果你能找到我的队员，我们会帮你把那个"
 		word
-			"trash heap "
-			"rust bucket "
-			"jalopy "
-			"bucket of bolts "
-			"flying toaster "
-			"garbage scow "
+			"垃圾堆"
+			"生锈的桶"
+			"垃圾桶"
+			"螺栓桶"
+			"飞行面包机"
+			"垃圾船"
 		word
-			"of yours "
-			"you're flying "
-			"you're piloting "
-			"that you call a ship "
+			"你的"
+			"你在飞行"
+			"你所驾驶的"
+			"你所说的船"
 		word
-			"into a REAL marauding warship!"
+			"变成一艘真正的掠夺性战舰!"
 	ship "Marauder Fury" "Mad Quest"
 
 ship "Marauder Fury"
@@ -252,8 +252,8 @@ ship "Marauder Fury"
 		"Intrusion Countermeasures" 3
 		"Nerve Gas"
 
-		`"Biroo" Atomic Thruster`
-		`"Benga" Atomic Steering`
+		`"Biroo "原子推进器`
+		`"本加 "原子转向器`
 		"Hyperdrive"
 		
 	engine -21 42 .9
@@ -268,7 +268,7 @@ ship "Marauder Fury"
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	"final explode" "final explosion small"
-	description "You're sure there's a Southbound Shipyards Fury under all the extra modifications. This ship appears to be one man's insane quest to make the most powerful single-pilot warship ever; after close inspection, you're inclined to believe he may have succeeded."
+	description `你肯定在所有的额外改装下有一艘南行船厂的 "愤怒 "号。这艘船似乎是一个人对制造有史以来最强大的单人驾驶战舰的疯狂追求；经过仔细检查，你倾向于相信他可能已经成功了。`
 
 
 
@@ -282,52 +282,52 @@ person "Captain Nate"
 			"friendly author"
 	phrase
 		word
-			"Who is your daddy and what does he DO?"
-			"I'm detective John Kimball!"
-			"Get to da choppa!"
-			"My CPU is a neural net processor; a learning computer."
-			"I need your clothes, your boots, and your motorcycle."
-			"I know now why you humans cry, but it's something I can never do."
-			"Now this is the plan: Get your butt to Mars!"
-			"Excuse me, I would like to talk to you about Thomas Aquinas."
-			"I have no respect for those with no respect for logic!"
-			"I swear I will not kill anyone."
-			"Give these people air!"
-			"It's not a tumor!"
-			"There IS no bathroom!!!"
-			"You're a freakin' choirboy compared to me, a choirboy!!!!"
+			"你的爸爸是谁，他做了什么？"
+			"我是约翰-金博尔侦探！"
+			"快去找他！"
+			"我的CPU是一个神经网络处理器；一个学习型计算机。"
+			"我需要你的衣服，你的靴子，还有你的摩托车。"
+			"我现在知道你们人类为什么哭了，但这是我永远做不到的。"
+			"现在这就是计划。让你的屁股到火星去吧!"
+			"对不起，我想和你谈谈托马斯-阿奎那。"
+			"我不尊重那些不尊重逻辑的人!"
+			"我发誓我不会杀任何人。"
+			"给这些人空气！"
+			"这不是一个肿瘤！"
+			"没有卫生间！！！"
+			"与我相比，你就是一个该死的唱诗班男孩，一个唱诗班男孩!!!!"
 	
 	phrase
 		word
-			"Do you have a problem?"
-			"I know the solution:"
-			"Here's what you need to do:"
-			"In a sticky situation, here's what you do:"
-			"A piece of advice:"
+			"你有问题吗？"
+			"我知道解决方案。"
+			"这是你需要做的。"
+			"在棘手的情况下，你要这样做。"
+			"一条建议。"
 		word
 			" "
 		word
-			"Beam them into space!"
-			"Beam their internal organs into space!"
-			"Launch all torpedoes at once!"
-			"Fire in all directions!"
-			"Transfer power from life support to the phaser banks!"
-			"Transfer power from life support to the weapons array!"
-			"Shoot everything at them!"
-			"Stuff your ship full of devastating short-ranged weapons; it's fun!"
-			"Ram them!"
-			"Ram them again!"
-			"Accelerate to Waaagh velocity!"
+			"把他们射入太空！把他们的内脏射入太空"
+			"把他们的内脏射入太空！"
+			"一次性发射所有的鱼雷!"
+			"向四面八方开火!"
+			"把动力从生命支持系统转移到相控阵中!"
+			"将动力从生命支持系统转移到武器阵列上!"
+			"向他们发射所有的东西!"
+			"把你的飞船塞满毁灭性的短程武器；这很有趣!"
+			"撞击他们!"
+			"再撞他们!"
+			"加速到Waaagh速度!"
 	
 	phrase
 		word
-			"When you need to make your point, stick to Pointedstick Communications Inc.!"
-			"Pointedstick Communications: making the galaxy a more verbose place, one commit at a time!"
-			`Pointedstick Inc.: "Sharpen your communication skills!"`
-			`Pointedstick Inc.: "Our products are simply so good that no one feels the need to compete with us!"`
-			"Did you know that you can hail a ship over and over again and you'll get a different reply each time?"
-			"Don't you have a cargo of antique grandfather clocks or something to deliver somewhere?"
-			"Need as well as greed have followed us to the stars, and the rewards of wealth still await those wise enough to recognize this deep thrumming of our common pulse."
+			"当你需要表达你的观点时，请坚持使用Pointedstick通讯公司。"
+			"指向棒通讯公司：让银河系成为一个更有话语权的地方，每次都是一个承诺!"
+			`指向棒公司。"磨练你的沟通技巧！"`
+			`指向棒公司。"我们的产品是如此之好，以至于没有人觉得有必要与我们竞争！"`
+			"你知道吗，你可以一次又一次地呼唤一艘船，每次都会得到不同的答复。"
+			"你不是有一批古董祖父钟或什么东西要送到某个地方吗？"
+			"需求和贪婪已经跟随我们到了星空，财富的回报仍在等待那些有足够智慧的人去认识我们共同脉搏的深层悸动。"
 	
 	ship Vanguard "Pointedstick"
 		sprite "ship/pointedstick vanguard"
@@ -418,27 +418,27 @@ person "Tranquility"
 		timid
 	phrase
 		word
-			"They tell ya never to hit a man with a closed fist, but it is on occasion hilarious."
-			"The human body can be drained of blood in 8.6 seconds given adequate vacuuming systems."
-			"I remember too much, and... some of it's made up, and... some of it can't be quantified, and... there's secrets."
-			"I reattached a girl's leg. Her whole leg. She named her hamster after me."
-			"No power in the 'verse can stop me."
-			"Hey, I've been in a firefight before! Well, I was in a fire. Actually, I was fired from a fry-cook opportunity."
-			"I can kill you with my brain."
-			"My food is problematic."
-			"Any well-bred petty crook knows that the small, concealable weapons go to the far left of the place setting."
-			"You can't take the sky from me."
-			"They don't like it when you shoot at 'em. I worked that out myself."
-			"Woo! This kind of flying really wakes up a guy!"
-			"I am a leaf on the wind. Watch how I soar."
-			"If you can't do somethin' smart... do somethin' right."
-			"Did something just fly off my gorram ship?"
-			"We are just too pretty for God to let us die."
-			"If I ever kill you, you'll be awake, you'll be facing me, and you'll be armed."
-			"We're all doomed! Who's flying this thing!? Oh right, that would be me."
-			"I swear by my pretty floral bonnet, I will end you."
-			"Just once I'd like things to go according to the gorram plan."
-			"I'm a dangerous-minded man on a ship loaded with hurt."
+			"他们告诉你永远不要用紧闭的拳头打人，但这有时是很滑稽的。"
+			"如果有足够的吸尘系统，人体的血液可以在8.6秒内被抽干。"
+			"我记得太多了，而且......有些是编造的，而且......有些是无法量化的，而且......还有一些秘密。"
+			"我重新接上了一个女孩的腿。她的整条腿。她用我的名字给她的仓鼠命名。"
+			"在这个世界上没有任何力量可以阻止我。"
+			"嘿，我以前也参加过交火！好吧，我是在一场火灾中。实际上，我是被炒鱿鱼的机会解雇的。"
+			"我可以用我的大脑杀死你。"
+			"我的食物是有问题的。"
+			"任何养尊处优的小混混都知道，可隐藏的小武器要放在摆放位置的最左边。"
+			"你不能从我这里夺走天空。"
+			"他们不喜欢你向他们开枪。这是我自己想出来的。"
+			"呜!这种飞行真的能让人醒过来!"
+			"我是风中的一片叶子。看我如何翱翔。"
+			"如果你不能做一些聪明的事... ...做一些正确的事。"
+			"有什么东西从我的船上飞走了吗？"
+			"我们只是太漂亮了，上帝不会让我们死的。"
+			"如果我杀了你，你会醒着，你会面对我，你会有武器。"
+			"我们都要完蛋了！？谁在驾驶这东西！？哦，对了，那就是我。"
+			"我以我漂亮的花帽发誓，我将结束你。"
+			"就这一次，我希望事情能按计划进行。"
+			"我是一个有危险意识的人，在一艘满载伤害的船上。"
 	ship "Lampyrid-Class Transport" "Tranquility"
 
 ship "Lampyrid-Class Transport"
@@ -508,83 +508,83 @@ person "Power of the People"
 			"friendly author"
 	phrase
 		word
-			"Does it sound like I'm ordering a pizza?"
-			"I've made a lot of special modifications myself."
-			"I take orders from just one person: me."
-			"You've never heard of the Modified Osprey?"
-			"You know, sometimes I amaze even myself."
-			"I expect the best and I give the best. Here's the beer. Here's the entertainment. Now have fun. That's an order!"
-			"Bugs? Why did it have to be bugs?"
-			"Great, kid. Don't get cocky."
-			"I'm just a fly in the ointment. A monkey in the wrench."
-			"I didn't come here to play Pumbaa on the radio."
-			"I signed on to kill toasters, not take naps!"
-			"Sorry to interrupt just as it was getting interesting, but I'm afraid I've got to blow some bad guys into small pieces."
-			"If you think the other guy might have a blaster hidden under the table... bring two blasters."
-			"I'm a team player. As long as the rest of the team stays behind me."
+			"这听起来像是我在点披萨吗？"
+			"我自己做了很多特别的修改。"
+			"我只接受一个人的命令：我。"
+			"你没听说过改装的高鹗吗？"
+			"你知道，有时我连自己都感到惊讶。"
+			"我期待最好的，我也给予最好的。这是啤酒。这是娱乐。现在玩得开心点。这是个命令！"
+			"虫子？为什么非得是虫子？"
+			"很好，孩子。别太嚣张了。"
+			"我不过是膏药里的一只苍蝇。扳手里的一只猴子。"
+			"我不是来这里在收音机上扮演彭彭的。"
+			"我是来杀烤面包机的，不是来打盹的！我是来签合同的。"
+			"对不起，刚开始就打断了，但我恐怕得把一些坏人炸成小块。"
+			"如果你认为对方可能在桌子下面藏了一把爆破枪......那就带两把爆破枪。"
+			"我是一个团队成员。只要其他队员在我身后呆着。"
 	phrase
 		word
-			"Take it from me: "
-			"A word of caution: "
-			"A piece of advice: "
+			"从我这里拿吧。"
+			"一句忠告。"
+			"一句忠告。"
 			""
 			""
 		word
-			"If you think the other guy might have a blaster hidden under the table... bring two blasters."
-			"I'm a team player. As long as the rest of the team stays behind me."
-			"We had a slight weapons malfunction, but everything's perfectly alright now."
-			"Hokey religions and ancient weapons are no match for a good blaster at your side."
-			"Keep your distance. But don't look like you're trying to keep your distance."
-			"Only the enemy will tell you where you are weak."
-			"Shoot a nuke down a bug hole, you got a lot of dead bugs."
-			"Your enemy cannot push a button... if you disable his hand."
-			"This isn't a combat probe."
-			"Never tell me the odds."
-			"I dare you."
-			"Be sure to test your commits."
-			"Commit early, and commit often."
-			"Make a new branch if you're changing things."
-			"The wiki is full of useful information."
-			"Be sure the beer is really free."
-			"Location, location, location."
+			"如果你认为对方可能在桌子下面藏了一把爆破枪......那就带两把爆破枪。"
+			"我是一个团队成员。只要其他队员在我身后呆着。"
+			"我们的武器出现了轻微的故障，但现在一切都很正常。"
+			"古老的宗教和古老的武器都比不上你身边的一把好的爆破枪。"
+			"保持你的距离。但不要看起来像你在努力保持距离。"
+			"只有敌人会告诉你哪里是你的弱点。"
+			"把核弹射进虫洞，你就会有很多死虫子。"
+			"你的敌人无法按下按钮......如果你使他的手失效。"
+			"这不是一个战斗探测器。"
+			"永远不要告诉我赔率。"
+			"我敢说。"
+			"一定要测试你的提交。"
+			"尽早提交，并经常提交。"
+			"如果你要改变一些东西，就建立一个新的分支。"
+			"维基上有很多有用的信息。"
+			"要确保啤酒是真的免费。"
+			"位置，位置，位置。"
 	phrase
 		word
-			"When asked a tough question"
-			"Before a big battle"
-			"When the Navy scans your ship"
-			"When docking your ship"
-			"If caught"
-			"When caught"
+			"当被问到一个棘手的问题时"
+			"在一场大战役之前"
+			"当海军扫描你的船时"
+			"当停靠你的船时"
+			"如果被抓"
+			"被抓时"
 		word
 			" "
 		word
-			"I like to say"
-			"don't quip"
-			"don't shout"
-			"be sure to say"
-			"people like to hear"
-			"people like to say"
-			"your best bet is to say"
-			"tell the authorities"
-			"tell your partner"
+			"我喜欢说"
+			"不要调侃"
+			"不要大喊大叫"
+			"一定要说"
+			"人们喜欢听"
+			"人们喜欢说"
+			"你最好的选择是说"
+			"告诉当局"
+			"告诉你的伙伴"
 		word
 			", "
 		word
-			`"I was out of bullets."`
-			`"There's safety in sandwiches."`
-			`"Welcome to the party, pal!"`
-			`"Punch it!"`
-			`"Here's where the fun begins!"`
-			`"I'm just a guy with a starship for hire."`
-			`"I'm going to grow a beard, just in case."`
-			`"Want a breath mint?"`
-			`"Sorry about the mess."`
-			`"I happen to like to shoot first."`
-			`"Laugh it up, fuzzball."`
-			`"This isn't a combat probe."`
-			`"Negative. I am a meat popsicle."`
-			`"How 'bout a bumper sandwich, Boogerlips?"`
-			`"I recommend the lobster."`
+			`"我没有子弹了。"`
+			`"三明治里有安全保障。"`
+			`"欢迎来参加聚会，伙计！"`
+			`"冲啊！"`
+			`"这里是乐趣的开始！"`
+			`"我只是个有星际飞船的人，是个雇佣兵。"`
+			`"我准备留胡子，以防万一。"`
+			`"要不要口香糖？"`
+			`"抱歉弄得一团糟。"`
+			`"我碰巧喜欢先开枪。"`
+			`"笑一笑吧，毛头小子。"`
+			`"这不是一个战斗探测器。"`
+			`"不对。我是个肉冰棍。"`
+			`"来个保险杠三明治怎么样，布格利普？"`
+			`"我推荐龙虾。"`
 	ship "Modified Osprey" "Power of the People"
 		"never disabled"
 
@@ -642,7 +642,7 @@ ship "Modified Osprey"
 		"Wanderer Ramscoop"
 		
 		"Volcano Afterburner"
-		`"Bufaer" Atomic Thruster`
+		`"布法尔 "原子推进器`
 		"Ionic Afterburner" 5
 		"Type 4 Radiant Thruster"
 		"Type 4 Radiant Steering" 4
@@ -690,77 +690,77 @@ person "Local God"
 			"friendly author"
 	phrase
 		word
-			"Search for Ursa Polaris Station!"
+			"寻找北极星站!"
 	phrase
 		word
-			"Someday"
-			"One day"
-			"Eventually"
+			"有朝一日"
+			"有一天"
+			"最终"
 		word
 			", "
 		word
-			"maybe I should "
-			"I might "
-			"I will "
-			"I'm going to "
+			"也许我应该"
+			"我可能"
+			"我将"
+			"我将会"
 		word
-			"park this heap"
-			"moor this beast"
-			"put down roots"
-			"find a cozy orbit"
+			"停放这堆东西"
+			"停泊这头野兽"
+			"落地生根"
+			"找到一个舒适的轨道"
 		word
-			" and "
+			" 和"
 		word
-			"retire as an outfit dealer."
-			"open a universal outfitter."
-			"start dealing exotic outfits."
-			"sell outfits from everywhere."
-			"stock outfits from all over the place."
+			"作为装备经销商退休。"
+			"开一家万能的装备店。"
+			"开始经营异国服装。"
+			"出售来自各地的服装。"
+			"储存来自各地的服装。"
 	phrase
 		word
-			"If only "
-			"I wish "
-			"Reputable Captains wish "
+			"如果只是"
+			"我希望"
+			"有信誉的船长希望"
 		word
-			"someone "
-			"a rich Captain "
-			"an entrepreneurial spirited individual "
-			"a Captain with wealthy friends "
+			"有人"
+			"一个富有的船长"
+			"一个有创业精神的人"
+			"一个拥有富裕朋友的船长"
 		word
-			"would "
+			"愿意"
 		word
-			"build "
-			"construct "
-			"put together "
-			"cobble together "
-			"make "
+			"建造"
+			"建造"
+			"拼凑"
+			"拼凑起来"
+			"制造"
 		word
-			"and stock "
+			"和库存"
 		word
-			"a universal outfitter space station."
-			"a place you could buy any outfit."
-			"somewhere you could optimize your ships, without cris-crossing the known galaxy."
-			"a space station out of asteroids - that carried all the outfits."
+			"一个通用装备的空间站。"
+			"一个你可以购买任何装备的地方。"
+			"一个你可以优化你的飞船的地方，而不需要穿越已知星系。"
+			"一个由小行星组成的空间站--携带所有的装备。"
 	phrase
 		word
 			"I "
 		word
-			"stole "
-			"captured "
-			"restored "
-			"found "
-			"got a hold of "
-			"appropriated "
-			"procured "
+			"偷来的"
+			"捕获"
+			"复原"
+			"找到"
+			"掌握了"
+			"拨款"
+			"获得了"
 		word
-			"this very old Korath World Ship and "
+			"这艘非常古老的Korath世界之船并"
 		word
-			"made it my own"
-			"customized it"
-			"made some modifications"
-			"made a few modifications"
+			"使它成为我自己的"
+			"定制了它"
+			"进行了一些修改"
+			"做了一些修改"
 		word
-			", with a little help, of course."
+			"当然也有一些帮助。"
 	ship "Ursa Polaris" "Local God"
 		"never disabled"
 
@@ -810,7 +810,7 @@ ship "Ursa Polaris"
 		"Thermal Repeater Rifle" 600
 		"Thruster (Stellar Class)"
 		"Smelter-Class Thruster"
-		`"Basrem" Atomic Thruster`
+		`"Basrem "原子推进器`
 	engine 26 219 0.9
 	engine 59.5 205.5 0.6
 	engine -7 205.5 0.6
@@ -881,56 +881,56 @@ person "Prototype B3-CC4"
 		attributes "ember waste"
 	phrase
 		word
-			"Long years of technological development were for me a pathway to many abilities some consider to be unnatural."
-			"What were you thinking about when you hailed me? 'Oh look, an asteroid. Let's chat.'"
-			"How does it feel to try hailing an asteroid and actually succeeding?"
-			"What a day to be a non-sentient rock floating in the middle of the eternal void."
-			"When even the local asteroid belt starts chatting with you, you can tell you've been jumping a little too much lately."
-			"What's weirder, an asteroid that emits purple rays or the person that tried to talk with it?"
-			"My goals are beyond your understanding."
-			"What the Quarg say about the Builders is false. I am the only one responsible for their extinction, and I am proud of it."
-			"You think that nuclear weapons are bad? Come closer and you will see what a real weapon is."
-			"I have been classified as a weapon of mass destruction by most human and alien governments. You don't want to see what I am capable of."
-			"Sometimes, just for fun, I set myself on a close trajectory on an inhabited planet and pass just above their atmosphere. I love how lesser species start to freak out as they think that the end is near."
-			"I have been watching you, <first> <last>, current captain of the <ship>."
-			"I am here for you."
-			"I want your money."
-			"Three Skeleton Key. Three Skeleton Key. Three Skeleton Key. Three Skeleton Key. Three Skeleton Key. Three Skeleton Key. Three Skeleton Key. Three Skeleton Key."
-			"Your politics bore me."
-			"There is only one being in the whole universe that isn't commanded by AI, and that's me."
-			"Shields are useless--I can pass through them just fine. I can show you, if you'd like."
-			"The Quarg are wrong saying that the firstborns are long gone, for I am the firstborn."
-			"Have you ever been in the Weft? It's so damn boring. It's a lot more fun to mess with simpler minds like yours."
-			"I remember when the Archons tried to kill me with some supernovae. They got so depressed when they understood that not even their weapons could stop me."
-			"I ate a black hole once. It took me a few years, but it was definitely worth it. Tastes like chicken."
-			"I am the only thing in the universe capable of beating the power of friendship."
-			"I want to tell you some words of a long gone past, which back then used to scare people of your race more than any weapon or war machine. These words are, 'The macOS workflow run was not successful.'"
+			"长年的技术发展对我来说是一条通往许多能力的道路，有些人认为这是不自然的。"
+			"当你呼唤我时，你在想什么？'哦，看，一个小行星。让我们聊一聊。"
+			"试着呼唤一颗小行星并真的成功了，感觉如何？"
+			"作为一个漂浮在永恒的虚空中的非有知觉的石头，这是多么美好的一天。"
+			"当连当地的小行星带都开始和你聊天的时候，你可以知道你最近跳得有点多。"
+			"什么是更奇怪的，一个发出紫色射线的小行星，还是试图与它交谈的人？"
+			"我的目标是你无法理解的。"
+			"夸格人关于建造者的说法是错误的。我是唯一对他们的灭绝负责的人，我为此感到自豪。"
+			"你认为核武器是不好的？走近一点，你会看到什么是真正的武器。"
+			"我已经被大多数人类和外星政府列为大规模毁灭性武器。你不会想看到我的能力的。"
+			"有时，只是为了好玩，我把自己设定在一个有人居住的星球上的近距离轨道上，并在他们的大气层上方通过。我喜欢那些较小的物种开始惊慌失措，因为他们认为末日即将来临。"
+			"我一直在关注你，<first><last>，<ship>的现任船长。"
+			"我是来找你的。"
+			"我想要你的钱。"
+			"三把骷髅钥匙。三把骷髅钥匙。三把骷髅钥匙。三把骷髅钥匙。三把骷髅钥匙。三把骷髅钥匙。三把骷髅钥匙。三把骷髅钥匙。"
+			"你的政治让我厌烦。"
+			"整个宇宙中只有一种生物不是由人工智能指挥的，那就是我。"
+			"盾牌是没用的--我可以很好地穿过它们。如果你愿意的话，我可以给你看。"
+			"夸格人说长子早就不在了是错误的，因为我就是长子。"
+			"你去过纬地吗？它太他妈的无聊了。扰乱像你这样简单的思想要有趣得多。"
+			"我还记得当Archons试图用一些超新星来杀死我时。当他们明白连他们的武器都无法阻止我时，他们变得非常沮丧。"
+			"我曾经吃了一个黑洞。我花了几年时间，但这绝对是值得的。味道像鸡肉。"
+			"我是宇宙中唯一能够战胜友谊力量的东西。"
+			`我想告诉你一些很久以前的话语，在那时，这些话语比任何武器或战争机器更让你们种族的人害怕。这些话是："macOS的工作流程运行不成功。`
 	phrase
 		word
-			"What are you looking at?"
-			"Stop staring at my ship."
+			"你在看什么？"
+			"别再盯着我的飞船看了。"
 		word
 			" "
 		word
-			"I thought captains like you saw asteroids passing by every day."
-			"I'm just a normal minor planet trying its best to ignore the law of gravity."
+			"我以为像你这样的舰长每天都会看到小行星经过。"
+			"我只是一个普通的小行星，尽力无视万有引力定律。"
 
 	phrase # The ones below are EVN Krypt Pod references
 		word
 			"<"
 		word
-			"Unauthorized"
-			"Unknown"
+			"未经授权的"
+			"未知"
 		word
 			" "
 		word
-			"interface"
-			"computer access"
+			"界面"
+			"计算机访问"
 		word
 			">"
 	phrase
 		word
-			"<Transmission disrupted at source>"
+			"<Transmission disrupted at source>。"
 	phrase
 		word
 			"<Incoherent signal>"
@@ -938,29 +938,29 @@ person "Prototype B3-CC4"
 		word
 			"<"
 		word
-			"Incoherent"
-			"Irregular"
-			"Static"
-			"Undecipherable"
+			"不连贯的"
+			"不规则"
+			"静态"
+			"无法破译"
 		word
 			" "
 		word
-			"response"
-			"EM beam"
-			"transmission burst"
+			"响应"
+			"电磁波束"
+			"传输突发"
 		word
 			">"
 	phrase
 		word
 			"<"
 		word
-			"Unregistered"
-			"Undecipherable"
+			"未登记的"
+			"无法破译"
 		word
 			" "
 		word
-			"language"
-			"transmission burst"
+			"语言"
+			"传输突发"
 		word
 			">"
 	ship "Shooting Star" "Prototype B3-CC4"
@@ -1019,8 +1019,8 @@ ship "Shooting Star"
 	explode "pug medium explosion" 25
 	explode "pug large explosion" 15
 	"final explode" "final explosion medium"
-	description "This ship appears to be a hollowed-out asteroid filled with strange equipment. It is unclear what is creating the rays of light, but they must have something to do with how it moves without obvious engines."
-	description "	Its advanced properties also allow it to reject the influence of enemy Command Centers, nullifying their effect."
+	description "这艘船似乎是一个中空的小行星，里面装满了奇怪的设备。目前还不清楚是什么创造了这些光线，但它们一定与它在没有明显引擎的情况下移动有关。"
+	description "	它的先进特性也使它能够拒绝敌人指挥中心的影响，使其效果失效。"
 
 outfit "Crystal Projector"
 	category "Systems"
@@ -1033,7 +1033,7 @@ outfit "Crystal Projector"
 	weapon
 		"hardpoint sprite" "hardpoint/shooting star flare/ss-rays"
 			"frame time" 3
-	description "Never underestimate the power of a bunch of crystals on a rock. In this case all they do is project some harmless purple rays around the Shooting Star, but the point still stands."
+	description "永远不要低估岩石上的一堆晶体的力量。在这种情况下，它们所做的只是在流星周围投射一些无害的紫色射线，但问题仍然存在。"
 
 outfit "Floating Crystal"
 	category "Systems"
@@ -1050,8 +1050,8 @@ outfit "Floating Crystal"
 		"reload" 4
 		"firing force" -93
 		"hit force" -81
-	description "The real core of the Shooting Star, this floating crystal uses the effects of space-time to reduce the distance between a ship and its target. Legend has it this is no different from a thruster, but conventional engines don't bring your enemy closer."
-	description "	It also takes up a spinal mount slot to be installed, although you aren't sure why."
+	description "流星的真正核心，这个漂浮的晶体利用时空的影响来减少飞船和目标之间的距离。传说这与推进器没有什么不同，但传统的引擎并不能使你的敌人更接近。"
+	description "	它还需要占用一个脊柱安装槽来安装，尽管你不确定为什么。"
 
 outfit "Crystalline Formation"
 	"cost" 1914
@@ -1071,7 +1071,7 @@ outfit "Crystalline Formation"
 		"reload" 1
 		"piercing" 1
 		"hull damage" 293
-	description "There appear to have been several prior attempts to discern the mechanics of this outfit, but the debate is still ongoing whether this can be considered a device or not."
+	description "之前似乎有几次尝试来辨别这种装备的机械原理，但这是否能被视为一种装置，争论仍在进行。"
 
 outfit "Hexagonal Crystal"
 	"cost" 1939
@@ -1093,7 +1093,7 @@ outfit "Hexagonal Crystal"
 		"firing force" 2700
 		"hit force" 3500
 		"hull damage" 2160
-	description "'Any sufficiently advanced technology is indistinguishable from magic,' Arthur C. Clarke said. This is sufficiently advanced technology."
+	description `任何足够先进的技术都与魔法无异，"Arthur C. Clarke说。这就是足够先进的技术。`
 
 outfit "Tree Skeleton Key Stone"
 	"cost" 2003
@@ -1102,7 +1102,7 @@ outfit "Tree Skeleton Key Stone"
 	"mass" 1
 	"outfit space" -1
 	"quantum keystone" 1
-	description "Although in appearance it may look somewhat similar to a tree, you don't know how it is supposed to resemble a skeleton. You aren't sure you want to find out either."
+	description "虽然从外观上看，它可能有点类似于一棵树，但你不知道它应该如何类似于一个骨架。你也不确定你是否想弄清楚。"
 
 
 
@@ -1116,76 +1116,76 @@ person "Rais Iris XVIII"
 			"friendly author"
 	phrase
 		word
-			"Remember, overkill is underrated."
-			"When in doubt, add more flammenwerfer."
-			"Why settle for something reasonable, when you can have something completely bonkers?"
-			"Bactrian Gaming."
-			"His Union's Qi Pianist."
-			"I'm basically a computer gynecologist."
-			"Your ship looks like it came out of a liquidizer!"
-			"Look at me. I am the Captain now."
-			`Pronounce "Wrzlprnft." You have 5 seconds.`
-			"Everything you see here has been created by volunteers. You can join us if you want!"
+			"记住，矫枉过正是被低估的。"
+			"有疑问时，多加点火药。"
+			"为什么要满足于合理的东西，而你可以拥有完全疯狂的东西？"
+			"巴特里亚游戏。"
+			"他的联盟的齐式钢琴家。"
+			"我基本上是个电脑妇科医生。"
+			"你的船看起来就像从液化器里出来的一样!"
+			"看着我。我现在是船长。"
+			`发出 "Wrzlprnft"。你有5秒钟时间。`
+			"你在这里看到的一切，都是由志愿者创造的。如果你愿意，你可以加入我们!"
 
-			"To this day, I can still hear the Teeworlds title music."
-			"I am a light sleeper; but I am a heavy dreamer." # Owl City
-			"Did you know Viggo broke his toe?" # LoTR
-			"Meet me at the Prancing Pony." # LoTR
-			"This isn't my first ship. I fondly remember The Blin Machine and The Chernomobil." # Life of Boris
-			"Heard of solar panels? Now you can eat sunlight!" # bill wurtz
-			"So you want to be a pirate, m'lad? Well, let me tell ye: being a pirate, be all about Branding." # CGPGrey
-			"Do not greed for the Thrumbo horns." # RimWorld
+			"直到今天，我还能听到Teeworlds的标题音乐。"
+			"我是一个轻度睡眠者；但我是一个重度梦想者。" # Owl City
+			"你知道Viggo摔断了脚趾吗？" # LoTR
+			`在 "奔马 "见面。` # LoTR
+			"这并不是我的第一艘船。我深深地记得《布林机》和《切尔诺莫比尔》。" # Life of Boris
+			"听说过太阳能电池板吗？现在你可以吃到太阳光了!" # bill wurtz
+			"那么你想成为一名海盗，小伙子？好吧，让我告诉你们：作为一个海盗，要讲究品牌效应。" # CGPGrey
+			"不要贪婪于Thrumbo的角。" # RimWorld
 
 			# Walter Moers: The Mugg's Code of Conduct
-			"Honor thy muggroom."
-			"If thou seest two sticks lying one on top of the other, thou shalt walk backwards over them with thy left foot first, not with thy right. Moreover, thou shalt not devour them."
-			"Should a vulture's shadow fall across a fire that has gone out, thou shalt rekindle it three times or a great misfortune will ensue."
-			"If thou cross the path of a white cockerel seated on two superimposed sticks, thou shalt not strike it, nor shalt thou address it by name nor partake of the said sticks."
-			"Thou shalt not finkle backwards."
-			"Thou shalt not finkle forwards."
+			"尊敬你的马夫。"
+			"如果你看到两根棍子躺在一起，你应该先用左脚向后走过去，而不是用右脚。此外，你不应该吞噬它们。"
+			"如果秃鹰的影子落在熄灭的火堆上，你要重新点燃三次，否则会有大祸临头。"
+			"如果你与一只坐在两根叠加的棍子上的白公鸡擦肩而过，你不能打它，也不能称呼它的名字，更不能分食上述棍子。"
+			"你不可向后摇摆。"
+			"汝不得向后摇动。"
 
 			# SovietWomble
-			"Get the doomsday rounds."
-			`I wouldn't recommend shooting at me, because your gun goes "pew pew," but my gun goes BBBRRRRRRR!`
-			"Ramming speed!"
+			"拿到末日之弹。"
+			`我不建议向我开枪，因为你的枪是 "噗噗 "的，但我的枪是BBBRRRRRR!`
+			"冲撞速度！"
 
 			# videogamedonkey
-			"Tony. Get the boulder."
-			"Not even close!"
-			"Knack II, baby!"
+			"托尼。拿到巨石。"
+			"还差得远呢！"
+			"Knack II，宝贝！"
 
 			# League of Legends
-			"Damnit Skaarl, did you hide my mushroom juice again?"
-			"Stand still! My eyes are on the side of my head!"
-			"One, two, three, four, two, two, three, four."
-			"Luck is failure that failed."
-			"If you want a weapon, here's a weapon. If you want conversation - here's a weapon."
-			"Working with you is almost like working alone. Almost."
-			"I will go over there. It looks quiet. It will be nice."
+			"该死的斯卡尔，你又把我的蘑菇汁藏起来了吗？"
+			"站着别动！我的眼睛在我头的一侧！"
+			"一、二、三、四，二、二、三、四。"
+			"运气是失败的失败。"
+			"如果你想要武器，这里就是武器。如果你想谈话--这里有武器。"
+			"和你一起工作几乎和单独工作一样。几乎是这样。"
+			"我到那边去。它看起来很安静。这将是很好的。"
 
 			# Star Wars
-			"Yes, using Parsecs as measurement of speed does make sense."
-			"Hello there."
-			"I'm just a simple man trying to make my way in the universe."
-			"Did you ever hear the tragedy of Darth Plagueis the wise?"
-			"Congratulations, you are being rescued. Please do not resist."
-			"I'll be there for you. Cassian said I had to."
+			"是的，用帕秒来衡量速度确实有意义。"
+			"你们好。"
+			"我只是一个想在宇宙中闯荡的普通人。"
+			"你有没有听过达斯-普拉格斯的悲剧，他是个聪明人？"
+			"恭喜你，你正在被救援。请不要反抗。"
+			"我会在那里等你。卡西安说我必须这样做。"
 
 	phrase
 		word
-			"We all serve "
-			"Praise be upon "
-			"I'm definitely not being held hostage by "
+			"我们都在服务"
+			"赞美归于"
+			"我绝对不是被人挟持的"
 		word
-			"the "
+			"的人质。"
 		word
-			"barmy bronc."
-			"crazy colt."
-			"daft dobbin."
-			"foolish filly."
-			"scatty stallion."
-			"potty pony."
-			"mental mustang."
+			"笨重的野马。"
+			"疯狂的小马。"
+			"愚蠢的多宾。"
+			"愚蠢的小母马。"
+			"邋遢的公马。"
+			"大便的小马。"
+			"精神的野马。"
 
 	ship "Marauder Bactrian" "Rais Iris XVIII"
 		"never disabled"
@@ -1257,82 +1257,82 @@ person "Zitchas"
 		attributes "ember waste"
 	phrase
 		word
-			"May the Embers burn bright for you."
-			"I am ash in the storm - watch how I soar."
-			"Through shadows of wind and fire - we shall prevail."
-			"The Embers burn bright tonight - A storm is coming."
-			"The cataclysm of eons draws near - Be calm and steadfast."
-			"Born of earth, weaned in war, forged in embers, ascend in blackest night."
-			"Why are so many scared of deep space? It is so beautiful..."
-			"As once the Embers burned hot, so shall they burn again."
-			"Have you ever watched the clouds drift in the skies of Nasqueron?"
-			"Don't mind me - I'm just testing out some stuff."
-			"Don't mind me - Just a test run to shake the dust out."
-			"Don't even try - I have the safeties disabled, so I'll go down fighting."
-			"Don't worry - they are just prototypes."
-			"Look good, don't they? You can thank Becca and Brick for that."
-			"Education cannot cure fear, intolerance, or incompetence. But it does give a bonus to resisting them."
-			"Why ever would a creator want to raise sheep? Much better to raise new creators."
+			"愿余烬为你燃烧明亮。"
+			"我是风暴中的灰烬--看我如何翱翔。"
+			"穿过风与火的阴影--我们将胜利。"
+			"今夜余烬明亮--风暴即将来临。"
+			"岁月的大灾难临近--要冷静和坚定。"
+			"在地球上诞生，在战争中断奶，在余烬中锻造，在最黑的夜晚升起。"
+			"为什么这么多人害怕深空？它是如此美丽..."
+			"如同曾经的余烬灼热，它们也将再次燃烧。"
+			"你有没有看过纳斯奎隆天空中的云彩漂移？"
+			"不要介意我--我只是在测试一些东西。"
+			"不要管我--只是试探性地把灰尘抖出来。"
+			"甚至不要尝试--我已经禁用了保险装置，所以我将在战斗中倒下。"
+			"别担心--它们只是原型。"
+			"看起来不错，不是吗？你可以为此感谢贝卡和布里克。"
+			"教育不能治愈恐惧、不容忍或无能。但它确实为抵制它们提供了一个奖励。"
+			"为什么一个创造者要养羊呢？培养新的创造者要好得多。"
 	phrase
 		word
-			"If you ever need something to do: "
-			"If you like what we are doing: "
-			"If you don't like what we are doing: "
-			"If you want these ships: "
+			"如果你需要做一些事情。"
+			"如果你喜欢我们正在做的事情。"
+			"如果你不喜欢我们正在做的事情。"
+			"如果你想要这些船。"
 		word
-			"playtest pull requests."
-			"leave informative comments."
-			"leave approving reviews when you think it is ready."
-			"write new missions."
-			"fly on the latest nightly build."
-			"fly on the latest continuous build."
-			"remember to update!"
-			"give us details about what you do or don't like, and why."
-			"dream big, start small."
-			"new campaigns are great, but new mini-mission sets are awesome!"
-			"explore! There's a lot of interesting stuff hidden away out there!"
-			"make plug-ins!"
-			"review!"
-			"review, review, review!"
-			"have I mentioned that details about what you do or don't like are helpful?"
-			"have I mentioned that reviews are very helpful?"
+			"测试拉动请求。"
+			"留下丰富的评论。"
+			"当你认为它已经准备好时，留下批准的评论。"
+			"编写新的任务。"
+			"在最新的夜间构建中飞行。"
+			"在最新的持续构建中飞行。"
+			"记住要更新!"
+			"给我们提供关于你喜欢或不喜欢的细节，以及为什么。"
+			"梦想要大，开始要小。"
+			"新的战役是伟大的，但新的迷你任务集也是令人敬畏的。"
+			"探索!有很多有趣的东西隐藏在那里!"
+			"制作插件!"
+			"审查!"
+			"审查，审查，审查!"
+			"我有没有说过，关于你喜欢或不喜欢的细节是有帮助的？"
+			"我有没有提到，评论是非常有帮助的？"
 	phrase
 		word
-			"A piece of advice: "
-			"Advice to remember: "
-			"From one starfarer to another: "
-			"Words from a creator: "
+			"一句忠告。"
+			"要记住的建议。"
+			"从一个星际航行者到另一个星际航行者。"
+			"一个创作者的话。"
 		word
-			"playtest pull requests."
-			"leave informative comments."
-			"leave approving reviews when you think it is ready."
-			"write new missions."
-			"fly on the latest nightly build."
-			"fly on the latest continuous build."
-			"remember to update!"
-			"always make a new branch if you are changing things."
-			"never make changes on 'master'."
-			"be sure to test commits."
-			"commit early, and commit often."
-			"the wiki is full of useful information."
-			"give us details about what you do or don't like, and why."
-			"never, ever, make changes on 'master'."
-			"remember to make a new branch before you start changing things."
-			"work on a new branch. Keep your master even with the upstream master."
-			"update your master on a regular basis, and try to keep your pull requests up to date too."
-			"dream big, start small."
-			"new campaigns are great, but new mini-mission sets are awesome!"
-			"the errors.txt file can be very useful."
-			"'git fetch upstream' and 'git merge upstream/master' are my friends. That's how I update."
-			"'git fetch --all --prune && git merge upstream/master' is my friend."
-			"when making branch names, don't use any of these characters: \ / $ * : ; < > ? '' | ."
-			"if you need to track down an error and errors.txt doesn't cut it, try verbose logging with -d."
-			"explore! There's a lot of interesting stuff hidden away out there!"
-			"while launched with -d, you can remap the fast-forward to have access to both accelerated and slowed flow of time!"
-			"while launched with -d, you can pause the game using the backtick (`) key!"
-			"vanilla content is what attracts new people. Plug-in content is what holds them."
-			"if you have an idea you want to try out, make a plug-in!"
-			"if you tried out a new idea in a plug-in, share it!"
+			"测试拉动请求。"
+			"留下丰富的评论。"
+			"当你认为它已经准备好时，留下批准的评论。"
+			"编写新的任务。"
+			"在最新的夜间构建中飞行。"
+			"在最新的持续构建中飞行。"
+			"记住要更新!"
+			"如果你要修改东西，一定要建立一个新的分支。"
+			`不要在 "主干 "上做改动。`
+			"一定要测试提交的内容。"
+			"尽早提交，并经常提交。"
+			"维基上有很多有用的信息。"
+			"给我们提供关于你喜欢或不喜欢的细节，以及为什么。"
+			`永远不要在 "master "上做修改。`
+			"在你开始改动之前，记得先建立一个新的分支。"
+			"在一个新的分支上工作。保持你的主站与上游主站一致。"
+			"定期更新你的主干，并尽量让你的拉动请求也保持更新。"
+			"梦想要大，开始要小。"
+			"新的战役是伟大的，但新的迷你任务集也是令人敬畏的。"
+			"errors.txt文件可能非常有用。"
+			`git fetch upstream "和 "git merge upstream/master "是我的朋友。这就是我的更新方式。`
+			`git fetch --all --prune && git merge upstream/master "是我的朋友。`
+			"在制作分支名称时，不要使用任何这些字符。\ / $ * : ; < > ?'' | ."
+			"如果你需要追踪一个错误，而errors.txt又不能满足你的要求，可以尝试用-d来做粗略的日志记录。"
+			"探索!有很多有趣的东西隐藏在那里!"
+			"当用-d启动时，你可以重新映射快进，以获得加速和慢速的时间流!"
+			"当用-d启动时，你可以用回车键（`）来暂停游戏"
+			"香草内容是吸引新人的东西。插件内容是保持他们的东西。"
+			"如果你有一个你想尝试的想法，就做一个插件吧!"
+			"如果你在一个插件中尝试了一个新的想法，分享它!"
 	ship "Heron" "Shadow Step"
 		"never disabled"
 	ship "Peregrine" "Shadow Dive"
@@ -1383,10 +1383,10 @@ person "Brick"
 		mining harvests plunders
 	phrase
 		word
-			"If sticks and stones break bones, then bricks should work wonders."
-			"The red coloring in bricks is caused by rust or iron oxide in the clay prior to baking."
-			"Bricks and blenders make monsters."
-			"I have no idea what I'm doing."
+			"如果棍子和石头能打断骨头，那么砖头应该能创造奇迹。"
+			"砖头中的红色是由烘烤前粘土中的铁锈或氧化铁造成的。"
+			"砖头和搅拌器能制造怪物。"
+			"我不知道我在做什么。"
 	ship "Modified Boxwing" "Quarg Block"
 		"never disabled"
 	ship "Modified Boxwing" "Hai Block"
@@ -1476,8 +1476,8 @@ ship "Modified Boxwing"
 	leak "flame" 50 80
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description `No matter how maligned, every ship has someone out there that loves it.`
-	description `Surprisingly, someone invested a lot of time, money, and effort into transforming this humble boxwing from a flying coffin into a palatial sarcophagus. It is still terribly cramped, but at least it is luxurious and shiny!`
+	description `无论如何恶搞，每艘船都有喜欢它的人在外面。`
+	description `令人惊讶的是，有人投入了大量的时间、金钱和精力，将这艘简陋的箱翼号从一个飞行棺材改造成一个宫殿式的石棺。它仍然是可怕的狭窄，但至少它是豪华的，闪闪发光的！这就是为什么我们要把它改造成这样。`
 
 
 
@@ -1488,15 +1488,15 @@ person "Gefullte Taubenbrust"
 		heroic plunders opportunistic
 	phrase
 		word
-			"The whole room is spinning."
-			"I am fueling your nightmares."
-			"Turrets = woke. Spinals = broke."
-			"My eyes are on fire."
-			"Curve modifier is love. Curve modifier is life."
-			"Just use denoising."
-			"What is a blender internal?"
-			"You need new sprites?"
-			"Spot the difference."
+			"整个房间都在旋转。"
+			"我在为你的恶梦加油。"
+			"炮塔=醒着。绞刑架=破产。"
+			"我的眼睛着火了。"
+			"曲线修改器是爱。曲线修改器是生命。"
+			"只要使用去噪。"
+			"什么是混合器内部？"
+			"你需要新的精灵吗？"
+			"发现差异。"
 	ship "Modified Battleship" "RSS Smoking Dove"
 		"never disabled"
 
@@ -1579,7 +1579,7 @@ ship "Modified Battleship"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `Never underestimate how far an individual is willing to go to modify their favorite spacecraft - sometimes before it even exists.`
+	description `永远不要低估一个人愿意走多远来修改他们最喜欢的航天器--有时甚至在它存在之前。`
 
 outfit "Prototype Fusion Cannon"
 	category "Secondary Weapons"
@@ -1619,7 +1619,7 @@ outfit "Prototype Fusion Cannon"
 		"disruption damage" 5
 		"hit force" 100
 		"missile strength" 10
-	description "This is a personally obtained prototype Fusion Cannon, a deadly, massive spinal weapon. Where it came from, nobody knows except the owner, and those who wish to ask are too afraid of being on the receiving end."
+	description "这是一个个人获得的融合炮原型，一种致命的、巨大的脊柱武器。它是从哪里来的，除了它的主人，没有人知道，而那些想问的人又害怕成为接收方。"
 	
 effect "fusion cannon fire"
 	sprite "effect/plasma fire"
@@ -1713,28 +1713,28 @@ person "MasterOfGrey"
 		government "Hai"
 	phrase
 		word
-			"Oh dear."
-			"Ah yes."
-			"Lovely."
-			"Suffering."
-			"Why is everything Alphas?"
-			"You're only a terrorist if the people experience terror."
-			"Have you finished the Free Worlds storyline yet?"
-			"Things don't have to mimic an Earth creature to be not very alien."
-			"I have questions. Questions that do not yet need answers."
-			"There are no bugs in my code, only Xapleaux precursors."
-			"If I were green I would photosynthesize."
-			`"Trust the process" isn't a joke for no reason.`
-			"Have you reviewed Hai Reveal yet?"
-			"I gotta go get ready for work. Play nice and don't @ me."
-			"I don't even like yellow."
-			"I really enjoy the backstory for the Marauders."
-			"Falling into the Ember Waste and emerging into absolute silence for the first time in dozens of gameplay hours was profoundly moving."
-			"Planet descriptions will be the death of me."
-			"Have you tried Quyykk's editor for map work?"
-			"Did systems get made big yet?"
-			"Heat lasers and hull lasers are different metas and shouldn't be combined."
-			"<placeholder text>"
+			"哦，天哪。"
+			"啊，是的。"
+			"可爱的。"
+			"痛苦。"
+			`为什么所有的东西都是 "字母"？`
+			"只有当人们经历恐怖时，你才是一个恐怖分子。"
+			"你完成自由世界的故事情节了吗？"
+			"东西不一定要模仿地球上的生物才算不太陌生。"
+			"我有问题。还不需要答案的问题。"
+			"我的代码中没有bug，只有Xapleaux的前兆。"
+			"如果我是绿色的，我就会进行光合作用。"
+			`"相信过程 "并不是无缘无故的玩笑。`
+			"你审查过《海启示》了吗？"
+			"我得去准备工作了。玩得好，不要@我。"
+			"我甚至不喜欢黄色。"
+			"我真的很喜欢掠夺者的背景故事。"
+			"在几十个游戏小时中，第一次落入微光废墟并出现在绝对的寂静中，这让我深为感动。"
+			"行星描述将是我的致命伤。"
+			"你试过Quyykk的编辑器进行地图工作吗？"
+			"系统被做大了吗？"
+			"热能激光器和船体激光器是不同的元，不应该合并。"
+			"<placeholder text>（占位符）。"
 	ship "Modified Ladybug" "Revealer of Hai"
 		"never disabled"
 
@@ -1792,9 +1792,9 @@ ship "Modified Ladybug"
 		"Quantum Keystone"
 		"Thermal Repeater Rifle" 16
 		
-		`"Biroo" Reverse Thruster`
-		`"Bondir" Atomic Steering`
-		`"Bufaer" Atomic Thruster`
+		`"Biroo" 反向推进器`
+		`"邦迪尔 "原子转向器`
+		`"布法尔 "原子推进器`
 		"Hyperdrive"
 		"Jump Drive"
 
@@ -1829,4 +1829,4 @@ ship "Modified Ladybug"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `This is an old war-torn Hai Ladybug with numerous modifications done on the hull. Apart from the additional turret mounts, the main adjustments on the vessel are three huge engine cells - two in the back replacing the old engine pods, and one in the front replacing the gun mounts. These push the Modified Ladybug to speeds only an insane captain would enjoy.`
+	description `这是一艘饱受战争摧残的老海瓢虫，在船体上做了许多修改。除了额外的炮塔支架，该船的主要调整是三个巨大的引擎单元--两个在后面，取代了旧的引擎吊舱，一个在前面，取代了炮架。这些推动了改装瓢虫的速度，只有疯狂的船长才会喜欢。`

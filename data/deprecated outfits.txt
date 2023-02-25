@@ -22,7 +22,7 @@ outfit "Korath Tek'far Reactor"
 	"outfit space" -25
 	"energy generation" 3.9
 	"heat generation" 7.3
-	description "This is a miniature nuclear reactor, used by the Korath to power their fighters."
+	description "这是一个微型核反应堆，由科拉斯人用来为他们的战斗机提供动力。"
 
 outfit "Korath Tek'nel Reactor"
 	category "Power"
@@ -32,7 +32,7 @@ outfit "Korath Tek'nel Reactor"
 	"outfit space" -140
 	"energy generation" 27.1
 	"heat generation" 80
-	description "This massive reactor was designed by the Korath to meet the power needs of their largest ships."
+	description "这个巨大的反应堆是由Korath人设计的，以满足他们最大的船只的动力需求。"
 
 
 outfit "Korath Shield Generator"
@@ -43,7 +43,7 @@ outfit "Korath Shield Generator"
 	"outfit space" -52
 	"shield generation" 2.4
 	"shield energy" 2.4
-	description "Korath fighters are not able to recharge their shields, but their larger ships are equipped with one of these."
+	description "Korath战斗机不能为他们的护盾充电，但他们的大型战舰都配备了这样一个。"
 
 outfit "Korath Heat Shunt"
 	category "Systems"
@@ -52,7 +52,7 @@ outfit "Korath Heat Shunt"
 	"mass" 34
 	"outfit space" -34
 	"cooling" 78
-	description "Korath weapons generate extreme amounts of heat, and the cooling systems they require are massive."
+	description "科拉斯的武器会产生极多的热量，它们所需要的冷却系统是巨大的。"
 
 outfit "Korath Ark'torbal Thruster"
 	category "Engines"
@@ -67,7 +67,7 @@ outfit "Korath Ark'torbal Thruster"
 	"flare sprite" "effect/plasma flare/tiny"
 		"frame rate" 5
 	"flare sound" "plasma tiny"
-	description "This engine is used by Korath fighters."
+	description "这种发动机被Korath战机使用。"
 
 outfit "Korath Ark'parat Steering"
 	category "Engines"
@@ -79,7 +79,7 @@ outfit "Korath Ark'parat Steering"
 	"turn" 240
 	"turning energy" .6
 	"turning heat" .7
-	description "This engine is used by Korath fighters."
+	description "这种发动机被Korath战机使用。"
 
 outfit "Korath Jak'torbal Thruster"
 	category "Engines"
@@ -94,7 +94,7 @@ outfit "Korath Jak'torbal Thruster"
 	"flare sprite" "effect/plasma flare/large"
 		"frame rate" 8
 	"flare sound" "plasma large"
-	description "This engine is used in the Korath capital ships."
+	description "这个引擎用于Korath的资本战舰。"
 
 outfit "Korath Jak'parat Steering"
 	category "Engines"
@@ -106,7 +106,7 @@ outfit "Korath Jak'parat Steering"
 	"turn" 1680
 	"turning energy" 3.1
 	"turning heat" 7.9
-	description "This engine is used in the Korath capital ships."
+	description "这个引擎用于Korath的资本战舰。"
 
 
 # Deprecated in favor of the Outfits Expansion, which has a cooling penalty that
@@ -119,7 +119,7 @@ outfit "Mass Expansion"
 	"outfit space" 15
 	"cargo space" -20
 	unplunderable 1
-	description "A mass expansion allows you to sacrifice some cargo space in order to make room for more outfits, in situations where you need just a bit more space to install a particular system. It does not increase your weapon or engine space unfortunately."
+	description "质量扩展允许你牺牲一些货物空间，以便为更多的装备腾出空间，在这种情况下，你只需要多一点空间来安装一个特定的系统。不幸的是，它并不能增加你的武器或引擎空间。"
 
 # Deprecated to give it a less generic name.
 outfit "Reverse Thruster"
@@ -189,13 +189,13 @@ effect "big explosion"
 outfit "Cruiser License"
 	category "Special"
 	thumbnail "outfit/navy cruiser license"
-	description "It is a very rare privilege to be permitted to purchase a Navy capital ship for private use - not just because of a Cruiser's firepower, but because it is a potent symbol of the Republic's strength."
+	description "被允许购买一艘海军首舰供私人使用是一种非常罕见的特权--不仅仅是因为巡洋舰的火力，还因为它是共和国力量的有力象征。"
 
 # Deprecated to clarify their name as being part of the Navy, and not a general purpose license for carrier type ships.
 outfit "Carrier License"
 	category "Special"
 	thumbnail "outfit/navy carrier license"
-	description "Only a handful of people in the past century have been given permission to purchase a Navy Carrier, even a decommissioned one, for private use."
+	description "在过去的一个世纪里，只有少数人被允许购买海军航母，甚至是退役的航母，供私人使用。"
 
 # Compatibility patch for those who use plug-ins that give all the licenses.
 # Each one checks for the presence of one of the two licenses, then replaces it.
@@ -230,7 +230,7 @@ outfit "Afterburner"
 	"afterburner fuel" .1
 	"afterburner heat" 10.0
 	"afterburner effect" "afterburner"
-	description "An afterburner works by dumping hyperspace fuel into your engines and igniting it, producing a large amount of thrust. This can be very useful for dodging missiles or briefly escaping from faster opponents, but you must be careful to avoid using up so much fuel that you do not have enough left for hyperspace travel."
+	description "后燃机的工作原理是将超空间燃料倒入你的引擎并点燃，产生大量的推力。这对于躲避导弹或短暂逃离速度更快的对手非常有用，但你必须注意避免耗费大量燃料，以至于你没有足够的时间进行超空间旅行。"
 
 
 
@@ -268,7 +268,7 @@ outfit "Korath Grab-Strike"
 		"shield damage" 108
 		"hull damage" 32
 		"hit force" -160
-	description "Korath Grab-Strike projectiles are designed to pull a target closer to the Korath ship, to keep it from escaping."
+	description "Korath的抓取打击弹是为了将目标拉近Korath的飞船，以防止其逃跑。"
 
 outfit "Korath Banisher"
 	category "Turrets"
@@ -296,7 +296,7 @@ outfit "Korath Banisher"
 		"shield damage" 2.8
 		"hull damage" .9
 		"hit force" 40
-	description "The Korath like to keep their enemies close... but not too close."
+	description "科拉斯人喜欢让他们的敌人靠近......但不能太近。"
 
 outfit "Korath Warder"
 	category "Turrets"
@@ -317,7 +317,7 @@ outfit "Korath Warder"
 		"reload" 5
 		"firing energy" 24
 		"firing heat" 10
-	description "This anti-missile system helps defend Korath warships from long-range attacks."
+	description "这种反导弹系统有助于保护科拉斯战舰免受远程攻击。"
 
 outfit "Korath Fire-Lance"
 	category "Guns"
@@ -342,7 +342,7 @@ outfit "Korath Fire-Lance"
 		"shield damage" 3.5
 		"hull damage" 1.5
 		"heat damage" 12
-	description "The Korath Fire-Lance is a medium-range beam weapon designed to be used by their fighters."
+	description "科拉思火枪是一种中程光束武器，专供他们的战斗机使用。"
 
 outfit "Korath Repeater"
 	category "Guns"
@@ -370,7 +370,7 @@ outfit "Korath Repeater"
 		"shield damage" 26
 		"hull damage" 22
 		"heat damage" 33
-	description "This is the smallest and simplest Korath projectile weapon, designed mostly for use on fighters and drones. As with most Korath technology, it generates a large amount of heat, enough that the gun must pause briefly after every few shots to cool down."
+	description "这是最小和最简单的Korath射弹武器，主要设计用于战斗机和无人机。与大多数Korath技术一样，它产生大量的热量，足以使枪支在每几发子弹后必须短暂停顿以冷却。"
 
 outfit "Korath Repeater Turret"
 	category "Turrets"
@@ -402,7 +402,7 @@ outfit "Korath Repeater Turret"
 		"shield damage" 26
 		"hull damage" 22
 		"heat damage" 33
-	description "Korath repeaters fire compact bolts of superheated plasma at their targets. For every one of these turrets installed on a ship, an auxiliary cooling system is typically required to cope with its heat output."
+	description "科拉斯中继器向其目标发射紧凑的过热等离子体炮弹。对于安装在船上的每一个这样的炮塔，通常需要一个辅助冷却系统来应对其热量输出。"
 
 outfit "Korath Piercer"
 	category "Ammunition"
@@ -410,7 +410,7 @@ outfit "Korath Piercer"
 	thumbnail "outfit/piercer"
 	"mass" .3
 	"piercer capacity" -1
-	description "This missile is fired from a Korath Piercer Launcher."
+	description "这种导弹是由Korath穿刺器发射器发射的。"
 
 outfit "Korath Piercer Rack"
 	category "Ammunition"
@@ -420,7 +420,7 @@ outfit "Korath Piercer Rack"
 	"outfit space" -7
 	"piercer capacity" 16
 	ammo "Korath Piercer"
-	description "The Korath Piercer Rack is used to store extra ammunition for Korath Piercer Launchers."
+	description "Korath穿刺者架是用来储存Korath穿刺者发射器的额外弹药的。"
 
 outfit "Korath Piercer Launcher"
 	category "Secondary Weapons"
@@ -460,7 +460,7 @@ outfit "Korath Piercer Launcher"
 		"hit force" 300
 		"missile strength" 73
 		"stream"
-	description "Korath Piercer Missiles carry a pair of warheads. The first, a smaller one in the very tip of the missile, explodes on impact to blast a hole in the ship's shields to allow some of the subsequent, larger explosion to pierce through."
+	description "Korath穿刺者导弹携带一对弹头。第一枚弹头在导弹的最顶端，在撞击时爆炸，在飞船的护盾上炸出一个洞，以使随后的更大的爆炸能够穿透。"
 
 outfit "Korath Mine"
 	category "Ammunition"
@@ -468,7 +468,7 @@ outfit "Korath Mine"
 	thumbnail "outfit/korath mine"
 	"mass" .7
 	"minelayer capacity" -1
-	description "This is ammunition for a Korath Minelayer. Each mine splits into eleven submunitions after it is deployed."
+	description "这就是Korath布雷艇的弹药。每枚地雷在部署后会分裂成11个子弹药。"
 
 outfit "Korath Mine Rack"
 	category "Ammunition"
@@ -478,7 +478,7 @@ outfit "Korath Mine Rack"
 	"outfit space" -9
 	"minelayer capacity" 9
 	ammo "Korath Mine"
-	description "The Korath Mine Rack is used to store extra ammunition for Korath Minelayers."
+	description "Korath地雷架是用来储存Korath布雷艇的额外弹药的。"
 
 outfit "Korath Minelayer"
 	category "Secondary Weapons"
@@ -517,7 +517,7 @@ outfit "Korath Minelayer"
 		"hull damage" -2400
 		"hit force" -150
 		"stream"
-	description "This launcher fires cluster munitions that split into a cloud of stationary mines that each do a considerable amount of damage if a ship crashes into them. However, if a ship hits the mine before it has a chance to deploy, the damage is considerably reduced."
+	description "这种发射器发射的集束弹药会分裂成一团固定的地雷，如果飞船撞上它们，每颗地雷都会造成相当大的伤害。然而，如果一艘船在地雷有机会展开之前就撞上了它，伤害就会大大减少。"
 
 outfit "Korath Disruptor"
 	category "Turrets"
@@ -545,7 +545,7 @@ outfit "Korath Disruptor"
 		"shield damage" 3.8
 		"hull damage" .5
 		"disruption damage" .24
-	description "Korath Disruptors interfere with a ship's shields, allowing a ship's hull to be damaged even when shields are up. However, they do very little hull damage by themselves."
+	description "科拉斯干扰器会干扰飞船的护盾，使飞船的船体即使在护盾开启的情况下也会被损坏。然而，它们本身对船体的伤害非常小。"
 
 outfit "Korath Slicer"
 	category "Guns"
@@ -570,7 +570,7 @@ outfit "Korath Slicer"
 		"firing heat" 17.8
 		"shield damage" 6.3
 		"hull damage" 16.7
-	description "This massive beam weapon is relatively ineffective against shields, but cuts through hull armor like it's made of paper."
+	description "这种巨大的光束武器对护盾相对无效，但对船体装甲的切割就像纸做的一样。"
 
 outfit "Korath Slicer Turret"
 	category "Turrets"
@@ -599,7 +599,7 @@ outfit "Korath Slicer Turret"
 		"firing heat" 17.8
 		"shield damage" 6.3
 		"hull damage" 16.7
-	description "This turret fires a tightly focused energy beam that is particularly effective against hull armor. When paired with a disruptor turret, it is a deadly combination."
+	description "这种炮塔发射的能量光束紧密集中，对船体装甲特别有效。当与干扰器炮塔配对时，它是一个致命的组合。"
 
 outfit "Korath Repeater Rifle"
 	category "Hand to Hand"
@@ -608,4 +608,4 @@ outfit "Korath Repeater Rifle"
 	"capture attack" 1.6
 	"capture defense" 2.4
 	"unplunderable" 1
-	description "This rifle is commonplace among the Korath, predating the creation of the Repeater by at least two centuries. As it uses superheated plasma instead of lasers, the rifle is slow to fire and can sometimes burn its user's hands if they aren't careful. It makes up for these setbacks by guaranteeing that those hit won't live long enough to fire back."
+	description "这种步枪在Korath人中很常见，比中继器的创造至少早了两个世纪。由于它使用的是过热的等离子体而不是激光，这把步枪的发射速度很慢，如果不小心的话，有时会烧伤使用者的手。它通过保证被击中的人不会活到足够长的时间来回击，来弥补这些缺陷。"
