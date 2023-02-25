@@ -189,7 +189,7 @@ mission "Intro [1 Freighter]"
 	priority
 	name "Delivery to <planet>"
 	description "Travel with your new friend James to <destination>, and deliver <cargo>."
-	blocked `When you meet up with James in the spaceport, he says, "Hi there, <first>! I found you another mission, but it looks like you'll need <capacity> in order to take it on. So, you'll either have to cancel another mission, or come back here later to continue this one. Sorry!"`
+	blocked `当你在太空港与詹姆斯碰面时，他说："你好，<first>! 我给你找到了另一个任务，但看起来你需要<capacity>才能接下它。所以，你要么取消另一个任务，要么以后再来这里继续这个任务。对不起！"`
 	cargo vaccines 48
 	passengers 1
 	source "New Greenland"
@@ -362,7 +362,7 @@ mission "Intro [1 Interceptor]"
 			`The captain of the Horn of Plenty hands you <payment> and thanks you for your escort services. From the expression on his face, you'd guess that he's feeling lucky to still be alive after entrusting the safety of his fleet to a rookie pilot like yourself.`
 			`	After he is gone, James turns to you and says, "Not too bad for your first escort mission. I recognize that look on your face - it's the same one I had after my first job like this back when I was a beginner. If I recall, my first priority after touching down was replacing some of the ship's guns with missile launchers so I'd actually have a chance against pirates. It's a scandal how they sell interceptors with nothing but short-ranged energy weapons these days; trying to use them in combat on such a small ship is practically suicide. Keep your distance with some missiles and you can almost never go wrong. Anyway, I'll stop rambling. If you've still got a hankering for some dangerous missions, come and find me in the spaceport before you leave." He picks up his suitcase and heads outside.`
 			``
-			`	(As before, click the "Spaceport" button to continue this mission. The next mission will involve carrying cargo, so it will only show up if you have all 15 tons of space free.)`
+			`	（和以前一样，点击 "太空港 "按钮，继续这个任务。下一个任务将涉及运载货物，所以只有在你有全部15吨空间的情况下才会显示出来）。`
 
 
 

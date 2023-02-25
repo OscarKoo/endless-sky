@@ -59,7 +59,7 @@ namespace {
 			SpriteShader::Draw(SpriteSet::Get("ui/dialog cancel"), randomPos);
 
 			const Font &font = FontSet::Get(14);
-			static const string label = "Random";
+			static const string label = "随机";
 			Point labelPos = randomPos - .5 * Point(font.Width(label), font.Height());
 			font.Draw(label, labelPos, *GameData::Colors().Get("medium"));
 		}
@@ -263,16 +263,15 @@ void ShipyardPanel::Buy(bool alreadyOwned)
 	modifier = Modifier();
 	string message;
 	if(licenseCost)
-		message = "Note: you will need to pay " + Format::CreditString(licenseCost)
-			+ " for the licenses required to operate this ship, in addition to its cost."
-			" If that is okay with you, go ahead and enter a name for your brand new ";
+		message = "提示: 除其成本外，你将需要为操作这艘船所需的许可证支付 " + Format::CreditString(licenseCost)
+			+ " 。如果你觉得没问题的话，请继续为你的全新的船输入一个名字 ";
 	else
-		message = "Enter a name for your brand new ";
+		message = "为你的全新产品输入一个名称 ";
 
 	if(modifier == 1)
-		message += selectedShip->ModelName() + "! (Or leave it blank to use a randomly chosen name.)";
+		message += selectedShip->ModelName() + "! (或者留空，使用随机选择的名字。)";
 	else
-		message += selectedShip->PluralModelName() + "! (Or leave it blank to use randomly chosen names.)";
+		message += selectedShip->PluralModelName() + "! (或者留空，使用随机选择的名字。)";
 
 	GetUI()->Push(new NameDialog(this, &ShipyardPanel::BuyShip, message));
 }

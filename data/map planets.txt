@@ -2751,10 +2751,10 @@ planet "New Austria"
 planet "New Boston"
 	attributes "dirt belt" farming textiles
 	landscape land/water2
-	description `New Boston is a completely unremarkable world... except, of course, for the fact that you happen to have been born here.`
-	description `	Most of the land is wet and marshy, and the coastal regions are prone to flooding. Some food crops are grown here, but most of the farmers instead plant flax and jute, which grow well in wet soil and are used to make linen and burlap cloth. The textile mills are hot and poorly ventilated, but they offer higher and more reliable income than farming.`
-	spaceport `Someday New Boston may be a prosperous enough planet to afford a better spaceport, but not yet. Many of the concrete landing pads have sunk into the muddy soil over the years since they were poured, and are now tilted and uneven.`
-	spaceport `	The market where ship captains buy and sell cargo is a large tent rather than a permanent building, but it is sturdy enough to keep off the rain. Loads are brought in and out by trucks and the occasional hovercraft. Here some enterprising local mechanics have set up not only a repair shop and outfitter, but also a shipyard with several small, refurbished ships for sale.`
+	description `新波士顿是一个完全不起眼的世界......当然，除了你碰巧出生在这里的事实。`
+	description `	大部分土地是潮湿和沼泽地，沿海地区容易发生洪水。这里种植一些粮食作物，但大多数农民转而种植亚麻和黄麻，它们在潮湿的土壤中生长良好，用来制作亚麻布和麻布。纺织厂很热，而且通风不良，但它们提供了比农业更高和更可靠的收入。`
+	spaceport `有一天，新波士顿可能是一个足够繁荣的星球，能够负担得起一个更好的太空港，但现在还不行。许多混凝土着陆点在浇筑后的几年里已经沉入泥土中，现在已经倾斜，不平整。`
+	spaceport `	船长们买卖货物的市场是一个大帐篷，而不是一个永久性建筑，但它足够坚固，可以挡住雨水。货物由卡车和偶尔的气垫船运入和运出。在这里，一些有进取心的当地机械师不仅建立了一个维修店和装备店，而且还建立了一个船厂，有几艘翻新的小船出售。`
 	shipyard "Basic Ships"
 	outfitter "Basic Outfits"
 	outfitter "Ammo South"

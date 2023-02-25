@@ -12,12 +12,12 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 help "bank"
-	`This is the bank. Here, you can apply for new mortgages, if your income and credit history allows it. The bank is also a good place to get an overview of your daily expenses: mortgage payments, crew salaries, etc.`
-	`Paying off a mortgage early means you pay less interest to the bank, but it is sometimes wiser to instead use your money to buy a bigger ship which can earn you more income.`
+	`这里是银行。在这里，你可以申请新的抵押贷款，如果你的收入和信用记录允许的话。银行也是一个很好的地方，可以了解你的日常开支：按揭付款、船员工资等`
+	`提前偿还抵押贷款意味着你向银行支付更少的利息，但有时更明智的做法是用你的钱去买一艘更大的船，这样可以为你赚取更多收入。`
 
 help "bank advanced"
-	`When entering a credit value at the bank, you can put in an exact number, or use the suffixes K, M, B, and T as shorthand for thousands, millions, billions, and trillions. For example, entering a value such as "100k" would count as 100,000 credits.`
-	`Entering a number that is higher than what you or the bank have available will default to the maximum available value. For example, entering "1m" to pay off a 100,000 credit loan will completely pay off the loan without giving extra, should you have available credits.`
+	`在银行输入信用值时，你可以输入一个准确的数字，或使用后缀K、M、B和T作为千、百万、亿和万亿的缩写。例如，输入 "100k "这样的数值将被视为100,000信贷。`
+	`输入一个高于你或银行可用的数字，将默认为最大可用值。例如，输入 "1m "来偿还100,000信贷贷款，如果你有可用的信贷，将完全偿还贷款，而不给予额外的。`
 
 help "basics 1"
 	`Press <View star map> to bring up your map. Select a destination, then close the map and press <Initiate hyperspace jump> to jump. Press <Land on planet / station> to land.`
@@ -26,17 +26,17 @@ help "basics 2"
 	`For the main menu, press <Show main menu>. The control key bindings can be viewed and changed in the preferences.`
 
 help "dead"
-	`Uh-oh! You just died. The universe can be a dangerous place for new captains!`
-	`Fortunately, your game is automatically saved every time you leave a planet. To load your most recent saved game, press <Show main menu> to return to the main menu, then click on "Load / Save" and "Enter Ship."`
+	`呃--哦! 你刚刚死了。对于新船长来说，宇宙可能是一个危险的地方!`
+	`幸运的是，每次你离开一个星球时，你的游戏都会自动保存。要加载你最近保存的游戏，请按<Show main menu>回到主菜单，然后点击 "存档 "和 "进入飞船"。`
 
 help "disabled"
-	`Your ship just got disabled! Before an enemy ship finishes you off, you should find someone to help you.`
-	`Press <Select next ship> to cycle through all the ships in this system. When you have a friendly one selected, press <Talk to selected ship> to hail it. You can then ask for help, and the ship will come over and patch you up.`
-	`If the ship that disabled you is still hanging around, you might need to hail them first and bribe them to leave you alone.`
+	`你的飞船刚刚被击毁! 在敌人的飞船把你干掉之前，你应该找人帮助你。`
+	`按 <Select next ship> 循环查看这个系统中的所有船只。当你选择了一艘友好的, 按 <Talk to selected ship> 来呼唤它。然后你可以请求帮助，这艘船会过来给你包扎。`
+	`如果使你致残的那艘船还在附近徘徊，你可能需要先呼唤他们，贿赂他们让他们放过你。`
 
 help "hiring"
-	`Hiring extra crew is only helpful if you plan on capturing enemy ships. Each crew member other than yourself is paid 100 credits per day. Larger ships require more than one crew member, but you will automatically hire the minimum number of crew when you buy those ships.`
-	`Crew members take up space that can otherwise be used for passengers.`
+	`雇佣额外的船员只有在你计划夺取敌舰时才有帮助。除自己以外的每个船员每天可获得100信用点。较大的船只需要多于一名船员，但当你购买这些船只时，你会自动雇用最低数量的船员。`
+	`乘务员占用了本可用于乘客的空间。`
 
 help "jobs"
 	`Taking on jobs is a safe way to earn money. Special missions are offered in the Spaceport; more mundane jobs are posted on the Job Board. Most special missions are only offered once: if you turn one down, it will not be offered to you again.`
@@ -71,7 +71,7 @@ help "lost 7"
 	`The inner voice urging you to do something, anything rather than just continuing to drift here, falls silent...`
 
 help "map"
-	`This map shows all the star systems you know about and the hyperspace links between them. You can use the map to plot a hyperspace course by clicking on the system you want to travel to. To initiate a jump to that system, close the map and press <Initiate hyperspace jump>.`
+	`这张地图显示了你所知道的所有星系以及它们之间的超空间联系。你可以通过点击你想去的星系，在地图上绘制一条超空间路线。要启动跳转到该系统，请关闭地图并按<Initiate hyperspace jump>。`
 
 help "map advanced"
 	`As you explore more of the galaxy, the star map will quickly become a very powerful tool. Clicking on a distant system will automatically plot the quickest route to it. You can Shift+click on systems to plot a route between them, or Control+click to select a system without setting a route to it.`

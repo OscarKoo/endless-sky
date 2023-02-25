@@ -100,7 +100,7 @@ string Format::CreditString(int64_t value)
 	if(value == 1)
 		return "1 credit";
 	else
-		return Credits(value) + " credits";
+		return Credits(value) + " 信用点";
 }
 
 
@@ -111,7 +111,7 @@ string Format::MassString(double amount)
 {
 	if(amount == 1)
 		return "1 ton";
-	return Format::Number(amount) + " tons";
+	return Format::Number(amount) + " 吨";
 }
 
 

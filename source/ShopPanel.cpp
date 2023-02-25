@@ -348,7 +348,7 @@ void ShopPanel::DrawButtons()
 	const Point creditsPoint(
 		Screen::Right() - SIDEBAR_WIDTH + 10,
 		Screen::Bottom() - 65);
-	font.Draw("You have:", creditsPoint, dim);
+	font.Draw("你拥有:", creditsPoint, dim);
 
 	const auto credits = Format::CreditString(player.Accounts().Credits());
 	font.Draw({credits, {SIDEBAR_WIDTH - 20, Alignment::RIGHT}}, creditsPoint, bright);
@@ -360,21 +360,21 @@ void ShopPanel::DrawButtons()
 
 	const Point buyCenter = Screen::BottomRight() - Point(210, 25);
 	FillShader::Fill(buyCenter, Point(60, 30), back);
-	string BUY = IsAlreadyOwned() ? (playerShip ? "_Install" : "_Cargo") : "_Buy";
+	string BUY = IsAlreadyOwned() ? (playerShip ? "_Install" : "_Cargo") : "购买";
 	bigFont.Draw(BUY,
 		buyCenter - .5 * Point(bigFont.Width(BUY), bigFont.Height()),
 		CanBuy() ? hoverButton == 'b' ? hover : active : inactive);
 
 	const Point sellCenter = Screen::BottomRight() - Point(130, 25);
 	FillShader::Fill(sellCenter, Point(60, 30), back);
-	static const string SELL = "_Sell";
+	static const string SELL = "出售";
 	bigFont.Draw(SELL,
 		sellCenter - .5 * Point(bigFont.Width(SELL), bigFont.Height()),
 		CanSell() ? hoverButton == 's' ? hover : active : inactive);
 
 	const Point leaveCenter = Screen::BottomRight() - Point(45, 25);
 	FillShader::Fill(leaveCenter, Point(70, 30), back);
-	static const string LEAVE = "_Leave";
+	static const string LEAVE = "离开";
 	bigFont.Draw(LEAVE,
 		leaveCenter - .5 * Point(bigFont.Width(LEAVE), bigFont.Height()),
 		hoverButton == 'l' ? hover : active);

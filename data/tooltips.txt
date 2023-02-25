@@ -87,7 +87,7 @@ tip "cargo scan efficiency:"
 	`The maximum speed of this cargo scanner is proportional to the square root of this value. The observed scan speed will be impacted by multiple factors. Targets which are farther away or have a larger cargo hold will take longer to scan.`
 
 tip "cargo:"
-	`Cargo this ship is carrying right now, out of its maximum.`
+	`这艘船现在装载的货物，超出了它的最大限度。`
 
 tip "cargo space:"
 	`How much cargo (commodities, mission cargo, and plundered outfits) this ship can carry.`

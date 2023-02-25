@@ -95,7 +95,7 @@ int Font :: DrawWrap ( const string & str , double x , double y , const Color & 
 //		}
 	ImVec2 text_size = ImGui::CalcTextSize(text , text + str . length ( ), false, wrap_width);
 	ImGui :: GetForegroundDrawList ( ) -> AddText ( NULL , 0.0f ,
-		ImVec2 ( x , y ) , ImColor ( c [ 0 ]   , c [ 1 ]   , c [ 2 ]   , 1.0f ) ,
+		ImVec2 ( x , y ) , ImColor ( c [ 0 ]   , c [ 1 ]   , c [ 2 ]  ) ,
 		text , text + str . length ( ) , wrap_width , NULL ) ;
 	ImGui :: Render ( ) ;
 	myimgui_render();

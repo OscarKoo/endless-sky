@@ -134,7 +134,7 @@ outfit "Neodymium"
 	"mass" 1
 	"installable" -1
 	"minable" 1
-	description "One of the most abundant of the rare earth elements, neodymium is used to make strongly magnetic alloys for use in engines and generators."
+	description "钕是最丰富的稀土元素之一，用于制造发动机和发电机中使用的强磁性合金。"
 
 
 minable "platinum"

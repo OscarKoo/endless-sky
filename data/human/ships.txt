@@ -3447,8 +3447,8 @@ ship "Sparrow"
 	leak "flame" 60 80
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "Classified as an interceptor rather than a fighter because it has its own hyperdrive instead of needing to be carried inside a larger ship, the Tarazed Sparrow is the smallest and cheapest combat ship available. Because of its limited cargo and passenger space, the primary way for a Sparrow pilot to pay the bills is to upgrade the weapons and hunt pirates... or become one. In either case, it is a perilous way to earn a living."
-	description "	Government reports indicate that as many as two out of every three first-time ship buyers who choose to pilot a Sparrow lose their ship (and often, their life as well) within the first month of owning it. Pilots who have survived longer than that tend to swear by replacing the stock weapons with missile launchers."
+	description "塔拉兹德麻雀被归类为拦截舰而不是战斗机，因为它有自己的超级驱动器，而不需要被装在更大的飞船里，它是目前最小和最便宜的战斗舰。由于其有限的货物和乘客空间，麻雀号飞行员支付账单的主要方式是升级武器和狩猎海盗......或者成为海盗。无论是哪种情况，这都是一种危险的谋生方式。"
+	description "	政府报告显示，每三个首次购买麻雀号的人中就有两个人在拥有麻雀号的第一个月内失去了他们的船（往往也是他们的生命）。活得比这更久的飞行员往往会发誓用导弹发射器来替换库存武器。"
 
 
 
@@ -3550,8 +3550,8 @@ ship "Star Barge"
 	leak "leak" 60 50
 	explode "tiny explosion" 10
 	explode "small explosion" 10
-	description "The Syndicate CT-50 Star Barge is little more than a cluster of cargo containers with an engine at one end and a cockpit on the other. It is a slow and ugly ship, but it can carry enough cargo to earn its captain a steady income even in parts of the galaxy where it is hard to find passengers to carry or courier missions."
-	description "	Because they often carry valuable cargo, and because they are too slow to evade any attackers, Star Barges are a common target of pirates."
+	description "辛迪加CT-50星际驳船只不过是一簇货物集装箱，一端是发动机，另一端是驾驶舱。它是一艘缓慢而丑陋的船，但它可以携带足够的货物，即使在银河系中很难找到乘客运送或快递任务的地方，也能为其船长赢得稳定的收入。"
+	description "	由于它们经常携带有价值的货物，并且由于它们的速度太慢，无法躲避任何攻击者，所以星际驳船是海盗的常见目标。"
 
 
 
