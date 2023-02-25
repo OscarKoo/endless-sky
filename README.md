@@ -17,8 +17,8 @@ Endless Sky is a free, open source game. The [source code](https://github.com/en
 
 下一个也许是汉化，有前人做了少量的工作。首先我要玩一下是否好玩。只有对自己来说好玩的游戏才会去汉化的。
 
-## 2 引擎汉化
-汉化的文本量还是比较大的。我没有全做。只演示了一下。个别地方还需要微调。
+## 2 引擎汉化 + 优质机器翻译，覆盖率90%以上，翻译英文字母 3,700,000+
+个别地方还需要微调。
 
 ![ss1](screenshot/lehmeisb_s.webp)
 ![ss2](screenshot/lehmemyn_s.webp)
