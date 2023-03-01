@@ -20,6 +20,12 @@ Endless Sky is a free, open source game. The [source code](https://github.com/en
 ## 2 引擎汉化 + 优质机器翻译，覆盖率90%以上，翻译英文字母 3,700,000+
 个别地方还需要微调。
 
+### 关于汉化
+- 文本量很大，数量级到达几百万字。有文学型的剧情设定和华丽的词汇。
+- 汉化直接发生在.txt数据文件。也有少量在hardcoding的代码。
+- 原引擎不支持中文的字体显示和排版。本分支已对应修改。
+
+
 ![ss1](screenshot/lehmeisb_s.webp)
 ![ss2](screenshot/lehmemyn_s.webp)
 ![ss3](screenshot/lei3f8ck.webp)
