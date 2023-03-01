@@ -97,7 +97,6 @@ int Font :: DrawWrap ( const string & str , double x , double y , const Color & 
 	ImGui :: GetForegroundDrawList ( ) -> AddText ( NULL , 0.0f ,
 		ImVec2 ( x , y ) , ImColor ( c [ 0 ]   , c [ 1 ]   , c [ 2 ]  ) ,
 		text , text + str . length ( ) , wrap_width , NULL ) ;
-	ImGui :: Render ( ) ;
 	myimgui_render();
 	ImGui :: NewFrame ( ) ;
 //	myimgui_framestart();
